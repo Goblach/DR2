@@ -1,0 +1,47 @@
+﻿division_template = {
+    name = "Стрелковая дивизия"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Горнопехотная дивизия"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+	#Royal Afghani Army
+	division = {
+		name = "1-я Стрелковая дивизия"
+		location = 12320
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2-я Стрелковая дивизия"
+		location = 12320
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "1-я Горнопехотная дивизия"
+		location = 12320
+		division_template = "Горнопехотная дивизия"
+		start_experience_factor = 0.3
+	}
+}
+

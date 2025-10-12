@@ -1,0 +1,1255 @@
+add_namespace = mordor
+
+country_event = { #Предыстория_Мордора
+
+	id = mordor.0 
+        title = mordor.0.t
+        desc = mordor.0.d
+	picture = GFX_report_event_dkr_sauron_smeshnyavka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.0.a
+	}
+}
+country_event = { #Идеи_Саурона
+
+	id = mordor.1
+        title = mordor.1.t
+        desc = mordor.1.d
+	picture = GFX_report_event_dkr_oko_saurona
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.1.a
+	}
+}
+country_event = { #Идеи_Сарумяна
+
+	id = mordor.2
+        title = mordor.2.t
+        desc = mordor.2.d
+	picture = GFX_report_event_dkr_sarumyan
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.2.a
+		hidden_effect = {
+			add_to_variable = { MRD_production_factory_start_efficiency_factor = 0.1 }
+			add_to_variable = { MRD_production_lack_of_resource_penalty_factor = 0.25 }
+			add_to_variable = { MRD_industrial_capacity_factory = 0.5 }
+		}
+		custom_effect_tooltip = MRD_1_production_factory_start_efficiency_factor_tt
+		custom_effect_tooltip = MRD_2_production_lack_of_resource_penalty_factor_tt
+		custom_effect_tooltip = MRD_3_industrial_capacity_factory_tt
+	}
+}
+country_event = { #Начинаем_с_дачников
+
+	id = mordor.3
+        title = mordor.3.t
+        desc = mordor.3.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		add_manpower = 5000
+		name = mordor.3.a
+		add_timed_idea = {
+			idea = MRD_idea_pogranconflict
+			days = 25
+		}
+		POK = {
+			add_timed_idea = {		
+				idea = MRD_idea_pogranconflict
+				days = 25
+			}			
+		}
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 516
+				num_provinces = 3
+				on_win = mordor.4
+       			on_lose = mordor.5
+			}
+			defender = {
+				state = 576
+				num_provinces = 3
+				on_win = mordor.6
+       			on_lose = mordor.7
+			}
+		}
+		POK = { country_event = mordor.11 }
+	}
+	option = {
+		name = mordor.3.b
+	}
+}
+country_event = { #Победа_Мордовии_Саурон
+
+	id = mordor.4
+        title = mordor.4.t
+        desc = mordor.4.d
+	picture = GFX_report_event_dkr_sarumyan_s_avtomatom
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.4.a
+		custom_effect_tooltip = MRD_uspeshniy_reid_tt
+		hidden_effect = {
+			add_to_variable = { MRD_monthly_population = 0.05 }
+			add_to_variable = { MRD_weekly_manpower = 50 }
+		}
+		custom_effect_tooltip = MRD_1_monthly_population_tt
+		custom_effect_tooltip = MRD_1_weekly_manpower_tt
+		set_country_flag = MRD_uspeshniy_reid_country_flag
+		set_country_flag = MRD_uspeshniy_reid_country_flag_1
+		set_country_flag = MRD_uspeshniy_reid_country_flag_2
+		set_country_flag = MRD_uspeshniy_reid_country_flag_3
+	}
+}
+country_event = { #Победа_Покаянии_Саурон
+
+	id = mordor.5
+        title = mordor.5.t
+        desc = mordor.5.d
+	picture = GFX_report_event_dkr_sarumyan_s_avtomatom
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.5.a
+	}
+}
+country_event = { #Победа_Покаянии_Покаян
+
+	id = mordor.6
+        title = mordor.6.t
+        desc = mordor.6.d
+	picture = GFX_report_event_dkr_sarumyan_s_avtomatom
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.6.a
+		
+	}
+}
+country_event = { #Победа_Мордовии_Покаян
+
+	id = mordor.7
+        title = mordor.7.t
+        desc = mordor.7.d
+	picture = GFX_report_event_dkr_sarumyan_s_avtomatom
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.7.a
+	}
+}
+country_event = { #Проблема_назгулов
+
+	id = mordor.8
+        title = mordor.8.t
+        desc = mordor.8.d
+	picture = GFX_report_event_dkr_sauron_best_boss
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.8.a
+		recruit_character = MRD_korol_charodey
+		country_event = {
+			id = mordor.10
+			days = 45
+		}
+		create_operative_leader = {
+			name = "Король-чародей Ангмара"
+			GFX = "gfx/leaders/MRD/king_charodey.dds"
+			traits = { operative_commando operative_infiltrator }
+			bypass_recruitment = no
+			available_to_spy_master = no
+			nationalities = { MRD LAZ POK }
+		}
+	}
+}
+country_event = { #Первый_блин
+
+	id = mordor.9
+        title = mordor.9.t
+        desc = mordor.9.d
+	picture = GFX_report_event_dkr_urki
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.9.a
+		hidden_effect = {
+			add_to_variable = { MRD_conscription_factor = 0.25 }
+			add_to_variable = { MRD_offensive_war_stability_factor = 0.10 }
+			add_to_variable = { MRD_weekly_manpower = -5 }
+		}
+		custom_effect_tooltip = MRD_3_conscription_factor_tt
+		custom_effect_tooltip = MRD_2_offensive_war_stability_factor_tt
+		custom_effect_tooltip = MRD_1_h_weekly_manpower_tt
+	}
+}
+country_event = { #Пендальфа_завербовали
+
+	id = mordor.10
+        title = mordor.10.t
+        desc = mordor.10.d
+	picture = GFX_report_event_dkr_pendalf_s_trubkoi
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.10.a
+		recruit_character = MRD_pendalf
+	}
+}
+country_event = { #Оповещение_о_погранконфликте_для_Покаянии
+
+	id = mordor.11
+        title = mordor.11.t
+        desc = mordor.11.d
+	picture = GFX_report_event_dkr_sarumyan_s_avtomatom
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.11.a
+	}
+}
+country_event = { #Финальные_приготовления
+
+	id = mordor.12
+	title = mordor.12.t
+	desc = mordor.12.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.12.a
+		custom_effect_tooltip = MRD_urki_battalions_spawn_tt
+		custom_effect_tooltip = MRD_3_mordor_army_attack_factor_tt
+		custom_effect_tooltip = MRD_3_mordor_army_land_night_attack_tt
+		custom_effect_tooltip = MRD_3_acclimatization_cold_climate_gain_factor_tt
+		hidden_effect = {
+			add_to_variable = { MRD_mordor_army_attack_factor = 0.2 }
+			add_to_variable = { MRD_mordor_army_land_night_attack = 0.2 }
+			add_to_variable = { MRD_acclimatization_cold_climate_gain_factor = 0.2 }
+			division_template = {
+				name = "Urukhai"
+				is_locked = yes
+				division_cap = 18
+				template_counter = 35
+				regiments = {
+					urki_assault_battalion = { x = 0 y = 0 }
+					urki_assault_battalion = { x = 0 y = 1 }
+					urki_assault_battalion = { x = 0 y = 2 }
+					urki_assault_battalion = { x = 1 y = 0 }
+					urki_assault_battalion = { x = 1 y = 1 }
+					urki_assault_battalion = { x = 1 y = 2 }
+					urki_assault_battalion = { x = 2 y = 0 }
+					urki_assault_battalion = { x = 2 y = 1 }
+					urki_assault_battalion = { x = 2 y = 2 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+				}
+			}
+			MRD_spawn_urki_divisions_effect = yes
+		}
+	}
+}
+country_event = { #Оповещение_о_развале_Покаянии
+
+	id = mordor.13
+        title = mordor.13.t
+        desc = mordor.13.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.13.a
+		set_country_flag = MRD_podgotovka_k_interventsii_country_flag
+	}
+}
+country_event = { #Интервенция_в_гражданскую_войну
+
+	id = mordor.14
+        title = mordor.14.t
+        desc = mordor.14.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.14.a
+		set_global_flag = POK_GV_v_pok
+		complete_national_focus = MRD_poneslas_mocha_po_trubam
+		clr_country_flag = MRD_podgotovka_k_interventsii_country_flag
+		news_event = dk_news.27
+		declare_war_on = {
+			target = POK
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = MGN
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = OMS
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GAL
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = YSK
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = ZNS
+			type = annex_everything
+		}
+	}
+}
+country_event = { #На_случай_если_война_затягивается
+
+	id = mordor.15
+        title = mordor.15.t
+        desc = mordor.15.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	fire_only_once = yes
+	
+	trigger = {
+	    tag = MRD
+		MRD = {
+			has_war = yes
+		}
+		has_completed_focus = MRD_seite_razumnoye_dobroye_vechnoye
+		NOT = { 
+			has_completed_focus = MRD_perdviy_platsdarm_vzyat
+			has_idea = MRD_idea_posledniy_ryvok
+		}
+	}
+	
+	option = {
+		name = mordor.15.a
+		hidden_effect = {
+			add_to_variable = { MRD_mordor_army_attack_factor = -0.15 }
+			add_to_variable = { MRD_mordor_army_defence_factor = -0.15 }
+			add_to_variable = { MRD_mordor_army_org_regain = -0.15 }
+			add_to_variable = { MRD_mordor_army_org_factor = -0.15 }		
+		}
+		custom_effect_tooltip = MRD_3_h_mordor_army_attack_factor_tt
+		custom_effect_tooltip = MRD_3_h_mordor_army_defence_factor_tt
+		custom_effect_tooltip = MRD_3_h_mordor_army_org_regain_tt
+		custom_effect_tooltip = MRD_3_h_army_org_factor_tt
+	}
+}
+country_event = { #Победа_в_гражданской_войне
+
+	id = mordor.16
+        title = mordor.16.t
+        desc = mordor.16.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.16.a
+		remove_ideas = POK_idea_GV
+		hidden_effect = {
+			remove_dynamic_modifier = { modifier =  MRD_poddaniy_dynamic_modifier }
+			add_dynamic_modifier = { modifier = MRD_totalitarism_dynamic_modifier }
+			remove_dynamic_modifier = { modifier = MRD_sever_dynamic_modifier }
+			add_dynamic_modifier = { modifier = MRD_arbeiten_dynamic_modifier }
+			remove_dynamic_modifier = { modifier = MRD_legacy_of_army_dynamic_modifier }
+			add_dynamic_modifier = { modifier = MRD_mordor_army_dynamic_modifier }
+			add_to_variable = { MRD_local_resources_factor = -0.15 }
+			add_to_variable = { MRD_global_building_slots_factor = -0.15 }
+			add_to_variable = { MRD_line_change_production_efficiency_factor = -0.20 }
+			add_to_variable = { MRD_production_speed_buildings_factor = -0.15 }
+			add_to_variable = { MRD_production_factory_max_efficiency_factor = -0.15 }
+			add_to_variable = { MRD_production_factory_efficiency_gain_factor = -0.15 }
+			add_to_variable = { MRD_production_factory_start_efficiency_factor = -0.15 }
+			add_to_variable = { MRD_conversion_cost_civ_to_mil_factor = -0.10 }
+			add_to_variable = { MRD_conversion_cost_mil_to_civ_factor = 0.10 }
+			add_to_variable = { MRD_industrial_capacity_dockyard = -0.50 }
+			add_to_variable = { MRD_industrial_capacity_factory = -0.15 }
+			add_to_variable = { MRD_production_oil_factor = -0.10 }
+			add_to_variable = { MRD_production_lack_of_resource_penalty_factor = 0.3 }
+			add_to_variable = { MRD_acclimatization_cold_climate_gain_factor = -0.20 }
+			set_variable = { MRD_encryption_factor = 0 }
+		}
+		custom_effect_tooltip = MRD_pobeda_tt
+		add_research_slot = 1
+		custom_effect_tooltip = MRD_2_h_local_resources_factor_tt
+		custom_effect_tooltip = MRD_2_h_global_building_slots_factor_tt
+		custom_effect_tooltip = MRD_3_h_line_change_production_efficiency_factor_tt
+		custom_effect_tooltip = MRD_2_h_production_speed_buildings_factor_tt
+		custom_effect_tooltip = MRD_2_h_production_factory_max_efficiency_factor_tt
+		custom_effect_tooltip = MRD_2_h_production_factory_efficiency_gain_factor_tt
+		custom_effect_tooltip = MRD_2_h_production_factory_start_efficiency_factor_tt
+		custom_effect_tooltip = MRD_2_h_conversion_cost_civ_to_mil_factor_tt
+		custom_effect_tooltip = MRD_2_h_conversion_cost_mil_to_civ_factor_tt
+		custom_effect_tooltip = MRD_3_h_industrial_capacity_dockyard_tt
+		custom_effect_tooltip = MRD_2_h_industrial_capacity_factory_tt
+		custom_effect_tooltip = MRD_2_h_production_oil_factor_tt
+		custom_effect_tooltip = MRD_2_h_production_lack_of_resource_penalty_factor_tt
+		custom_effect_tooltip = MRD_2_h_acclimatization_cold_climate_gain_factor_tt
+		add_ideas = {
+			civilian_economy
+			limited_conscription
+			closed_economy
+		}
+		add_timed_idea = {
+			idea = MRD_idea_vosstanovleniye_posle_GV
+			days = 360
+		}
+	}
+}
+
+country_event = {	###Состояние_дел_в_армии
+
+	id = mordor.17
+        title = mordor.17.t
+        desc = mordor.17.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.17.a
+	}
+}
+
+country_event = {	###Тёмные_дела_Саурона
+
+	id = mordor.18
+        title = mordor.18.t
+        desc = mordor.18.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.18.a
+	}
+}
+
+country_event = {	###Проект_Гриб_Саурона_вводная
+
+	id = mordor.19
+        title = mordor.19.t
+        desc = mordor.19.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.19.a
+	}
+}
+
+country_event = {	###Проект_Гриб_Саурона_приглашение
+
+	id = mordor.20
+        title = mordor.20.t
+        desc = mordor.20.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.20.a
+		MRD = {
+			country_event = mordor.21
+		}
+	}
+}
+
+country_event = {	###Проект_Гриб_Саурона_положительный_ответ_на_приглашение
+
+	id = mordor.21
+        title = mordor.21.t
+        desc = mordor.21.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.21.a
+		set_country_flag = MRD_bomba_po_tihomu_budet_cf
+	}
+}
+
+country_event = {	###Проект_Гриб_Саурона_отрицательный_ответ_на_приглашение
+
+	id = mordor.22
+        title = mordor.22.t
+        desc = mordor.22.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.22.a
+	}
+	
+	option = {
+		name = mordor.22.b
+	}
+}
+
+country_event = {	###Положительный_исход
+
+	id = mordor.23
+        title = mordor.23.t
+        desc = mordor.23.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.23.a
+		news_event = dk_news.61
+		set_technology = {
+			nukes = 1
+		}
+	}
+}
+
+#country_event = {	###Не_совсем_положительный_исход(НЕ_РАБОТАЕТ_КАК_ЗАДУМЫВАЛОСЬ)
+#
+#	id = mordor.24
+#       title = mordor.24.t
+#        desc = mordor.24.d
+#	picture = GFX_report_event_dkr_sauron_hvatka
+#
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = mordor.24.a
+#		news_event = dk_news.62
+#		every_neighbor_country = {
+#			limit = {
+#				
+#			}
+#			country_event = mordor.25 
+#		}
+#	}
+#}
+
+#country_event = {	###Входящий_оповещающий_ивент_об_испытаниях_ЯО(НЕ_РАБОТАЕТ)
+#
+#	id = mordor.25
+#       title = mordor.25.t
+#        desc = mordor.25.d
+#	picture = GFX_report_event_dkr_sauron_hvatka
+#
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = mordor.25.a
+#		declare_war_on = {
+#			target = MRD
+#			type = annex_everything
+#		}
+#	}
+#}
+
+country_event = {	###Финансовые_источники
+
+	id = mordor.26
+        title = mordor.26.t
+        desc = mordor.26.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.26.a
+	}
+}
+
+country_event = {	###Суть_экономических_приколов
+
+	id = mordor.27
+        title = mordor.27.t
+        desc = mordor.27.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.27.a
+	}
+}
+
+country_event = {	###Письмо_мордора_о_поддержке_и_идеологических_диверсиях
+
+	id = mordor.28
+        title = mordor.28.t
+        desc = mordor.28.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.28.a
+		every_other_country = {
+			country_event = mordor.29
+		}
+	}
+}
+
+country_event = {	###Идеологическая_диверсия
+
+	id = mordor.29
+        title = mordor.29.t
+        desc = mordor.29.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.29.a
+		add_stability = -0.1
+		add_war_support = -0.1
+	}
+	option = {
+		name = mordor.29.b
+		add_stability = -0.1
+		add_war_support = -0.1
+	}
+}
+
+country_event = {	###Вводная_по_мегакольцу
+
+	id = mordor.30
+        title = mordor.30.t
+        desc = mordor.30.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.30.a
+		custom_effect_tooltip = DR_la_tranzistor_dlc_tt
+	}
+}
+
+country_event = {	###Вводная_по_раздаче_колец
+
+	id = mordor.31
+        title = mordor.31.t
+        desc = mordor.31.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.31.a
+	}
+}
+
+country_event = {	###Саурон_предлагает_сыграть_в_игру
+
+	id = mordor.32
+        title = mordor.32.t
+        desc = mordor.32.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.32.a
+		add_ideas = MRD_LAZ_diversiya
+		MRD = {
+			country_event = mordor.33
+		}
+	}
+	option = {
+		name = mordor.32.b
+		add_ideas = MRD_LAZ_diversiya
+	}
+}
+country_event = {	###Лазарет_начинает_ответную_игру
+
+	id = mordor.33
+        title = mordor.33.t
+        desc = mordor.33.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.33.a
+		LAZ = { country_event = mordor.34 }
+	}
+	option = {
+		name = mordor.33.b
+		LAZ = { country_event = mordor.35 }
+	}
+	option = {
+		name = mordor.33.c
+		LAZ = { country_event = mordor.36 }
+	}
+}
+country_event = {	###Саурон_будет_воевать
+
+	id = mordor.34
+        title = mordor.34.t
+        desc = mordor.34.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.34.a
+		declare_war_on = {
+			target = MRD
+			type = annex_everything
+		}
+	}
+}
+country_event = {	###Саурон_уклоняется
+
+	id = mordor.35
+        title = mordor.35.t
+        desc = mordor.35.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.35.a
+		remove_ideas = MRD_LAZ_diversiya
+	}
+}
+country_event = {	###Саурон_соглашается
+
+	id = mordor.36
+        title = mordor.36.t
+        desc = mordor.36.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.36.a
+		remove_ideas = MRD_LAZ_diversiya
+		puppet = {
+			target = MRD
+			end_wars = no
+		}
+	}
+}
+country_event = {	###Почему_мы_ищем_Равшана_1
+
+	id = mordor.37
+        title = mordor.37.t
+        desc = mordor.37.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.37.a
+		TAJ = {
+			country_event = {
+				id = mordor.38
+				days = 10
+				random_hours = 12
+			}
+		}
+	}
+}
+country_event = {	###Эсэсовцы_едут_к_Равшану_1
+
+	id = mordor.38
+        title = mordor.38.t
+        desc = mordor.38.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.38.a
+		MRD = {
+			country_event = {
+				id = mordor.39
+				days = 10
+				random_hours = 12
+			}
+		}
+	}
+}
+country_event = {	###Итоги_разборок_с_Равшаном_1
+
+	id = mordor.39
+        title = mordor.39.t
+        desc = mordor.39.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.39.a
+		set_country_flag = MRD_poisk_koltsa_1
+	}
+}
+country_event = {	###Почему_мы_ищем_Шевцова
+
+	id = mordor.40
+        title = mordor.40.t
+        desc = mordor.40.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.40.a
+		BAV = {
+			country_event = {
+				id = mordor.41
+				days = 10
+				random_hours = 12
+			}
+		}
+	}
+}
+country_event = {	###Эсэсовцы_едут_к_Шевцову
+
+	id = mordor.41
+        title = mordor.41.t
+        desc = mordor.41.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.41.a
+		MRD = {
+			country_event = {
+				id = mordor.42
+				days = 10
+				random_hours = 12
+			}
+		}
+	}
+}
+country_event = {	###Итоги_разборок_с_Шевцовым
+
+	id = mordor.42
+        title = mordor.42.t
+        desc = mordor.42.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.42.a
+		set_country_flag = MRD_poisk_koltsa_2
+	}
+}
+country_event = {	###Почему_мы_ищем_Ценина
+
+	id = mordor.43
+        title = mordor.43.t
+        desc = mordor.43.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.43.a
+		SKT = {
+			country_event = {
+				id = mordor.44
+				days = 10
+				random_hours = 12
+			}
+		}
+	}
+}
+country_event = {	###Эсэсовцы_едут_к_Ценину
+
+	id = mordor.44
+        title = mordor.44.t
+        desc = mordor.44.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.44.a
+		MRD = {
+			country_event = {
+				id = mordor.45
+				days = 10
+				random_hours = 12
+			}
+		}
+	}
+}
+country_event = {	###Итоги_разборок_с_Цениным
+
+	id = mordor.45
+        title = mordor.45.t
+        desc = mordor.45.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.45.a
+		set_country_flag = MRD_poisk_koltsa_3
+	}
+}
+country_event = {	###Почему_мы_ищем_Бубуея
+
+	id = mordor.46
+        title = mordor.46.t
+        desc = mordor.46.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.46.a
+		BSH = {
+			country_event = {
+				id = mordor.47
+				days = 10
+				random_hours = 12
+			}
+		}
+	}
+}
+country_event = {	###Эсэсовцы_едут_к_Бебею
+
+	id = mordor.47
+        title = mordor.47.t
+        desc = mordor.47.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.47.a
+		MRD = {
+			country_event = {
+				id = mordor.48
+				days = 10
+				random_hours = 12
+			}
+		}
+	}
+}
+country_event = {	###Итоги_разборок_с_Бабаем
+
+	id = mordor.48
+        title = mordor.48.t
+        desc = mordor.48.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.48.a
+		set_country_flag = MRD_poisk_koltsa_4
+	}
+}
+country_event = {	###Итоги_расследования-Кольцо_у_Киркорова
+
+	id = mordor.49
+        title = mordor.49.t
+        desc = mordor.49.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.49.a
+	}
+}
+country_event = {	###Киркоров_уходит_в_Мордор_(Болгарский_ивент)
+
+	id = mordor.50
+        title = mordor.50.t
+        desc = mordor.50.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.50.a
+	}
+}
+country_event = {	###Кольцо_у_Саурона
+
+	id = mordor.51
+        title = mordor.51.t
+        desc = mordor.51.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.51.a
+	}
+}
+country_event = {	###Мордор_-_победа
+
+	id = mordor.52
+        title = mordor.52.t
+        desc = mordor.52.d
+	picture = GFX_report_event_dkr_sauron_dovolen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.52.a
+		hidden_effect = {
+			add_to_variable = { MRD_consumer_goods_factor = -0.02 }
+		}
+		custom_effect_tooltip = MRD_2_h_consumer_goods_factor_tt
+	}
+}
+country_event = {	###Мордор_-_поражение
+
+	id = mordor.53
+        title = mordor.53.t
+        desc = mordor.53.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.53.a
+		add_political_power = -50
+	}
+}
+country_event = {	###Мордор_-_ничья
+
+	id = mordor.54
+        title = mordor.54.t
+        desc = mordor.54.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.54.a
+		add_political_power = -25
+	}
+}
+country_event = {	###Обороняющийся_-_победа
+
+	id = mordor.55
+        title = mordor.55.t
+        desc = mordor.55.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.55.a
+		add_political_power = 105
+	}
+}
+country_event = {	###Обороняющийся_-_поражение
+
+	id = mordor.56
+        title = mordor.56.t
+        desc = mordor.56.d
+	picture = GFX_report_event_dkr_sauron_hvatka
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.56.a
+		add_political_power = -25
+		add_stability = -0.05
+		add_war_support = -0.05
+	}
+}
+country_event = {	###Обороняющийся_-_ничья
+
+	id = mordor.57
+        title = mordor.57.t
+        desc = mordor.57.d
+	picture = GFX_report_event_dkr_sauron_dovolen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.57.a
+		add_political_power = -25
+	}
+}
+country_event = {	###Исходящий_ивент_о_рейде
+
+	id = mordor.58
+        title = mordor.58.t
+        desc = mordor.58.d
+	picture = GFX_report_event_dkr_sauron_dovolen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.58.a
+	}
+}
+country_event = {	###Назгул-Чумак
+
+	id = mordor.59
+        title = mordor.59.t
+        desc = mordor.59.d
+	picture = GFX_report_event_dkr_sauron_dovolen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.59.a
+		recruit_character = MRD_nazgul_Abdulpoel
+		OSV = {
+			retire_character = LAZ_Chumak
+		}
+	}
+}
+country_event = {	###Назгул-Орлов
+
+	id = mordor.60
+        title = mordor.60.t
+        desc = mordor.60.d
+	picture = GFX_report_event_dkr_sauron_dovolen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.60.a
+		recruit_character = MRD_nazgul_Aigul
+		MAT = {
+			retire_character = MAT_Orlov
+		}
+	}
+}
+country_event = {	###Назгул-Пистон
+
+	id = mordor.61
+        title = mordor.61.t
+        desc = mordor.61.d
+	picture = GFX_report_event_dkr_sauron_dovolen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.61.a
+		recruit_character = MRD_nazgul_Bibigul
+		MAG = {
+			retire_character = MAG_Piston
+		}
+	}
+}
+country_event = {	###Назгул-Дай-Лама
+
+	id = mordor.62
+        title = mordor.62.t
+        desc = mordor.62.d
+	picture = GFX_report_event_dkr_sauron_dovolen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.62.a
+		recruit_character = MRD_nazgul_Gyulchatay
+		SHM = {
+			retire_character = SHM_Himmler
+		}
+	}
+}
+country_event = {	###Назгул-Роммель
+
+	id = mordor.63
+        title = mordor.63.t
+        desc = mordor.63.d
+	picture = GFX_report_event_dkr_sauron_dovolen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.63.a
+		recruit_character = MRD_nazgul_Nazgul
+		LRG = {
+			retire_character = LRG_Rommel
+		}
+	}
+}
+country_event = {	###Назгул-Карл_Эглессер
+
+	id = mordor.64
+        title = mordor.64.t
+        desc = mordor.64.d
+	picture = GFX_report_event_dkr_sauron_dovolen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.64.a
+		recruit_character = MRD_nazgul_Hamul
+		AUS = {
+			retire_character = AUS_Karl
+		}
+	}
+}
+country_event = {	###Назгул-Мафиозник
+
+	id = mordor.65
+        title = mordor.65.t
+        desc = mordor.65.d
+	picture = GFX_report_event_dkr_sauron_dovolen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.62.a
+		recruit_character = MRD_nazgul_Shmaiser
+		MOL = {
+			kill_country_leader = yes
+		}
+	}
+}
+country_event = {	###Назгул-Томас_Шэлби
+
+	id = mordor.66
+        title = mordor.66.t
+        desc = mordor.66.d
+	picture = GFX_report_event_dkr_sauron_dovolen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.66.a
+		recruit_character = MRD_nazgul_Shredder
+		PBG = {
+			retire_character = PBG_Thomas_Shelby
+		}
+	}
+}

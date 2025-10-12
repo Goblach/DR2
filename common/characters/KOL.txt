@@ -1,0 +1,16 @@
+characters={
+	KOL_dud = {
+		name = "Юрий Дудь"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOL/Kol.jpg"
+			}
+		}
+		country_leader = {
+		    ideology = liberalism
+	        expire = "1999.1.1"
+			traits = { pretindent_na_DV }
+		    id=-1
+	    }
+    }
+}

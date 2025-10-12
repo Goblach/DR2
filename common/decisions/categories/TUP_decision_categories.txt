@@ -1,0 +1,11 @@
+###################
+  ### TUPICHOK ###
+###################
+
+
+TUP_war_Tupichok = {
+	icon = military_operation
+	allowed = {
+		tag = TUP
+	}
+}

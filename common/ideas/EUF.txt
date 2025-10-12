@@ -1,0 +1,14 @@
+ideas = {
+       country = {
+	        EUF_evro_burocraty = {
+
+			picture = Evropeyskaya_byurokratia
+			
+			    modifier = {
+			    political_power_gain = -0.05
+				stability_factor = 0.1
+			    }
+		    }
+	   }
+		
+}

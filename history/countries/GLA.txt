@@ -1,0 +1,49 @@
+capital = 227
+
+oob = GLA_1936
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+    marines	= 1
+	tech_support = 1
+	basic_train = 1
+}
+
+recruit_character = GLA_Traks
+recruit_character = GLA_Prince_Kassad
+recruit_character = GLA_Rodal_Jaziz
+recruit_character = GLA_Mohmar
+
+add_ideas = {
+ ZCH_vroraya_warlord_era
+}
+
+declare_war_on = {
+	target = CNA
+	type = annex_everything
+}
+
+set_popularities = {
+	fascism = 100
+}
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no	
+}
+
+set_convoys = 40
+
+create_country_leader = {
+	name = "Доктор Тракс"
+	desc = POLITICS_THORVALD_STAUNING_DESC
+	picture = Traks.dds
+	expire = 1999.1.1
+	ideology = fascism_ideology
+	traits = { 
+	}
+}

@@ -1,0 +1,49 @@
+capital = 570
+
+oob = 123_1936
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = GAL_pusnoy
+recruit_character = GAL_lukin
+recruit_character = GAL_andrey_kupcov
+recruit_character = GAL_Romanov
+recruit_character = GAL_Manshova
+recruit_character = GAL_Chigur
+recruit_character = GAL_sndk
+recruit_character = GAL_Boyarshinov
+recruit_character = GAL_Deb
+recruit_character = GAL_Savvateev
+recruit_character = GAL_Sokolov
+recruit_character = GAL_Toples
+recruit_character = GAL_Panchin
+recruit_character = GAL_Antonov
+recruit_character = GAL_military_council
+recruit_character = GAL_oso
+recruit_character = GAL_oso_land
+recruit_character = GAL_oso_air
+recruit_character = GAL_oso_nuclear
+
+add_ideas = {
+}
+
+set_popularities = {
+    democratic = 17
+	vmestolev = 8
+	neutrality = 30
+	anarhostalinism = 5
+	metacommy = 20
+	fascism = 20
+}
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no	
+}
+
+set_convoys = 40

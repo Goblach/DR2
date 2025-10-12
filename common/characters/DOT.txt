@@ -1,0 +1,608 @@
+characters={
+	DOT_vovan = {
+		name = "Воваан"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/Vovan.dds"
+				small = "GFX_idea_DOT_vovan"
+			}
+		}
+		country_leader = {
+	        expire = "1999.1.1"
+        	ideology = postironism
+        	traits = { pretindent_na_DV }
+	    }
+
+        corps_commander={
+			traits={ infantry_officer politically_connected }
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}		
+    }
+	DOT_soldatskiy_komitet = {
+		name = "Солдатский комитет"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DOT/Soldatskiy_komitet.dds"
+			}
+		}
+		country_leader = {
+	        expire = "1999.1.1"
+        	ideology = libertanian_chuchhe
+        	traits = { pretindent_na_DV }
+	   }
+    }
+	DOT_batya = {
+		name = "Генерал «Батя» Талалаев"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/Batya.dds"
+				small = "GFX_idea_DOT_batya"
+			}
+		}
+		country_leader = {
+	        expire = "1999.1.1"
+        	ideology = military_administration
+        	traits = { pretindent_na_DV }
+	   }
+	    field_marshal={
+			traits={ infantry_officer harsh_leader  }
+			skill=4
+			attack_skill=3
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_odna_semya
+			}
+		}
+    }
+	DOT_prapor = {
+		name = "Николай «Дикий прапор» Казаков"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/Dikiy_Prapor.dds"
+				small = "GFX_idea_DOT_dikiy_prapor"
+			}
+		}
+
+	    corps_commander={
+			traits={ infantry_officer trait_cautious }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_odna_semya
+			}
+		}
+		
+		advisor = {
+			cost = 100
+			slot = theorist
+			idea_token = DOT_prapor
+			ledger = army
+			allowed = {
+				original_tag = DOT
+			}
+			research_bonus = {
+				nuclear = 0.150
+			}
+			traits = {
+				nuclear_scientist
+			}
+			visible = {
+			has_completed_focus = DOT_odna_semya
+			}
+			available = {
+			has_completed_focus = DOT_odna_semya
+			}
+		}
+    }
+	DOT_voenkom = {
+		name = "Военком"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/Voenkom.dds"
+				small = "GFX_idea_DOT_voenkom"
+			}
+		}
+
+	    corps_commander={
+			traits={ infantry_officer harsh_leader }
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_odna_semya
+			}
+		}
+		
+		advisor = {
+			slot = army_chief
+			idea_token = DOT_voenkom
+			allowed = {
+				original_tag = DOT
+			}
+			traits = {
+				army_chief_drill_1
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+			visible = {
+			has_completed_focus = DOT_odna_semya
+			}
+			available = {
+			has_completed_focus = DOT_odna_semya
+			}
+		}
+    }
+	DOT_general-veteran = {
+		name = "Генерал-ветеран"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/general-veteran.dds"
+				small = "GFX_idea_DOT_general-veteran"
+			}
+		}
+
+	    corps_commander={
+			traits={ old_guard }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_odna_semya
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = DOT_general-veteran
+			allowed = {
+				original_tag = DOT
+			}
+			traits = {
+				army_chief_old_guard
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+			visible = {
+			has_completed_focus = DOT_odna_semya
+			}
+			available = {
+			has_completed_focus = DOT_odna_semya
+			}
+		}
+    }
+	DOT_semenich = {
+		name = "Контр-адмирал Семёныч"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/SOV/Portrait_Soviet_Generic_navy_2.dds"
+			}
+		}
+
+	   navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 0
+			visible = {
+			has_completed_focus = DOT_odna_semya
+			}
+		}
+		
+		
+		advisor = {
+			slot = navy_chief
+			idea_token = DOT_semenich
+			allowed = {
+				original_tag = DOT
+			}
+			traits = {
+				navy_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.200
+			}
+			visible = {
+			has_completed_focus = DOT_odna_semya
+			}
+			available = {
+			has_completed_focus = DOT_odna_semya
+			}
+		}	
+    }
+	DOT_gen_air = {
+		name = "Генерал-лейтенант авиации"
+		portraits = {
+			army = {
+		    	small = "GFX_idea_DOT_gen_air"
+			}
+		}
+		
+			advisor = {	
+			slot = air_chief
+			idea_token = DOT_gen_air
+			allowed = {
+				original_tag = DOT
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			visible = {
+			has_completed_focus = DOT_odna_semya
+			}
+			available = {
+			has_completed_focus = DOT_odna_semya
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+    }
+	DOT_osobist = {
+		name = "Особист"
+		portraits = {
+			army = {
+		    	small = "GFX_idea_DOT_osobist"
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = DOT_osobist
+			allowed = {
+				original_tag = DOT
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				head_of_intelligence 
+			}
+		}
+    }
+	DOT_cheburashka = {
+		name = "Чебурашка-который-ищет-друзей"
+		portraits = {
+			army = {
+		    	small = "GFX_idea_DOT_cheburashka"
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = DOT_cheburashka
+			allowed = {
+				original_tag = DOT
+			}
+			traits = {
+				popular_figurehead 
+			}
+		}
+    }
+	DOT_ploskogubcev = {
+		name = "Старший Сержант Плоскогубцев"
+		portraits = {
+			army = {
+		    	small = "GFX_idea_DOT_ploskogubcev"
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = DOT_ploskogubcev
+			allowed = {
+				original_tag = DOT
+			}
+			traits = {
+				prince_of_terror 
+			}
+			visible = {
+			has_completed_focus = DOT_soldatskaya_massa
+			}
+			available = {
+			has_completed_focus = DOT_soldatskaya_massa
+			}
+		}
+    }
+	DOT_kamenshik = {
+		name = "Каменщик без зарплаты"
+		portraits = {
+			army = {
+		    	small = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = DOT_kamenshik
+			allowed = {
+				original_tag = DOT
+			}
+			modifier = {
+			production_speed_bunker_factor = 0.2
+			production_speed_industrial_complex_factor = 0.1
+			conscription_factor = -0.05
+			stability_factor = -0.1			
+			}
+			visible = {
+			has_completed_focus = DOT_soldatskaya_massa
+			}
+			available = {
+			has_completed_focus = DOT_soldatskaya_massa
+			}
+		}
+    }
+	DOT_bomba = {
+		name = "Бомба"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/Bomba.dds"
+				small = "GFX_idea_DOT_Bomba"
+			}
+		}
+
+        corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_soldatskaya_massa
+			}
+		}		
+    }
+	
+	DOT_shtik = {
+		name = "Штык"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/Shtik.dds"
+				small = "GFX_idea_DOT_shtik"
+			}
+		}
+
+        corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_soldatskaya_massa
+			}
+		}		
+    }
+	
+    DOT_pulya = {
+		name = "Пуля"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/Pulya.dds"
+				small = "GFX_idea_DOT_pulya"
+			}
+		}
+
+        corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_soldatskaya_massa
+			}
+		}		
+    }
+
+    DOT_torontotokyo = {
+		name = "TORONTOTOKYO"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/TORONTOTOKYO.dds"
+				small = "GFX_idea_DOT_TORONTOTOKYO"
+			}
+		}
+
+        corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_ochistit_huntu_ot_rakov
+			}
+		}		
+    }	
+	
+	DOT_gpk = {
+		name = "gpk"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/gpk.dds"
+				small = "GFX_idea_DOT_gpk"
+			}
+		}
+
+        corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_ochistit_huntu_ot_rakov
+			}
+		}
+
+        advisor = {
+			slot = army_chief
+			idea_token = DOT_gpk
+			allowed = {
+				original_tag = DOT
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+			visible = {
+			has_completed_focus = DOT_ochistit_huntu_ot_rakov
+			}
+			available = {
+			has_completed_focus = DOT_ochistit_huntu_ot_rakov
+			}
+		}		
+    }	
+	
+	DOT_illias = {
+		name = "illias"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/illias.dds"
+				small = "GFX_idea_DOT_illias"
+			}
+		}
+
+        corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_ochistit_huntu_ot_rakov
+			}
+		}		
+    }	
+	
+	DOT_Miposhka = {
+		name = "Miposhka"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/Miposhka.dds"
+				small = "GFX_idea_DOT_Miposhka"
+			}
+		}
+
+        corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_ochistit_huntu_ot_rakov
+			}
+		}		
+		
+		  advisor = {
+			slot = high_command
+			idea_token = DOT_Miposhka
+			allowed = {
+				original_tag = DOT
+			}
+			traits = {
+				army_artillery_1
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+			visible = {
+			has_completed_focus = DOT_ochistit_huntu_ot_rakov
+			}
+			available = {
+			has_completed_focus = DOT_ochistit_huntu_ot_rakov
+			}
+		}		
+    }	
+	
+	DOT_DM = {
+		name = "DM виртус"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/DM.dds"
+				small = "GFX_idea_DOT_DM"
+			}
+		}
+
+        corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_ochistit_huntu_ot_rakov
+			}
+		}		
+    }	
+	
+	DOT_Collapse = {
+		name = "Collapse"
+		portraits = {
+			army = {
+		    	large = "gfx/leaders/DOT/Collapse.dds"
+				small = "GFX_idea_DOT_Collapse"
+			}
+		}
+
+        corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+			visible = {
+			has_completed_focus = DOT_ochistit_huntu_ot_rakov
+			}
+		}		
+    }	
+}

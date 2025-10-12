@@ -1,0 +1,278 @@
+characters={
+	ALB_Semen = {
+		name = "Константин Семин"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ALB/Semen.dds"
+			}
+			army = {
+				large = "gfx/leaders/ALB/Semen.dds"
+			}
+		}
+		country_leader = {
+	    expire = "1999.1.1"
+	    ideology = marxismus
+	    traits = { 
+		revolutionary_culture_minister
+	    }
+		id=-1
+	   }
+	   field_marshal={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+    }
+	ALB_kozloigorek = {
+		name = "Совет козлов-геймеров"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ALB/kolzloigori.dds"
+			}
+		}
+		country_leader = {
+	    expire = "1999.1.1"
+	    ideology = libertanian_chuchhe 
+	    traits = { 
+	    }
+		id=-1
+	   }
+    }
+	ALB_shigin = {
+		name = "Андрей Шигин"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ALB_shigin"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ALB_shigin
+			allowed = {
+                original_tag = ALB
+				
+            }
+			available = {
+			    has_government = vmestolev
+			}
+            traits = { revolutionary_poet }
+	    }
+    }
+	ALB_batov = {
+		name = "Александр Батов"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ALB_batov"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ALB_batov
+			allowed = {
+                original_tag = ALB
+				
+            }
+			available = {
+			    has_government = vmestolev
+			}
+            traits = { technocrat }
+	    }
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+    }
+	ALB_bot_palach = {
+		name = "Бот-палач"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ALB_bot_palach"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ALB_bot_palach
+			allowed = {
+                original_tag = ALB
+				
+            }
+			available = {
+			    has_government = vmestolev
+			}
+            traits = { prince_of_terror }
+	    }
+    }
+	ALB_patelis = {
+		name = "Димитрис Пателис"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ALB_patelis"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ALB_patelis
+			allowed = {
+                original_tag = ALB
+				
+            }
+            traits = { marxist_academic }
+	    }
+    }
+	ALB_rauf = {
+		name = "Рауф Фаткуллин"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ALB_rauf"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ALB_rauf
+			allowed = {
+                original_tag = ALB
+				
+            }
+			available = {
+			    has_government = vmestolev
+			}
+            traits = { devoted_marxist }
+	    }
+    }
+	ALB_polyakov = {
+		name = "Иван Поляков"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ALB_polyakov"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ALB_polyakov
+			allowed = {
+                original_tag = ALB
+				
+            }
+			available = {
+			    has_government = vmestolev
+			}
+            traits = { marxist_philosopher }
+	    }
+    }
+	ALB_hose = {
+		name = "Хосе Гонсалес-Лопес"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ALB_hose"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ALB_hose
+			allowed = {
+                original_tag = ALB
+				
+            }
+            traits = { silent_workhorse }
+	    }
+    }
+	ALB_yaroslavsky = {
+		name = "Товарищ Ярославский"
+		portraits = {
+			army = {
+				small = "GFX_idea_ALB_yaroslavsky"
+				large = "gfx/leaders/ALB/Yaroslavsky.dds"
+			}
+		}
+		advisor={ 
+		    slot = army_chief
+			idea_token = ALB_yaroslavsky
+			allowed = {
+                original_tag = ALB
+				
+            }
+			available = {
+			    has_government = vmestolev
+			}
+            traits = { red_army_organizer }
+	    }
+		
+		corps_commander = {
+	    traits = {  }
+	    skill = 2
+	    attack_skill = 2
+	    defense_skill = 2
+	    planning_skill = 2
+	    logistics_skill = 2
+		legacy_id = -1
+		visible = {
+			has_government = vmestolev
+			}
+        }
+    }
+	ALB_Igroman = {
+		name = "Владислав «Красный Игроман» Коршунов"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ALB/Igroman.dds"
+			}
+		}		
+		field_marshal = {
+	        traits = { swamp_fox }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 2
+		    legacy_id = -1
+		    visible = {
+			    has_government = anarhostalinism
+			}
+        }
+    }
+	ALB_Kelesh = {
+		name = "Андрей Келеш"
+		portraits = {
+			army = {
+			    small = "GFX_idea_ALB_Kelesh"
+				large = "gfx/leaders/ALB/Kelesh.dds"
+			}
+			civilian = {
+				small = "GFX_idea_ALB_Kelesh"
+			}
+		}
+        advisor={ 
+		    slot = political_advisor
+			idea_token = ALB_Kelesh
+			allowed = {
+                original_tag = ALB
+				
+            }
+			available = {
+			    has_government = anarhostalinism
+			}
+            traits = { part_org }
+	    }       		
+		corps_commander = {
+	        traits = {  }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 2
+		    legacy_id = -1
+		    visible = {
+			    has_government = anarhostalinism
+			}
+        }
+    }
+}

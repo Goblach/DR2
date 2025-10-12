@@ -1,0 +1,273 @@
+add_namespace = OMS
+
+country_event = {
+    id = OMS.1
+	title = OMS.1.t
+	desc = OMS.1.d
+	picture = GFX_report_event_communists_cheer
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = OMS
+		has_war = no
+		POK = { exists = no }
+		GAL = { exists = no }
+		YSK = { exists = no }
+		ZNS = { exists = no }
+		MGN = { exists = no }
+		MRD = { exists = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	} 
+	
+	option = {
+	name = OMS.1.a
+		ai_chance = { factor = 100 }
+		remove_ideas = POK_idea_GV
+		news_event = dk_news.50
+		OMS = {
+			every_unit_leader = {
+				set_nationality = LIM
+			}
+		}
+		LIM = {
+		    add_state_core = 824
+			add_state_core = 577
+			add_state_core = 516
+			add_state_core = 576
+			add_state_core = 878
+			add_state_core = 575
+			add_state_core = 568
+			add_state_core = 567
+			add_state_core = 329
+			add_state_core = 40
+			add_state_core = 569
+			add_state_core = 654
+			add_state_core = 578
+			add_state_core = 570
+			add_state_core = 572
+			add_state_core = 403
+			add_state_core = 571
+			add_state_core = 573
+			add_state_core = 582
+			add_state_core = 653
+			add_state_core = 580
+			add_state_core = 579
+			annex_country = {
+				target = OMS
+				transfer_troops = yes
+			}
+			change_tag_from = OMS
+		}	
+		
+	}
+	option = {
+	name = OMS.1.b
+		ai_chance = { factor = 0 }
+		set_cosmetic_tag = OMS_nezavisimost
+		set_country_flag = DR_start_reunite_Russia_cf
+		news_event = dk_news.50
+		LIM = {
+			add_opinion_modifier = {
+				target = OMS
+				modifier = TUR_traitors_of_the_revolution
+			}
+		}
+		load_focus_tree = Omsk_main
+		remove_ideas = OMS_radio_omsk 
+		remove_ideas = OMS_radio_omsk_1
+		remove_ideas = OMS_kustarnoe_proizvodstvo
+		remove_ideas = POK_idea_GV
+	}	
+}
+country_event = {
+    id = OMS.2
+	title = OMS.2.t
+	desc = OMS.2.d
+	picture = GFX_report_event_dkr_Letov
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = OMS
+	}
+	
+	
+	option = {
+	name = OMS.2.a
+	add_manpower = -65
+	add_political_power = -150
+	add_stability = -0.1
+	custom_effect_tooltip = OMS_Letov_1_tt
+	}
+}	
+country_event = {
+    id = OMS.3
+	title = OMS.3.t
+	desc = OMS.3.d
+	picture = GFX_report_event_generic_handshake
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = OMS
+	}
+	
+	
+	option = {
+	name = OMS.3.a
+	OMS_Letov = {
+				add_trait = {
+				ideology = religious_communism
+				trait = letov_trait
+				}
+				}
+    add_field_marshal_role = {
+	character = OMS_Elizarov	
+	skill = 1
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+	}
+	add_advisor_role  = {
+			cost = 150
+			slot = army_chief
+			idea_token = OMS_Elizarov
+			traits = {
+				army_chief_defensive_1
+			}
+			visible = { tag = OMS  }
+		}
+set_victory_points = { province = 6226 value = 10 }
+	250 = { add_manpower = 250000 } 
+	}
+}
+country_event = {
+    id = OMS.4
+	title = OMS.4.t
+	desc = OMS.4.d
+	picture = GFX_report_event_communists_cheer
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = OMS
+	}
+	
+	
+	option = {
+	name = OMS.4.a
+	}
+}
+country_event = {
+    id = OMS.5
+	title = OMS.5.t
+	desc = OMS.5.d
+	picture = GFX_report_event_dkr_Letov
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = OMS
+	}
+	
+	
+	option = {
+	name = OMS.5.a
+	}
+}
+country_event = {
+    id = OMS.6
+	title = OMS.6.t
+	desc = OMS.6.d
+	picture = GFX_report_event_dkr_red_flag_under_kremlin
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = OMS
+	}
+	
+	
+	option = {
+	name = OMS.6.a
+			hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Elizarov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }	
+			}
+			retire_character = OMS_Letov
+			add_ideas = OMS_kniga_elizarova
+			country_event = OMS.7
+	}
+	option = {
+	name = OMS.6.b
+		hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}
+			retire_character = OMS_Elizarov
+			add_ideas = OMS_kniga_letova
+	}
+}
+country_event = {
+    id = OMS.7
+	title = OMS.7.t
+	desc = OMS.7.d
+	picture = GFX_report_event_dkr_stachka
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = OMS
+	}
+	
+	option = {
+	name = OMS.7.a
+		ai_chance = { factor = 100 }
+		add_stability = -0.1
+	}
+	option = {
+	name = OMS.7.b
+		ai_chance = { factor = 0 }
+		retire_country_leader = yes
+add_country_leader_role = {
+                        character = OMS_DrobLetov
+                        promote_leader = yes
+                        country_leader = {
+                            ideology = white_polpotism
+							traits = { drobletov_trait }
+                        }
+                    }
+		retire_character = GAL_Drobyshevskiy
+	}
+ }

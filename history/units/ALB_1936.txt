@@ -1,0 +1,90 @@
+﻿division_template = {
+name = "Гарнизон бункеров"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Стрелковая дивизия"				# Militia units (lowest experience, oldest equipment)
+
+	division_names_group = ALB_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Байкеры"				
+
+	regiments = {
+		bicycle_battalion = { x = 0 y = 0 }
+        bicycle_battalion = { x = 0 y = 1 }
+        bicycle_battalion = { x = 1 y = 0 }
+		bicycle_battalion = { x = 1 y = 1 }
+		bicycle_battalion = { x = 2 y = 0 }
+		bicycle_battalion = { x = 2 y = 1 }
+    }	
+    priority = 2
+}
+
+units = {
+	#Royal Afghani Army
+	division = {
+		name = "1-я Гарнизонная дивизия"
+		location = 9914
+		division_template = "Гарнизон бункеров"
+		start_experience_factor = 0.3
+	}
+	
+		division = {
+		name = "2-я Гарнизонная дивизия"
+		location = 9914
+		division_template = "Гарнизон бункеров"
+		start_experience_factor = 0.3
+	}
+	
+		division = {
+		name = "3-я Гарнизонная дивизия"
+		location = 9914
+		division_template = "Гарнизон бункеров"
+		start_experience_factor = 0.3
+	}
+	
+		division = {
+		name = "4-я Гарнизонная дивизия"
+		location = 9914
+		division_template = "Гарнизон бункеров"
+		start_experience_factor = 0.3
+	}
+	
+	    division = {
+		name = "5-я Гарнизонная дивизия"
+		location = 9914
+		division_template = "Гарнизон бункеров"
+		start_experience_factor = 0.3
+	}  
+	
+		division = {
+		name = "1-я байкерская дивизия"
+		location = 9914
+		division_template = "Байкеры"
+		start_experience_factor = 0.3
+	}
+	
+}
+

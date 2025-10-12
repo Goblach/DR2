@@ -1,0 +1,287 @@
+characters={
+    TUP_goblin = {
+		name = "Дмитрий Пучков"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/TUP/Puchkov.dds"
+			}
+		}
+
+        country_leader = {
+			ideology = ortodox_anstal
+			expire = "1999.3.1.1"
+			traits = { dictator }
+			id = -1
+		}	
+	}
+	
+	TUP_dementiy = {
+		name = "Дементий"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_TUP_Dementiy"
+				large = "gfx/leaders/TUP/Dementiy.dds"
+			}
+		}
+
+        country_leader = {
+			ideology = stalinismus
+			expire = "1999.3.1.1"
+			traits = { dictator }
+			id = -1
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = TUP_dementiy
+			allowed = {
+				original_tag = TUP
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				silent_workhorse 
+			}
+		}		
+	}
+	
+	TUP_postebaylo = {
+		name = "Анатолий Постебайло"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_TUP_Anatolyi_Postebailo"
+			}
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = TUP_postebaylo
+			allowed = {
+				original_tag = TUP
+			}
+			traits = {
+				chestniy_ment 
+			}
+		}		
+	}
+
+	TUP_klim_zhukov = {
+		name = "Клим Жуков"
+
+		portraits = {
+		    civilian={
+				large="gfx/leaders/TUP/Klim_Sanich.dds"
+			}
+			army = {
+				small = "GFX_idea_TUP_Klim_Zhukov"
+				large = "gfx/leaders/TUP/zhukov.dds"
+			}
+		}
+
+       corps_commander = {
+	        traits = { brilliant_strategist politically_connected media_personality }
+	        skill = 5	
+	        attack_skill = 1
+	        defense_skill = 4
+	        planning_skill = 4
+	        logistics_skill = 5
+	        legacy_id = 0
+        }
+		
+		 advisor={
+			slot = army_chief
+			idea_token = TUP_klim_zhukov
+			allowed = {
+				original_tag = TUP
+			}
+			traits = {
+				army_chief_offensive_2 
+			}
+		}		
+		
+	}
+	
+	TUP_egor_yakovlev = {
+		name = "Егор Яковлев"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_TUP_yakovlev"
+				large = "gfx/leaders/TUP/yakovlev.dds"
+			}
+		}
+
+        corps_commander = {
+	        traits = { career_officer politically_connected }
+	        skill = 3
+	        attack_skill = 1
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 3
+        }
+		
+	}
+	
+	TUP_boris_yulin = {
+		name = "Борис Юлин"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_TUP_yulin"
+				large = "gfx/leaders/TUP/Ulin.dds"
+			}
+		}
+
+        corps_commander = {
+	        traits = { inflexible_strategist }
+	        skill = 3	
+	        attack_skill = 1
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 3
+        }
+		
+		
+		
+	}
+	
+	TUP_pavel_badirov = {
+		name = "Павел Бадыров"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_TUP_pavel_badirov"
+				large = "gfx/leaders/TUP/Badirov.dds"
+			}
+		}
+
+        corps_commander = {
+	        traits = { media_personality armor_officer panzer_leader }
+	        skill = 2
+	        attack_skill = 3
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+		
+		 advisor={
+			slot = high_command
+			idea_token = TUP_pavel_badirov
+			allowed = {
+				original_tag = TUP
+			}
+			traits = {
+				army_armored_2 
+			}
+		}		
+		
+	}
+	
+	TUP_mihail_lapidus = {
+		name = "Михаил Лапидус"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_TUP_mihail_lapidus"
+				large = "gfx/leaders/TUP/Mihail_Lapidus.dds"
+			}
+		}
+
+        corps_commander = {
+	        traits = { media_personality urban_assault_specialist }
+	        skill = 2
+	        attack_skill = 1
+	        defense_skill = 4
+	        planning_skill = 3
+	        logistics_skill = 3
+        }
+		
+		advisor={ 
+		    slot = political_advisor
+			idea_token = TUP_mihail_lapidus
+			allowed = {
+                original_tag = TUP
+				
+            }
+            traits = { prince_of_terror }
+	    }
+		
+	}
+	
+	TUP_dmitriy_varshipsov = {
+		name = "Дмитрий Варшипсов"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_TUP_varshipsov"
+				large = "gfx/leaders/TUP/shipsov.dds"
+			}
+		}
+
+        navy_leader = {
+            traits = { seawolf }
+         	skill = 2
+        	attack_skill = 1
+        	defense_skill = 2
+	        maneuvering_skill = 2
+        	coordination_skill = 2
+        }
+		
+		advisor={
+			slot = high_command
+			idea_token = TUP_dmitriy_varshipsov
+
+			allowed = {
+				original_tag = TUP
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			traits = {
+				navy_submarine_2 
+			}
+		}
+		
+	}
+	
+	TUP_Admiral = {
+		name = "Адмирал ясен х.й"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_TUP_admiral"
+				large = "gfx/leaders/TUP/Admiral.dds"
+			}
+		}
+
+        navy_leader = {
+            traits = { }
+            skill = 1
+         	attack_skill = 1
+        	defense_skill = 1
+        	maneuvering_skill = 1
+        	coordination_skill = 1
+        }
+		
+		advisor={
+			slot = navy_chief
+			idea_token = TUP_Admiral
+
+			allowed = {
+				original_tag = TUP
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			traits = {
+				navy_chief_commerce_raiding_1 
+			}
+		}
+		
+	}
+}

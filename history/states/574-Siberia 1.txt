@@ -1,0 +1,28 @@
+
+state = {
+	id = 574
+	name = "STATE_574" # Yakutsk
+	manpower = 867833
+	
+	state_category = pastoral
+
+	history={
+		owner = YAK
+		victory_points = {
+			10641 3
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 1
+		}
+		add_core_of = YAK
+		add_claim_by = DOT
+	}
+
+	provinces = {
+		1748 1795 1852 1878 4726 4752 4798 4821 4855 7746 7765 7817 7844 7889 10589 10608 10641 10667 10701 10714 12565 12611 12623 12694 
+	}
+
+	local_supplies = 0.0 
+}

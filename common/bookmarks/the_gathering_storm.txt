@@ -1,0 +1,313 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 3.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "LAZ"
+		default = yes
+		
+		"POK"={
+			history = "POK_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				POK_home_of_the_free
+				POK_Metostazi_sovka
+				POK_Gore_Pobeditelam
+			}
+			focuses = {
+				POK_russkiy_Pinochet
+				POK_pay_and_repent
+				POK_radical_decommunisation
+			}
+		}
+		"KUR"={
+			history = "KUR_GATHERING_STORM_DESC"
+			ideology = metacommy
+			ideas = {
+				KUR_polit_neodnoznach
+				KUR_nedobit_bander
+				KUR_razruha_v_umah	
+			}
+			focuses = {
+
+			}
+		}
+		"NOD"={
+			history = "NOD_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				nod_suverennaya_ter 
+				nod_bez_putina
+			}
+			focuses = {
+				NOD_prodolzhat_poiski
+				NOD_otdel_E
+				NOD_otrayady_Putina
+			}
+		}
+		"CHT"={
+			history = "CHT_GATHERING_STORM_DESC"
+			ideology = memoism
+			ideas = {
+				cht_loksists
+				cht_great_srach
+				cht_shue
+			}
+			focuses = {
+				CHT_vibori
+				CHT_new_order
+				CHT_blue_revolution
+			}
+		}
+		"LAZ"={
+			history = "LAZ_GATHERING_STORM_DESC"
+			ideology = vmestolev
+			ideas = {
+				LAZ_razdutyy_apparat_moderov
+				LAZ_kontra_0
+			}
+			focuses = {
+				LAZ_KNOR_politica
+				LAZ_dvoyniye_drudodni
+				LAZ_KNOR_po_chatu
+			}
+		}
+		"TUP"={
+			history = "TUP_GATHERING_STORM_DESC"
+			ideology = anarhostalinism
+			ideas = {
+				TUP_dikiy_sevzapad
+				TUP_home_of_revolution
+			}
+			focuses = {
+
+			}			
+		}
+		"DOT"={
+			history = "DOT_GATHERING_STORM_DESC"
+			ideology = anarhostalinism
+			ideas = {
+				MAG_war_za_DV
+			}
+			focuses = {
+				DOT_srochnik_lives_matter
+				DOT_ochistit_huntu_ot_rakov
+				DOT_boyevei_psi
+			}			
+		}
+
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors #
+		"ALB"={
+			minor = yes
+			history = "ALB_GATHERING_STORM_DESC"
+			ideology = vmestolev
+			ideas = {
+				
+			}
+			focuses = {
+	     		ALB_goat_hunting
+				ALB_start_the_generators_of_war
+				ALB_kozlorevolutsiya
+			}
+		}
+		"BTS"={
+			minor = yes
+			history = "BTS_GATHERING_STORM_DESC"
+			ideology = anarhostalinism
+			ideas = {
+				BTS_ortodox_sopr
+			}
+			focuses = {
+				BTS_prodolzhit_k_pop_perestroyku
+				BTS_myatezhniki_v_verhah
+				BTS_patiletka
+			}
+		}
+		"KLG"={
+			minor = yes
+			history = "KLG_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				KLG_dom_Sovetov
+			}
+			focuses = {
+				KLG_plohie_vesti
+				KLG_lion_baltika
+				KLG_economoka_voennogo_vremeny
+			}
+		}
+		"SHM"={
+			minor = yes
+			history = "SHM_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				SHM_kurovodstvo
+				SHM_issledovat_dzen_buddim
+				SHM_drevnie_znania
+			}
+		}
+		"ARK"={
+			minor = yes
+			history = "ARK_GATHERING_STORM_DESC"
+			ideology = vmestolev
+			ideas = {
+				ARK_sev_bastion
+				ARK_building_sevflot
+				UNT_neudach_vostoch_pohod
+			}
+			focuses = {
+
+			}
+		}
+		"WHS"={
+			minor = yes
+			history = "WHS_GATHERING_STORM_DESC"
+			ideology = anarhostalinism
+			ideas = {
+				WHS_zapad_bastion
+				WHS_nasledie_VeynshGV
+				UNT_neudach_vostoch_pohod
+			}
+			focuses = {
+
+			}
+		}
+		"UNT"={
+			minor = yes
+			history = "UNT_GATHERING_STORM_DESC"
+			ideology = vmestolev
+			ideas = {
+				UNT_YgVostok_bastion
+				UNT_indust_po_Untsu
+				UNT_neudach_vostoch_pohod
+			}
+			focuses = {
+
+			}
+		}
+		"MAT"={
+			minor = yes
+			history = "MAT_GATHERING_STORM_DESC"
+			ideology = metacommy
+			ideas = {
+				MAT_idea_YgZapad_bastion
+				MAT_idea_Dvoevlastiye
+				UNT_neudach_vostoch_pohod
+			}
+			focuses = {
+				MAT_reforma_GKO
+				MAT_chezvichayniye_meri
+				MAT_reshayushiy_udar
+			}
+		}
+		"DON"={
+			minor = yes
+			history = "DON_GATHERING_STORM_DESC"
+			ideology = metacommy
+			ideas = {
+				DON_idea_Yg_bastion
+				DON_idea_silnaya_ruka
+				DON_idea_neprof_army	
+			}
+			focuses = {
+				DON_snyat_tanki_s_postamentov
+				DON_novorosskoye_chudo
+				DON_ukrainskaya_voyna
+			}
+		}
+		"UKR"={
+			minor = yes
+			history = "UKR_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				UKR_nahruk_level_1
+				UKR_ukraine_ne_oboytis_bez_uglya_donbassa
+			}
+			focuses = {
+				UKR_armiya
+				UKR_mova
+				UKR_vira
+			}
+		}
+		"SKT"={
+			minor = yes
+			history = "SKT_GATHERING_STORM_DESC"
+			ideology = memoism
+			ideas = {
+				PRM_ural_karapuz
+				SKT_hui_ded_Maksim
+			}
+			focuses = {
+		    	SKT_blizost_smerti
+				SKT_borodatie_vibory
+				SKT_left_boroda
+			}
+		}
+		"PRM"={
+			minor = yes
+			history = "PRM_GATHERING_STORM_DESC"
+			ideology = memoism
+			ideas = {
+				PRM_ural_karapuz
+			}
+			focuses = {
+			    PRM_show_must_go_on
+				PRM_syezd_Ros_part_vozrozhd
+				PRM_sotsizm_is_magic
+			}
+		}
+		"BSH"={
+			minor = yes
+			history = "BSH_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				PRM_ural_karapuz
+			}
+			focuses = {
+				BSH_morgen
+				BSH_babay
+				BSH_grig
+			}
+		}
+		"MRD"={
+			minor = yes
+			history = "MRD_GATHERING_STORM_DESC"
+			ideology = metacommy
+			ideas = {
+			}
+			focuses = {
+				MRD_logovo_saurona
+				MRD_proyekt_grib_saurona
+				MRD_proyekt_megakoltso
+			}
+		}	
+		"IRQ"={
+			minor = yes
+			history = "IRQ_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				IRQ_ldpr_baas
+			}
+			focuses = {
+				IRQ_ldpr
+				IRQ_izr_vopros
+				IRQ_baas
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

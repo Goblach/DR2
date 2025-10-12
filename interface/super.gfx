@@ -1,0 +1,166 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sp_event_window"
+		textureFile = "gfx/Super_Event_Window.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_close_button"
+		textureFile = "gfx/Super_Event_Close_Button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_underlay"
+		textureFile = "gfx/Super_Event_Underlay.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_Base"
+		textureFile = "gfx/sp_events/Super_Event_Base.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_LAZ_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_LAZ_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_MGN_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_MGN_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_NOD_Barkov_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_NOD_Barkov_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_NOD_Starikov_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_NOD_Starikov_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_NOD_Fedorov_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_NOD_Fedorov_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_BSH_Bebey_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_BSH_Bebey_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_DOT_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_DOT_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_SKT_Levoborod_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_SKT_Levoborod_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_MRD_Sauron_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_MRD_Sauron_reunite_russia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_event_GOM_reunite_china"
+		textureFile = "gfx/sp_events/Super_Event_GOM_reunite_china.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_POK_Slovolzhicin_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_POK_Slovolzhicin_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_POK_Eltsin_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_POK_Eltsin_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_POK_Putin_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_POK_Putin_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_POK_Parlament_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_POK_Parlament_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_POK_Razval_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_POK_Razval_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_GAL_Lukin_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_GAL_Lukin_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_ZNS_Rudoy_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_ZNS_Rudoy_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_YSK_Yuneman_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_YSK_Yuneman_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_YSK_Wright_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_YSK_Wright_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_YSK_Pogrom_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_YSK_Pogrom_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_YSK_Romanovi_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_YSK_Romanovi_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_YSK_Goga_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_YSK_Goga_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_YSK_Rogozin_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_YSK_Rogozin_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_YSK_Tesak_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_YSK_Tesak_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_YSK_RNE_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_YSK_RNE_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_YSK_NPF_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_YSK_NPF_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_YSK_Dimon_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_YSK_Dimon_reunite_russia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_UKR_reunite_ukraine"
+		textureFile = "gfx/sp_events/Super_Event_UKR_reunite_ukraine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_OMS_Letov_reunite_russia"
+		textureFile = "gfx/sp_events/Super_Event_OMS_Letov_reunite_russia.dds"
+	}
+}

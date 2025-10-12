@@ -1,0 +1,223 @@
+characters={
+    OMS_Letov = {
+		name = "Егор Летов"
+		portraits = {
+			army = {
+				small = "GFX_idea_OMS_Egor_Letov"
+				large = "gfx/leaders/OMS/Letov.dds"
+			}
+		}
+        country_leader = {
+    		desc = "POLITICS_LETOV_DESC"
+			ideology = religious_communism			
+			traits = {
+	         	
+	        }
+			expire = "1999.3.1"
+			id = -1
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = OMS_Letov
+			traits = {
+				army_chief_offensive_1
+			}
+			visible = { tag = OMS  }
+		}
+        field_marshal = {
+			traits = { guerilla_fighter }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}   		
+	}
+	OMS_Elizarov = {
+		name = "Михаил Елизаров"
+		portraits = {
+			army = {
+				small = "GFX_idea_OMS_Elizarov"
+				large = "gfx/leaders/OMS/Mihail_Elizarov.dds"
+			}
+		} 
+        advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = OMS_Elizarov
+			traits = {
+				army_chief_defensive_1
+			}
+			visible = { tag = OMS has_completed_focus = OMS_vostanovlen_churches }
+		}  		
+	}
+	OMS_Pushnoy = {
+		name = "Александр Пушной"
+		portraits = {
+			army = {
+				small = "GFX_idea_GAL_pusnoy"
+				large = "gfx/leaders/GAL/Pushnoy.dds"
+			}
+			civilian = {
+				small = "GFX_idea_GAL_pusnoy"
+			}
+		} 
+ 		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = OMS_Pushnoy
+			traits = {
+				popular_figurehead3
+			}
+			visible = { tag = OMS has_completed_focus = OMS_experiment_zvuk }
+		}
+	}
+	OMS_Yanka = {
+		name = "Янка Дягилева"
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/OMS/Yanka.dds"
+			}
+		}
+        corps_commander = {
+			traits = { guerilla_fighter politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}	
+	}
+	OMS_Fedor_Letov = {
+		name = "Фёдор Летов"
+		portraits = {
+			army = {
+				small = "GFX_idea_OMS_Fedor_Letov"
+				large = "gfx/leaders/OMS/Fedor_Letov.dds"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = OMS_Fedor_Letov
+			traits = {
+				propaganda_expert
+				army_chief_old_guard
+			}
+			visible = { tag = OMS  }
+		}
+	    corps_commander = {
+			traits = { old_guard infantry_officer infantry_leader politically_connected }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}	
+	}
+	OMS_Ryabinov = {
+		name = "Константин «Кузя УО» Рябинов"
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/OMS/Ryabinov.dds"
+			}
+		}
+        corps_commander = {
+			traits = { guerilla_fighter politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}	
+	}
+	OMS_Sergey_Letov = {
+		name = "Сергей Летов"
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/OMS/Sergey_Letov.dds"
+			}
+		}
+        corps_commander = {
+			traits = { guerilla_fighter politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}	
+	}
+	OMS_Kurehin = {
+		name = "Сергей Курёхин"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_OMS_Kurehin"
+			}
+		}
+        advisor={
+			slot = political_advisor
+			idea_token = OMS_Kurehin
+
+			allowed = {
+				original_tag = DON
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			traits = {
+				praktikuyuzhiy_memoist
+			}
+		}		
+	}
+	GAL_Drobyshevskiy = {
+		name = "Станислав Дробышевский"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_GAL_Drobyshevskiy"
+				large = "gfx/leaders/GAL/Drobyshevskiy.dds"				
+			}
+			civilian = {
+				small = "GFX_idea_GAL_Drobyshevskiy"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = GAL_Drobyshevskiy
+			traits = {
+				nazi_antropolog
+			}
+			visible = { tag = OMS  }
+		}
+		corps_commander = {
+			traits = { ranger }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}		
+	}
+	OMS_DrobLetov = {
+		name = "Егор Летов?"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_GAL_Drobyshevskiy"
+				large = "gfx/leaders/GAL/Drobyshevskiy.dds"				
+			}
+		}
+			
+	}
+}

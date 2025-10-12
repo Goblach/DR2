@@ -1,0 +1,210 @@
+characters = {
+
+	MAT_Anton_Orlov = {
+		name = "Антон Орлов"
+		desc = "POLITICS_ORLOV_DESC"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAT/Anton_Orlov.dds"
+			}
+			army = {
+				large = "gfx/leaders/MAT/Anton_Orlov.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_shumerism
+			expire = "1999.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = { war_hero armor_officer aggressive_assaulter }
+			
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = -1
+        }
+	}
+	
+	MAT_Danil_Csukanov = {
+		name = "Данил Цуканов"
+		desc = "POLITICS_THORVALD_STAUNING_DESC"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAT/Danil_Tsukanov.dds"
+			}
+			army = {
+				large = "gfx/leaders/MAT/Danil_Tsukanov.dds"
+			}
+		}
+
+		country_leader = {
+			expire = "1999.1.1"
+			ideology = marxismus
+			id = -1
+		}
+		field_marshal = {
+			traits = { war_hero infantry_officer }
+			
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2 
+			legacy_id = -1
+        }
+	}
+	MAT_Agromem = {
+		name = "Ставропольский Агроном"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STR/Agronom.dds"
+				small = "GFX_idea_MAT_Agromem"
+			}
+			army = {
+				large = "gfx/leaders/STR/Agronom.dds"
+			}
+		}
+		field_marshal = {
+			traits = { war_hero armor_officer }
+			
+			skill = 3
+			attack_skill = 7
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+        }
+	}
+	#Не_выводить_ни_в_коем_случае
+	MAT_Nikolay_Kuznetsov = {
+		name = "Николай Кузнецов"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_MAT_Nikolay_Kuznetsov"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAT_idea_Nikolay_Kuznetsov
+			allowed  = {
+				original_tag = MAT
+			}
+			traits  = {
+				rabochaya_koshechka
+			}
+		}
+	}
+	MAT_Gleb_Myuller = {
+		name = "Глеб Мюллер"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_MAT_Gleb_Myuller"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAT_idea_Gleb_Myuller
+			allowed  = {
+				original_tag = MAT
+			}
+			traits  = {
+				specifichniy_prosvititel
+			}
+		}
+	}
+	MAT_Sonodzaki = {
+		name = "«Сонодзаки»"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_MAT_Sonodzaki"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAT_idea_Sonodzaki
+			allowed  = {
+				original_tag = MAT
+			}
+			traits  = {
+				komissar_po_ideoligii_metacommy
+			}
+		}
+	}
+	MAT_Adam_Abadiyev = {
+		name = "Адам Абадиев"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAT/MAT_Kot_Fritz.dds"
+				small = "GFX_idea_kot_fritz"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAT_idea_Adam_Abadiyev
+			allowed  = {
+				original_tag = MAT
+			}
+			traits  = {
+				army_logistics_1
+			}
+		}
+		corps_commander={
+			traits={ cavalry_leader cavalry_expert substance_abuser }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+	MAT_Pavel_Ryzhkov = {
+		name = "Павел Рыжков"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAT/MAT_Pavel_Ryzhkov.dds"
+				small = "GFX_idea_MAT_Pavel_Ryzhkov"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MAT_idea_Pavel_Ryzhkov
+			allowed  = {
+				original_tag = MAT
+			}
+			traits  = {
+				army_chief_morale_2
+			}
+		}
+		corps_commander={
+			traits={ career_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+	MAT_Deryabin = {
+		name = "Антон Дерябин"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAT/MAT_Deryabin.dds"
+				#small = "GFX_idea_MAT_Deryabin"
+			}
+		}
+		corps_commander={
+			traits={ career_officer }
+			skill=2
+			attack_skill=6
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+}

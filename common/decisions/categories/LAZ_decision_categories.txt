@@ -1,0 +1,53 @@
+#########################
+  ### LAZARET_RSFSR ###
+#########################
+
+DR_dela_chumnogo_pakta = {
+	icon = military_operation
+	picture = GFX_decision_category_chumnoy_pakt_picture
+	visible = {
+		OR = {
+			tag = LAZ
+			AND = {
+				tag = ARK
+				is_in_faction_with = LAZ
+			}
+			AND = {
+				tag = WHS
+				is_in_faction_with = LAZ
+			}
+			AND = {
+				tag = UNT
+				is_in_faction_with = LAZ
+			}
+			AND = {
+				tag = MAT
+				is_in_faction_with = LAZ
+			}
+			AND = {
+				tag = DON
+				is_in_faction_with = LAZ
+			}
+			AND = {
+				tag = CHT
+				is_in_faction_with = LAZ
+			}
+			AND = {
+				tag = BSH
+				is_in_faction_with = LAZ
+			}
+		}
+	}
+}
+LAZ_proizvodstvo_kontenta = {
+	icon = military_operation
+	allowed = {
+		tag = LAZ		
+	}
+	visible = {
+		tag = LAZ		
+	}
+	available = {
+		tag = LAZ
+	}
+}

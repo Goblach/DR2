@@ -1,0 +1,15 @@
+characters={
+	ARV_Yuriy_Klinskikh = {
+		name = "Юрий Аль-Хой"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARV/Yuriy_Klinskikh.dds"
+			}
+		}
+		country_leader = {
+	        expire = "1999.1.1"
+	        ideology = theocracy
+		    id=-1
+	    }
+    }
+}

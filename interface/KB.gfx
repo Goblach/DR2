@@ -1,0 +1,567 @@
+spriteTypes = {	
+
+	###LAZ###
+    spriteType = {
+		name = "GFX_idea_LAZ_mitishinskiy_mash_zavod"
+		texturefile = "gfx/interface/ideas/idea_LAZ_mitishinskiy_mash_zavod.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_mig"
+		texturefile = "gfx/interface/ideas/idea_LAZ_mig.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_AK_im_ilyushina"
+		texturefile = "gfx/interface/ideas/idea_LAZ_AK_im_ilyushina.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_dubnenskiy_mash_zavod"
+		texturefile = "gfx/interface/ideas/idea_LAZ_dubnenskiy_mash_zavod.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_Su"
+		texturefile = "gfx/interface/ideas/idea_LAZ_Su.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_chumhimprom"
+		texturefile = "gfx/interface/ideas/idea_LAZ_chumhimprom.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_bolshevichka"
+		texturefile = "gfx/interface/ideas/idea_LAZ_bolshevichka.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_rubin"
+		texturefile = "gfx/interface/ideas/idea_LAZ_rubin.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_OSV_bolshevichka"
+		texturefile = "gfx/interface/ideas/idea_LAZ_bolshevichka.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_OSV_rubin"
+		texturefile = "gfx/interface/ideas/idea_LAZ_rubin.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_Sevmash"
+		texturefile = "gfx/interface/ideas/idea_LAZ_Sevmash.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_mash_zavod_im_kalinina"
+		texturefile = "gfx/interface/ideas/idea_LAZ_mash_zavod_im_kalinina.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_tula"
+		texturefile = "gfx/interface/ideas/idea_LAZ_tula.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_tutaev_motor_plant"
+		texturefile = "gfx/interface/ideas/idea_LAZ_tutaev_motor_plant.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_Zavod_GUSENITs"
+		texturefile = "gfx/interface/ideas/idea_LAZ_Zavod_GUSENITs.dds" 
+	}	
+	
+	###CHT###
+	
+	spriteType = {
+		name = "GFX_idea_CHT_Arzamasskiy_MZ"
+		texturefile = "gfx/interface/ideas/idea_CHT_Arzamasskiy_MZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_CHT_red_sormovo"
+		texturefile = "gfx/interface/ideas/idea_CHT_red_sormovo.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_CHT_sokol"
+		texturefile = "gfx/interface/ideas/idea_CHT_sokol.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_CHT_UAPK"
+		texturefile = "gfx/interface/ideas/idea_CHT_UAPK.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_CHT_KazAvZ"
+		texturefile = "gfx/interface/ideas/idea_CHT_KazAvZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_CHT_tat_neft"
+		texturefile = "gfx/interface/ideas/idea_CHT_tat_neft.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_CHT_tyazhmash"
+		texturefile = "gfx/interface/ideas/idea_CHT_tyazhmash.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_CHT_ChEAZ"
+		texturefile = "gfx/interface/ideas/idea_CHT_ChEAZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_CHT_Nizhegorodskiy_MZ"
+		texturefile = "gfx/interface/ideas/idea_CHT_Nizhegorodskiy_MZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_CHT_UlMechZ"
+		texturefile = "gfx/interface/ideas/idea_CHT_UlMechZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_CHT_Izhmash"
+		texturefile = "gfx/interface/ideas/idea_CHT_Izhmash.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_CHT_GAZ"
+		texturefile = "gfx/interface/ideas/idea_CHT_GAZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DON_ASZ"
+		texturefile = "gfx/interface/ideas/idea_DON_ASZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DON_LA-RZ"
+		texturefile = "gfx/interface/ideas/idea_DON_LA-RZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DON_LNPZ"
+		texturefile = "gfx/interface/ideas/idea_DON_LNPZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DON_DMZ"
+		texturefile = "gfx/interface/ideas/idea_DON_DMZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DON_DonNU"
+		texturefile = "gfx/interface/ideas/idea_DON_DonNU.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DON_DKZHI"
+		texturefile = "gfx/interface/ideas/idea_DON_DKZHI.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DON_LPZ"
+		texturefile = "gfx/interface/ideas/idea_DON_LPZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DON_EARZ"
+		texturefile = "gfx/interface/ideas/idea_DON_EARZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_UKR_HBZ"
+		texturefile = "gfx/interface/ideas/idea_UKR_HBZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DON_HBZ"
+		texturefile = "gfx/interface/ideas/idea_UKR_HBZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_UKR_HKBM"
+		texturefile = "gfx/interface/ideas/idea_UKR_HKBM.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DON_HKBM"
+		texturefile = "gfx/interface/ideas/idea_UKR_HKBM.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_UKR_Motor_sich"
+		texturefile = "gfx/interface/ideas/idea_UKR_Motor_sich.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DON_Motor_sich"
+		texturefile = "gfx/interface/ideas/idea_UKR_Motor_sich.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_UKR_ZimM"
+		texturefile = "gfx/interface/ideas/idea_UKR_ZimM.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DON_ZimM"
+		texturefile = "gfx/interface/ideas/idea_UKR_ZimM.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_drozd_zavod"
+		texturefile = "gfx/interface/ideas/idea_LAZ_drozd_zavod.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_ALB_tirana_universitet"
+		texturefile = "gfx/interface/ideas/idea_ALB_tirana_universitet.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_ALB_gosbunkerstroy"
+		texturefile = "gfx/interface/ideas/idea_ALB_gosbunkerstroy.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_LAZ_kamov"
+		texturefile = "gfx/interface/ideas/idea_LAZ_kamov.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_NOD_rosteh"
+		texturefile = "gfx/interface/ideas/idea_NOD_rosteh.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_NOD_FNPZ_titan-barricadi"
+		texturefile = "gfx/interface/ideas/idea_NOD_FNPZ_titan-barricadi.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_NOD_red_oktyabr"
+		texturefile = "gfx/interface/ideas/idea_NOD_red_oktyabr.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_NOD_KB_elbrus"
+		texturefile = "gfx/interface/ideas/idea_NOD_KB_elbrus.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_NOD_gazprom"
+		texturefile = "gfx/interface/ideas/idea_NOD_gazprom.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_NOD_SAZ"
+		texturefile = "gfx/interface/ideas/idea_NOD_SAZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_NOD_trolza"
+		texturefile = "gfx/interface/ideas/idea_NOD_trolza.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_NOD_VSZ"
+		texturefile = "gfx/interface/ideas/idea_NOD_VSZ.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_NOD_VTZ"
+		texturefile = "gfx/interface/ideas/idea_NOD_VTZ.dds" 
+	}	
+
+    spriteType = {
+		name = "GFX_idea_STR_red_metallist"
+		texturefile = "gfx/interface/ideas/concern_stav_red_metallist.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_STR_avtorem_disel"
+		texturefile = "gfx/interface/ideas/concern_stav_avtorem_disel.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_STR_electromech_zavod"
+		texturefile = "gfx/interface/ideas/concern_stav_electromech_zavod.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_STR_radiozavod_signal"
+		texturefile = "gfx/interface/ideas/concern_stav_radiozavod_signal.dds" 
+	}	
+
+	spriteType = {
+		name = "GFX_idea_DOT_Okeanrybflot"
+		texturefile = "gfx/interface/ideas/idea_DOT_Okeanrybflot.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DOT_Cumline"
+		texturefile = "gfx/interface/ideas/idea_DOT_Cumline.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DOT_Geotechnology"
+		texturefile = "gfx/interface/ideas/idea_DOT_Geotechnology.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DOT_Kamchatlestopprom"
+		texturefile = "gfx/interface/ideas/idea_DOT_Kamchatlestopprom.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DOT_Kamchatnefteprodukt"
+		texturefile = "gfx/interface/ideas/idea_DOT_Kamchatnefteprodukt.dds" 
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_DOT_Kamchatskenergo"
+		texturefile = "gfx/interface/ideas/idea_DOT_Kamchatskenergo.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_UKR_roshen"
+		texturefile = "gfx/interface/ideas/idea_UKR_roshen.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_UKR_chuguevskiy_ARZ"
+		texturefile = "gfx/interface/ideas/idea_UKR_chuguevskiy_ARZ.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_UKR_HAZ"
+		texturefile = "gfx/interface/ideas/idea_UKR_HAZ.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_UKR_HELZ"
+		texturefile = "gfx/interface/ideas/idea_UKR_HELZ.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_UKR_MiGremont"
+		texturefile = "gfx/interface/ideas/idea_UKR_MiGremont.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_UKR_yuzhmash"
+		texturefile = "gfx/interface/ideas/idea_UKR_yuzhmash.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_UKR_ZAZ"
+		texturefile = "gfx/interface/ideas/idea_UKR_ZAZ.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_UKR_fort"
+		texturefile = "gfx/interface/ideas/idea_UKR_fort.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOD_RPZ"
+		texturefile = "gfx/interface/ideas/idea_NOD_RPZ.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOD_CSP"
+		texturefile = "gfx/interface/ideas/idea_NOD_CSP.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_UKR_ZAZ"
+		texturefile = "gfx/interface/ideas/idea_UKR_ZAZ.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POK_BMTBP"
+		texturefile = "gfx/interface/ideas/idea_POK_BMTBP.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POK_Irkut"
+		texturefile = "gfx/interface/ideas/idea_POK_Irkut.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POK_OKMO"
+		texturefile = "gfx/interface/ideas/idea_POK_OKMO.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POK_salehardskiye_verfi"
+		texturefile = "gfx/interface/ideas/idea_POK_salehardskiye_verfi.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POK_UMZ"
+		texturefile = "gfx/interface/ideas/idea_POK_UMZ.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MRD_norilskiy_nikel"
+		texturefile = "gfx/interface/ideas/idea_MRD_norilskiy_nikel.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POK_ural"
+		texturefile = "gfx/interface/ideas/idea_POK_ural.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POK_UVZ"
+		texturefile = "gfx/interface/ideas/idea_POK_UVZ.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POK_zavod9"
+		texturefile = "gfx/interface/ideas/idea_POK_zavod9.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_UKR_rostic"
+		texturefile = "gfx/interface/ideas/UKR_rostic_KB.dds" 
+	}
+	
+	###SKT###
+	
+	spriteType = {
+		name = "GFX_idea_SKT_VorkutMechZavod"
+		texturefile = "gfx/interface/ideas/idea_SKT_VorkutMechZavod.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SKT_PecorGRES"
+		texturefile = "gfx/interface/ideas/idea_SKT_PecorGRES.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SKT_KB_SovOil"
+		texturefile = "gfx/interface/ideas/idea_SKT_KB_SovOil.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SKT_KomiAviaTrans"
+		texturefile = "gfx/interface/ideas/idea_SKT_KomiAviaTrans.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SKT_Motovilihinskie_zavod"
+		texturefile = "gfx/interface/ideas/SKT_Motovilihinskie_zavod.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SKT_KB_Gamburga"
+		texturefile = "gfx/interface/ideas/SKT_KB_Gamburga.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SKT_NarodNeftegazKomi"
+		texturefile = "gfx/interface/ideas/SKT_NarodNeftegazKomi.dds" 
+	}
+	###PRM###
+	
+	spriteType = {
+		name = "GFX_idea_PRM_TrikolorTV"
+		texturefile = "gfx/interface/ideas/PRM_TrikolorTV.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRM_Aviadvigatel"
+		texturefile = "gfx/interface/ideas/PRM_Aviadvigatel.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRM_Motovilihinskie_zavod"
+		texturefile = "gfx/interface/ideas/PRM_Motovilihinskie_zavod.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRM_Motovilihinskie_zavod_1"
+		texturefile = "gfx/interface/ideas/PRM_Motovilihinskie_zavod_1.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRM_Proton_PM"
+		texturefile = "gfx/interface/ideas/PRM_Proton_PM.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRM_PermZhD"
+		texturefile = "gfx/interface/ideas/PRM_PermZhD.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRM_UcolKalCumbinat"
+		texturefile = "gfx/interface/ideas/PRM_UcolKalCumbinat.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRM_LysvenskyMetallurgicalZavod"
+		texturefile = "gfx/interface/ideas/PRM_LysvenskyMetallurgicalZavod.dds" 
+	}
+	
+	###BSH###
+	
+	spriteType = {
+		name = "GFX_idea_BSH_UfMot"
+		texturefile = "gfx/interface/ideas/BSH_UfMot.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_BSH_Bashneft"
+		texturefile = "gfx/interface/ideas/BSH_Bashneft.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_BSH_Ormeto"
+		texturefile = "gfx/interface/ideas/BSH_Ormeto.dds" 
+	} 
+	spriteType = {
+		name = "GFX_idea_BSH_Strela"
+		texturefile = "gfx/interface/ideas/BSH_Strela.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_BSH_OrStan"
+		texturefile = "gfx/interface/ideas/BSH_OrStan.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_BSH_degradachTV"
+		texturefile = "gfx/interface/ideas/BSH_degradachTV.dds" 
+	}
+	###OSM###
+	spriteType = {
+		name = "GFX_idea_OSM_Dahir_Inshaat"
+		texturefile = "gfx/interface/ideas/OSM_Dahir_Inshaat.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Lobaev_Arms"
+		texturefile = "gfx/interface/ideas/Lobaev_Arms.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRQ_Al-Qadissiya"
+		texturefile = "gfx/interface/ideas/idea_IRQ_Al-Qadissiya.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_idea_BTS_seul_tz"
+		texturefile = "gfx/interface/ideas/BTS_seul_tz.dds" 
+	}
+}

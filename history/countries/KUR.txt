@@ -1,0 +1,37 @@
+capital = 202
+
+oob = KUR_1936
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = KUR_kurginyan
+recruit_character = KUR_rojers
+recruit_character = KUR_grudinin
+recruit_character = KUR_medvedchuk
+recruit_character = KUR_Klyukva
+recruit_character = KUR_Persey
+recruit_character = KUR_Michail_Shendakov
+recruit_character = KUR_vladimirkvachkov
+recruit_character = KUR_vasserman
+
+add_ideas = {
+	KUR_polit_neodnoznach
+	KUR_nedobit_bander
+	KUR_razruha_v_umah
+}
+
+set_popularities = {
+	metacommy = 100
+}
+set_politics = {
+	ruling_party = metacommy
+	elections_allowed = no	
+}
+
+set_convoys = 40

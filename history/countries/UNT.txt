@@ -1,0 +1,38 @@
+capital = 260
+
+oob = 123_1936
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	basic_train = 1
+}
+
+recruit_character = UNT_Unts
+recruit_character = UNT_Nazarikov
+recruit_character = UNT_Dream
+recruit_character = UNT_Inozemtsev
+recruit_character = UNT_Karandash
+recruit_character = UNT_FarLight
+
+add_ideas = {
+	UNT_indust_po_Untsu
+	UNT_YgVostok_bastion
+	partial_economic_mobilisation
+	limited_conscription
+}
+
+add_timed_idea = { idea = UNT_neudach_vostoch_pohod days = 547 }
+
+set_popularities = {
+	vmestolev = 100
+}
+set_politics = {
+	ruling_party = vmestolev
+	elections_allowed = no	
+}
+
+set_convoys = 200

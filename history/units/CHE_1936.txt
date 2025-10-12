@@ -1,0 +1,60 @@
+﻿division_template = {
+name = "Пираты"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		marine = { x = 2 y = 0 }
+		marine = { x = 2 y = 1 }
+		marine = { x = 2 y = 2 }
+	}
+	priority = 2
+}
+division_template = {
+name = "Бандиты"
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Черноморские пираты"
+		location = 11670
+		division_template = "Пираты"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Приднестровская мафия"
+		location = 741
+		division_template = "Бандиты"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Херсонская бригада"
+		location = 721
+		division_template = "Бандиты"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Николаевское ОПГ"
+		location = 11683
+		division_template = "Бандиты"
+		start_experience_factor = 0.3
+	}
+}
+

@@ -1,0 +1,34 @@
+
+state={
+	id=40
+	name="STATE_40" # Barnaul
+	manpower = 4707451
+	
+	state_category = large_town
+
+	history={
+		owner = POK
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+		}
+		add_core_of = POK
+		
+		victory_points = {
+			1794 30
+		}
+		victory_points = {
+			11410 3
+		}
+		victory_points = {
+			4803 3
+		}
+	}
+
+	provinces={
+		1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 
+	}
+
+	local_supplies = 6.0 
+}

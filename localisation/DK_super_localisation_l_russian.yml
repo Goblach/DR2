@@ -1,0 +1,128 @@
+﻿l_russian:
+  sp_event_LAZ_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_LAZ_reunite_russia_QUOTE:0 "Государственный переворот возможен. Революция - сильно вряд ли. \n- PlagueDoctor"
+  sp_event_LAZ_reunite_russia_REMARK:0 "ЮТУБ-КАНАЛ НЕ ПРОДАЁТСЯ"
+  
+  sp_event_MAT_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_MAT_reunite_russia_QUOTE:0 "Остановите этот поезд с говном. Он едет в пиздец без остановок! \n- BadComedian"
+  sp_event_MAT_reunite_russia_REMARK:0 "Ужас, пиз..."
+  
+  sp_event_NOD_Fedorov_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_NOD_Fedorov_reunite_russia_QUOTE:0 "Это вы? Это правда вы? А раньше тоже были вы? Ох, Госпади, спасибо вам большое за всё! Огромное спасибо! \n- "
+  sp_event_NOD_Fedorov_reunite_russia_REMARK:0 "Если не он, то кто?"
+  
+  sp_event_NOD_Starikov_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_NOD_Starikov_reunite_russia_QUOTE:0 "Настоящее искусство реформ заключается в том, чтобы изменить всё, но при этом ничего не поменять. \n- Джейсон Стетхэм"
+  sp_event_NOD_Starikov_reunite_russia_REMARK:0 "Если не он, то кто?"
+  
+  sp_event_NOD_Barkov_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_NOD_Barkov_reunite_russia_QUOTE:0 "Я пришёл, чтобы принести в Россию закон и порядок и ни один экстремист не причинит зла моей стране! \n- Роман Барков"
+  sp_event_NOD_Barkov_reunite_russia_REMARK:0 "В чём он не прав?"
+  
+  sp_event_MGN_reunite_russia:0 "ВОССОЕДИНЕНИЕ СОВКА СУКА!"
+  sp_event_MGN_reunite_russia_QUOTE:0 "Мир не может быть наполовину рабским и наполовину свободным; он должен быть полностью рабским. \n- Вальдемар Ульянов-Бланк"
+  sp_event_MGN_reunite_russia_REMARK:0 "Слава САТАНАЛИНУ"
+  
+  sp_event_BSH_1_reunite_russia:0 "УРАЛ-ИЗРАИЛЬ"
+  sp_event_BSH_1_reunite_russia_QUOTE:0 "Хехехе развёл гоя на донут. \n- Бэбэй Великолепный"
+  sp_event_BSH_1_reunite_russia_REMARK:0 "НЕ РУИНА"
+  
+  sp_event_BSH_2_reunite_russia:0 "БАШКИРСКОЕ ХАНСТВО"
+  sp_event_BSH_2_reunite_russia_QUOTE:0 "Я по-сути что-то типа предка Чингисхана. Типо монгола - монгольский татарин. \n- Бэбэй Великолепный"
+  sp_event_BSH_2_reunite_russia_REMARK:0 "НЕ РУИНА"
+  
+  sp_event_BSH_3_reunite_russia:0 "СЕВЕРНАЯ ИМПЕРИЯ"
+  sp_event_BSH_3_reunite_russia_QUOTE:0 "Отныне я православный. Я буквально норд! \n- Бэбэй Великолепный"
+  sp_event_BSH_3_reunite_russia_REMARK:0 "НЕ РУИНА"
+  
+  sp_event_DOT_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_DOT_reunite_russia_QUOTE:0 "Не надо бояться человека с ружьём \n- В.И. Ленин"
+  sp_event_DOT_reunite_russia_REMARK:0 "Ну наконец-то. Добрались"
+  
+  sp_event_SKT_Levoborod_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_SKT_Levoborod_reunite_russia_QUOTE:0 "Напоминаю - колда по прежнему сосёт. Варкрафт 3 компания за орков больше отвечает тому, как выглядит война на самом деле. \n- Игорь «Левобород» Александров"
+  sp_event_SKT_Levoborod_reunite_russia_REMARK:0 "Слава Жожекии!"
+ 
+  sp_event_MRD_Sauron_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_MRD_Sauron_reunite_russia_QUOTE:0 "Вывод довольно простой. Что бы вы не строили, капитализм, или социализм, все зависит от людей. Мало построить систему, надо еще воспитать людей для этой системы. \n- Саурон Великий"
+  sp_event_MRD_Sauron_reunite_russia_REMARK:0 "Можно же просто перевоспитать."
+  
+  sp_event_GOM_reunite_china:0 "ВОССОЕДИНЕНИЕ КИТАЯ"
+  sp_event_GOM_reunite_china_QUOTE:0 "Такую партию в Хойку я б посмотрел... \n- Бебей"
+  sp_event_GOM_reunite_china_REMARK:0 "Нихуя не смешно"
+  
+  sp_event_POK_Slovolzhicin_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_POK_Slovolzhicin_reunite_russia_QUOTE:0 "Солженицын писал о совсем другом!!! \n- Егор Летов"
+  sp_event_POK_Slovolzhicin_reunite_russia_REMARK:0 "Жить не по лжи"
+  
+  sp_event_POK_Eltsin_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_POK_Eltsin_reunite_russia_QUOTE:0 "Если б море было Водкой - я бы стал подводной лодкой! \n- Борис Ельцин"
+  sp_event_POK_Eltsin_reunite_russia_REMARK:0 "Панимааешь"
+  
+  sp_event_POK_Putin_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_POK_Putin_reunite_russia_QUOTE:0 "Я являюсь настоящим либералом и придерживается либеральных взглядов[...]. Возврата к прошлому не будет. Россия останется рыночной либеральной экономикой. \n- В.В. Путин"
+  sp_event_POK_Putin_reunite_russia_REMARK:0 "Настоящий либерал"
+  
+  sp_event_POK_Parlament_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_POK_Parlament_reunite_russia_QUOTE:0 "Нам сегодня очень хочется кого-то убить. \n- В.И. Новодворская"
+  sp_event_POK_Parlament_reunite_russia_REMARK:0 "Конец чекистскому владычеству"
+  
+  sp_event_POK_Razval_reunite_russia:0 "РАСПАД РОССИИ"
+  sp_event_POK_Razval_reunite_russia_QUOTE:0 "Русское государство обладает тем преимуществом перед другими, что оно управляется непосредственно самим Богом, иначе невозможно понять, как оно существует. \n- И.Э. Миних"
+  sp_event_POK_Razval_reunite_russia_REMARK:0 "Бога нет"
+  
+  sp_event_GAL_Lukin_reunite_russia:0 "ВОЗСТАНОВЛЕНИЕ СССР ЗА 3 МИНУТЫ"
+  sp_event_GAL_Lukin_reunite_russia_QUOTE:0 "КОММУНИЗМ - это МОДЕЛЬ ОБЩЕСТВА БУДУЩЕГО! Его никогда не было! В период с 1918 по 1987 года был СОЦИАЛИЗМ! Социализм - это система единого неотчуждаемого бюджета! Как можно проводить декоммунизацию? Коммунизм - это мечта! Перестаньте говорить образами. Выразите ситуацию в процедурном порядке. \n- П.А. Лукин"
+  sp_event_GAL_Lukin_reunite_russia_REMARK:0 "Купц хайль, Купц хуй"
+  
+  sp_event_ZNS_Rudoy_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_ZNS_Rudoy_reunite_russia_QUOTE:0 "Мы должны превратить Россию в пустыню, населенную белыми неграми, которым мы дадим такую тиранию, которая не снилась никогда самым страшным деспотам Востока. \n- Л.Д. Троцкий"
+  sp_event_ZNS_Rudoy_reunite_russia_REMARK:0 "Пой, революция!"
+  
+  sp_event_YSK_Yuneman_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_YSK_Yuneman_reunite_russia_QUOTE:0 "ТРИ НАДЕЖДЫ У СЛАВЯН - ФИШЕР, АКСЕЛЬ, ЮНЕМАН"
+  sp_event_YSK_Yuneman_reunite_russia_REMARK:0 "Торжество национал-либерализма"
+  
+  sp_event_YSK_Wright_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_YSK_Wright_reunite_russia_QUOTE:0 "Русские - UwU!"
+  sp_event_YSK_Wright_reunite_russia_REMARK:0 "UwU"
+  
+  sp_event_YSK_Pogrom_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_YSK_Pogrom_reunite_russia_QUOTE:0 "Хочешь быть русским – плати, а нет денег – живи советским. \n- Егор Погром"
+  sp_event_YSK_Pogrom_reunite_russia_REMARK:0 "РУССКИЕ ВПЕРЕД!"
+  
+  sp_event_YSK_Romanovi_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_YSK_Romanovi_reunite_russia_QUOTE:0 "У России два врага - чернослив и курага.  \n- Александр III"
+  sp_event_YSK_Romanovi_reunite_russia_REMARK:0 "За веру, царя и отечество!"
+  
+  sp_event_YSK_Goga_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_YSK_Goga_reunite_russia_QUOTE:0 "На страже русских национальных интересов стоял никто иной, как интернационалист Ленин, который в своих постоянных выступлениях не щадил сил, чтобы протестовать против раздела бывшей Российской Империи, апеллируя к трудящимся всего мира.-Александр Михайлович"
+  sp_event_YSK_Goga_reunite_russia_REMARK:0 "Царь и советы!"
+  
+  sp_event_YSK_Rogozin_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_YSK_Rogozin_reunite_russia_QUOTE:0 "400-метровый астероид грозит взорвать Землю… Ну вот и сверхцель для отечественной космонавтики.  \n- Дмитрий Рогозин"
+  sp_event_YSK_Rogozin_reunite_russia_REMARK:0 "Вперед, в космос!"
+  
+  sp_event_YSK_Tesak_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_YSK_Tesak_reunite_russia_QUOTE:0 "Социал-тутовизм есть форма жизни сверхчеловека в условиях погибающего общества. Человек, желающий помочь окружающим его людям, должен - ОБЯЗАН - на них паразитировать.  \n- Тесак"
+  sp_event_YSK_Tesak_reunite_russia_REMARK:0 "Привет мои маленькие любители экстримизма!"
+  
+  sp_event_YSK_RNE_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_YSK_RNE_reunite_russia_QUOTE:0 "Свастика — это не фашистский символ — это альфа и омега, начало и конец мира, христианский знак.  \n- Александр Баркашов"
+  sp_event_YSK_RNE_reunite_russia_REMARK:0 "За веру, царя и отечество!"
+  
+  sp_event_YSK_NPF_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_YSK_NPF_reunite_russia_QUOTE:0 "Новое смутное время на Руси, кровавое лихолетье и власть безбожников - это не только наказание за наши грехи, но и время испытаний. В этом есть скрытый смысл - промысел Божий. Нам дана возможность очиститься от скверны и духовно возродиться. - Николай Скородумов"
+  sp_event_YSK_NPF_reunite_russia_REMARK:0 "Без жидов, спасай Россию!"
+  
+  sp_event_YSK_Dimon_reunite_russia:0 "ВЕЛИКОЕ ПРИНУЖДЕНИЕ"
+  sp_event_YSK_Dimon_reunite_russia_QUOTE:0 "Отвечаю – я их ненавижу. Они ублюдки и выродки. Они хотят смерти нам, России. И пока я жив, я буду делать всё, чтобы они исчезли.  \n- Дмитрий Медведев"
+  sp_event_YSK_Dimon_reunite_russia_REMARK:0 "Добейте выживших"
+  
+  sp_event_UKR_reunite_ukraine:0 "ВОССОЕДИНЕНИЕ УКРАИНЫ"
+  sp_event_UKR_reunite_ukraine_QUOTE:0 "У нас работа будет - у них нет. У нас пенсии будут - у них нет. У нас поддержка детей и пенсионеров будет - у них нет. Наши дети пойдут в школы и детские сады - их дети будут сидеть по подвалам. Потому что они ничего не умеют. Вот так и только так мы выиграем эту войну. - Петр Порошенко"
+  sp_event_UKR_reunite_ukraine_REMARK:0 "Слава Українi!"
+  
+  sp_event_OMS_Letov_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_OMS_Letov_reunite_russia_QUOTE:0 "Я никогда не был противником коммунизма, именно настоящего коммунизма, каким он должен быть. Коммунизм - это Царство Божие на Земле. \n- Егор Летов"
+  sp_event_OMS_Letov_reunite_russia_REMARK:0 "Я выдуман напрочь"

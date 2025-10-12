@@ -1,0 +1,32 @@
+
+state = {
+	id = 516
+	name = "STATE_516" # Taymyria / Dudinka
+	manpower = 1175004
+	
+	state_category = rural
+
+	history = {
+		victory_points = {
+			13064 40
+		}
+		victory_points = {
+			4859 5
+		}
+		victory_points = {
+			12643 2
+		}
+		owner = MRD
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+		}
+		add_core_of = MRD
+	}
+
+	provinces = {
+		  2923 2972 3336 4692 4733  4859  10607 10635  11261 11328 12643  13064  
+	}
+
+	local_supplies = 0.0 
+}

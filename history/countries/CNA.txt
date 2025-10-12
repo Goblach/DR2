@@ -1,0 +1,43 @@
+capital = 754
+
+oob = CNA_1936
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.75
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+    marines	= 1
+	tech_support = 1
+	basic_train = 1
+}
+
+recruit_character = CNA_Tsing_Shi_Tao
+recruit_character = CNA_Ta_Hung_Kwai
+recruit_character = CNA_Shin_Fay
+recruit_character = CNA_Tigress_Ling
+recruit_character = CNA_Huang_Lin_Bao
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+ZCH_vroraya_warlord_era
+}
+
+declare_war_on = {
+	target = GLA
+	type = annex_everything
+}
+
+set_popularities = {
+	neutrality = 50
+	vmestolev = 50
+}
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no	
+}
+
+set_convoys = 250

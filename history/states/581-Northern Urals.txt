@@ -1,0 +1,32 @@
+
+state = {
+	id = 581
+	name = "STATE_581"
+	manpower = 248831
+	
+	state_category = rural
+	
+	resources = {
+		chromium = 40 # was: 44
+		aluminium = 27 # was: 30
+		oil = 10 # was: 12
+	}
+
+	history = {
+	    victory_points = {
+			12502 5 
+		}  
+		owner = SKT
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SKT
+	}
+
+	provinces = {
+		10551 10677 11098 12393 12502 
+	}
+
+	local_supplies = 0.0 
+}

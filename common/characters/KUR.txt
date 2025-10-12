@@ -1,0 +1,170 @@
+characters={ 
+	KUR_kurginyan = {
+		name = "Сергей Кургинян"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/KUR/Kurginyan.dds"
+			}
+		}
+
+        country_leader = {
+        	expire = "1999.1.1"
+        	ideology = fourth_floor
+        	traits = {
+        		#
+        	}
+		}	
+	}
+	
+	KUR_medvedchuk = {
+		name = "Виктор Медведчук"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/KUR/medvedchuk.dds"
+			}
+		}
+
+        country_leader = {
+        	expire = "1999.1.1"
+        	ideology = conservatism
+        	traits = {
+        		#
+        	}
+		}	
+	}
+
+	KUR_rojers = {
+		name = "Александр Роджерс"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_KUR_rojers"
+				large = "gfx/leaders/KUR/rodgers.dds"
+			}
+		}
+		
+		corps_commander = {
+        	traits = { career_officer war_hero }
+        	skill = 4	
+        	attack_skill = 4
+        	defense_skill = 1
+           	planning_skill = 1
+        	logistics_skill = 1
+        }
+	}
+	
+	KUR_grudinin = {
+		name = "Павел Грудинин"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_KUR_pavel_gruginin"
+				large = "gfx/leaders/KUR/kandidatotnaroda.dds"
+			}
+		}
+		
+		corps_commander = {
+        	traits = { career_officer war_hero }
+        	skill = 4	
+        	attack_skill = 4
+        	defense_skill = 1
+           	planning_skill = 1
+        	logistics_skill = 1
+        }
+	}
+	KUR_Klyukva = {
+		name = "Генерал Клюква"
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/KUR/Klyukva.dds"
+			}
+		}
+        field_marshal = {
+			traits = { old_guard war_hero harsh_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 0
+		}     		
+	}
+	KUR_Persey = {
+		name = "Персей"
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/KUR/Persey.dds"
+			}
+		}
+        corps_commander = {
+			traits = { harsh_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 0
+		}     		
+	}
+	KUR_Michail_Shendakov = {
+		name = "Михаил Шендаков"
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/KUR/Michail_Shendakov.dds"
+			}
+		}
+        corps_commander = {
+			traits = { harsh_leader engineer_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 0
+		}     		
+	}
+	KUR_vladimirkvachkov = {
+		name = "Владимир Квачков"
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/KUR/vladimirkvachkov.dds"
+			}
+		}
+        field_marshal = {
+			traits = { harsh_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 0
+		}     		
+	}
+	KUR_vasserman = {
+		name = "Анатолий Вассерман"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_KUR_vasserman"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = KUR_vasserman
+			allowed = {
+				original_tag = KUR
+			}
+			traits = {
+				technocrat
+			}
+		}	 		
+	}
+}

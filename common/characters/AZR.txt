@@ -1,0 +1,17 @@
+characters={
+	AZR_gasanov = {
+		name = "Гусейн Гасанов"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AZR/Gusein_Gasanov.dds"
+			}
+		}
+		country_leader = {
+		desc="AZR_gasanov_desc"
+	        expire = "1999.1.1"
+		traits={ }
+	        ideology = nazism
+		id=-1
+	   }
+    }
+}

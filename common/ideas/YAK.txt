@@ -1,0 +1,40 @@
+ideas = {
+        country = {
+			YAK_war_against_devils = {
+
+			picture = Pokhod_protiv_demonov
+			
+			   
+			    targeted_modifier = {
+			    tag = LAZ
+			    attack_bonus_against = 0.1
+		        }
+				targeted_modifier = {
+				tag = NOD
+			    attack_bonus_against = 0.1
+		        }
+				targeted_modifier = {
+				tag = TUP
+			    attack_bonus_against = 0.1
+		        }
+				targeted_modifier = {
+				tag = POK
+			    attack_bonus_against = 0.1
+		        }
+			    modifier = {
+				war_support_factor = 0.15
+				justify_war_goal_time = -0.15
+			    }
+		    }
+		    YAK_shamanskie_focusy = {
+
+			   picture = chi_incompetent_officers
+			
+			   modifier = {
+			   army_speed_factor = 0.75
+			   army_attack_factor = 0.05
+			   consumer_goods_factor = 0.1
+			   }
+		    }
+		}	
+}

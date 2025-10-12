@@ -1,0 +1,191 @@
+add_namespace = RES
+
+	
+#
+country_event = {
+	id = RES.1
+	title = RES.1.t
+	desc = RES.1.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	fire_only_once = yes
+	
+	trigger = {
+        date = 3.8.20
+    }
+	
+	option = {
+		news_event = dk_news.30
+	        name = RES.1.a 
+                RES = {			
+		            declare_war_on = {
+		                target = VNR
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = ETR
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = NII
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = UGI
+		                type = annex_everything
+		            }
+					add_state_claim = 158
+					add_state_claim = 159
+					add_state_claim = 850
+					add_state_claim = 39
+					add_state_claim = 160
+					add_state_claim = 376
+					add_state_claim = 852
+					add_state_claim = 161
+					add_state_claim = 162
+					add_state_claim = 2
+					add_state_claim = 157
+					add_state_claim = 117
+					add_state_claim = 849
+					add_state_claim = 156
+					add_state_claim = 115
+					add_state_claim = 114
+				}
+				VNR = {			
+		            declare_war_on = {
+		                target = RES
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = ETR
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = NII
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = UGI
+		                type = annex_everything
+		            }
+					add_state_claim = 158
+					add_state_claim = 159
+					add_state_claim = 850
+					add_state_claim = 39
+					add_state_claim = 160
+					add_state_claim = 376
+					add_state_claim = 852
+					add_state_claim = 161
+					add_state_claim = 162
+					add_state_claim = 2
+					add_state_claim = 157
+					add_state_claim = 117
+					add_state_claim = 849
+					add_state_claim = 156
+					add_state_claim = 115
+					add_state_claim = 114
+				}
+				ETR = {			
+		            declare_war_on = {
+		                target = RES
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = VNR
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = NII
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = UGI
+		                type = annex_everything
+		            }
+					add_state_claim = 158
+					add_state_claim = 159
+					add_state_claim = 850
+					add_state_claim = 39
+					add_state_claim = 160
+					add_state_claim = 376
+					add_state_claim = 852
+					add_state_claim = 161
+					add_state_claim = 162
+					add_state_claim = 2
+					add_state_claim = 157
+					add_state_claim = 117
+					add_state_claim = 849
+					add_state_claim = 156
+					add_state_claim = 115
+					add_state_claim = 114
+				}
+				NII = {			
+		            declare_war_on = {
+		                target = RES
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = VNR
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = ETR
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = UGI
+		                type = annex_everything
+		            }
+					add_state_claim = 158
+					add_state_claim = 159
+					add_state_claim = 850
+					add_state_claim = 39
+					add_state_claim = 160
+					add_state_claim = 376
+					add_state_claim = 852
+					add_state_claim = 161
+					add_state_claim = 162
+					add_state_claim = 2
+					add_state_claim = 157
+					add_state_claim = 117
+					add_state_claim = 849
+					add_state_claim = 156
+					add_state_claim = 115
+					add_state_claim = 114
+				}
+				UGI = {			
+		            declare_war_on = {
+		                target = RES
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = VNR
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = ETR
+		                type = annex_everything
+		            }
+					declare_war_on = {
+		                target = NII
+		                type = annex_everything
+		            }
+					add_state_claim = 158
+					add_state_claim = 159
+					add_state_claim = 850
+					add_state_claim = 39
+					add_state_claim = 160
+					add_state_claim = 376
+					add_state_claim = 852
+					add_state_claim = 161
+					add_state_claim = 162
+					add_state_claim = 2
+					add_state_claim = 157
+					add_state_claim = 117
+					add_state_claim = 849
+					add_state_claim = 156
+					add_state_claim = 115
+					add_state_claim = 114
+				}
+	}
+}

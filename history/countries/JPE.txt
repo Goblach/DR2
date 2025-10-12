@@ -1,0 +1,35 @@
+capital = 528
+
+oob = 123_1936
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+add_ideas = {
+JPE_imperiya_bez_imperatora
+}
+set_popularities = {
+	fascism = 100
+}
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no	
+}
+
+set_convoys = 200
+
+create_country_leader = {
+	name = "Исороку Ямамото"
+	desc = "POLITICS_JAMAMOTO_DESC"
+	picture = "Jamamoto.dds"
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = {
+		isekay
+	}
+}

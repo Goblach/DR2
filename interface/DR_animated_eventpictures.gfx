@@ -1,0 +1,90 @@
+spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_news_event_Magic_outside_Hogwarts"
+		texturefile = "gfx/animated_textures/Magic_outside_Hogwarts.dds"
+		noOfFrames = 30
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_news_event_KAZ_Reunite_Borat"
+		texturefile = "gfx/animated_textures/KAZ_Reunite_Borat.dds"
+		noOfFrames = 26
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_news_event_BSH_bebey"
+		texturefile = "gfx/animated_textures/bebey_pobeda_na_viborah.dds"
+		noOfFrames = 38
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_news_event_DKR_KLG_dom_sovetov"
+		texturefile = "gfx/animated_textures/oborona_kaliningrada.dds"
+		noOfFrames = 39
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_news_event_DKR_KLG_padeniye_kalinilgrada"
+		texturefile = "gfx/animated_textures/padeniye_kaliningrada.dds"
+		noOfFrames = 23
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_POK_novodvorskaya_ap"
+		texturefile = "gfx/animated_textures/POK_novodvorskaya_animated_portrait.dds"
+		noOfFrames = 33
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_NKVD_rasstrel"
+		texturefile = "gfx/animated_textures/NKVD_rasstrel.dds"
+		noOfFrames = 41
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_GAL_Pushnoy_GALILEO_ap"
+		texturefile = "gfx/animated_textures/GAL_Pushnoy_GALILEO.dds"
+		noOfFrames = 14
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+}

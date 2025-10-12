@@ -1,0 +1,30 @@
+capital = 525
+
+oob = BTS_1936
+
+set_research_slots = 1
+set_stability = 0.4
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = BTS_mitich
+recruit_character = BTS_rm
+recruit_character = BTS_lankov
+
+add_ideas = {
+    BTS_ortodox_sopr
+}
+
+set_popularities = {
+	memoism = 50
+	anarhostalinism = 50
+}
+set_politics = {
+	ruling_party = anarhostalinism
+	elections_allowed = no	
+}
+
+set_convoys = 40

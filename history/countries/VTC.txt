@@ -1,0 +1,37 @@
+capital = 251
+
+oob = 123_1936
+
+set_research_slots = 3
+set_stability = 0.4
+set_war_support = 0.6
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_military_police = 1
+		tech_trucks = 1
+	gw_artillery = 1
+	gwtank_chassis = 1
+	early_fighter = 1
+	tech_support = 1
+	basic_train = 1
+}
+
+recruit_character = VTC_Ahora
+recruit_character = VTC_deloksli
+recruit_character = VTC_mich_duke
+recruit_character = VTC_evro_fourth
+recruit_character = VTC_felix_kornilov
+recruit_character = VTC_yuriy_lain
+recruit_character = VTC_random47
+
+set_popularities = {
+	neutrality = 100
+}
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no	
+}
+
+set_convoys = 40
+

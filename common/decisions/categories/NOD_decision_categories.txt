@@ -1,0 +1,37 @@
+################
+  ### NOD ###
+################
+
+atmta_category = {
+	icon = military_operation
+	allowed = {
+		original_tag = NOD	
+	}
+	visible = {
+	has_completed_focus = NOD_2000_Atmtat
+	}
+}
+
+find_putin_nod = {
+	icon = military_operation
+	allowed = {
+		original_tag = NOD	
+	}
+	visible = {
+	has_completed_focus = NOD_national_unity
+	has_government = fascism
+	}
+}
+
+NOD_capital_vopros_category = {
+	icon = military_operation
+	allowed = {
+		original_tag = NOD	
+	}
+	visible = {
+	controls_state = 195
+	controls_state = 219
+	controls_state = 217
+	
+	}
+}

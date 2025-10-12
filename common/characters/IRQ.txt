@@ -1,0 +1,413 @@
+characters={
+    IRQ_zhirik = {
+		name = "Владимир Жириновский"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/IRQ/Zhir.dds"
+			}
+		}
+
+        country_leader = {
+		    ideology = despotism
+			expire = "1965.1.1"
+        	traits = { Vne_politkategoriy }
+		}
+
+        field_marshal = {
+    		traits = { old_guard infantry_officer war_hero  }
+        	skill = 2
+        	attack_skill = 2
+        	defense_skill = 2
+        	planning_skill = 2
+        	logistics_skill = 2
+			legacy_id = 0
+		}      		
+	}
+
+	IRQ_saddam = {
+		name = "Саддам Хусейн"
+
+		portraits = {
+		    civilian={
+				large="gfx/leaders/IRQ/Saddam.dds"
+			}
+			army = {
+				small = "GFX_idea_IRQ_saddam"
+				large = "gfx/leaders/IRQ/Saddam_general.dds"
+			}
+		}
+
+        country_leader = {
+			ideology = fascism_ideology
+			expire = "1999.3.1.1"
+			id = -1
+		}	
+		
+		field_marshal = {
+    		traits = { old_guard infantry_officer war_hero  }
+        	skill = 2
+        	attack_skill = 3
+        	defense_skill = 3
+        	planning_skill = 1
+        	logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+	
+	IRQ_ali_hassan_al_majid = {
+		name = "Али Хасан аль-Маджид"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_IRQ_ali_hassan_al_majid"
+				large = "gfx/leaders/IRQ/ali_hassan_al_majid.dds"
+			}
+		}
+		
+		corps_commander = {
+    		traits = { politically_connected harsh_leader }
+        	skill = 2
+        	attack_skill = 2
+        	defense_skill = 2
+        	planning_skill = 3
+        	logistics_skill = 3
+			legacy_id = 0
+		}
+		
+		advisor = {
+    		slot = political_advisor
+            idea_token = IRQ_ali_hassan_al_majid			
+			allowed = {
+				original_tag = IRQ
+				
+			}			
+			traits = { prince_of_terror }
+			ai_will_do = {
+				factor = 1
+			}
+			on_add = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = -0.3
+		       	}		
+            }
+			on_remove = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = 0.3
+		       	}		
+            }
+	    }
+	}
+	
+	IRQ_Izzat_Ibrahim_al_Douri = {
+		name = "Иззат Ибрагим ад-Дури"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_IRQ_Izzat_Ibrahim_al-Douri"
+				large = "gfx/leaders/IRQ/Izzat_Ibrahim_al-Douri.dds"
+			}
+		}
+		
+		corps_commander = {
+    		traits = { politically_connected guerilla_fighter }
+        	skill = 2
+        	attack_skill = 2
+        	defense_skill = 2
+        	planning_skill = 3
+        	logistics_skill = 3
+			legacy_id = 0
+		}
+		
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Izzat_Ibrahim_al_Douri
+			allowed = {
+				original_tag = IRQ
+			}
+			traits = {
+				guerilla_warfare_expert 
+			}
+			cost = 150
+			on_add = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = -0.3
+		       	}		
+            }
+			on_remove = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = 0.3
+		       	}		
+            }
+		}
+	}
+	
+	IRQ_Vasiliy_Vlasov = {
+		name = "Василий Власов"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_IRQ_vlasov"
+				large = "gfx/leaders/IRQ/Vasiliy_Vlasov.dds"
+			}
+		}
+		
+		corps_commander = {
+    		traits = { politically_connected  }
+        	skill = 1
+        	attack_skill = 2
+        	defense_skill = 1
+        	planning_skill = 3
+        	logistics_skill = 3
+			legacy_id = 0
+		}
+		
+		advisor = {
+    		slot = political_advisor
+            idea_token = IRQ_Vasiliy_Vlasov			
+			allowed = {
+				original_tag = IRQ
+				
+			}			
+			traits = { silent_workhorse }
+			ai_will_do = {
+				factor = 1
+			}
+			on_add = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = 0.3
+		       	}		
+            }
+			on_remove = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = -0.3
+		       	}		
+            }
+	    }
+	}
+	
+	IRQ_Slutskiy = {
+		name = "Леонид Слуцкий"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_IRQ_slutskiy"
+			}
+		}
+
+		advisor = {
+    		slot = political_advisor
+            idea_token = IRQ_Slutskiy			
+			allowed = {
+				original_tag = IRQ
+				
+			}			
+			traits = { backroom_sponsor_rezhima }
+			ai_will_do = {
+				factor = 1
+			}
+			on_add = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = 0.3
+		       	}		
+            }
+			on_remove = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = -0.3
+		       	}		
+            }
+	    }
+	}
+	
+	IRQ_Degtyarev = {
+		name = "Михаил Дегтярев"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_IRQ_degtyarev"
+			}
+		}
+
+		advisor = {
+    		slot = political_advisor
+            idea_token = IRQ_Degtyarev			
+			allowed = {
+				original_tag = IRQ
+				
+			}			
+			traits = { conservative_grandee }
+			ai_will_do = {
+				factor = 1
+			}
+			on_add = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = 0.3
+		       	}		
+            }
+			on_remove = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = -0.3
+		       	}		
+            }
+	    }
+	}
+	
+	IRQ_Aziz = {
+		name = "Тарик Азиз"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_IRQ_Tarik_Aziz"
+			}
+		}
+
+		advisor = {
+    		slot = political_advisor
+            idea_token = IRQ_Aziz			
+			allowed = {
+				original_tag = IRQ
+				
+			}			
+			traits = { backroom_backstabber }
+			ai_will_do = {
+				factor = 1
+			}
+			on_add = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = -0.3
+		       	}		
+            }
+			on_remove = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = 0.3
+		       	}		
+            }
+	    }
+	}
+	
+	IRQ_lugovoy = {
+		name = "Андрей Луговой"
+		portraits = {
+			army = {
+		    	small = "GFX_idea_IRQ_lugovoy"
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = IRQ_lugovoy
+			allowed = {
+				original_tag = IRQ
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				head_of_intelligence 
+			}
+			on_add = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = 0.3
+		       	}		
+            }
+			on_remove = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = -0.3
+		       	}		
+            }
+		}
+    }
+	
+	IRQ_Sultan_Hashim  = {
+		name = "Султан Хашим Ахмад"
+		portraits = {
+			army = {
+	    		large = "gfx/leaders/IRQ/sultan_hashim.dds"
+				small = "GFX_idea_IRQ_Sultan_Hashim"
+			}
+		}
+		
+		corps_commander = {
+    		traits = { politically_connected harsh_leader }
+        	skill = 3
+        	attack_skill = 2
+        	defense_skill = 2
+        	planning_skill = 3
+        	logistics_skill = 3
+			legacy_id = 0
+		}
+
+		advisor = {	
+			slot = army_chief
+			idea_token = IRQ_Sultan_Hashim
+			allowed = {
+				original_tag = IRQ
+			}
+			traits = {
+				army_chief_morale_2
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+			cost = 150
+			on_add = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = -0.3
+		       	}		
+            }
+			on_remove = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = 0.3
+		       	}		
+            }
+		}
+	}
+	
+	IRQ_Hamid_Raja_Shalah = {
+		name = "Хамид Раджа Салах ат-Тикрити"
+		portraits = {
+			army = {
+				small = "GFX_idea_IRQ_Hamid_Raja_Shalah"
+			}
+		}
+
+		advisor = {	
+			slot = air_chief
+			idea_token = IRQ_Hamid_Raja_Shalah
+			allowed = {
+				original_tag = IRQ
+			}
+			traits = {
+				air_chief_safety_2
+			}
+			cost = 150
+			on_add = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = -0.3
+		       	}		
+            }
+			on_remove = {
+                add_power_balance_value = {
+				    id = IRQ_ldprbaas_balance
+			     	value = 0.3
+		       	}		
+            }
+		}
+	}
+
+}

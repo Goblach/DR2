@@ -1,0 +1,268 @@
+SKT_peace_annex = { 
+	SKT_peace_annex_LAZ = { 
+		available = {
+			is_ai = no
+			has_government = vmestolev
+			has_war = no 
+		    is_neighbor_of = LAZ
+				LAZ = { 
+				    is_ai = yes
+					has_government = vmestolev
+					has_war = no
+				}
+		}
+		
+		fire_only_once = yes
+		days_remove = 10
+		cost = 50
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		remove_effect = {
+			LAZ = {
+				set_nationality = {
+					target_country = SKT
+					character = LAZ_mixan_teoretic
+				} 
+				set_nationality = {
+					target_country = SKT
+					character = LAZ_Plague_Doctor
+				} 
+				set_nationality = {
+					target_country = SKT
+					character = LAZ_Mazov
+				} 
+				set_nationality = {
+					target_country = SKT
+					character = LAZ_RAPER
+				} 
+			}
+			annex_country = {
+				target = LAZ
+				transfer_troops = yes
+			}
+		}	
+	}
+}	
+
+SKT_poisk_borodi = {
+    SKT_poisk_borodi_v_Permi = { 
+	
+		cost = 30
+
+		available = {
+			controls_state = 398
+		}
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = SKT_borod_bez_borodi
+				add_idea = SKT_borod_bez_borodi_1
+			}
+		}	
+	}
+	SKT_poisk_borodi_na_severe = { 
+	
+		cost = 30
+
+		available = {
+			controls_state = 214
+			has_idea = SKT_borod_bez_borodi_1
+		}
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = SKT_borod_bez_borodi_1
+				add_idea = SKT_borod_bez_borodi_2
+			}
+		}	
+	}
+    SKT_poisk_borodi_v_Chate = { 
+	
+		cost = 30
+
+		available = {
+			controls_state = 252
+			has_idea = SKT_borod_bez_borodi_2
+		}
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = SKT_borod_bez_borodi_2
+				add_idea = SKT_borod_bez_borodi_3
+			}
+		}	
+	} 
+    SKT_poisk_borodi_v_Moskve = { 
+	
+		cost = 30
+
+		available = {
+		controls_state = 219
+		has_idea = SKT_borod_bez_borodi_3
+		}
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			set_country_leader_portrait = {
+				ideology = marxismus
+				portrait = "gfx/leaders/SKT/LevoBOROD_22.dds"
+			}
+			swap_ideas = {
+				remove_idea = SKT_borod_bez_borodi_3
+				add_idea = SKT_borod_bez_borodi_4
+			}
+		}	
+	}
+    SKT_poisk_borodi_v_Stalingrade = { 
+	
+		cost = 30
+
+		available = {
+		controls_state = 217
+		has_idea = SKT_borod_bez_borodi_4
+		}
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = SKT_borod_bez_borodi_4
+				add_idea = SKT_borod_bez_borodi_5
+			}
+		}	
+	}
+    SKT_poisk_borodi_v_Kieve = { 
+	
+		cost = 30
+
+		available = {
+		controls_state = 202
+		has_idea = SKT_borod_bez_borodi_5
+		}
+		
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = SKT_borod_bez_borodi_5
+				add_idea = SKT_borod_bez_borodi_6
+			}
+		}	
+	}
+    SKT_poisk_borodi_v_Sverdlovske = { 
+	
+		cost = 30
+
+		available = {
+			controls_state = 653
+			has_idea = SKT_borod_bez_borodi_6
+		}
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = SKT_borod_bez_borodi_6
+				add_idea = SKT_borod_bez_borodi_7
+			}
+		}	
+	}
+    SKT_poisk_borodi_v_Irkutske = { 
+	
+		cost = 30
+
+		available = {
+			controls_state = 566
+			has_idea = SKT_borod_bez_borodi_7
+		}
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			set_country_leader_portrait = {
+				ideology = marxismus
+				portrait = "gfx/leaders/SKT/LevoBOROD_s_borodoy.dds"
+			}
+			swap_ideas = {
+				remove_idea = SKT_borod_bez_borodi_7
+				add_idea = SKT_borod_bez_borodi_8
+			}
+		}	
+	}
+    SKT_poisk_borodi_vo_Vladivostoke = { 
+	
+		cost = 30
+
+		available = {
+		controls_state = 408
+		has_idea = SKT_borod_bez_borodi_8
+		}
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = SKT_borod_bez_borodi_8
+				add_idea = SKT_borod_bez_borodi_9
+			}
+		}	
+	}
+    SKT_vopros_borodi = { 
+	
+		cost = 30
+
+		visible = {
+	    has_idea = SKT_borod_bez_borodi_9
+	    }
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			country_event = SKT.5
+			set_country_leader_portrait = {
+				ideology = marxismus
+				portrait = "gfx/leaders/SKT/LevoBOROD_4.dds"
+			}
+		}	
+	}
+}

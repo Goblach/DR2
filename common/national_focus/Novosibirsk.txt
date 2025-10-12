@@ -1,0 +1,3800 @@
+# CONSTANT FOR INNER CIRCLE TIMES (This is Focus cost so x7 to get the days) - THE CONSTANTS USED IN THE EVENT FILE need to be these values x7
+@inner_circle_time_tier_1 = 10
+@inner_circle_time_tier_2 = 15
+focus_tree = {
+	id = Novosibirsk
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GAL
+		}
+	}
+	default = no
+	focus = {
+		id = GAL_koalicionnoye_pravitelstvo
+		icon = GFX_focus_generic_military_academy
+		cost = 1.00
+		x = 30
+		y = 0
+		completion_reward = {
+			add_stability = 0.05
+			hidden_effect = {
+			load_oob = GAL_1936
+			}
+			custom_effect_tooltip = GAL_koalicionnoye_pravitelstvo_tt
+			country_event = {
+							id = GAL.41
+						}
+		}
+
+	}
+	focus = {
+		id = GAL_cowboyi
+		icon = GFX_goal_lukin_cowboy
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_koalicionnoye_pravitelstvo
+		}
+		mutually_exclusive = {
+			focus = GAL_mobilizaciya_nauchnih_sotrudnikov
+		}
+		x = 16
+		y = 1
+			completion_reward = {
+					load_oob = GAL_kovboys
+				}
+
+	}
+	focus = {
+		id = GAL_lukinistskaya_revolutsiya
+		icon = GFX_goal_generic_support_metacommy
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_cowboyi
+		}
+		x = 16
+		y = 2
+			completion_reward = {
+					add_corps_commander_role = {
+							character = GAL_Romanov
+							traits = {
+
+}
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 3
+							logistics_skill = 1
+							legacy_id = -1
+						}
+					add_corps_commander_role = {
+							character = GAL_Manshova
+							traits = {
+
+}
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 3
+							logistics_skill = 1
+							legacy_id = -1
+						}
+					add_corps_commander_role = {
+							character = GAL_Chigur
+							traits = {
+
+}
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 3
+							logistics_skill = 1
+							legacy_id = -1
+						}
+					add_popularity = {
+		               	ideology = metacommy
+		            	popularity = 0.1
+	             	}
+					set_politics = {
+							ruling_party = metacommy
+							elections_allowed = no
+						}
+					add_ideas = GAL_barini_hozyaini
+					add_ideas = GAL_mentovshina
+					add_ideas = GAL_marakumba_1
+				}
+
+	}
+	focus = {
+		id = GAL_vopros_o_staline
+		icon = GFX_goal_vopros_o_staline
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_lukinistskaya_revolutsiya
+		}
+		x = 13
+		y = 3
+			completion_reward = {
+					country_event = {
+							id = GAL.1
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_antilenin
+		icon = GFX_goal_antilenin
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_lukinistskaya_revolutsiya
+		}
+		x = 15
+		y = 3
+			completion_reward = {
+					add_political_power = 150
+					add_popularity = {
+		              	ideology = vmestolev
+		               	popularity = -0.05
+		            }
+				}
+
+	}
+	focus = {
+		id = GAL_rasprostraneniye_knig_kupcova
+		icon = GFX_goal_generic_propaganda
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_vopros_o_staline
+			focus = GAL_antilenin
+		}
+		x = 13
+		y = 4
+			completion_reward = {
+					unlock_decision_category_tooltip = GAL_kupcov_campaigns
+				}
+
+	}
+	focus = {
+		id = GAL_kult_lichnosti_kalinina
+		icon = GFX_GAL_kalinin
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_antilenin
+			focus = GAL_vopros_o_staline
+		}
+		x = 15
+		y = 4
+			completion_reward = {
+					add_ideas = GAL_kult_lichnosti_Kalinina_i
+				}
+
+	}
+	focus = {
+		id = GAL_nosorog_revolutsii
+		icon = GFX_goal_nosorog_revolutsii
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_lukinistskaya_revolutsiya
+		}
+		x = 17
+		y = 3
+			completion_reward = {
+					add_stability = 0.1
+				}
+
+	}
+	focus = {
+		id = GAL_dat_svobodu_biznesu
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_lukinistskaya_revolutsiya
+		}
+		x = 19
+		y = 3
+			completion_reward = {
+					add_ideas = GAL_biznes
+				}
+
+	}
+	focus = {
+		id = GAL_BEZ_a_ne_BES
+		icon = GFX_goal_bes_bez
+		cost = 2.00
+		prerequisite = {
+			focus = GAL_dat_svobodu_biznesu
+		}
+		x = 18
+		y = 4
+			completion_reward = {
+					add_political_power = 50
+					add_popularity = {
+		              	ideology = fascism
+		               	popularity = 0.05
+		            }
+				}
+
+	}
+	focus = {
+		id = GAL_unichtozhit_barinov-hozyainov
+		icon = GFX_goal_unichtozhit_barinov-hozyainov
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_rasprostraneniye_knig_kupcova
+		}
+		prerequisite = {
+			focus = GAL_kult_lichnosti_kalinina
+		}
+		prerequisite = {
+			focus = GAL_BEZ_a_ne_BES
+		}
+		prerequisite = {
+			focus = GAL_nosorog_revolutsii
+		}
+		x = 16
+		y = 5
+			available = {
+					NOT = {
+							OR = {
+									has_war_with = POK
+									has_war_with = OMS
+									has_war_with = ZNS
+									has_war_with = YSK
+									has_war_with = MGN
+									has_war_with = MRD
+								}
+						}
+				}
+			completion_reward = {
+					remove_ideas = GAL_barini_hozyaini
+					remove_ideas = GAL_biznes
+				}
+
+	}
+	focus = {
+		id = GAL_unichtozheniye_starih_pravitelstvennih_struktur
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_unichtozhit_barinov-hozyainov
+		}
+		x = 16
+		y = 6
+			completion_reward = {
+					remove_ideas = GAL_mentovshina
+				}
+
+	}
+	focus = {
+		id = GAL_goskomtrud
+		icon = GFX_LAZ_focus_trudodny
+		cost = 1.00
+		prerequisite = {
+			focus = GAL_unichtozheniye_starih_pravitelstvennih_struktur
+		}
+		x = 19
+		y = 7
+			completion_reward = {
+					add_ideas = GAL_goskomtrud_i
+				}
+
+	}
+	focus = {
+		id = GAL_gosbank
+		icon = GFX_focus_generic_soviet_politics
+		cost = 1.00
+		prerequisite = {
+			focus = GAL_unichtozheniye_starih_pravitelstvennih_struktur
+		}
+		x = 9
+		y = 7
+			completion_reward = {
+					add_ideas = GAL_gosbank_i
+				}
+
+	}
+	focus = {
+		id = GAL_goskomcen
+		icon = GFX_focus_mex_privatisation
+		cost = 1.00
+		prerequisite = {
+			focus = GAL_unichtozheniye_starih_pravitelstvennih_struktur
+		}
+		x = 11
+		y = 7
+			completion_reward = {
+					add_ideas = GAL_goskomcen_i
+				}
+
+	}
+	focus = {
+		id = GAL_SovMin
+		icon = GFX_focus_generic_military_academy
+		cost = 1.00
+		prerequisite = {
+			focus = GAL_unichtozheniye_starih_pravitelstvennih_struktur
+		}
+		x = 17
+		y = 7
+			completion_reward = {
+					add_ideas = GAL_SovMin_i
+				}
+
+	}
+	focus = {
+		id = GAL_narodnoye_opolcheniye
+		icon = GFX_focus_yug_pan_slavic_congress
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_SovMin
+		}
+		x = 18
+		y = 8
+			completion_reward = {
+				add_ideas = GAL_nar_op_i
+				hidden_effect = {
+							set_technology = {
+									militia_tech = 1
+									popup = no
+								}
+						}
+				division_template = {
+                    name = "Дивизия ополчения"
+
+                    division_names_group = 123_INF_01
+
+                    regiments = {
+                   		militia = { x = 0 y = 0 }
+                 		militia = { x = 0 y = 1 }
+                   		militia = { x = 0 y = 2 }
+                   		militia = { x = 0 y = 3 }
+                   		militia = { x = 1 y = 0 }
+                   		militia = { x = 1 y = 1 }
+                   		militia = { x = 1 y = 2 }
+                   		militia = { x = 2 y = 0 }
+                   		militia = { x = 2 y = 1 }
+                   		militia = { x = 2 y = 2 }
+                    } 
+                 	priority = 1
+                }
+				570 = {
+							create_unit = {
+									division = "name = \"1-я дивизия ополчения \" division_template = \"Дивизия ополчения\" start_experience_factor = 0.3"
+									owner = GAL
+								}
+							create_unit = {
+									division = "name = \"2-я дивизия ополчения \" division_template = \"Дивизия ополчения\" start_experience_factor = 0.3"
+									owner = GAL
+								}
+							create_unit = {
+									division = "name = \"3-я дивизия ополчения \" division_template = \"Дивизия ополчения\" start_experience_factor = 0.3"
+									owner = GAL
+								}
+							create_unit = {
+									division = "name = \"4-я дивизия ополчения \" division_template = \"Дивизия ополчения\" start_experience_factor = 0.3"
+									owner = GAL
+								}
+							create_unit = {
+									division = "name = \"5-я дивизия ополчения \" division_template = \"Дивизия ополчения\" start_experience_factor = 0.3"
+									owner = GAL
+								}
+							create_unit = {
+									division = "name = \"6-я дивизия ополчения \" division_template = \"Дивизия ополчения\" start_experience_factor = 0.3"
+									owner = GAL
+								}
+							create_unit = {
+									division = "name = \"7-я дивизия ополчения \" division_template = \"Дивизия ополчения\" start_experience_factor = 0.3"
+									owner = GAL
+								}
+							create_unit = {
+									division = "name = \"8-я дивизия ополчения \" division_template = \"Дивизия ополчения\" start_experience_factor = 0.3"
+									owner = GAL
+								}
+							create_unit = {
+									division = "name = \"9-я дивизия ополчения \" division_template = \"Дивизия ополчения\" start_experience_factor = 0.3"
+									owner = GAL
+								}
+							create_unit = {
+									division = "name = \"10-я дивизия ополчения \" division_template = \"Дивизия ополчения\" start_experience_factor = 0.3"
+									owner = GAL
+								}	
+						}
+			}
+
+	}
+	focus = {
+		id = GAL_gosplan
+		icon = GFX_goal_generic_position_armies
+		cost = 1.00
+		prerequisite = {
+			focus = GAL_unichtozheniye_starih_pravitelstvennih_struktur
+		}
+		x = 21
+		y = 7
+			completion_reward = {
+					add_ideas = GAL_gosplan_i
+				}
+
+	}
+	focus = {
+		id = GAL_gosstat
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 1.00
+		prerequisite = {
+			focus = GAL_unichtozheniye_starih_pravitelstvennih_struktur
+		}
+		x = 23
+		y = 7
+			completion_reward = {
+					add_ideas = GAL_gosstat_i
+				}
+
+	}
+	focus = {
+		id = GAL_gossnab
+		icon = GFX_goal_generic_consumer_goods
+		cost = 1.00
+		prerequisite = {
+			focus = GAL_unichtozheniye_starih_pravitelstvennih_struktur
+		}
+		x = 25
+		y = 7
+			completion_reward = {
+					add_ideas = GAL_gossnab_i
+				}
+
+	}
+	focus = {
+		id = GAL_rossnab
+		icon = GFX_goal_generic_soviet_construction
+		cost = 1.00
+		prerequisite = {
+			focus = GAL_unichtozheniye_starih_pravitelstvennih_struktur
+		}
+		x = 27
+		y = 7
+			completion_reward = {
+					add_ideas = GAL_rossnab_i
+				}
+
+	}
+	focus = {
+		id = GAL_genii_v_NII
+		icon = GFX_goal_continuous_research
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_goskomtrud
+		}
+		prerequisite = {
+			focus = GAL_gosplan
+		}
+		prerequisite = {
+			focus = GAL_gosstat
+		}
+		prerequisite = {
+			focus = GAL_gossnab
+		}
+		prerequisite = {
+			focus = GAL_rossnab
+		}
+		x = 21
+		y = 8
+			completion_reward = {
+					add_ideas = GAL_genii_v_NII_i
+					add_research_slot = 1
+				}
+
+	}
+	focus = {
+		id = GAL_focus_na_radari
+		icon = GFX_goal_generic_radar
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_genii_v_NII
+		}
+		x = 19
+		y = 9
+			completion_reward = {
+					570 = {
+							add_building_construction = {
+									type = radar_station
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_bomba
+		icon = GFX_focus_wonderweapons
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_focus_na_radari
+		}
+		x = 20
+		y = 10
+			completion_reward = {
+					add_tech_bonus = {
+							name = secret_bonus
+							bonus = 1.0
+							uses = 2
+							category = nuclear
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_Stroyka_kosmoporta
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_genii_v_NII
+		}
+		x = 21
+		y = 9
+			completion_reward = {
+					570 = {
+							add_building_construction = {
+									type = air_base
+									level = 5
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_kosmoleti
+		icon = GFX_goal_Cosmoleti
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_Stroyka_kosmoporta
+		}
+		x = 21
+		y = 11
+			completion_reward = {
+					set_technology = {
+							cosmolet = 1
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_proekt_velikikogo_kosmicheskogo_tambova
+		icon = GFX_goal_great_space_tambov
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_kosmoleti
+		}
+		x = 21
+		y = 13
+			completion_reward = {
+					set_country_flag = GAL_gst_stroyka_country_flag
+					unlock_decision_category_tooltip = GST_cat
+				}
+
+	}
+	focus = {
+		id = GAL_proizvodstvo_combainov
+		icon = GFX_goal_proizvodstvo_combaynov
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_gosplan
+		}
+		prerequisite = {
+			focus = GAL_gosstat
+		}
+		prerequisite = {
+			focus = GAL_gossnab
+		}
+		prerequisite = {
+			focus = GAL_rossnab
+		}
+		prerequisite = {
+			focus = GAL_goskomtrud
+		}
+		x = 23
+		y = 8
+			available_if_capitulated = yes
+			completion_reward = {
+					570 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_proizvodstvo_tractorov
+		icon = GFX_goal_proizvodstvo_tractorov
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_gosplan
+		}
+		prerequisite = {
+			focus = GAL_gosstat
+		}
+		prerequisite = {
+			focus = GAL_gossnab
+		}
+		prerequisite = {
+			focus = GAL_rossnab
+		}
+		prerequisite = {
+			focus = GAL_goskomtrud
+		}
+		x = 25
+		y = 8
+			available_if_capitulated = yes
+			completion_reward = {
+					570 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_tanki_na_tractornom_zavode
+		icon = GFX_goal_generic_army_tanks
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_proizvodstvo_combainov
+		}
+		prerequisite = {
+			focus = GAL_proizvodstvo_tractorov
+		}
+		x = 24
+		y = 9
+			completion_reward = {
+					570 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_sovhozi
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_tanki_na_tractornom_zavode
+		}
+		x = 24
+		y = 13
+			completion_reward = {
+					clr_country_flag = GAL_stop_marakumba_up
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_1
+									NOT = {
+											has_country_flag = GAL_stop_marakumba_up
+										}
+								}
+							set_country_flag = GAL_stop_marakumba_up
+							swap_ideas = {
+									remove_idea = GAL_marakumba_1
+									add_idea = GAL_marakumba_2
+								}
+						}
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_2
+									NOT = {
+											has_country_flag = GAL_stop_marakumba_up
+										}
+								}
+							set_country_flag = GAL_stop_marakumba_up
+							swap_ideas = {
+									remove_idea = GAL_marakumba_2
+									add_idea = GAL_marakumba_3
+								}
+						}
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_3
+									NOT = {
+											has_country_flag = GAL_stop_marakumba_up
+										}
+								}
+							set_country_flag = GAL_stop_marakumba_up
+							swap_ideas = {
+									remove_idea = GAL_marakumba_3
+									add_idea = GAL_marakumba_4
+								}
+						}
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_4
+									NOT = {
+											has_country_flag = GAL_stop_marakumba_up
+										}
+								}
+							set_country_flag = GAL_stop_marakumba_up
+							swap_ideas = {
+									remove_idea = GAL_marakumba_4
+									add_idea = GAL_marakumba_5
+								}
+						}
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_5
+									NOT = {
+											has_country_flag = GAL_stop_marakumba_up
+										}
+								}
+							set_country_flag = GAL_stop_marakumba_up
+							swap_ideas = {
+									remove_idea = GAL_marakumba_5
+									add_idea = GAL_marakumba_6
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_PBK
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		cost = 1.00
+		prerequisite = {
+			focus = GAL_unichtozheniye_starih_pravitelstvennih_struktur
+		}
+		x = 13
+		y = 7
+			completion_reward = {
+					add_ideas = GAL_PBK_i
+					add_cic = 500
+				}
+
+	}
+	focus = {
+		id = GAL_minvneshtorg
+		icon = GFX_goal_generic_trade
+		cost = 1.00
+		prerequisite = {
+			focus = GAL_unichtozheniye_starih_pravitelstvennih_struktur
+		}
+		x = 15
+		y = 7
+			completion_reward = {
+					add_ideas = GAL_minvneshtorg_i
+				}
+
+	}
+	focus = {
+		id = GAL_speznaz
+		icon = GFX_goal_generic_special_forces
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_SovMin
+		}
+		x = 16
+		y = 8
+			completion_reward = {
+					add_ideas = GAL_speznaz_i
+				}
+
+	}
+	focus = {
+		id = GAL_export_lukinizma
+		icon = GFX_focus_generic_little_entente
+		cost = 2.00
+		prerequisite = {
+			focus = GAL_speznaz
+		}
+		prerequisite = {
+			focus = GAL_narodnoye_opolcheniye
+		}
+		x = 17
+		y = 9
+			completion_reward = {
+					create_intelligence_agency = yes
+					set_country_flag = DR_start_reunite_Russia_cf
+				}
+
+	}
+	focus = {
+		id = GAL_vtorzheniye_na_celenu
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_export_lukinizma
+		}
+		x = 16
+		y = 10
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = LIM
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_centralnaya_rossiya
+		icon = GFX_goal_generic_major_war
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_vtorzheniye_na_celenu
+		}
+		prerequisite = {
+			focus = GAL_bashkiriya
+		}
+		x = 17
+		y = 11
+		bypass = { NOT = { LAZ = { exists = yes } OSV = { exists = yes } CHT = { exists = yes } UNT = { exists = yes } MAT = { exists = yes } } }
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = LAZ
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = OSV
+						}	
+					create_wargoal = {
+							type = annex_everything
+							target = CHT
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = UNT
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = MAT
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_marakumbniye_regioni_rossii
+		icon = GFX_LAZ_focus_kolhoz
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_centralnaya_rossiya
+		}
+		x = 16
+		y = 12
+		bypass = { NOT = { KRR = { exists = yes } NOD = { exists = yes } HAZ = { exists = yes } STR = { exists = yes } CHK = { exists = yes } CRI = { exists = yes } } }
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = KRR
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = NOD
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = HAZ
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = STR
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = CHK
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = CRI
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_import_marakumbi
+		icon = GFX_goal_import_marakumbi
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_minvneshtorg
+		}
+		x = 15
+		y = 11
+			completion_reward = {
+					unlock_decision_category_tooltip = GAL_marakumba_zapasi_balance_of_power_category
+					add_ideas = GAL_marakumba_import_0
+					set_country_flag = GAL_marakumba_cf
+				}
+
+	}
+	focus = {
+		id = GAL_samoobespecheniye_marakumboy
+		icon = GFX_focus_generic_soviet_politics
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_proekt_velikikogo_kosmicheskogo_tambova
+		}
+		prerequisite = {
+			focus = GAL_import_marakumbi
+		}
+		prerequisite = {
+			focus = GAL_sovhozi
+		}
+		prerequisite = {
+			focus = GAL_legalizaciya
+		}
+		prerequisite = {
+			focus = GAL_bivshie_respupliki
+		}
+		x = 16
+		y = 14
+			available = {
+					owns_state = 218
+					controls_state = 218
+					owns_state = 238
+					controls_state = 238
+					owns_state = 245
+					controls_state = 245
+					owns_state = 234
+					controls_state = 234
+					owns_state = 137
+					controls_state = 137
+					owns_state = 235
+					controls_state = 235
+				}
+			completion_reward = {
+					add_ideas = GAL_marakumba_6
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_1
+								}
+							remove_idea = GAL_marakumba_1
+						}
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_2
+								}
+							remove_idea = GAL_marakumba_2
+						}
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_3
+								}
+							remove_idea = GAL_marakumba_3
+						}
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_4
+								}
+							remove_idea = GAL_marakumba_4
+						}
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_5
+								}
+							remove_idea = GAL_marakumba_5
+						}
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_import_0
+								}
+							remove_idea = GAL_marakumba_import_0
+						}
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_import_1
+								}
+							remove_idea = GAL_marakumba_import_1
+						}
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_import_2
+								}
+							remove_idea = GAL_marakumba_import_2
+						}
+					if = {
+							limit = {
+									has_idea = GAL_marakumba_import_3
+								}
+							remove_idea = GAL_marakumba_import_3
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_ediniy_budget
+		icon = GFX_goal_ediniy_budzhet
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_gosbank
+		}
+		prerequisite = {
+			focus = GAL_goskomcen
+		}
+		prerequisite = {
+			focus = GAL_PBK
+		}
+		x = 11
+		y = 8
+			completion_reward = {
+					add_ideas = GAL_ed_budget_i
+					add_cic = 1500
+				}
+
+	}
+	focus = {
+		id = GAL_obshestvo_bezsmertnih_strannikov_vselennoy
+		icon = GFX_goal_obshestvo_bezsmertnih_strannikov_nselennoy
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_samoobespecheniye_marakumboy
+		}
+		x = 16
+		y = 15
+			completion_reward = {
+					add_ideas = GAL_OBSV
+				}
+
+	}
+	focus = {
+		id = GAL_bashkiriya
+		icon = GFX_goal_attak_bash
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_export_lukinizma
+		}
+		x = 18
+		y = 10
+		bypass = { NOT = { BSH = { exists = yes } } }
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = BSH
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_DV
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_vtorzheniye_na_celenu
+		}
+		prerequisite = {
+			focus = GAL_bashkiriya
+		}
+		x = 19
+		y = 11
+		bypass = { NOT = { BRT = { exists = yes } YAK = { exists = yes } YWO = { exists = yes } MAG = { exists = yes } DOT = { exists = yes } TUB = { exists = yes } KOL = { exists = yes } } }
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = BRT
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = YWO
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = TUB
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = MAG
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = DOT
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = KOL
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = YAK
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_sever
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_centralnaya_rossiya
+		}
+		x = 18
+		y = 12
+		bypass = { NOT = { ARK = { exists = yes } TUP = { exists = yes } MHL = { exists = yes } EBN = { exists = yes } PRM = { exists = yes } SKT = { exists = yes } } }
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = ARK
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = TUP
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = MHL
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = EBN
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = PRM
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = SKT
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_bivshie_respupliki
+		icon = GFX_goal_generic_political_pressure
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_marakumbniye_regioni_rossii
+		}
+		prerequisite = {
+			focus = GAL_sever
+		}
+		x = 17
+		y = 13
+		bypass = { NOT = { TAJ = { exists = yes } KYR = { exists = yes } TMS = { exists = yes } KAZ = { exists = yes } AZR = { exists = yes } ARM = { exists = yes } GEO = { exists = yes } VSB = { exists = yes } SPL = { exists = yes } WHS = { exists = yes } ZWN = { exists = yes } DON = { exists = yes } UKR = { exists = yes } KUR = { exists = yes } CHE = { exists = yes } SIN = { exists = yes } ZHE = { exists = yes } MOL = { exists = yes } } }
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = KAZ
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = KYR
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = TAJ
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = TMS
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = AZR
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = ARM
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = GEO
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = VSB
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = SPL
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = WHS
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = ZWN
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = DON
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = UKR
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = KUR
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = CHE
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = SIN
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = ZHE
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = MOL
+						}
+				}
+
+	}
+	focus = {
+		id = GAL_vodochnaya_monopoliya
+		icon = GFX_goal_vodka
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_ediniy_budget
+		}
+		x = 12
+		y = 9
+			completion_reward = {
+					add_ideas = GAL_vodochnaya_monopoliya_i
+				}
+
+	}
+	focus = {
+		id = GAL_tabachnaya_monopoliya
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_ediniy_budget
+		}
+		x = 10
+		y = 9
+			completion_reward = {
+					add_ideas = GAL_tabachnaya_monopoliya_i
+				}
+
+	}
+	focus = {
+		id = GAL_chastnaya_torgovlya
+		icon = GFX_goal_generic_consumer_goods
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_tabachnaya_monopoliya
+		}
+		prerequisite = {
+			focus = GAL_vodochnaya_monopoliya
+		}
+		x = 13
+		y = 11
+			completion_reward = {
+					add_ideas = GAL_chastnaya_torgovlya_i
+				}
+
+	}
+	focus = {
+		id = GAL_naz_torgovci
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_chastnaya_torgovlya
+		}
+		x = 13
+		y = 12
+			completion_reward = {
+					add_ideas = GAL_naz_torgovci_i
+				}
+
+	}
+	focus = {
+		id = GAL_reforma_pensii
+		icon = GFX_focus_cht_new_nalogooblazhenie
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_tabachnaya_monopoliya
+		}
+		prerequisite = {
+			focus = GAL_vodochnaya_monopoliya
+		}
+		x = 11
+		y = 11
+			completion_reward = {
+					add_stability = 0.05
+				}
+
+	}
+	focus = {
+		id = GAL_legalizaciya
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_reforma_pensii
+		}
+		x = 11
+		y = 13
+			completion_reward = {
+					add_ideas = MRH_drugs_revolution
+				}
+
+	}
+###ПУШНОЙ###
+	focus = {
+		id = GAL_mobilizaciya_nauchnih_sotrudnikov
+		icon = GFX_focus_bg_red_wreath_sold
+		cost = 3.00
+		prerequisite = {
+			focus = GAL_koalicionnoye_pravitelstvo
+		}
+		mutually_exclusive = {
+			focus = GAL_cowboyi
+		}
+		x = 45
+		y = 1
+		completion_reward = {
+			hidden_effect = {
+			add_field_marshal_role = {
+				character = GAL_pusnoy
+				traits = { brilliant_strategist  inspirational_leader }
+				skill = 3
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+				legacy_id = -1
+			}
+			add_corps_commander_role = {
+				character = GAL_sndk
+				traits = { harsh_leader trickster }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 3
+				logistics_skill = 1
+				legacy_id = -1
+			}
+			add_corps_commander_role = {
+				character = GAL_Boyarshinov
+				traits = { old_guard trait_engineer }
+				skill = 2
+				attack_skill = 1
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 4
+				legacy_id = -1
+			}
+			add_field_marshal_role = {
+				character = GAL_Deb
+				traits = { harsh_leader infantry_leader }
+				skill = 3
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 3
+				logistics_skill = 2
+				legacy_id = -1
+			}
+			add_corps_commander_role = {
+				character = GAL_Savvateev
+				traits = { ranger }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 5
+				logistics_skill = 1
+				legacy_id = -1
+			}
+			add_corps_commander_role = {
+				character = GAL_Sokolov
+				traits = { organizer }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 1
+				legacy_id = -1
+			}
+			add_corps_commander_role = {
+				character = GAL_toples
+				traits = { media_personality }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+				legacy_id = -1
+			}
+			add_corps_commander_role = {
+				character = GAL_Panchin
+				traits = { trait_GAL_onepunch }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+				legacy_id = -1
+			}
+			}
+			custom_effect_tooltip = GAL_mobilizaciya_nauchnih_sotrudnikov_tt
+			add_ideas = { GAL_cowboyi_protivodeystvie }
+				division_template = {
+					name = "Университетская дивизия"
+					division_names_group = POK_JBT_01
+
+		            regiments = {
+                    infantry = { x = 0 y = 0 }
+		            infantry = { x = 0 y = 1 }
+		            infantry = { x = 0 y = 2 }
+		            infantry = { x = 1 y = 0 }
+		            infantry = { x = 1 y = 1 }
+		            infantry = { x = 1 y = 2 }
+		            artillery_brigade = { x = 2 y = 0 }
+		            artillery_brigade = { x = 2 y = 1 }
+	                }
+					support = {
+					recon = { x = 0 y = 0 }
+					}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"Университетская дивизия\" division_template = \"Университетская дивизия\" start_experience_factor = 0.3 start_equipment_factor = 1.0" owner = ROOT
+					}
+					create_unit = { 
+						division = "name = \"Университетская дивизия\" division_template = \"Университетская дивизия\" start_experience_factor = 0.3 start_equipment_factor = 1.0" owner = ROOT
+					}
+				}
+			
+		}
+	}
+	focus = {
+		id = GAL_tehnat_pravitelstvo
+		icon = GFX_GAL_tehnat_pravitelstvo 
+		cost = 2.00
+		prerequisite = {
+			focus = GAL_mobilizaciya_nauchnih_sotrudnikov
+		}
+		x = 45
+		y = 2
+		completion_reward = {
+			add_ideas = GAL_tecnocratia
+		}
+	}
+	focus = {
+		id = GAL_krisis_manager
+		icon = GFX_GAL_krisis_manager
+		cost = 2.00
+		prerequisite = {
+			focus = GAL_tehnat_pravitelstvo
+		}
+		x = 45
+		y = 3
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = GAL_peregovor_komision
+		icon = GFX_GAL_peregovor_komision
+		cost = 2.00
+		prerequisite = {
+			focus = GAL_krisis_manager
+		}
+		x = 43
+		y = 4
+		completion_reward = {
+			add_political_power = 50
+			POK = {
+				add_war_support = -0.05
+			}
+			MGN = {
+				add_war_support = -0.05
+			}
+			YSK = {
+				add_war_support = -0.05
+			}
+			OMS = {
+				add_war_support = -0.05
+			}
+			ZNS = {
+				add_war_support = -0.05
+			}
+		}
+	}
+	focus = {
+		id = GAL_delo_Lukina
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = GAL_peregovor_komision
+		}
+		x = 42
+		y = 5
+		completion_reward = {
+			remove_ideas = GAL_cowboyi_protivodeystvie
+			retire_character = GAL_lukin
+			retire_character = GAL_andrey_kupcov
+			add_manpower = -5000
+		}
+	}
+	focus = {
+		id = GAL_Panki_Hoy
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = GAL_peregovor_komision
+		}
+		x = 44
+		y = 5
+		available = {
+			OMS = {
+				exists = no
+			}
+			controls_state = 571
+		}
+		completion_reward = {
+			add_manpower = 30000
+			every_possible_country = {
+				limit = { has_character = GAL_Drobyshevskiy }
+				random_character = {
+					limit = { is_character = GAL_Drobyshevskiy }
+					set_nationality = GAL
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAL_liberalism_golovnogo_mozga
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = GAL_peregovor_komision
+		}
+		x = 43
+		y = 6
+		completion_reward = {
+			add_timed_idea = {
+				idea = GAL_protiv_liberalisma
+				days = 100
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.1
+			}
+			country_event = { id = GAL.3 }
+		}
+
+	}
+	focus = {
+		id = GAL_nado_radovatsya
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = GAL_krisis_manager
+		}
+		x = 45
+		y = 7
+		available = {
+			always = no
+		}
+		completion_reward = {
+			custom_effect_tooltip = DR_REU_RUS_open_reunific_tt
+			hidden_effect = {
+				set_country_flag = DR_start_reunite_Russia_cf
+			}
+		}
+	}
+	focus = {
+		id = GAL_ey_uhnem
+		icon = GFX_GAL_ey_uhnem
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_nado_radovatsya
+		}
+		available = {
+			has_completed_focus = GAL_videnie_Pushnogo
+		}
+		mutually_exclusive = {
+			focus = GAL_ne_nado_napragat
+		}
+		x = 32
+		y = 8
+		completion_reward = {
+			add_timed_idea = {
+				idea = GAL_ey_uhnem
+				days = 100
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_ne_nado_napragat
+		icon = GFX_GAL_ne_nado_napragat
+		cost = 3.00
+		prerequisite = {
+			focus = GAL_nado_radovatsya
+		}
+		available = {
+			has_completed_focus = GAL_videnie_Pushnogo
+		}
+		mutually_exclusive = {
+			focus = GAL_ey_uhnem
+		}
+		x = 34
+		y = 8
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 100
+		}
+
+	}
+	focus = {
+		id = GAL_rashirit_NII
+		icon = GFX_goal_continuous_research
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_ey_uhnem
+			focus = GAL_ne_nado_napragat
+		}
+		x = 30
+		y = 9
+		completion_reward = {
+			add_research_slot = 1
+		}
+
+	}
+	focus = {
+		id = GAL_ot_vinta
+		icon = GFX_GAL_ot_vinta
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_rashirit_NII
+		}
+		available = {
+			controls_state = 566
+		}
+		x = 27
+		y = 10
+		completion_reward = {
+			air_experience = 50
+			mio:POK_Irkut = {
+				add_mio_size = 2
+			}
+			mio:POK_Irkut = {
+				add_mio_funds_gain_factor = 0.10
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = light_air
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = medium_air
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = heavy_air
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_tankograd
+		icon = GFX_GAL_tankograd
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_rashirit_NII
+		}
+		available = {
+			controls_state = 653
+		}
+		x = 29
+		y = 10
+		completion_reward = {
+			653 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+						level = 3
+						instant_build = yes
+				}
+			}
+			mio:POK_UVZ  = {
+				add_mio_size = 1
+			}
+			mio:POK_UVZ  = {
+				add_mio_funds_gain_factor = 0.10
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = armor
+			}
+		}
+	}
+	focus = {
+		id = GAL_big_gun
+		icon = GFX_goal_big_gun
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_rashirit_NII
+		}
+		available = {
+			controls_state = 653
+		}
+		x = 31
+		y = 10
+		completion_reward = {
+			mio:POK_zavod9 = {
+				add_mio_size = 1
+			}
+			mio:POK_zavod9 = {
+				add_mio_funds_gain_factor = 0.10
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = artillery
+			}
+			create_railway_gun = {
+				equipment = railway_gun_equipment_1
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_stroyki_za_dolgi
+		icon = GFX_GAL_stroyki_za_dolgi
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_ey_uhnem
+			focus = GAL_ne_nado_napragat
+		}
+		mutually_exclusive = {
+			focus = GAL_stroyki_za_premiyu
+		}
+		x = 32
+		y = 9
+		completion_reward = {
+			add_ideas = GAL_stroyki_za_dolgi
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = construction_tech
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_stroyki_za_premiyu
+		icon = GFX_GAL_stroyki_za_premiyu
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_ey_uhnem
+			focus = GAL_ne_nado_napragat
+		}
+		mutually_exclusive = {
+			focus = GAL_stroyki_za_dolgi
+		}
+		x = 34
+		y = 9
+		completion_reward = {
+			add_ideas = GAL_stroyki_za_premiyu
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = construction_tech
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_rashirit_TransSib
+		icon = GFX_GAL_rashirit_TransSib
+		cost = 3.00
+		prerequisite = {
+			focus = GAL_ey_uhnem
+			focus = GAL_ne_nado_napragat
+		}
+		x = 36
+		y = 9
+		completion_reward = {
+			build_railway = {
+				path = { 1821  307  1543  10189  4824  7846  7774  3472  10600  12652  4700  10696  12679  1733  1860  7825  7274  4866  7757  12631  7886  7815  4724  12691  12621  1876  1813  10549 }
+			}
+		}
+	}
+	focus = {
+		id = GAL_experimenty 
+		icon = GFX_GAL_experimenty
+		cost = 2.00
+		prerequisite = {
+			focus = GAL_nado_radovatsya
+		}
+		available = {
+			has_completed_focus = GAL_videnie_Pushnogo
+		}
+		x = 45
+		y = 8
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	focus = {
+		id = GAL_nayka_pobezhdat
+		icon = GFX_GAL_nayka_pobezhdat
+		cost = 4.00
+		prerequisite = {
+			focus = GAL_krisis_manager
+		}
+		x = 48
+		y = 4
+		completion_reward = {
+			add_ideas = GAL_military_nauka
+			army_experience = 25
+		}
+
+	}
+	focus = {
+		id = GAL_voen_praktika
+		icon = GFX_GAL_voen_praktika
+		cost = 4.00
+		prerequisite = {
+			focus = GAL_nayka_pobezhdat
+		}
+		x = 46
+		y = 5
+		completion_reward = {
+			add_ideas = GAL_students_in_army
+			army_experience = 10
+		}
+
+	}
+	focus = {
+		id = GAL_tsel_vyzhit
+		icon = GFX_GAL_tsel_vyzhit
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_nayka_pobezhdat
+		}
+		x = 48
+		y = 5
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GAL_military_nauka
+				add_idea = GAL_military_nauka_2
+			}
+		}
+	}
+	focus = {
+		id = GAL_zadacha_oborona
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = GAL_tsel_vyzhit
+		}
+		x = 47
+		y = 6
+		completion_reward = {
+			if = {
+				limit = { has_idea = GAL_military_nauka_um }
+				swap_ideas = {
+					remove_idea = GAL_military_nauka_um
+					add_idea = GAL_military_nauka_final
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = GAL_military_nauka_2
+					add_idea = GAL_military_nauka_ch
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAL_zadacha_proryv
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = GAL_tsel_vyzhit
+		}
+		x = 49
+		y = 6
+		completion_reward = {
+			if = {
+				limit = { has_idea = GAL_military_nauka_ch }
+				swap_ideas = {
+					remove_idea = GAL_military_nauka_ch
+					add_idea = GAL_military_nauka_final
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = GAL_military_nauka_2
+					add_idea = GAL_military_nauka_um
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAL_voenspetsi
+		icon = GFX_GAL_voenspetsi
+		cost = 4.00
+		prerequisite = {
+			focus = GAL_nayka_pobezhdat
+		}
+		x = 50
+		y = 5
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+					cost_reduction = 0.5
+					uses = 2
+					category = land_doctrine
+			}
+			custom_effect_tooltip = available_theorist
+			show_ideas_tooltip = GAL_military_council
+		}
+
+	}
+	focus = {
+		id = GAL_zadacha_osvobod_nauki
+		icon = GFX_GAL_zadacha_osvobod_nauki 
+		cost = 8.00
+		prerequisite = {
+			focus = GAL_nado_radovatsya
+		}
+		available = {
+			has_completed_focus = GAL_Panki_Hoy
+			has_completed_focus = GAL_liberalism_golovnogo_mozga
+		}
+		x = 57
+		y = 8
+		select_effect = {
+			hidden_effect = {
+				country_event = { id = GAL.4 days = 15 } 
+				country_event = { id = GAL.5 days = 30 } 
+			}
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GAL_tecnocratia
+				add_idea = GAL_tecnocratia_2
+			}
+			country_event = { id = GAL.45 } 
+		}	
+	}
+	focus = {
+		id = GAL_pochemy_socialism
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = GAL_zadacha_osvobod_nauki
+		}
+		mutually_exclusive = {
+			focus = GAL_otkaz_ot_radikalisma
+			focus = GAL_pisma_Saveleva
+		}
+		x = 55
+		y = 9
+		completion_reward = {
+			add_country_leader_role = { 
+				character = GAL_pusnoy
+				promote_leader = yes
+				country_leader = {
+					desc = "POLITICS_PUSNOY_DESC"     
+					ideology = kybernetika_vernadsry
+					expire = "1965.1.1.1"
+				}
+			}
+			add_popularity = {
+				ideology = metacommy
+				popularity = 0.1
+			}
+			set_politics = { ruling_party = metacommy }
+			set_portraits = {
+				character = GAL_pusnoy
+				civilian = { large = GFX_GAL_Pushnoy_Lenin }
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = KUR_vasserman
+			hidden_effect = {
+				GAL_Panchin = {
+					unit_leader_event = { id = GAL.6 days = 15 }
+				}
+				every_possible_country = {
+					limit = { has_character = KUR_vasserman }
+					random_character = {
+						limit = { is_character = KUR_vasserman }
+						set_nationality = GAL
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAL_otkaz_ot_radikalisma
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = GAL_zadacha_osvobod_nauki
+		}
+		mutually_exclusive = {
+			focus = GAL_pochemy_socialism
+			focus = GAL_pisma_Saveleva
+		}
+		x = 57
+		y = 9
+		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = GAL_pisma_Saveleva
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = GAL_zadacha_osvobod_nauki
+		}
+		mutually_exclusive = {
+			focus = GAL_pochemy_socialism
+			focus = GAL_otkaz_ot_radikalisma
+		}
+		x = 59
+		y = 9
+		completion_reward = {
+			add_country_leader_role = { 
+				character = GAL_pusnoy
+				promote_leader = yes
+				country_leader = {
+					desc = "POLITICS_PUSNOY_DESC"     
+					ideology = cybernetics
+					expire = "1965.1.1.1"
+				}
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			set_politics = { ruling_party = fascism }
+			set_portraits = {
+				character = GAL_pusnoy
+				civilian = { large = GFX_GAL_Pushnoy_Lysenko }
+			}
+			hidden_effect = {
+				GAL_Savvateev = {
+					unit_leader_event = { id = GAL.7 days = 15 }
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAL_videnie_Pushnogo
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_pochemy_socialism
+			focus = GAL_otkaz_ot_radikalisma
+			focus = GAL_pisma_Saveleva
+		}
+		x = 57
+		y = 10
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = GAL_pochemy_socialism
+				}
+				add_country_leader_trait = new_cybernetik
+			}
+			if = {
+				limit = {
+					has_completed_focus = GAL_otkaz_ot_radikalisma
+				}
+				add_country_leader_trait = rock_star
+			}
+			if = {
+				limit = {
+					has_completed_focus = GAL_pisma_Saveleva
+				}
+				add_country_leader_trait = verch_tehnokrat
+			}
+		}
+	}
+	focus = { 
+		id = GAL_issledovanie_noosfery
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_videnie_Pushnogo
+		}
+		available = {
+			has_government = metacommy
+		}
+		x = 52
+		y = 12
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = electronics
+			}
+			custom_effect_tooltip = GAL_wire_decisions_tt
+			set_variable = { GAL_wire_number = 0 }
+            country_event = { id = GAL.44 } 
+		}
+	}
+	focus = {
+		id = GAL_krasniy_svet
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_issledovanie_noosfery
+		}
+		x = 51
+		y = 13
+		completion_reward = {
+			custom_effect_tooltip = GAL_monthly_population_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						is_controlled_by = ROOT
+						has_dynamic_modifier = { modifier = GAL_wired_state }
+					}
+					add_to_variable = { GAL_monthly_population = 0.3 }
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAL_plody_lybvi
+		icon = GFX_plody_lybvi
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_krasniy_svet
+		}
+		x = 50
+		y = 14
+		completion_reward = {
+			add_ideas = GAL_krasniy_rassvet
+		}
+	}
+	focus = {
+		id = GAL_i_povolok_brevno
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_issledovanie_noosfery
+		}
+		available = {
+			has_completed_focus = GAL_krasniy_svet
+		}
+		x = 53
+		y = 13
+		completion_reward = {
+			custom_effect_tooltip = GAL_production_speed_buildings_factor_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						is_controlled_by = ROOT
+						has_dynamic_modifier = { modifier = GAL_wired_state }
+					}
+					add_to_variable = { var = GAL_production_speed_buildings_factor value = 0.15 }
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAL_svyaz_i_communocation
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_i_povolok_brevno
+		}
+		x = 54
+		y = 14
+		completion_reward = {
+			add_ideas = GAL_svyaz_i_communocation
+			set_technology = { GAL_signal_upgrade = 1 popup = yes }
+			custom_effect_tooltip = GAL_signal_upgrade_tt
+		}
+	}
+	focus = {
+		id = GAL_proekt_galileo
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = GAL_plody_lybvi
+		}
+		prerequisite = {
+			focus = GAL_vse_idet_po_planu
+		}
+		prerequisite = {
+			focus = GAL_svyaz_i_communocation
+		}
+		available = {
+			custom_override_tooltip = {
+				check_variable = { GAL_wire_number > 30 }
+				tooltip = GAL_wire_number_above_30
+			}
+		}
+		cancelable = no
+		x = 52
+		y = 15
+		completion_reward = {
+			country_event = { id = GAL.9 }
+			clear_variable = GAL_wire_number
+		}
+	}
+	focus = {
+		id = GAL_rok_kotserty
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_videnie_Pushnogo
+		}
+		available = {
+			has_government = neutrality
+		}
+		x = 57
+		y = 12
+		completion_reward = {
+			unlock_decision_category_tooltip = GAL_rock_zhiv
+				country_event = { id = GAL.43 } 
+		}
+	}
+	focus = {
+		id = GAL_syberia
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_rok_kotserty
+			focus = GAL_issledovanie_noosfery
+		}
+		available = {
+		}
+		x = 55
+		y = 13
+		completion_reward = {
+			country_event = { id = GAL.8 }
+		}
+	}
+	focus = {
+		id = GAL_nauka_i_iskusstvo
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_rok_kotserty
+		}
+		x = 57
+		y = 13
+		completion_reward = {
+			add_ideas = GAL_nauka_i_iskusstvo
+		}
+
+	}
+	focus = {
+		id = GAL_genetika_nauka
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_videnie_Pushnogo
+		}
+		available = {
+			has_government = fascism
+		}
+		x = 62
+		y = 12
+		completion_reward = {
+			unlock_decision_category_tooltip = GAL_genetika_nauka_decisions_category
+			country_event = {
+							id = GAL.42
+						}
+			hidden_effect = {
+				activate_mission = GAL_drobysh_agenda
+				add_ideas = GAL_drobysh_idea
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_unictozit_political_yarliks
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_genetika_nauka
+			focus = GAL_rok_kotserty
+		}
+		x = 59
+		y = 13
+		completion_reward = {
+			if = {
+                limit = {
+                    has_completed_focus = GAL_rok_kotserty
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.15
+				}
+			}
+			else_if = {
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.15
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAL_konstruirovanie_kast
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_genetika_nauka
+		}
+		x = 61
+		y = 13
+		completion_reward = {
+			add_ideas = GAL_kasty
+		}
+
+	}
+	focus = {
+		id = GAL_otmena_turem
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_konstruirovanie_kast
+		}
+		x = 60
+		y = 14
+		completion_reward = {
+			add_ideas = GAL_otmena_turem_idea
+		}
+	}
+	focus = {
+		id = GAL_renesans
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_nauka_i_iskusstvo
+		}
+		x = 58
+		y = 14
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GAL_nauka_i_iskusstvo
+				add_idea = GAL_renesans
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_osoznanie
+		icon = GFX_goal_unknown
+		cost = 10.00
+		available = {
+			has_idea = GAL_sovet_spor
+		}
+		prerequisite = {
+			focus = GAL_zvuk_oruzhie
+		}
+		cancelable = no
+		x = 57
+		y = 16
+		completion_reward = {
+			country_event = { id = GAL.35 }
+		}
+	}
+	focus = {
+		id = GAL_ozhivit_akadem_goroda
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_genetika_nauka
+		}
+		x = 62
+		y = 14
+		completion_reward = {
+			unlock_decision_category_tooltip = GAL_akademgoroda_cat
+			add_dynamic_modifier = { modifier = GAL_research_akademgoroda }
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GAL_Antonov
+		}
+
+	}
+	focus = {
+		id = GAL_stop_idiokraty
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_ierarhiya_tehnokratii
+		}
+		x = 64
+		y = 14
+		completion_reward = {
+			add_ideas = GAL_war_idiokracy
+		}
+
+	}
+	focus = {
+		id = GAL_proekt_complimintetion
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = GAL_otmena_turem
+		}
+		prerequisite = {
+			focus = GAL_ozhivit_akadem_goroda
+		}
+		prerequisite = {
+			focus = GAL_stop_idiokraty
+		}
+		available = {
+			has_completed_focus = GAL_Syenduk_3
+		}
+		cancelable = no
+		x = 62
+		y = 15
+		select_effect = {
+			country_event = { id = GAL.22 }
+		}
+		completion_reward = {
+			country_event = { id = GAL.23 }
+		}
+
+	}
+	focus = {
+		id = GAL_infantry
+		icon = GFX_GAL_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = GAL_rashirit_NII
+		}
+		available = {
+			controls_state = 40
+		}
+		x = 30
+		y = 11
+		completion_reward = {
+			mio:POK_BMTBP = {
+				add_mio_size = 1
+			}
+			mio:POK_BMTBP = {
+				add_mio_funds_gain_factor = 0.10
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_rational_economy
+		icon = GFX_GAL_rational_economy
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_stroyki_za_dolgi
+			focus = GAL_stroyki_za_premiyu
+		}
+		x = 33
+		y = 10
+		completion_reward = {
+			add_ideas = GAL_rational_economy
+		}
+	}
+	focus = {
+		id = GAL_grazdanskiy_sektor
+		icon = GFX_GAL_grazdanskiy_sektor
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_rational_economy
+		}
+		x = 32
+		y = 11
+			completion_reward = { 
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+							}
+					}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+							}
+					}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+							}
+					}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+							}
+					}
+			}
+
+	}
+	focus = {
+		id = GAL_vpk
+		icon = GFX_GAL_vpk
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_rational_economy
+		}
+		x = 34
+		y = 11
+			completion_reward = {
+					random_owned_controlled_state = {
+					        add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+							}
+					}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+							}
+					}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+							}
+					}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+							}
+					}
+			}
+	}
+	focus = {
+		id = GAL_okonch_vosstanovlenie_strany
+		icon = GFX_GAL_okonch_vosstanovlenie_strany
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_grazdanskiy_sektor
+		}
+		prerequisite = {
+			focus = GAL_vpk
+		}
+		x = 33
+		y = 12
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = GAL_rational_economy
+					add_idea = GAL_rational_economy_2
+				}
+			}
+	}
+	focus = {
+		id = GAL_zapolyar_ZhD
+		icon = GFX_GAL_zapolyar_ZhD
+		cost = 4.00
+		prerequisite = {
+			focus = GAL_rashirit_TransSib
+		}
+		x = 36
+		y = 10
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = { building = infrastructure size > 0 }
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = { building = infrastructure size > 0 }
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = { building = infrastructure size > 0 }
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAL_bogatstvo_severa
+		icon = GFX_GAL_bogatstvo_severa
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_zapolyar_ZhD
+		}
+		available = {
+			controls_state = 580
+			controls_state = 577
+		}
+		x = 36
+		y = 11
+		completion_reward = {
+		    add_resource = {
+                type = oil
+                amount = 20
+                state = 580
+            }   
+            add_resource = {
+                type = oil
+                amount = 20
+                state = 577
+            }
+		}
+	}
+	focus = {
+		id = GAL_ierarhiya_tehnokratii
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_genetika_nauka
+		}
+		x = 63
+		y = 13
+		completion_reward = {
+			add_ideas = {
+				GAL_ierarhiya_tehnokratii
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_new_galileo
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_nauka_i_iskusstvo
+		}
+		x = 56
+		y = 14
+		completion_reward = {
+			add_ideas = {
+				GAL_new_galileo_idea
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_zvuk_oruzhie
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_new_galileo
+		}
+		prerequisite = {
+			focus = GAL_renesans
+		}
+		x = 57
+		y = 15
+		completion_reward = {
+			add_ideas = OMS_zvuk_weapon
+		}
+	}
+	focus = {
+		id = GAL_vse_idet_po_planu
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GAL_issledovanie_noosfery
+		}
+		available = {
+			has_completed_focus = GAL_i_povolok_brevno
+		}
+		x = 52
+		y = 14
+		completion_reward = {
+			custom_effect_tooltip = GAL_local_building_slots_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						is_controlled_by = ROOT
+						has_dynamic_modifier = { modifier = GAL_wired_state }
+					}
+					add_to_variable = { var = GAL_local_building_slots value = 1 }
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_Syenduk
+		icon = GFX_GAL_Syenduk
+		cost = 2
+		prerequisite = {
+			focus = GAL_experimenty
+		}
+		x = 39
+		y = 9
+		available = {
+			has_character = GAL_sndk
+			NOT = {
+				has_idea = GAL_sovet_spor
+			}
+			GAL_scientist_cd_over = yes
+			if = {
+				limit = {
+					has_country_flag = GAL_inner_circle_cd_flag
+				}
+				custom_trigger_tooltip = {
+					tooltip = GAL_scientist_cd_days_tt
+					NOT = {	has_country_flag = GAL_inner_circle_cd_flag }
+				}
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = GER_ascension_of_character_focus_tt
+				CHARACTER = GAL_sndk
+			}
+			GAL_scientist_cd = yes
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GAL_sndk
+			unlock_decision_tooltip = decision = GAL_burunduk 
+			hidden_effect = {
+				country_event = { id = GAL_proekt.01 }
+				GAL_sndk = {
+					unit_leader_event = { id = GAL.19 }
+				}
+			}
+		}
+	}
+	focus = {
+		id = GAL_Syenduk_2
+		icon = GFX_GAL_Syenduk_2
+		cost = @inner_circle_time_tier_1
+		prerequisite = {
+			focus = GAL_Syenduk
+		}
+		x = 39
+		y = 10
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Syenduk_2_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_1 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = GAL_sndk
+						FLAG_DAYS = [?GAL_Syenduk_2_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = GAL_sndk
+						FOCUS = GAL_Syenduk
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			country_event = { id = GAL.20 }
+		}
+	}
+	
+	focus = {
+		id = GAL_Syenduk_3
+		icon = GFX_GAL_Syenduk_3
+		cost = @inner_circle_time_tier_2
+		prerequisite = {
+			focus = GAL_Syenduk_2
+		}
+		x = 39
+		y = 11
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Syenduk_3_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_2 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = GAL_sndk
+						FLAG_DAYS = [?GAL_Syenduk_3_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = GAL_sndk
+						FOCUS = GAL_Syenduk_2
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+			GAL_sndk = {
+				add_scientist_level = {
+					specialization = specialization_land
+					level = 1
+				}
+			}
+			swap_ideas = {
+				remove_idea = GAL_meat
+				add_idea = GAL_meat_2
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_Boyarshinov
+		icon = GFX_GAL_Boyarshinov
+		cost = 2
+		prerequisite = {
+			focus = GAL_experimenty
+		}
+		x = 41
+		y = 9
+		available = {
+			has_character = GAL_Boyarshinov
+			NOT = {
+				has_idea = GAL_sovet_spor
+			}
+			GAL_scientist_cd_over = yes
+			if = {
+				limit = {
+					has_country_flag = GAL_inner_circle_cd_flag
+				}
+				custom_trigger_tooltip = {
+					tooltip = GAL_scientist_cd_days_tt
+					NOT = {	has_country_flag = GAL_inner_circle_cd_flag }
+				}
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = GER_ascension_of_character_focus_tt
+				CHARACTER = GAL_Boyarshinov_name
+			}
+			GAL_scientist_cd = yes
+			add_tech_bonus = {
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				technology = atomic_research
+			}
+			if = {
+				limit = {
+					controls_province = 4261
+					582 = { 
+						is_owned_and_controlled_by = ROOT
+						can_construct_building = nuclear_facility
+					}
+				}
+				582 = { 
+					add_building_construction = {
+						type = nuclear_facility
+						level = 1
+						province = 4261
+						instant_build = yes
+					}
+				}
+			}
+			else = {
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = ROOT
+						can_construct_building = nuclear_facility
+					}
+					construct_building_in_random_province = { nuclear_facility = 1 }
+				}
+			}
+			hidden_effect = {
+				country_event = { id = GAL_proekt.03 }
+				GAL_Boyarshinov = {
+					unit_leader_event = { id = GAL.12 days = 8 }
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_Boyarshinov_2
+		icon = GFX_GAL_Boyarshinov_2
+		cost = @inner_circle_time_tier_1
+		prerequisite = {
+			focus = GAL_Boyarshinov
+		}
+		x = 41
+		y = 10
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Boyarshinov_2_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_1 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = GAL_Boyarshinov
+						FLAG_DAYS = [?GAL_Boyarshinov_2_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = GAL_Boyarshinov_name
+						FOCUS = GAL_Boyarshinov
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			ZHR = {
+				add_offsite_building = { type = arms_factory level = 3 }
+				add_opinion_modifier = { target = GAL modifier = offered_support }
+			}
+			GAL = {
+				add_offsite_building = { type = industrial_complex level = 3 }
+			}
+			add_ideas = GAL_sinofobia
+			send_embargo = CNA
+			send_embargo = PCH
+			send_embargo = ZCH
+			send_embargo = GOM
+			send_embargo = ALI
+			send_embargo = PRC
+			send_embargo = FAL
+		}
+
+	}
+	focus = {
+		id = GAL_Boyarshinov_3
+		icon = GFX_GAL_Boyarshinov_3
+		cost = @inner_circle_time_tier_2
+		prerequisite = {
+			focus = GAL_Boyarshinov_2
+		}
+		x = 41
+		y = 11
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Boyarshinov_3_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_2 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = GAL_Boyarshinov_name
+						FLAG_DAYS = [?GAL_Boyarshinov_3_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = GAL_Boyarshinov_name
+						FOCUS = GAL_Boyarshinov_2
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			add_breakthrough_points = {
+				specialization = specialization_nuclear
+				value = 1
+			}
+			GAL_Boyarshinov = {
+				add_scientist_level = {
+					specialization = specialization_nuclear
+					level = 1
+				}
+			}
+			sp:sp_nuclear_bomb = { add_project_progress_ratio = 0.5 }
+		}
+	}
+	focus = {
+		id = GAL_Toples
+		icon = GFX_GAL_Toples
+		cost = 2
+		prerequisite = {
+			focus = GAL_experimenty
+		}
+		x = 45
+		y = 9
+		available = {
+			has_character = GAL_Toples
+			NOT = {
+				has_idea = GAL_sovet_spor
+			}
+			GAL_scientist_cd_over = yes
+			if = {
+				limit = {
+					has_country_flag = GAL_inner_circle_cd_flag
+				}
+				custom_trigger_tooltip = {
+					tooltip = GAL_scientist_cd_days_tt
+					NOT = {	has_country_flag = GAL_inner_circle_cd_flag }
+				}
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = GER_ascension_of_character_focus_tt
+				CHARACTER = GAL_Toples_name
+			}
+			GAL_scientist_cd = yes
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GAL_Toples
+			country_event = { id = GAL.27 }
+		}
+
+	}
+	focus = {
+		id = GAL_Toples_2
+		icon = GFX_GAL_Toples_2
+		cost = @inner_circle_time_tier_1
+		prerequisite = {
+			focus = GAL_Toples
+		}
+		x = 45
+		y = 10
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Toples_2_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_1 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = GAL_Toples_name
+						FLAG_DAYS = [?GAL_Toples_2_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = GAL_Toples_name
+						FOCUS = GAL_Toples
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			country_event = { id = GAL.28 }
+		}
+
+	}
+	focus = {
+		id = GAL_Toples_3
+		icon = GFX_GAL_Toples_3
+		cost = @inner_circle_time_tier_2
+		prerequisite = {
+			focus = GAL_Toples_2
+		}
+		x = 45
+		y = 11
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Toples_3_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_2 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = GAL_Toples_name
+						FLAG_DAYS = [?GAL_Toples_3_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = GAL_Toples_name
+						FOCUS = GAL_Toples_2
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			country_event = { id = GAL.29 }
+			sp:sp_air_supersonic_jet = { add_project_progress_ratio = 0.3 }
+		}
+	}
+	focus = {
+		id = GAL_Rogozin
+		icon = GFX_GAL_Rogozin
+		cost = 2
+		prerequisite = {
+			focus = GAL_experimenty
+		}
+		x = 43
+		y = 9
+		available = {
+			NOT = {
+				has_idea = GAL_sovet_spor
+			}
+			GAL_scientist_cd_over = yes
+			if = {
+				limit = {
+					has_country_flag = GAL_inner_circle_cd_flag
+				}
+				custom_trigger_tooltip = {
+					tooltip = GAL_scientist_cd_days_tt
+					NOT = {	has_country_flag = GAL_inner_circle_cd_flag }
+				}
+			}
+		}
+		completion_reward = {
+			country_event = { id = GAL.24 }
+			custom_effect_tooltip = {
+				localization_key = GER_ascension_of_character_focus_tt
+				CHARACTER = YSK_Dmitriy_Rogozin
+			}
+			GAL_scientist_cd = yes
+			add_tech_bonus = {
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = rocketry
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_Rogozin_2
+		icon = GFX_GAL_Rogozin_2
+		cost = @inner_circle_time_tier_1
+		prerequisite = {
+			focus = GAL_Rogozin
+		}
+		x = 43
+		y = 10
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Rogozin_2_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_1 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = YSK_Dmitriy_Rogozin
+						FLAG_DAYS = [?GAL_Rogozin_2_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = YSK_Dmitriy_Rogozin
+						FOCUS = GAL_Rogozin
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			YSK_Dmitriy_Rogozin = {
+				add_scientist_level = {
+					specialization = specialization_air
+					level = 1
+				}
+			}
+			custom_effect_tooltip = available_industrial_concern
+			show_ideas_tooltip = GAL_izhevsk_dynamics
+			sp:sp_air_jet_engine = { add_project_progress_ratio = 0.5 }
+		}
+	}
+	focus = {
+		id = GAL_Rogozin_3
+		icon = GFX_GAL_Rogozin_3
+		cost = @inner_circle_time_tier_2
+		prerequisite = {
+			focus = GAL_Rogozin_2
+		}
+		x = 43
+		y = 11
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Rogozin_3_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_2 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = YSK_Dmitriy_Rogozin
+						FLAG_DAYS = [?GAL_Rogozin_3_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = YSK_Dmitriy_Rogozin
+						FOCUS = GAL_Rogozin_2
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			add_breakthrough_points = {
+				specialization = specialization_air
+				value = 1
+			}
+			sp:sp_rockets_ballistic_missile = { add_project_progress_ratio = 0.1 }
+			sp:sp_rockets_medium_range_ballistic_missile = { add_project_progress_ratio = 0.1 }
+			sp:sp_rockets_long_range_ballistic_missile = { add_project_progress_ratio = 0.1 }
+			unlock_decision_tooltip = GAL_baikonur
+			unlock_decision_tooltip = GAL_moon
+			unlock_decision_tooltip = GAL_mars
+		}
+	}
+	focus = {
+		id = GAL_Panchin
+		icon = GFX_GAL_Panchin
+		cost = 2
+		prerequisite = {
+			focus = GAL_experimenty
+		}
+		mutually_exclusive = {
+			focus = GAL_Savvateev
+		}
+		x = 51
+		y = 9
+		available = {
+			has_character = GAL_Panchin
+			NOT = {
+				has_idea = GAL_sovet_spor
+			}
+			GAL_scientist_cd_over = yes
+			if = {
+				limit = {
+					has_country_flag = GAL_inner_circle_cd_flag
+				}
+				custom_trigger_tooltip = {
+					tooltip = GAL_scientist_cd_days_tt
+					NOT = {	has_country_flag = GAL_inner_circle_cd_flag }
+				}
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = GER_ascension_of_character_focus_tt
+				CHARACTER = GAL_Panchin_name
+			}
+			GAL_scientist_cd = yes
+			if = {
+				limit = { has_intelligence_agency = no }
+				create_intelligence_agency = yes
+			}
+			if = {
+				limit = {
+					NOT = { has_done_agency_upgrade = upgrade_interrogation_techniques }
+				}
+				upgrade_intelligence_agency = upgrade_interrogation_techniques 
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GAL_Panchin
+			hidden_effect = {
+			country_event = { id = GAL_proekt.09 }
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_Panchin_2
+		icon = GFX_GAL_Panchin_2
+		cost = @inner_circle_time_tier_1
+		prerequisite = {
+			focus = GAL_Panchin
+		}
+		x = 51
+		y = 10
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Panchin_2_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_1 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = GAL_Panchin_name
+						FLAG_DAYS = [?GAL_Panchin_3_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = GAL_Panchin_name
+						FOCUS = GAL_Panchin	
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			add_ideas = GAL_ban_religion
+		}
+	}
+	focus = {
+		id = GAL_Panchin_3
+		icon = GFX_GAL_Panchin_3
+		cost = @inner_circle_time_tier_2
+		prerequisite = {
+			focus = GAL_Panchin_2
+		}
+		x = 51
+		y = 11
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Panchin_3_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_2 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = GAL_Panchin_name
+						FLAG_DAYS = [?GAL_Panchin_3_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = GAL_Panchin_name
+						FOCUS = GAL_Panchin_2
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			country_event = { id = GAL.38 }
+		}
+	}
+	focus = {
+		id = GAL_Deb
+		icon = GFX_GAL_Deb
+		cost = 2
+		prerequisite = {
+			focus = GAL_experimenty
+		}
+		x = 47
+		y = 9
+		available = {
+			has_character = GAL_Deb
+			NOT = {
+				has_idea = GAL_sovet_spor
+			}
+			GAL_scientist_cd_over = yes
+			if = {
+				limit = {
+					has_country_flag = GAL_inner_circle_cd_flag
+				}
+				custom_trigger_tooltip = {
+					tooltip = GAL_scientist_cd_days_tt
+					NOT = {	has_country_flag = GAL_inner_circle_cd_flag }
+				}
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = GER_ascension_of_character_focus_tt
+				CHARACTER = GAL_Deb_name
+			}
+			GAL_scientist_cd = yes
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = GAL_Deb 
+			hidden_effect = {
+			country_event = { id = GAL_proekt.11 }
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_Deb_2
+		icon = GFX_GAL_Deb_2
+		cost = @inner_circle_time_tier_1
+		prerequisite = {
+			focus = GAL_Deb
+		}
+		x = 47
+		y = 10
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Deb_2_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_1 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = GAL_Deb_name
+						FLAG_DAYS = [?GAL_Deb_2_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = GAL_Deb_name
+						FOCUS = GAL_Deb
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			GAL_Deb = {
+				add_scientist_level = {
+					specialization = specialization_air
+					level = 1
+				}
+			}
+			sp:sp_air_radar = { add_project_progress_ratio = 0.4 }
+			unlock_decision_tooltip = GAL_radioteleskop
+		}
+	}
+	focus = {
+		id = GAL_Deb_3
+		icon = GFX_GAL_Deb_3
+		cost = @inner_circle_time_tier_2
+		prerequisite = {
+			focus = GAL_Deb_2
+		}
+		x = 47
+		y = 11
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Deb_3_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_2 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = GAL_Deb_name
+						FLAG_DAYS = [?GAL_Deb_3_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = GAL_Deb_name
+						FOCUS = GAL_Deb_2
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			country_event = { id = GAL.17 }
+		}
+	}
+	focus = {
+		id = GAL_Savvateev
+		icon = GFX_GAL_Savvateev
+		cost = 2
+		available = {
+			has_character = GAL_Savvateev
+		}
+		prerequisite = {
+			focus = GAL_experimenty
+		}
+		mutually_exclusive = {
+			focus = GAL_Panchin
+		}
+		x = 49
+		y = 9
+		available = {
+			has_character = GAL_Savvateev
+			NOT = {
+				has_idea = GAL_sovet_spor
+			}
+			GAL_scientist_cd_over = yes
+			if = {
+				limit = {
+					has_country_flag = GAL_inner_circle_cd_flag
+				}
+				custom_trigger_tooltip = {
+					tooltip = GAL_scientist_cd_days_tt
+					NOT = {	has_country_flag = GAL_inner_circle_cd_flag }
+				}
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = GER_ascension_of_character_focus_tt
+				CHARACTER = GAL_Savvateev_name
+			}
+			GAL_scientist_cd = yes
+			if = {
+				limit = { has_intelligence_agency = no }
+				create_intelligence_agency = yes
+			}
+			if = {
+				limit = {
+					NOT = { has_done_agency_upgrade = upgrade_form_department }
+				}
+				upgrade_intelligence_agency = upgrade_form_department
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GAL_Savvateev
+			hidden_effect = {
+			country_event = { id = GAL_proekt.13 }
+				GAL_Savvateev = {
+					unit_leader_event = { id = GAL.30 days = 1 }
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = GAL_Savvateev_2
+		icon = GFX_GAL_Savvateev_2 
+		cost = @inner_circle_time_tier_1
+		prerequisite = {
+			focus = GAL_Savvateev
+		}
+		x = 49
+		y = 10
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Savvateev_2_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_1 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = GAL_Savvateev_name
+						FLAG_DAYS = [?GAL_Savvateev_2_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = GAL_Savvateev_name
+						FOCUS = GAL_Savvateev
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			remove_ideas = GAL_sibgektar
+			580 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_manpower = 20000
+				set_state_category = rural
+			}
+			577 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_manpower = 20000
+				set_state_category = rural
+			}
+			576 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_manpower = 20000
+				set_state_category = rural
+			}
+			575 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_manpower = 20000
+				set_state_category = rural
+			}
+			654 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_manpower = 20000
+				set_state_category = rural
+			}
+		}
+	}
+	focus = {
+		id = GAL_Savvateev_3
+		icon = GFX_GAL_Savvateev_3
+		cost = @inner_circle_time_tier_2
+		prerequisite = {
+			focus = GAL_Savvateev_2
+		}
+		x = 49
+		y = 11
+		available = {
+			if = { #ADVISOR WORKING ON THE FOCUS (Show progress)
+				limit = {
+					has_country_flag = GAL_Savvateev_3_in_progress_flag
+				}
+				set_temp_variable = { temp_focus_days = @inner_circle_time_tier_2 } #For tooltip purposes
+				multiply_temp_variable = { temp_focus_days = 7 } #The constant uses focus cost which is in weeks, so convert to days
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_inner_circle_focus_in_progress_tt
+						CHARACTER = GAL_Savvateev_name
+						FLAG_DAYS = [?GAL_Savvateev_3_in_progress_flag:days]
+					}
+					always = no 
+				}
+			}
+			else = { #NOT BEEN WORKED ON (Just Explain)
+				custom_override_tooltip = {
+					tooltip = {
+						localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+						CHARACTER = GAL_Savvateev_name
+						FOCUS = GAL_Savvateev_2
+					}
+					always = no
+				}
+			}
+		}
+		completion_reward = {
+			country_event = { id = GAL.26 }
+		}
+	}
+}

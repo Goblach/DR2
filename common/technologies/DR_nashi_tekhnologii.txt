@@ -1,0 +1,195 @@
+technologies = {
+	
+	@1 = 0
+	@3 = 2
+	@5 = 4
+	@6 = 6
+	@7 = 8
+	@8 = 10
+	@9 = 12
+	@10 = 14
+	@11 = 16
+	@12 = 18
+	@13 = 20
+
+	###_ДОКРЕЙХОВСКИЕ_ТЕХНОЛОГИИ
+
+	bhammer = {
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 3
+
+		enable_equipments = {
+			bhammer_equipment_1
+		}
+
+		enable_subunits = {
+			bhaminf
+		}
+	}
+
+	MRD_urukhai_battalion_tech = {
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 3
+
+		enable_subunits = {
+			urki_assault_battalion
+		}
+	}
+	
+	drozd = {
+
+		enable_equipments = {
+			drozd_equipment
+		}
+
+		research_cost = 2
+		start_year = 2
+
+
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		allow = {
+			always = no
+		}
+
+	}
+	
+	cosmolet = {
+
+		enable_equipments = {
+			cosmolet_equipment	
+		}
+	
+		research_cost = 2
+		start_year = 3
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+			mio_cat_all_heavy_aircraft_and_modules
+		}
+		
+		allow = {
+			always = no
+		}
+		
+	}
+	
+	chemical_attack_tech = {
+		enable_tactic = tactic_chemical_attack
+		enable_tactic = tactic_chemical_defend
+
+		doctrine = yes
+		research_cost = 1
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	
+	GAL_signal_upgrade = {
+	    allow = {
+			always = no
+		}
+		research_cost = 1
+
+		signal_company = {
+			recon = 0.5
+			breakthrough = 0.5
+			defense = 0.1
+			initiative = 0.05
+		}
+		armored_signal = {
+			
+			recon = 0.5
+			breakthrough = 0.5
+			defense = 0.1
+			initiative = 0.05
+		}
+	}
+	
+	GAL_catgirls_recon = {
+	    allow = {
+			always = no
+		}
+		research_cost = 1
+
+		category_recon = {
+			recon = 1
+			breakthrough = 1
+		}
+		land_night_attack = 0.15
+	}
+	
+	GAL_dwarfes_engineer = {
+	    allow = {
+			always = no
+		}
+		research_cost = 1
+
+		engineer = {
+			entrenchment = 2
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+		pioneer_support = {
+			entrenchment = 2
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+		jungle_pioneers_support = {
+			entrenchment = 2
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+		assault_engineer = {
+			entrenchment = 2
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+		armored_engineer = {
+			entrenchment = 2
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+		local_resources_factor = 0.15
+	}
+	
+	GAL_radioteleskop = {
+		allow = {
+			always = no
+		}
+		research_cost = 1
+		
+		static_anti_air_hit_chance_factor = 0.2
+		coordination_bonus = 0.02
+		air_interception_detect_factor = 0.1
+		air_superiority_detect_factor = 0.1
+	}
+}

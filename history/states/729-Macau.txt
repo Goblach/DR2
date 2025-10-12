@@ -1,0 +1,37 @@
+state={
+	id=729
+	name="STATE_729"
+	manpower = 157805
+	
+	state_category = enclave
+	
+	resources={
+		rubber=40 # was: 848
+		steel=40 # was: 32
+		tungsten=40 # was: 308
+		aluminium = 40 # was: 25
+		chromium=40
+		oil=40
+	}
+	
+	history={
+		owner = ALI
+		add_core_of = ALI
+		add_core_of = PRC
+		victory_points = {
+			4189 1 
+		}
+		buildings = {
+			infrastructure = 2
+			4189 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		4189 
+	}
+
+	local_supplies=0.0 
+}

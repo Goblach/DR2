@@ -1,0 +1,46 @@
+capital = 91
+
+oob = ZHE_1936
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = ZHE_Zelenskye
+recruit_character = ZHE_Valery_Zaluzhny
+recruit_character = ZHE_Alexander_Syrsky
+recruit_character = ZHE_Sergey_Naev
+recruit_character = ZHE_Sergey_Korniychuk
+recruit_character = ZHE_Ruslan_Khomchak
+recruit_character = ZHE_Nikolay_Balan
+recruit_character = ZHE_Maxim_Mirgorodsky
+recruit_character = ZHE_Gregory_Galagan
+recruit_character = ZHE_Evgeny_Moisyuk
+recruit_character = ZHE_Hadji_Murad_Zumso
+recruit_character = ZHE_Konstantin_Nemichev
+recruit_character = ZHE_Sergey_Velichko
+recruit_character = ZHE_Redis
+recruit_character = ZHE_Kalina
+recruit_character = ZHE_Volina
+recruit_character = ZHE_Lucy
+recruit_character = ZHE_bit_ili
+
+add_ideas = {
+    ZHE_first_onlyfans_front
+	limited_conscription
+    low_economic_mobilisation
+}
+
+set_popularities = {
+	democratic = 100
+}
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no	
+}
+
+set_convoys = 400

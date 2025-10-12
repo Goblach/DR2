@@ -1,0 +1,20 @@
+#########################
+  ### LAZARET_RSFSR ###
+#########################
+
+YAK_Vzaimodeysviya_s_armiey = {
+	icon = military_operation
+	allowed = {
+		tag = YAK		
+	}
+	visible = {
+	}
+}
+YAK_voyna_na_DV = {
+	icon = military_operation
+	allowed = {
+		tag = YAK		
+	}
+	visible = {
+	}
+}

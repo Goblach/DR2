@@ -1,0 +1,30 @@
+# List of names and logos for intelligence agencies
+# available trigger will determine if the logo is in the list of available logos or not
+# names is a list of names. Can be a localization entry, or the name directly. A random name will be picked from them.
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_KChS
+	names = { "Комитет Черного Списка" }
+	
+	default = { tag = LAZ }
+	available = { original_tag = LAZ }
+}
+intelligence_agency = {
+
+	#picture = GFX_intelligence_agency_logo_SmeH
+	picture = GFX_intelligence_agency_logo_sov
+	names = { "СмеХ (Смерть хоббитам)" }
+	
+	default = { tag = MRD }
+	available = { original_tag = MRD }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_anonimus
+	names = { "Анонимусы" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}

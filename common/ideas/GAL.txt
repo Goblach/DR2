@@ -1,0 +1,739 @@
+ideas = {
+    country = {
+	        GAL_barini_hozyaini = {
+	
+			   modifier = {
+			    consumer_goods_factor = 0.05
+				min_export = 0.1
+				stability_factor = -0.05
+			    }
+		    }
+			
+			GAL_mentovshina = {
+	
+			   modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.1
+			    }
+		    }
+			
+			GAL_biznes = {
+	
+			   modifier = {
+				consumer_goods_factor = -0.1
+				min_export = 0.1
+				stability_factor = -0.05
+				political_power_gain = -0.05
+			    }
+		    }
+			
+			GAL_kult_lichnosti_Kalinina_i = {
+	
+			   modifier = {
+				party_popularity_stability_factor = 0.1
+			    }
+		    }
+			
+			GAL_marakumba_1 = {
+	
+			   modifier = {
+				MONTHLY_POPULATION = -0.5
+		    	stability_factor = -0.3
+			    }
+		    }
+			
+			GAL_marakumba_2 = {
+	
+			   modifier = {
+				MONTHLY_POPULATION = -0.4
+		    	stability_factor = -0.25
+			    }
+		    }
+			
+			GAL_marakumba_3 = {
+	
+			   modifier = {
+				MONTHLY_POPULATION = -0.3
+		    	stability_factor = -0.2
+			    }
+		    }
+			
+			GAL_marakumba_4 = {
+	
+			   modifier = {
+				MONTHLY_POPULATION = -0.2
+		    	stability_factor = -0.1
+			    }
+		    }
+			
+			GAL_marakumba_5 = {
+	
+			   modifier = {
+				MONTHLY_POPULATION = 0.05
+		    	stability_factor = 0.05
+			    }
+		    }
+			
+			GAL_marakumba_6 = {
+	
+			   modifier = {
+				MONTHLY_POPULATION = 0.1
+		    	stability_factor = 0.1
+			    }
+		    }
+		    
+		    GAL_marakumba_import_0 = {
+	
+			   modifier = {
+
+			    }
+		    }
+			
+			GAL_marakumba_import_1 = {
+	
+			   modifier = {
+				consumer_goods_factor = 0.1
+			    }
+		    }
+			
+			GAL_marakumba_import_2 = {
+	
+			   modifier = {
+				consumer_goods_factor = 0.3
+			    }
+		    }
+			
+			GAL_marakumba_import_3 = {
+	
+			   modifier = {
+				consumer_goods_factor = 0.5
+			    }
+		    }			
+			
+			GAL_goskomcen_i = {
+	
+			   modifier = {
+			    consumer_goods_factor = 0.05
+		    	stability_factor = 0.05
+			    }
+		    }
+			
+			GAL_gosbank_i = {
+	
+			   modifier = {
+			    consumer_goods_factor = -0.05
+			    }
+		    }
+			
+			GAL_goskomtrud_i = {
+	
+			   modifier = {
+		    	stability_factor = 0.05
+			    }
+		    }
+			
+			GAL_gosplan_i = {
+	
+			   modifier = {
+		    	industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.1
+			    }
+		    }
+			
+			GAL_gossnab_i = {
+	
+			   modifier = {
+		    	supply_node_range = 0.1
+				truck_attrition_factor = -0.1
+				max_fuel_factor = 0.1
+				max_dig_in_factor = 0.1
+			    }
+		    }
+			
+			GAL_gosstat_i = {
+	
+			   modifier = {
+		    	civilian_intel_to_others = -0.3
+			    }
+		    }
+			
+			GAL_minvneshtorg_i = {
+	
+			   modifier = {
+		    	consumer_goods_factor = -0.05
+				trade_opinion_factor = 0.1
+				embargo_cost_factor = -0.1
+				license_purchase_cost_factor = -0.1
+				opinion_gain_monthly_factor = 0.1
+			    }
+		    }
+			
+			GAL_PBK_i = {
+	
+			   modifier = {
+		    	consumer_goods_factor = -0.05
+				military_industrial_organization_funds_gain = 0.25
+			    }
+		    }
+			
+			GAL_ed_budget_i = {
+	
+			   modifier = {
+		    	consumer_goods_factor = -0.05
+			    }
+		    }
+			
+			GAL_rossnab_i = {
+	
+			   modifier = {
+		    	stability_factor = 0.1
+				local_resources_factor = 0.1
+				cic_construction_boost_factor = 0.2
+			    }
+		    }
+			
+			GAL_SovMin_i = {
+	
+			   modifier = {
+		    	improve_relations_maintain_cost_factor = -0.25
+				political_advisor_cost_factor = -0.25
+			    }
+		    }
+			
+			GAL_kosmoleti_i = {
+	
+			   modifier = {
+		    	air_maximum_speed_factor = 0.1
+				air_range_factor = 0.1
+			    }
+		    }
+			
+			GAL_speznaz_i = {
+	
+			   modifier = {
+		    	army_leader_start_level = 2
+				special_forces_attack_factor = 0.1
+	        	special_forces_defence_factor = 0.1
+			    }
+		    }
+			
+			GAL_nar_op_i = {
+	
+			   modifier = {
+		    	conscription = 0.05
+				modifier_army_sub_unit_militia_attack_factor = 0.5
+				modifier_army_sub_unit_militia_defence_factor = 0.5
+			    }
+		    }
+			
+			GAL_genii_v_NII_i = {
+	
+			   modifier = {
+		    	research_speed_factor = 0.1
+			    }
+		    }
+			
+			GAL_vodochnaya_monopoliya_i = {
+	
+			   modifier = {
+		    	consumer_goods_factor = -0.05
+				MONTHLY_POPULATION = 0.1
+				acclimatization_cold_climate_gain_factor = 0.2
+			    }
+		    }
+			
+			GAL_tabachnaya_monopoliya_i = {
+	
+			   modifier = {
+		    	consumer_goods_factor = -0.01
+				MONTHLY_POPULATION = 0.05
+			    }
+		    }
+			
+			GAL_chastnaya_torgovlya_i = {
+	
+			   modifier = {
+				consumer_goods_factor = -0.01
+		    	stability_factor = -0.05
+			    }
+		    }
+			
+			GAL_naz_torgovci_i = {
+	
+			   modifier = {
+				political_power_gain = 0.05
+		    	stability_factor = -0.1
+			    }
+		    }
+			
+			GAL_OBSV = {
+	
+			   modifier = {
+				political_power_gain = 0.2
+		    	stability_factor = 0.3
+				consumer_goods_factor = -0.1
+				research_speed_factor = 0.1
+			    }
+		    }
+			
+			GAL_tecnocratia = {
+	
+			   modifier = {
+			   political_power_gain = -0.05
+				research_speed_factor = 0.1
+			   }
+		    }
+			GAL_tecnocratia_2 = {
+	
+			   modifier = {
+			   political_power_gain = -0.1
+				research_speed_factor = 0.2
+			   }
+		    }
+			GAL_military_nauka = {
+	
+			   modifier = {
+				max_planning = 0.1
+				coordination_bonus = 0.1
+			   }
+		    }
+			GAL_military_nauka_2 = {
+	
+			   modifier = {
+				max_planning = 0.1
+				coordination_bonus = 0.1
+				army_org_factor = 0.1
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+			   }
+		    }
+			GAL_military_nauka_um = {
+	
+			   modifier = {
+				max_planning = 0.1
+				coordination_bonus = 0.1
+				army_org_factor = 0.1
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+				training_time_army_factor = 0.1
+			   }
+		    }
+			GAL_military_nauka_ch = {
+	
+			   modifier = {
+				max_planning = 0.1
+				coordination_bonus = 0.1
+				army_org_factor = 0.1
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+				conscription_factor = -0.1
+				breakthrough_factor = 0.1
+				army_morale_factor = 0.15
+			   }
+		    }
+			GAL_military_nauka_final = {
+			
+			   modifier = {
+				max_planning = 0.1
+				coordination_bonus = 0.1
+				army_org_factor = 0.1
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+				training_time_army_factor = 0.1	
+				conscription_factor = -0.1
+				breakthrough_factor = 0.1
+				army_morale_factor = 0.15		
+			   }
+			}
+			GAL_students_in_army = {
+	
+			   modifier = {
+				conscription = 0.01
+				experience_loss_factor = 0.1
+			   }
+		    }
+			GAL_stroyki_za_dolgi = {
+				modifier = {
+				 production_speed_buildings_factor = 0.06
+			   }
+			}
+			GAL_stroyki_za_premiyu = {
+				modifier = {
+				 production_speed_buildings_factor = 0.12
+				 consumer_goods_factor = 0.05
+			   }
+			}
+			GAL_rational_economy = {
+				modifier = {
+				 production_factory_efficiency_gain_factor = 0.1
+				 production_factory_max_efficiency_factor = 0.1
+				 industrial_capacity_factory = 0.1
+				}
+			}
+			GAL_rational_economy_2 = {
+				modifier = {
+				 production_factory_efficiency_gain_factor = 0.15
+				 production_factory_max_efficiency_factor = 0.15
+				 industrial_capacity_factory = 0.15
+				 line_change_production_efficiency_factor = 0.15
+				}
+			}
+			GAL_protiv_liberalisma = {
+				available = {
+					POK = { exists = yes }
+				}
+				targeted_modifier = {
+					tag = POK
+					attack_bonus_against = 0.1
+					defence_bonus_against = 0.1
+				}
+			}
+			GAL_cowboyi_protivodeystvie = {
+				modifier = {
+				 stability_factor = -0.1
+				 war_support_factor = -0.1
+				}
+			}
+			GAL_ey_uhnem = {
+				modifier = {
+				 consumer_goods_factor = -0.15
+				 political_power_factor = -0.1
+				}
+			}
+			GAL_krasniy_rassvet = {
+				modifier = {
+				 consumer_goods_factor = -0.1
+				 local_resources_factor = 0.1
+				 production_speed_industrial_complex_factor = 0.1
+				 production_speed_infrastructure_factor = 0.1
+				}
+			}
+			GAL_svyaz_i_communocation = {
+				modifier = {
+				 production_speed_radar_station_factor = 0.2
+				 coordination_bonus = 0.1
+				 recon_factor = 0.1
+				 initiative_factor = 0.03
+				}
+			}
+			GAL_sinofobia = {
+				modifier = {
+				 production_speed_bunker_factor = 0.1
+				}
+				targeted_modifier = {
+					tag = CNA
+					attack_bonus_against = 0.1
+					defense_bonus_against = 0.1
+				}
+				targeted_modifier = {
+					tag = PCH
+					attack_bonus_against = 0.1
+					defense_bonus_against = 0.1
+				}
+				targeted_modifier = {
+					tag = ZCH
+					attack_bonus_against = 0.1
+					defense_bonus_against = 0.1
+				}
+				targeted_modifier = {
+					tag = GOM
+					attack_bonus_against = 0.1
+					defense_bonus_against = 0.1
+				}
+				targeted_modifier = {
+					tag = ALI
+					attack_bonus_against = 0.1
+					defense_bonus_against = 0.1
+				}
+				targeted_modifier = {
+					tag = PRC
+					attack_bonus_against = 0.1
+					defense_bonus_against = 0.1
+				}
+				targeted_modifier = {
+					tag = FAL
+					attack_bonus_against = 0.1
+					defense_bonus_against = 0.1
+				}
+			}
+			GAL_spartanism_1 = {
+				modifier = {
+				 research_speed_factor = 0.03
+				 production_lack_of_resource_penalty_factor = 0.05
+				 consumer_goods_factor = -0.03
+				}
+			}
+			GAL_spartanism_2 = {
+				modifier = {
+				 research_speed_factor = 0.06
+				 production_lack_of_resource_penalty_factor = 0.1
+				 consumer_goods_factor = -0.06
+				}
+			}
+			GAL_meat = {
+				modifier = {
+				 army_strength_factor = 0.1
+				 supply_consumption_factor  = -0.05
+				 land_reinforce_rate = 0.1
+				 monthly_population = 0.05
+				}
+			}
+			GAL_meat_2 = {
+				modifier = {
+				 army_strength_factor = 0.2
+				 supply_consumption_factor  = -0.1
+				 land_reinforce_rate = 0.15
+				 monthly_population = 0.1
+				}
+			}
+			GAL_war_idiokracy = {
+				modifier = {
+				 war_stability_factor = 0.15
+				 weekly_casualties_war_support = 0.005
+				}
+			}
+			GAL_otmena_turem_idea = {
+				modifier = {
+				 stability_factor = -0.1
+				 local_resources_factor = 0.1
+				 research_speed_factor = 0.03
+				}
+			}
+			GAL_godmeow = {
+				modifier = {
+				 decryption_power = 15
+				 crypto_strength = 1
+				 planning_speed = 0.33
+				}
+			}
+			GAL_ierarhiya_tehnokratii = {
+				modifier = {
+				 political_advisor_cost_factor = -0.15
+				 economy_cost_factor = -0.15
+				 trade_laws_cost_factor = -0.15
+				 mobilization_laws_cost_factor = -0.15
+				}
+			}
+			GAL_banya = {
+				modifier = {
+				 political_power_gain = 0.1
+				 intelligence_agency_defense = 0.5
+				 foreign_subversive_activites = -0.10
+				 enemy_operative_detection_chance_factor = 0.10
+				}
+			}
+			GAL_toples_program = {
+				modifier = {
+				 political_power_factor = 0.1
+				 stability_factor = 0.05
+				 research_speed_factor = -0.06
+				 consumer_goods_factor = -0.02
+				}
+			}
+			GAL_shering = {
+				modifier = {
+				 consumer_goods_factor = -0.1
+				}
+			}
+			GAL_sibgektar = {
+				modifier = {
+				 consumer_goods_factor = 0.2
+				}
+			}
+			GAL_nauka_i_iskusstvo = {
+				modifier = {
+				 political_power_factor = 0.05
+				 stability_factor = 0.05
+				 war_support_factor = 0.05
+				 trade_opinion_factor = 0.25
+				 research_speed_factor = 0.03
+				}
+			}
+			GAL_renesans = {
+				modifier = {
+				 political_power_factor = 0.1
+				 stability_factor = 0.1
+				 war_support_factor = 0.1
+				 trade_opinion_factor = 0.5
+				 research_speed_factor = 0.06
+				}
+			}
+			GAL_new_galileo_idea = {
+				modifier = {
+				 research_speed_factor = 0.03
+				 special_project_speed_factor = 0.1
+				}
+			}
+			GAL_kasty = {
+				modifier = {
+				 stability_factor = -0.1
+				 recruitable_population_factor = 0.1
+				 production_speed_buildings_factor = 0.05
+				 research_speed_factor = 0.05
+				}
+			}
+			GAL_oficer = {
+				modifier = {
+				 experience_gain_army_factor = 0.1
+				 land_doctrine_cost_factor = -0.1
+				 command_power_gain_mult = 0.15
+				}
+			}
+			GAL_soldat = {
+				modifier = {
+				 experience_gain_army_unit_factor = 0.20
+				 training_time_army_factor = -0.2
+				 experience_loss_factor = -0.2
+				}
+			}
+			GAL_sovet_spor = {
+				modifier = {
+				 political_power_factor = -0.15
+				}
+			}
+			GAL_ban_religion = {
+				modifier = {
+				 political_power_factor = -0.15
+				 stability_weekly = -0.005
+				 war_support_weekly = -0.005
+				}
+			}
+			GAL_panacea = {
+				modifier = {
+				 conscription = 0.1
+				 industrial_capacity_factory = 0.15
+				 army_morale_factor = 0.1
+				}
+			}
+			GAL_burunduk_army = {
+				modifier = {
+				 army_morale_factor = 0.05
+				 army_core_attack_factor = 0.05
+				 army_core_defence_factor = 0.05
+				}
+			}
+			GAL_moon_colony = { 
+				modifier = {
+					country_resource_aluminium = 10
+					country_resource_steel = 10
+					country_resource_chromium = 10
+				}
+			}
+			GAL_moon_mars_colony = { 
+				modifier = {
+					country_resource_aluminium = 20
+					country_resource_steel = 20
+					country_resource_chromium = 20
+				}
+			}
+			GAL_odealo = {
+				picture = GAL_odealo
+				modifier = {
+				 research_speed_factor = 0.1
+				 stability_factor = -0.1
+				 war_support_factor = 0.1
+				 fascism_drift = 0.05
+				}
+			}
+			GAL_lena = {
+				picture = GAL_lena
+				modifier = {
+				 political_power_factor = 0.15
+				 metacommy_drift = 0.05
+				}
+				research_bonus = {
+					electronics = 0.1
+				}
+			} 
+		}
+	}	
+	hidden_ideas = {
+	
+		GAL_drobysh_idea = {
+			modifier = {
+			 monthly_population = 0.30
+			 conscription_factor = 0.15
+			}
+		}
+	}
+
+	tank_manufacturer = { 
+	
+		designer = yes
+		
+		GAL_TZ_im_Lukina = {
+			
+			allowed = {
+                original_tag = GAL			
+			}
+			
+		   available = {		
+           has_completed_focus = GAL_tanki_na_tractornom_zavode
+		   }
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	}
+	
+	industrial_concern = {
+	
+		GAL_sovhoz_gigant = {
+
+			allowed = {
+                original_tag = GAL			
+			}
+			
+		   available = {		
+           has_completed_focus = GAL_sovhozi
+		   controls_state = 238
+		   }
+			
+			cost = 150
+			removal_cost = 10
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+			}	
+		}
+		
+		GAL_izhevsk_dynamics = {
+
+			allowed = {
+                original_tag = GAL			
+			}
+			
+		    available = {		
+				has_completed_focus = GAL_Rogozin_2
+				controls_state = 399
+		    }
+			
+			cost = 150
+			removal_cost = 10
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+			}	
+			equipment_bonus = {
+				rocket_artillery_equipment = {
+					soft_attack = 0.1
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				motorized_rocket_equipment = {
+					soft_attack = 0.1
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		
+	}
+}

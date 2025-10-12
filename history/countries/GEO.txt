@@ -1,0 +1,41 @@
+capital = 231
+
+oob = GEO_1936
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = GEO_Mamulashvili_Mamuka
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+GEO_sevkavkaz_partizan_war
+GEO_sotrudnishestvo_s_ukraintsami
+}
+
+set_popularities = {
+	fascism = 100
+}
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no	
+}
+
+set_convoys = 200
+
+create_country_leader = {
+	name = "Михаил Саакашвили"
+	desc = "POLITICS_THORVALD_STAUNING_DESC"
+	picture = "Saakashvili.dds"
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}

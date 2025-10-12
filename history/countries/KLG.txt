@@ -1,0 +1,46 @@
+capital = 763
+
+oob = KLG_1936
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.75
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+    marines	= 1
+	tech_support = 1
+	basic_train = 1
+}
+
+recruit_character = KLG_Korneev
+recruit_character = KLG_Suren
+
+recruit_character = KLG_Taifun
+recruit_character = KLG_Eva_Panda
+recruit_character = KLG_Hors
+
+activate_mission = KLG_napadenie_mission
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+KLG_dom_Sovetov
+}
+
+set_popularities = {
+	neutrality = 20
+	memoism = 10
+	anarhostalinism = 10
+	vmestolev = 28
+	metacommy = 10
+	democratic = 11
+	fascism = 11
+}
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no	
+}
+
+set_convoys = 250

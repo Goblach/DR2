@@ -1,0 +1,15 @@
+characters={
+	NEU_Zemmur = {
+		name = "Эльдар Сеймуроглы"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NEU/Zemmur.dds"
+			}
+		}
+		country_leader = {
+		    ideology = conservatism
+	        expire = "1999.1.1"
+		    id=-1
+	    }
+    }
+}

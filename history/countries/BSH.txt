@@ -1,0 +1,53 @@
+capital = 651
+
+oob = BSH_1936
+
+set_research_slots = 2
+set_stability = 0.7
+set_war_support = 0.4
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	gwtank_chassis = 1
+	basic_train = 1
+
+}
+
+recruit_character = BSH_muhamed
+recruit_character = BSH_morgen
+recruit_character = BSH_babay
+recruit_character = BSH_grigorev
+recruit_character = BSH_cik_bash
+recruit_character = BSH_babaynefash
+recruit_character = BSH_Bravo
+recruit_character = BSH_Andruha
+recruit_character = BSH_Nastya
+recruit_character = BSH_Oleg
+recruit_character = BSH_Tolyan
+recruit_character = BSH_boykisser
+recruit_character = BSH_ilgizar
+recruit_character = BSH_krylov
+recruit_character = BSH_Kotak_San
+recruit_character = BSH_vladislave_dikun
+recruit_character = BSH_Doctor_Hammer
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+PRM_ural_karapuz
+}
+
+set_popularities = {
+    memoism = 30
+	democratic = 5
+	vmestolev = 20
+	fascism = 20
+	neutrality = 15
+	anarhostalinism = 10
+}
+set_politics = {
+	ruling_party = vmestolev
+	elections_allowed = no	
+}
+
+set_convoys = 40

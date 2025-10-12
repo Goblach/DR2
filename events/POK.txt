@@ -1,0 +1,3262 @@
+add_namespace = POK
+
+	
+country_event = {
+	id = POK.1
+	title = POK.1.t
+	desc = POK.1.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.1.a
+	hidden_effect = {
+	transfer_units_fraction = { target = MGN stockpile_ratio = 0.05 }
+	MGN = {
+	add_state_core = 824
+			add_state_core = 577
+			add_state_core = 516
+			add_state_core = 576
+			add_state_core = 878
+			add_state_core = 575
+			add_state_core = 568
+			add_state_core = 567
+			add_state_core = 329
+			add_state_core = 40
+			add_state_core = 569
+			add_state_core = 654
+			add_state_core = 578
+			add_state_core = 570
+			add_state_core = 572
+			add_state_core = 403
+			add_state_core = 571
+			add_state_core = 573
+			add_state_core = 582
+			add_state_core = 653
+			add_state_core = 580
+			add_state_core = 579
+	}
+	MGN = { country_event = { id = MGN.2 days = 10 } } 
+	}
+	MGN = {
+	transfer_state = 582
+	}
+	}
+	
+	option = {
+	name = POK.1.b
+	hidden_effect = {
+	transfer_units_fraction = { target = MGN stockpile_ratio = 0.05 }
+	MGN = {
+	add_state_core = 824
+			add_state_core = 577
+			add_state_core = 516
+			add_state_core = 576
+			add_state_core = 878
+			add_state_core = 575
+			add_state_core = 568
+			add_state_core = 567
+			add_state_core = 329
+			add_state_core = 40
+			add_state_core = 569
+			add_state_core = 654
+			add_state_core = 578
+			add_state_core = 570
+			add_state_core = 572
+			add_state_core = 403
+			add_state_core = 571
+			add_state_core = 573
+			add_state_core = 582
+			add_state_core = 653
+			add_state_core = 580
+			add_state_core = 579
+	}
+	MGN = { country_event = { id = MGN.2 days = 10 } } 
+	}
+	MGN = {
+	transfer_state = 582
+	change_tag_from = POK
+	}
+	}
+}
+
+country_event = {
+	id = POK.2
+	title = POK.2.t
+	desc = POK.2.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.2.a
+	hidden_effect = {
+	send_equipment_fraction = { value = 0.05 target = OMS}
+	OMS = {
+	add_state_core = 824
+			add_state_core = 577
+			add_state_core = 516
+			add_state_core = 576
+			add_state_core = 878
+			add_state_core = 575
+			add_state_core = 568
+			add_state_core = 567
+			add_state_core = 329
+			add_state_core = 40
+			add_state_core = 569
+			add_state_core = 654
+			add_state_core = 578
+			add_state_core = 570
+			add_state_core = 572
+			add_state_core = 403
+			add_state_core = 571
+			add_state_core = 573
+			add_state_core = 582
+			add_state_core = 653
+			add_state_core = 580
+			add_state_core = 579
+	inherit_technology = POK
+	}
+	}
+	OMS = {
+	transfer_state = 571
+	}
+	}
+	
+	option = {
+	name = POK.2.b
+	hidden_effect = {
+	send_equipment_fraction = { value = 0.05 target = OMS}
+	OMS = {
+	add_state_core = 824
+			add_state_core = 577
+			add_state_core = 516
+			add_state_core = 576
+			add_state_core = 878
+			add_state_core = 575
+			add_state_core = 568
+			add_state_core = 567
+			add_state_core = 329
+			add_state_core = 40
+			add_state_core = 569
+			add_state_core = 654
+			add_state_core = 578
+			add_state_core = 570
+			add_state_core = 572
+			add_state_core = 403
+			add_state_core = 571
+			add_state_core = 573
+			add_state_core = 582
+			add_state_core = 653
+			add_state_core = 580
+			add_state_core = 579
+	
+	inherit_technology = POK
+	}
+	}
+	OMS = {
+	transfer_state = 571
+	change_tag_from = POK
+	}
+	}
+}
+
+country_event = {
+	id = POK.3
+	title = POK.3.t
+	desc = POK.3.d
+	picture = GFX_report_event_dkr_pushnoy_opit_govno
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.3.a
+	hidden_effect = {
+	send_equipment_fraction = { value = 0.05 target = GAL}
+	GAL = {
+	add_state_core = 824
+			add_state_core = 577
+			add_state_core = 516
+			add_state_core = 576
+			add_state_core = 878
+			add_state_core = 575
+			add_state_core = 568
+			add_state_core = 567
+			add_state_core = 329
+			add_state_core = 40
+			add_state_core = 569
+			add_state_core = 654
+			add_state_core = 578
+			add_state_core = 570
+			add_state_core = 572
+			add_state_core = 403
+			add_state_core = 571
+			add_state_core = 573
+			add_state_core = 582
+			add_state_core = 653
+			add_state_core = 580
+			add_state_core = 579
+	inherit_technology = POK
+	}
+	}
+	GAL = {
+	transfer_state = 570
+	}
+	}
+	
+	option = {
+	name = POK.3.b
+	hidden_effect = {
+	send_equipment_fraction = { value = 0.05 target = GAL}
+	GAL = {
+	add_state_core = 824
+			add_state_core = 577
+			add_state_core = 516
+			add_state_core = 576
+			add_state_core = 878
+			add_state_core = 575
+			add_state_core = 568
+			add_state_core = 567
+			add_state_core = 329
+			add_state_core = 40
+			add_state_core = 569
+			add_state_core = 654
+			add_state_core = 578
+			add_state_core = 570
+			add_state_core = 572
+			add_state_core = 403
+			add_state_core = 571
+			add_state_core = 573
+			add_state_core = 582
+			add_state_core = 653
+			add_state_core = 580
+			add_state_core = 579
+	inherit_technology = POK
+	}
+	}
+	GAL = {
+	transfer_state = 570
+	change_tag_from = POK
+	}
+	}
+}
+
+country_event = {
+	id = POK.4
+	title = POK.4.t
+	desc = POK.4.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.4.a
+	hidden_effect = {
+	send_equipment_fraction = { value = 0.05 target = YSK}
+	YSK = {
+	add_state_core = 824
+			add_state_core = 577
+			add_state_core = 516
+			add_state_core = 576
+			add_state_core = 878
+			add_state_core = 575
+			add_state_core = 568
+			add_state_core = 567
+			add_state_core = 329
+			add_state_core = 40
+			add_state_core = 569
+			add_state_core = 654
+			add_state_core = 578
+			add_state_core = 570
+			add_state_core = 572
+			add_state_core = 403
+			add_state_core = 571
+			add_state_core = 573
+			add_state_core = 582
+			add_state_core = 653
+			add_state_core = 580
+			add_state_core = 579
+	inherit_technology = POK
+	}
+	}
+	YSK = {
+	transfer_state = 40
+	}
+	}
+	
+	option = {
+	name = POK.4.b
+	hidden_effect = {
+	send_equipment_fraction = { value = 0.05 target = YSK}
+	YSK = {
+	add_state_core = 824
+			add_state_core = 577
+			add_state_core = 516
+			add_state_core = 576
+			add_state_core = 878
+			add_state_core = 575
+			add_state_core = 568
+			add_state_core = 567
+			add_state_core = 329
+			add_state_core = 40
+			add_state_core = 569
+			add_state_core = 654
+			add_state_core = 578
+			add_state_core = 570
+			add_state_core = 572
+			add_state_core = 403
+			add_state_core = 571
+			add_state_core = 573
+			add_state_core = 582
+			add_state_core = 653
+			add_state_core = 580
+			add_state_core = 579
+	inherit_technology = POK
+	}
+	}
+	YSK = {
+	transfer_state = 40
+	change_tag_from = POK
+	}
+	}
+}
+
+country_event = {
+	id = POK.5
+	title = POK.5.t
+	desc = POK.5.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.5.a
+	hidden_effect = {
+	send_equipment_fraction = { value = 0.05 target = ZNS}
+	ZNS = {
+	add_state_core = 824
+			add_state_core = 577
+			add_state_core = 516
+			add_state_core = 576
+			add_state_core = 878
+			add_state_core = 575
+			add_state_core = 568
+			add_state_core = 567
+			add_state_core = 329
+			add_state_core = 40
+			add_state_core = 569
+			add_state_core = 654
+			add_state_core = 578
+			add_state_core = 570
+			add_state_core = 572
+			add_state_core = 403
+			add_state_core = 571
+			add_state_core = 573
+			add_state_core = 582
+			add_state_core = 653
+			add_state_core = 580
+			add_state_core = 579
+	inherit_technology = POK
+	}
+	}
+	ZNS = {
+	transfer_state = 568
+	}
+	}
+	
+	option = {
+	name = POK.5.b
+	hidden_effect = {
+	send_equipment_fraction = { value = 0.05 target = ZNS}
+	ZNS = {
+	add_state_core = 824
+			add_state_core = 577
+			add_state_core = 516
+			add_state_core = 576
+			add_state_core = 878
+			add_state_core = 575
+			add_state_core = 568
+			add_state_core = 567
+			add_state_core = 329
+			add_state_core = 40
+			add_state_core = 569
+			add_state_core = 654
+			add_state_core = 578
+			add_state_core = 570
+			add_state_core = 572
+			add_state_core = 403
+			add_state_core = 571
+			add_state_core = 573
+			add_state_core = 582
+			add_state_core = 653
+			add_state_core = 580
+			add_state_core = 579
+	inherit_technology = POK
+	}
+	}
+	ZNS = {
+	transfer_state = 568
+	change_tag_from = POK
+	}
+	}
+}
+country_event = {
+	id = POK.6
+	title = POK.6.t
+	desc = POK.6.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.6.a
+	    add_manpower = -25
+		add_political_power = -50
+		add_stability = -0.05
+		add_popularity = { ideology = metacommy popularity = 0.05 }
+		add_popularity = { ideology = vmestolev popularity = 0.05 }
+		add_popularity = { ideology = anarhostalinism popularity = 0.10 }
+		568 = {
+			limit = {
+				industrial_complex > 0
+			}
+			damage_building = {
+				type = industrial_complex
+				damage = 1.0
+			}
+		}
+	add_power_balance_value = {
+    id = POK_prepar_balance 
+    value = 0.05
+}
+	}
+	
+}
+
+country_event = {
+	id = POK.7
+	title = POK.7.t
+	desc = POK.7.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.7.a
+	}
+}
+
+country_event = {
+	id = POK.8
+	title = POK.8.t
+	desc = POK.8.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.8.a
+	}
+} 
+
+country_event = {
+	id = POK.9
+	title = POK.9.t
+	desc = POK.9.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+		NOT = { has_completed_focus = POK_prepare_first_free_elections }
+		focus_progress = {
+			focus = POK_prepare_first_free_elections
+			progress > 0.1
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+	name = POK.9.a
+	}
+}
+
+country_event = {
+	id = POK.10
+	title = POK.10.t
+	desc = POK.10.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.10.a
+	hidden_effect = {
+	country_event = { id = POK.12 }
+	}
+	add_popularity = {
+                ideology = democratic
+                popularity = 0.03
+            }
+	add_popularity = {
+                ideology = memoism
+                popularity = 0.03
+            }		
+	add_popularity = {
+                ideology = fascism
+                popularity = 0.03
+            }
+	add_popularity = {
+                ideology = neutrality
+                popularity = 0.03
+            }		
+	add_power_balance_value = {
+    id = POK_prepar_balance 
+    value = -0.05
+}
+	}
+	
+	option = {
+	name = POK.10.b
+	hidden_effect = {
+	country_event = { id = POK.12 }
+	}
+	add_popularity = {
+                ideology = democratic
+                popularity = 0.03
+            }
+	add_popularity = {
+                ideology = vmestolev
+                popularity = 0.03
+            }	
+	add_popularity = {
+                ideology = anarhostalinism
+                popularity = 0.03
+            }
+	add_popularity = {
+                ideology = metacommy
+                popularity = 0.03
+            }		
+	add_power_balance_value = {
+    id = POK_prepar_balance 
+    value = 0.05
+}
+	}
+}
+
+country_event = {
+	id = POK.11
+	title = POK.11.t
+	desc = POK.11.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.11.a
+	add_corps_commander_role = {
+		character = POK_Katz
+		traits = {
+            urban_assault_specialist   
+        }
+		skill = 2
+		attack_skill = 3
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 2
+		legacy_id = -1
+	}
+	add_corps_commander_role = {
+		character = POK_Panin
+		traits = {
+            adaptable expert_improviser_short      
+        }
+		skill = 1
+		attack_skill = 1
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 1
+		legacy_id = -1
+	}
+	add_manpower = 10000
+	division_template = {
+					name = "ЧВК"
+					division_names_group = POK_PMC_01
+					template_counter = 30
+
+		regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		anti_air_brigade = { x = 2 y = 1 }
+		anti_tank_brigade = { x = 2 y = 2 }		
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 }
+        light_tank_recon = { x = 0 y = 2 }
+        signal_company = { x = 0 y = 3 }
+        field_hospital = { x = 0 y = 4 }      		
+	}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"ЧВК ''Псы Войны''\" division_template = \"ЧВК\" start_experience_factor = 1.2 start_equipment_factor = 1.0" owner = ROOT
+					}
+				}
+    }
+}
+
+country_event = {
+	id = POK.12
+	title = POK.12.t
+	desc = POK.12.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.12.a
+	}
+}
+country_event = {
+	id = POK.13
+	title = POK.13.t
+	desc = POK.13.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.13.a
+	add_popularity = {
+                ideology = democratic
+                popularity = 0.01
+            }
+	add_political_power = 20
+	}
+}
+country_event = {
+	id = POK.14
+	title = POK.14.t
+	desc = POK.14.d
+	picture = GFX_report_event_japanese_soldiers_01
+	
+	trigger = {
+		tag = POK
+		NOT = { has_completed_focus = POK_registr_partiy }
+		focus_progress = {
+			focus = POK_registr_partiy
+			progress > 0.4
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 35
+	}
+	
+	option = {
+	name = POK.14.a
+	add_popularity = {
+                ideology = fascism
+                popularity = 0.05
+            }
+	add_popularity = {
+                ideology = neutrality
+                popularity = 0.05
+            }		
+	}
+}
+country_event = {
+	id = POK.15
+	title = POK.15.t
+	desc = POK.15.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.15.a
+	trigger = {
+		 has_completed_focus = POK_Pokayan_interview
+	}
+	news_event = {
+							id = dk_news.21
+						}
+	add_stability = -0.05
+	 add_popularity = {
+                ideology = democratic
+                popularity = -0.05
+            }
+	add_power_balance_value = {
+    id = POK_prepar_balance 
+    value = 0.05
+}
+	}
+	option = {
+	name = POK.15.b
+	news_event = {
+							id = dk_news.22
+						}
+	add_stability = -0.05
+	 add_popularity = {
+                ideology = democratic
+                popularity = -0.05
+            }
+	add_power_balance_value = {
+    id = POK_prepar_balance 
+    value = -0.05
+}	
+	}
+	option = {
+	name = POK.15.c
+	news_event = {
+							id = dk_news.23
+						}
+	add_stability = -0.05
+	 add_popularity = {
+                ideology = fascism
+                popularity = -0.05
+            }
+	}
+	option = {
+	name = POK.15.e
+	trigger = {
+		 has_completed_focus = POK_support_itelligentsiya
+	}
+	news_event = {
+							id = dk_news.24
+						}
+	add_stability = -0.05
+	remove_ideas = POK_support_itelligentsiya
+	add_popularity = {
+                ideology = memoism
+                popularity = -0.05
+            }
+	add_power_balance_value = {
+    id = POK_prepar_balance 
+    value = -0.01
+}	
+	}
+}
+country_event = {
+	id = POK.16
+	title = POK.16.t
+	desc = POK.16.d
+	picture = GFX_report_event_japanese_soldiers_01
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.16.a
+	add_popularity = {
+                ideology = memoism
+                popularity = 0.03
+            }
+	}
+}
+country_event = {
+	id = POK.17
+	title = POK.17.t
+	desc = POK.17.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.17.a
+	add_popularity = {
+                ideology = democratic
+                popularity = 0.03
+            }
+	add_power_balance_value = {
+    id = POK_prepar_balance 
+    value = -0.05
+}
+	}
+	option = {
+	name = POK.17.b
+	add_popularity = {
+                ideology = fascism
+                popularity = 0.05
+            }
+	add_power_balance_value = {
+    id = POK_prepar_balance 
+    value = 0.05
+}
+	}
+}
+
+country_event = {
+	id = POK.18
+	title = POK.18.t
+	desc = POK.18.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.18.a
+	add_power_balance_value = {
+    id = POK_prepar_balance 
+    value = 0.1
+}
+add_popularity = {
+                ideology = fascism
+                popularity = 0.12
+            }
+			add_manpower = 10000
+	}
+}
+
+country_event = {
+	id = POK.19
+	title = POK.19.t
+	desc = POK.19.d
+	picture = GFX_report_event_japanese_soldiers_01
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.19.a
+	add_popularity = { 
+	ideology = vmestolev 
+	popularity = 0.1 
+	}
+	add_named_threat = { threat = 2 name = POK_1 }
+	}
+}
+country_event = {
+	id = POK.20
+	title = POK.20.t
+	desc = POK.20.d
+	picture = GFX_report_event_japanese_soldiers_01
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.20.a
+	add_popularity = { 
+	ideology = memoism 
+	popularity = 0.1 
+	}
+	}
+}
+country_event = {
+	id = POK.21
+	title = POK.21.t
+	desc = POK.21.d
+	picture = GFX_report_event_dkr_smert_pokayana
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+		name = POK.21.a
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = POK_Slovolzhicen
+			promote_leader = yes
+			country_leader = {
+			    desc = "POLITICS_SLOVOLZHICEN_DESC"     
+				ideology = democratura
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+			}
+		}
+		add_stability = -0.2
+		add_war_support = -0.2
+		add_political_power = -100
+
+		MRD = {country_event = { id = mordor.13 days = 19 } }
+		country_event = { id = POK.1 days = 18}
+		country_event = { id = POK.2 days = 16}
+		country_event = { id = POK.3 days = 19}
+		country_event = { id = POK.4 days = 15}
+		country_event = { id = POK.5 days = 17}
+
+	}
+}
+country_event = {
+	id = POK.22
+	title = POK.22.t
+	desc = POK.22.d
+	picture = GFX_report_event_japanese_soldiers_01
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.22.a
+	add_popularity = { 
+	ideology = metacommy 
+	popularity = 0.1 
+	}
+	}
+}
+country_event = {
+	id = POK.23
+	title = POK.23.t
+	desc = POK.23.d
+	picture = GFX_report_event_dkr_pok_police
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.23.a
+	add_manpower = -2000
+	division_template = {
+					name = "Police Task force"
+					division_names_group = POK_PTF_01
+					template_counter = 11
+
+		regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+        light_tank_recon = { x = 0 y = 2 }		
+	}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"Сводный спецотряд ''Ельцбург''''\" division_template = \"Police Task force\" start_experience_factor = 0.7 start_equipment_factor = 1.0" owner = ROOT
+					}
+				}
+	}
+}
+country_event = { ###Начало гражданской войны в Покаянии
+	id = POK.24
+	title = POK.24.t
+	desc = POK.24.d
+	picture = GFX_report_event_dkr_pok_police
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+		name = POK.24.a
+		add_manpower = -1200
+		hidden_effect = {
+			news_event = dk_news.26
+            add_ideas = POK_idea_GV
+			MRD = {
+				country_event = {
+					id = mordor.14
+					days = 7
+				}
+				add_ideas = POK_idea_GV
+			}
+			declare_war_on = { #Покаяния_объявляет_войны_первой_чтобы_она_не_получала_бонус_за_оборонительную_войну_до вступления_Мордора
+				target = MGN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = OMS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GAL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = YSK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ZNS
+				type = annex_everything
+			}
+			MGN = {
+			    declare_war_on = {
+					target = OMS
+					type = annex_everything
+				}
+			    declare_war_on = {
+					target = GAL
+					type = annex_everything
+				}
+			    declare_war_on = {
+					target = YSK
+					type = annex_everything
+				}
+			    declare_war_on = {
+					target = ZNS
+					type = annex_everything
+				}
+				add_ideas = POK_idea_GV
+			}
+			YSK = {
+			add_ideas = POK_idea_GV
+			}
+			OMS = {
+			    declare_war_on = {
+					target = GAL
+					type = annex_everything
+				}
+			    declare_war_on = {
+					target = YSK
+					type = annex_everything
+				}
+			    declare_war_on = {
+					target = ZNS
+					type = annex_everything
+				}
+add_ideas = POK_idea_GV				
+			}
+			GAL = {
+			    declare_war_on = {
+					target = YSK
+					type = annex_everything
+				}
+			    declare_war_on = {
+					target = ZNS
+					type = annex_everything
+				}
+add_ideas = POK_idea_GV				
+			}
+			ZNS = {
+			    declare_war_on = {
+					target = YSK
+					type = annex_everything
+				}
+add_ideas = POK_idea_GV				
+			}
+		}
+	}
+}
+country_event = { ###Начало гражданской войны в Покаянии
+	id = POK.25
+	title = POK.25.t
+	desc = POK.25.d
+	picture = GFX_report_event_dkr_pok_police
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+		name = POK.25.a
+		add_manpower = -1200
+		hidden_effect = {
+			news_event = dk_news.26
+			add_ideas = POK_idea_GV
+			MRD = {
+				country_event = {
+					id = mordor.14
+					days = 7
+				}
+				add_ideas = POK_idea_GV
+			}
+			declare_war_on = { #Покаяния_объявляет_войны_первой_чтобы_она_не_получала_бонус_за_оборонительную_войну_до_вступления_Мордора
+				target = MGN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = OMS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GAL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = YSK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ZNS
+				type = annex_everything
+			}
+			MGN = {
+			    declare_war_on = {
+					target = OMS
+					type = annex_everything
+				}
+			    declare_war_on = {
+					target = GAL
+					type = annex_everything
+				}
+			    declare_war_on = {
+					target = YSK
+					type = annex_everything
+				}
+			    declare_war_on = {
+					target = ZNS
+					type = annex_everything
+				}
+				add_ideas = POK_idea_GV
+			}
+			YSK = {
+			add_ideas = POK_idea_GV
+			}
+			OMS = {
+			    declare_war_on = {
+					target = GAL
+					type = annex_everything
+				}
+			    declare_war_on = {
+					target = YSK
+					type = annex_everything
+				}
+			    declare_war_on = {
+					target = ZNS
+					type = annex_everything
+				}
+add_ideas = POK_idea_GV				
+			}
+			GAL = {
+			    declare_war_on = {
+					target = YSK
+					type = annex_everything
+				}
+			    declare_war_on = {
+					target = ZNS
+					type = annex_everything
+				}
+add_ideas = POK_idea_GV				
+			}
+			ZNS = {
+			    declare_war_on = {
+					target = YSK
+					type = annex_everything
+				}
+add_ideas = POK_idea_GV				
+			}
+		}
+	}
+}	
+country_event = {
+	id = POK.26
+	title = POK.26.t
+	desc = POK.26.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.26.a
+	add_country_leader_role = {
+			character = POK_Shulman
+			promote_leader = yes
+			country_leader = {
+				ideology = democratura
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+			}
+		}
+	}
+	option = {
+	name = POK.26.b
+	add_country_leader_role = {
+			character = POK_Hodorkovskiy
+			promote_leader = yes
+			country_leader = {
+				ideology = liberalism
+				expire = "1965.1.1.1"
+				traits = {
+				backroom_backstabber	
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = POK.27
+	title = POK.27.t
+	desc = POK.27.d
+	picture = GFX_report_event_dkr_pok_police
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.27.a
+	}
+	option = {
+	name = POK.27.b
+	}
+}
+country_event = {
+	id = POK.28
+	title = POK.28.t
+	desc = POK.28.d
+	picture = GFX_report_event_dkr_pok_police
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.28.a
+	}
+}
+country_event = {
+	id = POK.29
+	title = POK.29.t
+	desc = POK.29.d
+	picture = GFX_report_event_dkr_fasepalm_gaydar
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.29.a
+	add_political_power = -100
+	add_war_support = -0.1
+	set_cosmetic_tag = POK_bsb
+	custom_effect_tooltip = POK_bsb_tt
+	}
+	option = {
+	name = POK.29.b
+	add_political_power = -150
+	set_cosmetic_tag = POK_KOM
+	custom_effect_tooltip = POK_tnoid_tt
+	}
+	option = {
+	name = POK.29.c
+	add_stability = -0.1
+	}
+}
+country_event = {
+	id = POK.30
+	title = POK.30.t
+	desc = POK.30.d
+	picture = GFX_report_event_dkr_fasepalm_gaydar
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.30.a
+    set_country_flag = lunar_option
+	}
+	option = {
+	name = POK.30.b
+    set_country_flag = eltsin_option
+	}
+}
+country_event = {
+	id = POK.31
+	title = POK.31.t
+	desc = POK.31.d
+	picture = GFX_report_event_dkr_fasepalm_gaydar
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.31.a
+	kill_country_leader = yes
+		add_country_leader_role = {
+			character = POK_Putin
+			promote_leader = yes
+			country_leader = {
+			    desc = "POLITICS_PUTIN_DESC"     
+				ideology = conservatism
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+			}
+		}
+		NOD = {
+		add_ideas = POK_NOD_confusion
+		}
+	}
+}
+country_event = {
+	id = POK.32
+	title = POK.32.t
+	desc = POK.32.d
+	picture = GFX_report_event_dkr_fasepalm_gaydar
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.32.a
+	kill_country_leader = yes
+		add_country_leader_role = {
+			character = POK_Eltsin
+			promote_leader = yes
+			country_leader = {
+			    desc = "POLITICS_ELTSIN_DESC"     
+				ideology = eltsinism
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = POK.33
+	title = POK.33.t
+	desc = POK.33.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.33.a
+	}
+}
+country_event = {
+	id = POK.34
+	title = POK.34.t
+	desc = POK.34.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.34.a
+	}
+}
+###конпр
+country_event = {
+	id = POK.35
+	title = POK.35.t
+	desc = POK.35.d
+	picture = GFX_report_event_dkr_pok_police
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.35.a
+	 create_faction = KONPR_alliance
+	 if = {
+				limit = {
+					 BRT = exists
+					
+				}
+				 BRT = {country_event = POK.42}
+			}
+	if = {
+				limit = {
+					 KAZ = exists
+				}
+				 KAZ = {country_event = POK.45}
+			}
+	if = {
+				limit = {
+					 KOL = exists
+				}
+				 KOL = {country_event = POK.48}
+			}		 
+	}
+	option = {
+	name = POK.35.b
+	 create_faction = KONPR_alliance
+	}
+}
+country_event = {
+	id = POK.36
+	title = POK.36.t
+	desc = POK.36.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.36.a
+	}
+}
+#табуретка
+country_event = {
+	id = POK.37
+	title = POK.37.t
+	desc = POK.37.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.37.a
+	add_corps_commander_role = {
+			character = POK_Taburetka
+			traits = { politically_connected media_personality }
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 4
+	        planning_skill = 3
+	        logistics_skill = 3
+		    legacy_id = -1
+            }
+	}
+}
+#кто написал 4 миллиона доносов
+country_event = {
+	id = POK.38
+	title = POK.38.t
+	desc = POK.38.d
+	picture = GFX_report_event_dkr_pok_police
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.38.a
+	add_political_power = 100
+	add_stability = 0.05
+	add_to_variable = { demshiza = 3 }
+custom_effect_tooltip = POK_demshiza3_tt
+	}
+	option = {
+	name = POK.38.b
+	remove_ideas = POK_end_militarism
+	add_manpower = -300
+	add_political_power = -150
+	add_stability = -0.05
+	}
+}
+#Конец гражданки
+country_event = {
+	id = POK.39
+	title = POK.39.t
+	desc = POK.39.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+	tag = POK
+	GAL = { exists = no }
+	MRD = { exists = no }
+	ZNS = { exists = no }
+	YSK = { exists = no }
+	OMS = { exists = no }
+	MGN = { exists = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+    fire_only_once = yes	
+	
+	option = {
+	name = POK.39.a
+	remove_ideas = POK_idea_GV
+	set_country_flag = pokoyanskaya_civil_war_end_cf
+	set_global_flag = pokoyanskaya_civil_war_end_gf
+	complete_national_focus = POK_end_civil_conflict
+	news_event = dk_news.48
+			MRD = {
+				remove_state_core = 516
+				remove_state_core = 878
+			}
+			
+			every_state = {
+			limit = {
+				is_cored_by = MGN
+			}
+			MGN = {
+				remove_state_core = PREV
+			}
+		  } 
+		  every_state = {
+			limit = {
+				is_cored_by = YSK
+			}
+			YSK = {
+				remove_state_core = PREV
+			}
+		  }
+		  every_state = {
+			limit = {
+				is_cored_by = GAL
+			}
+			GAL = {
+				remove_state_core = PREV
+			}
+		  } 
+		  every_state = {
+			limit = {
+				is_cored_by = OMS
+			}
+			OMS = {
+				remove_state_core = PREV
+			}
+		  } 
+		  every_state = {
+			limit = {
+				is_cored_by = ZNS
+			}
+			ZNS = {
+				remove_state_core = PREV
+			}
+		  } 
+	}
+}
+#Конец Покаянгелиона
+country_event = {
+	id = POK.40
+	title = POK.40.t
+	desc = POK.40.d
+	picture = GFX_report_event_dkr_solzh_golova
+	
+	trigger = {
+		tag = POK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = POK.40.a
+	news_event = {
+				id = dk_news.73
+			}
+	if = {
+				limit = {
+					 has_completed_focus = POK_private_armies
+				}
+				custom_effect_tooltip = POK_BAZIM_KAZ_tt
+				set_global_flag = POK_BAZIM_KAZ
+			}
+			hidden_effect = {
+			if = {
+				limit = {
+					NOT = { SKT = exists } 
+			POK = {
+			owns_state = 262
+			owns_state = 397
+			owns_state = 398
+			owns_state = 581 
+			}
+				}
+				SKT = {
+		    set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+			}
+		transfer_state = 262
+		transfer_state = 397
+		transfer_state = 398
+		transfer_state = 581
+		transfer_state = 400
+		add_state_core = 400
+		}
+		    SKT = {
+		        load_focus_tree = generic_focus  
+		    } 
+		}
+		if = {
+				limit = {
+					NOT = { BRT = exists } 
+					POK = {
+			owns_state = 563
+			owns_state = 564
+			owns_state = 565
+			owns_state = 566
+			}
+				}
+				BRT = {
+		transfer_state = 564
+		transfer_state = 566
+		transfer_state = 563
+		transfer_state = 565
+		}
+			}
+if = {
+				limit = {
+					NOT = { YAK = exists } 
+					POK = {
+			owns_state = 574
+			owns_state = 876
+			owns_state = 877
+			owns_state = 644
+			owns_state = 562
+			}
+				}
+				YAK = {
+		    transfer_state = 574
+			transfer_state = 876
+			transfer_state = 877
+			transfer_state = 644
+			transfer_state = 562
+			add_state_core = 562
+		}
+			}
+    if = {
+		limit = {
+		    NOT = { KOL = exists } 
+			POK = {
+                owns_state = 822
+				owns_state = 637
+				owns_state = 874
+			}
+		}
+		KOL = {
+		    transfer_state = 822
+			transfer_state = 637
+			transfer_state = 874
+			add_state_core = 637
+			add_state_core = 874
+		}
+	}
+if = {
+				limit = {
+					NOT = { HAZ = exists } 
+					POK = {
+owns_state = 237
+			}
+				}
+			HAZ = {
+			set_politics = { ruling_party = democratic elections_allowed = no }
+		    transfer_state = 237
+			set_cosmetic_tag = HAZ_kalmyk
+		}
+			}				
+if = {
+				limit = {
+					NOT = { KAZ = exists } 
+					POK = {
+owns_state = 407
+			owns_state = 406
+			owns_state = 402
+			owns_state = 587
+			owns_state = 404
+			owns_state = 881
+			owns_state = 589
+			owns_state = 586
+			owns_state = 583
+			owns_state = 590
+			owns_state = 882
+			owns_state = 588
+			}
+				}
+				KAZ = { 
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		    transfer_state = 407
+			transfer_state = 406
+			transfer_state = 402
+			transfer_state = 587
+			transfer_state = 404
+			transfer_state = 881
+			transfer_state = 589
+			transfer_state = 586
+			transfer_state = 583
+			transfer_state = 590
+			transfer_state = 882
+			transfer_state = 588
+			transfer_state = 571
+			}
+			}
+if = {
+limit = {
+POK = {
+owns_state = 652
+}
+}
+KAZ = {
+transfer_state = 652
+}
+}	
+if = {
+limit = {
+POK = {
+owns_state = 236
+}
+}
+KAZ = {
+transfer_state = 236
+}
+}
+if = {
+				limit = {
+					NOT = { KYR = exists } 
+					POK = {
+owns_state = 732 
+			}
+				}
+				KYR = {
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		transfer_state = 732 
+		}
+			}
+if = {
+				limit = {
+					NOT = { TMS = exists } 
+					POK = {
+owns_state = 832
+			owns_state = 584
+			}
+				}
+				TMS = {
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		transfer_state = 832
+		transfer_state = 584
+		}
+			}
+if = {
+				limit = {
+					NOT = { TAJ = exists } 
+					POK = {
+owns_state = 823
+			owns_state = 832
+			owns_state = 585
+			owns_state = 830
+			owns_state = 405
+			owns_state = 742
+			}
+				}
+				TAJ = {
+		set_politics = { ruling_party = democratic elections_allowed = no }
+            transfer_state = 823
+			transfer_state = 832
+			transfer_state = 585
+			transfer_state = 830
+			transfer_state = 405
+			transfer_state = 742
+			}
+			}
+if = {
+				limit = {
+					NOT = { CHK = exists } 
+					POK = {
+owns_state = 821
+			owns_state = 232
+			owns_state = 233
+			owns_state = 827
+			owns_state = 828
+			}
+				}
+				CHK = {
+			transfer_state = 821
+			transfer_state = 232
+			transfer_state = 233
+			transfer_state = 827
+			transfer_state = 828
+            add_state_core = 821
+            add_state_core = 232
+            add_state_core = 233
+			add_state_core = 827
+			add_state_core = 828
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+			}
+			set_cosmetic_tag = CHK_pok
+		 }
+			}
+if = {
+				limit = {
+					NOT = { GEO = exists } 
+					POK = {
+owns_state = 826
+			owns_state = 231
+			}
+				}
+				GEO = {
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+			}
+			transfer_state = 826
+			transfer_state = 231
+		}
+		GEO = { 
+			    remove_ideas = GEO_sevkavkaz_partizan_war
+			}
+			}
+if = {
+				limit = {
+					NOT = { ARM = exists } 
+					POK = {
+owns_state = 230
+			}
+				}
+				ARM = {
+		transfer_state = 230
+		set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+			}
+		 }
+			}
+if = {
+				limit = {
+					NOT = { AZR = exists } 
+					POK = {
+owns_state = 229
+			}
+				}
+				AZR = {
+		transfer_state = 229
+		set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+			}
+		 }
+			}
+	if = { 
+		limit = {
+		NOT = { ZHE = exists }
+			POK = {		 
+			controls_state = 199
+			controls_state = 91
+			controls_state = 89
+			controls_state = 80
+			controls_state = 203
+			controls_state = 259
+			controls_state = 225
+			controls_state = 193
+			controls_state = 202
+			controls_state = 201
+			controls_state = 198
+			controls_state = 93
+			controls_state = 196
+			controls_state = 197
+			controls_state = 192
+			controls_state = 834
+			controls_state = 221
+			controls_state = 226
+			controls_state = 227
+			controls_state = 228
+			controls_state = 137
+			controls_state = 200
+			controls_state = 260
+			}
+
+		}
+			ZHE = {
+			transfer_state = 199
+			transfer_state = 91
+			transfer_state = 89
+			transfer_state = 80
+			transfer_state = 203
+			transfer_state = 259
+			transfer_state = 225
+			transfer_state = 193
+			transfer_state = 202
+			transfer_state = 201
+			transfer_state = 198
+			transfer_state = 93
+			transfer_state = 196
+			transfer_state = 197
+			transfer_state = 192
+			transfer_state = 834
+			transfer_state = 221
+			transfer_state = 226
+			transfer_state = 227
+			transfer_state = 228
+			transfer_state = 137
+			transfer_state = 200
+			transfer_state = 260
+			transfer_state = 220
+			transfer_state = 240
+			    add_state_core = 202
+			    add_state_core = 201
+			    add_state_core = 91
+			    add_state_core = 93
+			    add_state_core = 199
+			    add_state_core = 198
+				add_state_core = 192
+			    add_state_core = 199
+			    add_state_core = 203
+			   	add_state_core = 197
+			    add_state_core = 766
+				add_state_core = 196
+			    add_state_core = 193
+			    add_state_core = 226
+			    add_state_core = 200
+			    add_state_core = 259
+				add_state_core = 225
+			    add_state_core = 221
+			    add_state_core = 228
+			    add_state_core = 227
+			    add_state_core = 80
+				add_state_core = 78
+			    add_state_core = 89
+				add_state_core = 834
+				add_state_core = 260
+				add_state_core = 220
+				add_state_core = 240
+				set_capital = 202
+			set_cosmetic_tag = ZHE_ukraina
+		}
+	    }
+        if = {
+			limit = {
+				NOT = { ZWN = exists } 
+			    POK = {
+					owns_state = 242
+					owns_state = 243
+					owns_state = 205
+			    }
+			}
+			ZWN = {
+				transfer_state = 242
+				transfer_state = 243
+				transfer_state = 205				
+				transfer_state = 96
+				transfer_state = 95			
+				transfer_state = 207
+				transfer_state = 206
+				transfer_state = 204
+				transfer_state = 194
+				transfer_state = 241
+				transfer_state = 94
+				transfer_state = 224
+			}
+	    }	
+if = {
+				limit = {
+					SUO = exist
+					MHL = { is_ally_with = POK }
+				}
+				SUO = { 
+			annex_country = {
+				target = MHL
+				transfer_troops = no
+			}
+			}	
+	}
+if = {
+				limit = {
+					POK = {
+					controls_state = 215 
+			        controls_state = 216
+					controls_state = 213
+					controls_state = 722
+					}
+				}
+				release = SUO
+				SUO = { 
+			        transfer_state = 215
+		            transfer_state = 216
+					transfer_state = 213
+					transfer_state = 722
+			    }	
+	}	
+if = {
+				limit = {
+					SUO = exist
+					POK = {
+					controls_state = 146
+					}
+				}
+				SUO = { 
+			        transfer_state = 146
+			    }	
+	}
+if = {
+				limit = {
+					NOT = { IDU = exists } 
+					POK = {
+controls_state = 399
+			controls_state = 833
+			controls_state = 651
+			controls_state = 249
+			controls_state = 256
+			}
+				}
+				IDU = { 
+			transfer_state = 399
+			transfer_state = 833
+			transfer_state = 651
+			transfer_state = 249
+			transfer_state = 256
+			add_state_core = 399
+			add_state_core = 833
+			add_state_core = 651
+			add_state_core = 249
+			add_state_core = 256
+			}
+			POK = {
+		set_nationality = {
+		target_country = IDU
+		character = POK_Hamatova 
+		}
+		}
+		IDU = {
+		promote_character = POK_Hamatova
+			add_country_leader_role = {
+			character = POK_Hamatova
+			promote_leader = yes
+			country_leader = {
+				ideology = liberalism
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+			}
+		}
+		}
+			}
+if = {
+				limit = {
+					NOT = { KHA = exists } 
+					POK = {
+controls_state = 569
+			}
+				}
+				KHA = {
+	transfer_state = 569
+		 }
+			}	
+if = {
+				limit = {
+					NOT = { ALT = exists } 
+					POK = {
+controls_state = 654
+controls_state = 40
+			}
+				}
+				ALT = {
+	transfer_state = 654
+	transfer_state = 40
+	add_state_core = 654
+	add_state_core = 40
+		 }
+		ALT = { 
+		set_politics = {
+				ruling_party = vmestolev
+				elections_allowed = no
+			}
+        }  
+		MRD = {
+		set_nationality = {
+		target_country = ALT
+		character = MRD_Vlad_Makarov 
+		}
+		}
+        recruit_character = MRD_Vlad_Makarov 		
+		ALT = {
+		promote_character = MRD_Vlad_Makarov
+			add_country_leader_role = {
+			character = MRD_Vlad_Makarov
+			promote_leader = yes
+			country_leader = {
+				ideology = stalinismus
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+			}
+		} 
+			}
+		set_capital = {state = 40}	
+}			
+if = {
+				limit = {
+					NOT = { TAN = exists } 
+					POK = {
+controls_state = 329
+			}
+				}
+				TAN = {
+	transfer_state = 329
+		 }
+			}	
+if = {
+				limit = {
+					NOT = { NEN = exists } 
+					POK = {
+controls_state = 824
+			controls_state = 825
+			controls_state = 579
+			}
+				}
+				NEN = {
+	transfer_state = 824
+			transfer_state = 825
+			transfer_state = 579
+		 }
+			}
+if = {
+				limit = {
+					NOT = { NEN = exists } 
+					POK = {
+controls_state = 824
+controls_state = 579
+			}
+				}
+				NEN = {
+	transfer_state = 824
+			transfer_state = 579
+			add_state_claim = 825
+		 }
+			}			
+if = {
+				limit = {
+					NOT = { POT = exists } 
+				POK = {
+            owns_state = 516
+			owns_state = 878
+			owns_state = 576
+			owns_state = 568
+				}
+				}
+				POT = { 
+			transfer_state = 516
+			transfer_state = 878
+			transfer_state = 576
+			transfer_state = 568
+			add_state_core = 516
+			add_state_core = 878
+			add_state_core = 576
+			add_state_core = 568
+			}
+			POK = {
+		set_nationality = {
+		target_country = POT
+		character = POK_potanin
+		}
+		}
+		POT = {
+		promote_character = POK_potanin
+			add_country_leader_role = {
+			character = POK_potanin
+			promote_leader = yes
+			country_leader = {
+				ideology = ancap
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+			}
+		}
+		}
+			}
+		if = {
+			limit = {
+				NOT = { ZKR = exists } 
+			    POK = {
+                    owns_state = 567
+			        owns_state = 575
+			    }
+			}
+			ZKR = { 
+			    transfer_state = 567
+			    transfer_state = 575
+			    add_state_core = 567
+			    add_state_core = 575
+			}
+	    }
+        if = {
+			limit = {
+				NOT = { ZKL = exists } 
+			    POK = {
+                    owns_state = 560
+			        owns_state = 561
+					owns_state = 657
+			    }
+			}
+			ZKL = { 
+			    transfer_state = 560
+			    transfer_state = 561
+				transfer_state = 657
+			    add_state_core = 560
+			    add_state_core = 561
+				add_state_core = 657
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { TLM = exists } 
+			    POK = {
+                    owns_state = 403
+			        owns_state = 577
+			    }
+			}
+			TLM = { 
+			    transfer_state = 403
+			    transfer_state = 577
+			    add_state_core = 403
+			    add_state_core = 577
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { URL = exists } 
+			    POK = {
+                    owns_state = 653
+			        owns_state = 572
+					owns_state = 573
+					owns_state = 582
+			    }
+			}
+			URL = { 
+			    transfer_state = 653
+			    transfer_state = 572
+				transfer_state = 573
+			    transfer_state = 582
+			    add_state_core = 653
+			    add_state_core = 572
+				add_state_core = 573
+			    add_state_core = 582
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { GHM = exists } 
+			    POK = {
+                    owns_state = 580
+			    }
+			}
+			GHM = { 
+			    transfer_state = 580
+			    add_state_core = 580
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { GAL = exists } 
+			    POK = {
+                    owns_state = 570
+					owns_state = 578
+			    }
+			}
+			GAL = { 
+			    transfer_state = 570
+				transfer_state = 578
+			    add_state_core = 570
+				add_state_core = 578
+			}
+			GAL = {
+			    set_politics = {
+				    ruling_party = democratic
+				    elections_allowed = no
+			    }
+			}	
+			GAL = {
+		        promote_character = GAL_Boyarshinov
+			    add_country_leader_role = {
+			        character = GAL_Boyarshinov
+			        promote_leader = yes
+			        country_leader = {
+				        ideology = liberalism
+				        expire = "1965.1.1.1"
+				        traits = {					
+				        }
+			        }
+		        }				
+		    }
+			GAL = {
+		        load_focus_tree = generic_focus  
+		    }
+	    }
+		if = {
+			limit = {
+				NOT = { ING = exists } 
+			    POK = {
+                    owns_state = 195
+			        owns_state = 208
+					owns_state = 244
+			    }
+			}
+			ING = { 
+			    transfer_state = 195
+			    transfer_state = 208
+				transfer_state = 244
+			    add_state_core = 195
+			    add_state_core = 208
+				add_state_core = 244
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { PSO = exists } 
+			    POK = {
+                    owns_state = 209
+			        owns_state = 210
+			    }
+			}
+			PSO = { 
+			    transfer_state = 209
+			    transfer_state = 210
+			    add_state_core = 209
+			    add_state_core = 210
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { NOV = exists } 
+			    POK = {
+                    owns_state = 263
+			        owns_state = 246
+					owns_state = 264
+			    }
+			}
+			NOV = { 
+			    transfer_state = 263
+			    transfer_state = 246
+				transfer_state = 264			
+			    add_state_core = 263
+			    add_state_core = 246
+				add_state_core = 264
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { POM = exists } 
+			    POK = {
+					owns_state = 879
+					owns_state = 880
+					owns_state = 214
+					owns_state = 351
+			    }
+			}
+			POM = {
+				transfer_state = 879
+				transfer_state = 880
+				transfer_state = 214
+				transfer_state = 351
+				add_state_core = 879
+				add_state_core = 880
+				add_state_core = 214
+				add_state_core = 351
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { KRR = exists } 
+			    POK = {
+					owns_state = 265
+					owns_state = 217
+					owns_state = 245
+					owns_state = 218
+					owns_state = 238
+					owns_state = 234
+					owns_state = 235
+					owns_state = 829
+				    owns_state = 239
+				    owns_state = 401
+				    owns_state = 251
+			    }
+			}
+			KRR = {
+				transfer_state = 265
+				transfer_state = 217
+				transfer_state = 245
+				transfer_state = 218
+				transfer_state = 238
+				transfer_state = 234
+				transfer_state = 235				
+				transfer_state = 829
+				transfer_state = 239
+				transfer_state = 401
+				transfer_state = 251				
+				add_state_core = 265
+				add_state_core = 217
+				add_state_core = 235
+				add_state_core = 829
+				add_state_core = 239
+				add_state_core = 401
+				add_state_core = 251
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { TAJ = exists } 
+			    POK = {
+					owns_state = 742
+			    }
+			}
+			TAJ = {
+				transfer_state = 742				
+				add_state_core = 742
+			}
+			TAJ = {
+				set_capital = 742
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { UZB = exists } 
+			    POK = {
+					owns_state = 830
+					owns_state = 405
+					owns_state = 585
+					owns_state = 823
+					owns_state = 831
+			    }
+			}
+			UZB = {
+				transfer_state = 830
+                transfer_state = 405
+                transfer_state = 585     
+                transfer_state = 823      
+				transfer_state = 831 
+				add_state_core = 830
+				add_state_core = 405
+				add_state_core = 585
+				add_state_core = 823
+				add_state_core = 831
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { ZHR = exists } 
+			    POK = {
+					owns_state = 408
+					owns_state = 409
+			    }
+			}
+			ZHR = {
+				transfer_state = 408
+                transfer_state = 409
+				add_state_core = 408
+				add_state_core = 409
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { PRJ = exists } 
+			    POK = {
+					owns_state = 655
+					owns_state = 537
+					owns_state = 555
+			    }
+			}
+			PRJ = {
+				transfer_state = 655
+                transfer_state = 537
+				transfer_state = 555
+				add_state_core = 655
+				add_state_core = 537
+				add_state_core = 555
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { SPL = exists } 
+			    POK = {
+					owns_state = 13
+					owns_state = 191
+					owns_state = 811
+					owns_state = 812
+					owns_state = 813
+			    }
+			}
+			SPL = {
+				transfer_state = 13
+                transfer_state = 191
+				transfer_state = 811
+				transfer_state = 812
+				transfer_state = 813
+				set_country_flag = SPL_POK
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { VSB = exists } 
+			    POK = {
+					owns_state = 11
+					owns_state = 188
+					owns_state = 189
+					owns_state = 814
+					owns_state = 815
+					owns_state = 784
+			    }
+			}
+			VSB = {
+				transfer_state = 11
+                transfer_state = 188
+				transfer_state = 189
+				transfer_state = 814
+				transfer_state = 815
+				transfer_state = 784
+				set_country_flag = VSB_POK
+			}
+	    }
+		if = {
+			limit = {
+				NOT = { LTV = exists } 
+			    POK = {
+					owns_state = 12
+					owns_state = 190
+					owns_state = 808
+					owns_state = 809
+					owns_state = 810
+			    }
+			}
+			LTV = {
+				transfer_state = 12
+                transfer_state = 190
+				transfer_state = 808
+				transfer_state = 809
+				transfer_state = 810
+				add_state_core = 12
+				add_state_core = 190
+				add_state_core = 808
+				add_state_core = 809
+				add_state_core = 810
+			}
+	    }
+		if = {
+			limit = {
+				FRG = exists 
+			    POK = {
+					owns_state = 763
+			    }
+			}
+			FRG = {
+				transfer_state = 763
+				add_state_core = 763
+			}
+	    }
+		POK = {
+		    set_cosmetic_tag = POK_Malaya_Pokayaniya
+		}
+		POK = {
+		    set_capital = 219
+		}
+		set_victory_points = {
+	        province = 301
+	        value = 10
+        }
+		transfer_units_fraction= {
+target = URL
+size = 0.2
+stockpile_ratio = 0.2
+army_ratio = 0.2
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+transfer_units_fraction= {
+target = GAL
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.1
+}
+transfer_units_fraction= {
+target = NEN
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.5
+air_ratio = 0
+}
+transfer_units_fraction= {
+target = POM
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.5
+air_ratio = 0.1
+}
+transfer_units_fraction= {
+target = ALT
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+transfer_units_fraction= {
+target = POT
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+transfer_units_fraction= {
+target = ZKR
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+transfer_units_fraction= {
+target = TLM
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+transfer_units_fraction= {
+target = KRR
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+transfer_units_fraction= {
+target = IDU
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+transfer_units_fraction= { 
+target = SKT
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+transfer_units_fraction= {
+target = NOV
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+transfer_units_fraction= {
+target = KHA
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+transfer_units_fraction= {
+target = TAN
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+transfer_units_fraction= {
+target = YAK
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+transfer_units_fraction= {
+target = CHK
+size = 0.05
+stockpile_ratio = 0.05
+army_ratio = 0.05
+navy_ratio = 0.0
+air_ratio = 0.05
+}
+		news_event = dk_news.66
+		hidden_effect = {
+		    country_event = {
+                id = KAZ.2
+                days = 7
+            }
+			news_event = {
+                id = dk_news.67
+                days = 7
+            }
+		}
+		country_event = {
+    id = POK.41
+    hours = 12
+    random_hours = 6
+    days = 5
+}
+}
+	}
+}
+#Кац Базит
+country_event = {
+	id = POK.41
+	title = POK.41.t
+	desc = POK.41.d
+	picture = GFX_report_event_dkr_KATZcore
+	
+	trigger = {
+		tag = POK
+
+	}
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+	name = POK.41.a
+	POK = {
+	delete_unit_template_and_units = { division_template = "ЧВК" }
+		set_nationality = {
+		target_country = URL
+		character = POK_Katz
+		}
+		set_nationality = {
+		target_country = URL
+		character = POK_Panin
+		}
+		}
+		URL = {
+		promote_character = POK_Katz
+			add_country_leader_role = {
+			character = POK_Katz
+			promote_leader = yes
+			country_leader = {
+				ideology = fascism_ideology
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+			}
+		}
+	set_politics = {ruling_party = fascism elections_allowed = no}
+    add_popularity = { ideology = fascism popularity = 0.5 }
+                set_cosmetic_tag = URL_Katz 
+		}
+		URL = {
+		division_template = {
+					name = "ЧВК"
+					division_names_group = POK_PMC_01
+					template_counter = 30
+
+		regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		anti_air_brigade = { x = 2 y = 1 }
+		anti_tank_brigade = { x = 2 y = 2 }		
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 }
+        light_tank_recon = { x = 0 y = 2 }
+        signal_company = { x = 0 y = 3 }
+        field_hospital = { x = 0 y = 4 }      		
+	}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"ЧВК ''Псы Войны''\" division_template = \"ЧВК\" start_experience_factor = 1.2 start_equipment_factor = 1.0" owner = ROOT
+					}
+				}
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"ЧВК ''Псы Войны''\" division_template = \"ЧВК\" start_experience_factor = 1.2 start_equipment_factor = 1.0" owner = ROOT
+					}
+				}
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"ЧВК ''Псы Войны''\" division_template = \"ЧВК\" start_experience_factor = 1.2 start_equipment_factor = 1.0" owner = ROOT
+					}
+				}
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"ЧВК ''Псы Войны''\" division_template = \"ЧВК\" start_experience_factor = 1.2 start_equipment_factor = 1.0" owner = ROOT
+					}
+				}
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"ЧВК ''Псы Войны''\" division_template = \"ЧВК\" start_experience_factor = 1.2 start_equipment_factor = 1.0" owner = ROOT
+					}
+				}
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"ЧВК ''Псы Войны''\" division_template = \"ЧВК\" start_experience_factor = 1.2 start_equipment_factor = 1.0" owner = ROOT
+					}
+				}
+	set_country_flag = DR_start_reunite_Russia_cf
+	}
+	}
+}
+#Пригласить_в_альянс_brt
+country_event = { 
+	id = POK.42
+        title = POK.42.t
+        desc = POK.42.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.42.a
+		ai_chance = {
+			base = 80
+		}
+		POK = {country_event = POK.43}
+	}
+	option = {
+		name = POK.42.b
+		ai_chance = {
+			base = 20
+		}
+		POK = {country_event = POK.44}
+	}
+}
+#Согласие
+country_event = { 
+	id = POK.43
+        title = POK.43.t
+        desc = POK.43.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.43.a
+		POK = { add_to_faction = BRT }
+	}
+}
+#Отказ
+country_event = { 
+	id = POK.44
+        title = POK.44.t
+        desc = POK.44.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.44.a
+		create_wargoal = {
+        type = annex_everything
+        target = BRT
+        }
+	}
+}
+#Пригласить_в_альянс_kaz
+country_event = { 
+	id = POK.45
+        title = POK.45.t
+        desc = POK.45.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.45.a
+		ai_chance = {
+			base = 70
+			modifier = {
+				factor = 10
+				has_government = fascism
+			}
+			modifier = {
+				factor = 50
+				has_government = neutrality
+			}
+		}
+		POK = {country_event = POK.46}
+	}
+	option = {
+		name = POK.45.b
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 70
+				has_government = fascism
+			}
+			modifier = {
+				factor = 50
+				has_government = neutrality
+			}
+		}
+		POK = {country_event = POK.47}
+	}
+}
+#Согласие
+country_event = { 
+	id = POK.46
+        title = POK.46.t
+        desc = POK.46.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.46.a
+		POK = { add_to_faction = KAZ }
+	}
+}
+#Отказ
+country_event = { 
+	id = POK.47
+        title = POK.47.t
+        desc = POK.47.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.47.a
+		create_wargoal = {
+        type = annex_everything
+        target = KAZ
+        }
+	}
+}
+#Пригласить_в_альянс_kol
+country_event = { 
+	id = POK.48
+        title = POK.48.t
+        desc = POK.48.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.48.a
+		ai_chance = {
+			base = 100
+		}
+		POK = {country_event = POK.49}
+	}
+	option = {
+		name = POK.48.b
+		ai_chance = {
+			base = 0
+		}
+		POK = {country_event = POK.50}
+	}
+}
+#Согласие
+country_event = { 
+	id = POK.49
+        title = POK.49.t
+        desc = POK.49.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.46.a
+		POK = { add_to_faction = KOL }
+	}
+}
+#Отказ
+country_event = { 
+	id = POK.50
+        title = POK.50.t
+        desc = POK.50.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.50.a
+		create_wargoal = {
+        type = annex_everything
+        target = KOL
+        }
+	}
+}
+country_event = { 
+	id = POK.51
+        title = POK.51.t
+        desc = POK.51.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.51.a
+		add_country_leader_role = { 
+			character = POK_psihocossack
+			promote_leader = yes
+			country_leader = {
+			    desc = "POLITICS_PSIHOCOSSAK_DESC"     
+				ideology = democratura
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+			}
+		}
+	}
+	option = {
+		name = POK.51.b
+		trigger = { has_completed_focus = POK_old_svyazi }
+		add_country_leader_role = { 
+			character = POK_sharanskiy 
+			promote_leader = yes
+			country_leader = {
+			    desc = "POLITICS_SHARANSKIY_DESC"     
+				ideology = democratura
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+			}
+		}
+	}
+	option = {
+		name = POK.51.c
+		add_political_power = -100
+		add_stability = 0.1
+	}
+}
+country_event = { 
+	id = POK.52
+        title = POK.52.t
+        desc = POK.52.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.52.a
+	}
+}
+country_event = { 
+	id = POK.53
+        title = POK.53.t
+        desc = POK.53.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.53.a
+		set_technology = { advanced_ship_hull_submarine = 1 }
+	    create_equipment_variant = {
+	    	name = "Китеж-Град"
+    		type = ship_hull_submarine_4
+    		name_group = GER_SS_HISTORICAL
+    		parent_version = 0
+    		modules = {
+    			fixed_ship_torpedo_slot = ship_torpedo_sub_4
+    			fixed_ship_engine_slot = sub_ship_engine_4
+    			rear_1_custom_slot = ship_torpedo_sub_4
+				mid_1_custom_slot = ship_radar_4
+				front_1_custom_slot = ship_torpedo_sub_4
+    		}
+    	}	
+	}
+}
+country_event = { 
+	id = POK.54
+        title = POK.54.t
+        desc = POK.54.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.54.a
+	}
+}
+#Монархический референдум
+country_event = { 
+	id = POK.55
+        title = POK.55.t
+        desc = POK.55.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.55.a
+		add_ideas = POK_baron_sibirskiy
+	    set_cosmetic_tag = POK_mon
+		add_popularity = { ideology = neutrality popularity = 0.1 }
+		hidden_effect = {
+		if = {
+		limit = {
+					 ENG = exists
+					
+				}
+				 POK = {country_event = POK.56}
+		}
+		}
+	}
+	option = {
+		name = POK.55.b
+		add_popularity = { ideology = democratic popularity = 0.1 }
+	}
+}
+country_event = { 
+	id = POK.56
+        title = POK.56.t
+        desc = POK.56.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.56.a
+		add_equipment_to_stockpile = {
+        type = infantry_equipment_1
+        amount = 500
+		producer = ENG
+
+    }
+		if = {
+		limit = {
+					 ENG = exists
+					
+				}
+				add_ideas = POK_brirus
+				ENG = {add_ideas = POK_brirus1
+			set_autonomy = {
+target = POK
+autonomous_state = autonomy_cryptocolony
+}
+				}
+		}
+	}
+}
+country_event = { 
+	id = POK.57
+        title = POK.57.t
+        desc = POK.57.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+	is_triggered_only = yes
+	
+	option = {
+		name = POK.57.a
+	}
+}

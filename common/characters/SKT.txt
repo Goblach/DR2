@@ -1,0 +1,472 @@
+characters={
+	SKT_maksim = {
+		name = "Дед Максим"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SKT/Maksim.dds"
+			}
+		}
+		country_leader = {
+	       expire = "1999.1.1"
+	       ideology = gachi
+		   id=-1
+	   }
+    }
+	
+	SKT_sovet_borodachey = {
+		name = "Совет Бородачей"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SKT/.dds"
+			}
+		}
+    }
+	
+	SKT_levoborod = {
+		name = "Игорь Александров"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SKT/LevoBOROD.dds"
+			}		
+		    army = {
+				large = "gfx/leaders/SKT/LevoBOROD.dds"
+		    }
+		}
+		country_leader = {
+	       expire = "1999.1.1"
+	       ideology = marxismus
+		   id=-1
+	   }
+    }
+	
+	SKT_kulov = {
+		name = "Олег Кулов"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_kulov"
+			}
+			army = {
+				large = "gfx/leaders/SKT/Kulov.dds"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = SKT_kulov
+			allowed = {
+                original_tag = SKT
+				
+            }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+            traits = { storonnik_kimovstva pragmatic }
+	    }
+    }
+	
+	SKT_reutskiy = {
+		name = "Александр Реутский"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_reutskiy"
+			}
+			army = {
+				large = "gfx/leaders/SKT/Reutskiy.dds"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = SKT_reutskiy
+			allowed = {
+                original_tag = SKT
+				
+            }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+            traits = { top_vaifu }
+	    }
+    }
+	
+	SKT_fomin = {
+		name = "Александр Фомин"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_fomin"
+			}
+			army = {
+				large = "gfx/leaders/SKT/Fomin.dds"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = SKT_fomin
+			allowed = {
+                original_tag = SKT
+				
+            }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+            traits = { marxist_academic }
+	    }
+    }
+	
+	SKT_filya = {
+		name = "Филипп Ценин"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_filya"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = SKT_filya
+			allowed = {
+                original_tag = SKT
+				
+            }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+            traits = { hudozhnik }
+	    }
+    }
+	
+	SKT_cybergulag = {
+		name = "Вадим Самойлов"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_cybergulag"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = SKT_cybergulag
+			allowed = {
+                original_tag = SKT
+				
+            }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+            traits = { nkvd_rezident }
+	    }
+    }
+	
+	SKT_pechenka = {
+		name = "Печенька"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_pechenka"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = SKT_pechenka
+			allowed = {
+                original_tag = SKT
+				
+            }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+            traits = { komissar_travli }
+	    }
+    }
+	
+	SKT_Ershov = {
+		name = "Святослав Ершов"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_Ershov"
+			}
+			army = {
+				large = "gfx/leaders/SKT/Ershov.dds"
+			}
+		}
+		advisor={ 
+		    slot = high_command
+			idea_token = SKT_Ershov
+			allowed = {
+                original_tag = SKT
+				
+            }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+            traits = { army_chief_organizational_1 }
+	    }
+    }
+	
+	SKT_Artur_Liberhasse = {
+		name = "Артур Либехассе"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_Artur_Liberhasse"
+			}
+		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = SKT_Artur_Liberhasse
+			allowed = {
+				original_tag = SKT
+				
+			}			
+			available = {
+				has_intelligence_agency = yes
+			}
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+			traits = { vperedsmotryazhiy }
+			ai_will_do = {
+				factor = 1
+			}
+	    }
+	}
+	
+	SKT_unicorn = {
+		name = "Капитан Юникорн"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_unicorn"
+			}
+			army = {
+				large = "gfx/leaders/SKT/unicorn_army.dds"
+			}
+		}
+		advisor={ 
+		    slot = high_command
+			idea_token = SKT_unicorn
+			allowed = {
+                original_tag = SKT
+				
+            }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+            traits = { army_cavalry_2 }
+	    }
+    }
+	
+	SKT_zhofer = {
+		name = "Павел Якубовский"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_zhofer"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = SKT_zhofer
+			allowed = {
+                original_tag = SKT
+				
+            }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+            traits = { zhofer }
+	    }
+    }
+	
+	SKT_animecom = {
+		name = "Роман Черкасский"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_animecom"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = SKT_animecom
+			allowed = {
+                original_tag = SKT
+				
+            }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+            traits = { memodel }
+	    }
+    }
+	
+	SKT_tovbard = {
+		name = "Товарищ Бард"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_tovbard"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = SKT_tovbard
+			allowed = {
+                original_tag = SKT
+				
+            }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+            traits = { musicant }
+	    }
+    }
+	
+	SKT_kosmov = {
+		name = "Иван Космов"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_kosmov"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = SKT_kosmov
+			allowed = {
+                original_tag = SKT
+				
+            }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+            traits = { backroom_backstabber }
+	    }
+    }
+	
+	SKT_Aleksandr_Lebedev = {
+		name = "Александр Леденёв"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SKT/Aleksandr_Lebedev_army.dds"
+			}
+		}
+    }
+	
+	SKT_Snezhka = {
+		name = "Снежка Рябина"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_Snezhka"
+			}
+		}
+
+		advisor = {	
+	    	slot = air_chief
+			idea_token = SKT_Snezhka
+			allowed = {
+				original_tag = SKT
+			}
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+			
+			traits = { air_chief_night_operations_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+	    }
+	}
+	
+	SKT_Semetskiy = {
+		name = "Владислав Семецкий"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_SKT_Semetskiy"
+			}
+		}
+
+		advisor = {	
+	    	slot = navy_chief
+	    	idea_token = SKT_Semetskiy
+			allowed = {
+				original_tag = SKT
+			}
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+					
+			traits = { navy_submarine_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+	    }
+	}
+	
+	SKT_RidGold = {
+		name = "RidGold"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SKT/RidGold.dds"
+			}
+		}
+	}
+	SKT_Red_Dyatel = {
+		name = "Красный Дятел"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SKT/Red_Dyatel.dds"
+			}
+		}
+	}
+	SKT_NoName_Signal = {
+		name = "NoName Signal"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SKT/NoName_Signal.dds"
+			}
+		}
+	}
+	SKT_Vladimir_Shcheulov = {
+		name = "Владимир Щеулов"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SKT/Vladimir_Shcheulov.dds"
+			}
+		}
+	}
+	SKT_Gamburg = {
+		name = "Дмитрий Гамбург"
+		portraits = {
+			army = {
+			    large = "gfx/leaders/SKT/Gamburg.dds"    
+				small = "GFX_idea_SKT_Gamburg"
+			}
+		}
+
+		advisor = {	
+		    slot = army_chief
+		    idea_token = SKT_Gamburg
+		    allowed = {
+				original_tag = SKT
+		    }
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+			
+		    traits = { army_chief_offensive_1 }
+			
+			ai_will_do = {
+				factor = 1
+	    	}
+		}	
+	}
+}

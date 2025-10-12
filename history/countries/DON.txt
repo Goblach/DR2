@@ -1,0 +1,121 @@
+capital = 227
+
+oob = DON_1936
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	gwtank_chassis = 1
+	basic_train = 1
+}
+
+recruit_character = DON_leonid_kurakov
+recruit_character = DON_strelkov
+recruit_character = DON_mozgovoy
+recruit_character = DON_batmen
+recruit_character = DON_motorola
+recruit_character = DON_givi
+recruit_character = DON_Kosrubitskiy
+recruit_character = DON_ajo_benes
+recruit_character = DON_aleksandr_zhuchkovsky
+recruit_character = DON_valentin_matuzenko
+recruit_character = DON_sergey_petrovsky
+recruit_character = DON_pavel_gubarev
+recruit_character = DON_andrej_purgin
+recruit_character = DON_vladimir_grubnik
+
+add_ideas = {
+	DON_idea_Yg_bastion
+	DON_idea_silnaya_ruka
+	DON_idea_neprof_army
+	partial_economic_mobilisation
+	limited_conscription
+}
+
+add_timed_idea = { idea = UNT_neudach_vostoch_pohod days = 547 }
+
+set_popularities = {
+	metacommy = 100
+}
+set_politics = {
+	ruling_party = metacommy
+	elections_allowed = no	
+}
+
+set_convoys = 40
+
+### VARIANTS ###
+# 1936 Start #
+
+	create_equipment_variant = {
+		name = "I-15" #
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "I-16" #
+		type = small_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_SOV_fighter1_medium"
+	}
+	create_equipment_variant = {
+		name = "DB-3" #
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			engine_type_slot = engine_2_2x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		icon = "GFX_SOV_early_bomber_medium"
+	}
+	create_equipment_variant = {
+		name = "TB-3" #
+		type = large_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = large_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = empty
+			engine_type_slot = engine_1_4x
+			special_type_slot_1 = lmg_defense_turret_2x
+		}
+		icon = "GFX_SOV_transport_plane_equipment_1_medium"
+	}
+	create_equipment_variant = {
+		name = "ANT-40" #
+		type = medium_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			engine_type_slot = engine_2_2x
+			special_type_slot_1 = lmg_defense_turret_2x
+		}
+		icon = "GFX_SOV_tactical_bomber1_medium"
+	}
+	# Destroyers #
+	create_equipment_variant = {
+		name = "Корабль охранения типа Гриф"				
+		type = ship_hull_light_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}

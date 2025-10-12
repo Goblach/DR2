@@ -1,0 +1,59 @@
+LORE_3000 = {
+    LORE_3000_1 = { 
+	
+		fire_only_once = no
+	
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = {
+			country_event = lore.1
+		}	
+	}
+    LORE_3000_2 = { 
+	
+		fire_only_once = no
+	
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = {
+			country_event = lore.2
+		}	
+	}
+    LORE_3000_3 = { 
+	
+		fire_only_once = no
+	
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = {
+			country_event = lore.3
+		}	
+	}
+    LORE_3000_4 = { 
+	
+		fire_only_once = no
+	
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = {
+			country_event = lore.4
+		}	
+	}
+    LORE_3000_5 = { 
+	
+		fire_only_once = no
+	
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = {
+			country_event = lore.5
+		}	
+	}
+
+}
+   

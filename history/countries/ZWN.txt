@@ -1,0 +1,42 @@
+﻿capital = 95
+
+oob = ZWN_1936
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = ZWN_Denis_Prokhorov
+
+add_ideas = {
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+add_timed_idea = { idea = WHS_nasledie_VeynshGV days = 547 }
+
+set_popularities = {
+	neutrality = 40
+	fascism = 60
+}
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no	
+}
+
+set_convoys = 40
+
+create_country_leader = {
+	name = "Зенон Станиславович Позняк"
+	desc = "POLITICS_THORVALD_STAUNING_DESC"
+	picture = "Poznyak.dds"
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}

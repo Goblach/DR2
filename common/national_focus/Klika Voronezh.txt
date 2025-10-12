@@ -1,0 +1,677 @@
+###Фокусы_Унца
+focus_tree = {
+	id = Unts_warlord
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UNT
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 1500 y = 100 }
+	
+	focus = {
+		id = UNT_nam_nuzhen_plan #Начальный_экономический_план
+		icon = GFX_dock_clique_nam_nuzhen_plan
+		cost = 1.00
+		x = 7
+		y = 0
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = UNT_sredstva_dlya_industrializatsii
+		icon = GFX_dock_clique_sredstva_dlya_industrializatsii
+		cost = 1.00
+		prerequisite = {
+			focus = UNT_nam_nuzhen_plan
+		}
+		x = 5
+		y = 1
+		completion_reward = {
+			add_timed_idea = {
+			    idea = UNT_idea_sredstva_dlya_industrializatsii
+    			days = 1875
+			}
+		}
+	}
+	focus = {
+		id = UNT_kollektivizatsiya
+		icon = GFX_dock_clique_kollektivizatsiya
+		cost = 2.00
+		prerequisite = {
+			focus = UNT_sredstva_dlya_industrializatsii
+		}
+		x = 5
+		y = 2
+		completion_reward = {
+			add_ideas = kolhozi
+		}
+	}
+	focus = {
+		id = UNT_reformirovat_admonistratsiu
+		icon = GFX_dock_clique_reformirovat_administratsiu
+		cost = 1.00
+		prerequisite = {
+			focus = UNT_nam_nuzhen_plan
+		}
+		x = 7
+		y = 1
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = vmestolev
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = UNT_razvedka_tayniov
+		icon = GFX_dock_clique_razvedka_taynikov
+		cost = 2.00
+		prerequisite = {
+			focus = UNT_reformirovat_admonistratsiu
+		}
+		x = 7
+		y = 2
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 250
+				producer = UNT
+			}
+		}
+	}
+	focus = {
+		id = UNT_pogotovit_nash_bazis
+		icon = GFX_dock_clique_podgotovit_nash_bazis
+		cost = 1.00
+		prerequisite = {
+			focus = UNT_nam_nuzhen_plan
+		}
+		x = 9
+		y = 1
+		completion_reward = {
+			260 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = UNT_raskonservatsiya_shaht
+		icon = GFX_dock_clique_raskonservatsiya_shaht
+		cost = 2.00
+		prerequisite = {
+			focus = UNT_pogotovit_nash_bazis
+		}
+		x = 9
+		y = 2
+		completion_reward = {
+			260 = {
+				add_resource = {
+				type = steel
+				amount = 10
+				}
+			}
+		}
+	}
+	focus = {
+		id = UNT_pervaia_pyaitiletka #Продвинутый_экономический_план
+		icon = GFX_dock_clique_pervaya_pyatiletka
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_raskonservatsiya_shaht
+		}
+		prerequisite = {
+			focus = UNT_kollektivizatsiya
+		}
+		prerequisite = {
+			focus = UNT_razvedka_tayniov
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UNT_socialist_obrazovaniye
+		icon = GFX_dock_clique_socialist_obrazovaniye
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_pervaia_pyaitiletka
+		}
+		x = 2
+		y = 4
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = UNT_novoye_pokoleniye
+		icon = GFX_dock_clique_novoye_pokoleniye
+		cost = 15.00
+		prerequisite = {
+			focus = UNT_socialist_obrazovaniye
+		}
+		x = 1
+		y = 5
+		completion_reward = {
+			add_ideas = UNT_idea_next_generation
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = UNT_leviy_povorot_v_tserkvi
+		icon = GFX_dock_clique_leviy_povorot_v_tserkvi
+		cost = 10.00
+		prerequisite = {
+			focus = UNT_novoye_pokoleniye
+		}
+		x = 1
+		y = 7
+		completion_reward = {
+			add_ideas = UNT_idea_red_popi
+		}
+	}
+	
+	focus = {
+		id = UNT_legkoprom
+		icon = GFX_dock_clique_legkoprom
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_pervaia_pyaitiletka
+		}
+		x = 5
+		y = 4
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes	
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = UNT_prodolzhit_promishlenniy_plan
+		icon = GFX_dock_clique_prodolzhit_promishlenniy_plan
+		cost = 10.00
+		prerequisite = {
+			focus = UNT_tyazholoye_mashinostroyeniye
+		}
+		prerequisite = {
+			focus = UNT_rasshirit_pomosh_lazaret
+		}
+		available = {
+			OR = {
+				is_subject_of = LAZ
+				is_in_faction_with = LAZ
+			}
+		}
+		x = 8
+		y = 7
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = UNT_idea_war_communism
+				}
+				swap_ideas = {
+				    remove_idea = UNT_idea_war_communism
+				    add_idea = UNT_idea_war_communism_2
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_idea = UNT_idea_five_year_plan
+				}
+				swap_ideas = {
+				    remove_idea = UNT_idea_five_year_plan
+				    add_idea = UNT_idea_five_year_plan_2
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = UNT_himprom
+		icon = GFX_dock_clique_himprom
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_legkoprom
+		}
+		prerequisite = {
+			focus = UNT_socialist_obrazovaniye
+		}
+		x = 4
+		y = 5
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.50
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = UNT_pomosh_lazaret
+		icon = GFX_goal_laz_unt
+		cost = 2.00
+		prerequisite = {
+			focus = UNT_pervaia_pyaitiletka
+		}
+		available = {
+			OR = {
+				is_subject_of = LAZ
+				is_in_faction_with = LAZ
+			}
+		}
+		x = 7
+		y = 4
+		completion_reward = {
+			LAZ = {country_event = UNTbass.2 }
+		}
+	}
+	focus = {
+		id = UNT_voyenniye_zavodi
+		icon = GFX_dock_clique_voyenniye_zavodi
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_pervaia_pyaitiletka
+		}
+		x = 10
+		y = 4
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = UNT_tyazholoye_mashinostroyeniye
+		icon = GFX_dock_clique_tyazholoye_mashinostroyeniye
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_voyenniye_zavodi
+		}
+		prerequisite = {
+			focus = UNT_pomosh_lazaret
+		}
+		available = {
+			OR = {
+				is_subject_of = LAZ
+				is_in_faction_with = LAZ
+			}
+		}
+		x = 9
+		y = 5
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+			add_political_power = -50
+			260 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = UNT_tankovaye_zavodi
+		icon = GFX_dock_clique_tankoviye_zavodi
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_voyenniye_zavodi
+		}
+		x = 11
+		y = 5
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = armor
+			}		
+			260 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = UNT_restavratsiya_institutov
+		icon = GFX_dock_clique_restavratsiya_institutov
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_socialist_obrazovaniye
+		}
+		x = 2
+		y = 6
+		completion_reward = {
+			add_research_slot = 1		
+		}
+	}
+	focus = {
+		id = UNT_rasshirit_pomosh_lazaret #Усовершенствованный_экономический_план
+		icon = GFX_goal_laz_unt2
+		cost = 2.00
+		prerequisite = {
+			focus = UNT_tyazholoye_mashinostroyeniye
+		}
+		prerequisite = {
+			focus = UNT_pomosh_lazaret
+		}
+		available = {
+			OR = {
+				is_subject_of = LAZ
+				is_in_faction_with = LAZ
+			}
+		}
+		x = 7
+		y = 6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UNT_neftekhran #Расширение_нефтеперерабатывающей_промышленности
+		icon = GFX_Sistema_neftekhranilisch_kliki_Doka
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_himprom
+		}
+		prerequisite = {
+			focus = UNT_rasshirit_pomosh_lazaret
+		}
+		prerequisite = {
+			focus = UNT_restavratsiya_institutov
+		}
+		available = {
+			OR = {
+				is_subject_of = LAZ
+				is_in_faction_with = LAZ
+			}
+		}
+		x = 5
+		y = 8
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = fuel_silo
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = UNT_rezinka
+		icon = GFX_Sinteticheskaya_rezina_kliki_Doka
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_himprom
+		}
+		prerequisite = {
+			focus = UNT_rasshirit_pomosh_lazaret
+		}
+		prerequisite = {
+			focus = UNT_restavratsiya_institutov
+		}
+		available = {
+			OR = {
+				is_subject_of = LAZ
+				is_in_faction_with = LAZ
+			}
+		}
+		x = 3
+		y = 8
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 2
+				category = synth_resources
+			}		
+			random_owned_controlled_state = {		
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}					
+		}
+	}
+	focus = {
+		id = UNT_NPZ
+		icon = GFX_dock_clique_NPZ
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_himprom
+		}
+		prerequisite = {
+			focus = UNT_rasshirit_pomosh_lazaret
+		}
+		prerequisite = {
+			focus = UNT_restavratsiya_institutov
+		}
+		available = {
+			OR = {
+				is_subject_of = LAZ
+				is_in_faction_with = LAZ
+			}
+		}
+		x = 4
+		y = 7
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 2
+				category = synth_resources
+			}
+			random_owned_controlled_state = {		
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = UNT_sinteticheskaya_neft
+		icon = GFX_Sinteticheskaya_neft_kliki_Doka
+		cost = 10.00
+		prerequisite = {
+			focus = UNT_NPZ
+		}
+		available = {
+			OR = {
+				is_subject_of = LAZ
+				is_in_faction_with = LAZ
+			}
+		}
+		x = 4
+		y = 9
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.50
+				uses = 2
+				category = synth_resources
+			}		
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = rubber
+				amount = 2
+			}			
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}		
+		}
+	}
+	focus = {
+		id = UNT_avtakriya #Выбор_основной_экономической_политики
+		icon = GFX_Avtarkia_kliki_Doka
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_NPZ
+		}
+		prerequisite = {
+			focus = UNT_rezinka
+		}
+		prerequisite = {
+			focus = UNT_neftekhran
+		}
+		prerequisite = {
+			focus = UNT_sinteticheskaya_neft
+		}
+		mutually_exclusive = {
+			focus = UNT_razvitiye_eksporta
+		}
+		available = {
+			OR = {
+				is_subject_of = LAZ
+				is_in_faction_with = LAZ
+			}
+		}
+		x = 5
+		y = 10
+		completion_reward = {
+			add_ideas = war_economy
+			add_ideas = closed_economy		
+		}
+	}
+	focus = {
+		id = UNT_razvitiye_eksporta
+		icon = GFX_Rasshirit_export_kliki_Doka
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_NPZ
+		}
+		prerequisite = {
+			focus = UNT_rezinka
+		}
+		prerequisite = {
+			focus = UNT_neftekhran
+		}
+		prerequisite = {
+			focus = UNT_sinteticheskaya_neft
+		}
+		mutually_exclusive = {
+			focus = UNT_avtakriya
+		}
+		available = {
+			OR = {
+				is_subject_of = LAZ
+				is_in_faction_with = LAZ
+			}
+		}
+		x = 3
+		y = 10
+		completion_reward = {
+			add_ideas = war_economy
+			add_ideas = export_focus
+		}
+	}
+	focus = {
+		id = UNT_traktora_reaktivi
+		icon = GFX_No_way
+		cost = 5.00
+		prerequisite = {
+			focus = UNT_pervaia_pyaitiletka
+		}
+		x = 16
+		y = 4
+		completion_reward = {
+			custom_effect_tooltip = DON_noviye_fokusi_tt
+		}
+	}
+}

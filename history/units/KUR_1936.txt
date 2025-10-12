@@ -1,0 +1,188 @@
+﻿division_template = {
+	name = "Метафизическая гвардия"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Стрелковая дивизия"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 3
+}
+
+units = {
+	division = {
+		name = "Боевые метафизики"
+		location = 525
+		division_template = "Метафизическая гвардия"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+		
+    division = {
+		name = "Православные метафизики"
+		location = 525
+		division_template = "Метафизическая гвардия"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	
+    division = {
+		name = "1-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "2-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "3-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "4-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "5-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "6-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "7-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "8-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "9-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "10-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "11-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "12-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "13-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "14-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "15-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "16-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "17-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+    division = {
+		name = "18-я стрелковая дивизия"
+		location = 525
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "KUR"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

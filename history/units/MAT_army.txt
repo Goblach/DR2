@@ -1,0 +1,136 @@
+﻿
+division_template = {
+	name = "Стрелковая дивизия"				
+
+	division_names_group = MAT_RFL_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+		
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+		
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+        infantry = { x = 2 y = 2 }
+
+	}
+}
+division_template = {
+	name = "Лугальская танковая дивизия"
+
+	division_names_group = MAT_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Мотопротивная дивизия" 	
+	
+	division_names_group = MAT_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		
+		motorized = { x = 2 y = 0 }
+	    motorized = { x = 2 y = 1 }
+	}
+}
+
+	units = {
+        division = {
+			name = "1-ya strelkovaya divisiya"
+
+			location = 9355
+			division_template = "Стрелковая дивизия"
+			start_experience_factor = 0.4
+			start_equipment_factor = 0.5
+        }
+		division = {
+			name = "2-ya strelkovaya divisiya"
+
+			location = 9355
+			division_template = "Стрелковая дивизия"
+			start_experience_factor = 0.4
+			start_equipment_factor = 0.5
+        }
+        division = {
+			name = "3-ya strelkovaya divisiya"
+
+			location = 9355
+			division_template = "Стрелковая дивизия"
+			start_experience_factor = 0.4
+			start_equipment_factor = 0.5
+        }
+		division = {
+			name = "4-ya strelkovaya divisiya"
+
+			location = 9355
+			division_template = "Стрелковая дивизия"
+			start_experience_factor = 0.4
+			start_equipment_factor = 0.5
+        }
+		division = {
+			name = "1-ya tankovaya divisiya"
+
+			location = 9355
+			division_template = "Лугальская танковая дивизия"
+			start_experience_factor = 0.2
+			start_equipment_factor = 0.5
+        }
+		division = {
+			name = "2-ya tankovaya divisiya"
+
+			location = 9355
+			division_template = "Лугальская танковая дивизия"
+			start_experience_factor = 0.2
+			start_equipment_factor = 0.5
+        }
+		division = {
+			name = "1-ya motostrelkovaya divisiya"
+
+			location = 9355
+			division_template = "Мотопротивная дивизия"
+			start_experience_factor = 0.2
+			start_equipment_factor = 0.5
+        }
+		division = {
+			name = "2-ya motostrelkovaya divisiya"
+
+			location = 9355
+			division_template = "Мотопротивная дивизия"
+			start_experience_factor = 0.2
+			start_equipment_factor = 0.5
+        }
+		division = {
+			name = "3-ya motostrelkovaya divisiya"
+
+			location = 9355
+			division_template = "Мотопротивная дивизия"
+			start_experience_factor = 0.2
+			start_equipment_factor = 0.5
+        }
+	}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MAT"
+		}
+	}
+}

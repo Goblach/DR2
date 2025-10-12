@@ -1,0 +1,1476 @@
+ideas = {
+
+	country = {
+	    CHT_staz = {
+
+			picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			   resistance_damage_to_garrison = -0.1
+		      decryption_factor = 0.1
+			  encryption_factor = 0.1
+			}
+		}
+	    CHT_plan = {
+
+			picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			    industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+				conscription = -0.05
+			}
+		}
+		CHT_vostanovlenie_ot_gv = {
+	
+	        removal_cost = -1
+	
+	        picture = generic_disjointed_gov
+			
+			modifier = {
+			consumer_goods_factor = 0.1
+			industrial_capacity_factory = -0.25
+			conscription_factor = -0.3
+			stability_factor = -0.15
+			war_support_factor = -0.15
+			}
+	
+	    }
+		CHT_pasaran = {
+		
+		picture = Oni_ne_proydut_33
+			
+			modifier = {
+			army_core_defence_factor = 0.15
+			}
+		}
+		CHT_chat_red_army = {
+		
+		picture = Krasnaya_armia_Chata
+			
+			modifier = {
+			army_org_factor = 0.05
+			military_leader_cost_factor = -0.1
+		    conscription = 0.02
+			}
+		}
+		CHT_loksists = {
+
+			picture = Dizorientirovannaya_armia
+			
+			modifier = {
+			    army_org_factor = -0.05
+				military_leader_cost_factor = 1.00
+				stability_factor = -0.15
+				conscription = -0.009
+			}
+		}
+		CHT_loksists_1 = {
+
+			picture = HUN_hungarian_monarchy
+			
+			modifier = {
+				neutrality_drift = 0.05
+				war_support_factor = 0.1
+				
+			}
+		}
+		CHT_loksists_2 = {
+
+			picture = Dobrovolcheskaya_armia
+			
+			modifier = {
+				neutrality_drift = 0.05
+				war_support_factor = 0.1
+				conscription = 0.02
+			}
+		}
+		CHT_crusade_a_l = {
+		picture = Krestovy_pokhodprotiv_levakov
+			
+			modifier = {
+			army_core_attack_factor = 0.1
+			army_attack_factor = 0.1
+			}
+		}
+		CHT_podavlen_partiz = {
+		 	
+			picture = CHT_lopati
+			
+			modifier = {
+			resistance_damage_to_garrison = -0.1
+		    resistance_target = -0.01
+			}
+			}
+			
+			CHT_crus_n_e = {
+			
+			picture = Rytsari_novoy_ery
+			
+			modifier = {
+			army_morale_factor = 0.01
+			}
+			}
+			CHT_crus_n_e2 = {
+			
+			picture = Rytsari_novoy_ery
+			
+			modifier = {
+			army_morale_factor = 0.03
+			army_armor_attack_factor = 0.05
+			}
+			}
+		CHT_land_reform = {
+
+			picture = Nachat_zemelnuyu_reformu
+			
+			modifier = {
+			consumer_goods_factor = -0.05
+			}
+		}
+		
+		CHT_plata = {
+
+			picture = Plata_nayomnikam
+			
+			modifier = {
+			consumer_goods_factor =0.03
+			}
+		}
+
+         CHT_ino_in = {
+
+            removal_cost = -1
+
+			picture = CHT_lopati
+			
+			modifier = {
+			min_export = 0.1
+			consumer_goods_factor = -0.05
+			}
+		}
+		CHT_ino_in_0 = {
+
+            removal_cost = -1
+
+			picture = CHT_lopati
+			
+			modifier = {
+			min_export = 0.5
+			consumer_goods_factor = -0.05
+			}
+		}
+
+		CHT_great_srach = {
+
+
+			removal_cost = -1
+			
+			picture = Velikiy_srach
+			
+			modifier = {
+				memoism_drift = -0.1
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		CHT_great_srach_1 = {
+
+
+			removal_cost = -1
+			
+			picture = Velikiy_srach
+			
+			modifier = {
+				memoism_drift = -0.1
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		CHT_great_srach_2 = {
+
+
+			removal_cost = -1
+			
+			picture = Velikiy_srach
+			
+			modifier = {
+				memoism_drift = -0.1
+				stability_factor = -0.05
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		
+		CHT_razdel = {
+
+			removal_cost = -1
+			
+			picture = cht_shizofrenia
+			
+			modifier = {
+				political_power_factor = -0.01
+					production_speed_buildings_factor = -0.1
+			}
+		}
+		
+		CHT_shue = {
+
+			removal_cost = -1
+			
+			picture = cht_shizofrenia
+			
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.05
+				research_speed_factor = -0.05
+				memoism_drift = 0.05
+			}
+		}
+        CHT_shue_1 = {
+
+			removal_cost = -1
+			
+			picture = cht_shizofrenia
+			
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.05
+				research_speed_factor = -0.05
+				
+			}
+		}
+		CHT_shue_2 = {
+
+			removal_cost = -1
+			
+			picture = cht_shizofrenia
+			
+			modifier = {
+				stability_factor = -0.05
+				research_speed_factor = -0.05
+				
+			}
+		}
+		CHT_shue_3 = {
+
+			removal_cost = -1
+			
+			picture = cht_shizofrenia
+			
+			modifier = {
+				research_speed_factor = -0.05
+				
+			}
+		}
+		
+	  CHT_nov_moderi = {
+	  
+	  
+			
+			picture = cht_shizofrenia
+			
+			modifier = {
+			  
+			  drift_defence_factor = 0.25
+				max_command_power = 10
+				
+			}
+	  }
+	CHT_un_arm = {
+	  
+	  
+			
+			picture = cht_shizofrenia
+			
+			modifier = {
+			  army_org_factor = 0.01
+			  conscription = 0.005
+				
+			}
+	  }
+	CHT_rabochee_samoupravlenie = {
+
+
+			removal_cost = -1
+			
+			picture = generic_disjointed_gov
+			
+			modifier = {
+				metacommy_drift = 0.05
+				stability_factor = 0.05
+			}
+		}
+	CHT_state_sindicalism = {
+
+
+			removal_cost = -1
+			
+			picture = Strana-sindikat
+			
+			modifier = {
+				metacommy_drift = 0.1
+				stability_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+	CHT_sovet_truda_i_oborony = {
+		picture = Sovet_truda_i_oborony
+			
+			modifier = {
+			production_factory_max_efficiency_factor = 0.05
+			line_change_production_efficiency_factor = 0.05
+			army_org_factor = 0.05
+			}
+		}	
+	CHT_gulags = {
+		picture = Trudovye_lagerya
+			
+			modifier = {
+			local_resources_factor = 0.10
+			consumer_goods_factor = -0.05
+			}
+		}
+    CHT_gulags_2 = {
+		picture = Trudovye_lagerya
+			
+			modifier = {
+			local_resources_factor = 0.10
+			consumer_goods_factor = -0.05
+			drift_defence_factor = 0.15
+			} 
+		}
+	CHT_kultural_revolution = {
+		picture = Vsechatskaya_Kulturnaya_Revolyutsia
+			
+			modifier = {
+			political_power_gain = -0.15
+			fascism_drift = 0.05
+			anarhostalinism_drift = 0.05
+			vmestolev_drift = 0.05
+			metacommy_drift = 0.05
+			democratic_drift = 0.05
+			memoism_drift = 0.05
+			neutrality_drift = 0.05
+			}
+		}
+	CHT_cenzur_kodeks = {
+		picture = Tsenzurny_kodex
+			
+			modifier = {
+			political_power_gain = 0.05
+			drift_defence_factor = 0.1
+			}
+		}
+	CHT_mirovoi_soc_language = {
+		picture = CHT_lopati
+			
+			modifier = {
+			political_power_gain = 0.1
+			stability_factor = 0.05
+			foreign_subversive_activites = 0.15
+			}
+		}	
+	CHT_pereustroystvo = {
+		picture = CHT_lopati
+			
+			modifier = {
+			political_power_gain = -0.15
+			stability_factor = -0.15
+			}
+		}
+    CHT_socreligia = {
+		picture = CHT_lopati
+			
+			modifier = {
+			political_power_gain = 0.05
+			stability_factor = 0.05
+			anarhostalinism_drift = 0.01
+			vmestolev_drift = 0.01
+			metacommy_drift = 0.01
+			neutrality_drift = 0.01
+			}
+		}
+    CHT_bugurt_tserkvi = {
+		picture = CHT_lopati
+			
+			modifier = {
+			political_power_gain = -0.1
+			stability_weekly = -0.01
+			}
+		}
+	CHT_new_printsipy = {
+		picture = Printsipy_novogo_obschestva
+			
+			modifier = {
+			research_speed_factor = 0.1
+			}
+		}	
+	CHT_new_printsipy_1 = {
+		picture = Printsipy_novogo_obschestva
+			
+			modifier = {
+			research_speed_factor = 0.1
+			consumer_goods_factor = -0.05
+			}
+		}	
+	CHT_new_printsipy_2 = {
+		picture = Printsipy_novogo_obschestva
+			
+			modifier = {
+			research_speed_factor = 0.1
+			consumer_goods_factor = -0.05
+			conscription = 0.02
+			}
+		}	
+	CHT_new_printsipy_3 = {
+		picture = Printsipy_novogo_obschestva
+			
+			modifier = {
+			research_speed_factor = 0.1
+			consumer_goods_factor = -0.05
+			conscription = 0.02
+			stability_factor = 0.07
+			}
+		}
+    CHT_society_vospitatel = {
+		picture = CHT_lopati
+			
+			modifier = {
+			MONTHLY_POPULATION = 0.5
+			stability_factor = 0.07
+			}
+		}	
+	CHT_revolution_army_liberation_people = {
+		picture = Revolyutsionnaya_armia_narodnogo_osvobozhdenia
+			
+			modifier = {
+			resistance_growth_on_our_occupied_states = 0.1
+			army_morale_factor = 0.1
+			training_time_factor = -0.1
+			army_org_factor = -0.05
+			planning_speed = -0.10
+			conscription = 0.02
+			}
+		}	
+	CHT_partizanskie_otryady = {
+		picture = Partizanskie_otryady
+			
+			modifier = {
+			resistance_growth_on_our_occupied_states = 0.1
+			training_time_factor = -0.1
+			army_org_factor = -0.05
+			planning_speed = -0.10
+			conscription = 0.02
+			army_core_defence_factor = 0.05
+			}
+		}
+		CHT_partizanskie_otryady_1 = {
+		picture = Partizanskie_otryady
+			
+			modifier = {
+			resistance_growth_on_our_occupied_states = 0.2
+			training_time_factor = -0.2
+			army_org_factor = -0.05
+			planning_speed = -0.10
+			conscription = 0.03
+			army_core_defence_factor = 0.05
+			}
+		}
+    CHT_expropriet_predpriates = {
+		picture = Expropriatsia_predpriatiy
+			
+			modifier = {
+			stability_factor = -0.05
+			consumer_goods_factor = -0.05 
+			}
+		}	
+    CHT_duh_free_territory = {
+		picture = Dukh_svobodnoy_territorii
+			
+			modifier = {
+			army_speed_factor = 0.05
+		    army_morale_factor = 0.05
+			}
+		}
+    CHT_people_war = {
+		picture = Narodnaya_voyna
+			
+			modifier = {
+			army_core_attack_factor = 0.05
+		    army_morale_factor = 0.05
+			}
+		}
+    CHT_shue_anstal = {
+
+			removal_cost = -1
+			
+			picture = cht_shizofrenia
+			
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.03
+				research_speed_factor = -0.03
+				memoism_drift = 0.03
+			}
+		} 
+	CHT_shue_anstal2 = {
+
+			removal_cost = -1
+			
+			picture = cht_shizofrenia
+			
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = -0.02
+				research_speed_factor = -0.02
+				memoism_drift = 0.01
+				anarhostalinism_drift = 0.04
+			}
+		}	
+    CHT_vooruzhennyi_narod 	= {
+
+			removal_cost = -1
+			
+			picture = cht_shizofrenia
+			
+			modifier = {
+				army_org_factor = -0.05
+				conscription = 0.02
+				army_morale_factor = 0.05
+				mobilization_speed = 0.5
+			}
+		}	
+	CHT_obshinnaya_milicia 	= {
+
+			removal_cost = -1
+			
+			picture = cht_shizofrenia
+			
+			modifier = {
+				resistance_target = -0.1
+			    compliance_gain = 0.1
+				resistance_growth_on_our_occupied_states = 0.1
+			}
+		}	
+	CHT_obshinnaya_milicia2 	= {
+
+			removal_cost = -1
+			
+			picture = cht_shizofrenia
+			
+			modifier = {
+				resistance_target = -0.1
+			    compliance_gain = 0.1
+				resistance_growth_on_our_occupied_states = 0.1
+				army_core_defence_factor = 0.05
+				
+			}
+		}
+    CHT_autarky_idea = {
+
+			
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+    CHT_obmen_spetsialistami = {
+
+			
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			modifier = {
+				stability_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05 
+			}
+		}
+	CHT_tovarniy_znak_vozhdia = {
+
+			
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			modifier = {
+			    consumer_goods_factor = -0.05 
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = -0.05
+				drift_defence_factor = -0.1
+			}
+		}
+	CHT_comitet_defense_anarhy = {
+
+			
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			modifier = {
+			    production_speed_arms_factory_factor = 0.1
+				army_org_factor = 0.05
+			}
+		}
+	CHT_zaslon_ot_gosudarstv = {
+
+			
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			modifier = {
+			    production_speed_bunker_factor = 0.15
+			}
+		}
+    CHT_podgotovka_diversionnykh_otryadov = {
+
+			
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			modifier = {
+			    special_forces_cap = 0.04
+				special_forces_attack_factor = 0.05
+			}
+		}
+	CHT_barternaia_economica = {
+
+			
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			modifier = {
+			    production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+				min_export = -0.05
+			}
+		}
+	CHT_dezetsentrirovannoe_planirovanie = {
+
+			
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			modifier = {
+			    line_change_production_efficiency_factor = 0.05
+				local_resources_factor = 0.15
+			}
+		}
+		CHT_alcog = {
+	
+	 removal_cost = -1
+	 picture = generic_exploit_mines
+	 modifier = {
+			   improve_relations_maintain_cost_factor = -0.05
+			   line_change_production_efficiency_factor = -0.01
+			   industrial_capacity_factory = -0.01
+			   army_morale_factor = 0.01
+			}
+	 }
+	CHT_economy_people_obschin  = {
+
+			
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			modifier = {
+			    line_change_production_efficiency_factor = 0.05
+				local_resources_factor = 0.15
+				conversion_cost_civ_to_mil_factor = -0.1
+				industrial_capacity_factory = 0.05
+			}
+		}	
+	CHT_mayak_libertarnogo_chuchhe  = {
+
+			
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			modifier = {
+			    stability_factor = 0.05
+				war_support_factor = 0.05
+				drift_defence_factor = 0.15
+				improve_relations_maintain_cost_factor = -0.35
+				political_power_factor = 0.1
+			}
+		}	
+	CHT_soprotivlenie  = {
+
+			
+			removal_cost = -1
+
+			picture = FRA_scw_intervention_republicans_focus
+
+			modifier = {
+			    stability_factor = -0.1
+				war_support_factor = -0.1
+				political_power_factor = -0.1
+				monthly_population = -0.25
+			}
+		}
+	CHT_strategic_shcool_EWC = {
+
+			
+			removal_cost = -1
+
+			picture = idea_usa_great_depression_2
+
+			modifier = {
+			    stability_factor = 0.1
+				research_speed_factor = -0.1 
+			}
+		}
+	CHT_united_war_concern = {
+			
+			removal_cost = -1
+
+			picture = spr_seize_the_gold_reserves
+
+			modifier = {
+			    consumer_goods_factor = -0.025
+				political_power_factor = 0.1
+			}
+		}
+	CHT_deindustrialization = {
+			
+			removal_cost = -1
+
+			picture = idea_saf_history_of_segregation
+
+			modifier = { 
+			    line_change_production_efficiency_factor = -0.15
+			    production_speed_industrial_complex_factor = -0.15
+				production_speed_arms_factory_factor = -0.15
+				political_power_factor = 0.35
+			}
+		}	
+	CHT_deurbanization = {
+			
+			removal_cost = -1
+
+			picture = idea_saf_history_of_segregation
+
+			modifier = { 
+			    stability_factor = 0.1
+				monthly_population = 1
+				research_speed_factor = -0.05
+				production_factory_max_efficiency_factor = -0.1
+                fascism_drift = 0.03 				
+			}
+		}
+    CHT_dekapitalization = {
+			
+			removal_cost = -1
+
+			picture = idea_saf_history_of_segregation
+
+			modifier = { 
+			    war_support_factor = 0.1
+				political_power_factor = 0.1
+				production_factory_start_efficiency_factor = -0.1
+                conscription = 0.02			
+				}
+		}
+	CHT_torgovlya_s_NOD_i_Iydeey = {
+			
+			removal_cost = -1
+
+			picture = idea_saf_history_of_segregation
+
+			modifier = { 
+			    production_factory_max_efficiency_factor = 0.05
+				consumer_goods_factor = -0.05
+			}		
+		}
+	CHT_stavlenniki_Mazdy = {
+			
+			removal_cost = -1
+
+			picture = idea_usa_great_depression_3
+
+			modifier = {
+			    stability_factor = -0.05
+				consumer_goods_factor = -0.025
+			}		
+		}
+	CHT_vyzhivet_sylneyshiy	= { 
+			
+			removal_cost = -1
+
+			picture = idea_usa_great_depression_2
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}		
+		}
+	CHT_socstratifikation	= {
+			
+			removal_cost = -1
+
+			picture = idea_usa_great_depression_2
+
+			modifier = {
+				political_power_factor = -0.15
+				conscription_factor = -0.2
+				airforce_intel_to_others = -10
+				civilian_intel_to_others = -10
+				navy_intel_to_others = -10
+				army_org = 5
+				experience_gain_army = 0.3
+				command_power_gain = 0.3
+				special_forces_cap = 0.5
+			}		
+		}
+	CHT_mehanizatsia_army	= {
+			
+			removal_cost = -1
+
+			picture = FRA_motorized_focus
+
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.1				
+					instant = yes
+				}
+			}		
+		}
+	CHT_kozhev_rem	= {
+			
+			removal_cost = -1
+
+			picture = FRA_motorized_focus
+
+			equipment_bonus = {
+				support_equipment = {
+					build_cost_ic = -0.025				
+					instant = yes
+				}
+				infantry_equipment = {
+					build_cost_ic = -0.025				
+					instant = yes
+				}
+			}		
+		}
+	CHT_uzakonennoe_shue = {
+
+			removal_cost = -1
+			
+			picture = idea_generic_constitutional_guarantee
+			
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = 0.05
+				research_speed_factor = -0.05
+				army_morale_factor = 0.05
+				
+			}
+		}
+    CHT_puppet_tsar = {
+	
+	removal_cost = -1
+
+	picture = generic_exploit_mines
+	
+	modifier = {
+	stability_factor = 0.05
+	}
+	}
+	
+	CHT_loksists_9 = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			    army_morale_factor = -0.02
+				stability_factor = -0.05
+				conscription = -0.005
+			}
+	
+	}
+    CHT_loksists_10 = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			    army_morale_factor = 0.05
+				conscription = -0.005
+			}
+	
+	}
+	 CHT_vic_or_ass = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			    army_morale_factor = 0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+	
+	}
+	CHT_udar_po_tilam = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			    army_speed_factor = 0.1
+			    breakthrough_factor = 0.03
+				planning_speed = 0.05
+			}
+	
+	}
+	CHT_hyper_masculine  = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			   female_random_army_leader_chance = -100
+			   female_random_admiral_chance = -100
+			   army_attack_factor = 0.05
+			   conscription = -0.002
+			}
+	
+	}
+	CHT_usil_podg_div = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			experience_loss_factor = -0.3
+            experience_gain_infantry_training_factor = 0.3
+            conscription = -0.003
+			}
+	
+	}
+	CHT_gachi_dukh = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			army_morale_factor = 0.05
+          
+			}
+	
+	}
+	CHT_nalogi_na_nat = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			consumer_goods_factor = -0.1
+          
+			}
+	
+	}
+	CHT_klon = {
+	
+	 removal_cost = -1
+	
+	 picture = Klonirovanie
+			
+			modifier = {
+			consumer_goods_factor = 0.15
+            MONTHLY_POPULATION = 0.25
+			}
+	
+	}
+	CHT_zapret_natur = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			resistance_damage_to_garrison = 0.1
+		    resistance_target	 = 0.01
+			conscription = -0.005
+			}
+	
+	}
+	CHT_primer_gachi  = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			army_morale_factor = 0.005
+			conscription = 0.005
+			}
+	
+	}
+	CHT_dolg_slaves  = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			consumer_goods_factor = -0.05
+			conscription = 0.01
+			}
+	
+	}
+	CHT_semen  = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			consumer_goods_factor = 0.05
+	        acclimatization_cold_climate_gain_factor = 0.5
+			acclimatization_hot_climate_gain_factor = 0.5
+			heat_attrition = -0.15
+			winter_attrition = -0.15
+			}
+	
+	}
+	CHT_asstart  = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			special_forces_defence_factor = 0.1
+			special_forces_attack_factor = 0.1
+			recon_factor = 0.2
+			special_forces_min = 50
+			special_forces_out_of_supply_factor = -0.3
+			special_forces_training_time_factor = 0.3
+			}
+	
+	}
+	CHT_gyms  = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			heat_attrition = -0.01
+			winter_attrition = -0.01
+			army_attack_factor = 0.05
+			army_defence_factor = 0.05
+			}
+	
+	}
+    CHT_cast_rasp = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			consumer_goods_factor = -0.05
+			}
+	
+	}
+	CHT_crepost_other = {
+	
+	 removal_cost = -1
+	
+	 picture = HUN_hungarian_monarchy
+			
+			modifier = {
+			production_factory_efficiency_gain_factor = -0.2
+			industrial_capacity_factory = 0.1
+			}
+	
+	}
+	CHT_sila = {
+	
+	 removal_cost = -1
+	
+	 picture = FRA_scw_intervention_republicans_focus
+			
+			modifier = {
+			army_attack_factor = 0.01
+			}
+	
+	}
+	CHT_uspeh = {
+	
+	 removal_cost = -1
+	
+	 picture = generic_victors_of_ww1
+			
+			modifier = {
+			political_power_factor = 0.01
+			}
+	
+	}
+	CHT_friendship = {
+	
+	 removal_cost = -1
+	
+	 picture = idea_generic_deal_with_the_devil2
+			
+			modifier = {
+			stability_factor = 0.01
+			opinion_gain_monthly_factor = 0.1
+			}
+	
+	}
+	CHT_slaves = {
+	
+	 removal_cost = -1
+	
+	 picture = idea_generic_deal_with_the_devil2
+			
+			modifier = {
+			production_factory_efficiency_gain_factor = -0.1
+			stability_factor = -0.1
+			opinion_gain_monthly_factor = -0.01
+			consumer_goods_factor = -0.05
+			}
+	
+	}
+	CHT_crepost = {
+	
+	 removal_cost = -1
+	
+	 picture = idea_generic_deal_with_the_devil2
+			
+			modifier = {
+			stability_factor = -0.1
+			opinion_gain_monthly_factor = -0.01
+			consumer_goods_factor = -0.05
+			production_factory_efficiency_gain_factor = -0.25
+			industrial_capacity_factory = 0.1
+			}
+	
+	}
+	CHT_slaves_2 = {
+	
+	 removal_cost = -1
+	
+	 picture = FRA_scw_intervention_republicans_focus
+			
+			modifier = {
+			stability_factor = -0.05
+			production_factory_efficiency_gain_factor = -0.05
+			opinion_gain_monthly_factor = -0.01
+			consumer_goods_factor = -0.05
+			}
+	
+	}
+	CHT_not_a_slaves = {
+	
+	 removal_cost = -1
+	
+	 picture = idea_generic_deal_with_the_devil2
+			
+			modifier = {
+			stability_factor = 0.1
+			political_power_factor = 0.01
+			}
+	
+	}
+	CHT_not_a_slaves_1 = {
+	
+	 removal_cost = -1
+	
+	 picture = idea_generic_deal_with_the_devil2
+			
+			modifier = {
+			stability_factor = 0.05
+			production_speed_buildings_factor = 0.05
+			}
+	
+	}
+	CHT_raskul_gach = {
+	
+	 removal_cost = -1
+	
+	 picture = FRA_scw_intervention_republicans_focus
+			
+			modifier = {
+			consumer_goods_factor = -0.05
+			stability_factor = -0.1
+			}
+	
+	}
+	CHT_cumpit = {
+	
+	 removal_cost = -1
+	
+	 picture = FRA_scw_intervention_republicans_focus
+			
+			modifier = {
+			consumer_goods_factor = -0.05
+			min_export = 0.1
+			}
+	
+	}	
+   }
+	
+   	tank_manufacturer = { 
+		
+		designer = yes
+		
+		CHT_Arzamasskiy_MZ = {
+
+			
+			allowed = {
+				original_tag = CHT
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		CHT_red_sormovo = {
+
+			
+			allowed = {
+				original_tag = CHT
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+		}	
+	}
+	
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		CHT_sokol = {
+			
+			allowed = {
+				original_tag = CHT
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		CHT_UAPK = { 
+
+			
+			allowed = {
+				original_tag = CHT
+			}
+			
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		CHT_KazAvZ = {
+
+			
+			allowed = {
+				original_tag = CHT
+			}
+			
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+
+
+	}
+	
+	industrial_concern = {
+		
+		CHT_tat_neft = {
+			
+			allowed = {
+				original_tag = CHT
+			}
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		CHT_tyazhmash = {
+			
+			allowed = {
+				original_tag = CHT
+			}
+			
+			research_bonus = {
+				industry = 0.15
+				
+			}
+			ai_will_do = {
+				factor = 2
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		CHT_ChEAZ = {
+			
+			allowed = {
+				original_tag = CHT
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}		
+	}
+	
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		CHT_Nizhegorodskiy_MZ = {
+			
+			allowed = {
+				original_tag = CHT
+			}
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+				# +10% arty/at/aa research speed
+			}
+		}
+		
+		CHT_UlMechZ = {
+			
+			allowed = {
+				original_tag = CHT
+			}
+			
+			research_bonus = {
+				artillery = 0.5
+			}
+			
+			traits = { Master_PVO }
+			
+			modifier = {
+				# +10% arty/at/aa research speed
+			}
+		}
+		
+		CHT_Izhmash = {
+
+			
+			allowed = {
+				original_tag = CHT
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}				
+		
+		CHT_GAZ = {
+			
+			allowed = {
+				original_tag = CHT
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
+	
+}

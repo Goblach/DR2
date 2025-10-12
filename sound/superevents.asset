@@ -1,0 +1,287 @@
+soundeffect =
+{
+	name = "test_udalsya"
+	sounds = {
+		sound = "test_udalsya"
+	}
+	volume = 1.25
+}
+
+soundeffect =
+{
+	name = "crab"
+	sounds = {
+		sound = "crab"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_bebs_1"
+	sounds = {
+		sound = "superevent_bebs_1"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_bebs_2"
+	sounds = {
+		sound = "superevent_bebs_2"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_bebs_3"
+	sounds = {
+		sound = "superevent_bebs_3"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_barkov_mk_3"
+	sounds = {
+		sound = "superevent_barkov_mk_3"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_fyodorov"
+	sounds = {
+		sound = "superevent_fyodorov"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_starikov"
+	sounds = {
+		sound = "superevent_starikov"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_boroda_2"
+	sounds = {
+		sound = "superevent_boroda_2"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_kamchatka_2"
+	sounds = {
+		sound = "superevent_kamchatka_2"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_sauron"
+	sounds = {
+		sound = "superevent_sauron"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_tayvan"
+	sounds = {
+		sound = "superevent_tayvan"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_tesak"
+	sounds = {
+		sound = "superevent_tesak"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_tsar_goga_romanov"
+	sounds = {
+		sound = "superevent_tsar_goga_romanov"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_barnaul_rogozin"
+	sounds = {
+		sound = "superevent_barnaul_rogozin"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_lukin"
+	sounds = {
+		sound = "superevent_lukin"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_lunarniy"
+	sounds = {
+		sound = "superevent_lunarniy"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_magnitogorsk"
+	sounds = {
+		sound = "superevent_magnitogorsk"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_NFP_pamyat"
+	sounds = {
+		sound = "superevent_NFP_pamyat"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_pogrom"
+	sounds = {
+		sound = "superevent_pogrom"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_pokoyaniya_equvilibrium"
+	sounds = {
+		sound = "superevent_pokoyaniya_equvilibrium"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_pokoyaniya_parlament"
+	sounds = {
+		sound = "superevent_pokoyaniya_parlament"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_pokoyaniya_razval"
+	sounds = {
+		sound = "superevent_pokoyaniya_razval"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_poroh"
+	sounds = {
+		sound = "superevent_poroh"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_RNE"
+	sounds = {
+		sound = "superevent_RNE"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_robert_wrigth"
+	sounds = {
+		sound = "superevent_robert_wrigth"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_romanovi"
+	sounds = {
+		sound = "superevent_romanovi"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_rudoy_opasno"
+	sounds = {
+		sound = "superevent_rudoy_opasno"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_yeltsin"
+	sounds = {
+		sound = "superevent_yeltsin"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_yuneman"
+	sounds = {
+		sound = "superevent_yuneman"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_zhelezniy_dimon"
+	sounds = {
+		sound = "superevent_zhelezniy_dimon"
+	}
+	volume = 0.5
+}
+
+soundeffect =
+{
+	name = "superevent_letov"
+	sounds = {
+		sound = "superevent_letov"
+	}
+	volume = 0.4
+}

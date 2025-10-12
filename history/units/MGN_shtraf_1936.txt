@@ -1,0 +1,25 @@
+﻿units = {
+	#Royal Afghani Army
+	division = {
+		name = "1-я штрафная дивизия"
+		location = 10256
+		division_template = "Штрафники"
+		start_experience_factor = 0.3
+	}
+	
+   division = {
+		name = "1-я штрафная дивизия"
+		location = 10256
+		division_template = "Штрафники"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "1-я штрафная дивизия"
+		location = 10256
+		division_template = "Штрафники"
+		start_experience_factor = 0.3
+	}
+
+}
+

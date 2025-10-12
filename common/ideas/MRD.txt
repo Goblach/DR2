@@ -1,0 +1,204 @@
+ideas = {
+	country = {
+		MRD_idea_nazgul = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_kavaleryiskaya_zonderkomanda_SS_Nazgul
+	
+			modifier = {
+				operative_slot = 3
+				agency_upgrade_time = -0.3
+			}
+		}
+		MRD_idea_legacy_SMEH = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_kavaleryiskaya_zonderkomanda_SS_Nazgul
+	
+			modifier = {
+				research_speed_factor = 0.05
+				encryption_factor = 0.15
+				decryption_factor = 0.15
+			}
+		}
+		MRD_idea_beast_weapon = {
+		
+			allowed = {
+				tag = MRD
+			}
+		
+			picture = MRD_chudovischnoe_oruzhie
+
+			equipment_bonus = {
+				heavy_tank_chassis = {
+					instant = yes
+					build_cost_ic = -0.05
+					reliability = 0.05
+				}
+			}
+		}
+		MRD_idea_rasshireniye_zhd_seti = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_rasshirenie_zheleznodorozhnoy_seti
+	
+			modifier = {
+				production_speed_rail_way_factor = 0.5
+				#production_speed_supply_node_factor = 5
+			}
+		}
+		MRD_idea_dopolnitelniye_harchi = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_dopolnitelnye_kharchi
+	
+			modifier = {
+				army_org_factor = 0.05
+				supply_consumption_factor = -0.1
+			}
+		}
+		MRD_idea_vino_i_babi = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_v_gorodakh_vino_i_baby
+	
+			modifier = {
+				army_attack_factor = 0.2
+			}
+		}
+		MRD_idea_posledniy_ryvok = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_posledniy_ryvok
+	
+			modifier = {
+				army_attack_factor = 0.05
+				army_org_factor = 0.05
+				supply_consumption_factor = -0.1
+			}
+		}
+		MRD_idea_pogranconflict = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = kostyl
+	
+			modifier = {
+				land_reinforce_rate = 0.10
+			}
+		}
+		MRD_idea_vosstanovleniye_posle_GV = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_vosstanovlenie_posle_grazhdanskoy_voyny
+	
+			modifier = {
+				industry_free_repair_factor = 0.3	
+				production_speed_buildings_factor = -0.1 
+			}
+		}
+		MRD_idea_redaktsiya_RenTV = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_vosstanovlenie_posle_grazhdanskoy_voyny
+	
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}
+		MRD_idea_Operatsiya_Lohotron = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_vosstanovlenie_posle_grazhdanskoy_voyny
+	
+			modifier = {
+				political_power_gain = 0.05 
+			}
+		}
+		MRD_idea_uskorit_yaderniye_issledovaniya = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_uskorenie_yadernykh_issledovaniy
+	
+			modifier = {
+				political_power_gain = -0.1
+				research_speed_factor = -0.05
+			}
+			research_bonus = {
+				nuclear = 0.15
+			}
+		}
+		MRD_idea_uskorit_rabotu_po_reaktoram = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_uskorennoe_stroitelstvo_reaktorov
+	
+			modifier = {
+				consumer_goods_expected_value = 0.05
+				production_speed_buildings_factor = -0.1
+				production_speed_nuclear_reactor_factor = 0.35
+			}
+		}
+		MRD_idea_uskorit_virabotku_materiala = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_vlivania_v_proizvodstvo_radioaktivnyh
+	
+			modifier = {
+				consumer_goods_expected_value = 0.1
+				nuclear_production_factor = 0.1
+			}
+		}
+		MRD_idea_zaplanirovanniye_trati = {
+
+			allowed = {
+				tag = MRD
+			}
+
+			picture = MRD_nezaplanirovanniye_traty
+	
+			modifier = {
+				political_power_gain = -0.05
+				consumer_goods_factor = 0.1
+			}
+		}
+	}
+}

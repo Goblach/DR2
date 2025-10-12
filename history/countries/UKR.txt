@@ -1,0 +1,119 @@
+capital = 226
+
+oob = UKB_1936
+set_naval_oob = "UKR_1936_naval_mtg"
+
+set_research_slots = 2
+set_stability = 0.45
+set_war_support = 0.61
+set_technology = {
+	infantry_weapons = 1
+	militia_tech = 1
+	basic_train = 1
+	tech_support = 1
+	tech_trucks = 1
+	gw_artillery = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	armored_car1 = 1
+	early_ship_hull_light = 1
+	basic_battery = 1
+	basic_torpedo = 1
+}
+
+recruit_character = UKR_poroshenko
+recruit_character = UKR_poter_net
+recruit_character = UKR_benya
+recruit_character = UKR_Dmitriy_Yarosh
+recruit_character = UKR_Geletey_Illovayskiy
+recruit_character = UKR_Victor_Muzhenko
+recruit_character = UKR_Koval_Zelenopolskiy
+recruit_character = UKR_Poltorak_Debaltsevskiy
+recruit_character = UKR_Tenuh_Krimskiy
+recruit_character = UKR_Adam_Osmaev
+recruit_character = UKR_Alexander_Polishchuk
+recruit_character = UKR_Andrey_Cherven_Gergert
+recruit_character = UKR_Andrey_Stempitsky
+recruit_character = UKR_Evgeny_Ptashnik
+recruit_character = UKR_Isa_Akaev
+recruit_character = UKR_Isa_Munaev
+recruit_character = UKR_Muslim_Cheberloevsky
+recruit_character = UKR_Muslim_Maliev
+recruit_character = UKR_Semyon_Semenchenko
+recruit_character = UKR_Sergey_Ilnitskiy
+recruit_character = UKR_Sergey_Melnichuk
+recruit_character = UKR_Vladislav_Cherny_Litvin
+recruit_character = UKR_Ivangay
+recruit_character = UKR_babchenko
+recruit_character = UKR_avakov
+recruit_character = UKR_Gayguk
+recruit_character = UKR_Voronchenko
+recruit_character = UKR_farion
+recruit_character = UKR_korchinsky
+recruit_character = UKR_yacenyuk
+recruit_character = UKR_turchinov
+recruit_character = UKR_rostic_abramov
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+UKR_nahruk_level_1
+UKR_ukraine_ne_oboytis_bez_uglya_donbassa
+}
+
+set_power_balance = {
+		id = UKR_koleso_genotbi
+		
+		left_side = UKR_zrada_side
+
+		right_side = UKR_peremoga_side
+
+		set_value = 0
+	}
+
+set_popularities = {
+	fascism = 100
+}
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no	
+}
+
+set_convoys = 40
+
+create_equipment_variant = {
+		name = "T-26"
+		type = light_tank_chassis_1
+		design_team = mio:UKR_ZimM
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon_2
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 2
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "gfx/interface/technologies/UKR_t-26.dds"
+		model = "UKR_light_armor_0_entity"
+	}
+
+create_equipment_variant = {
+		name = "Проект 11351 «Нерей»"
+		type = ship_hull_light_1
+		name_group = SOV_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}

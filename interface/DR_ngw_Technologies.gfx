@@ -1,0 +1,887 @@
+spriteTypes = {	
+	
+	SpriteType = {
+		name = "GFX_drozd_equipment_medium"
+		texturefile = "gfx/interface/technologies/Drozd.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_drozd_medium"
+		texturefile = "gfx/interface/technologies/Drozd.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_bhammer_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/banhammer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bhammer_medium"
+		texturefile = "gfx/interface/technologies/banhammer.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MGN_bhammer_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/colotushka.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MGN_bhammer_medium"
+		texturefile = "gfx/interface/technologies/colotushka.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_STR_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/zaporozhets.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_DOT_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_Ural-4320.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_DON_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/DON_Ural-4320.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_STR_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/zaporozhets.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_DOT_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/SOV_Ural-4320.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_DON_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/DON_Ural-4320.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/LAZ_ZIL.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/LAZ_ZIL.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHT_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/CHT_GAZ-66.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHT_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/CHT_GAZ-66.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TUP_improved_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/TUP_stalin3000_base.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KLG_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/KLG_kalak12.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KLG_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/KLG_kalak12.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/LAZ_vintovka_obr1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LAZ_vintovka_obr1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/LAZ_SV_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LAZ_SV_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/LAZ_PP_6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LAZ_PP_6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/LAZ_AK_10.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LAZ_AK_10.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MHL_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/MHL_ruzhye_bondarchuka.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MHL_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/MHL_ruzhye_bondarchuka.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_CAS_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/LAZ_CAS1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_CAS_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/LAZ_CAS2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_CAS_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/LAZ_CAS3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_CAS1_medium"
+		texturefile = "gfx/interface/technologies/LAZ_CAS1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_CAS2_medium"
+		texturefile = "gfx/interface/technologies/LAZ_CAS2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_CAS3_medium"
+		texturefile = "gfx/interface/technologies/LAZ_CAS3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_tac_bomber_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/LAZ_early_bomber.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_tac_bomber_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/LAZ_tac_bomber1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/LAZ_early_bomber.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/LAZ_tac_bomber1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POK_fighter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/POK_BF109.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POK_fighter1_medium"
+		texturefile = "gfx/interface/technologies/POK_BF109.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POK_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/POK_Boeing-777.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POK_tac_bomber_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/POK_Boeing-777.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POK_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/POK_vintovka_pokayana.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POK_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/POK_vintovka_pokayana.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POK_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/POK_V2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POK_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/POK_V2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POK_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/POK_PP7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POK_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/POK_PP7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POK_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/POK_ShV9.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POK_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/POK_ShV9.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_NOD_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/NOD_rifle1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_NOD_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NOD_rifle1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_NOD_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/NOD_rifle2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_NOD_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/NOD_rifle2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_NOD_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/NOD_PP.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_NOD_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NOD_PP.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_NOD_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/NOD_PP2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_NOD_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NOD_PP2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/LAZ_bronevik1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_gw_armored_car_equipment_medium"
+		texturefile = "gfx/interface/technologies/LAZ_bronevik1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/LAZ_bronevik2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_armored_car_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/LAZ_bronevik2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/LAZ_bronevik3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_armored_car_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/LAZ_bronevik3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/LAZ_bronevik3_at.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LAZ_armored_car_at_equipment_medium"
+		texturefile = "gfx/interface/technologies/LAZ_bronevik3_at.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KOF_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/KOF_armalite.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KOF_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/KOF_armalite.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHK_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/CHK_finka_nkvd.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHK_finka_nkvd_medium"
+		texturefile = "gfx/interface/technologies/CHK_finka_nkvd.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IZR_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/IZR_obrez_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IZR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/IZR_obrez_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IZR_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/IZR_obrez_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IZR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/IZR_obrez_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IZR_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/IZR_obrez_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IZR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/IZR_obrez_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IZR_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/IZR_obrez_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IZR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/IZR_obrez_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SKT_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SKT_RPK74.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SKT_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SKT_RPK74.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_HUN_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/HUN_Ikarus.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_HUN_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/HUN_Ikarus.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_HUN_motorized_rocket_unit_medium"
+		texturefile = "gfx/interface/technologies/HUN_Ikarus_rszo.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_HUN_motorized_rocket_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/HUN_Ikarus_rszo.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/Shushpanzer6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_gw_armored_car_equipment_medium"
+		texturefile = "gfx/interface/technologies/Shushpanzer6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/Shushpanzer5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_armored_car_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/Shushpanzer5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/Shushpanzer4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_armored_car_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/Shushpanzer4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/Shushpanzer4_at.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_armored_car_at_equipment_medium"
+		texturefile = "gfx/interface/technologies/Shushpanzer4_at.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/FIN_infantry_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FIN_infantry_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/UKR_svb.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/UKR_svb.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/UKR_GOPAK.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/UKR_GOPAK.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_ship_hull_torpedo_cruiser_medium"
+		texturefile = "gfx/interface/technologies/RK_moskva.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_ship_hull_light_1_medium"
+		texturefile = "gfx/interface/technologies/UKR_sagaydachniy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MAT_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/MAT_berdanka.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MAT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/MAT_berdanka.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MAT_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/MAT_avs36.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MAT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/MAT_avs36.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MAT_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/MAT_ppsh_rmn50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MAT_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/MAT_ppsh_rmn50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MAT_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/MAT_as44_rmn50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MAT_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/MAT_as44_rmn50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IRQ_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/IRQ_gold_tabuk.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IRQ_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/IRQ_gold_tabuk.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MGN_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/MGN_cherenok.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MGN_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/MGN_cherenok.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MGN_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/MGN_tt.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MGN_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/MGN_tt.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MGN_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/MGN_mosina-cherenkova.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MGN_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/MGN_mosina-cherenkova.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MGN_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/POK_ShV9.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MGN_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/POK_ShV9.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_STR_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/SOV_infantry_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_STR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SOV_infantry_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_STR_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/MHL_ruzhye_bondarchuka.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_STR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/MHL_ruzhye_bondarchuka.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_STR_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/STR_sks.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_STR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/STR_sks.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_STR_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/STR_saiga.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_STR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/STR_saiga.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_STR_tech_trucks_medium"
+		texturefile = "gfx/interface/technologies/zaporozhets.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_STR_motorized_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/zaporozhets.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_STR_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/STR_GAZ-53.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_STR_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/STR_GAZ-53.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_HRV_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/Kustarnaya_pushka.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_HRV_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/Kustarnaya_pushka.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_UKR_tech_trucks_medium"
+		texturefile = "gfx/interface/technologies/UKR_luaz.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_motorized_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/UKR_luaz.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/UKR_ukrop_hunya.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/UKR_ukrop_hunya.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LRG_tech_trucks_medium"
+		texturefile = "gfx/interface/technologies/LRG_kubelwagen.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LRG_motorized_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/LRG_kubelwagen.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LRG_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/LRG_opel_blitz.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LRG_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/LRG_opel_blitz.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LRG_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/POK_vintovka_pokayana.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LRG_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/POK_vintovka_pokayana.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LRG_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/LRG_mauzer98k.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LRG_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LRG_mauzer98k.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LRG_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/POK_PP7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LRG_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/POK_PP7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LRG_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/POK_ShV9.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LRG_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/POK_ShV9.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KUW_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/KUW_Win94.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KUW_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/KUW_Win94.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cosmolet_equipment_medium"
+		texturefile = "gfx/interface/technologies/GAL_cosmolet.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cosmolet_medium"
+		texturefile = "gfx/interface/technologies/GAL_cosmolet.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KRR_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/KRR_carabine1907.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KRR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/KRR_carabine1907.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KRR_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/KRR_carabine1938.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KRR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/KRR_carabine1938.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KRR_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/KRR_carabine1944.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KRR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/KRR_carabine1944.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KRR_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/KRR_AKS.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KRR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/KRR_AKS.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_YSK_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/YSK_af.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_YSK_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/YSK_af.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_YSK_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/YSK_pp2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_YSK_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/YSK_pp2000.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_CHT_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/CHT_rifle.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/CHT_rifle.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHT_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/CHT_rifle2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/CHT_rifle2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHT_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/CHT_avtomat.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHT_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/CHT_avtomat.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHT_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/CHT_avtomat2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHT_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/CHT_avtomat2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_UKR_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/UKR_kraz.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/UKR_kraz.dds"
+	}
+}

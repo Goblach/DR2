@@ -1,0 +1,72 @@
+add_namespace = FSK
+
+	
+country_event = { #выбор флага Шотландии
+	id = FSK.1 
+	title = FSK.1.t
+	desc = FSK.1.d
+	picture = GFX_report_event_dkr_flags_FSK
+	
+	trigger = {
+		tag = FSK
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = FSK.1.a
+    	add_stability = 0.1 
+	}
+	
+	option = {
+	name = FSK.1.b
+	    set_cosmetic_tag = FSK_1     
+	}
+	
+	option = {
+	name = FSK.1.v
+	    set_cosmetic_tag = FSK_2      
+	}
+	
+	option = {
+	name = FSK.1.z
+	    country_event = {
+				id = FSK.2
+			}       
+	}
+}
+
+country_event = { #выбор флага Шотландии
+	id = FSK.2 
+	title = FSK.2.t
+	desc = FSK.2.d
+	picture = GFX_report_event_dkr_flags_FSK
+	
+	trigger = {
+		tag = FSK
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = FSK.2.a
+	    set_cosmetic_tag = FSK_3      
+	}
+	
+	option = {
+	name = FSK.2.b
+	    set_cosmetic_tag = FSK_4      
+	}
+	
+	option = {
+	name = FSK.2.c
+	    set_cosmetic_tag = FSK_5      
+	}
+	
+	option = {
+	name = FSK.2.z
+	        country_event = {
+				id = FSK.1
+			} 
+	}
+}

@@ -1,0 +1,32 @@
+capital = 136
+
+oob = FSK_1936
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = FSK_Ilya_Maddison
+recruit_character = FSK_Shon_Konneri
+recruit_character = FSK_Niels_Olaf
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+FSK_KSHR
+}
+
+set_popularities = {
+	democratic = 75
+	neutrality = 25
+}
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no	
+}
+
+set_convoys = 200

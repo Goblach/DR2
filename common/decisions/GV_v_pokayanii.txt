@@ -1,0 +1,1169 @@
+GV_v_pokayanii_podgotovka = {
+
+    GV_POK_zahvat_329 = { #Тува
+        icon = decision_category_border_conflicts
+		days_remove = 20
+		days_re_enable = 0
+
+        ai_will_do = {
+			base = 5
+			modifier = {
+				if = {
+					limit = {
+						tag = ZNS
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 329
+			} 
+		}
+        visible = {
+            POK = {
+                owns_state = 329
+            }
+            329 = {
+                any_neighbor_state = {
+                    is_controlled_by = ROOT
+                }
+            }
+			NOT = { has_country_flag = dva_deystviya has_global_flag = zahvat_329 }
+        }
+		
+		complete_effect = {
+		clr_country_flag = stop_deystviya
+		set_global_flag = zahvat_329
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_state_core = 329
+	      transfer_state = 329
+		}
+    }
+	
+	GV_POK_zahvat_578 = { #Гномск
+        icon = decision_category_border_conflicts
+		days_remove = 20
+		days_re_enable = 0
+
+        ai_will_do = {
+			base = 5
+			modifier = {
+				if = {
+					limit = {
+						tag = GAL
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 578
+			} 
+		}
+        visible = {
+            POK = {
+                owns_state = 578
+            }
+            578 = {
+                any_neighbor_state = {
+                    is_controlled_by = ROOT
+                }
+            }
+			NOT = { has_country_flag = dva_deystviya has_global_flag = zahvat_578 }
+        }
+		
+		complete_effect = {
+        	clr_country_flag = stop_deystviya
+			set_global_flag = zahvat_578
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_state_core = 578
+	      transfer_state = 578
+		}
+    }
+	
+	GV_POK_zahvat_569 = { #Хакасия
+        icon = decision_category_border_conflicts
+		days_remove = 20
+		days_re_enable = 0
+
+        ai_will_do = {
+			base = 5
+			modifier = {
+				if = {
+					limit = {
+						tag = YSK
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 569
+			} 
+		}
+        visible = {
+            POK = {
+                owns_state = 569
+            }
+            569 = {
+                any_neighbor_state = {
+                    is_controlled_by = ROOT
+                }
+            }
+			NOT = { has_country_flag = dva_deystviya has_global_flag = zahvat_569 }
+        }
+
+        complete_effect = {
+        	clr_country_flag = stop_deystviya
+			set_global_flag = zahvat_569
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_state_core = 569
+	      transfer_state = 569
+		}
+    }
+	
+	GV_POK_zahvat_577 = { #Сургут
+        icon = decision_category_border_conflicts
+		days_remove = 20
+		days_re_enable = 0
+
+        ai_will_do = {
+			base = 1
+			modifier = {
+				if = {
+					limit = {
+						tag = MRD
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 577
+			} 
+		}
+        visible = {
+            POK = {
+                owns_state = 577
+            }
+            577 = {
+                any_neighbor_state = {
+                    is_controlled_by = ROOT
+                }
+            }
+			NOT = { has_country_flag = dva_deystviya has_global_flag = zahvat_577 }
+        }
+		
+		complete_effect = {
+        clr_country_flag = stop_deystviya
+	    set_global_flag = zahvat_577
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_state_core = 577
+	      transfer_state = 577
+		}
+    }
+	
+	GV_POK_zahvat_576 = { #Енисейск
+        icon = decision_category_border_conflicts
+		days_remove = 20
+		days_re_enable = 0
+
+        ai_will_do = {
+			base = 1
+			modifier = {
+				if = {
+					limit = {
+						tag = MRD
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 576
+			} 
+		}
+        visible = {
+            POK = {
+                owns_state = 576
+            }
+            576 = {
+                any_neighbor_state = {
+                    is_controlled_by = ROOT
+                }
+            }
+			NOT = { has_country_flag = dva_deystviya has_global_flag = zahvat_576 }
+        }
+		
+		complete_effect = {
+            clr_country_flag = stop_deystviya
+			set_global_flag = zahvat_576
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_state_core = 576
+	      transfer_state = 576
+		}
+    }
+	
+	GV_POK_zahvat_575 = { #Киренск
+        icon = decision_category_border_conflicts
+		days_remove = 20
+		days_re_enable = 0
+
+        ai_will_do = {
+			base = 1
+			modifier = {
+				if = {
+					limit = {
+						tag = MRD
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 575
+			} 
+		}
+        visible = {
+            POK = {
+                owns_state = 575
+            }
+            575 = {
+                any_neighbor_state = {
+                    is_controlled_by = ROOT
+                }
+            }
+			NOT = { has_country_flag = dva_deystviya has_global_flag = zahvat_575 }
+        }
+		
+		complete_effect = {
+        	clr_country_flag = stop_deystviya
+			set_global_flag = zahvat_575
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_state_core = 575
+	      transfer_state = 575
+		}
+    }
+	
+	GV_POK_zahvat_567 = { #Братск
+        icon = decision_category_border_conflicts
+		days_remove = 20
+		days_re_enable = 0
+
+        ai_will_do = {
+			base = 5
+			modifier = {
+				if = {
+					limit = {
+						tag = ZNS
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 567
+			} 
+		}
+        visible = {
+            POK = {
+                owns_state = 567
+            }
+            567 = {
+                any_neighbor_state = {
+                    is_controlled_by = ROOT
+                }
+            }
+			NOT = { has_country_flag = dva_deystviya has_global_flag = zahvat_567 }
+        }
+		
+		complete_effect = {
+        	clr_country_flag = stop_deystviya
+			set_global_flag = zahvat_567
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_state_core = 567
+	      transfer_state = 567
+		}
+    }
+	
+	GV_POK_zahvat_654 = { #Ойротский_край
+        icon = decision_category_border_conflicts
+		days_remove = 20
+		days_re_enable = 0
+
+        ai_will_do = {
+			base = 1
+			modifier = {
+				if = {
+					limit = {
+						tag = YSK
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 654
+			} 
+		}
+        visible = {
+            POK = {
+                owns_state = 654
+            }
+            654 = {
+                any_neighbor_state = {
+                    is_controlled_by = ROOT
+                }
+            }
+			NOT = { has_country_flag = dva_deystviya has_global_flag = zahvat_654 }
+        }
+
+        complete_effect = {
+        	clr_country_flag = stop_deystviya
+			set_global_flag = zahvat_654
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_state_core = 654
+	      transfer_state = 654
+		}
+    }
+	
+	GV_POK_zahvat_824 = { #Ямал
+        icon = decision_category_border_conflicts
+		days_remove = 20
+		days_re_enable = 0
+
+        ai_will_do = {
+			base = 1
+			modifier = {
+				if = {
+					limit = {
+						tag = MRD
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 824
+			} 
+		}
+        visible = {
+            POK = {
+                owns_state = 824
+            }
+            824 = {
+                any_neighbor_state = {
+                    is_controlled_by = ROOT
+                }
+            }
+			NOT = { has_country_flag = dva_deystviya has_global_flag = zahvat_824 }
+        }
+		
+		complete_effect = {
+        	clr_country_flag = stop_deystviya
+			set_global_flag = zahvat_824
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_state_core = 824
+	      transfer_state = 824
+		}
+    }
+	
+	GV_POK_zahvat_403 = { #Тюмень
+        icon = decision_category_border_conflicts
+		days_remove = 20
+		days_re_enable = 0
+
+        ai_will_do = {
+			base = 1
+			modifier = {
+				if = {
+					limit = {
+						tag = OMS
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 403
+			} 
+		}
+        visible = {
+            POK = {
+                owns_state = 403
+            }
+            403 = {
+                any_neighbor_state = {
+                    is_controlled_by = ROOT
+                }
+            }
+			NOT = { has_country_flag = dva_deystviya has_global_flag = zahvat_403 }
+        }
+		
+		complete_effect = {
+			LAZ = { country_event = osv.999 }
+        	clr_country_flag = stop_deystviya
+			set_global_flag = zahvat_403
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_state_core = 403
+	      transfer_state = 403
+		}
+    }
+	
+	GV_POK_zahvat_572 = { #Челябинск
+        icon = decision_category_border_conflicts
+		days_remove = 20
+		days_re_enable = 0
+
+        ai_will_do = {
+			base = 1
+			modifier = {
+				if = {
+					limit = {
+						tag = MGN
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 572
+			} 
+		}
+        visible = {
+            POK = {
+                owns_state = 572
+            }
+            572 = {
+                any_neighbor_state = {
+                    is_controlled_by = ROOT
+                }
+            }
+			NOT = { has_country_flag = dva_deystviya has_global_flag = zahvat_572 }
+        }
+		
+		complete_effect = {
+        	clr_country_flag = stop_deystviya
+			set_global_flag = zahvat_572
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_state_core = 572
+	      transfer_state = 572
+		}
+    }
+	
+	GV_POK_zahvat_573 = { #Златоуст
+        icon = decision_category_border_conflicts
+		days_remove = 20
+		days_re_enable = 0
+
+        ai_will_do = {
+			base = 1
+			modifier = {
+				if = {
+					limit = {
+						tag = MGN
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 573
+			} 
+		}
+        visible = {
+            POK = {
+                owns_state = 573
+            }
+            573 = {
+                any_neighbor_state = {
+                    is_controlled_by = ROOT
+                }
+            }
+			NOT = { has_country_flag = dva_deystviya has_global_flag = zahvat_573 }
+        }
+		
+		complete_effect = {
+        	clr_country_flag = stop_deystviya
+			set_global_flag = zahvat_573
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_state_core = 573
+	      transfer_state = 573
+		    if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+				}
+				set_country_flag = dva_deystviya
+			}
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+			}
+		}
+    }
+	
+	add_vintovki = { #Винтовки
+        icon = decision_generic_prepare_civil_war
+		days_remove = 20
+		days_re_enable = 0
+		
+		ai_will_do = {
+			base = 0
+			modifier = {
+				if = {
+					limit = {
+						tag = GAL
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		
+        visible = {
+			NOT = { has_country_flag = dva_deystviya }
+        }
+		
+		complete_effect = {
+      clr_country_flag = stop_deystviya
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 500
+							producer = POK
+						}
+		}
+    }
+	
+	add_vintovki_2 = { #Винтовок_много_не_бывает
+        icon = decision_generic_prepare_civil_war
+		days_remove = 20
+		days_re_enable = 0
+		
+		ai_will_do = {
+			base = 0
+			modifier = {
+				if = {
+					limit = {
+						tag = GAL
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+		
+        visible = {
+			NOT = { has_country_flag = dva_deystviya }
+        }
+		
+		complete_effect = {
+			clr_country_flag = stop_deystviya
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 500
+				producer = POK
+			}
+		}
+    }
+	add_artillery = { #Арта
+        icon = decision_generic_prepare_civil_war
+		days_remove = 20
+		days_re_enable = 0
+		
+		ai_will_do = {
+			base = 0
+			modifier = {
+				if = {
+					limit = {
+						tag = GAL
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+
+        visible = {
+			NOT = { has_country_flag = dva_deystviya }
+        }
+		
+		complete_effect = {
+			clr_country_flag = stop_deystviya
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_equipment_to_stockpile = {
+				type = artillery_equipment_1
+				amount = 120
+				producer = POK
+			}
+		}
+    }
+	add_support_equpment = { #Допоснащение
+        icon = decision_generic_prepare_civil_war
+		days_remove = 20
+		days_re_enable = 0
+		
+		ai_will_do = {
+			base = 0
+			modifier = {
+				if = {
+					limit = {
+						tag = GAL
+					}
+					factor = 1
+				}
+				else = {
+					factor = 0
+				}
+			}
+		}
+
+        visible = {
+			NOT = { has_country_flag = dva_deystviya }
+        }
+
+		complete_effect = {
+			clr_country_flag = stop_deystviya
+	     	if = {
+				limit = {
+					NOT = { has_country_flag = one_deystviye }
+				}
+				set_country_flag = one_deystviye
+				set_country_flag = stop_deystviya				
+			}
+			if = {
+		 		limit = {
+					has_country_flag = one_deystviye
+					NOT = { has_country_flag = stop_deystviya }
+				}
+				set_country_flag = dva_deystviya
+			}
+		}
+
+		remove_effect = {
+		  add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 100
+				producer = POK
+			}
+		}
+    }
+}
+GV_v_pokayanii_dobit = {
+
+    GV_POK_dobit_pok = {
+        icon = decision_category_border_conflicts
+		days_remove = 0
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 100
+		}
+		available = {
+		    NOT = { 
+		    	has_war_with = POK
+			}
+		}
+        visible = {
+			has_global_flag = POK_GV_v_pok
+			OR = { 
+		    	tag = OMS
+				tag = MGN
+				tag = GAL
+				tag = YSK
+				tag = ZNS
+				tag = MRD
+			}
+			POK = { exists = yes }
+        }
+
+		remove_effect = {
+		    declare_war_on = { target = POK type = annex_everything }
+		}
+    }	
+	
+	GV_POK_dobit_oms = {
+        icon = decision_category_border_conflicts
+		days_remove = 0
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 100
+		}
+		available = {
+		    NOT = { 
+		    	has_war_with = OMS
+			}
+		}
+        visible = {
+			has_global_flag = POK_GV_v_pok
+			OR = { 
+		    	tag = POK
+				tag = MGN
+				tag = GAL
+				tag = YSK
+				tag = ZNS
+				tag = MRD
+			}
+			OMS = { exists = yes }
+        }
+
+		remove_effect = {
+		    declare_war_on = { target = OMS type = annex_everything }
+		}
+    }	
+	
+	GV_POK_dobit_mgn = {
+        icon = decision_category_border_conflicts
+		days_remove = 0
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 100
+		}
+		available = {
+		    NOT = { 
+		    	has_war_with = MGN
+			}
+		}
+        visible = {
+			has_global_flag = POK_GV_v_pok
+			OR = { 
+		    	tag = OMS
+				tag = POK
+				tag = GAL
+				tag = YSK
+				tag = ZNS
+				tag = MRD
+			}
+			MGN = { exists = yes }
+        }
+
+		remove_effect = {
+		    declare_war_on = { target = MGN type = annex_everything }
+		}
+    }	
+	
+	GV_POK_dobit_gal = {
+        icon = decision_category_border_conflicts
+		days_remove = 0
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 100
+		}
+		available = {
+		    NOT = { 
+		    	has_war_with = GAL
+			}
+		}
+        visible = {
+			has_global_flag = POK_GV_v_pok
+			OR = { 
+		    	tag = OMS
+				tag = MGN
+				tag = POK
+				tag = YSK
+				tag = ZNS
+				tag = MRD
+			}
+			GAL = { exists = yes }
+        }
+
+		remove_effect = {
+		    declare_war_on = { target = GAL type = annex_everything }
+		}
+    }	
+	
+	GV_POK_dobit_ysk = {
+        icon = decision_category_border_conflicts
+		days_remove = 0
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 100
+		}
+		available = {
+		    NOT = { 
+		    	has_war_with = YSK
+			}
+		}
+        visible = {
+			has_global_flag = POK_GV_v_pok
+			OR = { 
+		    	tag = OMS
+				tag = MGN
+				tag = GAL
+				tag = POK
+				tag = ZNS
+				tag = MRD
+			}
+			YSK = { exists = yes }
+        }
+
+		remove_effect = {
+		    declare_war_on = { target = YSK type = annex_everything }
+		}
+    }	
+	
+	GV_POK_dobit_zns = {
+        icon = decision_category_border_conflicts
+		days_remove = 0
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 100
+		}
+		available = {
+		    NOT = { 
+		    	has_war_with = ZNS
+			}
+		}
+        visible = {
+			has_global_flag = POK_GV_v_pok
+			OR = { 
+		    	tag = OMS
+				tag = MGN
+				tag = GAL
+				tag = YSK
+				tag = POK
+				tag = MRD
+			}
+			ZNS = { exists = yes }
+        }
+
+		remove_effect = {
+		    declare_war_on = { target = ZNS type = annex_everything }
+		}
+    }	
+	
+	GV_POK_dobit_mrd = {
+        icon = decision_category_border_conflicts
+		days_remove = 0
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 100
+		}
+		available = {
+		    NOT = { 
+		    	has_war_with = MRD
+			}
+		}
+        visible = {
+			has_global_flag = POK_GV_v_pok
+			OR = { 
+		    	tag = OMS
+				tag = MGN
+				tag = GAL
+				tag = YSK
+				tag = POK
+				tag = ZNS
+			}
+			MRD = { exists = yes }
+        }
+
+		remove_effect = {
+		    declare_war_on = { target = MRD type = annex_everything }
+		}
+    }	
+}	
+		

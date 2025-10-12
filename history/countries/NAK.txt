@@ -1,0 +1,49 @@
+capital = 431
+
+oob = 123_1936
+
+set_research_slots = 3
+set_stability = 0.4
+set_war_support = 0.7
+set_technology = {
+	infantry_weapons = 1
+	gwtank_chassis = 1
+		tech_trucks = 1
+	basic_train = 1
+}
+
+add_ideas = {
+    limited_conscription
+    partial_economic_mobilisation
+    NAK_bangladesh_separatism
+	NAK_nachalo_otkaza_ot_kast
+	NAK_form_new_indian_peolpe
+	NAK_rad_culture_revolution
+}
+
+set_popularities = {
+	metacommy = 30
+	anarhostalinism = 15
+	vmestolev = 15
+	democratic = 10
+	memoism = 10
+	fascism = 10
+	neutrality = 10
+}
+set_politics = {
+	ruling_party = metacommy
+	elections_allowed = no	
+}
+
+set_convoys = 400
+
+create_country_leader = {
+	name = "Иммануил Валлерстайн"
+	desc = "POLITICS_THORVALD_STAUNING_DESC"
+	picture = "Vallerstein.dds"
+	expire = "1999.1.1"
+	ideology = nacbol
+	traits = {
+		
+	}
+}

@@ -1,0 +1,666 @@
+ideas = {
+       country = {
+	        SKT_hui_ded_Maksim = {
+
+			picture = Khuy_deda_Maxima
+			
+			   modifier = {
+			    breakthrough_factor = 0.15
+				army_attack_factor = 0.15
+			    monthly_population = 3
+				consumer_goods_factor = -0.1
+			    }
+		    }      
+	        SKT_narodniy_neftegaz = {
+
+			picture = SKT_NarodNeftegazKomi  
+			    modifier = {
+				consumer_goods_factor = 0.05
+				state_resources_factor = 0.15
+				industrial_capacity_factory = 0.15
+				base_fuel_gain_factor = 0.15
+			    }
+		    }
+			SKT_narodniy_neftegaz_1 = {
+
+			picture = SKT_NarodNeftegazKomi  
+			    modifier = {
+				consumer_goods_factor = 0.1
+				state_resources_factor = 0.15
+				industrial_capacity_factory = 0.15
+				base_fuel_gain_factor = 0.15
+				monthly_population = 0.15
+			    }
+		    }
+			SKT_narodniy_neftegaz_2 = {
+
+			picture = SKT_NarodNeftegazKomi  
+			    modifier = {
+				consumer_goods_factor = 0.075
+				state_resources_factor = 0.15
+				industrial_capacity_factory = 0.15
+				base_fuel_gain_factor = 0.2
+				monthly_population = 0.15
+			    }
+		    }
+			SKT_new_infrastruktura = {
+
+			picture = Novaya_infrastruktura  
+			    modifier = {
+				production_speed_infrastructure_factor = 0.15 
+			    }
+		    }
+			SKT_big_socialka = {
+
+			picture = Bolshaya_sotsialka  
+			    modifier = {
+				production_speed_infrastructure_factor = 0.15
+                consumer_goods_factor = 0.1 
+                monthly_population = 0.75
+                production_factory_start_efficiency_factor = 0.05           				
+			    }
+		    }
+			SKT_Komi_dlya_ludey = {
+
+			picture = Komi_dlya_lyudey_33  
+			    modifier = {
+				production_speed_infrastructure_factor = 0.15
+                consumer_goods_factor = 0.175 
+                monthly_population = 1.5
+                production_factory_start_efficiency_factor = 0.075
+                state_resources_factor = 0.15
+				industrial_capacity_factory = 0.15
+				base_fuel_gain_factor = 0.2      				
+			    }
+		    }
+			SKT_new_sposobi_dobichi = {
+
+			picture = cht_shizofrenia  
+			    modifier = {
+				local_resources_factor = 0.10     				
+			    }
+		    }
+			SKT_narastit_neftedobichy = {
+
+			picture = Narastit_neftedobychu  
+			    modifier = {
+				local_resources_factor = 0.15
+				base_fuel_gain_factor = 0.1
+			    }
+		    }
+			SKT_SovOil = {
+
+			picture = SovOil  
+			    modifier = {
+				consumer_goods_factor = -0.075
+                local_resources_factor = 0.10   
+                production_factory_efficiency_gain_factor = 0.075
+			    }
+		    }
+			SKT_SovOil_1 = {
+
+			picture = SovOil  
+			    modifier = {
+				consumer_goods_factor = -0.125
+                local_resources_factor = 0.15   
+                production_factory_efficiency_gain_factor = 0.075
+				production_factory_max_efficiency_factor = 0.075
+			    }
+		    }
+			SKT_SovOil_2 = {
+
+			picture = SovOil  
+			    modifier = {
+				consumer_goods_factor = -0.1
+                local_resources_factor = 0.15   
+                production_factory_efficiency_gain_factor = 0.075
+				production_factory_max_efficiency_factor = 0.075
+				research_speed_factor = 0.075
+			    }
+		    }
+			SKT_SovOil_3 = {
+
+			picture = SovOil  
+			    modifier = {
+				consumer_goods_factor = -0.1
+                local_resources_factor = 0.25   
+                production_factory_efficiency_gain_factor = 0.075
+				production_factory_max_efficiency_factor = 0.075
+				research_speed_factor = 0.075
+				base_fuel_gain_factor = 0.1
+				monthly_population = 0.25
+			    }
+		    }
+			SKT_avangard_lumpen_kassir = {
+
+			picture = cht_shizofrenia  
+			    modifier = {
+				vmestolev_drift = 0.01
+				party_popularity_stability_factor = 0.15
+				stability_factor = 0.05
+				drift_defence_factor = 0.3
+			    }
+		    }
+			SKT_sev_mayak_zhozhekizma = {
+
+			picture = Severny_mayak_zhozhekizma  
+			    modifier = {
+				vmestolev_drift = 0.01
+				stability_factor = 0.1
+				drift_defence_factor = 0.2
+			    }
+		    }
+			SKT_fanernaya_arkhitektura = {
+
+			picture = Fanernaya_arkhitektura  
+			    modifier = {
+				production_speed_buildings_factor = 0.075 
+			    }
+		    }
+			SKT_opit_sevkor_ansabley_pesen = {
+
+			picture = cht_shizofrenia  
+			    modifier = {
+				political_power_gain = 0.1
+                vmestolev_drift = 0.01     				
+			    }
+		    }
+			SKT_elementi_chuchhe = {
+
+			    picture = cht_shizofrenia  
+			    modifier = {
+				army_org_factor = 0.05
+				industrial_capacity_factory = 0.05
+                metacommy_drift = 0.001     				
+			    }
+		    }
+			SKT_KSKR = {
+
+			    picture = cht_shizofrenia  
+			    modifier = {
+				army_org_factor = 0.05
+				army_core_defence_factor = 0.1
+                army_morale_factor = 0.1      				
+			    }
+		    }
+			SKT_kommunist_agora = {
+
+			    picture = cht_shizofrenia  
+			    modifier = {
+				vmestolev_drift = 0.01
+                war_support_factor = 0.05
+                drift_defence_factor = 0.3    				
+			    }
+		    }
+			SKT_razvodid_kochevoy_kartofel = {
+
+			    picture = cht_shizofrenia  
+			    modifier = {
+				consumer_goods_factor = -0.05  
+ 				army_speed_factor = 0.1
+				org_loss_when_moving = -0.1
+			    }
+		    }
+			SKT_otdel_expansion = {
+
+			    picture = Otdel_expansii  
+			    modifier = {
+				war_support_factor = 0.15
+				offensive_war_stability_factor = 0.15
+			    }
+		    }
+			SKT_no_step_back = {
+
+			    picture = cht_shizofrenia  
+			    modifier = {
+				dig_in_speed_factor = -0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			    }
+		    }
+			SKT_pochetniy_karaul = {
+
+			    picture = Pochyotny_karaul  
+			    modifier = {
+				army_core_defence_factor = 0.1
+				army_org_factor = 0.05
+			    }
+		    }
+			SKT_sah_crisis = {
+
+			    picture = Sakharny_krizis  
+			    modifier = {
+				consumer_goods_factor = 0.2
+                stability_factor = -0.1   				
+			    }
+		    }
+			SKT_sah_crisis_1 = {
+
+			    picture = Sakharny_krizis  
+			    modifier = {
+				consumer_goods_factor = 0.1
+                stability_factor = -0.05   				
+			    }
+		    }
+			SKT_sabotazh_capitalistov = {
+
+			    picture = Sabotazh_kapitalistov  
+			    modifier = {
+				consumer_goods_factor = 0.05
+				political_power_gain = -0.05
+                stability_weekly = -0.01 
+			    }
+		    }
+			SKT_sabotazh_capitalistov_1 = {
+
+			    picture = Sabotazh_kapitalistov  
+			    modifier = {
+				consumer_goods_factor = 0.035
+				political_power_gain = -0.035
+                stability_weekly = -0.01 
+			    }
+		    }
+			SKT_sabotazh_capitalistov_2 = {
+
+			    picture = Sabotazh_kapitalistov  
+			    modifier = {
+				consumer_goods_factor = 0.015
+				political_power_gain = -0.015
+                stability_weekly = -0.01 
+			    }
+		    }
+			SKT_eksperpriatsia_babyshek = {
+
+			    picture = Expropriatsia_sakhara_u_babushek  
+			    modifier = {
+				consumer_goods_factor = -0.05
+			    }
+		    }
+			SKT_import_sah_svekly = {
+
+			    picture = Import_svyokly  
+			    modifier = {
+				consumer_goods_factor = 0.025
+			    }
+		    }
+			SKT_eksport_sah_svekly = {
+
+			    picture = Import_svyokly  
+			    modifier = {
+				consumer_goods_factor = -0.025
+			    }
+		    }
+            SKT_borod_bez_borodi = {
+
+			    picture = Bezborody_LevoBOROD  
+			    modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.2
+			    }
+		    }
+            SKT_borod_bez_borodi_1 = {
+
+			    picture = Reborodizatsia  
+			    modifier = {
+				stability_factor = -0.175
+				political_power_gain = -0.175
+			    }
+		    }
+            SKT_borod_bez_borodi_2 = {
+
+			    picture = Reborodizatsia  
+			    modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.15
+			    }
+		    }
+            SKT_borod_bez_borodi_3 = {
+
+			    picture = Reborodizatsia  
+			    modifier = {
+				stability_factor = -0.125
+				political_power_gain = -0.125
+			    }
+		    }
+            SKT_borod_bez_borodi_4 = {
+
+			    picture = Reborodizatsia  
+			    modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.1
+			    }
+		    }
+            SKT_borod_bez_borodi_5 = {
+
+			    picture = Reborodizatsia  
+			    modifier = {
+				stability_factor = -0.075
+				political_power_gain = -0.075
+			    }
+		    } 
+            SKT_borod_bez_borodi_6 = {
+
+			    picture = Reborodizatsia  
+			    modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+			    }
+		    }
+            SKT_borod_bez_borodi_7 = {
+
+			    picture = Reborodizatsia  
+			    modifier = {
+				stability_factor = -0.025
+				political_power_gain = -0.025
+			    }
+		    }
+            SKT_borod_bez_borodi_8 = {
+
+			    picture = Reborodizatsia  
+			    modifier = {
+			    }
+		    }
+            SKT_borod_bez_borodi_9 = {
+
+			    picture = cht_shizofrenia  
+			    modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			    }
+		    }
+            SKT_borod_bez_borodi_10 = {
+
+			    picture = boroda  
+			    modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.15
+			    }
+		    }
+            SKT_vse_dly_fronta = {
+
+			    picture = Vse_dlya_fronta_33_Vse_dlya_pobedy_33  
+			    modifier = {
+			    supply_factor = 0.05
+				out_of_supply_factor = -0.05
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.05
+			    }
+		    }
+            SKT_exstrim_turism = {
+
+			    picture = Extremalny_turizm  
+			    modifier = {
+				consumer_goods_factor = 0.025
+				weekly_manpower = 55
+				conscription_factor = 0.15
+                experience_gain_army = 0.025
+			    }
+		    }    			
+	    }
+		
+		industrial_concern = {
+		
+		    SKT_VorkutMechZavod = {
+			
+			allowed = {
+				original_tag = SKT
+			}
+			
+			modifier = {
+			    local_resources_factor = 0.1
+			}
+			
+			research_bonus = {
+				industry = 0.15
+				
+			}
+			
+			traits = { industrial_concern }
+			
+			ai_will_do = {
+				factor = 1
+			    }
+		    }
+			
+			SKT_PecorGRES = {
+			
+			allowed = {
+				original_tag = SKT
+			}
+			
+			modifier = {
+			    consumer_goods_factor = -0.075
+			}
+			
+			research_bonus = {
+				industry = 0.1
+				
+			}
+			
+			traits = { industrial_concern }
+			
+			ai_will_do = {
+				factor = 1
+			    }
+		    }
+			SKT_NarodNeftegazKomi = {
+			
+			allowed = {
+				original_tag = SKT
+			}
+			
+			available = {
+				has_completed_focus = SKT_narodniy_neftegaz
+			}
+			
+			research_bonus = {
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		    }
+			
+			SKT_KB_SovOil = {
+			
+			    allowed = {
+				    original_tag = SKT
+			    }
+			
+			    available = {
+				    has_completed_focus = SKT_SovOil
+					has_government = vmestolev
+				    has_completed_focus = SKT_left_boroda
+			    }
+			
+			    research_bonus = {
+				    synth_resources = 0.2
+				    industry = 0.05
+			    }
+			
+			    traits = { refinery_concern }
+			
+			    ai_will_do = {
+				    factor = 2
+			    }
+		    }
+			
+			PRM_TrikolorTV = {
+			
+			allowed = {
+				original_tag = SKT
+			}
+			
+			available = {
+				controls_state = 398
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.05
+				production_speed_radar_station_factor = 0.15 
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}
+
+        PRM_PermZhD = {
+			
+			allowed = {
+				original_tag = SKT
+			}
+			
+			available = {
+				controls_state = 398
+			}
+			
+			modifier = {
+			    production_speed_supply_node_factor = 0.15
+				production_speed_rail_way_factor = 0.15
+				production_speed_infrastructure_factor = 0.15 
+			}
+			
+			research_bonus = {
+				industry = 0.075
+			}
+			
+			traits = { industrial_concern }
+		}
+
+        PRM_UcolKalCumbinat = {
+			
+			allowed = {
+				original_tag = SKT
+			}
+			
+			available = {
+				controls_state = 398
+			}
+			
+			modifier = {
+			    consumer_goods_factor = -0.05
+				monthly_population = 0.15
+			}
+			
+			research_bonus = {
+				industry = 0.075
+			}
+			
+			traits = { industrial_concern }
+		}
+
+        PRM_LysvenskyMetallurgicalZavod = {
+			
+			allowed = {
+				original_tag = SKT
+			}
+			
+			available = {
+				controls_state = 398
+			}
+			
+			modifier = {
+			}
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+		}
+		}
+		
+		aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		    SKT_KomiAviaTrans = {
+			
+			allowed = {
+				original_tag = SKT
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			    }
+		    }
+		}
+		
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		SKT_Motovilihinskie_zavod = {
+			
+			allowed = {
+				original_tag = SKT
+			}
+			
+			available = {
+				controls_state = 398
+			}
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+				
+			}
+			
+			equipment_bonus = {
+			artillery = {
+				build_cost_ic = -0.15
+			}
+			rocket_artillery = {
+				build_cost_ic = -0.15 
+			}
+			mot_rockets = {
+				build_cost_ic = -0.15 
+			}
+			}
+		}
+		
+		SKT_KB_Gamburga = {
+
+			
+			allowed = {
+				original_tag = SKT
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.25
+			}
+			
+			available = {		
+                has_government = vmestolev
+				has_completed_focus = SKT_left_boroda
+		    }
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+    }
+}

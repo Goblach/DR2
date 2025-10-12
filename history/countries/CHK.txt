@@ -1,0 +1,36 @@
+﻿capital = 821
+
+oob = CHK_1936
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = CHK_Ka_Dy_Rov
+recruit_character = CHK_Zahaev
+
+recruit_character = CHK_Cha_La_Ev
+recruit_character = CHK_Yts_Mi_Gov
+
+recruit_character = CHK_Mutsu_Ra_Ev
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+CHK_tropa_Ka_Di_Rova
+}
+
+set_popularities = {
+	memoism = 67
+	metacommy = 33
+}
+set_politics = {
+	ruling_party = memoism
+	elections_allowed = no	
+}
+
+set_convoys = 40

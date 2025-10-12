@@ -1,0 +1,371 @@
+add_namespace = ZNS
+
+	
+country_event = { 
+	id = ZNS.1 
+	title = ZNS.1.t
+	desc = ZNS.1.d
+	picture = GFX_report_event_dkr_revolutsioner
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.1.a 
+	    add_ideas = ZNS_antikrinzh_protest    		
+    }
+}
+
+country_event = { 
+	id = ZNS.2 
+	title = ZNS.2.t
+	desc = ZNS.2.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.2.a
+		set_country_flag = antikrinzh_vosstanie
+		trigger = {
+			OR = {
+			has_idea = ZNS_antikrinzh_protest
+			has_idea = ZNS_antikrinzh_protest_1
+			has_idea = ZNS_antikrinzh_protest_2
+			has_idea = ZNS_antikrinzh_protest_3
+			has_idea = ZNS_antikrinzh_protest_4
+			has_idea = ZNS_antikrinzh_protest_5
+			has_idea = ZNS_antikrinzh_protest_6
+			}
+		}
+    }
+	option = {
+	    name = ZNS.2.b
+        trigger = {
+			has_country_flag = krinzh_podeda
+		}
+    }
+}
+
+country_event = { #Выведение_сверхчеловека
+	id = ZNS.3 
+	title = ZNS.3.t
+	desc = ZNS.3.d
+	picture = report_event_rudoy_i_baget
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.3.a
+	    add_ideas = ZNS_sverhchelovek
+    }
+}
+
+country_event = { #Опыты_со_сном
+	id = ZNS.4 
+	title = ZNS.4.t
+	desc = ZNS.4.d
+	picture = report_event_rudoy_i_baget
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.4.a      
+	    swap_ideas = {
+			remove_idea = ZNS_sverhchelovek
+			add_idea = ZNS_sverhchelovek_1
+		}
+    }
+}
+
+country_event = { #Опыты_над_слухом
+	id = ZNS.5 
+	title = ZNS.5.t
+	desc = ZNS.5.d
+	picture = report_event_rudoy_i_baget
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.5.a      
+	    swap_ideas = {
+			remove_idea = ZNS_sverhchelovek_1
+			add_idea = ZNS_sverhchelovek_2
+		}
+    }
+}
+
+country_event = { #Опыты_над_разумом
+	id = ZNS.6 
+	title = ZNS.6.t
+	desc = ZNS.6.d
+	picture = report_event_rudoy_i_baget
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.6.a      
+	    swap_ideas = {
+			remove_idea = ZNS_sverhchelovek_2
+			add_idea = ZNS_sverhchelovek_3
+		}
+    }
+}
+
+country_event = { #Опыты_над_зк
+	id = ZNS.7 
+	title = ZNS.7.t
+	desc = ZNS.7.d
+	picture = report_event_rudoy_i_baget
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.7.a	    
+    }
+}
+
+country_event = { #лечение_шизы
+	id = ZNS.8 
+	title = ZNS.8.t
+	desc = ZNS.8.d
+	picture = GFX_report_event_alkogol
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.8.a
+        add_ideas = ZNS_eksperimentalnaya_metodika_lecheniya_shizy 	    
+    }
+}
+
+country_event = { #эксперимент_над_учениками
+	id = ZNS.9 
+	title = ZNS.9.t
+	desc = ZNS.9.d
+	picture = report_event_rudoy_i_baget
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.9.a
+        add_ideas = ZNS_eksperimenti_nad_yspevaimostu	    
+    }
+}
+
+country_event = { #Победа_фракции_Рудого
+	id = ZNS.10 
+	title = ZNS.10.t
+	desc = ZNS.10.d
+	picture = GFX_report_event_rudoy
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.10.a
+        add_popularity = {
+				ideology = vmestolev
+				popularity = -0.25
+			}
+		add_popularity = {
+				ideology = metacommy
+				popularity = -0.25
+		}
+        add_popularity = {
+				ideology = anarhostalinism
+				popularity = 0.25
+		}
+        set_country_flag = ZNS_Pobeda_SA    		
+    }
+}
+
+country_event = { #Победа_фракции_Новых_Красных
+	id = ZNS.11 
+	title = ZNS.11.t
+	desc = ZNS.11.d
+	picture = GFX_report_event_dkr_dark_green_kremlin
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.11.a
+        add_popularity = {
+				ideology = vmestolev
+				popularity = -0.25
+			}
+		add_popularity = {
+				ideology = metacommy
+				popularity = 0.25
+		}
+        add_popularity = {
+				ideology = anarhostalinism
+				popularity = -0.25
+		}
+		set_politics = {
+			ruling_party = metacommy
+			elections_allowed = no
+		}
+        set_country_flag = ZNS_Pobeda_NR     	    
+    }
+}
+country_event = { #лор_союза_ансталов
+	id = ZNS.12 
+	title = ZNS.12.t
+	desc = ZNS.12.d
+	picture = GFX_report_event_rudoy_i_bomzh
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.12.a
+        add_popularity = {
+				ideology = vmestolev
+				popularity = -0.2
+			}
+		add_popularity = {
+				ideology = metacommy
+				popularity = 0.2
+		}
+        add_popularity = {
+				ideology = anarhostalinism
+				popularity = 0.2
+		}   	    
+    }
+}
+country_event = { #ивент_ветки_терезы_добавляющий_глубины
+	id = ZNS.13 
+	title = ZNS.13.t
+	desc = ZNS.13.d
+	picture = GFX_report_event_dkr_korabl
+	
+	trigger = {
+		tag = ZNS
+		ZNS = {
+		surrender_progress > 0.80
+		}
+	}
+	
+	is_triggered_only = yes	
+	
+	fire_only_once = yes
+	
+	option = {
+	    name = ZNS.13.a
+		add_popularity = {
+				ideology = metacommy
+				popularity = -0.2
+		}
+		add_political_power = -300
+		add_stability = -0.1
+		add_war_support = 0.2
+   	    kill_country_leader = yes
+    }
+}
+country_event = { #ивент_ветки_рудого_добавляющий_глубины
+	id = ZNS.14 
+	title = ZNS.14.t
+	desc = ZNS.14.d
+	picture = GFX_report_event_rudoy
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.14.a   	    
+    }
+}
+country_event = { #Сталин_или_Троцкий
+	id = ZNS.15 
+	title = ZNS.15.t
+	desc = ZNS.15.d
+	picture = GFX_report_event_dkr_red_flag_under_kremlin
+	
+	trigger = {
+		tag = ZNS
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = ZNS.15.a   	    
+    }
+}
+country_event = { 
+	id = ZNS.16
+	title = dk_news.54.t
+	desc = dk_news.54.d
+	picture = GFX_report_event_dkr_revolutsioner
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ZNS
+		has_war = no
+		POK = { exists = no }
+		GAL = { exists = no }
+		YSK = { exists = no }
+		OMS = { exists = no }
+		MGN = { exists = no }
+		MRD = { exists = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	} 
+	
+	option = {
+	    name = dk_news.54.a 
+		news_event = dk_news.54
+		set_cosmetic_tag = ZNS_ussr
+    }
+}

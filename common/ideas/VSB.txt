@@ -1,0 +1,26 @@
+ideas = {
+       country = {
+	       VSB_teotsentrism = {
+
+			picture = Teotsentrizm
+			
+			   modifier = {
+			    political_power_gain = 0.1
+				research_speed_factor = -0.05
+			    }
+		    }
+	   }	
+}
+ideas = {
+       country = {
+	       VSB_nastupleniye = {
+
+			picture = Teotsentrizm
+			
+			   modifier = {
+				ai_focus_aggressive_factor = 2.0
+			   }
+		    }
+	   }
+		
+}

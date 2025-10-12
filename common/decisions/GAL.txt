@@ -1,0 +1,1595 @@
+political_actions= {
+	GAL_wire_state = {
+		icon = generic_electricity
+
+		allowed = {
+			original_tag = GAL
+		}
+
+		available = {
+			FROM = {
+				NOT = {
+					has_dynamic_modifier = { modifier = GAL_wired_state }
+				}
+			}
+		}
+		visible = {
+			AND = {
+				has_completed_focus = GAL_issledovanie_noosfery
+				has_completed_focus = GAL_krasniy_svet 
+				NOT = { has_completed_focus = GAL_i_povolok_brevno }
+			}
+			tag = GAL
+			FROM = {
+				NOT = {
+					has_dynamic_modifier = { modifier = GAL_wired_state }
+				}
+				is_controlled_by = GAL 
+			}
+		}
+		target_trigger = {
+			has_completed_focus = GAL_issledovanie_noosfery
+			FROM = {
+				is_core_of= ROOT
+				NOT = {
+					has_dynamic_modifier = { modifier = GAL_wired_state }
+				}
+			}
+		}
+		on_map_mode = map_only
+		state_target = yes
+		target_array = controlled_states
+
+		ai_will_do = {
+			base = 100
+		}
+
+		cost = 10
+
+		remove_effect = {
+			FROM = {
+				add_dynamic_modifier = {
+					modifier = GAL_wired_state
+				}
+				add_to_variable = { var = GAL_monthly_population value = 0.3 }
+			}
+			add_to_variable = { GAL_wire_number = 1 }
+		}
+	}
+	GAL_wire_state_2 = {
+		icon = generic_electricity
+
+		allowed = {
+			original_tag = GAL
+		}
+
+		available = {
+			FROM = {
+				NOT = {
+					has_dynamic_modifier = { modifier = GAL_wired_state }
+				}
+			}
+		}
+		visible = {
+			AND = {
+				has_completed_focus = GAL_issledovanie_noosfery
+				NOT = { has_completed_focus = GAL_krasniy_svet }
+			}
+			tag = GAL
+			FROM = {
+				NOT = {
+					has_dynamic_modifier = { modifier = GAL_wired_state }
+				}
+				is_controlled_by = GAL 
+			}
+		}
+		target_trigger = {
+			has_completed_focus = GAL_issledovanie_noosfery
+			FROM = {
+				is_core_of= ROOT
+				NOT = {
+					has_dynamic_modifier = { modifier = GAL_wired_state }
+				}
+			}
+		}
+		on_map_mode = map_only
+		state_target = yes
+		target_array = controlled_states
+
+		ai_will_do = {
+			base = 100
+		}
+
+		cost = 10
+		
+		remove_effect = {
+			FROM = {
+				add_dynamic_modifier = {
+					modifier = GAL_wired_state
+				}
+			}
+			add_to_variable = { GAL_wire_number = 1 }
+		}
+	}
+	GAL_wire_state_3 = {
+		icon = generic_electricity
+
+		allowed = {
+			original_tag = GAL
+		}
+
+		available = {
+			FROM = {
+				NOT = {
+					has_dynamic_modifier = { modifier = GAL_wired_state }
+				}
+			}
+		}
+		visible = {
+			AND = {
+				has_completed_focus = GAL_issledovanie_noosfery
+				has_completed_focus = GAL_krasniy_svet 
+				has_completed_focus = GAL_i_povolok_brevno
+				NOT = { has_completed_focus = GAL_vse_idet_po_planu }
+			}
+			tag = GAL
+			FROM = {
+				NOT = {
+					has_dynamic_modifier = { modifier = GAL_wired_state }
+				}
+				is_controlled_by = GAL 
+			}
+		}
+		target_trigger = {
+			has_completed_focus = GAL_issledovanie_noosfery
+			FROM = {
+				is_core_of= ROOT
+				NOT = {
+					has_dynamic_modifier = { modifier = GAL_wired_state }
+				}
+			}
+		}
+		on_map_mode = map_only
+		state_target = yes
+		target_array = controlled_states
+
+		ai_will_do = {
+			base = 100
+		}
+
+		cost = 10
+		
+		remove_effect = {
+			FROM = {
+				add_dynamic_modifier = {
+					modifier = GAL_wired_state
+				}
+				add_to_variable = { var = GAL_monthly_population value = 0.3 }
+				add_to_variable = { var = GAL_production_speed_buildings_factor value = 0.15 }
+			}
+			add_to_variable = { GAL_wire_number = 1 }
+		}
+	}
+	GAL_wire_state_4 = {
+		icon = generic_electricity
+
+		allowed = {
+			original_tag = GAL
+		}
+
+		available = {
+			FROM = {
+				NOT = {
+					has_dynamic_modifier = { modifier = GAL_wired_state }
+				}
+			}
+		}
+		visible = {
+			AND = {
+				has_completed_focus = GAL_issledovanie_noosfery
+				has_completed_focus = GAL_krasniy_svet 
+				has_completed_focus = GAL_i_povolok_brevno
+				has_completed_focus = GAL_vse_idet_po_planu 
+			}
+			tag = GAL
+			FROM = {
+				NOT = {
+					has_dynamic_modifier = { modifier = GAL_wired_state }
+				}
+				is_controlled_by = GAL 
+			}
+		}
+		target_trigger = {
+			has_completed_focus = GAL_issledovanie_noosfery
+			FROM = {
+				is_core_of= ROOT
+				NOT = {
+					has_dynamic_modifier = { modifier = GAL_wired_state }
+				}
+			}
+		}
+		on_map_mode = map_only
+		state_target = yes
+		target_array = controlled_states
+
+		ai_will_do = {
+			base = 100
+		}
+
+		cost = 10
+		
+		remove_effect = {
+			FROM = {
+				add_dynamic_modifier = {
+					modifier = GAL_wired_state
+				}
+				add_to_variable = { var = GAL_monthly_population value = 0.3 }
+				add_to_variable = { var = GAL_production_speed_buildings_factor value = 0.15 }
+				add_to_variable = { var = GAL_local_building_slots value = 1 }
+			}
+			add_to_variable = { GAL_wire_number = 1 }
+		}
+	}
+	GAL_burunduk = {
+		icon = generic_intelligence_operation
+		cost = 10
+        ai_will_do = {
+			factor = 10
+		}
+		available = {
+			tag = GAL
+			country_exists = ASM
+		}
+		visible = {
+			tag = GAL
+			has_completed_focus = GAL_Syenduk_1
+		}
+		fire_only_once
+		days_remove = 30
+		remove_effect = {
+			add_ideas = GAL_burunduk_army
+		}
+	}
+}
+economy_decisions = {
+	GAL_radioteleskop = {
+		icon = generic_research
+		cost = 50
+        ai_will_do = {
+			factor = 10
+		}
+		available = {
+			tag = GAL
+		}
+		visible = {
+			tag = GAL
+			has_completed_focus = GAL_Deb_2
+		}
+		fire_only_once
+		days_remove = 70
+		modifier = {
+			civilian_factory_use = 4
+		}
+		remove_effect = {
+			set_technology = { GAL_radioteleskop = 1 popup = yes }
+			custom_effect_tooltip = GAL_radioteleskop_tt
+		}
+	}
+	GAL_baikonur = {
+		icon = generic_construction
+		cost = 10
+        ai_will_do = {
+			factor = 10
+		}
+		available = {
+			tag = GAL
+			controls_state = 404
+			has_tech = experimental_rockets
+		}
+		visible = {
+			tag = GAL
+			has_completed_focus = GAL_Rogozin_3
+		}
+		fire_only_once
+		days_remove = 15
+		remove_effect = {
+			404 = {
+				add_building_construction = { type = rocket_site level = 1 }
+			}
+			hidden_effect = {
+				set_country_flag = GAL_baikanur_flag
+			}
+		}
+	}
+	GAL_moon = {
+		icon = generic_research
+		cost = 25
+        ai_will_do = {
+			factor = 10
+		}
+		available = {
+			tag = GAL
+			has_country_flag = GAL_baikanur_flag
+		}
+		visible = {
+			tag = GAL
+			has_completed_focus = GAL_Rogozin_3
+		}
+		fire_only_once
+		modifier = {
+			civilian_factory_use = 3
+		}
+		days_remove = 30
+		remove_effect = {
+			add_ideas = GAL_moon_colony
+		}
+	}
+	GAL_mars = {
+		icon = generic_research
+		cost = 50
+        ai_will_do = {
+			factor = 10
+		}
+		available = {
+			tag = GAL
+			has_country_flag = GAL_baikanur_flag
+			has_idea = GAL_moon_colony
+		}
+		visible = {
+			tag = GAL
+			has_completed_focus = GAL_Rogozin_3
+		}
+		fire_only_once
+		modifier = {
+			civilian_factory_use = 3
+		}
+		days_remove = 60
+		remove_effect = {
+			country_event = { id = GAL.39 }
+		}
+	}
+}
+GAL_sssr = {
+
+    GAL_sssr_baza = {
+        icon = decision_eng_install_government
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+       available = {
+              controls_state = 195
+			  controls_state = 219
+	          controls_state = 217
+	          controls_state = 570
+	          controls_state = 590
+	          controls_state = 202
+	          controls_state = 564
+	          controls_state = 408
+	          controls_state = 206
+		
+          }
+
+        visible = {
+			original_tag = GAL 
+			has_country_leader = {
+				character = GAL_lukin
+				ruling_only = yes
+			}
+		}
+		fire_only_once = yes
+		ai_will_do = {
+        factor = 100
+		}
+        remove_effect = {
+			set_cosmetic_tag = GAL_ussr
+			news_event = {
+				id = dk_news.74
+			}
+		}
+    }
+	
+	GAL_pobeda_v_gv = { #Интеграция_Сибири
+
+		available = {
+			controls_state = 577
+			controls_state = 571
+			controls_state = 570
+			controls_state = 578
+			controls_state = 569
+			controls_state = 576
+			controls_state = 568
+			controls_state = 40
+			controls_state = 654
+            controls_state = 329
+			controls_state = 567
+			controls_state = 575
+            controls_state = 824
+            controls_state = 579
+			controls_state = 580
+			controls_state = 516
+			controls_state = 878  			
+		}
+		ai_will_do = {
+        factor = 100
+		}
+		fire_only_once = yes
+		
+		remove_effect = {
+			hidden_effect = {
+				MRD = {
+				remove_state_core = 516
+				remove_state_core = 878
+			}
+			
+			every_state = {
+			limit = {
+				is_core_of = MGN
+			}
+			MGN = {
+				remove_state_core = PREV
+			}
+			} 
+		  every_state = {
+			limit = {
+				is_core_of = YSK
+			}
+			YSK = {
+				remove_state_core = PREV
+			}
+			}
+		  every_state = {
+			limit = {
+				is_core_of = GAL
+			}
+			POK = {
+				remove_state_core = PREV
+			}
+			} 
+		  every_state = {
+			limit = {
+				is_core_of = OMS
+			}
+			OMS = {
+				remove_state_core = PREV
+			}
+			} 
+		  every_state = {
+			limit = {
+				is_core_of = ZNS
+			}
+			ZNS = {
+				remove_state_core = PREV
+			}
+			}
+			}
+			remove_ideas = POK_idea_GV
+			if = {
+				limit = { original_tag = GAL has_government = neutrality }
+				news_event = dk_news.51
+				complete_national_focus = GAL_nado_radovatsya
+				set_cosmetic_tag = GAL_Push
+			}
+			else = {
+				news_event = dk_news.52
+				set_cosmetic_tag = GAL_SibRevSovDep
+			}
+		}	
+	}
+
+}
+GST_cat = {
+
+ GST_stroyka = {
+        icon = decision_eng_install_government
+		days_remove = 400
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+        visible = {
+			NOT = { has_country_flag = GAL_GST_stroyka_cf }
+			has_completed_focus = GAL_proekt_velikikogo_kosmicheskogo_tambova
+        }
+		
+		modifier = {
+			civilian_factory_use = 7
+		}
+		
+		remove_effect = {
+        set_country_flag = GAL_GST_stroyka_cf
+		add_offsite_building = { type = industrial_complex level = 1 }	
+		}
+
+    }
+	
+	GST_stroyka_CF = {
+        icon = decision_category_generic_industry
+		days_remove = 100
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_country_flag = GAL_GST_stroyka_cf
+        }
+     
+		modifier = {
+			civilian_factory_use = 4
+		}
+		
+		remove_effect = {
+		add_offsite_building = { type = industrial_complex level = 1 }	
+		}
+
+    }
+	
+	GST_stroyka_MF = {
+        icon = decision_category_generic_industry
+		days_remove = 100
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_country_flag = GAL_GST_stroyka_cf
+        }
+  
+		modifier = {
+			civilian_factory_use = 4
+		}
+		
+		remove_effect = {
+		add_offsite_building = { type = arms_factory level = 1 }	
+		}
+
+    }
+
+}
+
+GAL_kupcov_campaigns = {
+
+    GAL_aviaciya_nashu_istoriyu_sozdali_drugie = {
+        icon = GFX_decision_GAL_aviaciya_nashu_istoriyu_sozdali_drugie
+		days_remove = 100
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_rasprostraneniye_knig_kupcova
+        }
+  
+		modifier = {
+			civilian_factory_use = 1
+		}
+		
+		remove_effect = {
+		    add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.25
+				uses = 1
+				category = light_fighter
+				category = cas_bomber
+				category = cat_heavy_fighter
+				category = naval_bomber
+				category = cat_strategic_bomber
+				category = tactical_bomber
+			}
+		}
+
+    }
+	
+	GAL_byl_li_krasniy_terror = {
+        icon = GFX_decision_GAL_byl_li_krasniy_terror
+		days_remove = 100
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_rasprostraneniye_knig_kupcova
+        }
+  
+		modifier = {
+			civilian_factory_use = 1
+			war_support_factor = 0.15
+		}
+		
+		remove_effect = {
+		
+		}
+
+    }
+	
+	GAL_mif_o_gonenii_cerkvi = {
+        icon = GFX_decision_GAL_mif_o_gonenii_cerkvi
+		days_remove = 100
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_rasprostraneniye_knig_kupcova
+        }
+  
+		modifier = {
+			civilian_factory_use = 1
+			political_power_factor = 0.3
+		}
+		
+		remove_effect = {
+		
+		}
+
+    }
+	
+	GAL_mif_o_krasnom_terrore = {
+        icon = GFX_decision_GAL_mif_o_krasnom_terrore
+		days_remove = 100
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_rasprostraneniye_knig_kupcova
+        }
+  
+		modifier = {
+			civilian_factory_use = 1
+			metacommy_drift = 0.01
+			stability_factor = 0.1
+		}
+		
+		remove_effect = {
+		
+		}
+
+    }
+	
+	GAL_mif_o_rossii_do_1917 = {
+        icon = GFX_decision_GAL_mif_o_rossii_do_1917
+		days_remove = 100
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_rasprostraneniye_knig_kupcova
+        }
+  
+		modifier = {
+			civilian_factory_use = 1
+			party_popularity_stability_factor = 0.1
+			metacommy_drift = 0.01
+		}
+		
+		remove_effect = {
+		
+		}
+
+    }
+	
+	GAL_mif_o_sionskih_protokolah = {
+        icon = GFX_decision_GAL_mif_o_sionskih_protokolah
+		days_remove = 100
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_rasprostraneniye_knig_kupcova
+        }
+  
+		modifier = {
+			civilian_factory_use = 1
+			political_power_gain = 0.3
+		}
+		
+		remove_effect = {
+		
+		}
+
+    }
+	
+	GAL_strannaya_istoria_oruzhiya = {
+        icon = GFX_decision_GAL_strannaya_istoria_oruzhiya
+		days_remove = 100
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_rasprostraneniye_knig_kupcova
+        }
+  
+		modifier = {
+			civilian_factory_use = 1
+			industrial_capacity_factory = 0.1
+		}
+		
+		remove_effect = {
+		
+		}
+
+    }
+	
+	GAL_strannaya_istoria_oruzhiya_arta = {
+        icon = GFX_decision_GAL_strannaya_istoria_oruzhiya_arta
+		days_remove = 100
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_rasprostraneniye_knig_kupcova
+        }
+  
+		modifier = {
+			civilian_factory_use = 1
+		}
+		
+		remove_effect = {
+		    add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 0.25
+				uses = 1
+				category = artillery
+			}
+		}
+
+    }
+	
+	GAL_strannaya_istoria_oruzhiya_simonov = {
+        icon = GFX_decision_GAL_strannaya_istoria_oruzhiya_simonov
+		days_remove = 100
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_rasprostraneniye_knig_kupcova
+        }
+  
+		modifier = {
+			civilian_factory_use = 1
+		}
+		
+		remove_effect = {
+	    	add_tech_bonus = {
+			    name = infantry_bonus
+				bonus = 0.25
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+
+    }
+	
+	GAL_zemlya_yek = {
+        icon = GFX_decision_GAL_zemlya_yek
+		days_remove = 100
+		days_re_enable = 0
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_rasprostraneniye_knig_kupcova
+        }
+  
+		modifier = {
+			civilian_factory_use = 1
+			monthly_population = 0.5
+		}
+		
+		remove_effect = {
+		
+		}
+
+    }
+	
+}
+GAL_marakumba_zapasi_balance_of_power_category = {
+	
+	GAL_up_import_marakumbi = {
+        icon = decision_category_generic_economy
+
+        ai_will_do = {
+			factor = 4
+		}
+		fire_only_once = no
+		available = {
+		tag = GAL
+		    has_completed_focus = GAL_import_marakumbi
+			NOT = {has_idea = GAL_marakumba_import_3}
+			NOT = {has_idea = GAL_marakumba_6}
+		}
+        visible = {
+		    tag = GAL
+		    has_completed_focus = GAL_import_marakumbi
+			NOT = {has_idea = GAL_marakumba_import_3}
+			NOT = {has_idea = GAL_marakumba_6}
+        }
+		
+		complete_effect = {
+            GAL_marakumba_torg_level_up = yes
+		}
+
+    }
+	
+	GAL_down_import_marakumbi = {
+        icon = decision_category_generic_economy
+
+        ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = no
+		available = {
+		    tag = GAL
+		    has_completed_focus = GAL_import_marakumbi
+			NOT = {has_idea = GAL_marakumba_import_0}
+        }
+        visible = {
+		    tag = GAL
+        }
+		
+		complete_effect = {
+        	GAL_marakumba_torg_level_down = yes
+		}
+
+    }
+
+}
+GAL_rock_zhiv = {
+
+	GAL_lenin_poslal = {
+		icon = eng_propaganda_campaigns
+		cost = 50
+		days_remove = 100
+		days_re_enable = 50
+		available = {
+			NOT = {
+				has_country_flag = GAL_pesnya
+			}
+		}
+		modifier = {
+			industry_repair_factor = 0.5
+			production_speed_buildings_factor = 0.1
+		}
+		complete_effect = { 		
+			hidden_effect = { clr_country_flag = GAL_pesnya }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	GAL_vse_po_planu = {
+		icon = eng_propaganda_campaigns
+		cost = 50
+		days_remove = 100
+		days_re_enable = 50
+		available = {
+			NOT = {
+				has_country_flag = GAL_pesnya
+			}
+		}
+		modifier = {
+			industrial_capacity_factory = 0.15
+			production_factory_efficiency_gain_factor = 0.15
+		}
+		complete_effect = { 		
+			hidden_effect = { clr_country_flag = GAL_pesnya }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	GAL_nado_rad = {
+		icon = eng_propaganda_campaigns
+		cost = 50
+		days_remove = 100
+		days_re_enable = 50
+		visible = {
+			NOT = { has_completed_focus = GAL_ey_uhnem }
+		}
+		available = {
+		    tag = GAL
+		    has_completed_focus = GAL_ne_nado_napragat
+			NOT = {
+				has_country_flag = GAL_pesnya
+			}
+        }
+		modifier = {
+			stability_weekly = 0.01
+			neutrality_drift = 0.05
+		}
+		complete_effect = { 		
+			hidden_effect = { clr_country_flag = GAL_pesnya }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	GAL_ot_vint = {
+		icon = eng_propaganda_campaigns
+		cost = 50
+		days_remove = 100
+		days_re_enable = 50
+		available = {
+			has_completed_focus = GAL_ot_vinta
+			NOT = {
+				has_country_flag = GAL_pesnya
+			}
+		}
+		modifier = {
+			experience_gain_air = 0.05
+			air_attack_factor = 0.25
+			air_defence_factor = 0.25
+		}
+		complete_effect = { 		
+			hidden_effect = { clr_country_flag = GAL_pesnya }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	GAL_kak_na_voyne = {
+		icon = eng_propaganda_campaigns
+		cost = 50
+		days_remove = 100
+		days_re_enable = 50
+		available = {
+			NOT = {
+				has_country_flag = GAL_pesnya
+			}
+		}
+		modifier = {
+			war_support_weekly = 0.01
+			experience_gain_army = 0.05
+			army_attack_factor = 0.1
+		}
+		complete_effect = { 		
+			hidden_effect = { clr_country_flag = GAL_pesnya }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	GAL_ey_uhnem = {
+		icon = eng_propaganda_campaigns
+		cost = 30
+		days_remove = 100
+		days_re_enable = 50
+		visible = {
+			NOT = { has_completed_focus = GAL_ne_nado_napragat }
+		}
+		available = {
+		    tag = GAL
+		    has_completed_focus = GAL_ey_uhnem
+			NOT = {
+				has_country_flag = GAL_pesnya
+			}
+        }
+		modifier = {
+			consumer_goods_factor = -0.1
+		}
+		complete_effect = { 		
+			hidden_effect = { clr_country_flag = GAL_pesnya }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	GAL_18_mne_uzhe = {
+		icon = eng_propaganda_campaigns
+		cost = 30
+		days_remove = 150
+		days_re_enable = 50
+		available = {
+			NOT = {
+				has_country_flag = GAL_pesnya
+			}
+		}
+		modifier = {
+			monthly_population = 0.5
+			weekly_manpower = 150
+		}
+		complete_effect = { 		
+			hidden_effect = { clr_country_flag = GAL_pesnya }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+GAL_akademgoroda_cat = {
+	GAL_akademgorod_17 = {
+		icon = GFX_decision_SOV_academy_of_sciences
+		allowed = {
+
+		}
+		available = {
+			owns_state = 570
+			controls_state = 570
+			owns_state = 569
+			controls_state = 569
+			owns_state = 40
+			controls_state = 40
+			owns_state = 882
+			controls_state = 882
+			owns_state = 571
+			controls_state = 571
+			owns_state = 578
+			controls_state = 578
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 570
+			}
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 1
+		remove_effect = {
+			570 = {
+				add_dynamic_modifier = {
+					modifier = GAL_akademgorod
+				}
+				set_state_name = GAL_akademgorod_17 
+				add_manpower = 600000
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+			}
+			569 = {
+				add_manpower = -100000
+			}
+			40 = {
+				add_manpower = -100000
+			}
+			882 = {
+				add_manpower = -100000
+			}
+			571 = {
+				add_manpower = -100000
+			}
+			578 = {
+				add_manpower = -100000
+			}			
+			set_province_name = {
+				id = 7274
+				name = GAL_akademgorod_17
+			}
+			set_victory_points = { province = 7274 value = 50 }
+			add_to_variable = { var = GAL_research_speed_factor value = 0.003 }
+		}
+	}
+	GAL_ymantau = {
+		icon = GFX_decision_SOV_academy_of_sciences
+		allowed = {
+
+		}
+		available = {
+			owns_state = 582
+			controls_state = 582
+			owns_state = 573
+			controls_state = 573
+			owns_state = 572
+			controls_state = 572
+			owns_state = 583
+			controls_state = 583
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 582
+			}
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 50
+		remove_effect = {
+			582 = {
+				add_dynamic_modifier = {
+					modifier = GAL_akademgorod
+				}
+					set_state_name = GAL_ymantau
+					add_manpower = 300000
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+			}
+			573 = {
+				add_manpower = -500000
+			}
+			572 = {
+				add_manpower = -200000
+			}
+			583 = {
+				add_manpower = -50000
+			}
+			set_province_name = { id = 4311 name = GAL_ymantau }
+			set_victory_points = { province = 4311 value = 17 }
+			add_to_variable = { var = GAL_research_speed_factor value = 0.003 }
+		}
+	}
+	GAL_grozniygrad = {
+		icon = GFX_decision_SOV_academy_of_sciences
+		allowed = {
+
+		}
+		available = {
+			owns_state = 405
+			controls_state = 405
+			owns_state = 732
+			controls_state = 732
+			owns_state = 742
+			controls_state = 742
+			owns_state = 830
+			controls_state = 830
+			owns_state = 585
+			controls_state = 585
+			owns_state = 404
+			controls_state = 404
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 405
+			}
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 50
+		remove_effect = {
+			405 = {
+				add_dynamic_modifier = {
+					modifier = GAL_akademgorod
+				}
+				set_state_name = GAL_grozniygrad
+					add_manpower = 300000
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+			}
+			732 = {
+				add_manpower = -50000
+			}
+			742 = {
+				add_manpower = -50000
+			}
+			830 = {
+				add_manpower = -100000
+			}
+			585 = {
+				add_manpower = -50000
+			}
+			404 = {
+				add_manpower = -50000
+			}		
+			set_province_name = { id = 1459 name = GAL_grozniygrad }
+			set_victory_points = { province = 1459 value = 20 }
+			add_to_variable = { var = GAL_research_speed_factor value = 0.003 }
+		}
+	}
+	GAL_moskva_3 = {
+		icon = GFX_decision_SOV_academy_of_sciences
+		allowed = {
+
+		}
+		available = {
+			owns_state = 219
+			controls_state = 219
+			owns_state = 253
+			controls_state = 253
+			owns_state = 254
+			controls_state = 254
+			owns_state = 223
+			controls_state = 223
+			owns_state = 205
+			controls_state = 205
+			owns_state = 242
+			controls_state = 242
+			owns_state = 246
+			controls_state = 246
+			owns_state = 247
+			controls_state = 247	
+			owns_state = 248
+			controls_state = 248			
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 219
+			}
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 50
+		remove_effect = {
+			219 = {
+				add_dynamic_modifier = {
+					modifier = GAL_akademgorod
+				}
+				set_state_name = GAL_moskva_3
+				add_manpower = 400000
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+			}
+			242 = {
+				add_manpower = -50000
+			}
+			253 = {
+				add_manpower = -50000
+			}
+			254 = {
+				add_manpower = -50000
+			}
+			223 = {
+				add_manpower = -50000
+			}
+			205 = {
+				add_manpower = -50000
+			}	
+			246 = {
+				add_manpower = -50000
+			}
+			247 = {
+				add_manpower = -50000
+			}	
+			248 = {
+				add_manpower = -50000
+			}			
+			set_province_name = { id = 6380 name = GAL_moskva_3 }
+			set_victory_points = { province = 6380 value = 50 }
+			add_to_variable = { var = GAL_research_speed_factor value = 0.003 }
+		}
+	}
+	GAL_lomonosov = {
+		icon = GFX_decision_SOV_academy_of_sciences
+		allowed = {
+
+		}
+		available = {
+			owns_state = 195
+			controls_state = 195
+			owns_state = 208
+			controls_state = 208
+			owns_state = 244
+			controls_state = 244
+			owns_state = 263
+			controls_state = 263
+			owns_state = 209
+			controls_state = 209
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 195
+			}
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 50
+		remove_effect = {
+			195 = {
+				add_dynamic_modifier = {
+					modifier = GAL_akademgorod
+				}
+				set_state_name = GAL_lomonosov
+					add_manpower = 250000
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+			}
+			208 = {
+				add_manpower = -50000
+			}
+			244 = {
+				add_manpower = -50000
+			}
+			263 = {
+				add_manpower = -100000
+			}
+			209 = {
+				add_manpower = -50000
+			}	
+			set_province_name = { id = 3151 name = GAL_lomonosov }
+			set_victory_points = { province = 3151 value = 35 }
+			add_to_variable = { var = GAL_research_speed_factor value = 0.003 }
+		}
+	}
+	GAL_vladivostok_2000 = {
+		icon = GFX_decision_SOV_academy_of_sciences
+		allowed = {
+
+		}
+		available = {
+			owns_state = 408
+			controls_state = 408
+			owns_state = 409
+			controls_state = 409
+			owns_state = 537
+			controls_state = 537
+			owns_state = 657
+			controls_state = 657
+			owns_state = 561
+			controls_state = 561
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 408
+			}
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 50
+		remove_effect = {
+			408 = {
+				add_dynamic_modifier = {
+					modifier = GAL_akademgorod
+				}
+				set_state_name = GAL_vladivostok_2000
+				add_manpower = 250000
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+			}
+			409 = {
+				add_manpower = -50000
+			}
+			537 = {
+				add_manpower = -50000
+			}
+			657 = {
+				add_manpower = -50000
+			}
+			561 = {
+				add_manpower = -100000
+			}	
+			set_province_name = { id = 957 name = GAL_vladivostok_2000 }
+			set_victory_points = { province = 957 value = 25 }
+			add_to_variable = { var = GAL_research_speed_factor value = 0.003 }
+		}
+	}
+}
+GAL_genetika_nauka_decisions_category = {
+	GAL_drobysh_agenda = {
+		icon = generic_research
+		allowed = { always = no }
+        activation = {
+            has_completed_focus = GAL_genetika_nauka
+        }   
+		visible = {
+		    tag = GAL
+		    has_completed_focus = GAL_genetika_nauka
+        }
+		available = {
+		    always = no
+		}
+		days_mission_timeout = 100
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			random_list = { 10 = {country_event = GAL_drob.1} 10 = {country_event = GAL_drob.2} 10 = {country_event = GAL_drob.3} 10 = {country_event = GAL_drob.4} 10 = {country_event = GAL_drob.5} 10 = {country_event = GAL_drob.6} 10 = {country_event = GAL_drob.7} 10 = {country_event = GAL_drob.8} 10 = {country_event = GAL_drob.9} 10 = {country_event = GAL_drob.10} }
+			hidden_effect = {
+				activate_mission = GAL_drobysh_agenda
+			}
+		}
+	}
+	GAL_army_genetik = {
+		icon = generic_research
+		cost = 100
+		
+		fire_only_once = yes 
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_genetika_nauka
+        }
+		available = {
+			NOT = {
+				has_country_flag = GAL_drobysh_proekt
+			}
+		}
+		complete_effect = {
+			country_event = { id = GAL.31 }
+			hidden_effect = {
+				set_country_flag = GAL_drobysh_proekt
+			}
+		}
+
+    }
+	GAL_uch_army_oficer = {
+		icon = generic_research
+		allowed = { always = no } 
+		visible = {
+		    tag = GAL
+		    has_completed_focus = GAL_genetika_nauka
+        }
+		available = {
+		    always = no
+		}
+		days_mission_timeout = 100
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			add_ideas = { GAL_oficer }
+			hidden_effect = {
+				clr_country_flag = GAL_drobysh_proekt
+			}
+		}
+	}
+	
+	GAL_uch_army_soldat = {
+		icon = generic_research
+		allowed = { always = no }  
+		visible = {
+		    tag = GAL
+		    has_completed_focus = GAL_genetika_nauka
+        }
+		available = {
+		    always = no
+		}
+		days_mission_timeout = 100
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			add_ideas = { GAL_soldat }
+			hidden_effect = {
+				clr_country_flag = GAL_drobysh_proekt
+			}
+		}
+	}
+	
+	GAL_army_genetik_2 = {
+		icon = generic_research
+		cost = 100
+		
+		fire_only_once = yes 
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_genetika_nauka
+        }
+		available = {
+			NOT = {
+				has_country_flag = GAL_drobysh_proekt
+			}
+		}
+		days_remove = 100
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = GAL_drobysh_proekt
+			}
+		}
+		remove_effect = {
+			country_event = { id = GAL.33 }
+			hidden_effect = {
+				clr_country_flag = GAL_drobysh_proekt
+			}
+		}
+
+    }
+	
+	GAL_army_genetik_3 = {
+		icon = generic_research
+		cost = 100
+		
+		fire_only_once = yes 
+
+        ai_will_do = {
+			factor = 4
+		}
+		visible = {
+			has_completed_focus = GAL_genetika_nauka
+        }
+		available = {
+			NOT = {
+				has_country_flag = GAL_drobysh_proekt
+			}
+		}
+		days_remove = 100
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = GAL_drobysh_proekt
+			}
+		}
+		remove_effect = {
+			country_event = { id = GAL.34 }
+			hidden_effect = {
+				clr_country_flag = GAL_drobysh_proekt
+			}
+		}
+	}
+}	

@@ -1,0 +1,16 @@
+characters={
+	HAZ_RenTV = {
+		name = "Директор РенТВ"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HAZ/RenTV.dds"
+			}
+		}
+		country_leader = { 
+	        expire = "1999.1.1"
+	        ideology = postironism
+			traits = { backroom_backstabber }
+		    id=-1
+	    }
+    }
+}

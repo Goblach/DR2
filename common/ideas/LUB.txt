@@ -1,0 +1,14 @@
+ideas = {
+       country = {
+	       LUB_new_nation = {
+
+			picture = Pererozhdenie_natsii
+			
+			   modifier = {
+			    war_stability_factor = 0.1
+				stability_factor = -0.1
+			    }
+		    }
+	   }
+		
+}

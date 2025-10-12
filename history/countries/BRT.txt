@@ -1,0 +1,29 @@
+capital = 564
+
+oob = BRT_1936
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	marines = 1
+	basic_train = 1
+}
+
+recruit_character = BRT_kodzima
+
+add_ideas = {
+BRT_new_rodina_anime
+BRT_borba_za_vlast
+}
+
+set_popularities = {
+	democratic = 100
+}
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no	
+}
+
+set_convoys = 40

@@ -1,0 +1,42 @@
+capital = 93
+
+oob = SIN_1936
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = SIN_Igor_Lunev
+recruit_character = SIN_Mikhail_Zabrodsky
+recruit_character = SIN_Sergey_Popko
+recruit_character = SIN_Sergey_Shaptala
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+}
+
+set_popularities = {
+	memoism = 100
+}
+set_politics = {
+	ruling_party = memoism
+	elections_allowed = no	
+}
+
+set_convoys = 40
+
+create_country_leader = {
+	name = "Олег Ляшко"
+	desc = "POLITICS_THORVALD_STAUNING_DESC"
+	picture = "Lyasko.dds"
+	expire = "1999.1.1"
+	ideology = gachi
+	traits = {
+		#
+	}
+}

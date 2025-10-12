@@ -1,0 +1,130 @@
+capital = 222
+
+oob = MAT_army
+
+set_research_slots = 3
+set_stability = 0.3
+set_war_support = 0.5
+
+set_popularities = {
+	metacommy = 47
+	vmestolev = 43
+	democratic = 5
+	fascism = 5
+}
+
+set_politics = {
+	ruling_party = metacommy
+	elections_allowed = no	
+}
+
+set_power_balance = {
+	id = MAT_hui_znaet_balance
+	
+	left_side = MAT_czukanov_side
+
+	right_side = MAT_orlov_side
+
+	set_value = 0
+}
+
+set_convoys = 40
+
+add_ideas = {
+	MAT_idea_YgZapad_bastion
+	MAT_idea_Dvoevlastiye
+	partial_economic_mobilisation
+	limited_conscription
+}
+
+add_timed_idea = { idea = UNT_neudach_vostoch_pohod days = 547 }
+
+#Государственные_руководители
+recruit_character = MAT_Anton_Orlov
+recruit_character = MAT_Danil_Csukanov
+
+#Политсоветники
+recruit_character = MAT_Nikolay_Kuznetsov
+recruit_character = MAT_Gleb_Myuller
+recruit_character = MAT_Sonodzaki
+
+#Теоретики
+
+#Генералы
+
+#Адмиралы
+
+#Авиаторы
+
+#ГЕНШТАБ
+
+#Starting tech
+set_technology = { 
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_trucks = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	basic_train = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "T-26"
+		type = light_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon_2
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 2
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "GFX_SOV_basic_light_tank_medium"
+		model = "SOV_light_armor_0_entity"
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Оперативник Мамаев"
+		GFX = "gfx/leaders/MAT/Operativnik_Mamayev.dds"
+		traits = { }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAT JPE }
+	}
+}

@@ -1,0 +1,80 @@
+add_namespace = ARK
+
+	
+#Конец гражданки
+country_event = {
+	id = ARK.1
+	title = ARK.1.t
+	desc = ARK.1.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = ARK.1.a
+	LAZ = {
+	      annex_country = {
+			target = ARK
+			transfer_troops = yes
+		}
+		}
+	ARK = {
+			every_unit_leader = {
+				set_nationality = LAZ
+			}
+	}
+	}
+	
+	option = {
+	name = ARK.1.b
+	LAZ = {
+	create_wargoal = {
+		        target = ARK
+		        type = annex_everything
+			}	
+	}
+}
+}
+
+country_event = { #ультиматум Яну от БОРОДа
+	id = ARK.2 
+	title = ARK.2.t
+	desc = ARK.2.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes	
+	
+	option = {
+		name = ARK.2.a
+		SKT = {
+			annex_country = {
+				target = ARK
+				transfer_troops = yes
+			}
+		}
+		ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 0
+				is_subject = yes
+			}
+		}
+	}
+	option = {
+		name = ARK.2.b
+		SKT = {
+			declare_war_on = {
+				target = ARK
+				type = annex_everything
+			}
+			every_state = {
+				limit = {
+					is_owned_by = ARK
+				}
+				SKT = {
+					add_state_claim = PREV
+				}
+			}
+		}        	
+	}
+}

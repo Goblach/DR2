@@ -1,0 +1,175 @@
+spriteTypes = {	
+	
+	SpriteType = {
+		name = "GFX_ideology_LAZ_vmestolev_group"
+		texturefile = "gfx/interface/ideologies/party/LAZ_vmestolev_group.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_NOD_fascism_group"
+		texturefile = "gfx/interface/ideologies/party/NOD_fascism_group.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_islam_socialism"
+		texturefile = "gfx/interface/ideologies/party/LBA_metacommy_group.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_SIR_neutrality_group"
+		texturefile = "gfx/interface/ideologies/party/SIR_neutrality_group.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_HUS_fascism_group"
+		texturefile = "gfx/interface/ideologies/party/HUS_fascism_group.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_HUS_cybernetics"
+		texturefile = "gfx/interface/ideologies/party/HUS_cybernetics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_EUF_democratic_group"
+		texturefile = "gfx/interface/ideologies/party/EUF_democratic_group.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_cybernetics"
+		texturefile = "gfx/interface/ideologies/party/cybernetics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_cybernetics_pushnoy"
+		texturefile = "gfx/interface/ideologies/party/cybernetics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_nacbol"
+		texturefile = "gfx/interface/ideologies/party/nacbol.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_military_administration"
+		texturefile = "gfx/interface/ideologies/party/military_administration.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_nefascism"
+		texturefile = "gfx/interface/ideologies/party/BSH_nefascism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_right_neoyazych"
+		texturefile = "gfx/interface/ideologies/party/right_neoyazych.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_ultright_monarchy"
+		texturefile = "gfx/interface/ideologies/party/ultright_monarchy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_white_nationalist_ancap"
+		texturefile = "gfx/interface/ideologies/party/white_nationalist_ancap.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_white_polpotism"
+		texturefile = "gfx/interface/ideologies/party/white_polpotism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_antipolitarism"
+		texturefile = "gfx/interface/ideologies/party/anarchism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_gachi"
+		texturefile = "gfx/interface/ideologies/party/gachi.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_libertanian_chuchhe"
+		texturefile = "gfx/interface/ideologies/party/libertanian_chuchhe.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_libertanian_trockyst"
+		texturefile = "gfx/interface/ideologies/party/libertanian_trockyst.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_anti_politarism"
+		texturefile = "gfx/interface/ideologies/party/antipolitarizm.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_futurist_communism"
+		texturefile = "gfx/interface/ideologies/party/futurist_communism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_lukinism"
+		texturefile = "gfx/interface/ideologies/party/futurist_communism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_socdem_hunta"
+		texturefile = "gfx/interface/ideologies/party/socdem_hunta.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_ecofascism"
+		texturefile = "gfx/interface/ideologies/party/ecofascism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_UKR_vmestolev_group"
+		texturefile = "gfx/interface/ideologies/party/UKR_ultraright_marx.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_SKT_vmestolev_group"
+		texturefile = "gfx/interface/ideologies/party/SKT_vmestolev_group.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_SKT_stalinismus"
+		texturefile = "gfx/interface/ideologies/party/SKT_Kulov_vmestolev_group.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_SKT_leninismus"
+		texturefile = "gfx/interface/ideologies/party/SKT_military_vmestolev_group.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_FRG_nacbol"
+		texturefile = "gfx/interface/ideologies/party/FRG_metacommy_group.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_ALB_vmestolev_group"
+		texturefile = "gfx/interface/ideologies/party/ALB_vmestolev_group.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_MRD_sauronism"
+		texturefile = "gfx/interface/ideologies/party/MRD_sauronism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ideology_liberalism"
+		texturefile = "gfx/interface/ideologies/party/liberalism.dds" 
+	}
+	SpriteType = {
+		name = "GFX_ideology_conservatism"
+		texturefile = "gfx/interface/ideologies/party/conservatism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_kybernetika_vernadsry"
+		texturefile = "gfx/interface/ideologies/party/kybernetika_vernadsry.dds"
+	}
+}

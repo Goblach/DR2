@@ -1,0 +1,130 @@
+capital = 516
+
+oob = MRD_1936
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 40
+
+set_popularities = {
+	metacommy = 100
+}
+
+set_politics = {
+	ruling_party = metacommy
+	elections_allowed = no	
+}
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	gwtank_chassis = 1
+	basic_train = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		basic_medium_tank = 1 # Should be available in 1936 (T-28)
+	}
+}
+
+add_ideas = {
+	scraping_the_barrel
+	tot_economic_mobilisation
+	closed_economy
+}
+
+#Государственные_руководители
+recruit_character = MRD_Sauron_the_Great
+
+#Политсоветники
+recruit_character = MRD_Sarumyan
+recruit_character = MRD_madam_Marchiano
+recruit_character = MRD_glashatai_saurona
+
+#Теоретики
+
+#Генералы
+
+#Адмиралы
+
+#Авиаторы
+
+#ГЕНШТАБ
+
+#ПОДДАНЫЙ
+set_variable = { MRD_political_power_factor = 0.1  } #-> Прирост политической власти
+set_variable = { MRD_consumer_goods_factor = 0.2  } #-> Фабрики ТНП
+set_variable = { MRD_monthly_population = 0  } #-> Ежемесечное население
+set_variable = { MRD_conscription_factor = 0  } #-> Фактор призыва
+set_variable = { MRD_stability_factor = -0.25  } #-> Стабильность
+set_variable = { MRD_war_support_factor = -0.25  } #-> Военная поддержка
+set_variable = { MRD_offensive_war_stability_factor = 0  } #-> Модификатор стабильности от наступательной войны
+set_variable = { MRD_weekly_manpower = -100 } #-> Еженедельные людские ресурсы
+
+add_dynamic_modifier = { modifier = MRD_poddaniy_dynamic_modifier }
+
+#СЕВЕР
+set_variable = { MRD_production_factory_efficiency_gain_factor = 0  } #-> Прирост эффективности производства
+set_variable = { MRD_production_factory_max_efficiency_factor = 0  } #-> Максимальная эффективность производства
+set_variable = { MRD_local_resources_factor = -0.2 } #-> Эффективность увеличения ресурсов (добыча полезных ископаемых) 
+set_variable = { MRD_production_factory_start_efficiency_factor = 0 } #-> Базовая эффективность производства
+set_variable = { MRD_production_speed_buildings_factor = -0.5  } #-> Скорость строительства
+set_variable = { MRD_conversion_cost_civ_to_mil_factor = 0  } #-> Конверсия гражданского в военный завод
+set_variable = { MRD_conversion_cost_mil_to_civ_factor = 0  } #-> Конверсия военного в гражданский завод
+set_variable = { MRD_industrial_capacity_dockyard = 0  } #-> Производительность верфи
+set_variable = { MRD_industrial_capacity_factory = -0.25  } #-> Объём заводского производства
+set_variable = { MRD_global_building_slots_factor = 0  } #-> Максимум фабрик в провинции
+set_variable = { MRD_production_oil_factor = 0  } #-> Производство синтетического топлива
+set_variable = { MRD_line_change_production_efficiency_factor = 0.2  } #-> Сохранение эффективности производства
+set_variable = { MRD_production_lack_of_resource_penalty_factor = -0.8  } #-> Штраф за нехватку ресурсов
+set_variable = { MRD_encryption_factor = 0.5 } #-> Фактор шифрования
+set_variable = { MRD_acclimatization_cold_climate_gain_factor = 0.05 } #-> Фактор акклиматизации к холоду
+
+add_dynamic_modifier = { modifier = MRD_sever_dynamic_modifier }
+
+#НАСЛЕДИЕ_АРМИИ
+set_variable = { MRD_mordor_army_air_superiority_bonus_in_combat = 0 } #-> Бонус за превосходство в воздухе
+set_variable = { MRD_mordor_army_org_factor = 0.05 } #-> Организация дивизии
+set_variable = { MRD_mordor_army_org_regain = 0 } #-> Скорость восстановления организации
+set_variable = { MRD_mordor_army_cas_damage_reduction = 0.1 } #-> Снижение урона от штурмовиков
+set_variable = { MRD_mordor_army_dig_in_speed_factor = 0 } #-> Скорость окапывания
+set_variable = { MRD_mordor_army_org_loss_when_moving = 0.1 } #-> Потеря организации при движении
+set_variable = { MRD_mordor_army_attack_factor = 0 } #-> Атака дивизии
+set_variable = { MRD_mordor_army_land_night_attack = 0 } #-> Ночная атака
+set_variable = { MRD_mordor_army_defence_factor = 0.05 } #-> Оборона дивизии
+#set_variable = { MRD_mordor_army_urki_assault_battalion_attack_factor = -0.15 } #-> Атака дивизии урок
+#set_variable = { MRD_mordor_army_urki_assault_battalion_defence_factor = -0.15 } #-> Оборона дивизии урок
+
+add_dynamic_modifier = { modifier = MRD_legacy_of_army_dynamic_modifier }
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "T-28"
+		type = medium_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_close_support_gun
+			turret_type_slot = tank_medium_three_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = secondary_turret_hmg
+			special_type_slot_3 = secondary_turret_hmg
+		}
+		upgrades = {
+			tank_nsb_armor_upgrade = 3
+			tank_nsb_engine_upgrade = 10
+		}
+		icon = "GFX_SOV_medium_gwtank_medium"
+		model = "SOV_medium_gw_armor_0_entity"
+	}
+}

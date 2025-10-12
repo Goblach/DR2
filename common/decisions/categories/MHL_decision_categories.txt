@@ -1,0 +1,11 @@
+###################
+  ### TUPICHOK ###
+###################
+
+
+MHL_war_Karelia = {
+	icon = military_operation
+	allowed = {
+		tag = MHL
+	}
+}

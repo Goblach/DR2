@@ -1,0 +1,102 @@
+﻿division_template = {
+	name = "Стрелковая дивизия"				
+
+	division_names_group = MRD_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+	priority = 2
+}
+division_template = {
+	name = "Гарнизонная дивизия"
+
+	division_names_group = MRD_GAR_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Танковая дивизия"
+	division_names_group = SOV_ARM_04
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }			
+		medium_armor = { x = 1 y = 0 }	
+		medium_armor = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "21-я стрелковая дивизия"
+		location = 13064
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.4
+		force_equipment_variants = { infantry_equipment_0 = { owner = "MRD" creator = "LAZ" } }
+	}
+	division = {
+		name = "11-я стрелковая дивизия"
+		location = 13064
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.4
+		force_equipment_variants = { infantry_equipment_0 = { owner = "MRD" creator = "LAZ" } }
+	}
+	division = {
+		name = "5-я стрелковая дивизия"
+		location = 13064
+		division_template = "Стрелковая дивизия"
+		start_experience_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "MRD" creator = "LAZ" } }
+	}
+	division = {
+		name = "1-я добровольная народная дружина им.Саурона"
+		location = 4859
+		division_template = "Гарнизонная дивизия"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "MRD" creator = "POK" } }
+	}
+	division = {
+		name = "2-я добровольно-принудительная народная дружина им.Сарумяна"
+		location = 4859
+		division_template = "Гарнизонная дивизия"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "MRD" creator = "POK" } }
+	}
+	division = {
+		name = "7-я танковая дивизия"
+		location = 4859
+		division_template = "Танковая дивизия"
+		start_experience_factor = 0.2
+		force_equipment_variants = { medium_tank_chassis_0 = { owner = "MRD" creator = "MRD" version_name = "T-28" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "MRD" creator = "LAZ" } }
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MRD"
+		}
+		requested_factories = 2
+		progress = 0.30
+		efficiency = 100
+	}
+}

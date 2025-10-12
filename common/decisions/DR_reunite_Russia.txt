@@ -1,0 +1,4906 @@
+DR_form_russian_state_decisions_category = {
+	LAZ_reunification = { #Формирование_Советского_Союза_Лазарет
+        icon = GFX_decision_generic_form_nation	
+
+		visible = {
+			OR = {
+				AND = {
+					has_government = vmestolev
+					tag = LAZ
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			has_completed_focus = LAZ_rsfsr
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 590
+			controls_state = 202
+			controls_state = 408
+			controls_state = 206
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			set_cosmetic_tag = LAZ_ussr
+			news_event = {
+				id = dk_news.13
+			}
+		}
+	}
+	
+    SKT_form_USSR = { #Формирование_Советского_Союза_Коми
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_government = vmestolev
+					tag = SKT
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+            controls_state = 195
+			controls_state = 219
+	        controls_state = 217
+	        controls_state = 570
+	        controls_state = 590
+	        controls_state = 202
+	        controls_state = 408
+	        controls_state = 206		
+        }
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			set_cosmetic_tag = SKT_ussr
+			news_event = {
+				id = dk_news.18
+			}
+		}	
+	}
+	
+    BSH_form_Sever_empire = { #Формирование_Гипербореи_Бэбэй
+	
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					tag = BSH
+					BSH = { 
+						has_government = memoism 
+					}
+					has_completed_focus = BSH_materinskaya_liniya
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			has_completed_focus = BSH_materinskaya_liniya
+			controls_state = 214
+			controls_state = 213
+			controls_state = 516
+			controls_state = 574
+			controls_state = 637
+			controls_state = 579			
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = dk_news.43
+			set_cosmetic_tag = BSH_Sever_empire
+			set_country_flag = BSH_3_reunite_russia_kostil
+			hidden_effect = {
+				country_event = { days = 1 id = super.10}
+			}
+		}	
+	}
+	
+	BSH_form_Bashkir_hanstvo = { #Формирование_Башкирского_Ханства_Бэбэй
+	
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					tag = BSH
+					BSH = {
+						has_government = memoism 
+					}
+					has_completed_focus = BSH_ottsovskaya_liniya
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}			
+		}
+		
+		available = {
+			controls_state = 590
+			controls_state = 330
+			controls_state = 584
+			controls_state = 236
+			controls_state = 217			
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = dk_news.44
+			set_cosmetic_tag = BSH_Bashkir_hanstvo
+			set_country_flag = BSH_2_reunite_russia_kostil
+			hidden_effect = {
+				country_event = { days = 1 id = super.9}
+			}
+		}	
+	}
+	
+    BSH_form_Ural_Israel = { #Формирование_Уральского_Израиля_Бэбэй
+		icon = GFX_decision_generic_form_nation
+		
+		visible = {
+			OR = {
+				AND = {
+					tag = BSH
+					BSH = { 
+						has_government = memoism 
+					}
+					has_completed_focus = BSH_evrey
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 399
+			controls_state = 398
+			controls_state = 572
+			controls_state = 653
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = dk_news.45
+			set_cosmetic_tag = BSH_Ural_Israel
+			set_country_flag = BSH_1_reunite_russia_kostil
+			hidden_effect = {
+				country_event = { days = 1 id = super.8}
+			}
+		}	
+	}
+	
+	NOD_reunification_1 = { #Стариков_объединяет_Россию
+        icon = GFX_decision_generic_form_nation		
+		
+		available = {
+			has_completed_focus = NOD_vostanovit_suverenitet_Russia
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		  
+		visible = {
+			OR = {
+				AND = {
+					NOT = {
+						has_global_flag = NOD_putin_return
+					}
+					NOD = {
+						has_government = fascism 
+					}
+					tag = NOD
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			set_cosmetic_tag = NOD_starikov
+			news_event = {
+				id = dk_news.10
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = NOD_star_party_long
+				name = NOD_star_party
+			}
+		}
+	}
+	
+	NOD_reunification_2 = { #Путин_объединяет_Россию
+        icon = GFX_decision_generic_form_nation		
+		available = {
+			has_completed_focus = NOD_vostanovit_suverenitet_Russia		
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		  
+		visible = {
+			OR = {
+				AND = {
+					tag = NOD
+					NOD = {
+						has_government = fascism 
+					}
+					has_government = fascism
+					has_global_flag = NOD_putin_return
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			set_cosmetic_tag = NOD_put
+			news_event = {
+				id = dk_news.11
+			}
+		}
+	}
+	
+	NOD_reunification_3 = {	#Барков_объединяет_Россию
+        icon = GFX_decision_generic_form_nation		
+		available = {
+			has_completed_focus = NOD_vostanovit_suverenitet_Russia	
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		visible = {
+			OR = {
+				AND = {
+					tag = NOD
+					has_government = neutrality
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+
+		fire_only_once = yes
+		days_remove = 14
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			set_cosmetic_tag = NOD_bark
+			news_event = {
+				id = dk_news.12
+			}
+		}
+	}
+	
+	DOT_Russia = { #Дальневосточная_Хунта_объединяет_Россию
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					tag = DOT
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 219
+			controls_state = 217
+			controls_state = 195
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			set_country_flag = DOT_reunite_russia_kostil
+			news_event = dk_news.17
+			hidden_effect = {
+				country_event = { days = 1 id = super.4}
+			}
+		}	
+	}
+	
+	ZNS_Sovet_Union = { #Формирование_Советского_Союза_Рудой
+        icon = GFX_decision_generic_form_nation
+		
+		visible = {
+			OR = {
+				AND = {
+					tag = ZNS
+					has_completed_focus = ZNS_Pau_Pau_Pau_Pau
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 590
+			controls_state = 202
+			controls_state = 408
+			controls_state = 206
+		}
+		
+		days_remove = 14
+		fire_only_once = yes 
+		
+		ai_will_do = {
+			factor = 100
+		}
+        remove_effect = {
+			set_cosmetic_tag = ZNS_ussr
+			news_event = {
+				id = dk_news.75
+			}
+		}
+    }
+	
+	MGN_soyuz_sionskih_socialnih_razrushiteley_baza = { #Формирование_Советского_Союза_Андеграунд
+		icon = GFX_decision_generic_form_nation
+
+		ai_will_do = {
+			factor = 100
+		}
+        visible = {
+			OR = {
+				AND = {
+					has_government = vmestolev
+					tag = MGN
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		available = {
+			has_completed_focus = MGN_homo_soveticus
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 590
+			controls_state = 202
+			controls_state = 408
+			controls_state = 206
+        }
+		
+		days_remove = 14
+		
+        remove_effect = {
+			set_cosmetic_tag = MGN_ussr
+			news_event = {
+				id = dk_news.87
+			}
+		}
+    }
+	MRD_reunification_RUS = { #Объединение_России_за_Мордор
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_government = metacommy
+					tag = MRD
+					NOT = { has_country_flag = MRD_obyedineniye_rossii_sssr }
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 590
+			controls_state = 202
+			controls_state = 408
+			controls_state = 206
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+	    	set_country_flag = MRD_obyedineniye_rossii_sssr
+			news_event = {
+				id = dk_news.63
+			}
+		}
+	}
+	MRD_reunification_SOV = { #Провозглашение_СССР_за_Мордор
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_government = metacommy
+					tag = MRD
+					NOT = { has_country_flag = MRD_obyedineniye_rossii_sssr }
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 590
+			controls_state = 202
+			controls_state = 408
+			controls_state = 206
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			set_cosmetic_tag = LAZ_ussr
+			set_country_flag = MRD_obyedineniye_rossii_sssr
+			news_event = {
+				id = dk_news.64
+			}
+		}
+	}
+	
+	POK_slovolzhitsin_decision = { #Провозглашение_России_за_Словолжицына
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_country_leader = { character = POK_Slovolzhicen	ruling_only = yes }
+					tag = POK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.69
+			}
+		}
+	}
+	
+	POK_eltsin_decision = { #Провозглашение_России_за_Ельцина
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_country_leader = { character = POK_Eltsin ruling_only = yes }
+					tag = POK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.70
+			}
+		}
+	}
+	
+	POK_putin_decision = { #Провозглашение_России_за_Путина
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_country_leader = { character = POK_Putin ruling_only = yes }
+					tag = POK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.71
+			}
+		}
+	}
+	
+	POK_parlament_decision = { #Провозглашение_России_за_Шульман
+        icon = GFX_decision_generic_form_nation
+		
+		visible = {
+			OR = {
+				AND = {
+					OR = {
+						has_country_leader = { character = POK_Shulman ruling_only = yes }
+						has_country_leader = { character = POK_Hodorkovskiy ruling_only = yes }
+						has_country_leader = { character = POK_NOVOD ruling_only = yes }
+					}
+					tag = POK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.72
+			}
+		}
+	}
+	
+	YSK_yuneman_decision = { #Провозглашение_России_за_Юнемана
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_country_leader = { character = YSK_Yuneman ruling_only = yes }
+					tag = YSK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.76
+			}
+		}
+	}
+	
+	YSK_wright_decision = { #Провозглашение_России_за_Райта
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_country_leader = { character = YSK_Robert_Wright ruling_only = yes }
+					tag = YSK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.77
+			}
+		}
+	}
+	
+	YSK_pogrom_decision = { #Провозглашение_России_за_Погрома
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_country_leader = { character = YSK_Egor_Prosvirnin ruling_only = yes }
+					tag = YSK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.78
+			}
+		}
+	}
+	
+	YSK_romanovi_decision = { #Провозглашение_России_за_Романовых
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_country_leader = { character = YSK_Maria_Romanova ruling_only = yes }
+					tag = YSK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.79
+			}
+		}
+	}
+	
+	YSK_goga_decision = { #Провозглашение_России_за_Романовых
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_country_leader = { character = YSK_Goga_Romanov ruling_only = yes }
+					tag = YSK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.80
+			}
+		}
+	}
+	
+	YSK_rogozin_decision = { #Провозглашение_России_за_Рогозина
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_country_leader = { character = YSK_Dmitriy_Rogozin ruling_only = yes }
+					tag = YSK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.81
+			}
+		}
+	}
+	
+	YSK_tesak_decision = { #Провозглашение_России_за_Тесака
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					has_country_leader = { character = YSK_Tesak ruling_only = yes }
+					tag = YSK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.82
+			}
+		}
+	}
+	
+	YSK_rne_decision = { #Провозглашение_России_за_РНЕ
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					OR = {
+						has_country_leader = { character = YSK_Alexsandr_Barkashov ruling_only = yes }
+						has_country_leader = { character = YSK_Navalniy ruling_only = yes }
+					}
+					tag = YSK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.83
+			}
+		}
+	}
+	
+	YSK_npf_decision = { #Провозглашение_России_за_РНЕ
+        icon = GFX_decision_generic_form_nation
+		visible = {
+			OR = {
+				AND = {
+					has_country_leader = { character = YSK_Nickolay_Skorodumov ruling_only = yes }
+					tag = YSK
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = {
+				id = dk_news.84
+			}
+		}
+	}
+	
+	OMS_Russia = { #Омск_объединяет_Россию
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					tag = OMS
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 195
+			controls_state = 219
+			controls_state = 217
+			controls_state = 570
+			controls_state = 408
+		}
+		
+		fire_only_once = yes
+		days_remove = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			news_event = dk_news.93
+		}	
+	}
+	
+}
+
+DR_reunite_russia_decisions_category = {
+
+	####Север_России
+	
+	DR_REU_RUS_WAR_WITH_EBN = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = EBN
+			}
+			has_war = no 
+			is_neighbor_of = EBN
+		}
+		
+		visible = {
+			country_exists = EBN
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = EBN
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_MHL = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = MHL
+			}
+			has_war = no 
+			is_neighbor_of = MHL
+		}
+		
+		visible = {
+			country_exists = MHL
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = MHL
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_ARK = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = ARK
+			}
+			has_war = no 
+			is_neighbor_of = ARK
+		}
+		
+		visible = {
+			country_exists = ARK
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = ARK
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_TUP = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = TUP
+			}
+			has_war = no 
+			is_neighbor_of = TUP
+		}
+		
+		visible = {
+			country_exists = TUP
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = TUP
+				type = annex_everything
+            }
+		}			
+	}
+	
+	####Центральная_и_Западная_Россия
+	
+	DR_REU_RUS_WAR_WITH_LAZ = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = LAZ
+			}
+			has_war = no 
+			is_neighbor_of = LAZ
+		}
+		
+		visible = {
+			country_exists = LAZ
+		}
+				
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = LAZ
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_OSV = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = OSV
+			}
+			has_war = no 
+			is_neighbor_of = OSV
+		}
+		
+		visible = {
+			country_exists = OSV
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = OSV
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_MAT = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = MAT
+			}
+			has_war = no 
+			is_neighbor_of = MAT
+		}
+		
+		visible = {
+			country_exists = MAT
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = MAT
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_UNT = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = UNT
+			}
+			has_war = no 
+			is_neighbor_of = UNT
+		}
+		
+		visible = {
+			country_exists = UNT
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = UNT
+				type = annex_everything
+            }
+		}			
+	}
+	
+	####ЧАТ
+	
+	DR_REU_RUS_WAR_WITH_CHAT = {
+	
+		cost = 25
+
+		available = {
+			has_war = no 
+			NOT = {
+				OR = {
+					tag = CHT
+					tag = CDR
+					tag = DRC
+					tag = CCO
+					tag = DGC
+					tag = CVT
+					tag = VTC
+				}
+			}
+			OR = {
+				is_neighbor_of = CHT
+				is_neighbor_of = CDR
+				is_neighbor_of = DRC
+				is_neighbor_of = CCO
+				is_neighbor_of = DGC
+				is_neighbor_of = CVT
+				is_neighbor_of = VTC
+			}
+		}
+		
+		visible = {
+			OR = {
+				country_exists = CHT
+				country_exists = CDR
+				country_exists = DRC
+				country_exists = CCO
+				country_exists = DGC
+				country_exists = CVT
+				country_exists = VTC
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			if = {
+				limit = {
+					OR = {
+						country_exists = CDR
+						country_exists = DRC
+						country_exists = CCO
+						country_exists = DGC
+						country_exists = CVT
+						country_exists = VTC
+					}
+				}
+				create_wargoal = {
+					target = CHT
+					type = annex_everything
+				}
+				create_wargoal = {
+                   target = CDR
+                   type = annex_everything
+				}
+				create_wargoal = {
+					target = DRC
+					type = annex_everything
+				}
+				create_wargoal = {
+					target = CCO
+					type = annex_everything
+				}
+				create_wargoal = {
+					target = DGC
+					type = annex_everything
+				}
+				create_wargoal = {
+					target = CVT
+					type = annex_everything
+				}
+				create_wargoal = {
+					target = VTC
+					type = annex_everything
+				}
+			}
+			else = {
+				create_wargoal = {
+					target = CHT
+					type = annex_everything
+				}				
+			}
+		}			
+	}
+	
+	####Южная_Россия
+	
+	DR_REU_RUS_WAR_WITH_NOD = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = NOD
+			}
+			has_war = no 
+			is_neighbor_of = NOD
+			has_army_manpower = {
+				size > 100000
+			}
+		}
+
+		visible = {
+			country_exists = NOD
+		}
+
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = NOD
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_KRR = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = KRR
+			}
+			has_war = no 
+			is_neighbor_of = KRR
+		}
+
+		visible = {
+			country_exists = KRR
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = KRR
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_STR = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = STR
+			}
+			has_war = no 
+			is_neighbor_of = STR
+		}
+
+		visible = {
+			country_exists = STR
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = STR
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_HAZ = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = HAZ
+			}
+			has_war = no 
+			is_neighbor_of = HAZ
+		}
+
+		visible = {
+			country_exists = HAZ
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = HAZ
+				type = annex_everything
+            }
+		}			
+	}
+	
+	####Уральские_Карапузы
+	
+	DR_REU_RUS_WAR_WITH_SKT = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = SKT
+			}
+			has_war = no 
+			is_neighbor_of = SKT
+		}
+
+		visible = {
+			country_exists = SKT
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = SKT
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_PRM = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = PRM
+			}
+			has_war = no 
+			is_neighbor_of = PRM
+		}
+
+		visible = {
+			country_exists = PRM
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = PRM
+				type = annex_everything
+            }
+		}			
+	}
+
+	DR_REU_RUS_WAR_WITH_BSH = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = BSH
+			}
+			has_war = no 
+			is_neighbor_of = BSH
+		}
+
+		visible = {
+			country_exists = BSH
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = BSH
+				type = annex_everything
+            }
+		}			
+	}
+	
+	####Покаяния
+	
+	DR_REU_RUS_WAR_interventsiya_v_pokoyanskyu_GV = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = POK
+				tag = MGN
+				tag = OMS
+				tag = GAL
+				tag = YSK
+				tag = ZNS
+				tag = MRD
+			}
+			has_war = no 
+			OR = {
+				is_neighbor_of = POK
+				is_neighbor_of = MGN
+				is_neighbor_of = OMS
+				is_neighbor_of = GAL
+				is_neighbor_of = YSK
+				is_neighbor_of = ZNS
+				is_neighbor_of = MRD
+			}
+			date > 6.01.01
+			has_army_manpower = {
+				size > 100000
+			}
+		}
+		
+		visible = {
+			OR = {
+				country_exists = POK
+				country_exists = MGN
+				country_exists = OMS
+				country_exists = GAL
+				country_exists = YSK
+				country_exists = ZNS
+				country_exists = MRD			
+			}
+		}	
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			declare_war_on = {
+				target = POK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MGN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = OMS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GAL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = YSK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ZNS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MRD
+				type = annex_everything
+			}
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_POK = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = POK
+			}
+			has_war = no 
+			is_neighbor_of = POK
+		}
+		
+		visible = {
+			country_exists = POK
+			has_global_flag = pokoyanskaya_civil_war_end_gf
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = POK
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_MGN = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = MGN
+			}
+			has_war = no 
+			is_neighbor_of = MGN
+		}
+		
+		visible = {
+			has_global_flag = pokoyanskaya_civil_war_end_gf
+			country_exists = MGN
+		}
+
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = MGN
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_OMS = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = OMS
+			}
+			has_war = no 
+			is_neighbor_of = OMS
+		}
+		
+		visible = {
+			has_global_flag = pokoyanskaya_civil_war_end_gf
+			country_exists = OMS
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = OMS
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_YSK = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = YSK
+			}
+			has_war = no 
+			is_neighbor_of = YSK
+		}
+		
+		visible = {
+			has_global_flag = pokoyanskaya_civil_war_end_gf
+			country_exists = YSK
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = YSK
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_ZNS = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = ZNS
+			}
+			has_war = no 
+			is_neighbor_of = ZNS
+		}
+		
+		visible = {
+			has_global_flag = pokoyanskaya_civil_war_end_gf
+			country_exists = ZNS
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = ZNS
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_MRD = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = MRD
+			}
+			has_war = no 
+			is_neighbor_of = MRD
+		}
+		
+		visible = {
+			has_global_flag = pokoyanskaya_civil_war_end_gf
+			country_exists = MRD
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = MRD
+				type = annex_everything
+            }
+		}			
+	}
+	
+	####Дальний_Восток
+	
+	DR_REU_RUS_WAR_WITH_BRT = {
+	
+		cost = 25
+
+		available = {
+			has_war = no 
+			is_neighbor_of = BRT
+		}
+		
+		visible = {	
+			country_exists = BRT
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = BRT
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_YAK = {
+	
+		cost = 25
+
+		available = {
+			has_war = no 
+			is_neighbor_of = YAK
+		}
+		
+		visible = {	
+			country_exists = YAK
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = YAK
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_YWO = {
+	
+		cost = 25
+
+		available = {
+			has_war = no 
+			is_neighbor_of = YWO
+		}
+		
+		visible = {	
+			country_exists = YWO
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = YWO
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_TUB = {
+	
+		cost = 25
+
+		available = {
+			has_war = no 
+			is_neighbor_of = TUB
+		}
+		
+		visible = {	
+			country_exists = TUB
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = TUB
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_MAG = {
+	
+		cost = 25
+
+		available = {
+			has_war = no 
+			is_neighbor_of = MAG
+		}
+		
+		visible = {	
+			country_exists = MAG
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = MAG
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_KOL = {
+	
+		cost = 25
+
+		available = {
+			has_war = no 
+			is_neighbor_of = KOL
+		}
+		
+		visible = {	
+			country_exists = KOL
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = KOL
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_DOT = {
+	
+		cost = 25
+
+		available = {
+			has_war = no 
+			is_neighbor_of = DOT
+		}
+		
+		visible = {	
+			country_exists = DOT
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = DOT
+				type = annex_everything
+            }
+		}			
+	}
+	
+	#####Ближнее_зарубежье
+	####Средняя_азия
+	
+	DR_REU_RUS_WAR_WITH_LIM = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = LIM
+			}
+			has_war = no 
+			is_neighbor_of = LIM
+		}
+		
+		visible = {
+			country_exists = LIM
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = LIM
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_KAZ = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = KAZ
+			}
+			has_war = no 
+			is_neighbor_of = KAZ
+		}
+		
+		visible = {
+			country_exists = KAZ
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = KAZ
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_TAJ = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = TAJ
+			}
+			has_war = no 
+			is_neighbor_of = TAJ
+		}
+		
+		visible = {
+			country_exists = TAJ
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = TAJ
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_KYR = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = KYR
+			}
+			has_war = no 
+			is_neighbor_of = KYR
+		}
+		
+		visible = {
+			country_exists = KYR
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = KYR
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_TMS = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = TMS
+			}
+			has_war = no 
+			is_neighbor_of = TMS
+		}
+		
+		visible = {
+			country_exists = TMS
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = TMS
+				type = annex_everything
+            }
+		}			
+	}
+	
+	####Кавказ
+	
+	DR_REU_RUS_WAR_WITH_CHK = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = CHK
+			}
+			has_war = no 
+			is_neighbor_of = CHK
+		}
+		
+		visible = {
+			country_exists = CHK
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = CHK
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_AZR = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = AZR
+			}
+			has_war = no 
+			is_neighbor_of = AZR
+		}
+		
+		visible = {
+			country_exists = AZR
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = AZR
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_GEO = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = GEO
+			}
+			has_war = no 
+			is_neighbor_of = GEO
+		}
+		
+		visible = {
+			country_exists = GEO
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = GEO
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_ARM = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = ARM
+			}
+			has_war = no 
+			is_neighbor_of = ARM
+		}
+		
+		visible = {
+			country_exists = ARM
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = ARM
+				type = annex_everything
+            }
+		}			
+	}
+	
+	####Новороссия
+	
+	DR_REU_RUS_WAR_WITH_CRI = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = CRI
+			}
+			has_war = no 
+			is_neighbor_of = CRI
+		}
+		
+		visible = {
+			country_exists = CRI
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = CRI
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_DON = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = DON
+			}
+			has_war = no 
+			is_neighbor_of = DON
+		}
+		
+		visible = {
+			country_exists = DON
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = DON
+				type = annex_everything
+            }
+		}			
+	}
+	
+	####Украина
+	
+	DR_REU_RUS_WAR_WITH_UKR = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = UKR
+			}
+			has_war = no 
+			is_neighbor_of = UKR
+		}
+		
+		visible = {
+			country_exists = UKR
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = UKR
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_CHE = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = CHE
+			}
+			has_war = no 
+			is_neighbor_of = CHE
+		}
+		
+		visible = {
+			country_exists = CHE
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = CHE
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_KUR = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = KUR
+			}
+			has_war = no 
+			is_neighbor_of = KUR
+		}
+		
+		visible = {
+			country_exists = KUR
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = KUR
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_SIN = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = SIN
+			}
+			has_war = no 
+			is_neighbor_of = SIN
+		}
+		
+		visible = {
+			country_exists = SIN
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = SIN
+				type = annex_everything
+            }
+		}			
+	}
+	
+	DR_REU_RUS_WAR_WITH_ZHE = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = ZHE
+			}
+			has_war = no 
+			is_neighbor_of = ZHE
+		}
+		
+		visible = {
+			country_exists = ZHE
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = ZHE
+				type = annex_everything
+            }
+		}			
+	}
+	
+	####Молдавия
+	
+	DR_REU_RUS_WAR_WITH_MLD = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = MLD
+			}
+			has_war = no 
+			is_neighbor_of = MLD
+		}
+		
+		visible = {
+			country_exists = MLD
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = MLD
+				type = annex_everything
+            }
+		}			
+	}
+	
+	####Белоруссия
+		
+	DR_REU_RUS_WAR_WITH_WHS = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = WHS
+			}
+			has_war = no 
+			is_neighbor_of = WHS
+		}
+		
+		visible = {
+			country_exists = WHS
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = WHS
+				type = annex_everything
+            }
+		}			
+	}
+		
+	DR_REU_RUS_WAR_WITH_ZWN = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = ZWN
+			}
+			has_war = no 
+			is_neighbor_of = ZWN
+		}
+		
+		visible = {
+			country_exists = ZWN
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = ZWN
+				type = annex_everything
+            }
+		}			
+	}
+	
+	####Прибалтика
+		
+	DR_REU_RUS_WAR_WITH_SPL = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = SPL
+			}
+			NOT = {
+				tag = POK
+			}
+			has_war = no 
+			is_neighbor_of = SPL
+		}
+		
+		visible = {
+			country_exists = SPL
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = SPL
+				type = annex_everything
+            }
+		}			
+	}
+		
+	DR_REU_RUS_WAR_WITH_VSB = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = VSB
+			}
+			NOT = {
+				tag = POK
+			}
+			has_war = no 
+			is_neighbor_of = VSB
+		}
+		
+		visible = {
+			country_exists = VSB
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = VSB
+				type = annex_everything
+            }
+		}			
+	}
+	
+	####Калининград
+		
+	DR_REU_RUS_WAR_WITH_KLG = {
+	
+		cost = 25
+
+		available = {
+			NOT = {
+				tag = KLG
+			}
+			NOT = {
+				tag = POK
+			}
+			has_war = no 
+			is_neighbor_of = KLG
+		}
+		
+		visible = {
+			country_exists = KLG
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = BSH
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 7
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			create_wargoal = {
+				target = KLG
+				type = annex_everything
+            }
+		}			
+	}
+}
+
+#########НАЦИ#########
+#########АНАЛ#########
+#########ИЗА##########
+#########ЦИЯ##########
+
+DR_core_russian_territories_decisions_category = {
+
+	DR_REU_RUS_CORE_EBN = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				tag = EBN
+			}
+		}
+		
+		available = {
+			controls_state = 722 #Петсамо
+			controls_state = 213 #Мурманск
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 722 
+			add_state_core = 213
+		}
+	}
+	
+	DR_REU_RUS_CORE_MHL = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+
+		visible = {
+			NOT = {
+				tag = MHL
+			}
+		}
+		
+		available = {
+			controls_state = 215 #Онега
+			controls_state = 216 #Петрозаводск
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 215
+			add_state_core = 216
+		}
+	}
+	
+	DR_REU_RUS_CORE_ARK = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+
+		visible = {
+			NOT = {
+				tag = ARK
+			}
+		}
+		
+		available = {
+			controls_state = 214
+			controls_state = 825
+			controls_state = 351
+			controls_state = 879
+			controls_state = 880
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 214
+			add_state_core = 825
+			add_state_core = 351
+			add_state_core = 879
+			add_state_core = 880
+		}
+	}	
+	
+	DR_REU_RUS_CORE_TUP = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+
+		visible = {
+			NOT = {
+				tag = TUP
+			}
+		}
+		
+		available = {
+			controls_state = 195 #Ленинград
+			controls_state = 208 #Луга
+			controls_state = 244 #Волхов
+			controls_state = 264 #Тихвин
+			controls_state = 263 #Новгород
+			controls_state = 209 #Псков
+			controls_state = 210 #Невель
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 195
+			add_state_core = 208
+			add_state_core = 244
+			add_state_core = 264
+			add_state_core = 263
+			add_state_core = 209
+			add_state_core = 210
+			add_state_core = 146
+		}
+	}
+	
+	DR_REU_RUS_CORE_LAZ = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+
+		visible = {
+			NOT = {
+				tag = LAZ
+				tag = OSV
+			}
+		}
+		
+		available = {
+			controls_state = 219 #Москва
+			controls_state = 242 #Смоленск
+			controls_state = 246 #Ржев
+			controls_state = 247 #Калинин			
+			controls_state = 248 #Ярославль
+			controls_state = 253 #Иваново
+			controls_state = 254 #Рязань
+			controls_state = 223 #Тула
+			controls_state = 205 #Калуга
+			controls_state = 243 #Рославль
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 219 #Москва
+			add_state_core = 242 #Смоленск
+			add_state_core = 246 #Ржев
+			add_state_core = 247 #Калинин			
+			add_state_core = 248 #Ярославль
+			add_state_core = 253 #Иваново
+			add_state_core = 254 #Рязань
+			add_state_core = 223 #Тула
+			add_state_core = 205 #Калуга
+			add_state_core = 243 #Рославль
+		}
+	}
+	
+	DR_REU_RUS_CORE_MAT = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+
+		visible = {
+			NOT = {
+				tag = MAT
+			}
+		}
+		
+		available = {
+			controls_state = 220
+			controls_state = 222
+			controls_state = 224
+			controls_state = 240
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			controls_state = 220
+			controls_state = 222
+			controls_state = 224
+			controls_state = 240
+		}
+	}
+	
+	DR_REU_RUS_CORE_UNT = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+
+		visible = {
+			NOT = {
+				tag = UNT
+			}
+		}
+		
+		available = {
+			controls_state = 258
+			controls_state = 257
+			controls_state = 260
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 258
+			add_state_core = 257
+			add_state_core = 260
+		}
+	}
+	
+	DR_REU_RUS_CORE_CHT = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+
+		visible = {
+			NOT = {
+				tag = CHT
+			}
+		}
+		
+		available = {
+			controls_state = 251
+			controls_state = 250
+			controls_state = 249
+			controls_state = 255
+			controls_state = 256
+			controls_state = 252
+			controls_state = 399
+			controls_state = 400
+			controls_state = 833 
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 251
+			add_state_core = 250
+			add_state_core = 249
+			add_state_core = 255
+			add_state_core = 256
+			add_state_core = 252
+			add_state_core = 399
+			add_state_core = 400
+			add_state_core = 833
+		}
+	}
+	
+	DR_REU_RUS_CORE_NOD = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+
+		visible = {
+			NOT = {
+				tag = NOD
+			}
+		}
+		
+		available = {
+			controls_state = 217
+			controls_state = 265
+			controls_state = 245
+			controls_state = 239
+			controls_state = 401
+			controls_state = 829
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		#complete_effect = {
+		#	if = {
+		#		limit = {
+		#			OR = {
+		#				has_government = vmestolev
+		#				has_government = metacommy
+		#				has_government = anarhostalinism
+		#			}
+		#		}
+		#		set_province_name = { id = 3529 name = "Сталинград" }
+		#		set_province_name = { id = 11523 name = "Энгельс" }
+		#		set_province_name = { id = 9432 name = "Маркс" }
+		#	}
+		#	else_if = {
+		#		limit = {
+		#			OR = {
+		#				has_government = democratic
+		#				has_government = memoism
+		#				has_government = neutrality
+		#			}
+		#		}
+		#		set_province_name = { id = 3529 name = "Волгоград" }
+		#		set_province_name = { id = 11523 name = "Покровск" }
+		#		set_province_name = { id = 9432 name = "Екатериненштадт" }
+		#	}
+		#	else = {
+		#		set_province_name = { id = 3529 name = "Царицын" }
+		#		set_province_name = { id = 11523 name = "Покровская слобода" }
+		#		set_province_name = { id = 9432 name = "Баронск" }
+		#	}		
+		#}
+#ТУДУ_переименование_переименование_городов_перенесено_так_как_ломает_уловие_починить_получилось_возможно_надо_делать_костыльный_ивент_на_переименование_городов_и_стейтов
+		remove_effect = { 
+			add_state_core = 217
+			add_state_core = 265
+			add_state_core = 245
+			add_state_core = 239
+			add_state_core = 401
+			add_state_core = 829
+		}
+	}
+	
+	DR_REU_RUS_CORE_KRR = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+
+		visible = {
+			NOT = {
+				tag = KRR
+			}
+		}
+		
+		available = {
+			controls_state = 218
+			controls_state = 238
+			controls_state = 234
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 218
+			add_state_core = 238
+			add_state_core = 234
+		}
+	}
+	
+	DR_REU_RUS_CORE_STR = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+
+		visible = {
+			NOT = {
+				tag = STR
+			}
+		}
+		
+		available = {
+			controls_state = 235
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 235
+		}
+	}
+	
+	DR_REU_RUS_CORE_HAZ = {
+		icon = GFX_decision_generic_nationalism
+		cost = 15
+
+		visible = {
+			NOT = {
+				tag = HAZ
+			}
+		}
+		
+		available = {
+			controls_state = 237
+			controls_state = 236
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 237
+			add_state_core = 236
+		}
+	}
+	
+	DR_REU_RUS_CORE_SKT = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+
+		visible = {
+			NOT = {
+				tag = SKT
+			}
+		}
+		
+		available = {
+			controls_state = 397
+			controls_state = 262
+			controls_state = 581
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 397
+			add_state_core = 262
+			add_state_core = 581
+		}
+	}
+	
+	DR_REU_RUS_CORE_PRM = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+
+		visible = {
+			NOT = {
+				tag = PRM
+			}
+		}
+		
+		available = {
+			controls_state = 398
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 398
+		}
+	}
+	
+	DR_REU_RUS_CORE_BSH = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				tag = BSH
+			}
+		}
+		
+		available = {
+			controls_state = 651
+			controls_state = 652
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 651
+			add_state_core = 652
+		}
+	}
+
+	DR_REU_RUS_CORE_POK = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = POK
+					tag = MGN
+					tag = OMS
+					tag = GAL
+					tag = YSK
+					tag = ZNS
+					tag = MRD
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 653
+			controls_state = 580
+			controls_state = 579
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 653
+			add_state_core = 580
+			add_state_core = 579
+
+		}
+	}
+	
+	DR_REU_RUS_CORE_MGN = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = POK
+					tag = MGN
+					tag = OMS
+					tag = GAL
+					tag = YSK
+					tag = ZNS
+					tag = MRD
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 573
+			controls_state = 582
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 573
+			add_state_core = 582
+		}
+	}
+	
+	DR_REU_RUS_CORE_OMS = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = POK
+					tag = MGN
+					tag = OMS
+					tag = GAL
+					tag = YSK
+					tag = ZNS
+					tag = MRD
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 572
+			controls_state = 403
+			controls_state = 571
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 572
+			add_state_core = 403
+			add_state_core = 571
+		}
+	}
+	
+	DR_REU_RUS_CORE_GAL = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = POK
+					tag = MGN
+					tag = OMS
+					tag = GAL
+					tag = YSK
+					tag = ZNS
+					tag = MRD
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 578
+			controls_state = 570
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 578
+			add_state_core = 570
+		}
+	}
+	
+	DR_REU_RUS_CORE_YSK	 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = POK
+					tag = MGN
+					tag = OMS
+					tag = GAL
+					tag = YSK
+					tag = ZNS
+					tag = MRD
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 40
+			controls_state = 569
+			controls_state = 654
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 40
+			add_state_core = 569
+			add_state_core = 654
+		}
+	}
+	
+	DR_REU_RUS_CORE_ZNS = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = POK
+					tag = MGN
+					tag = OMS
+					tag = GAL
+					tag = YSK
+					tag = ZNS
+					tag = MRD
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 568
+			controls_state = 567
+			controls_state = 329
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 568
+			add_state_core = 567
+			add_state_core = 329
+		}
+	}
+	
+	DR_REU_RUS_CORE_MRD = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = POK
+					tag = MGN
+					tag = OMS
+					tag = GAL
+					tag = YSK
+					tag = ZNS
+					tag = MRD
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 824
+			controls_state = 577
+			controls_state = 516
+			controls_state = 576
+			controls_state = 878
+			controls_state = 575
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 824
+			add_state_core = 577
+			add_state_core = 516
+			add_state_core = 576
+			add_state_core = 878
+			add_state_core = 575
+		}
+	}
+	
+	DR_REU_RUS_CORE_BRT = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 566
+			controls_state = 564
+			controls_state = 563
+			controls_state = 565
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 566
+			add_state_core = 564
+			add_state_core = 563
+			add_state_core = 565
+		}
+	}
+	
+	DR_REU_RUS_CORE_YWO = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+	
+		available = {
+			controls_state = 560
+			controls_state = 561
+			controls_state = 657
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 560
+			add_state_core = 561
+			add_state_core = 657
+		}
+	}
+	
+	DR_REU_RUS_CORE_YAK = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+	
+		available = {
+			controls_state = 574
+			controls_state = 876
+			controls_state = 877
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 574
+			add_state_core = 876
+			add_state_core = 877
+		}
+	}
+	
+	DR_REU_RUS_CORE_TUB = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+	
+		available = {
+			controls_state = 408
+			controls_state = 409
+			controls_state = 655
+			controls_state = 537 
+ 		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 408
+			add_state_core = 409
+			add_state_core = 655
+			add_state_core = 537 
+		}
+	}
+	
+	DR_REU_RUS_CORE_MAG = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+	
+		available = {
+			controls_state = 562
+			controls_state = 874
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 562
+			add_state_core = 874
+		}
+	}
+
+	DR_REU_RUS_CORE_KOL = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+	
+		available = {
+			controls_state = 644
+			controls_state = 822
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 644
+			add_state_core = 822
+		}
+	}
+	
+	DR_REU_RUS_CORE_DOT = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				OR = {
+					tag = DOT
+					tag = KOL
+					tag = MAG
+					tag = TUB
+					tag = YAK
+					tag = YWO
+					tag = BRT
+				}
+			}
+		}
+	
+		available = {
+			controls_state = 637
+			controls_state = 555
+			controls_state = 875
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 637
+			add_state_core = 555
+			add_state_core = 875
+		}
+	}
+	
+	DR_REU_RUS_CORE_LIM = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				tag = LIM
+			}
+		}
+	
+		available = {
+			controls_state = 583
+			controls_state = 590
+			controls_state = 882
+			controls_state = 588
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 583
+			add_state_core = 590
+			add_state_core = 882
+			add_state_core = 588
+		}
+	}
+	
+	DR_REU_RUS_CORE_KAZ = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				tag = KAZ
+			}
+		}
+	
+		available = {
+			controls_state = 407
+			controls_state = 406
+			controls_state = 402
+			controls_state = 587
+			controls_state = 404
+			controls_state = 881
+			controls_state = 589
+			controls_state = 586
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 407
+			add_state_core = 406
+			add_state_core = 402
+			add_state_core = 587
+			add_state_core = 404
+			add_state_core = 881
+			add_state_core = 589
+			add_state_core = 586
+		}
+	}
+	
+	DR_REU_RUS_CORE_KYR = {
+		icon = GFX_decision_generic_nationalism
+		visible = {
+			NOT = {
+				tag = KYR
+			}
+		}
+		
+		cost = 35
+
+		available = {
+			controls_state = 732
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 732
+		}
+	}
+	
+	DR_REU_RUS_CORE_TAJ = {
+		icon = GFX_decision_generic_nationalism
+		visible = {
+			NOT = {
+				tag = TAJ
+			}
+		}
+
+		cost = 35
+
+		available = {
+			controls_state = 823
+			controls_state = 832
+			controls_state = 585
+			controls_state = 830
+			controls_state = 405
+			controls_state = 742
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 823
+			add_state_core = 832
+			add_state_core = 585
+			add_state_core = 830
+			add_state_core = 405
+			add_state_core = 742
+		}
+	}
+	
+	DR_REU_RUS_CORE_TMS = {
+		icon = GFX_decision_generic_nationalism
+		visible = {
+			NOT = {
+				tag = TAJ
+			}
+		}
+	
+		cost = 35
+
+		available = {
+			controls_state = 832
+			controls_state = 584
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 832
+			add_state_core = 584
+		}
+	}
+	
+	DR_REU_RUS_CORE_CHK = {
+		icon = GFX_decision_generic_nationalism
+		visible = {
+			NOT = {
+				tag = CHK
+			}
+		}
+		
+		cost = 35
+
+		available = {
+			controls_state = 232
+			controls_state = 821
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 232
+			add_state_core = 821
+		}
+	}
+	
+	DR_REU_RUS_CORE_AZR = {
+		icon = GFX_decision_generic_nationalism
+		cost = 15
+
+		visible = {
+			NOT = {
+				tag = AZR
+			}
+		}
+		
+		available = {
+			controls_state = 229
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 229
+		}
+	}
+	
+	DR_REU_RUS_CORE_ARM = {
+		icon = GFX_decision_generic_nationalism
+		cost = 15
+		
+		visible = {
+			NOT = {
+				tag = ARM
+			}
+		}
+		
+		available = {
+			controls_state = 230
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 230
+		}
+	}
+	
+	DR_REU_RUS_CORE_GEO = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				tag = GEO
+			}
+		}
+		
+		available = {
+			controls_state = 231
+			controls_state = 826
+			controls_state = 827
+			controls_state = 828
+			controls_state = 233
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 231
+			add_state_core = 826
+			add_state_core = 827
+			add_state_core = 828
+			add_state_core = 233
+		}
+	}
+	
+	DR_REU_RUS_CORE_DON = {
+		icon = GFX_decision_generic_nationalism
+		cost = 25
+		
+		visible = {
+			NOT = {
+				tag = DON
+			}
+		}
+		
+		available = {
+			controls_state = 227
+			controls_state = 228
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 227
+			add_state_core = 228
+		}
+	}
+
+	DR_REU_RUS_CORE_UKR = {
+		icon = GFX_decision_generic_nationalism
+		cost = 25
+		
+		visible = {
+			NOT = {
+				tag = UKR
+			}
+		}
+		
+		available = {
+			controls_state = 221
+			controls_state = 226
+			controls_state = 200
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 221
+			add_state_core = 226
+			add_state_core = 200
+		}
+	}
+	
+	DR_REU_RUS_CORE_CRI = {
+		icon = GFX_decision_generic_nationalism
+		cost = 15
+		
+		visible = {
+			NOT = {
+				tag = CRI
+			}
+		}
+		
+		available = {
+			controls_state = 137
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 137
+		}
+	}
+	
+	DR_REU_RUS_CORE_CHE = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				tag = CHE
+			}
+		}
+		
+		available = {
+			controls_state = 196
+			controls_state = 197
+			controls_state = 192
+			controls_state = 834
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 196
+			add_state_core = 197
+			add_state_core = 192
+			add_state_core = 834
+		}
+	}
+	
+	DR_REU_RUS_CORE_MOL = {
+		icon = GFX_decision_generic_nationalism
+		cost = 25
+		
+		visible = {
+			NOT = {
+				tag = MOL
+			}
+		}
+		
+		available = {
+			controls_state = 766
+			controls_state = 78
+			controls_state = 79
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 766
+			add_state_core = 78
+			#add_state_core = 79
+			#release_puppet = MLD
+		}
+	}
+	
+	DR_REU_RUS_CORE_KUR = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+			    OR = {
+				tag = KUR
+				tag = MGN
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 203
+			controls_state = 259
+			controls_state = 225
+			controls_state = 193
+			controls_state = 202
+			controls_state = 201
+			controls_state = 198
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 203
+			add_state_core = 259
+			add_state_core = 225
+			add_state_core = 193
+			add_state_core = 202
+			add_state_core = 201
+			add_state_core = 198
+		}
+	}
+	
+	DR_REU_RUS_CORE_ZHE = {
+		icon = GFX_decision_generic_nationalism
+		cost = 25
+		
+		visible = {
+			NOT = {
+				OR = {
+				tag = ZHE
+				tag = MGN
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 199
+			controls_state = 91
+			controls_state = 89
+			controls_state = 80
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 199
+			add_state_core = 91
+			add_state_core = 89
+			add_state_core = 80
+			add_state_core = 73
+		}
+	}
+	
+	DR_REU_RUS_CORE_SIN = {
+		icon = GFX_decision_generic_nationalism
+		cost = 15
+		
+		visible = {
+			NOT = {
+				OR = {
+				tag = SIN
+				tag = MGN
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 93
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 93
+		}
+	}
+	
+	DR_REU_RUS_CORE_WHS = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				tag = WHS
+			}
+		}
+		
+		available = {
+			controls_state = 207
+			controls_state = 206
+			controls_state = 241
+			controls_state = 204
+			controls_state = 194	
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 207
+			add_state_core = 206
+			add_state_core = 241
+			add_state_core = 204
+			add_state_core = 194
+		}
+	}
+	
+	DR_REU_RUS_CORE_ZWN = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				tag = ZWN
+			}
+		}
+		
+		available = {
+			controls_state = 96
+			controls_state = 95
+			controls_state = 94
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 96
+			add_state_core = 95
+			add_state_core = 94
+		}
+	}
+	
+	DR_REU_RUS_CORE_SPL = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				tag = SPL
+			}
+			NOT = {
+				tag = POK
+			}
+		}
+		
+		available = {
+			controls_state = 812
+			controls_state = 813
+			controls_state = 191
+			controls_state = 13
+			controls_state = 811
+			controls_state = 12
+			controls_state = 810
+			controls_state = 808
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 812
+			add_state_core = 813
+			add_state_core = 191
+			add_state_core = 13
+			add_state_core = 811
+			add_state_core = 12
+			add_state_core = 810
+			add_state_core = 808
+		}
+	}
+	
+	DR_REU_RUS_CORE_VSB = {
+		icon = GFX_decision_generic_nationalism
+		cost = 35
+		
+		visible = {
+			NOT = {
+				tag = VSB
+			}
+			NOT = {
+				tag = POK
+			}
+		}
+		
+		available = {
+			controls_state = 190
+			controls_state = 809
+			controls_state = 815
+			controls_state = 784
+			controls_state = 11
+			controls_state = 814
+			controls_state = 189
+			controls_state = 188
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		
+		remove_effect = {
+			add_state_core = 190
+			add_state_core = 809
+			add_state_core = 815
+			add_state_core = 784
+			add_state_core = 11
+			add_state_core = 814
+			add_state_core = 189
+			add_state_core = 188
+		}
+	}
+	
+	DR_REU_RUS_CORE_KAL = {
+		icon = GFX_decision_generic_nationalism
+		cost = 15
+		
+		visible = {
+			NOT = {
+				tag = KAL
+			}
+			NOT = {
+				tag = POK
+			}
+		}
+		
+		available = {
+			controls_state = 763
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		
+		ai_will_do = {
+			base = 10.5
+		}
+		#complete_effect = {
+		#	release_puppet = POL
+		#}
+		remove_effect = {
+			add_state_core = 763
+		}
+	}	
+}

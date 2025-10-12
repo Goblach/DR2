@@ -1,0 +1,1056 @@
+focus_tree = {
+	id = Omsk_main
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OMS
+		}
+	}
+	default = no
+	focus = {
+		id = OMS_red_platform
+		icon = GFX_goal_red_platform
+		cost = 10.00
+		x = 10
+		y = 0
+		  completion_reward = {
+country_event = {   
+					id = OMS.2
+						    }
+	}
+	}
+	focus = {
+		id = OMS_vostanovlen_churches
+		icon = GFX_goal_goga_red_church
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_red_platform
+		}
+		x = 10
+		y = 1
+ completion_reward = {
+country_event = {   
+					id = OMS.3
+						    }
+	}
+	}
+	focus = {
+		id = OMS_sila_knig
+		icon = GFX_goal_sila_knig
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_vostanovlen_churches
+		}
+		x = 5
+		y = 2
+        completion_reward = {
+		country_event = {   
+					id = OMS.4
+						    }
+            hidden_effect = {
+					retire_country_leader = yes
+					add_country_leader_role = {
+                        character = OMS_Elizarov
+                        promote_leader = yes
+                        country_leader = {
+                            ideology = white_polpotism
+                        }
+                    }	
+
+				OMS_Elizarov = {
+				add_trait = {
+				ideology = white_polpotism
+				trait = elizarov_trait
+				}
+				}
+			}
+		}  
+	}
+	focus = {
+		id = OMS_kniga_pamyati
+		icon = GFX_goal_kniga_pamyati
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_sila_knig
+		}
+		x = 0
+		y = 3
+        completion_reward = {
+            add_ideas = OMS_kniga_pamyati
+			hidden_effect = {
+					if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Elizarov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }	
+			}
+		}  
+	}
+	focus = {
+		id = OMS_kniga_yarosti
+		icon = GFX_goal_kniga_yarosti
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_sila_knig
+		}
+		x = 2
+		y = 3
+        completion_reward = {
+            add_ideas = OMS_kniga_yarosti
+			add_war_support = 0.1
+			hidden_effect = {
+					if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Elizarov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }		
+			}
+		}   
+	}
+	focus = {
+		id = OMS_kniga_sily
+		icon = GFX_goal_kniga_sily
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_sila_knig
+		}
+		x = 4
+		y = 3
+        completion_reward = {
+            add_ideas = OMS_kniga_sily
+			add_manpower = 25000
+			hidden_effect = {
+					if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Elizarov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }		
+			}
+		}   
+	}
+	focus = {
+		id = OMS_divinity
+		icon = GFX_goal_divinity
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_kniga_sily
+		}
+		mutually_exclusive = {
+			focus = OMS_voin_gospoden
+		}
+		x = 4
+		y = 6
+        completion_reward = {
+            hidden_effect = {
+					if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Elizarov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }		
+			}
+			add_stability = 0.15
+			add_political_power = -500
+			OMS_Letov = {
+			add_country_leader_trait = obretyonnaya_bozhestvennost
+			add_unit_leader_trait = trait_OMS_bessmertie
+				}
+		    OMS_Elizarov = {
+			add_country_leader_trait = obretyonnaya_bozhestvennost
+			add_unit_leader_trait = trait_OMS_bessmertie
+				}
+		}     
+	}
+	focus = {
+		id = OMS_knife_boy
+		icon = GFX_goal_knife_boy
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_kniga_yarosti
+		}
+		x = 2
+		y = 6
+        completion_reward = {
+        swap_ideas = {
+			remove_idea = OMS_kniga_yarosti
+			add_idea = OMS_kniga_yarosti_1
+		}
+		hidden_effect = {
+					if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Elizarov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }		
+			}
+		}
+	}
+	focus = {
+		id = OMS_sila_nostalgy
+		icon = GFX_goal_sila_nostalgy
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_kniga_pamyati
+		}
+		x = 0
+		y = 6
+        completion_reward = {
+        swap_ideas = {
+			remove_idea = OMS_kniga_pamyati
+			add_idea = OMS_kniga_pamyati_1
+		}
+		hidden_effect = {
+					if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Elizarov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }		
+			}
+		}   
+	}
+	focus = {
+		id = OMS_kniga_radosti
+		icon = GFX_goal_kniga_radosti
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_sila_knig
+		}
+		x = 6
+		y = 3
+        completion_reward = {
+            add_ideas = OMS_kniga_radosti
+			add_political_power = -100
+			hidden_effect = {
+					if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Elizarov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }		
+			}
+		}    
+	}
+	focus = {
+		id = OMS_voin_gospoden
+		icon = GFX_goal_voin_gospoden
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_kniga_radosti
+		}
+		mutually_exclusive = {
+			focus = OMS_divinity
+		}
+		x = 6
+		y = 6
+        completion_reward = {
+		add_political_power = 100
+		add_ideas = OMS_voin_gospoden
+            hidden_effect = {
+					if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Elizarov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }		
+			}
+		}    
+	}
+	focus = {
+		id = OMS_kniga_terpeniya
+		icon = GFX_goal_kniga_terpeniya
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_sila_knig
+		}
+		x = 8
+		y = 3
+        completion_reward = {
+            add_ideas = OMS_kniga_terpeniya
+			hidden_effect = {
+					if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Elizarov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }		
+			}
+		}   
+	}
+	focus = {
+		id = OMS_SSSR
+		icon = GFX_goal_SSSR
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_kniga_vlasti
+		}
+		mutually_exclusive = {
+			focus = OMS_Rus_Fed
+		}
+		x = 10
+		y = 6
+        completion_reward = {
+		add_political_power = 100
+		add_ideas = OMS_SSSR
+            hidden_effect = {
+					if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Elizarov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }		
+			}
+		}  
+	}
+	focus = {
+		id = OMS_kniga_vlasti
+		icon = GFX_goal_kniga_vlasti
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_sila_knig
+		}
+		x = 10
+		y = 3
+        completion_reward = {
+            add_ideas = OMS_kniga_vlasti
+			 hidden_effect = {
+					if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Elizarov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }		
+			}
+		}    
+	}
+	focus = {
+		id = OMS_Rus_Fed
+		icon = GFX_goal_Rus_Fed
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_kniga_terpeniya
+		}
+		mutually_exclusive = {
+			focus = OMS_SSSR
+		}
+		x = 8
+		y = 6
+        completion_reward = {
+		add_political_power = 100
+		add_ideas = OMS_Rus_Fed
+             hidden_effect = { 
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }	
+		} 
+	}
+	focus = {
+		id = OMS_kniga_smysla
+		icon = GFX_goal_kniga_smysla
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_divinity
+			focus = OMS_voin_gospoden
+		}
+		prerequisite = {
+			focus = OMS_SSSR
+			focus = OMS_Rus_Fed
+		}
+		prerequisite = {
+			focus = OMS_alchemy
+			focus = OMS_old_songs
+		}
+		prerequisite = {
+			focus = OMS_knife_boy
+		}
+		prerequisite = {
+			focus = OMS_heavy_music_heavy_industry
+		}
+		prerequisite = {
+			focus = OMS_sila_nostalgy
+		}
+		 available = {
+		            has_completed_focus = OMS_kniga_pamyati
+		            has_completed_focus = OMS_kniga_yarosti
+					has_completed_focus = OMS_kniga_sily
+					has_completed_focus = OMS_kniga_radosti
+					has_completed_focus = OMS_kniga_terpeniya
+					has_completed_focus = OMS_kniga_vlasti
+				}
+		x = 11
+		y = 7
+        completion_reward = {
+		country_event = {   
+					id = OMS.6
+						    }
+            hidden_effect = {
+					promote_character = {
+    character = OMS_Elizarov
+    ideology = white_polpotism
+}	
+			    }	
+		}      
+	}
+	focus = {
+		id = OMS_sila_music
+		icon = GFX_goal_sila_music
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_vostanovlen_churches
+		}
+		x = 15
+		y = 2
+        completion_reward = {
+		country_event = {   
+					id = OMS.5
+						    }
+            hidden_effect = {
+	promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}   
+			}
+		}   
+	}
+	focus = {
+		id = OMS_grob_records
+		icon = GFX_goal_grob_records
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_sila_music
+		}
+		x = 15
+		y = 3
+        completion_reward = {
+			571 = {
+				add_building_construction = {
+					type = radar_station
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = electronics
+			}
+			add_dynamic_modifier = {
+							modifier = OMS_GrOB_Record_dynamic_modifier
+						}
+			        set_variable = {
+							OMS_stability_factor = 0.0
+						}
+					set_variable = {
+							OMS_war_support_factor = 0.0
+						}
+					set_variable = {
+							OMS_consumer_goods_factor = 0.0
+						}
+					set_variable = {
+							OMS_memoism_drift = 0.0
+						}
+					set_variable = {
+							OMS_political_power_factor = 0.05
+						}
+					set_variable = {
+							OMS_party_popularity_stability_factor = 0.1
+						}
+					set_variable = {
+							OMS_drift_defence_factor = 0.0
+						}
+					set_variable = {
+							OMS_research_speed_factor = 0.0
+						}
+					set_variable = {
+							OMS_army_core_defence_factor = 0.0
+						}
+					set_variable = {
+							OMS_army_attack_factor = 0.0
+						}
+					set_variable = {
+							OMS_army_org_factor = 0.0
+						}
+					set_variable = {
+							OMS_offensive_war_stability_factor = 0.0
+						}
+					set_variable = {
+							OMS_defensive_war_stability_factor = 0.0
+						}
+					set_variable = {
+							OMS_mobilization_speed = 0.0
+						}
+					set_variable = {
+							OMS_max_command_power = 0.0
+						}
+					set_variable = {
+							OMS_command_power_gain = 0.0
+						}	
+			
+            hidden_effect = { 
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }					
+			}    
+	}
+	focus = {
+		id = OMS_orskay
+		icon = GFX_goal_orskay
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_grob_records
+		}
+		x = 12
+		y = 4
+        completion_reward = {
+		custom_effect_tooltip = OMS_Letov_orki_tt
+		    division_template = {
+				name = "Urukhai"
+				is_locked = yes
+				division_cap = 18
+				template_counter = 35
+				regiments = {
+					urki_assault_battalion = { x = 0 y = 0 }
+					urki_assault_battalion = { x = 0 y = 1 }
+					urki_assault_battalion = { x = 0 y = 2 }
+					urki_assault_battalion = { x = 1 y = 0 }
+					urki_assault_battalion = { x = 1 y = 1 }
+					urki_assault_battalion = { x = 1 y = 2 }
+					urki_assault_battalion = { x = 2 y = 0 }
+					urki_assault_battalion = { x = 2 y = 1 }
+					urki_assault_battalion = { x = 2 y = 2 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+				}
+			}
+			MRD_spawn_urki_divisions_effect = yes
+			hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_completed_focus = OMS_kniga_smysla
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}
+        }      		
+	}
+	focus = {
+		id = OMS_perepet_sovshdvr
+		icon = GFX_goal_perepet_sovshdvr
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_grob_records
+		}
+		mutually_exclusive = {
+			focus = OMS_upor_na_original
+		}
+		x = 14
+		y = 4
+        completion_reward = {
+		    add_to_variable = {
+				OMS_mobilization_speed = 0.1
+			}
+            add_to_variable = {
+				OMS_command_power_gain = 0.05
+			}
+			add_to_variable = { 
+				OMS_stability_factor = 0.05
+			}
+			custom_effect_tooltip = OMS_mobilization_speed_tt
+			custom_effect_tooltip = OMS_command_power_gain_tt
+			custom_effect_tooltip = OMS_stability_factor_tt
+            hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}
+		}   
+	}
+	focus = {
+		id = OMS_upor_na_original
+		icon = GFX_goal_upor_na_original
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_grob_records
+		}
+		mutually_exclusive = {
+			focus = OMS_perepet_sovshdvr
+		}
+		x = 16
+		y = 4
+        completion_reward = {
+		    add_to_variable = {
+				OMS_mobilization_speed = 0.1
+			}
+            add_to_variable = {
+				OMS_max_command_power = 0.05
+			}
+			add_to_variable = { 
+				OMS_war_support_factor = 0.05
+			}
+            custom_effect_tooltip = OMS_mobilization_speed_tt
+			custom_effect_tooltip = OMS_max_command_power_tt
+			custom_effect_tooltip = OMS_war_support_factor_tt			
+            hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}
+		}  
+	}
+	focus = {
+		id = OMS_soviet_oficial
+		icon = GFX_goal_soviet_oficial
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_perepet_sovshdvr
+			focus = OMS_upor_na_original
+		}
+		mutually_exclusive = {
+			focus = OMS_gospank
+		}
+		x = 16
+		y = 5
+        completion_reward = {
+		    add_to_variable = {
+				OMS_defensive_war_stability_factor = 0.1
+			}
+			add_to_variable = { 
+				OMS_stability_factor = 0.05
+			}
+			custom_effect_tooltip = OMS_defensive_war_stability_factor_tt
+			custom_effect_tooltip = OMS_stability_factor_tt
+            hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}
+		}       
+	}
+	focus = {
+		id = OMS_experiment_zvuk
+		icon = GFX_goal_experiment_zvuk
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_grob_records
+		}
+		x = 18
+		y = 4
+        completion_reward = {
+		random = {
+                chance = 50
+                add_ideas = OMS_zvuk_weapon
+            }
+		random = {
+                chance = 50
+                add_ideas = OMS_zvuk_tank
+            }
+            hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_completed_focus = OMS_kniga_smysla
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}
+		}        
+	}
+	focus = {
+		id = OMS_industrial
+		icon = GFX_goal_industrial
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_sila_music
+		}
+		x = 21
+		y = 3
+        completion_reward = {
+		    add_ideas = OMS_industrial
+			hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}
+        }     
+	}
+	focus = {
+		id = OMS_elektrogitara_ural
+		icon = GFX_goal_elektrogitara_ural
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_industrial
+		}
+		x = 20
+		y = 4
+		completion_reward = {
+        swap_ideas = {
+			remove_idea = OMS_industrial
+			add_idea = OMS_industrial_1
+		}
+		hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}
+		}
+	}
+	focus = {
+		id = OMS_japan_treaty
+		icon = GFX_goal_japan_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_industrial
+		}
+		x = 22
+		y = 4
+		completion_reward = {
+        add_tech_bonus = {
+			bonus = 1
+			uses = 2
+			category = electronics
+		}
+		hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}
+		}
+	}
+	focus = {
+		id = OMS_heavy_music_heavy_industry
+		icon = GFX_goal_heavy_music_heavy_industry
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_elektrogitara_ural
+		}
+		prerequisite = {
+			focus = OMS_japan_treaty
+		}
+		x = 21
+		y = 6
+        completion_reward = {
+        swap_ideas = {
+			remove_idea = OMS_industrial_1
+			add_idea = OMS_industrial_2
+		}
+		random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+							}
+					}
+		random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+							}
+					}
+		random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+							}
+					}
+			hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}		
+		}    
+	}
+	focus = {
+		id = OMS_gospank
+		icon = GFX_goal_gospank
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_perepet_sovshdvr
+			focus = OMS_upor_na_original
+		}
+		mutually_exclusive = {
+			focus = OMS_soviet_oficial
+		}
+		x = 14
+		y = 5
+        completion_reward = {
+		    add_to_variable = {
+				OMS_offensive_war_stability_factor = 0.1
+			}
+			add_to_variable = { 
+				OMS_war_support_factor = 0.05
+			}
+			custom_effect_tooltip = OMS_offensive_war_stability_factor_tt
+			custom_effect_tooltip = OMS_war_support_factor_tt
+            hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}
+		}
+	}
+	focus = {
+		id = OMS_alchemy
+		icon = GFX_goal_alchemy
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_gospank
+			focus = OMS_soviet_oficial
+		}
+		mutually_exclusive = {
+			focus = OMS_old_songs
+		}
+		x = 14
+		y = 6
+        completion_reward = {
+		    add_to_variable = {
+				OMS_consumer_goods_factor = 0.05
+			}
+			add_to_variable = { 
+				OMS_research_speed_factor = 0.05
+			}
+            add_to_variable = {
+				OMS_army_attack_factor = 0.05
+			}
+			add_to_variable = { 
+				OMS_non_core_manpower = 0.05
+			}
+			add_to_variable = {
+				OMS_army_org_factor = -0.025
+			}
+			add_to_variable = { 
+				OMS_memoism_drift = 0.01
+			}
+			custom_effect_tooltip = OMS_1_consumer_goods_factor_tt
+			custom_effect_tooltip = OMS_1_research_speed_factor_tt
+			custom_effect_tooltip = OMS_army_attack_factor_tt
+			custom_effect_tooltip = OMS_non_core_manpower_tt
+			custom_effect_tooltip = OMS_army_org_factor_tt
+			custom_effect_tooltip = OMS_memoism_drift_tt
+            hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}
+		}   
+	}
+	focus = {
+		id = OMS_old_songs
+		icon = GFX_goal_old_songs
+		cost = 10.00
+		prerequisite = {
+			focus = OMS_gospank
+			focus = OMS_soviet_oficial
+		}
+		mutually_exclusive = {
+			focus = OMS_alchemy
+		}
+		x = 16
+		y = 6
+        completion_reward = {
+		    add_to_variable = {
+				OMS_consumer_goods_factor = -0.05
+			}
+			add_to_variable = { 
+				OMS_research_speed_factor = -0.05
+			}
+            add_to_variable = {
+				OMS_army_core_defence_factor = 0.05
+			}
+			add_to_variable = { 
+				OMS_drift_defence_factor = 0.1
+			}   
+			custom_effect_tooltip = OMS_2_consumer_goods_factor_tt
+			custom_effect_tooltip = OMS_2_research_speed_factor_tt
+			custom_effect_tooltip = OMS_army_core_defence_factor_tt
+			custom_effect_tooltip = OMS_drift_defence_factor_tt
+            hidden_effect = {
+					 if = { 
+			        NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = OMS_Letov
+					}	
+				    }
+					promote_character = {
+    character = OMS_Letov
+    ideology = religious_communism
+}	
+			    }	
+			}
+		}     
+	}
+}

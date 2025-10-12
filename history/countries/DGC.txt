@@ -1,0 +1,81 @@
+capital = 400
+
+oob = 123_1936
+
+set_research_slots = 3
+set_stability = 0.4
+set_war_support = 0.4
+set_technology = {
+infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_military_police = 1
+		tech_trucks = 1
+	gw_artillery = 1
+	gwtank_chassis = 1
+	early_fighter = 1
+	tech_support = 1
+	basic_train = 1
+}
+
+add_ideas = {
+	CHT_great_srach_1
+	CHT_shue
+}
+
+set_popularities = {
+	metacommy = 100
+}
+set_politics = {
+	ruling_party = metacommy
+	elections_allowed = no	
+}
+
+set_convoys = 40
+
+create_country_leader = {
+	name = "Даниил Тележный"
+	desc = "POLITICS_LOKSLI_DESC"
+	picture = "telezniy.dds"
+	expire = "1998.1.1"
+	ideology = white_polpotism
+	traits = {
+		#
+	}
+	}
+
+ create_field_marshal = {
+ 	name = "Даниил Тележный"
+	picture = "telezniy.dds"
+            			traits = { Inflexible_Strategist Infantry_Officer Organizer Guerilla_Fighter }
+							skill = 4
+							attack_skill = 4
+							defense_skill = 3
+							planning_skill = 2
+							logistics_skill = 4
+                			legacy_id = -1
+            		}
+
+create_corps_commander = {
+	name = "Сектант Сектантович"
+	id = 50001
+	picture = ""
+	traits = {   }
+	skill = 2
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Uncle Shero"
+	id = 50002
+	picture = ""
+	traits = {   }
+	skill = 2
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}

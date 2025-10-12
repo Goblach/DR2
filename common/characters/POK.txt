@@ -1,0 +1,1352 @@
+characters={
+    POK_PBN = {
+		name = "Покаян Беспруфович"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/POK/Solzhenicin.dds"
+			}
+		}
+
+        country_leader = {
+    		desc = "POLITICS_POKAYAN_DESC"
+			ideology = democratura
+			traits = {
+	         	Otec_russkoy_democracy
+	        }
+			expire = "1999.3.1"
+			id = -1
+		}	
+	}
+    POK_Putin = {
+		name = "Владимир Путин"
+
+		portraits = {
+			army = {				
+				large = "gfx/leaders/POK/Lunar_Pu.dds"
+				small = "GFX_idea_georgy_zhukov"
+			}
+		}	
+	}
+	POK_bukin = {
+		name = "Геннадий Букин"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/POK/Bukin.dds"
+			}
+		}
+
+        country_leader = {
+    		desc = "POLITICS_BUKIN_DESC"
+			ideology = gachi
+			traits = {
+	         	ideological_crusader
+        		el_jefe_maximo
+	        }
+			expire = "1999.3.1"
+			id = -1
+		}	
+	}
+	
+	POK_sharanskiy = {
+		name = "Лев Щаранский"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_Sharanskiy"
+			}
+			army = {
+				large = "gfx/leaders/POK/Sharansky.dds"
+				small = "GFX_idea_POK_Sharanskiy"
+			}
+		}
+
+        country_leader = {
+    		desc = "POLITICS_SHWARANSK_DESC"
+			ideology = fourth_floor
+			traits = {
+	         	Ljesharanskiy
+	        }
+			expire = "1999.3.1"
+			id = -1
+		}	
+		
+		advisor={
+			slot = political_advisor
+			idea_token = POK_Sharanskiy
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_libdem_purity
+		    }
+			traits = {
+				Ljesharanskiy
+			}
+		}
+	}
+	
+	POK_romanova = {
+		name = "Мария Романова"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/POK/Czarica.dds"
+			}
+		}
+
+        country_leader = {
+    		desc = "POLITICS_ROMANOVA_DESC"
+			ideology = oligarchism
+			traits = {
+	         	popular_queen
+	        }
+			expire = "1999.3.1"
+			id = -1
+		}	
+	}
+	
+	POK_grudin = {
+		name = "Фёдор Грудин"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_grudin"
+				large = "gfx/leaders/POK/Grudin.dds"
+			}
+		}
+
+	    corps_commander = {
+			traits = { winter_specialist infantry_officer }
+        	skill = 3
+         	attack_skill = 3
+        	defense_skill = 3
+        	planning_skill = 1
+        	logistics_skill = 3
+			legacy_id = 0
+		}
+		
+		advisor = {	
+		    slot = army_chief
+		    idea_token = POK_grudin
+			allowed = {
+			    original_tag = POK
+			}
+			
+			available = { 	   
+			}
+			traits = { army_chief_morale_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+	    }
+	}
+	
+	POK_nevzorov = {
+		name = "Александр Невзоров"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_nevzorov"
+				large = "gfx/leaders/POK/Nevzorov.dds"
+			}
+		}
+
+	    corps_commander = {
+			traits = { cavalry_leader cavalry_expert }
+        	skill = 3
+         	attack_skill = 4
+        	defense_skill = 2
+        	planning_skill = 3
+        	logistics_skill = 3
+			legacy_id = 0
+		}
+		
+		advisor={
+			slot = high_command
+			idea_token = POK_nevzorov
+			allowed = {
+				original_tag = POK
+			}
+			traits = {
+				army_cavalry_2 
+			}
+		}
+	}
+	
+	POK_psihocossack = {
+		name = "Психоказак"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_psihocossack"
+				large = "gfx/leaders/POK/Psychocossack.dds"
+			}
+		}
+
+	    corps_commander = {
+			traits = { }
+        	skill = 1
+         	attack_skill = 2
+        	defense_skill = 2
+        	planning_skill = 1
+        	logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+	
+	POK_kolya = {
+		name = "Коля Уренгойский"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_kolya"
+				large = "gfx/leaders/POK/kolya_1.dds"
+			}
+		}
+
+	    corps_commander = {
+			traits = { }
+        	skill = 2
+         	attack_skill = 3
+        	defense_skill = 1
+        	planning_skill = 2
+        	logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+	
+	POK_evdokimov = {
+		name = "Сергей Евдокимов"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_evdokimov"
+				large = "gfx/leaders/POK/Sergey_Evdokimov.dds"
+			}
+		}
+
+	    corps_commander = {
+			traits = { armor_officer panzer_leader }
+        	skill = 4
+         	attack_skill = 4
+        	defense_skill = 3
+        	planning_skill = 2
+        	logistics_skill = 3
+			legacy_id = 0
+		}
+		
+		advisor={
+			slot = high_command
+			idea_token = POK_evdokimov
+			allowed = {
+				original_tag = POK
+			}
+			traits = {
+				army_armored_1 
+			}
+		}
+	}
+	
+	POK_shmonov = {
+		name = "Александр Шмонов"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_shmonov"
+				large = "gfx/leaders/POK/Shmonov.dds"
+			}
+		}
+
+	    corps_commander = {
+			traits = { trait_engineer }
+        	skill = 2
+         	attack_skill = 2
+        	defense_skill = 1
+        	planning_skill = 2
+        	logistics_skill = 1
+			legacy_id = 0
+		}
+		
+		advisor={
+			slot = high_command
+			idea_token = POK_shmonov
+			allowed = {
+				original_tag = POK
+			}
+			traits = {
+				army_commando_1 
+			}
+		}
+	}
+	
+	POK_zubov = {
+		name = "Андрей Зубов"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_zubov"
+				large = "gfx/leaders/POK/Zubov.dds"
+			}
+		}
+
+	    corps_commander = {
+			traits = { infantry_officer }
+        	skill = 3
+         	attack_skill = 2
+        	defense_skill = 2
+        	planning_skill = 2
+        	logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+	
+	POK_chubays = {
+		name = "Анатолий Чубайс"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_chubays"
+				large = "gfx/leaders/GAL/Rosov.dds"				
+			}
+		}
+            
+        advisor={
+			slot = political_advisor
+			idea_token = POK_chubays
+             
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_chrezvichaniye_p
+		    } 
+			traits = {
+				nanotoliy
+			}
+		}
+		
+	}
+	
+	POK_gaydar = {
+		name = "Егор Гайдар"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_gaydar"
+				large = "gfx/leaders/GAL/Rosov.dds"				
+			}
+		}            
+        advisor={
+			slot = political_advisor
+			idea_token = POK_gaydar
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_Running_in_the_90s
+		    }
+			traits = {
+				captain_of_industry 
+			}
+		}
+		
+	}
+	
+	POK_uchitel = {
+		name = "Учитель"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_"
+				large = "gfx/leaders/POK/.dds"				
+			}
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = POK_uchitel
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {   			
+			    has_completed_focus = POK_sderzhki_i_protivovesi       
+		    }			
+			traits = {
+				soavtor_VNB 
+			}
+		}
+		
+	}
+	
+	POK_lyadov = {
+		name = "Антон Лядов"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_lyadov"
+				large = "gfx/leaders/GAL/Rosov.dds"				
+			}
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = POK_lyadov
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			traits = {
+			propaganda_expert	 
+			}
+		}
+		
+	}
+	
+	POK_miller = {
+		name = "Алексей Миллер"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_miller"
+				large = "gfx/leaders/GAL/Rosov.dds"				
+			}
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = POK_miller
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {
+                OR = {      			
+			        has_completed_focus = POK_sderzhki_i_protivovesi
+					has_completed_focus = POK_lunar_Putin
+			    }        
+		    } 
+			traits = {
+				gazoviy_gigant 
+			}
+		}
+		
+	}
+	
+	POK_pivovarov = {
+		name = "Алексей Пивоваров"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_pivovarov"
+				large = "gfx/leaders/GAL/Rosov.dds"				
+			}
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = POK_pivovarov
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {
+                OR = {      			
+			        has_completed_focus = POK_sderzhki_i_protivovesi
+					has_completed_focus = POK_lunar_Putin
+					has_completed_focus = POK_komitet_spaseniya
+			    }        
+		    }
+			traits = {
+				pokrovitel_alcogolnoy_promki 
+			}
+		}
+		
+	}
+	
+	POK_potanin = {
+		name = "Владимир Потанин"
+
+		portraits = {
+		    civilian = {
+				small = "GFX_idea_POK_potanin"
+				large = "gfx/leaders/POK/Potanin.dds"				
+			}      
+			army = {
+				small = "GFX_idea_POK_potanin"
+				large = "gfx/leaders/POK/Potanin.dds"				
+			}
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = POK_potanin
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {
+                OR = {      			
+			        has_completed_focus = POK_sderzhki_i_protivovesi
+					has_completed_focus = POK_lunar_Putin
+					has_completed_focus = POK_komitet_spaseniya
+			    }        
+		    }
+			traits = {
+				borec_za_ecologiyu 
+			}
+		}
+		
+	}
+	
+	POK_sechin = {
+		name = "Игорь Сечин"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_sechin"
+				large = "gfx/leaders/GAL/Rosov.dds"				
+			}
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = POK_sechin
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {
+				has_completed_focus = POK_lunar_Putin       
+		    }
+			traits = {
+				toplivniy_baron 
+			}
+		}
+		
+	}
+	
+	POK_bikov = {
+		name = "Дмитрий Быков"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_bikov"
+				large = "gfx/leaders/GAL/Rosov.dds"				
+			}
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = POK_bikov
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {
+				has_completed_focus = POK_komitet_spaseniya       
+		    }
+			traits = {
+				civilian_poet
+			}
+		}
+		
+	}
+	
+	POK_g_popov = {
+		name = "Гавриил Попов"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_g_popov"
+				large = "gfx/leaders/GAL/Rosov.dds"				
+			}
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = POK_g_popov
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {
+				has_completed_focus = POK_komitet_spaseniya       
+		    }
+			traits = {
+				economist
+			}
+		}
+		
+	}
+	
+	POK_kasyanov = {
+		name = "Михаил Касьянов"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_kasyanov"
+				large = "gfx/leaders/GAL/Rosov.dds"				
+			}
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = POK_kasyanov
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {
+                OR = {      			
+			        has_completed_focus = POK_sderzhki_i_protivovesi
+					has_completed_focus = POK_Ya_prihozhu
+					has_completed_focus = POK_libdem_purity
+			    }        
+		    }
+			traits = {
+				economic_reformer
+				kadet
+			}
+		}
+		
+	}
+	
+	POK_svanidze = {
+		name = "Николай Сванидзе"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_svanidze"
+				large = "gfx/leaders/GAL/Rosov.dds"				
+			}
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = POK_svanidze
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			traits = {
+				liberal_professor
+			}
+		}
+		
+	}
+	
+	POK_titov = {
+		name = "Борис Титов"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_POK_titov"
+				large = "gfx/leaders/GAL/Rosov.dds"				
+			}
+		}
+
+        advisor={
+			slot = political_advisor
+			idea_token = POK_titov
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {
+				has_completed_focus = POK_lunar_Putin       
+		    }
+			traits = {
+				the_statist
+				a_chto
+			}
+		}
+		
+	}
+	POK_Tesak = {
+		name = "Максим «Тесак» Марцинкевич"
+		portraits = {		
+			army = {
+				large = "gfx/leaders/YSK/Tesak.dds"
+				small= "idea_CHK_Cha_La_Ev"
+			}
+		}
+	}
+    POK_Slovolzhicen = {
+		name = "Александр Словолжицин"
+
+		portraits = {
+			army = {				
+				large = "gfx/leaders/POK/Slovolzhicen.dds"
+				small = "GFX_idea_georgy_zhukov"
+			}
+		}	
+	}
+	
+	POK_Teresa = {
+		name = "Мария Тереза"
+
+		portraits = {
+			army = {
+				large = "gfx/leaders/ZNS/Tereza.dds"
+				small= "GFX_idea_ZNS_Tereza"
+			}
+			civilian = {
+				small = "GFX_idea_ZNS_Tereza"
+			}
+		}
+	}
+	POK_Marin_FF = {
+		name = "Марина Шрапнель"
+
+		portraits = {
+			 army = {
+				large = "gfx/leaders/ZNS/Marina_Shrapnel.dds"
+			}
+		}	
+	}
+	POK_Zolotov = {
+		name = "Виктор Золотов"
+
+		portraits = {
+			army = {
+				large = "gfx/leaders/POK/Zolotov.dds"
+				small = "GFX_idea_georgy_zhukov"
+			}
+		}	
+	}	
+	POK_Grachev = {
+		name = "Павел «Мерседес» Грачёв"
+
+		portraits = {
+			army = {
+				large = "gfx/leaders/POK/Grachev.dds"
+				small = "GFX_idea_georgy_zhukov"
+			}
+		}	
+	}	
+	POK_Eltsin = {
+		name = "Борис Ельцин"
+
+		portraits = {
+			army = {
+				large = "gfx/leaders/POK/ebn_general.dds"
+				small = "GFX_idea_georgy_zhukov"
+			}
+		}	
+	}
+	POK_Taburetka = {
+		name = "Генерал Табуретка"
+
+		portraits = {
+			army = {
+				large = "gfx/leaders/POK/Taburetka.dds"
+				small = "GFX_idea_POK_taburetka"
+			}
+		}
+        advisor = {	
+			slot = army_chief
+			idea_token = POK_Taburetka
+			allowed = {
+				original_tag = POK
+			}
+			traits = {
+				army_chief_reform_2
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+			visible = {		
+			has_completed_focus = POK_reform_army
+		    } 
+		}		
+	}
+	POK_Elias_Wise = {
+		name = "Элиас Вайс"
+
+		portraits = {
+			army = {
+				large = "gfx/leaders/POK/Elias_Wise.dds"
+				small = "GFX_idea_elias_wise"
+			}
+		}	
+	}
+    POK_Hodorkovskiy = {
+		name = "Михаил Ходорковский"
+
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POK/Hodorkovskiy.dds"
+				small = "GFX_idea_POK_Hodor"
+			}
+		}
+        advisor={
+			slot = political_advisor
+			idea_token = POK_Hodorkovskiy
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_komitet_spaseniya
+			NOT = { has_country_leader = { character = POK_Hodorkovskiy ruling_only = yes } }
+		    }
+			traits = {
+				backroom_backstabber
+			}
+		}       		
+	}	
+	POK_Shulman = {
+		name = "Екатерина Шульман"
+
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POK/Shulman.dds"
+				small = "GFX_idea_georgy_zhukov"
+			}
+		}	
+	}
+	POK_Denis_Lendliz = {
+		name = "Денис Лендлиз"
+
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POK/Denis_Lendliz.dds"
+				small = "GFX_idea_georgy_zhukov"
+			}
+		}	
+	}
+	
+	POK_NOVOD = {
+		name = "Валерия Новодворская"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "GFX_POK_novodvorskaya_ap"
+			}
+		}	
+	}
+	
+    POK_Latynina = {
+		name = "Юлия Латынина"
+
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POK/Latynina.dds"
+				small = "GFX_idea_POK_Latynina"
+			}
+			army = {
+				large = "gfx/leaders/POK/Latynina.dds"
+				small = "GFX_idea_georgy_zhukov"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POK_Latynina
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_komitet_spaseniya
+		    }
+			traits = {
+				Oscillografinya
+			}
+		}
+        corps_commander = {
+			traits = { harsh_leader }
+        	skill = 1
+         	attack_skill = 1
+        	defense_skill = 1
+        	planning_skill = 1
+        	logistics_skill = 1
+			legacy_id = 0
+			visible = {		
+			has_completed_focus = POK_komitet_spaseniya
+		    }
+		}        		
+	}
+	POK_Eydelman = {
+		name = "Тамара Эйдельман"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_Eydelman"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POK_Eydelman
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_komitet_spaseniya
+		    }
+			traits = {
+				uchitel_goda
+			}
+		}       		
+	}
+	POK_Saprikina = {
+		name = "Хатима Сапрыкина"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_Saprikina"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POK_Saprikina
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_komitet_spaseniya
+		    }
+			traits = {
+				min_obr
+			}
+		}       		
+	}
+	POK_Yavlinskiy = {
+		name = "Григорий Явлинский"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_Iavlinskiy"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POK_Yavlinskiy
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_ally_evrosocdems
+			not = { has_idea = POK_Iavlinskiy1 }
+		    }
+			traits = {
+				political_trup
+				old_socdem
+			}
+		}       		
+	}
+	POK_Serebryannikov = {
+		name = "Кирилл Серебрянников"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_Serebryannikov"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POK_Serebryannikov
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_komitet_spaseniya
+		    }
+			traits = {
+				min_kult
+			}
+		}       		
+	}
+	POK_Ahedjakova = {
+		name = "Лия Ахеджакова"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_Ahedzhakova"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POK_Ahedjakova
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_komitet_spaseniya
+		    }
+			traits = {
+			    smooth_talking_charmer
+				prince_of_terror
+			}
+		}       		
+	}
+	POK_Hamatova = {
+		name = "Чулпан Хаматова"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_Hamatova"
+			}
+			army = {
+				large = "gfx/leaders/POK/Hamatova.dds"
+				small = "GFX_idea_POK_Hamatova"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POK_Hamatova
+
+			allowed = { 
+			    OR = {
+				original_tag = POK
+				original_tag = IDU
+				}
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			OR = {
+			has_completed_focus = POK_komitet_spaseniya
+			original_tag = IDU
+			}
+		    }
+			traits = {
+				staunch_loyalist
+			}
+		}   
+
+        corps_commander = {
+			traits = { }
+        	skill = 1
+         	attack_skill = 1
+        	defense_skill = 1
+        	planning_skill = 1
+        	logistics_skill = 1
+			legacy_id = 0
+			visible = {		
+			OR = {
+			has_completed_focus = POK_komitet_spaseniya
+			original_tag = IDU
+			}
+		    }
+		}       		
+	}
+	POK_Enteo = {
+		name = "Дмитрий Энтео"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_Enteo"
+			}
+			army = {
+				large = "gfx/leaders/POK/Enteo.dds"
+				small = "GFX_idea_POK_Enteo"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POK_Enteo
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_radical_decommunisation
+		    }
+			traits = {
+				inkvizitor_decommunizatsii
+			}
+		}   
+
+        corps_commander = {
+			traits = { }
+        	skill = 1
+         	attack_skill = 1
+        	defense_skill = 1
+        	planning_skill = 1
+        	logistics_skill = 1
+			legacy_id = 0
+			visible = {		
+			has_completed_focus = POK_ally_loyal_monarchists
+		    }
+		}       		
+	}
+	POK_Lebedev = {
+		name = "Евгений Лебедев"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_Lebedev"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POK_Lebedev
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_ally_loyal_monarchists
+			not = { has_idea = POK_baron_sibirskiy }
+		    }
+			traits = {
+				baron_sibir
+			}
+		}
+	}
+	POK_Krilov = {
+		name = "Олег Кашин"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_Krilov"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POK_Krilov
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_ally_loyal_monarchists
+			not = { has_idea = POK_Krilov1 }
+		    }
+			traits = {
+				DEN_rightwing_populist
+			}
+		}
+	}
+    POK_Ponomaryov = {
+		name = "Илья Пономарёв"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_Ponomaryov"
+			}
+			army = {
+				large = "gfx/leaders/POK/Ponomaryov_general.dds"
+				small = "GFX_idea_georgy_zhukov"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POK_Ponomaryov
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_ally_evrosocdems
+		    }
+			traits = {
+			disarmament_proponent
+			}
+		}
+		corps_commander = {
+			traits = { }
+        	skill = 1
+         	attack_skill = 1
+        	defense_skill = 1
+        	planning_skill = 1
+        	logistics_skill = 1
+			legacy_id = 0
+			visible = {		
+			has_completed_focus = POK_ally_evrosocdems
+		    }
+		}
+	}	
+    POK_Katz = {
+		name = "Максим Кац"
+
+		portraits = {
+		    civilian = {
+				large = "gfx/leaders/POK/Katz.dds"
+				small = "GFX_idea_georgy_zhukov"
+			}     
+			army = {
+				large = "gfx/leaders/POK/Katz_general.dds"
+				small = "GFX_idea_georgy_zhukov"
+			}
+		}	
+	}	
+	POK_Panin = {
+		name = "Алексей Панин"
+
+		portraits = {
+			army = {
+				large = "gfx/leaders/POK/Panin.dds"
+				small = "GFX_idea_georgy_zhukov"
+			}
+		}	
+	}
+    POK_Tatyana_Yumasheva = {
+		name = "Татьяна Юмашева"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_yumasheva"
+			}
+		}
+        advisor={
+			slot = political_advisor
+			idea_token = POK_Tatyana_Yumasheva
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_Ya_prihozhu
+		    }
+			traits = {
+				propaganda_expert
+			}
+		}       		
+	}
+    POK_Valentin_Yumashev = {
+		name = "Валентин Юмашев"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_yumashev"
+			}
+		}
+        advisor={
+			slot = political_advisor
+			idea_token = POK_Valentin_Yumashev
+
+			allowed = {
+				original_tag = POK
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			visible = {		
+			has_completed_focus = POK_Ya_prihozhu
+		    }
+			traits = {
+				prince_of_terror
+			}
+		}     		
+	}        
+    POK_nevzlin = {
+		name = "Леонид Невзлин"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POK_nevzlin"
+			}
+		}
+        advisor = {
+			slot = political_advisor
+			idea_token = POK_nevzlin
+			allowed = {
+				original_tag = POK
+			}
+			visible = {		
+			has_country_leader = { character = POK_Hodorkovskiy ruling_only = yes }
+		    }
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				head_of_intelligence 
+			}
+		}     		
+	}  	
+}

@@ -1,0 +1,531 @@
+ideas = {
+    country = {	
+	        UKR_ukraine_ne_oboytis_bez_uglya_donbassa = {
+			
+				modifier = {
+					consumer_goods_factor = 0.1
+			    	industrial_capacity_factory = -0.2
+			    }
+	        }
+			
+			UKR_mastera = {
+			
+					equipment_bonus = {
+	            		armor = {
+	             			armor_value = 0.05 reliability = 0.05
+	             		}
+	            	}
+	        }
+	
+			UKR_nazbati_MVD = {
+			
+		    	picture = GAL_mentovshina
+	
+			    modifier = {
+					resistance_growth = -0.25
+			    }
+		    }
+			
+			UKR_investicii = {
+			
+			    modifier = {
+					consumer_goods_factor = 0.1
+		        }
+	        }
+			
+			UKR_kiborgi = {
+			
+			    modifier = {
+					army_defence_factor = 0.15
+		        }
+	        }
+			
+			UKR_oborona_v_kotlah = {
+			
+			    modifier = {
+					attrition = -0.1
+					no_supply_grace = 240
+		        }
+	        }
+			
+			UKR_agr_sverh = {
+			
+			    modifier = {
+					consumer_goods_factor = -0.05
+		        }
+	        }
+			
+			UKR_ch_a_metal = {
+			
+			    modifier = {
+					industrial_capacity_factory = 0.05
+					production_speed_buildings_factor = -0.05
+		        }
+	        }
+			
+			UKR_voini_lisu_i = {
+			
+			    modifier = {
+					resistance_growth_on_our_occupied_states = 0.1 
+			    	resistance_damage_to_garrison_on_our_occupied_states = 0.25 
+		        }
+	        }
+			
+    		UKR_tsipso_i = {
+
+	    		modifier = {
+	    			subversive_activites_upkeep = -0.5
+	    			root_out_resistance_effectiveness_factor = 0.1
+	    			resistance_damage_to_garrison = -0.05
+	    		}
+	    	}
+			
+			UKR_tsipso2_i = {
+
+	    		modifier = {
+	    			subversive_activites_upkeep = -0.75
+	    			operative_slot = 1
+	    			root_out_resistance_effectiveness_factor = 0.1
+	    			resistance_damage_to_garrison = -0.05
+	    		}
+	    	}
+			
+			UKR_upor_na_nazbati = {
+
+	    		modifier = {
+	    			root_out_resistance_effectiveness_factor = 0.1
+	    			resistance_damage_to_garrison = -0.1
+					modifier_army_sub_unit_militia_attack_factor = 0.5
+					modifier_army_sub_unit_militia_defence_factor = 0.5
+	    		}
+	    	}
+			
+			UKR_upor_na_vsu = {
+
+	    		modifier = {
+	    			army_attack_factor = 0.15
+					army_defence_factor = 0.15
+	    		}
+	    	}
+
+			UKR_nahruk_level_1 = {
+			
+			picture = UKR_nahruk
+		
+			    modifier = {
+	       			war_support_factor = 0.01
+                    army_org_factor = 0.01
+					political_power_factor = 0.01
+		        }
+	        }
+			
+			UKR_nahruk_level_2 = {
+			
+			picture = UKR_nahruk
+		
+			    modifier = {
+	       			war_support_factor = 0.03
+                    army_org_factor = 0.03
+					political_power_factor = 0.03
+		        }
+	        }
+			
+			UKR_nahruk_level_3 = {
+			
+			picture = UKR_nahruk
+			
+			    modifier = {
+				 	war_support_factor = 0.05
+                    army_org_factor = 0.05
+					political_power_factor = 0.05
+		        }
+	        }
+			
+			UKR_nahruk_level_4 = {	
+
+			picture = UKR_nahruk
+			
+			    modifier = {
+	       			war_support_factor = 0.07
+                    army_org_factor = 0.07
+					political_power_factor = 0.07
+		        }
+	        }
+			
+			UKR_nahruk_level_5 = {
+			
+			picture = UKR_nahruk
+			
+			    modifier = {
+				    war_support_factor = 0.1
+                    army_org_factor = 0.1
+					political_power_factor = 0.1
+		        }
+	        }
+			
+			UKR_nahruk_level_6 = {
+			
+			picture = UKR_nahruk
+			
+			    modifier = {
+				   	war_support_factor = 0.12
+                    army_org_factor = 0.12
+					political_power_factor = 0.12
+		        }
+	        }
+			
+			UKR_nahruk_level_7 = {
+			
+			picture = UKR_nahruk
+			
+			    modifier = {
+				    war_support_factor = 0.15
+                    army_org_factor = 0.15
+					political_power_factor = 0.15
+		        }
+	        }
+			
+		    UKR_nahruk_level_8 = {
+			
+			picture = UKR_nahruk
+			
+			    modifier = {
+				    war_support_factor = 0.18
+                    army_org_factor = 0.18
+					political_power_factor = 0.18
+		        }
+	        }
+			
+			UKR_nahruk_level_9 = {
+			
+			picture = UKR_nahruk
+			
+			    modifier = {
+	       			war_support_factor = 0.2
+                    army_org_factor = 0.2
+					political_power_factor = 0.2
+		        }
+	        }
+			
+			UKR_nahruk_level_10 = {
+			
+			picture = UKR_nahruk
+			
+			    modifier = {
+	       			war_support_factor = 0.25
+                    army_org_factor = 0.25
+					political_power_factor = 0.25
+		        }
+	        }
+			
+			UKR_oligarhiya = {
+			
+			    modifier = {
+					consumer_goods_factor = -0.05
+					stability_factor = -0.1
+		        }
+	        }
+			
+			UKR_evr_arm = {
+			
+			    modifier = {
+				    conscription = 0.05
+		        }
+	        }
+			
+			UKR_evr_gen = {
+			
+			    modifier = {
+			    	stability_factor = -0.05
+				    political_power_factor = 0.1
+		        }
+	        }
+			
+			UKR_goi = {
+	
+			   modifier = {
+					stability_factor = -0.05
+					industrial_capacity_factory = 0.1				
+			    }
+		    }
+			
+			UKR_shabbat = {
+			
+			    modifier = {
+				    political_power_factor = 0.05
+		        }
+	        }
+			
+			UKR_zhenlagi = {
+	
+			   modifier = {
+					industrial_capacity_factory = 0.1				
+			    }
+		    }
+    }
+	
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		UKR_rostic = {
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			available = {
+				has_country_leader = {
+			    	character = UKR_poroshenko
+			    	ruling_only = yes
+			    }
+			}
+			
+			traits = { genialniy_tankoviy_konstructor }
+
+			ai_will_do = {
+				factor = 10
+			}
+
+		}
+		
+		UKR_ZimM = {
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			available = {
+				controls_state = 221
+			}
+			
+			traits = { heavy_tank_manufacturer }
+
+			ai_will_do = {
+				factor = 10
+			}
+
+		}
+		
+		UKR_HBZ = {
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			available = {
+				controls_state = 221
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		UKR_HKBM = {
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			available = {
+				controls_state = 221
+			}
+			
+			traits = { medium_tank_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+	
+	}
+	
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		UKR_MiGremont = {
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+        UKR_Motor_sich = { 
+
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			available = {
+				controls_state = 200
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+        UKR_chuguevskiy_ARZ = {
+
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		UKR_HAZ = {
+
+			allowed = {
+				original_tag = UKR
+			}
+			
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+		
+		UKR_yuzhmash = {
+
+			allowed = {
+				original_tag = UKR
+			}
+			
+						
+			research_bonus = {
+				rocketry = 0.150
+			}
+			traits = {
+				rocket_scientist
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}		
+
+	}
+	
+		industrial_concern = {
+		
+		UKR_roshen = {
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			research_bonus = {
+				industry = 0.15
+				
+			}
+			modifier = {
+				stability_factor = 0.05
+			}
+			available = {
+				has_completed_focus = UKR_vernut_zavod_roshen
+			}	
+			ai_will_do = {
+				factor = 2
+			}
+			
+			traits = { industrial_concern }
+		}
+		
+		UKR_HELZ = {
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}
+		}
+		
+		materiel_manufacturer = {
+		
+		designer = yes
+		
+		UKR_ZAZ = {
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+	}		
+}	

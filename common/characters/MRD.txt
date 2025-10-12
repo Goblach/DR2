@@ -1,0 +1,364 @@
+characters = {
+	MRD_Sauron_the_Great = {
+		name = "Саурон Великий"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MRD/Sauron.dds"
+			}
+			army = {
+				large = "gfx/leaders/MRD/Sauron.dds"
+			}
+		}
+		country_leader = {
+			ideology = sauronism
+			expire = "1999.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = {war_hero}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+        }
+	}
+	
+	#####ПОЛИТСОВЕТНИКИ#####
+	
+	MRD_Sarumyan = {
+		name = "Сарумян"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_MRD_Sarumyan"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MRD_idea_Sarumyan
+			traits  = {
+				silent_workhorse 
+			}
+		}
+	}
+	MRD_madam_Marchiano = {
+		name = "Мадам Марчиано"
+		desc = MRD_madam_Marchiano_desc
+		portraits = {
+			civilian = {
+				small = "GFX_idea_MRD_madam_Marchiano"
+			}
+		}
+		gender = female		###Вот_тут_хуй_знает_насамом_деле
+		advisor = {
+			slot = political_advisor
+			idea_token = MRD_idea_madam_Marchiano
+			available = {
+				has_country_leader = {
+					character  = MRD_Sauron_the_Great
+				}
+			}
+			traits  = {
+				top_vaifu 
+			}
+		}
+	}
+	MRD_goliy = {
+		name = "Шмыга «Голый»"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_MRD_goliy"
+			}
+		}
+		gender = male
+		advisor = {
+			slot = political_advisor
+			idea_token = MRD_idea_goliy
+			available = {
+				has_country_leader = {
+					character  = MRD_Sauron_the_Great
+				}
+			}
+			allowed  = {
+				original_tag = MRD
+			}
+			traits  = {
+				first_lady 
+			}
+		}
+	}
+	MRD_glashatai_saurona = {
+		name = "Глашатай Саурона"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_MRD_glashatai_saurona"
+			}
+			army = {
+				small = "GFX_idea_MRD_glashatai_saurona"
+				large = "gfx/leaders/MRD/Glashatai_Saurona.dds"
+			}
+		}
+		gender = male
+		advisor = {
+			slot = political_advisor
+			idea_token = MRD_idea_glashatai_saurona
+			available = {
+				has_intelligence_agency = yes
+				has_country_leader = {
+					character  = MRD_Sauron_the_Great
+				}
+			}
+			allowed  = {
+				has_dlc = "La Resistance"
+				original_tag = MRD
+			}
+			traits  = {
+				prince_of_terror
+				head_of_intelligence
+			}
+		}
+	}
+	MRD_Albert_Wesker = {
+		name = "Альберт Вескер"
+		portraits = {
+			army = {
+				small = "GFX_idea_Albert_Wesker"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MRD_idea_Albert_Wesker
+			allowed  = {
+				original_tag = MRD
+			}
+			traits = {
+				head_of_the_nkvd_beriya_initial
+			}
+		}
+	}
+	
+	#####НАЗГУЛ#####
+	
+	MRD_korol_charodey = {
+		name = "Король-чародей Ангмара"
+		portraits = {
+			army = {
+				small = "GFX_idea_korol_charodey"
+				large = "gfx/leaders/MRD/king_charodey.dds"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = korol_charodey
+			ledger = army
+			traits = {
+				blitzkrieg_theorist 
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist armor_officer winter_specialist career_officer  offensive_doctrine }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	MRD_nazgul_Abdulpoel = {
+		name = "Абдулпоел"
+		portraits = {
+			army = {
+				small = "GFX_idea_Portrait_Mordor_Abdulpoel"
+				large = "gfx/leaders/MRD/Portrait_Mordor_Abdulpoel.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_MRD_megaklinok }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	MRD_nazgul_Aigul = {
+		name = "Айгюль"
+		portraits = {
+			army = {
+				small = "GFX_idea_Portrait_Mordor_Aigul"
+				large = "gfx/leaders/MRD/Portrait_Mordor_Aigul.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_MRD_megaklinok }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	MRD_nazgul_Bibigul = {
+		name = "Бибигюль"
+		portraits = {
+			army = {
+				small = "GFX_idea_Portrait_Mordor_Bibigul"
+				large = "gfx/leaders/MRD/Portrait_Mordor_Bibigul.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_MRD_megaklinok }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	MRD_nazgul_Gyulchatay = {
+		name = "Гюльчатай"
+		portraits = {
+			army = {
+				small = "GFX_idea_Portrait_Mordor_Gyulchitay"
+				large = "gfx/leaders/MRD/Portrait_Mordor_Gyulchitay.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_MRD_megaklinok }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	MRD_nazgul_Nazgul = {
+		name = "Назгуль"
+		portraits = {
+			army = {
+				small = "GFX_idea_Portrait_Mordor_Nazgul"
+				large = "gfx/leaders/MRD/Portrait_Mordor_Nazgul.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_MRD_megaklinok }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	MRD_nazgul_Hamul = {
+		name = "Хаммуль"
+		portraits = {
+			army = {
+				small = "GFX_idea_Portrait_Mordor_Hamul"
+				large = "gfx/leaders/MRD/Portrait_Mordor_Hamul.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_MRD_megaklinok }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	MRD_nazgul_Shmaiser = {
+		name = "Шмайсер"
+		portraits = {
+			army = {
+				small = "GFX_idea_Portrait_Mordor_Shmaiser"
+				large = "gfx/leaders/MRD/Portrait_Mordor_Shmaiser.dds"
+			}
+		}
+
+		corps_commander = {
+			traits = { trait_MRD_megaklinok }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	MRD_nazgul_Shredder = {
+		name = "Шреддер"
+		portraits = {
+			army = {
+				small = "GFX_idea_Portrait_Mordor_Shredder"
+				large = "gfx/leaders/MRD/Portrait_Mordor_Shredder.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_MRD_megaklinok }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	#####ГЕНЕРАЛЫ#####
+	
+	MRD_pendalf = {
+		name = "Глеб Егорович Пендальф"
+		portraits = {
+			army = {
+				small = "GFX_idea_pendalf"
+				large = "gfx/leaders/MRD/Pendalf.dds"
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist media_personality  war_hero infantry_officer winter_specialist }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MRD_idea_pendalf
+			allowed  = {
+				original_tag = MRD
+			}
+			traits  = {
+				army_infantry_2 
+			}
+		}
+	}
+	MRD_Vlad_Makarov = {
+		name = "Влад Макаров"
+		portraits = {
+			army = {
+				small = "GFX_idea_Vlad_Makarov"
+				large = "gfx/leaders/MRD/Vlad_Makarov.dds"
+			}
+		}
+
+		corps_commander = {
+			traits = { brilliant_strategist media_personality  war_hero infantry_officer winter_specialist }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MRD_idea_Makarov
+			allowed  = {
+				original_tag = MRD
+			}
+			traits = {
+				army_chief_drill_1
+			}
+		}
+	}
+}

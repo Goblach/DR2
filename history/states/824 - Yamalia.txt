@@ -1,0 +1,31 @@
+
+state = {
+	id = 824
+	name = "STATE_824" # Yamalia
+	manpower = 51974
+	
+	state_category = pastoral
+
+	history = {
+		owner = POK
+		victory_points = {
+			10536 2
+		}
+		victory_points = {
+			12517 1
+		}
+		victory_points = {
+			12545 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = POK
+	}
+
+	provinces = {
+		96 1729 1757 3415 4761 7809 10536 10564 12517 12545 
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,63 @@
+capital = 397
+
+oob = SKT_1936
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = SKT_maksim
+recruit_character = SKT_levoborod
+recruit_character = SKT_kulov
+recruit_character = SKT_reutskiy
+recruit_character = SKT_fomin
+recruit_character = SKT_filya
+recruit_character = SKT_cybergulag
+recruit_character = SKT_pechenka
+recruit_character = SKT_Ershov
+recruit_character = SKT_unicorn
+recruit_character = SKT_zhofer
+recruit_character = SKT_animecom
+recruit_character = SKT_tovbard
+recruit_character = SKT_kosmov
+recruit_character = SKT_Aleksandr_Lebedev
+recruit_character = SKT_Artur_Liberhasse
+recruit_character = SKT_Snezhka
+recruit_character = SKT_Semetskiy
+recruit_character = SKT_RidGold
+recruit_character = SKT_Red_Dyatel
+recruit_character = SKT_NoName_Signal
+recruit_character = SKT_Vladimir_Shcheulov
+recruit_character = SKT_Gamburg
+
+recruit_character = SKT_sovet_borodachey
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+PRM_ural_karapuz
+SKT_hui_ded_Maksim
+}
+
+set_popularities = {
+	memoism = 100
+}
+set_politics = {
+	ruling_party = memoism
+	elections_allowed = no	
+}
+
+set_convoys = 40
+
+create_operative_leader = {
+		name = "Артур Либерхассе"
+		portrait_path = "gfx/leaders/SKT/Artur_Liberhasse.dds"
+		traits = { operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SKT }
+}

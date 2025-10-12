@@ -1,0 +1,379 @@
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	MRD_infantry_idle
+	MRD_infantry_neutral_combat
+	MRD_infantry_positive_combat
+	MRD_infantry_retreat
+	MRD_infantry_move_out
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+########## MRD
+
+soundeffect = 
+{
+    name = "MRD_infantry_idle"		#Это_когда_юниты_выбираешь
+    sounds = {
+        sound = ebalo_zakroi
+		sound =	filtrui_bazar
+        sound = urki_moi_vernye
+		sound =	v_turme_seichas_uzhin
+		sound = v_zhivote_pizdec
+		sound = zacuson
+		sound = atas
+        sound = broneboynimi_zaryazhai
+		sound =	ya_yzhe_primorilsya
+        sound = slavyanskiy_shkaf
+		sound =	psikhicheskyu_ataku
+		sound =	poneslas_mocha_po_trubam
+		sound =	bratva_interesuyetsa
+		sound =	skuchno_bez_vodki
+		sound = noviye_krossovki
+		sound = skilki_ya_zarezav
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect = 
+{
+    name = "MRD_infantry_neutral_combat"		#Это_когда_юниты_в_бою
+    sounds = {
+		sound = patronov_ne_zhalet
+		sound = mochite_vseh
+        sound = igraem_ot_oboroni
+		sound = bey_gorodskih
+        sound = nachinayte_mochit_kozlov
+	    sound = mochi_kozlov
+        sound = mochi_kozlov_2
+        sound = mochi_kozlov_3
+        sound = mochi_kozlov_4
+        sound = mochi_kozlov_5
+		sound = kozlyata_1
+		sound = kozlyata_2
+		sound = kozlyata_3
+		sound =	v_turme_seichas_uzhin
+		sound = v_zhivote_pizdec
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "MRD_infantry_positive_combat"		#Это_когда_юниты_в_победном_бою
+    sounds = {
+		sound = patronov_ne_zhalet
+		sound = mochite_vseh
+		sound = bey_gorodskih
+		sound = urramengaskey
+		sound = kto_ne_popal_loh
+        sound = mochi_kozlov
+        sound = mochi_kozlov_2
+        sound = mochi_kozlov_3
+        sound = mochi_kozlov_4
+        sound = mochi_kozlov_5
+		sound =	v_turme_seichas_uzhin
+		sound = v_zhivote_pizdec
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "MRD_infantry_retreat"		#Это_когда_юниты_отступают
+    sounds = {
+        sound = igraem_ot_oboroni
+        sound = uzhin
+        sound = pora_bi_pouzhinat
+		sound = nado_valit
+        sound = ni_shagu_nazad
+		sound = kozlyata_1
+		sound =	v_turme_seichas_uzhin
+		sound = v_zhivote_pizdec
+		sound = bestolku_shashkoi_mahat
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "MRD_infantry_move_out"		#Это_когда_юниты_отправляешь_куда-то
+    sounds = {
+		sound =	seyte_razumnoye
+		sound = shire_shag
+        sound = zmi_zaletniye
+		sound =	bratva_interesuyetsa
+        sound = prival_v_morge
+        sound = mochi_kozlov_3
+        sound = mochi_kozlov_4
+        sound = mochi_kozlov_5
+		sound = komanda_begom
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## MRD
+
+soundeffect = 
+{
+    name = "KLG_infantry_idle"		#Это_когда_юниты_выбираешь
+    sounds = {
+        sound = klg_idle_002
+		sound =	klg_idle_001
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1.25
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+
+############## AUDIO ASSETS
+
+################# MRD
+sound = 
+{
+	name = "atas"
+	file = "mrd/atas.wav"
+}
+sound = 
+{
+	name = "bestolku_shashkoi_mahat"
+	file = "mrd/bestolku_shashkoi_mahat.wav"
+}
+sound = 
+{
+	name = "bey_gorodskih"
+	file = "mrd/bey_gorodskih.wav"
+}
+sound = 
+{
+	name = "bratva_interesuyetsa"
+	file = "mrd/bratva_interesuyetsa.wav"
+}
+sound = 
+{
+	name = "broneboynimi_zaryazhai"
+	file = "mrd/broneboynimi_zaryazhai.wav"
+}
+sound = 
+{
+	name = "igraem_ot_oboroni"
+	file = "mrd/igraem_ot_oboroni.wav"
+}
+sound = 
+{
+	name = "komanda_begom"
+	file = "mrd/komanda_begom.wav"
+}
+sound = 
+{
+	name = "kozlyata_1"
+	file = "mrd/kozlyata_1.wav"
+}
+sound = 
+{
+	name = "kozlyata_2"
+	file = "mrd/kozlyata_2.wav"
+}
+sound = 
+{
+	name = "kozlyata_3"
+	file = "mrd/kozlyata_3.wav"
+}
+sound = 
+{
+	name = "kto_ne_popal_loh"
+	file = "mrd/kto_ne_popal_loh.wav"
+}
+sound = 
+{
+	name = "mochi_kozlov"
+	file = "mrd/mochi_kozlov.wav"
+}
+sound = 
+{
+	name = "mochi_kozlov_2"
+	file = "mrd/mochi_kozlov_2.wav"
+}
+sound = 
+{
+	name = "mochi_kozlov_3"
+	file = "mrd/mochi_kozlov_3.wav"
+}
+sound = 
+{
+	name = "mochi_kozlov_4"
+	file = "mrd/mochi_kozlov_4.wav"
+}
+sound = 
+{
+	name = "mochi_kozlov_5"
+	file = "mrd/mochi_kozlov_5.wav"
+}
+sound = 
+{
+	name = "mochite_vseh"
+	file = "mrd/mochite_vseh.wav"
+}
+sound = 
+{
+	name = "nachinayte_mochit_kozlov"
+	file = "mrd/nachinayte_mochit_kozlov.wav"
+}
+sound = 
+{
+	name = "nado_valit"
+	file = "mrd/nado_valit.wav"
+}
+sound = 
+{
+	name = "ni_shagu_nazad"
+	file = "mrd/ni_shagu_nazad.wav"
+}
+sound = 
+{
+	name = "noviye_krossovki"
+	file = "mrd/noviye_krossovki.wav"
+}
+sound = 
+{
+	name = "patronov_ne_zhalet"
+	file = "mrd/patronov_ne_zhalet.wav"
+}
+sound = 
+{
+	name = "poneslas_mocha_po_trubam"
+	file = "mrd/poneslas_mocha_po_trubam.wav"
+}
+sound = 
+{
+	name = "pora_bi_pouzhinat"
+	file = "mrd/pora_bi_pouzhinat.wav"
+}
+sound = 
+{
+	name = "psikhicheskyu_ataku"
+	file = "mrd/psikhicheskyu_ataku.wav"
+}
+sound = 
+{
+	name = "seyte_razumnoye"
+	file = "mrd/seyte_razumnoye.wav"
+}
+sound = 
+{
+	name = "skilki_ya_zarezav"
+	file = "mrd/skilki_ya_zarezav.wav"
+}
+sound = 
+{
+	name = "skuchno_bez_vodki"
+	file = "mrd/skuchno_bez_vodki.wav"
+}
+sound = 
+{
+	name = "slavyanskiy_shkaf"
+	file = "mrd/slavyanskiy_shkaf.wav" 
+}
+sound = 
+{
+	name = "urki_moi_vernye"
+	file = "mrd/urki_moi_vernye.wav" 
+}
+sound = 
+{
+	name = "urramengaskey"
+	file = "mrd/urramengaskey.wav"
+}
+sound = 
+{
+	name = "uzhin"
+	file = "mrd/uzhin.wav"
+}
+sound = 
+{
+	name = "v_turme_seichas_uzhin"
+	file = "mrd/v_turme_seichas_uzhin.wav" 
+}
+sound = 
+{
+	name = "v_zhivote_pizdec"
+	file = "mrd/v_zhivote_pizdec.wav" 
+}
+sound = 
+{
+	name = "ya_yzhe_primorilsya"
+	file = "mrd/ya_yzhe_primorilsya.wav" 
+}
+sound = 
+{
+	name = "zacuson"
+	file = "mrd/zacuson.wav" 
+}
+sound = 
+{
+	name = "prival_v_morge"
+	file = "mrd/prival_v_morge.wav" 
+}
+sound = 
+{
+	name = "zmi_zaletniye"
+	file = "mrd/zmi_zaletniye.wav" 
+}
+sound = 
+{
+	name = "shire_shag"
+	file = "mrd/shire_shag.wav" 
+}
+sound = 
+{
+	name = "ebalo_zakroi"
+	file = "mrd/ebalo_zakroi.wav" 
+}
+sound = 
+{
+	name = "filtrui_bazar"
+	file = "mrd/filtrui_bazar.wav" 
+}
+
+################# KLG
+
+sound = 
+{
+	name = "klg_idle_001"
+	file = "klg/klg_idle_001.wav" 
+}
+
+sound = 
+{
+	name = "klg_idle_002"
+	file = "klg/klg_idle_002.wav" 
+}

@@ -1,0 +1,1085 @@
+###Ideas for PlagueDoctor
+ideas = {
+
+	country = {
+		
+		LAZ_kontra_0 = {
+			picture = trotskyite_plot 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = {
+				stability_factor = -0.2
+				memoism_drift = 0.1
+				metacommy_drift = 0.1			
+			}
+		}
+		
+		LAZ_kontra_1 = {
+		
+			picture = trotskyite_plot 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = {
+				stability_factor = -0.1
+				memoism_drift = 0.05
+				metacommy_drift = 0.05				
+			}
+		}
+		
+		LAZ_kontra_2 = {
+			picture = trotskyite_plot 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = {
+				memoism_drift = 0.02
+				metacommy_drift = 0.02				
+			}
+		}
+		
+		LAZ_idea_KChS_0 = {
+		
+			picture = Komitet_chernogo_spiska 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = { 
+			    agency_upgrade_time = 0.25
+				decryption = 1
+				encryption = 1
+			}
+		}
+		
+		LAZ_idea_KChS_1 = {
+		
+			picture = Komitet_chernogo_spiska 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = { 
+			    agency_upgrade_time = 0.5
+				decryption = 2
+				encryption = 2
+			}
+		}
+		
+		LAZ_idea_KChS_2 = {
+		
+			picture = Komitet_chernogo_spiska 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = { 
+			    agency_upgrade_time = 0.5
+				decryption = 2
+				encryption = 2
+				operative_slot = 1
+			}
+		}
+		
+		LAZ_idea_obzor_SRL = {
+		
+			picture = chi_incompetent_officers 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = { 
+			    political_power_gain = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		LAZ_psihologiya_1 = {
+		
+			picture = generic_communist_army
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = { 
+			    army_org_factor = 0.02
+			}
+		}
+		
+		LAZ_psihologiya_2 = {
+		
+			picture = generic_communist_army
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = { 
+			    army_org_factor = 0.04
+				army_morale_factor = 0.02
+			}
+		}
+		
+		LAZ_psihologiya_3 = {
+		
+			picture = generic_communist_army
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = { 
+			    army_org_factor = 0.06
+				army_morale_factor = 0.06
+			}
+		}
+		
+		LAZ_psihologiya_4 = {
+		
+			picture = generic_communist_army
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = { 
+			    army_org_factor = 0.08
+				army_morale_factor = 0.08
+			}
+		}
+		
+		LAZ_psihologiya_5 = {
+		
+			picture = generic_communist_army
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = { 
+			    army_org_factor = 0.1
+				army_morale_factor = 0.1
+			}
+		}
+		
+		LAZ_razdutyy_apparat_moderov = {
+		
+			picture = Razduty_moderatorskiy_apparat 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = {
+                political_power_gain = -0.15	
+				industrial_capacity_factory = -0.25
+			    command_power_gain_mult = -0.1
+				army_attack_factor = -0.2
+                army_defence_factor = -0.2
+                army_org_factor = -0.1
+			}
+		}
+		
+		LAZ_plan_lazaret_united_army = {
+		
+			picture = chi_incompetent_officers 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+
+			modifier = { 
+                political_power_gain = -0.10	
+				industrial_capacity_factory = -0.15
+			    command_power_gain_mult = -0.05
+				army_attack_factor = -0.1
+                army_defence_factor = -0.1
+                army_org_factor = -0.05
+			}
+		}
+		
+		LAZ_chistka_moderatorov = {
+		
+			picture = chi_incompetent_officers 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+
+			modifier = { 
+				army_attack_factor = -0.1
+                army_defence_factor = -0.1
+                army_org_factor = -0.3
+				max_command_power = 20
+				command_power_gain_mult = 0.1
+				political_power_gain = 0.05
+			}
+		}
+		
+		LAZ_noviy_sostav = {
+		
+			picture = generic_manpower_bonus 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+
+			modifier = {
+				max_command_power = 50
+				command_power_gain_mult = 0.1
+				political_power_gain = 0.05
+				conscription_factor = 0.1
+				mobilization_speed = 0.1
+				training_time_factor = -0.1
+				land_reinforce_rate = 0.05
+			}
+		}
+		
+		LAZ_soktatit_polnomochia_moderatorov = {
+		
+			picture = chi_incompetent_officers 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+
+			modifier = { 
+                political_power_gain = 0.05
+				industrial_capacity_factory = -0.05
+				army_attack_factor = -0.05
+                army_defence_factor = -0.05
+			}
+		}
+		
+		LAZ_dobrovolcheskiye_korpusa = {
+		
+			picture = Vozvraschenie_politrukov 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+
+			modifier = {
+				political_power_gain = 0.05
+                army_morale_factor = 0.1
+				conscription = 0.02	
+			}
+		}
+		
+		LAZ_narodnaya_planovaya_shkola = {
+		
+			picture = Narodnaya_planovaya_shkola 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+
+			modifier = { 
+                max_planning = 0.20
+				experience_loss_factor = -0.05
+			}
+		}
+		
+		LAZ_plan_lazaret_moderat_army = {
+		
+			picture = chi_incompetent_officers 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+
+			modifier = { 
+                political_power_gain = -0.15	
+				industrial_capacity_factory = -0.25
+			    command_power_gain_mult = -0.1
+				army_attack_factor = -0.05
+                army_defence_factor = -0.05
+                army_org_factor = -0.1
+			}
+		}
+		
+		LAZ_rasshirit_polnomochia_moderatorov = {
+		
+			picture = saf_soviet_advisers 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+
+			modifier = { 
+                political_power_gain = -0.1
+				command_power_gain_mult = -0.1
+				industrial_capacity_factory = -0.20
+				army_org_factor = -0.05
+				army_attack_factor = -0.05
+                army_defence_factor = -0.05				
+			}
+		}
+		
+		LAZ_upravleniye_voennoy_infrastructuroi = {
+		
+			picture = ast_all_in 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+				production_speed_bunker_factor = 0.1
+				org_loss_when_moving = -0.05
+			}
+		} 
+		
+		LAZ_opolchenie = {
+		
+			picture = chi_army_corruption2 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = { 
+				conscription_factor = -0.05		
+				minimum_training_level = 0.15 
+				acclimatization_cold_climate_gain_factor = 0.1
+				acclimatization_hot_climate_gain_factor = 0.1
+				army_org_regain = 0.1
+				army_morale_factor = 0.1
+			}
+		}
+		
+		LAZ_opolchenie2 = {
+		
+			picture = chi_army_corruption2 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+			modifier = { 
+				conscription_factor = -0.1		
+				minimum_training_level = 0.3
+				acclimatization_cold_climate_gain_factor = 0.2
+				acclimatization_hot_climate_gain_factor = 0.2
+				army_org_regain = 0.2
+				army_morale_factor = 0.2
+				breakthrough_factor = 0.05
+			}
+		}
+		
+		LAZ_ofitseri_iz_moderatorov = {
+		
+			picture = generic_infantry_bonus 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+
+			modifier = { 
+                political_power_gain = -0.1
+				command_power_gain_mult = -0.1
+				industrial_capacity_factory = -0.15
+				army_org_factor = 0.1
+				army_attack_factor = 0.05
+                army_defence_factor = 0.05	
+			}
+		}
+		
+		LAZ_razdat_moderki = {
+		
+			picture = prc_low_popular_support3 
+			
+			removal_cost = -1 
+				
+			allowed = { always = no } 
+
+
+			modifier = { 
+				command_power_gain_mult = -0.1
+				industrial_capacity_factory = -0.1
+				army_org_factor = 0.2
+				army_attack_factor = 0.1
+                army_defence_factor = 0.1		
+			}
+		}
+		
+		LAZ_lichnaya_initsiaviva_ofitserov = {
+			
+		 picture = Lichnaya_initsiativa_ofitserov
+			
+			removal_cost = -1
+
+			modifier = {
+			   planning_speed = 0.1
+			   recon_factor = 0.02
+			}
+		}
+		
+		LAZ_bronya_krepka = {
+			
+		 picture = Bronya_krepka
+			
+			removal_cost = -1
+
+			modifier = {
+				army_armor_defence_factor = 0.05
+			}
+		}
+		
+		LAZ_razvitiye_torgovogo_flota = {
+		
+		 picture = Razvitie_torgovogo_flota
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				transport = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+
+			modifier = {
+				
+			}
+		}
+		
+		
+		LAZ_rabochiy_kontrol = {
+		
+		 picture = generic_the_london_naval_treaty
+			
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		
+		LAZ_restavratsiya_MTS = {
+		
+		 picture = Restavratsia_MTS
+			
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.1
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = -0.03
+			}
+		}
+		
+		LAZ_building_MTS = {
+		
+		 picture = generic_the_london_naval_treaty
+			
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+		}
+		
+		LAZ_AGPU = {
+		
+		 picture = Chudo-produkty
+			
+			removal_cost = -1
+
+			modifier = {
+				enemy_operative_detection_chance_factor = 0.02
+				encryption_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				monthly_population = 0.05
+			}
+		}
+		
+		LAZ_komitet_moderov_gosplana = {
+		
+		 picture = generic_the_london_naval_treaty
+			
+			removal_cost = -1
+
+			modifier = {
+				line_change_production_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		
+		LAZ_razvitiye_mekhanizastii = {
+			
+		 picture = Razvitie_mekhanizatsii
+			
+			removal_cost = -1
+
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		
+		LAZ_razvitiye_exporta = {
+			
+		 picture = Razvitie_exporta
+			
+			removal_cost = -1
+
+			modifier = {
+				min_export = 0.3
+				consumer_goods_factor = -0.10
+			}
+		}
+		
+		LAZ_smena_vektora_ecomoki = {
+			
+		 picture = Smena_vektora_ekonomiki
+			
+			removal_cost = -1
+
+			modifier = {
+			    production_speed_buildings_factor = -0.15 
+			    industrial_capacity_dockyard = -0.3
+				industrial_capacity_factory = -0.3
+				consumer_goods_factor = 0.3
+			}
+		}
+		
+		LAZ_bankovskaya_reforma = {
+			
+		 picture = generic_the_london_naval_treaty
+			
+			removal_cost = -1
+
+			modifier = {
+                production_factory_efficiency_gain_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		LAZ_new_collectivization = {
+			
+		 picture = generic_the_london_naval_treaty
+			
+			removal_cost = -1
+
+			modifier = {
+                production_speed_buildings_factor = 0.05 
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		LAZ_sliyaniye_munitsip_i_skh = {
+			
+		 picture = Slianie_munitsipalitetov_i_selskogo_khozyaystva
+			
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.05
+				political_power_gain = 0.05
+				monthly_population = 0.2
+				production_factory_max_efficiency_factor = 0.03
+			}
+		}
+		
+		LAZ_agroreformy = {
+			
+		 picture = Agropromyshlennye_komplexy
+			
+			removal_cost = -1
+
+			modifier = {
+			    monthly_population = 0.05
+                global_building_slots_factor = 0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+		LAZ_agroreformy_1 = {
+			
+		 picture = generic_the_london_naval_treaty
+			
+			removal_cost = -1
+
+			modifier = {
+			    production_factory_max_efficiency_factor = 0.05
+			    political_power_gain = 0.05
+			    monthly_population = 0.1
+                global_building_slots_factor = 0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+		LAZ_agroreformy_2 = {
+			
+		 picture = generic_the_london_naval_treaty
+			
+			removal_cost = -1
+
+			modifier = {
+			    production_factory_max_efficiency_factor = 0.05
+			    political_power_gain = 0.05
+			    monthly_population = 0.15
+                global_building_slots_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		LAZ_zadrait_diry = {
+			
+		 picture = Zadrait_Dyry
+			
+			removal_cost = -1
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+			    industry_air_damage_factor = -0.1
+				industry_free_repair_factor = 0.1
+			}
+		}
+		
+		LAZ_potrebitelskoy_kooperatsii = {
+			
+		 picture = Razvitie_potrebkooperatsii
+			
+			removal_cost = -1
+
+			modifier = {
+			    consumer_goods_factor = -0.05
+                stability_factor = 0.1
+			}
+		}
+		
+		LAZ_dvoyniye_drudodni = {
+			
+		 picture = Dvoynye_trudodni
+			
+			removal_cost = -1
+
+			modifier = {
+			    consumer_goods_factor = 0.07
+                stability_factor = 0.05
+				industrial_capacity_factory = 0.1
+				
+			}
+		}
+		LAZ_dalniye_poleti = {
+			
+		 picture = Dalnie_polyoty
+			
+			removal_cost = -1
+
+			modifier = {
+			   air_range_factor = 0.1
+				
+			}
+		}
+		LAZ_dyymvirat = {
+			
+		 picture = generic_the_london_naval_treaty
+			
+			removal_cost = -1
+
+			modifier = {
+			   stability_factor = 0.1
+			   political_power_gain = 0.1
+			}
+		}
+		LAZ_obucheniye_drozdov = {
+			
+		 picture = Obuchenie_drozdov
+			
+			removal_cost = -1
+
+			equipment_bonus = {
+				drozd_equipment_arch = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		LAZ_selektsiya_drozdov = {
+			
+		 picture = Obuchenie_drozdov
+			
+			removal_cost = -1
+
+			equipment_bonus = {
+				drozd_equipment_arch = {
+					build_cost_ic = -0.1 instant = yes
+                    reliability = 0.1	instant = yes
+				}
+			}
+		}
+        LAZ_pereguzhonnost_genshtaba = {
+			
+		 picture = generic_the_london_naval_treaty
+			
+			removal_cost = -1
+
+			modifier = {
+			    max_command_power = -20
+				max_planning = -0.2
+				planning_speed = -0.2
+                army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				army_org_factor = -0.075				
+			}
+		}    		
+	}
+	
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		LAZ_mitishinskiy_mash_zavod = {
+
+			
+			allowed = {
+				original_tag = LAZ
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { medium_tank_manufacturer }
+
+			ai_will_do = {
+				factor = 10
+			}
+
+		}
+		
+		LAZ_gusenichniy_zavod = {
+		
+            picture = idea_usa_tank_destroyer_board
+			
+			allowed = {
+				original_tag = LAZ
+			}
+			
+			research_bonus = {
+				armor = 0.1
+			}
+			
+			modifier = {
+			    resistance_damage_to_garrison = -0.25 
+          		foreign_subversive_activites = -0.3
+        		non_core_manpower = 0.02
+			}
+			
+			traits = { tank_manufacturer }
+
+			ai_will_do = {
+				factor = 10
+			}
+
+		}
+		
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		LAZ_Sevmash = {
+
+			
+			allowed = {
+				original_tag = LAZ
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			available = {
+				controls_state = 214
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			equipment_bonus = {
+				submarine = {
+					build_cost_ic = -0.1
+				}
+			}
+			
+		}		
+			
+	}
+	
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		LAZ_mig = {
+			
+			allowed = {
+				original_tag = LAZ
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		LAZ_AK_im_ilyushina = { 
+			allowed = {
+				original_tag = LAZ
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { CAS_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+		
+
+		LAZ_dubnenskiy_mash_zavod = { 
+
+			
+			allowed = {
+				original_tag = LAZ
+			}
+			
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		LAZ_Su = {
+
+			
+			allowed = {
+				original_tag = LAZ
+			}
+			
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		LAZ_kamov = {
+
+			allowed = {
+				original_tag = LAZ
+			}
+			
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+		
+        LAZ_drozd_zavod = {
+			
+		    allowed = {
+				original_tag = LAZ
+			}
+			
+			removal_cost = -1
+
+			equipment_bonus = {
+				drozd_equipment_arch = {
+					build_cost_ic = -0.1 instant = yes
+                    reliability = 0.1	instant = yes
+				}
+			}
+		}
+
+	}
+	
+	industrial_concern = {
+		
+		LAZ_chumhimprom = {
+			
+			allowed = {
+				original_tag = LAZ
+			}
+			
+			available = {
+	            IF = {
+	         		limit = { OSV = {exists = yes } } 
+	         		owner = { controls_state = 219 }
+	           	}
+            }
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		LAZ_bolshevichka = {
+			
+			allowed = {
+				original_tag = LAZ
+			}
+			
+			available = {
+	            IF = {
+	         		limit = { OSV = {exists = yes } } 
+	         		owner = { controls_state = 219 }
+	           	}
+            }
+			
+			research_bonus = {
+				industry = 0.15
+				
+			}
+			ai_will_do = {
+				factor = 2
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		LAZ_rubin = {
+			
+			allowed = {
+				original_tag = LAZ
+			}
+			
+			available = {
+	            IF = {
+	         		limit = { OSV = {exists = yes } } 
+	         		owner = { controls_state = 219 }
+	           	}
+            }
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}		
+	}
+	
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		LAZ_mash_zavod_im_kalinina = {
+			
+			allowed = {
+				original_tag = LAZ
+			}
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+				# +10% arty/at/aa research speed
+			}
+		}
+		
+		LAZ_tula = {
+
+			
+			allowed = {
+				original_tag = LAZ
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}		
+		
+		LAZ_tutaev_motor_plant = {
+			
+			allowed = {
+				original_tag = LAZ
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
+	
+	
+}

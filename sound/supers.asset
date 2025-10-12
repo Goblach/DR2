@@ -1,0 +1,222 @@
+sound = {
+	name = "test_udalsya"
+	file = "menu/lazaret_rus.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "crab"
+	file = "menu/crabrave.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_bebs_1"
+	file = "menu/superevent_bebs_1.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_bebs_2"
+	file = "menu/superevent_bebs_2.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_bebs_3"
+	file = "menu/superevent_bebs_3.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_barkov_mk_3"
+	file = "menu/superevent_barkov_mk_3.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_fyodorov"
+	file = "menu/superevent_fyodorov.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_starikov"
+	file = "menu/superevent_starikov.wav"
+	volume = 0.75
+	always_load = yes
+}
+sound = {
+	name = "superevent_boroda_2"
+	file = "menu/superevent_boroda_2.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_kamchatka_2"
+	file = "menu/superevent_kamchatka_2.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_sauron"
+	file = "menu/superevent_sauron.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_tayvan"
+	file = "menu/superevent_tayvan.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_tesak"
+	file = "menu/superevent_tesak.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_tsar_goga_romanov"
+	file = "menu/superevent_tsar_goga_romanov.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_barnaul_rogozin"
+	file = "menu/superevent_barnaul_rogozin.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_lukin"
+	file = "menu/superevent_lukin.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_lunarniy"
+	file = "menu/superevent_lunarniy.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_magnitogorsk"
+	file = "menu/superevent_magnitogorsk.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_NFP_pamyat"
+	file = "menu/superevent_NFP_pamyat.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_pogrom"
+	file = "menu/superevent_pogrom.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_pokoyaniya_equvilibrium"
+	file = "menu/superevent_pokoyaniya_equvilibrium.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_pokoyaniya_parlament"
+	file = "menu/superevent_pokoyaniya_parlament.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_pokoyaniya_razval"
+	file = "menu/superevent_pokoyaniya_razval.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_poroh"
+	file = "menu/superevent_poroh.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_RNE"
+	file = "menu/superevent_RNE.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_robert_wrigth"
+	file = "menu/superevent_robert_wrigth.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_romanovi"
+	file = "menu/superevent_romanovi.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_rudoy_opasno"
+	file = "menu/superevent_rudoy_opasno.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_yeltsin"
+	file = "menu/superevent_yeltsin.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_yuneman"
+	file = "menu/superevent_yuneman.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_zhelezniy_dimon"
+	file = "menu/superevent_zhelezniy_dimon.wav"
+	volume = 0.75
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_letov"
+	file = "menu/superevent_letov.wav"
+	volume = 0.70
+	always_load = yes
+}

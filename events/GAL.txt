@@ -1,0 +1,1837 @@
+add_namespace = GAL
+add_namespace = GAL_proekt
+add_namespace = GAL_drob
+	
+country_event = {
+	id = GAL.1 
+	title = GAL.1.t
+	desc = GAL.1.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.1.a
+    add_stability = 0.1
+	    add_popularity = {
+		    ideology = anarhostalinism
+	       	popularity = 0.05
+		}
+	}
+	
+	option = {
+	name = GAL.1.b
+    add_political_power = 150
+	    add_popularity = {
+           	ideology = anarhostalinism
+          	popularity = -0.05
+        }
+	}
+}
+country_event = {
+	id = GAL.2
+	title = GAL.2.t
+	desc = GAL.2.d
+	picture = GFX_report_event_soldiers_marching
+	
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+    fire_only_once = yes	
+	
+	option = {
+		name = GAL.2.a
+	}
+}
+# Либеральная чистка
+country_event = {
+	id = GAL.3
+	title = GAL.3.t
+	desc = GAL.3.d
+	picture = GFX_report_event_dkr_solzh_golova
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.3.a
+		retire_character = GAL_Boyarshinov 
+	}
+	
+	option = {
+	name = GAL.3.b
+		retire_character = GAL_Toples 
+	}
+	
+	option = {
+	name = GAL.3.c
+		retire_character = GAL_Panchin 
+	}
+	
+	option = {
+	name = GAL.3.r
+		retire_character = GAL_Sokolov
+	}
+}
+#Письмо Вассермана
+country_event = {
+	id = GAL.4
+	title = GAL.4.t
+	desc = GAL.4.d
+	picture = GFX_report_event_spr_republican_old_volunteers
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.4.a
+	}
+}
+#Письмо Савельева
+country_event = {
+	id = GAL.5
+	title = GAL.5.t
+	desc = GAL.5.d
+	picture = GFX_report_event_dkr_solzh_golova
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.5.a
+	}
+}
+#Бегство Панчина
+unit_leader_event = {
+	id = GAL.6
+	title = GAL.6.t
+	desc = GAL.6.d
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.6.a
+		retire_character = GAL_Panchin
+		add_war_support = -0.02
+	}
+}
+#Бегство Савватеева 
+unit_leader_event = {
+	id = GAL.7
+	title = GAL.7.t
+	desc = GAL.7.d
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.7.a
+	    retire_character = GAL_Savvateev 
+		add_stability = -0.02
+	}
+}
+#Открытие клуба Сайберия
+country_event = {
+	id = GAL.8
+	title = GAL.8.t
+	desc = GAL.8.d
+	picture = GFX_report_event_dkr_cyberia
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.8.a
+		if = {
+			limit = { has_government = neutrality }
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.15
+			}
+			else = {
+				add_popularity = {
+					ideology = metacommy
+					popularity = 0.15
+				}		
+			}
+		}	
+		add_stability = 0.1
+	}
+}
+#ГАЛИЛЕО
+country_event = {
+	id = GAL.9
+	title = GAL.9.t
+	desc = GAL.9.d
+	picture = GFX_report_event_dkr_solzh_golova
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.9.a	
+		set_portraits = {
+			character = GAL_pusnoy
+			civilian = { large = GFX_GAL_Pushnoy_GALILEO_ap }
+		}
+		add_country_leader_trait = popular_figurehead
+		add_country_leader_trait = lain
+	}
+}
+# Савватеев наводит суету
+country_event = {
+	id = GAL.10
+	title = GAL.10.t
+	desc = GAL.10.d
+	picture = GFX_report_event_dkr_solzh_golova
+	trigger = {
+		tag = GAL
+		has_government = fascism
+		owns_state = 564
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+	fire_only_once = yes
+	
+	option = {
+	name = GAL.10.a
+		add_popularity = {
+            ideology = fascism
+            popularity = -0.1
+        }
+		add_stability = -0.1
+	}
+}
+# Осознание - Начало
+country_event = {
+	id = GAL.11
+	title = GAL.11.t
+	desc = GAL.11.d
+	picture = GFX_report_event_radar_01
+	trigger = {
+		tag = GAL
+		has_completed_focus = GAL_otkaz_ot_radikalisma
+		count_triggers = {
+			amount = 3
+			has_completed_focus = GAL_Syenduk
+			has_completed_focus = GAL_Boyarshinov
+			has_completed_focus = GAL_Toples
+			has_completed_focus = GAL_Rogozin
+			has_completed_focus = GAL_Deb
+			has_completed_focus = GAL_Savvateev
+			has_completed_focus = GAL_Panchin
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+	name = GAL.11.a
+		add_ideas = GAL_sovet_spor
+	}
+}
+# Ноль
+unit_leader_event = {
+	id = GAL.12
+	title = GAL.12.t
+	desc = GAL.12.d
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+	name = GAL.12.a
+		add_popularity = {
+            ideology = memoism
+            popularity = 0.05
+        }
+		hidden_effect = {
+			country_event = { id = GAL.13 days = 15 } 
+		}
+	}
+}
+# Целковый
+country_event = {
+	id = GAL.13
+	title = GAL.13.t
+	desc = GAL.13.d
+	picture = GFX_report_event_dkr_rybnikov
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.13.a
+		add_popularity = {
+            ideology = memoism
+            popularity = 0.05
+        }
+		hidden_effect = {
+			country_event = { id = GAL.14 days = 15 } 
+		}
+	}
+}
+# Полушка
+country_event = {
+	id = GAL.14
+	title = GAL.14.t
+	desc = GAL.14.d
+	picture = GFX_report_event_dkr_boyarshinov_kruto
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.14.a
+		add_popularity = {
+            ideology = memoism
+            popularity = 0.05
+        }
+		hidden_effect = {
+			country_event = { id = GAL.15 days = 30 } 
+		}
+	}
+}
+# Четвертушка
+country_event = {
+	id = GAL.15
+	title = GAL.15.t
+	desc = GAL.15.d
+	picture = GFX_report_event_dkr_boyarshinov
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.15.a
+		add_popularity = {
+            ideology = memoism
+            popularity = 0.05
+        }
+	}
+	
+	option = {
+		name = GAL.15.b
+		add_popularity = {
+            ideology = memoism
+            popularity = 0.1
+        }
+		add_breakthrough_progress = {
+			specialization = specialization_nuclear
+			value = 0.3
+		}
+	}
+}
+# Осьмушка
+country_event = {
+	id = GAL.16
+	title = GAL.16.t
+	desc = GAL.16.d
+	picture = GFX_report_event_dkr_kitaec
+	trigger = {
+		tag = GAL
+		has_completed_focus = GAL_Boyarshinov_3
+		is_special_project_completed = sp:sp_nuclear_bomb
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	fire_only_once = yes
+	
+	option = {
+	name = GAL.16.a
+		add_popularity = {
+            ideology = memoism
+            popularity = 0.1
+        }
+		add_political_power = -100
+		if = {
+			limit = { can_declare_war_on = MNR }
+			declare_war_on = {
+				target = MNR
+				type = annex_everything
+			}
+		}
+	}
+	
+	option = {
+	name = GAL.16.b
+		add_popularity = {
+            ideology = memoism
+            popularity = -0.1
+        }
+		retire_character = GAL_Boyarshinov
+	}
+}
+# Спартанизм
+country_event = {
+	id = GAL.17
+	title = GAL.17.t
+	desc = GAL.17.d
+	picture = GFX_report_event_NOR_quisling_troops
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.17.a
+		add_popularity = {
+            ideology = fascism
+            popularity = 0.05
+        }
+		add_political_power = -50
+		add_ideas = GAL_spartanism_2
+	}
+	
+	option = {
+	name = GAL.17.b
+		add_political_power = -25
+		add_ideas = GAL_spartanism_1
+	}
+	
+	option = {
+	name = GAL.17.c
+		add_stability = 0.05
+		add_political_power = 50
+	}
+}
+# Мирный
+country_event = {
+	id = GAL.18
+	title = GAL.18.t
+	desc = GAL.18.d
+	picture = GFX_report_event_physics_lab_02
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.18.a
+		if = {
+			limit = {
+				controls_province = 10557
+				582 = { 
+					is_owned_and_controlled_by = ROOT
+					can_construct_building = land_facility
+				}
+			}
+			572 = { 
+				add_building_construction = {
+					type = land_facility
+					level = 1
+					province = 10557
+					instant_build = yes
+				}
+			}
+		}
+	}
+}
+# Сыендук Знакомство
+unit_leader_event = {
+	id = GAL.19
+	title = GAL.19.t
+	desc = GAL.19.d
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.19.a
+		add_stability = -0.05
+		country_event = { id = GAL.18 days = 5 }
+	}
+}
+# Жидкое мясо
+country_event = {
+	id = GAL.20
+	title = GAL.20.t
+	desc = GAL.20.d
+	picture = GFX_report_event_dkr_meat
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.20.a
+		add_ideas = GAL_meat
+		country_event = { id = GAL.21 days = 5 }
+	}
+}
+# Перепалка Сыендук
+country_event = {
+	id = GAL.21
+	title = GAL.21.t
+	desc = GAL.21.d
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.21.a
+		add_political_power = -70
+		custom_effect_tooltip = GAL21a_tt
+		hidden_effect = {
+			country_event = { id = GAL_proekt.01 }
+		}
+	}
+	
+	option = {
+	name = GAL.21.b
+		custom_effect_tooltip = GAL21b_tt
+		hidden_effect = {
+				country_event = { id = GAL_proekt.01 days = 100 }
+		}
+	}
+}
+# Начало экспедиции
+country_event = {
+	id = GAL.22
+	title = GAL.22.t
+	desc = GAL.22.d
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.22.a
+		retire_character = GAL_pusnoy
+		remove_ideas = GAL_odealo
+		add_country_leader_role = { 
+			character = GAL_sndk
+			promote_leader = yes
+			country_leader = {   
+				ideology = cybernetics
+				traits = {
+					mad_scientist
+				}
+			}
+		}
+	}
+}
+# Конец экспедиции
+country_event = {
+	id = GAL.23
+	title = GAL.23.t
+	desc = GAL.23.d
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.23.a
+		hidden_effect = {
+			news_event = { id = dk_news.91 days = 1 }
+			country_event = { id = GAL.36 days = 7}
+			ZZZ = {
+				set_cosmetic_tag = ZZZ_evangelion
+				load_focus_tree = Nichto_2
+				retire_ideology_leader = memoism
+				create_country_leader = {
+					name = "Именно Он?"
+					desc = ""
+					picture = "Gegel_Evangelion.dds"
+					expire = "1999.1.1"
+					ideology = gegelianism
+					traits = { }
+				}
+			}
+		}
+	}
+}
+#Рогозин знакомство
+country_event = {
+	id = GAL.24
+	title = GAL.24.t
+	desc = GAL.24.d
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.24.a
+		every_possible_country = {
+			limit = { has_character = YSK_Dmitriy_Rogozin }
+			random_character = {
+				limit = { is_character = YSK_Dmitriy_Rogozin }
+				set_nationality = GAL
+			}
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					has_government = metacommy
+				}
+				country_event = { id = GAL_proekt.07 }
+			}
+			else = { 
+				country_event = { id = GAL.25 }
+			}
+		}
+	}
+}
+# Рогозин - Проверка Панчина
+country_event = {
+	id = GAL.25
+	title = GAL.25.t
+	desc = GAL.25.d
+	picture = GFX_report_event_dkr_rogoziga
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.25.a
+		add_political_power = -100
+		add_war_support = -0.05
+		hidden_effect = {
+			country_event = { id = GAL_proekt.07 }
+		}
+	}
+	
+	option = {
+	name = GAL.25.b
+		custom_effect_tooltip = GAL25b_tt
+	}
+}
+#Язык Бога
+country_event = {
+	id = GAL.26
+	title = GAL.26.t
+	desc = GAL.26.d
+	picture = GFX_report_event_dkr_bee
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.26.a
+		add_ideas = GAL_godmeow
+		news_event = { id = dk_news.92 }
+	}
+}
+#Топлес программа 
+country_event = {
+	id = GAL.27
+	title = GAL.27.t
+	desc = GAL.27.d
+	picture = GFX_report_event_dkr_toples
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.27.a
+		hidden_effect = {
+			country_event = { id = GAL_proekt.05 }
+		}
+	}
+	
+	option = {
+	name = GAL.27.b
+		retire_character = GAL_Toples
+	}
+	
+	option = {
+	name = GAL.27.c
+		add_political_power = -50
+		add_timed_idea = {
+			idea = GAL_toples_program
+			days = 300
+		}
+		hidden_effect = {
+			country_event = { id = GAL_proekt.05 }
+		}
+	}
+}
+#Баня Бочка
+country_event = {
+	id = GAL.28
+	title = GAL.28.t
+	desc = GAL.28.d
+	picture = GFX_report_event_dkr_toples
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.28.a
+		add_ideas = GAL_banya
+	}
+}
+#Шеринг экономизм
+country_event = {
+	id = GAL.29
+	title = GAL.29.t
+	desc = GAL.29.d
+	picture = GFX_report_event_dkr_toples
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.29.a
+		add_political_power = 50
+	}
+	
+	option = {
+	name = GAL.29.b
+		add_political_power = -15
+		add_ideas = GAL_shering
+	}
+	
+	option = {
+	name = GAL.29.c 
+		add_political_power = -30
+		add_stability = -0.05
+		add_ideas = GAL_shering
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 300
+			producer = GAL
+		}
+	}
+}
+#Савватеев Знакомство
+unit_leader_event = {
+	id = GAL.30
+	title = GAL.30.t
+	desc = GAL.30.d
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.30.a
+		add_ideas = GAL_sibgektar
+	}
+}
+#Генетика Наука Ученая Армия
+country_event = {
+	id = GAL.31
+	title = GAL.31.t
+	desc = GAL.31.d
+	picture = GFX_report_event_physics_lab_01
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.31.a
+		activate_mission = GAL_uch_army_oficer
+	}
+	
+	option = {
+	name = GAL.31.b
+		activate_mission = GAL_uch_army_soldat
+	}
+}
+#Генетика Наука ГМО Солдат - ПЕРЕДЕЛАЛ
+country_event = {
+	id = GAL.32
+	title = GAL.32.t
+	desc = GAL.32.d
+	picture = GFX_report_event_physics_lab_01
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.32.a
+		activate_mission = GAL_gmo_catgirl
+	}
+	
+	option = {
+	name = GAL.32.b
+		activate_mission = GAL_gmo_dwarf
+	}
+}
+#Генетика Наука Кошкодевочки
+country_event = {
+	id = GAL.33
+	title = GAL.33.t
+	desc = GAL.33.d
+	picture = GFX_report_event_physics_lab_01
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.33.a
+		set_technology = { GAL_catgirls_recon = 1 popup = yes }
+		custom_effect_tooltip = GAL_catgirls_recon_tt
+	}
+}
+#Генетика Наука Дворфы
+country_event = {
+	id = GAL.34
+	title = GAL.34.t
+	desc = GAL.34.d
+	picture = GFX_report_event_physics_lab_01
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.34.a
+		set_technology = { GAL_dwarfes_engineer = 1 popup = yes }
+		custom_effect_tooltip = GAL_dwarfes_engineer_tt
+	}
+}
+#Осознание - Сам Проект
+country_event = {
+	id = GAL.35
+	title = GAL.35.t
+	desc = GAL.35.d
+	picture = GFX_report_event_dkr_push_iskra
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.35.a
+		retire_character = GAL_sndk
+		retire_character = GAL_Boyarshinov
+		retire_character = GAL_Deb
+		retire_character = GAL_Savvateev
+		retire_character = GAL_Toples
+		retire_character = GAL_Panchin
+		add_advisor_role = {
+			activate = yes
+			character = GAL_oso
+			advisor = {
+				slot = political_advisor
+				idea_token = GAL_oso
+				traits = { think_tank }
+				cost = 150
+			}
+		}
+		add_corps_commander_role = {
+			character = GAL_oso
+			traits = { organizer skilled_staffer }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+}
+#Разборки после экспедиции Пушного
+country_event = {
+	id = GAL.36
+	title = GAL.36.t
+	desc = GAL.36.d
+	picture = GFX_report_event_dkr_solzh_golova
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.36.a
+		retire_character = GAL_Deb
+		add_manpower = -10000
+		add_stability = -0.1
+		add_war_support = -0.1
+	}
+	
+	option = {
+	name = GAL.36.b
+		add_country_leader_role = { 
+			character = GAL_Deb
+			promote_leader = yes
+			country_leader = {   
+				ideology = cybernetics
+				traits = {
+					spartanist
+				}
+			}
+		}
+		retire_character = GAL_sndk
+		add_manpower = -10000
+		add_stability = -0.1
+		add_war_support = -0.1
+	}
+	
+	option = {
+	name = GAL.36.c
+		add_manpower = -10000
+		add_stability = -0.1
+		add_war_support = -0.1
+		country_event = { id = GAL.37 }
+	}
+}
+#Борьба за власть
+country_event = {
+	id = GAL.37
+	title = GAL.37.t
+	desc = GAL.37.d
+	picture = GFX_report_event_dkr_solzh_golova
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.37.1
+		retire_character = GAL_Deb
+		retire_character = GAL_sndk
+		add_country_leader_role = { 
+			character = GAL_Panchin
+			promote_leader = yes
+			country_leader = {
+			    desc = ""     
+				ideology = cybernetics
+				expire = "1965.1.1.1"
+				traits = {
+					inkvizitor
+				}
+			}
+		}
+	}
+	
+	option = {
+	name = GAL.37.2
+		trigger = {
+			has_character = GAL_Boyarshinov
+		}
+		retire_character = GAL_Deb
+		retire_character = GAL_sndk
+		add_country_leader_role = { 
+			character = GAL_Boyarshinov
+			promote_leader = yes
+			country_leader = {    
+				ideology = cybernetics
+				traits = {
+					nuclear_ded
+				}
+			}
+		}
+	}
+	
+	option = {
+	name = GAL.37.3
+		trigger = {
+			has_character = GAL_Toples
+		}
+		retire_character = GAL_Deb
+		retire_character = GAL_sndk
+		add_country_leader_role = { 
+			character = GAL_Toples
+			promote_leader = yes
+			country_leader = {     
+				ideology = cybernetics
+				traits = {
+					panoptikator
+				}
+			}
+		}
+	}
+	
+	option = {
+	name = GAL.37.4
+		trigger = {
+			AND = {
+				has_character = YSK_Dmitriy_Rogozin
+				has_completed_focus = GAL_Rogozin_2
+			}
+		}
+		retire_character = GAL_Deb
+		retire_character = GAL_sndk
+		add_country_leader_role = { 
+			character = YSK_Dmitriy_Rogozin
+			promote_leader = yes
+			country_leader = {  
+				ideology = cybernetics
+				traits = {
+					visioner
+				}
+			}
+		}
+	}
+}
+#Панацея Панчина
+country_event = {
+	id = GAL.38
+	title = GAL.38.t
+	desc = GAL.38.d
+	picture = GFX_report_event_physics_lab_01
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.38.a
+		swap_ideas = {
+			remove_idea = GAL_ban_religion
+			add_idea = GAL_panacea
+		}
+	}
+}
+#Марсианин
+country_event = {
+	id = GAL.39
+	title = GAL.39.t
+	desc = GAL.39.d
+	picture = GFX_report_event_dkr_pushnoy_opit_govno
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.39.a
+		swap_ideas = {
+			remove_idea = GAL_moon_colony
+			add_idea = GAL_moon_mars_colony
+		}
+	}
+}
+#10%
+country_event = {
+	id = GAL.40
+	title = GAL.40.t
+	desc = GAL.40.d
+	picture = GFX_report_event_dkr_pushnoy_opit_govno
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.40.a
+		add_ideas = GAL_odealo
+	}
+}
+#Борьба за власть
+country_event = {
+	id = GAL.41
+	title = GAL.41.t
+	desc = GAL.41.d
+	picture = GFX_report_event_spr_spanish_civil_war
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.41.a
+	}
+}
+#Русское поле экспериментов
+country_event = {
+	id = GAL.42
+	title = GAL.42.t
+	desc = GAL.42.d
+	picture = GFX_report_event_dkr_pushnoy_s_pistoletom
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.42.a
+	set_cosmetic_tag = GAL_Ier
+	}
+}
+#Галилея
+country_event = {
+	id = GAL.43
+	title = GAL.43.t
+	desc = GAL.43.d
+	picture = GFX_report_event_dkr_pushnoy_opit_govno
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.43.a
+	set_cosmetic_tag = GAL_Galileya	
+	}
+}
+#Лена Ивакурова
+country_event = {
+	id = GAL.44
+	title = GAL.44.t
+	desc = GAL.44.d
+	picture = GFX_report_event_dkr_gudyat
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.44.a
+	set_cosmetic_tag = GAL_Lain
+		add_ideas = GAL_lena
+	}
+}
+
+country_event = {
+	id = GAL.45
+	title = GAL.45.t
+	desc = GAL.45.d
+	picture = GFX_report_event_dkr_push_dumaet
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.45.a
+	add_political_power = 100
+	}
+}
+ ###ПРОЕКТЫ УЧЕНЫХ###
+ 
+# СЫЕНДУК - Начал работу над фокусом
+country_event = {
+	id = GAL_proekt.01
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Syenduk
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Syenduk_2 }
+			}
+			activate_shine_on_focus = GAL_Syenduk_2
+			country_event = { id = GAL_proekt.02 days = 75 }
+			set_country_flag = { flag = GAL_Syenduk_2_in_progress_flag days = 70 value = 1 }
+		}
+		else_if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Syenduk_3 }
+			}
+			activate_shine_on_focus = GAL_Syenduk_3
+			country_event = { id = GAL_proekt.02 days = 105 }
+			set_country_flag = { flag = GAL_Syenduk_3_in_progress_flag days = 105 value = 1 }
+		}
+	}
+}
+# СЫЕНДУК - Закончил фокус
+country_event = {
+	id = GAL_proekt.02
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Syenduk
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Syenduk_2
+			}
+			complete_national_focus = {
+				focus = GAL_Syenduk_2
+				use_side_message = yes
+				originator_name = GAL_sndk
+			}
+		}
+		else_if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Syenduk_3
+			}
+			complete_national_focus = {
+				focus = GAL_Syenduk_3
+				use_side_message = yes
+				originator_name = GAL_sndk
+			}
+		}
+	}
+}
+# БОЯРШИНОВ - Начал работу над фокусом
+country_event = {
+	id = GAL_proekt.03
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Boyarshinov
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Boyarshinov_2 }
+			}
+			activate_shine_on_focus = GAL_Boyarshinov_2
+			country_event = { id = GAL_proekt.04 days = 70 }
+			set_country_flag = { flag = GAL_Boyarshinov_2_in_progress_flag days = 70 value = 1 }
+		}
+		else_if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Boyarshinov_3 }
+			}
+			activate_shine_on_focus = GAL_Boyarshinov_3
+			country_event = { id = GAL_proekt.04 days = 105 }
+			set_country_flag = { flag = GAL_Boyarshinov_3_in_progress_flag days = 105 value = 1 }
+		}
+	}
+}
+# БОЯРШИНОВ - Закончил фокус
+country_event = {
+	id = GAL_proekt.04
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Boyarshinov
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Boyarshinov_2
+			}
+			complete_national_focus = {
+				focus = GAL_Boyarshinov_2
+				use_side_message = yes
+				originator_name = GAL_Boyarshinov_name
+			}
+			country_event = { id = GAL_proekt.03 }
+		}
+		else_if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Boyarshinov_3
+			}
+			complete_national_focus = {
+				focus = GAL_Boyarshinov_3
+				use_side_message = yes
+				originator_name = GAL_Boyarshinov_name
+			}
+		}
+	}
+}
+# ТОПЛЕС - Начал работу над фокусом
+country_event = {
+	id = GAL_proekt.05
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Toples
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Toples_2 }
+			}
+			activate_shine_on_focus = GAL_Toples_2
+			country_event = { id = GAL_proekt.06 days = 70 }
+			set_country_flag = { flag = GAL_Toples_2_in_progress_flag days = 70 value = 1 }
+		}
+		else_if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Toples_3 }
+			}
+			activate_shine_on_focus = GAL_Toples_3
+			country_event = { id = GAL_proekt.06 days = 105 }
+			set_country_flag = { flag = GAL_Toples_3_in_progress_flag days = 105 value = 1 }
+		}
+	}
+}
+# ТОПЛЕС - Закончил фокус
+country_event = {
+	id = GAL_proekt.06
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Toples
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Toples_2
+			}
+			complete_national_focus = {
+				focus = GAL_Toples_2
+				use_side_message = yes
+				originator_name = GAL_Toples_name
+			}
+			country_event = { id = GAL_proekt.05 }
+		}
+		else_if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Toples_3
+			}
+			complete_national_focus = {
+				focus = GAL_Toples_3
+				use_side_message = yes
+				originator_name = GAL_Toples_name
+			}
+		}
+	}
+}
+# РОГОЗИН - Начал работу над фокусом
+country_event = {
+	id = GAL_proekt.07
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Rogozin
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Rogozin_2 }
+			}
+			activate_shine_on_focus = GAL_Rogozin_2
+			country_event = { id = GAL_proekt.08 days = 70 }
+			set_country_flag = { flag = GAL_Rogozin_2_in_progress_flag days = 70 value = 1 }
+		}
+		else_if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Rogozin_3 }
+			}
+			activate_shine_on_focus = GAL_Rogozin_3
+			country_event = { id = GAL_proekt.08 days = 105 }
+			set_country_flag = { flag = GAL_Rogozin_3_in_progress_flag days = 105 value = 1 }
+		}
+	}
+}
+# РОГОЗИН - Закончил фокус
+country_event = {
+	id = GAL_proekt.08
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Rogozin
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Rogozin_2
+			}
+			complete_national_focus = {
+				focus = GAL_Rogozin_2
+				use_side_message = yes
+				originator_name = YSK_Dmitriy_Rogozin 
+			}
+			country_event = { id = GAL_proekt.07 }
+		}
+		else_if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Rogozin_3
+			}
+			complete_national_focus = {
+				focus = GAL_Rogozin_3
+				use_side_message = yes
+				originator_name = YSK_Dmitriy_Rogozin 
+			}
+		}
+	}
+}
+# ПАНЧИН - Начал работу над фокусом
+country_event = {
+	id = GAL_proekt.09
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Panchin
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Panchin_2 }
+			}
+			activate_shine_on_focus = GAL_Panchin_2
+			country_event = { id = GAL_proekt.10 days = 70 }
+			set_country_flag = { flag = GAL_Panchin_2_in_progress_flag days = 70 value = 1 }
+		}
+		else_if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Panchin_3 }
+			}
+			activate_shine_on_focus = GAL_Panchin_3
+			country_event = { id = GAL_proekt.10 days = 105 }
+			set_country_flag = { flag = GAL_Panchin_3_in_progress_flag days = 105 value = 1 }
+		}
+	}
+}
+# ПАНЧИН - Закончил фокус
+country_event = {
+	id = GAL_proekt.10
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Panchin
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Panchin_2
+			}
+			complete_national_focus = {
+				focus = GAL_Panchin_2
+				use_side_message = yes
+				originator_name = GAL_Panchin_name
+			}
+			country_event = { id = GAL_proekt.09 }
+		}
+		else_if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Panchin_3
+			}
+			complete_national_focus = {
+				focus = GAL_Panchin_3
+				use_side_message = yes
+				originator_name = GAL_Panchin_name
+			}
+		}
+	}
+}
+# ДЭБ - Начал работу над фокусом
+country_event = {
+	id = GAL_proekt.11
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Deb
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Deb_2 }
+			}
+			activate_shine_on_focus = GAL_Deb_2
+			country_event = { id = GAL_proekt.12 days = 70 }
+			set_country_flag = { flag = GAL_Deb_2_in_progress_flag days = 70 value = 1 }
+		}
+		else_if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Deb_3 }
+			}
+			activate_shine_on_focus = GAL_Deb_3
+			country_event = { id = GAL_proekt.12 days = 105 }
+			set_country_flag = { flag = GAL_Deb_3_in_progress_flag days = 105 value = 1 }
+		}
+	}
+}
+# ДЭБ - Закончил фокус
+country_event = {
+	id = GAL_proekt.12
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Deb
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Deb_2
+			}
+			complete_national_focus = {
+				focus = GAL_Deb_2
+				use_side_message = yes
+				originator_name = GAL_Deb_name
+			}
+			country_event = { id = GAL_proekt.11 }
+		}
+		else_if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Deb_3
+			}
+			complete_national_focus = {
+				focus = GAL_Deb_3
+				use_side_message = yes
+				originator_name = GAL_Deb_name
+			}
+		}
+	}
+}
+# САВВАТЕЕВ - Начал работу над фокусом
+country_event = {
+	id = GAL_proekt.13
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Savvateev
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Savvateev_2 }
+			}
+			activate_shine_on_focus = GAL_Savvateev_2
+			country_event = { id = GAL_proekt.14 days = 70 }
+			set_country_flag = { flag = GAL_Savvateev_2_in_progress_flag days = 70 value = 1 }
+		}
+		else_if = {
+			limit = {
+				NOT = { has_completed_focus = GAL_Savvateev_3 }
+			}
+			activate_shine_on_focus = GAL_Savvateev_3
+			country_event = { id = GAL_proekt.14 days = 105 }
+			set_country_flag = { flag = GAL_Savvateev_3_in_progress_flag days = 105 value = 1 }
+		}
+	}
+}
+# САВВАТЕЕВ - Закончил фокус
+country_event = {
+	id = GAL_proekt.14
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	trigger = {
+		has_completed_focus = GAL_Savvateev
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Savvateev_2
+			}
+			complete_national_focus = {
+				focus = GAL_Savvateev_2
+				use_side_message = yes
+				originator_name = GAL_Savvateev_name
+			}
+			country_event = { id = GAL_proekt.13 }
+		}
+		else_if = {
+			limit = {
+				has_shine_effect_on_focus = GAL_Savvateev_3
+			}
+			complete_national_focus = {
+				focus = GAL_Savvateev_3
+				use_side_message = yes
+				originator_name = GAL_Savvateev_name
+			}
+		}
+	}
+}
+ ###Дробышевский предложил###
+ 
+#Убить тех кто обсуждает тело Ленина
+country_event = {
+	id = GAL_drob.1
+	title = GAL_drob.1.t
+	desc = GAL_drob.1.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = GAL
+	}
+
+	option = {
+	name = GAL_drob.1.a
+		add_manpower = -6437
+	}
+}
+#Расстрелять спортзалы
+country_event = {
+	id = GAL_drob.2
+	title = GAL_drob.2.t
+	desc = GAL_drob.2.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = GAL
+	}
+
+	option = {
+	name = GAL_drob.1.a
+		add_war_support = -0.03
+	}
+}
+#Всем пить чайный гриб
+country_event = {
+	id = GAL_drob.3
+	title = GAL_drob.3.t
+	desc = GAL_drob.3.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = GAL
+	}
+
+	option = {
+	name = GAL_drob.1.a
+		add_stability = -0.03
+	}
+}
+#Убить вегетарианцев
+country_event = {
+	id = GAL_drob.4
+	title = GAL_drob.4.t
+	desc = GAL_drob.4.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = GAL
+	}
+
+	option = {
+	name = GAL_drob.1.a
+		add_manpower = -5824
+	}
+}
+#Убить вейперов
+country_event = {
+	id = GAL_drob.5
+	title = GAL_drob.5.t
+	desc = GAL_drob.5.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = GAL
+	}
+
+	option = {
+	name = GAL_drob.1.a
+		add_manpower = -7012
+	}
+}
+#Убить скотокатчиков
+country_event = {
+	id = GAL_drob.6
+	title = GAL_drob.6.t
+	desc = GAL_drob.6.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = GAL
+	}
+
+	option = {
+	name = GAL_drob.1.a
+		add_manpower = -10342
+		add_stability = 0.01
+		add_war_support = 0.01
+		add_popularity = {
+            ideology = fascism
+            popularity = 0.01
+        }
+	}
+}
+#Убить криптовалютчиков
+country_event = {
+	id = GAL_drob.7
+	title = GAL_drob.7.t
+	desc = GAL_drob.7.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = GAL
+	}
+
+	option = {
+	name = GAL_drob.1.a
+		add_manpower = -5242
+	}
+}
+#Понизить продажу алкоголя
+country_event = {
+	id = GAL_drob.8
+	title = GAL_drob.8.t
+	desc = GAL_drob.8.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = GAL
+	}
+
+	option = {
+	name = GAL_drob.1.a
+		add_stability = -0.02
+		add_war_support = -0.02
+	}
+}
+#Убить дебила чиновника
+country_event = {
+	id = GAL_drob.9
+	title = GAL_drob.9.t
+	desc = GAL_drob.9.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = GAL
+	}
+
+	option = {
+	name = GAL_drob.1.a
+		add_political_power = -50
+		add_popularity = {
+            ideology = fascism
+            popularity = -0.02
+        }
+	}
+}
+#Убить дегенерата лидера мнений
+country_event = {
+	id = GAL_drob.10
+	title = GAL_drob.10.t
+	desc = GAL_drob.10.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = GAL
+	}
+
+	option = {
+	name = GAL_drob.1.a
+		add_popularity = {
+            ideology = fascism
+            popularity = -0.05
+        }
+	}
+}

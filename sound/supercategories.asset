@@ -1,0 +1,39 @@
+category = {
+	name = "Super Events"
+	soundeffects = {
+		crabrave
+		lazaret_rus
+		shumer_rus
+		superevent_starikov
+		superevent_fyodorov
+		superevent_barkov_mk_3
+		superevent_boroda_2
+		superevent_kamchatka_2
+		superevent_bebs_3
+		superevent_bebs_2
+		superevent_bebs_1
+		superevent_sauron
+		superevent_tayvan
+		superevent_tesak
+		superevent_tsar_goga_romanov
+		superevent_barnaul_rogozin
+		superevent_lukin
+		superevent_lunarniy
+		superevent_magnitogorsk
+		superevent_NFP_pamyat
+		superevent_pogrom
+		superevent_pokoyaniya_equvilibrium
+		superevent_pokoyaniya_parlament
+		superevent_pokoyaniya_razval
+		superevent_poroh
+		superevent_RNE
+		superevent_robert_wrigth
+		superevent_romanovi
+		superevent_rudoy_opasno
+		superevent_yeltsin
+		superevent_yuneman
+		superevent_zhelezniy_dimon
+		superevent_letov
+	}
+	compressor = master_compressor
+}

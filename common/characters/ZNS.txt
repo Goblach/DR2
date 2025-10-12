@@ -1,0 +1,277 @@
+characters={
+	ZNS_Rudoy = {
+		name = "Андрей Рудой"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZNS/Rudoy.dds"
+			}
+			army = {
+				large = "gfx/leaders/ZNS/Rudoy.dds"
+			}
+		}
+		
+		field_marshal={
+			traits={ organisational_leader }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+		
+		country_leader = {
+		    desc = "POLITICS_RUDOY_DESC"
+			traits = { Ne_typoy Slabie_nogi }
+	        expire = "1999.1.1"
+	        ideology = libertanian_trockyst
+		    id=-1
+	    }
+    }
+	
+	ZNS_Kon = {
+		name = "Конь"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ZNS/Kon.dds"
+				small = GFX_portrait_SOV_lev_dovator_small
+			}
+		}
+
+		corps_commander = {
+			traits = { cavalry_officer trait_reckless cavalry_leader ranger }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+		advisor = {	
+		   slot = army_chief
+		   idea_token = ZNS_Kon
+		    allowed = {
+				original_tag = ZNS
+		    }
+			
+	       available = {		   
+		   }
+		   traits = { army_chief_maneuver_1 }
+			
+			ai_will_do = {
+				factor = 1
+	    	}
+		}
+	}
+	
+	ZNS_Grey_shapka = {
+		name = "Серая Шапка"
+		portraits = {
+			army = {
+				small = "GFX_idea_semyon_timoshenko"
+				large = "gfx/leaders/ZNS/Grey_shapka.dds"
+			}
+		}
+
+		corps_commander = {
+			traits = { career_officer politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 0  
+		}
+		advisor = {
+		    slot = high_command
+		
+			allowed = {
+			original_tag = ZNS
+			}
+			
+			idea_token = ZNS_Grey_shapka
+	        
+			traits = { army_infantry_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+	    }
+	}
+
+	ZNS_Tereza = {
+		name = "Мария Тереза"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ZNS/Tereza.dds"
+				small= "GFX_idea_ZNS_Tereza"
+			}
+			civilian = {
+				small = "GFX_idea_ZNS_Tereza"
+			}
+		}
+		country_leader = {
+		    desc = "POLITICS__DESC"
+			traits = { marx_feminist }
+	        expire = "1999.1.1"
+	        ideology = metacommy_intersec
+		    id=-1
+	    }
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ZNS_Tereza
+			allowed = {
+                original_tag = ZNS
+				
+            }
+			available = {
+				NOT = {
+has_country_leader = {
+ruling_only = yes
+character = ZNS_Tereza
+}
+}
+			}
+            traits = { marx_feminist }
+	    }
+		corps_commander = {
+			traits = { career_officer politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
+		}
+	}
+	
+	ZNS_Kozhnev = {
+		name = "Дмитрий Кожнев"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ZNS_Kozhnev"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ZNS_Kozhnev
+			allowed = {
+                original_tag = ZNS
+				
+            }
+            traits = { ambitious_union_boss }
+	    }
+    }
+	
+	ZNS_Rustamov = {
+		name = "Эльмар Рустамов"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ZNS_Rustamov"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ZNS_Rustamov
+			allowed = {
+                original_tag = ZNS
+				
+            }
+            traits = { peoples_commissar_for_posts_and_telegraphs }
+	    }
+    }
+	
+	ZNS_Fedor_Muhin = {
+		name = "Фёдор Мухин"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ZNS_Fedor_Muhin"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ZNS_Fedor_Muhin
+			allowed = {
+                original_tag = ZNS
+				
+            }
+            traits = { political_commissar }
+	    }
+    }
+	 
+	ZNS_Ukraintsev = {
+		name = "Кирилл Украинцев"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ZNS_Ukraintsev"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ZNS_Ukraintsev
+			allowed = {
+                original_tag = ZNS
+				
+            }
+            traits = { freedom_fighter }
+	    }
+    }
+	
+	ZNS_Sahnin = {
+		name = "Алексей Сахнин"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ZNS_Sahnin"
+			}
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ZNS_Sahnin
+			allowed = {
+                original_tag = ZNS
+				
+            }
+            traits = { social_revolutionary } 
+	    }
+    }
+	
+	ZNS_Tyazhkun = {
+		name = "Даниил Тяжкун"
+		portraits = {
+		    army = {
+				large = "gfx/leaders/ZNS/Tyazhkun.dds"
+				small= "GFX_idea_ZNS_Tyazhkun"
+			}
+			civilian = {
+				small = "GFX_idea_ZNS_Tyazhkun"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 0  
+		}
+		advisor={ 
+		    slot = political_advisor
+			idea_token = ZNS_Tyazhkun
+			allowed = {
+                original_tag = ZNS
+				
+            }
+            traits = { aye_libsoc }
+	    }
+    }
+	ZNS_Marina_FF = {
+		name = "Марина Шрапнель"
+		portraits = {
+		    army = {
+				large = "gfx/leaders/ZNS/Marina_Shrapnel.dds"
+			}
+		}
+    }
+}

@@ -1,0 +1,91 @@
+every_possible_country = {
+	limit = {
+		has_dlc = "La Resistance"
+		# china gets a special one via focus
+		NOT = { original_tag = CHI }
+		NOT = { is_chinese_warlord = yes }
+		if = {
+			limit = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			NOT = {
+				tag = GRE
+				tag = TUR
+			}
+		}
+		NOT = {
+			has_allowed_idea_with_traits = { idea = head_of_intelligence characters = yes }
+		}
+		is_dynamic_country = no
+	}
+	generate_character = {
+		token_base = generic_head_of_intelligence # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { head_of_intelligence }
+			available = {
+				has_intelligence_agency = yes
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_intelligence_agency = no
+					factor = 0
+				}
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_head_of_intelligence }
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		NOT = {
+			has_allowed_idea_with_traits = { idea = navy_chief_reform_1 characters = yes }
+			has_allowed_idea_with_traits = { idea = navy_chief_reform_2 characters = yes }
+			has_allowed_idea_with_traits = { idea = navy_chief_reform_3 characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_navy_chief_reform # token will be TAG_token_base
+		name = "Штатный Флотовед"
+		advisor = {
+			slot = navy_chief
+			traits = { navy_chief_reform_3 }
+			available = {
+				
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_DR_shtatniy_flotoved }
+		}
+	}
+	limit = {
+		NOT = {
+			has_allowed_idea_with_traits = { idea = air_chief_reform_1 characters = yes }
+			has_allowed_idea_with_traits = { idea = air_chief_reform_2 characters = yes }
+			has_allowed_idea_with_traits = { idea = air_chief_reform_3 characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_air_chief_reform # token will be TAG_token_base
+		name = "Штатный Тундровед"
+		advisor = {
+			slot = air_chief
+			traits = { air_chief_reform_3 }
+			available = {
+				
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_DR_shtatniy_tundroved }
+		}
+	}
+}

@@ -1,0 +1,31 @@
+
+state = {
+	id = 874
+	name = "STATE_874" # Magadan
+	manpower = 141234
+	state_category = rural
+	
+	history = {
+		victory_points = { 
+			12683 3 
+		}
+
+		owner = MAG
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			dockyard = 1
+			12683 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = MAG
+		add_claim_by = DOT
+	}
+
+	provinces = {
+		1865 10540 12683
+	}
+
+	local_supplies = 0.0 
+}

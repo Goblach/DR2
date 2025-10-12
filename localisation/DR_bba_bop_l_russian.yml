@@ -1,0 +1,73 @@
+﻿l_russian:
+
+ BOP_TOOLTIP:1 "§Y[root.GetPowerBalanceName]§! в данный момент [?.root.power_balance_value|0%H] на следующей стороне: §Y[root.GetActiveSideName]§!"
+ BOP_TOOLTIP_TREND:0 "Баланс сил склоняется в следующую сторону: §Y[root.GetTrendingSideName]§! на [root.GetBopTrendTextIcon][root.GetChangeRateDesc].\n[root.GetPowerBalanceModDesc]"
+ BOP_TOOLTIP_STABLE:1 "Баланс сил в данное время стабилен."
+ BOP_LEFT_SIDE_TOOLTIP:0 "[root.GetLeftSideName]"
+ BOP_RIGHT_SIDE_TOOLTIP:0 "[root.GetRightSideName]"
+ BOP_ACTIVE_RANGE_DESC:0 "[root.GetActiveRangeName]"
+ BOP_ACTIVE_RANGE_TOOLTIP:0 "[root.GetActiveRangeModDesc][root.GetActiveRangeRuleDesc]"
+
+ BOP_CHANGE_RATE_DAILY:2 "$VALUE|2%H$ в день"
+ BOP_CHANGE_RATE_WEEKLY:2 "$VALUE|2%H$ в неделю"
+
+ BOP_RANGE_DESC:0 "$NAME|Y$\nДальность: $MIN|%Y$–$MAX|%Y$\n$MODIFIER$\n$RULE$\n$ACTIVATION_EFFECT$\n$DEACTIVATION_EFFECT$"
+ BOP_RANGE_MODIFIER:0 "§YМодификаторы:§!\n$DESC$"
+ BOP_RANGE_RULE:0 "§YПравила:§!\n$DESC$"
+ BOP_RANGE_ACTIVATION_EFFECT:0 "\n§YЭффект активации:§!\n$DESC$"
+ BOP_RANGE_DEACTIVATION_EFFECT:0 "\n§YЭффект деактивации:§!\n$DESC$"
+ 
+ BOP_PERCENTAGE:0 "$VALUE|0%$"
+ BOP_LEVELS:0 "$UNLOCKED$/$TOTAL$"
+ 
+ BOP_STATIC_MODIFIER:0 "$NAME|H$"
+
+ ####### SHUMERIYA BoP Modifiers #######
+
+ MAT_hui_znaet_balance:1 "Борьба за власть"
+ MAT_orlov_side:0 "Сторонники Антона Орлова"
+ MAT_czukanov_side:0 "Сторонники Данилы Цуканова"
+ MAT_czukanov_total_control_range:0 "Доминирование Цуканова"
+ MAT_czukanov_dominant_range:0 "Сильные позиции Цуканова"
+ MAT_czukanov_power_range:0 "Уверенные позиции Цуканова"
+ MAT_czukanov_influence_range:0 "Небольшое преобладание Цуканова"
+ MAT_balance_range:0 "Ни одна из фракций не преобладает"
+ MAT_orlov_influence_range:0 "Небольшое преобладание Орлова"
+ MAT_orlov_power_range:0 "Уверенные позиции Орлова"
+ MAT_orlov_dominant_range:0 "Сильные позиции Орлова"
+ MAT_orlov_total_control_range:0 "Доминирование Орлова"
+ 
+ ####### Руина BoP Modifiers #######
+
+ UKR_koleso_genotbi:1 "Колесо генотьбы"
+ UKR_zrada_side:0 "Зрада"
+ UKR_peremoga_side:0 "Перемога"
+ UKR_zrada_total_control_range:0 "Зрада тотальна"
+ UKR_zrada_dominant_range:0 "Большая зрада"
+ UKR_zrada_power_range:0 "Серьезная зрада"
+ UKR_zrada_influence_range:0 "Це зрада, магистры"
+ UKR_peremoga_influence_range:0 "Небольшая перемога"
+ UKR_peremoga_power_range:0 "Серьезная перемога"
+ UKR_peremoga_dominant_range:0 "Большая перемога"
+ UKR_peremoga_total_control_range:0 "Перемога"
+
+ ####### POKAYANIYA BoP Modifiers #######
+
+ POK_prepar_balance:1 "Борьба за власть"
+ POK_par_side:0 "Парламент"
+ POK_pre_side:0 "Президент"
+ POK_pre_total_control_range:0 "Доминирование Президента"
+ POK_pre_dominant_range:0 "Сильные позиции Президента"
+ POK_pre_power_range:0 "Уверенные позиции Президента"
+ POK_pre_influence_range:0 "Небольшое преобладание Президента"
+ POK_par_influence_range:0 "Небольшое преобладание Парламента"
+ POK_par_power_range:0 "Уверенные позиции Парламента"
+ POK_par_dominant_range:0 "Сильные позиции Парламента"
+ POK_par_total_control_range:0 "Доминирование Парламента"
+ POK_mid_range:0 "Ни одна из сторон не преобладает"
+ POK_bop_increase_pre_influence:0 "Слегка усилить Президента"
+ POK_bop_increase_par_influence:0 "Слегка усилить Парламент"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ BOP_RANGE_ACTIVATE_EFFECT:0 "Эффект после активации:\n$ACTIVATE_EFFECT$"
+ BOP_RANGE_DEACTIVATE_EFFECT:0 "Эффект после деактивации:\n$DEACTIVATE_EFFECT$"
