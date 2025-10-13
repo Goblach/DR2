@@ -275,8 +275,8 @@ SKV = {
 	color_ui = rgb { 75 0 129 }
 }
 PRJ = {
-	color = rgb { 0 148 255 }
-	color_ui = rgb { 0 148 255 }
+	color = rgb { 179 223 255 }
+	color_ui = rgb { 179 223 255 }
 }
 SRU = {
 	color = rgb { 0 0 128 }

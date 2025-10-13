@@ -1,10 +1,10 @@
-capital = 533
+capital = 282
 
 oob = 123_1936
 
 set_research_slots = 2
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.7
+set_war_support = 0.2
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -18,16 +18,25 @@ set_technology = {
 }
 
 recruit_character = PRJ_Shinzo_Abe
+recruit_character = PRJ_Sanae_Takaichi
 
 add_ideas = {
 limited_conscription
 low_economic_mobilisation
-PRJ_svyz_s_sektoy_Mun
+PRJ_zagovor_NHK
+PRJ_left_ekstrimism
+PRJ_otsutstvie_imperatora
+PRJ_vosstanovlenie_economiki
 }
 
 set_popularities = {
-	democratic = 66
-	fascism = 34
+	democratic = 42
+	memoism = 39
+	neutrality = 10
+	fascism = 4
+	vmestolev = 3
+	metacommy = 1
+	anarhostalinism = 1
 }
 set_politics = {
 	ruling_party = democratic

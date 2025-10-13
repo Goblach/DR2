@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = ASR
+		owner = PRJ
 		buildings = {
 		
 			arms_factory = 1
@@ -21,11 +21,7 @@ state={
 			fuel_silo = 1
 
 		}
-		add_core_of = ASR
-		add_core_of = COJ
 		add_core_of = PRJ
-		add_core_of = SKV
-		add_core_of = JPE
 		victory_points = {
 			10032 15
 		}

@@ -14,12 +14,11 @@ add_ideas = {
 JPE_imperiya_bez_imperatora
 }
 set_popularities = {
-	fascism = 100
+	fascism = 56
+	neutrality = 38
+	democratic = 6
 }
-set_politics = {
-	ruling_party = fascism
-	elections_allowed = no	
-}
+
 
 set_convoys = 200
 
@@ -32,4 +31,9 @@ create_country_leader = {
 	traits = {
 		isekay
 	}
+}
+
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no	
 }

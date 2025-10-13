@@ -1,4 +1,5 @@
 characters = {
+	
 	COJ_Mana_Futakuchi = {
 		name = "Мана Футакучи"
 		portraits = {
@@ -17,11 +18,11 @@ characters = {
 			id = -1
 		}
 		field_marshal = {
-	    traits = {  }
+	    traits = { politically_connected }
 	    skill = 2
 	    attack_skill = 2
 	    defense_skill = 2
-	    planning_skill = 2
+	    planning_skill = 3
 	    logistics_skill = 2
 		legacy_id = 666
         }
@@ -43,9 +44,9 @@ characters = {
 			id = -1
 		}
 		corps_commander = {
-	    traits = {  }
+	    traits = { media_personality }
 	    skill = 2
-	    attack_skill = 2
+	    attack_skill = 3
 	    defense_skill = 2
 	    planning_skill = 2
 	    logistics_skill = 2

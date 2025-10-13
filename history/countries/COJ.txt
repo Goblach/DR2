@@ -17,22 +17,27 @@ set_technology = {
 	basic_train = 1
 }
 
-recruit_character = COJ_Mana_Futakuchi
+recruit_character = COJ_Mana_Futakuch
 recruit_character = COJ_Sumire_Uesaka
 recruit_character = COJ_Kaneko
 
 set_convoys = 200
 
-set_politics = {
-	ruling_party = vmestolev
-	elections_allowed = no	
-}
+
 set_popularities = {
-	vmestolev = 50
-	metacommy = 50
+	vmestolev = 40
+	metacommy = 40
+	anarhostalinism = 10
+	neutrality = 5
+	democratic = 5
 }
 
 add_ideas = {
 limited_conscription
 low_economic_mobilisation
+}
+
+set_politics = {
+	ruling_party = vmestolev
+	elections_allowed = no	
 }

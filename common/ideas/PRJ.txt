@@ -8,5 +8,37 @@ ideas = {
 				consumer_goods_factor = -0.075
 			}
 		}
+			    PRJ_zagovor_NHK = {
+			picture = PRJ_zagovor_NHK		
+			modifier = {
+			   		monthly_population = -1.2
+					memoism_drift = 0.05
+					stability_factor = -0.25
+			}
+		}
+					    PRJ_left_ekstrimism = {
+			picture = PRJ_left_ekstrimism		
+			modifier = {
+			   		war_support_factor = -0.15
+					opinion_gain_monthly_factor = -0.2
+					stability_factor = -0.05
+			}
+		}
+					    PRJ_otsutstvie_imperatora = {
+			picture = PRJ_otsutstvie_imperatora		
+			modifier = {
+			   		political_power_factor = -0.1
+					stability_factor = -0.1
+			}
+		}
+					    PRJ_vosstanovlenie_economiki = {
+			picture = PRJ_vosstanovlenie_economiki		
+			modifier = {
+			   		consumer_goods_factor = 0.3
+					production_speed_buildings_factor = -0.5
+					industrial_capacity_factory = -0.25
+					industrial_capacity_dockyard = -0.15
+			}
+		}
 	}		
 }
