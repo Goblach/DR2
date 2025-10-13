@@ -9,7 +9,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = TSG
+		owner = OSM
 		victory_points = {
 			1005 5 
 		}

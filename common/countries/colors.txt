@@ -179,8 +179,8 @@ IIS = {
 	color_ui = rgb { 255 164 127 }
 }
 OSM = {
-	color = rgb { 235 255 0 }
-	color_ui = rgb { 225 245 0 }
+	color = rgb { 91 201 89 }
+	color_ui = rgb { 91 201 89 }
 }	
 TSG = {
 	color = rgb { 1 208 181 }

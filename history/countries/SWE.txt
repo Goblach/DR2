@@ -11,6 +11,7 @@ set_technology = {
 }
 
 recruit_character = SWE_martin_anward
+recruit_character = SWE_Johan_Andersson
 
 add_ideas = {
 limited_conscription
