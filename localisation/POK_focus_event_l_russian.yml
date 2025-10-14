@@ -126,7 +126,7 @@
  GAL_vpk:0 "ВПК"
  GAL_ot_vinta:0 "От винта!"
  GAL_tankograd:0 "Танкоград"
- GAL_infantry:0 "Развитие оружия"
+ GAL_infantry_w:0 "Развитие оружия"
  GAL_big_gun:0 "Большие пушки"
  GAL_monthly_population_tt:0 "Подключен к §RСети§! получит \nВоеннообязанное население: §G+15%§!"
  GAL_Syenduk:0 "Жокей Рассвета"
