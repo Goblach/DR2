@@ -1,0 +1,16 @@
+add_namespace = BRT
+
+	
+country_event = { #Глобалпланировка Альфа
+	id = BRT.1
+	title = BRT.1.t
+	desc = BRT.1.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = PRJ.1.a
+    PRJ = { country_event = PRJ.2 }	
+	}
+}

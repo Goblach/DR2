@@ -31,12 +31,12 @@ PRJ_vosstanovlenie_economiki
 
 set_popularities = {
 	democratic = 42
-	memoism = 39
-	neutrality = 10
+	memoism = 37
+	neutrality = 8
 	fascism = 4
-	vmestolev = 3
-	metacommy = 1
-	anarhostalinism = 1
+	vmestolev = 5
+	metacommy = 2
+	anarhostalinism = 2
 }
 set_politics = {
 	ruling_party = democratic
