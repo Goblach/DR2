@@ -10,7 +10,8 @@ set_technology = {
 	basic_train = 1
 }
 
-
+recruit_character = OSM_Dahir_Inshaat
+recruit_character = OSM_Suleyman
 
 set_popularities = {
 	neutrality = 80
@@ -23,26 +24,6 @@ set_politics = {
 
 set_convoys = 400
 
-create_country_leader = {
-	name = "Культас"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Kultas.dds"
-	expire = "1999.1.1"
-	ideology = despotism
-	traits = {
-		Vodoley
-	}
-}
-create_country_leader = {
-	name = "Дахир Семёнов"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "dahir.dds"
-	expire = "1999.1.1"
-	ideology = cybernetics
-	traits = {
-		
-	}
-}
 
 add_ideas = {
     OSM_Dahir_Inshaat

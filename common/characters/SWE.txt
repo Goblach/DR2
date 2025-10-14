@@ -6,9 +6,18 @@ characters={
 				large = "gfx/leaders/SWE/Anward.dds"
 			}
 		} 
+
+    }
+		SWE_Johan_Andersson = {
+		name = "Юхан Андерссон"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/JohanPDX.dds"
+			}
+		} 
 		country_leader = {	    
         	traits = {
-         		captain_of_industry 
+         		
         	}
 		    ideology = ancap
 	        expire = "1999.1.1"

@@ -1,0 +1,36 @@
+characters={
+    OSM_Suleyman = {
+		name = "Сулейман I Великолепный"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OSM/Suleyman.dds"
+			}
+		}
+        country_leader = {
+    		desc = ""
+			ideology = despotism			
+			traits = {
+	         	
+	        }
+			expire = "1999.3.1"
+			id = -1
+		}
+	}
+	OSM_Dahir_Inshaat = {
+		name = "Дахир Семёнов"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OSM/dahir.dds"
+			}
+		}
+        country_leader = {
+    		desc = "POLITICS_THORVALD_STAUNING_DESC"
+			ideology = cybernetics		
+			traits = {
+	         	
+	        }
+			expire = "1999.3.1"
+			id = -1
+		}
+	}	
+}
