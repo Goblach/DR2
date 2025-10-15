@@ -1916,11 +1916,7 @@ news_event = { #Убийство_Синдзо_Абэ
 	desc = dk_news.94.d
 	picture = "GFX_news_event_kill_Abo"
 	
-	major = yes
-	
-	trigger = { 
-		NOT = {  }
-	}
+	is_triggered_only = yes
 	
 	mean_time_to_happen = {
 		days = 2
