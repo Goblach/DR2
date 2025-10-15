@@ -1,4 +1,44 @@
 NII_risorgimento = {
+	NII_attack_north = {
+	
+		cost = 50
+
+		available = {
+			controls_state = 2
+			controls_state = 117
+			has_war = no 
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 35
+		ai_will_do = {
+        factor = 100
+		}
+		remove_effect = {
+			if = {
+				limit = { country_exists = ETR }
+				declare_war_on = {
+					target = ETR
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { country_exists = RES }
+				declare_war_on = {
+					target = RES
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {country_exists = VNR }
+				declare_war_on = {
+					target = VNR
+					type = annex_everything
+				}
+			}
+		}	
+	}
 	NII_Venetsiya = { 
 	
 		cost = 50

@@ -10,7 +10,23 @@ characters={
         	traits = {
          		pod_kayfom
         	}
-		    ideology = ancap
+		    ideology = postironism
+	        expire = "1999.1.1"
+		    id=-1
+	    }
+    }
+	MRH_leonid_yakubovich = {
+		name = "Леонид Якубович"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MRH/leonid_yakubovich.dds"
+			}
+		} 
+		country_leader = {	    
+        	traits = {
+         		little_churchill
+        	}
+		    ideology = conservatism
 	        expire = "1999.1.1"
 		    id=-1
 	    }

@@ -1909,7 +1909,6 @@ news_event = { #Омск_объединяет_Россию
 		}
 	}
 }
-##############################################
 news_event = { #Убийство_Синдзо_Абэ
     id = dk_news.94
 	title = dk_news.94.t
@@ -1928,5 +1927,19 @@ news_event = { #Убийство_Синдзо_Абэ
 	
 	option = {
 		name = dk_news.94.a
+	}
+}
+news_event = { #война_в_германии
+    id = dk_news.95
+	title = dk_news.95.t
+	desc = dk_news.95.d
+	picture = GFX_news_event_DKR_voyna_v_italii
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dk_news.30.a
 	}
 }

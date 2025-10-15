@@ -11,6 +11,7 @@ set_technology = {
 }
 
 recruit_character = MRH_keks_ukrop
+recruit_character = MRH_leonid_yakubovich
 
 add_ideas = {
 		MRH_drugs_revolution

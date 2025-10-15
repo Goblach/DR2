@@ -21,6 +21,7 @@ state={
 		}
 		add_core_of = NEU
 		add_core_of = FRG
+		add_core_of = BAV
 
 		1939.1.1 = {
 			buildings = {
