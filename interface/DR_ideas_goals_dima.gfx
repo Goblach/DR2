@@ -216,6 +216,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/PRJ_svyz_s_sektoy_Mun.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_PRJ_zagovor_NHK"
+		texturefile = "gfx/interface/ideas/PRJ_zagovor_NHK.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRJ_left_ekstrimism"
+		texturefile = "gfx/interface/ideas/PRJ_left_ekstrimism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRJ_otsutstvie_imperatora"
+		texturefile = "gfx/interface/ideas/PRJ_otsutstvie_imperatora.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRJ_vosstanovlenie_economiki"
+		texturefile = "gfx/interface/ideas/PRJ_vosstanovlenie_economiki.dds"
+	}
+	
 	#фокусы  
 	
 	SpriteType = {

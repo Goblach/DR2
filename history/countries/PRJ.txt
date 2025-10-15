@@ -21,8 +21,9 @@ recruit_character = PRJ_Shinzo_Abe
 recruit_character = PRJ_Sanae_Takaichi
 
 add_ideas = {
-limited_conscription
-low_economic_mobilisation
+civilian_economy
+disarmed_nation
+free_trade
 PRJ_zagovor_NHK
 PRJ_left_ekstrimism
 PRJ_otsutstvie_imperatora
