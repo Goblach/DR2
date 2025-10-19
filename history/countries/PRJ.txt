@@ -21,8 +21,9 @@ recruit_character = PRJ_Shinzo_Abe
 recruit_character = PRJ_Sanae_Takaichi
 
 add_ideas = {
-limited_conscription
-low_economic_mobilisation
+civilian_economy
+disarmed_nation
+free_trade
 PRJ_zagovor_NHK
 PRJ_left_ekstrimism
 PRJ_otsutstvie_imperatora
@@ -31,12 +32,12 @@ PRJ_vosstanovlenie_economiki
 
 set_popularities = {
 	democratic = 42
-	memoism = 39
-	neutrality = 10
+	memoism = 37
+	neutrality = 8
 	fascism = 4
-	vmestolev = 3
-	metacommy = 1
-	anarhostalinism = 1
+	vmestolev = 5
+	metacommy = 2
+	anarhostalinism = 2
 }
 set_politics = {
 	ruling_party = democratic

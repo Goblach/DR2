@@ -748,4 +748,8 @@ spriteTypes = {
 		name = "GFX_report_event_dkr_rogoziga"
 		texturefile = "gfx/event_pictures/report_event_dkr_rogoziga.dds"
 	}
+		spriteType = {
+		name = "GFX_news_event_kill_Abo"
+		texturefile = "gfx/event_pictures/news_event_kill_Abo.dds"
+	}
 }

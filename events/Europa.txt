@@ -1,11 +1,11 @@
-add_namespace = RES
+add_namespace = europa
 
 	
 #
 country_event = {
-	id = RES.1
-	title = RES.1.t
-	desc = RES.1.d
+	id = europa.1
+	title = europa.1.t
+	desc = europa.1.d
 	picture = GFX_report_event_japanese_soldiers_02
 	
 	fire_only_once = yes
@@ -14,24 +14,14 @@ country_event = {
         date = 3.8.20
     }
 	
+	hidden = yes
+	
 	option = {
 		news_event = dk_news.30
-	        name = RES.1.a 
+	        name = europa.1.a 
                 RES = {			
 		            declare_war_on = {
 		                target = VNR
-		                type = annex_everything
-		            }
-					declare_war_on = {
-		                target = ETR
-		                type = annex_everything
-		            }
-					declare_war_on = {
-		                target = NII
-		                type = annex_everything
-		            }
-					declare_war_on = {
-		                target = UGI
 		                type = annex_everything
 		            }
 					add_state_claim = 158
@@ -52,20 +42,8 @@ country_event = {
 					add_state_claim = 114
 				}
 				VNR = {			
-		            declare_war_on = {
-		                target = RES
-		                type = annex_everything
-		            }
 					declare_war_on = {
 		                target = ETR
-		                type = annex_everything
-		            }
-					declare_war_on = {
-		                target = NII
-		                type = annex_everything
-		            }
-					declare_war_on = {
-		                target = UGI
 		                type = annex_everything
 		            }
 					add_state_claim = 158
@@ -90,18 +68,6 @@ country_event = {
 		                target = RES
 		                type = annex_everything
 		            }
-					declare_war_on = {
-		                target = VNR
-		                type = annex_everything
-		            }
-					declare_war_on = {
-		                target = NII
-		                type = annex_everything
-		            }
-					declare_war_on = {
-		                target = UGI
-		                type = annex_everything
-		            }
 					add_state_claim = 158
 					add_state_claim = 159
 					add_state_claim = 850
@@ -120,18 +86,6 @@ country_event = {
 					add_state_claim = 114
 				}
 				NII = {			
-		            declare_war_on = {
-		                target = RES
-		                type = annex_everything
-		            }
-					declare_war_on = {
-		                target = VNR
-		                type = annex_everything
-		            }
-					declare_war_on = {
-		                target = ETR
-		                type = annex_everything
-		            }
 					declare_war_on = {
 		                target = UGI
 		                type = annex_everything
@@ -154,22 +108,6 @@ country_event = {
 					add_state_claim = 114
 				}
 				UGI = {			
-		            declare_war_on = {
-		                target = RES
-		                type = annex_everything
-		            }
-					declare_war_on = {
-		                target = VNR
-		                type = annex_everything
-		            }
-					declare_war_on = {
-		                target = ETR
-		                type = annex_everything
-		            }
-					declare_war_on = {
-		                target = NII
-		                type = annex_everything
-		            }
 					add_state_claim = 158
 					add_state_claim = 159
 					add_state_claim = 850
@@ -186,6 +124,43 @@ country_event = {
 					add_state_claim = 156
 					add_state_claim = 115
 					add_state_claim = 114
+				}
+	}
+}
+country_event = {
+	id = europa.2
+	title = europa.2.t
+	desc = europa.2.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	fire_only_once = yes
+	
+	trigger = {
+        date = 4.5.21
+    }
+	
+	hidden = yes
+	
+	option = {
+		news_event = dk_news.95
+	        name = europa.2.a 
+			    NEU = {			
+		            declare_war_on = {
+		                target = FRG
+		                type = annex_everything
+		            }
+				}
+				FRG = {
+					declare_war_on = {
+						target = BAV
+						type = annex_everything
+					}
+				}
+				BAV = {
+					declare_war_on = {
+						target = NEU
+						type = annex_everything
+					}
 				}
 	}
 }
