@@ -4243,4 +4243,34 @@ spriteTypes = {
 		name = "GAL_plody_lybvi" 
 		texturefile = "gfx/interface/goals/GAL_plody_lybvi.dds"
 	}
+	
+	SpriteType = { 
+		name = "GAL_issledovanie_noosfery" 
+		texturefile = "gfx/interface/goals/GAL_issledovanie_noosfery.dds"
+	}
+	
+	SpriteType = { 
+		name = "GAL_krasniy_svet" 
+		texturefile = "gfx/interface/goals/GAL_krasniy_svet.dds"
+	}
+	
+	SpriteType = {  
+		name = "GAL_svyaz_i_communocation" 
+		texturefile = "gfx/interface/goals/GAL_svyaz_i_communocation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GAL_vse_idet_po_planu" 
+		texturefile = "gfx/interface/goals/GAL_vse_idet_po_planu.dds"
+	}
+	
+	SpriteType = { 
+		name = "GAL_i_povolok_brevno" 
+		texturefile = "gfx/interface/goals/GAL_i_povolok_brevno.dds"
+	}
+	
+	SpriteType = { 
+		name = "GAL_renesans"
+		texturefile = "gfx/interface/goals/GAL_renesans.dds"
+	}
 }

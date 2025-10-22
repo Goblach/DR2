@@ -43,6 +43,16 @@ characters={
 				large = "gfx/leaders/OMS/Mihail_Elizarov.dds"
 			}
 		} 
+		 country_leader = {
+    		desc = "POLITICS_ELIZAROV_DESC"
+			ideology = white_polpotism		
+			traits = {
+	         	ideology = white_polpotism
+				trait = elizarov_trait
+	        }
+			expire = "1999.3.1"
+			id = -1
+		}
         advisor = {
 			cost = 150
 			slot = army_chief
