@@ -2005,16 +2005,18 @@ focus_tree = {
 				character = GAL_pusnoy
 				civilian = { large = GFX_GAL_Pushnoy_Lenin }
 			}
-			every_possible_country = {
-				limit = { has_character = KUR_vasserman }
-				random_character = {
-					limit = { is_character = KUR_vasserman }
-					set_nationality = GAL
-				}
-			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = KUR_vasserman
 			hidden_effect = {
 				GAL_Panchin = {
 					unit_leader_event = { id = GAL.6 days = 15 }
+				}
+				every_possible_country = {
+					limit = { has_character = KUR_vasserman }
+					random_character = {
+						limit = { is_character = KUR_vasserman }
+						set_nationality = GAL
+					}
 				}
 			}
 		}
@@ -2075,7 +2077,6 @@ focus_tree = {
 				GAL_Savvateev = {
 					unit_leader_event = { id = GAL.7 days = 15 }
 				}
-				country_event = { id = GAL.40 days = 25 } 			
 			}
 		}
 	}
@@ -2113,7 +2114,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = GAL_issledovanie_noosfery
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_issledovanie_noosfery
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_videnie_Pushnogo
@@ -2136,7 +2137,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_krasniy_svet
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_krasniy_svet
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_issledovanie_noosfery
@@ -2171,7 +2172,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_i_povolok_brevno
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_i_povolok_brevno
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_issledovanie_noosfery
@@ -2196,7 +2197,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_svyaz_i_communocation
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_svyaz_i_communocation
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_i_povolok_brevno
@@ -2364,7 +2365,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_renesans
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_renesans
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_nauka_i_iskusstvo
@@ -2413,7 +2414,7 @@ focus_tree = {
 		}
 
 	}
-	focus = {
+	focus = { 
 		id = GAL_stop_idiokraty
 		icon = GFX_goal_unknown
 		cost = 5.00
@@ -2455,7 +2456,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GAL_infantry_w
+		id = GAL_infantry
 		icon = GFX_GAL_infantry
 		cost = 10.00
 		prerequisite = {
@@ -2721,7 +2722,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_vse_idet_po_planu
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_vse_idet_po_planu
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_issledovanie_noosfery
@@ -3668,7 +3669,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_ideas = GAL_sibgektar
+			remove_ideas = GAL_sibgektar
 			580 = {
 				if = {
 					limit = {
