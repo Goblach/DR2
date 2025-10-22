@@ -20,7 +20,7 @@ characters={
 		name = "Санаэ Такаити"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PRJ/.dds"
+				large = "gfx/leaders/PRJ/Sanae_Takaichi.dds"
 			}
 		}
 		country_leader = {
