@@ -9,7 +9,7 @@ country_event = { #Глобалпланировка Альфа
 		fire_only_once = yes	
 
 	trigger = {
-	date = 3.1.12
+	date = 3.4.20
 	tag = BRT
 	}
 	

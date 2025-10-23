@@ -1915,11 +1915,9 @@ news_event = { #Убийство_Синдзо_Абэ
 	desc = dk_news.94.d
 	picture = "GFX_news_event_kill_Abo"
 	
-	is_triggered_only = yes
+	major = yes
 	
-	mean_time_to_happen = {
-		days = 2
-	}
+	is_triggered_only = yes
 	
 	immediate = {
 		set_global_flag =  
@@ -1929,6 +1927,7 @@ news_event = { #Убийство_Синдзо_Абэ
 		name = dk_news.94.a
 	}
 }
+
 news_event = { #война_в_германии
     id = dk_news.95
 	title = dk_news.95.t
