@@ -2364,7 +2364,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GAL_renesans
+		id = GAL_renesans 
 		icon = GFX_GAL_renesans
 		cost = 5.00
 		prerequisite = {
@@ -2690,7 +2690,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_new_galileo
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_new_galileo
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_nauka_i_iskusstvo
