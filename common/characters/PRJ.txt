@@ -38,4 +38,11 @@ characters={
 		legacy_id = -1
         }
     }
+		PRJ_parlament = {
+		name = "Парламент Японии"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/jap_parlament.dds"
+			}
+		}
 }

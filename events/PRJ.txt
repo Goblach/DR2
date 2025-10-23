@@ -1,7 +1,7 @@
 add_namespace = PRJ
 
 	
-country_event = { #История
+country_event = { #История (надо написатт)
 	id = PRJ.1 
 	title = PRJ.1.t
 	desc = PRJ.1.d
@@ -20,11 +20,35 @@ country_event = { #Убийство Синдзо Абэ
 	desc = PRJ.2.d
 	picture = GFX_report_event_japanese_soldiers_02
 	
+		trigger = {
+		tag = PRJ
+	}
+	
 	is_triggered_only = yes	
 	
-	option = {
-	name = PRJ.2.a
+	mean_time_to_happen = {
+		days = 1
+	}
 	
+	option = {
+	news_event = dk_news.94
+	name = PRJ.2.a
+	kill_country_leader = yes
+		hidden_effect = {	
+		PRJ = { country_event = PRJ.3 }
+		add_country_leader_role = {
+			character = PRJ_parlament
+			promote_leader = yes
+			country_leader = {
+			    desc = ""     
+				ideology = liberalism
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+			}
+		}
+	}
 	}
 }
 

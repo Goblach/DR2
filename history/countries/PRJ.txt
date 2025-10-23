@@ -19,6 +19,7 @@ set_technology = {
 
 recruit_character = PRJ_Shinzo_Abe
 recruit_character = PRJ_Sanae_Takaichi
+recruit_character = PRJ_parlament
 
 add_ideas = {
 civilian_economy
