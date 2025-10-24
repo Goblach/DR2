@@ -63,7 +63,7 @@ country_event = { #Политическое завещание
 	option = {
 	name = PRJ.3.a
 		hidden_effect = {	
-		PRJ = { country_event = PRJ.3 }
+		PRJ = { country_event = PRJ.4 }
 		}
 	}
 }
