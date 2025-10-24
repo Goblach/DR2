@@ -888,7 +888,7 @@ country_event = {
 			logistics_skill = 5
 			legacy_id = -1
 		}
-		remove_idea = GAL_sovet_spor
+		remove_ideas = GAL_sovet_spor
 	}
 }
 #Разборки после экспедиции Пушного
