@@ -602,7 +602,7 @@ ideas = {
 			}
 			GAL_panacea = {
 				modifier = {
-				 conscription = 0.1
+				 conscription = 0.01
 				 industrial_capacity_factory = 0.15
 				 army_morale_factor = 0.1
 				}

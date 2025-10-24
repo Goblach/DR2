@@ -4273,4 +4273,9 @@ spriteTypes = {
 		name = "GAL_renesans"
 		texturefile = "gfx/interface/goals/GAL_renesans.dds"
 	}
+	
+	SpriteType = { 
+		name = "GAL_new_galileo"
+		texturefile = "gfx/interface/goals/GAL_new_galileo.dds"
+	}
 }

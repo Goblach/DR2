@@ -159,9 +159,6 @@ characters={
 			cost = 150
 			slot = political_advisor
 			idea_token = KUR_vasserman
-			allowed = {
-				original_tag = KUR
-			}
 			traits = {
 				technocrat
 			}
