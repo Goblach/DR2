@@ -2078,6 +2078,7 @@ focus_tree = {
 				character = GAL_pusnoy
 				civilian = { large = GFX_GAL_Pushnoy_Lysenko }
 			}
+			country_event = { id = GAL.40 days = 25 }
 			hidden_effect = {
 				GAL_Savvateev = {
 					unit_leader_event = { id = GAL.7 days = 15 }
