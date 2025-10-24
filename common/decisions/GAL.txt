@@ -859,8 +859,8 @@ GAL_rock_zhiv = {
 	GAL_lenin_poslal = {
 		icon = eng_propaganda_campaigns
 		cost = 50
-		days_remove = 100
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		available = {
 			NOT = {
 				has_country_flag = GAL_pesnya
@@ -871,6 +871,9 @@ GAL_rock_zhiv = {
 			production_speed_buildings_factor = 0.1
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -881,8 +884,8 @@ GAL_rock_zhiv = {
 	GAL_vse_po_planu = {
 		icon = eng_propaganda_campaigns
 		cost = 50
-		days_remove = 100
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		available = {
 			NOT = {
 				has_country_flag = GAL_pesnya
@@ -893,6 +896,9 @@ GAL_rock_zhiv = {
 			production_factory_efficiency_gain_factor = 0.15
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -903,8 +909,8 @@ GAL_rock_zhiv = {
 	GAL_nado_rad = {
 		icon = eng_propaganda_campaigns
 		cost = 50
-		days_remove = 100
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		visible = {
 			NOT = { has_completed_focus = GAL_ey_uhnem }
 		}
@@ -920,6 +926,9 @@ GAL_rock_zhiv = {
 			neutrality_drift = 0.05
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -930,8 +939,8 @@ GAL_rock_zhiv = {
 	GAL_ot_vint = {
 		icon = eng_propaganda_campaigns
 		cost = 50
-		days_remove = 100
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		available = {
 			has_completed_focus = GAL_ot_vinta
 			NOT = {
@@ -944,6 +953,9 @@ GAL_rock_zhiv = {
 			air_defence_factor = 0.25
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -954,8 +966,8 @@ GAL_rock_zhiv = {
 	GAL_kak_na_voyne = {
 		icon = eng_propaganda_campaigns
 		cost = 50
-		days_remove = 100
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		available = {
 			NOT = {
 				has_country_flag = GAL_pesnya
@@ -967,6 +979,9 @@ GAL_rock_zhiv = {
 			army_attack_factor = 0.1
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -977,8 +992,8 @@ GAL_rock_zhiv = {
 	GAL_ey_uhnem = {
 		icon = eng_propaganda_campaigns
 		cost = 30
-		days_remove = 100
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		visible = {
 			NOT = { has_completed_focus = GAL_ne_nado_napragat }
 		}
@@ -993,6 +1008,9 @@ GAL_rock_zhiv = {
 			consumer_goods_factor = -0.1
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -1003,8 +1021,8 @@ GAL_rock_zhiv = {
 	GAL_18_mne_uzhe = {
 		icon = eng_propaganda_campaigns
 		cost = 30
-		days_remove = 150
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		available = {
 			NOT = {
 				has_country_flag = GAL_pesnya
@@ -1015,6 +1033,9 @@ GAL_rock_zhiv = {
 			weekly_manpower = 150
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
