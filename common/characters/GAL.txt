@@ -321,6 +321,32 @@ characters={
 		}		
 	}
 	
+		
+	GAL_Kristina = {
+		name = "Кристина Макисовна"
+		portraits = {
+			army = {
+				small = "GFX_idea_GAL_Kristina"
+				large = "gfx/leaders/GAL/Kristina.dds"				
+			}
+			civilian = {
+				small = "GFX_idea_GAL_Kristina"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = GAL_Kristina
+			allowed = {
+				original_tag = GAL
+			}
+			traits = {
+				technocrat
+			}
+			visible = { has_completed_focus = GAL_new_galileo  }
+		}		
+	}
+	
 	GAL_oso = {
 		name = "О-Сознание"
 		

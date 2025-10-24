@@ -3083,7 +3083,7 @@ ideas = {
 			
 			research_bonus = {
 				industry = 0.10
-				local_resources_factor = 0.1
+				excavation_tech = 0.1
 			}
 			
 			ai_will_do = {
