@@ -4278,4 +4278,9 @@ spriteTypes = {
 		name = "GAL_new_galileo"
 		texturefile = "gfx/interface/goals/GAL_new_galileo.dds"
 	}
+	
+	SpriteType = { 
+		name = "GAL_rok_kotserty"
+		texturefile = "gfx/interface/goals/GAL_rok_kotserty.dds"
+	}
 }

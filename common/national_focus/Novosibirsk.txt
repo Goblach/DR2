@@ -2244,7 +2244,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_rok_kotserty
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_rok_kotserty
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_videnie_Pushnogo
