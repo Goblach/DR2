@@ -378,50 +378,6 @@ military_appeasement = {
 	resistance_growth = -0.5
 }
 
-POL_plan_modifier = {
-	enable = { always = yes }
-
-	icon = GFX_modifiers_generic_military_plans
-	
-	state_production_speed_bunker_factor = 0.3
-}
-
-POL_anti_soviet_offensive = {
-	enable = { always = yes }
-
-	icon = GFX_modifiers_sabotaged_resource
-
-	army_attack_factor = 0.1
-	army_defence_factor = 0.2
-    breakthrough_factor = 0.15
-}
-
-POL_anti_german_offensive = {
-	enable = { always = yes }
-
-	icon = GFX_modifiers_sabotaged_resource
-
-	army_attack_factor = 0.1
-	army_defence_factor = 0.2
-    breakthrough_factor = 0.15
-}
-
-POL_peasant_communities = {
-	enable = { always = yes }
-
-	icon = GFX_modifiers_SOV_civilian_labor_in_defense
-
-	state_production_speed_rail_way_factor = 0.1
-	state_production_speed_supply_node_factor = 0.05
-}
-
-BALTIC_soviet_settlers = {
-	enable = { always = yes }
-
-	icon = GFX_idea_generic_fortify_the_borders
-	weekly_manpower = 2000
-}
-
 unplanned_offensive = {
 	icon = GFX_unplanned_offensive
 	attacker_modifier = yes
@@ -433,122 +389,136 @@ unplanned_offensive = {
 	local_org_regain = -0.5
 }
 
-
-####
-#### SOVIET STATE MODIFIERS ####
-####
-
-SOV_defend_moscow = { #STATE MODIFIER
+dam_blown_modifier = { #State Modifier
 	enable = { always = yes }
 
-	icon = GFX_modifiers_SOV_defend_moscow
+	icon = GFX_decision_hol_inundate_water_lines
 	
-	recruitable_population_factor = 0.25
-	army_core_defence_factor = 0.1
-	local_factories = -1
-	supply_factor = 0.15
-}
-
-SOV_increased_metals_production = { #STATE MODIFIER
-	enable = { always = yes }
-
-	icon = GFX_modifiers_increased_metal_production
-
-	state_resource_aluminium = SOV_aluminium_bonus
-	state_resource_tungsten = SOV_tungsten_bonus
-	state_resource_steel = SOV_steel_bonus
-	state_resource_chromium = SOV_chromium_bonus
-}
-
-SOV_invaders_must_die = { #STATE MODIFIER
-	enable = { always = yes }
-
-	icon = GFX_modifiers_SOV_invaders_must_die
-	
-	compliance_growth = -0.05
-	resistance_growth = 0.05
-	resistance_target = 0.15
-	resistance_decay = -0.30
-	state_resources_factor = -0.25
+	local_supply_impact_factor = 0.5
 	disable_strategic_redeployment = 1
+	state_resources_factor = -0.25
+	local_manpower = -0.5
+	army_speed_factor_for_controller = -0.25
 }
 
-SOV_seraya_loshad_battery = { #STATE MODIFIER
+kiel_canal_damaged_modifier = { #State Modifier
 	enable = { always = yes }
 
-	icon = GFX_modifiers_SOV_armored_battery
+	icon = GFX_decision_hol_inundate_water_lines
 	
-	army_defence_factor = 0.1
-	cas_damage_reduction = 0.1
-	dig_in_speed_factor = 0.25
-	max_dig_in_factor = 0.1
-	pocket_penalty = -0.15
+	custom_modifier_tooltip = kiel_canal_damaged_tt
 }
 
-SOV_krasnaya_gorka_battery = { #STATE MODIFIER
+panama_canal_damaged_modifier = { #State Modifier
 	enable = { always = yes }
 
-	icon = GFX_modifiers_SOV_armored_battery
+	icon = GFX_decision_hol_inundate_water_lines
 	
-	army_defence_factor = 0.1
-	cas_damage_reduction = 0.1
-	dig_in_speed_factor = 0.25
-	max_dig_in_factor = 0.1
-	pocket_penalty = -0.15
+	custom_modifier_tooltip = kiel_canal_damaged_tt
 }
 
-SOV_armored_battery_35 = { #STATE MODIFIER #German designation Maksim Gorky
+refinery_damaged_modifier = {
 	enable = { always = yes }
+	icon = GFX_modifiers_sabotaged_resource	
+	state_resources_oil_factor = -0.5
+} 
+refinery_critically_damaged_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_sabotaged_resource	
+	state_resources_oil_factor = -0.75
+}
+refinery_lightly_damaged_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_sabotaged_resource	
+	state_resources_oil_factor = -0.25
+}  
 
-	icon = GFX_modifiers_SOV_armored_battery
-	
-	army_defence_factor = 0.1
-	cas_damage_reduction = 0.1
-	dig_in_speed_factor = 0.25
-	max_dig_in_factor = 0.1
-	pocket_penalty = -0.15
+steel_mines_damaged_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_sabotaged_resource	
+	#state_resources_factor = -0.5
+	state_resources_steel_factor = -0.5
+} 
+steel_mines_critically_damaged_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_sabotaged_resource	
+	#state_resources_factor = -0.75
+	state_resources_steel_factor = -0.75
+}
+steel_mines_lightly_damaged_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_sabotaged_resource	
+	#state_resources_factor = -0.25
+	state_resources_steel_factor = -0.25
 }
 
-SOV_factory_worker_militias_raised = { #STATE MODIFIER
+pathfinder_infiltration_modifier = {
 	enable = { always = yes }
-
-	icon = GFX_modifiers_SOV_factory_worker_militias
-	
-	army_core_defence_factor = 0.05
-	local_org_regain = 0.1
-	local_factories = -1
-	state_resources_factor = -0.5
+	icon = GFX_modifiers_FIN_motti_tactics_modifier	
+	disable_strategic_redeployment = yes 
+	no_supply_grace = 20
+	naval_invasion_penalty = -0.1
 }
 
-SOV_civilian_labor_in_defense_mod = { #STATE MODIFIER
+eben_emael_raided_critical_modifier = {
 	enable = { always = yes }
+	icon = GFX_modifiers_BEL_eben_emael_raided
+	max_dig_in_factor = -0.5
+	land_bunker_effectiveness_factor = -0.75
+}
 
+eben_emael_raided_success_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_BEL_eben_emael_raided
+	max_dig_in_factor = -0.25
+	land_bunker_effectiveness_factor = -0.75
+}  
+
+eben_emael_raided_limited_success_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_BEL_eben_emael_raided
+	land_bunker_effectiveness_factor = -0.5
+} 
+##### Nuclear Fallout ####
+
+fallout_atomic = {
+	enable = { always = yes }
+	icon = GFX_modifiers_radiation
+	army_defence_factor = -0.25
+	army_speed_factor = -0.3
+	max_dig_in_factor = -0.5 
+	industry_repair_factor = -0.4
+	industry_free_repair_factor = -0.4
+	repair_speed_infrastructure_factor = -0.4
+	repair_speed_rail_way_factor = -0.4
+	local_resources_factor = -0.4
+	state_production_speed_buildings_factor = -0.4
+}
+
+fallout_thermonuclear = {
+	enable = { always = yes }
+	icon = GFX_modifiers_radiation
+	army_defence_factor = -0.5
+	army_speed_factor = -0.65
+	max_dig_in_factor = -0.9
+	industry_repair_factor = -0.75
+	industry_free_repair_factor = -0.75
+	repair_speed_infrastructure_factor = -0.75
+	repair_speed_rail_way_factor = -0.75
+	local_resources_factor = -0.75
+	state_production_speed_buildings_factor = -0.75
+}
+
+
+##### Stronghold Network SP reward #####
+
+sp_land_stronghold_network_collapse_workers_drafted = {
+	enable = { always = yes }
 	icon = GFX_modifiers_SOV_civilian_labor_in_defense
-	
-	army_core_defence_factor = 0.05
-	state_production_speed_bunker_factor = 0.6
-	state_production_speed_coastal_bunker_factor = 0.6
-	local_manpower = -0.25
-	local_factories = -0.5
-	state_resources_factor = -0.5
-}
-
-SOV_soviet_military_offensive = { #STATE MODIFIER
-	enable = { always = yes }
-
-	icon = GFX_modifiers_generic_military_plans
-
-	breakthrough_factor = 0.1
-	army_attack_factor = 0.1
-}
-
-SOV_soviet_imports = { #STATE MODIFIER
-	enable = { always = yes }
-
-	icon = GFX_modifiers_increased_metal_production
-
-	state_resource_oil = 16
-	state_resource_steel = 8
-	state_resource_chromium = 2
-	state_resource_rubber = 2
+	industry_repair_factor = -0.5
+	industry_free_repair_factor = -0.5
+	repair_speed_infrastructure_factor = -0.5
+	repair_speed_rail_way_factor = -0.5
+	local_resources_factor = -0.5
+	state_production_speed_buildings_factor = -0.5
 }
