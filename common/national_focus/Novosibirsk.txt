@@ -2315,7 +2315,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_unictozit_political_yarliks
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_unictozit_political_yarliks
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_genetika_nauka

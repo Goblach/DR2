@@ -4283,4 +4283,9 @@ spriteTypes = {
 		name = "GAL_rok_kotserty"
 		texturefile = "gfx/interface/goals/GAL_rok_kotserty.dds"
 	}
+	
+	SpriteType = { 
+		name = "GAL_unictozit_political_yarliks"
+		texturefile = "gfx/interface/goals/GAL_unictozit_political_yarliks.dds"
+	}
 }
