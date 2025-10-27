@@ -1042,7 +1042,7 @@ ideas = {
 				metacommy_drift = -0.01
 				anarhostalinism_drift = -0.01
 				vmestolev_drift = -0.01
-				memoism_drift_drift = -0.01
+				memoism_drift = -0.01
 			}
 		}
 		

@@ -1,0 +1,26 @@
+
+music_station = "base_music"
+
+music = {
+	song = "Aggression"
+	chance = {
+		base = 4
+		modifier = { factor = 0		has_war = no }
+	}
+}
+
+music = {
+	song = "Escalation"
+	chance = {
+		base = 4
+		modifier = { factor = 0		has_war = no }
+	}
+}
+
+music = {
+	song = "Retribution"
+	chance = {
+		base = 4
+		modifier = { factor = 0		has_war = no }
+	}
+}

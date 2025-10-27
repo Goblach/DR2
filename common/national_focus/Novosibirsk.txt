@@ -957,55 +957,55 @@ focus_tree = {
 							limit = {
 									has_idea = GAL_marakumba_1
 								}
-							remove_idea = GAL_marakumba_1
+							remove_ideas = GAL_marakumba_1
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_2
 								}
-							remove_idea = GAL_marakumba_2
+							remove_ideas = GAL_marakumba_2
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_3
 								}
-							remove_idea = GAL_marakumba_3
+							remove_ideas = GAL_marakumba_3
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_4
 								}
-							remove_idea = GAL_marakumba_4
+							remove_ideas = GAL_marakumba_4
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_5
 								}
-							remove_idea = GAL_marakumba_5
+							remove_ideas = GAL_marakumba_5
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_import_0
 								}
-							remove_idea = GAL_marakumba_import_0
+							remove_ideas = GAL_marakumba_import_0
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_import_1
 								}
-							remove_idea = GAL_marakumba_import_1
+							remove_ideas = GAL_marakumba_import_1
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_import_2
 								}
-							remove_idea = GAL_marakumba_import_2
+							remove_ideas = GAL_marakumba_import_2
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_import_3
 								}
-							remove_idea = GAL_marakumba_import_3
+							remove_ideas = GAL_marakumba_import_3
 						}
 				}
 
