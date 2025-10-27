@@ -2261,7 +2261,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_syberia
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_syberia 
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_rok_kotserty
@@ -2277,7 +2277,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_nauka_i_iskusstvo
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_nauka_i_iskusstvo
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_rok_kotserty
@@ -2343,7 +2343,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_konstruirovanie_kast
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_konstruirovanie_kast
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_genetika_nauka
@@ -2713,7 +2713,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_zvuk_oruzhie
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_zvuk_oruzhie 
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_new_galileo

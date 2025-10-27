@@ -4288,4 +4288,24 @@ spriteTypes = {
 		name = "GAL_unictozit_political_yarliks"
 		texturefile = "gfx/interface/goals/GAL_unictozit_political_yarliks.dds"
 	}
+	
+	SpriteType = { 
+		name = "GAL_nauka_i_iskusstvo"
+		texturefile = "gfx/interface/goals/GAL_nauka_i_iskusstvo.dds"
+	}
+	
+	SpriteType = { 
+		name = "GAL_syberia"
+		texturefile = "gfx/interface/goals/GAL_syberia.dds"
+	}
+	
+	SpriteType = { 
+		name = "GAL_zvuk_oruzhie"
+		texturefile = "gfx/interface/goals/GAL_zvuk_oruzhie.dds"
+	}
+	
+	SpriteType = { 
+		name = "GAL_konstruirovanie_kast"
+		texturefile = "gfx/interface/goals/GAL_konstruirovanie_kast.dds"
+	}
 }
