@@ -4320,7 +4320,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
-		name = "GAL_ozhivit_akadem_goroda"
+		name = "GAL_ozhivit_akadem_goroda" 
 		texturefile = "gfx/interface/goals/GAL_ozhivit_akadem_goroda.dds"
 	}
 	
@@ -4352,5 +4352,15 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GAL_zadacha_proryv"
 		texturefile = "gfx/interface/goals/GAL_zadacha_proryv.tga"
+	}
+	
+	SpriteType = { 
+		name = "GAL_otmena_turem"
+		texturefile = "gfx/interface/goals/GAL_otmena_turem.dds"
+	}
+	
+	SpriteType = { 
+		name = "GAL_stop_idiokraty"
+		texturefile = "gfx/interface/goals/GAL_stop_idiokraty.dds"
 	}
 }

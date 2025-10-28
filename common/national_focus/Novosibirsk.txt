@@ -2357,7 +2357,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_otmena_turem
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_otmena_turem
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_konstruirovanie_kast
@@ -2403,7 +2403,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GAL_ozhivit_akadem_goroda
+		id = GAL_ozhivit_akadem_goroda 
 		icon = GFX_GAL_ozhivit_akadem_goroda
 		cost = 5.00
 		prerequisite = {
@@ -2421,7 +2421,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = GAL_stop_idiokraty
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_stop_idiokraty
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_ierarhiya_tehnokratii
