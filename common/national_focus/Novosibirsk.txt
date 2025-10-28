@@ -1509,7 +1509,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_delo_Lukina
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_delo_Lukina
 		cost = 3.00
 		prerequisite = {
 			focus = GAL_peregovor_komision
@@ -1525,7 +1525,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_Panki_Hoy
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_Panki_Hoy
 		cost = 3.00
 		prerequisite = {
 			focus = GAL_peregovor_komision
@@ -1551,7 +1551,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_liberalism_golovnogo_mozga
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_liberalism_golovnogo_mozga
 		cost = 2.00
 		prerequisite = {
 			focus = GAL_peregovor_komision
@@ -1573,7 +1573,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_nado_radovatsya
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_nado_radovatsya
 		cost = 1.00
 		prerequisite = {
 			focus = GAL_krisis_manager
@@ -1877,7 +1877,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_zadacha_oborona
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_zadacha_oborona
 		cost = 6.00
 		prerequisite = {
 			focus = GAL_tsel_vyzhit
@@ -1902,7 +1902,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_zadacha_proryv
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_zadacha_proryv
 		cost = 6.00
 		prerequisite = {
 			focus = GAL_tsel_vyzhit
@@ -2291,7 +2291,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_genetika_nauka
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_genetika_nauka
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_videnie_Pushnogo
@@ -2404,7 +2404,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_ozhivit_akadem_goroda
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_ozhivit_akadem_goroda
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_genetika_nauka
@@ -2679,7 +2679,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_ierarhiya_tehnokratii
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_ierarhiya_tehnokratii
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_genetika_nauka

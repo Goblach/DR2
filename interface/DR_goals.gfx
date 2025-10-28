@@ -4308,4 +4308,49 @@ spriteTypes = {
 		name = "GAL_konstruirovanie_kast"
 		texturefile = "gfx/interface/goals/GAL_konstruirovanie_kast.dds"
 	}
+	
+	SpriteType = { 
+		name = "GAL_ierarhiya_tehnokratii"
+		texturefile = "gfx/interface/goals/GAL_ierarhiya_tehnokratii.dds"
+	}
+	
+	SpriteType = { 
+		name = "GAL_genetika_nauka"
+		texturefile = "gfx/interface/goals/GAL_genetika_nauka.dds"
+	}
+	
+	SpriteType = { 
+		name = "GAL_ozhivit_akadem_goroda"
+		texturefile = "gfx/interface/goals/GAL_ozhivit_akadem_goroda.dds"
+	}
+	
+	SpriteType = { 
+		name = "GAL_Panki_Hoy"
+		texturefile = "gfx/interface/goals/GAL_Panki_Hoy.tga"
+	}
+	
+	SpriteType = { 
+		name = "GAL_nado_radovatsya"
+		texturefile = "gfx/interface/goals/GAL_nado_radovatsya.tga"
+	}
+	
+	SpriteType = { 
+		name = "GAL_delo_Lukina"
+		texturefile = "gfx/interface/goals/GAL_delo_Lukina.tga"
+	}
+	
+	SpriteType = { 
+		name = "GAL_liberalism_golovnogo_mozga"
+		texturefile = "gfx/interface/goals/GAL_liberalism_golovnogo_mozga.tga"
+	}
+	
+	SpriteType = { 
+		name = "GAL_zadacha_oborona"
+		texturefile = "gfx/interface/goals/GAL_zadacha_oborona.tga"
+	}
+	
+	SpriteType = { 
+		name = "GAL_zadacha_proryv"
+		texturefile = "gfx/interface/goals/GAL_zadacha_proryv.tga"
+	}
 }
