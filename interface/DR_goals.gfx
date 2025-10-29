@@ -4165,202 +4165,202 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
-		name = "GAL_krisis_manager"
+		name = "GFX_GAL_krisis_manager"
 		texturefile = "gfx/interface/goals/GAL_krisis_manager.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_peregovor_komision"
+		name = "GFX_GAL_peregovor_komision"
 		texturefile = "gfx/interface/goals/GAL_peregovor_komision.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_rational_economy"
+		name = "GFX_GAL_rational_economy"
 		texturefile = "gfx/interface/goals/GAL_rational_economy.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_bogatstvo_severa"
+		name = "GFX_GAL_bogatstvo_severa"
 		texturefile = "gfx/interface/goals/GAL_bogatstvo_severa.dds"
 	} 
 	
 	SpriteType = { 
-		name = "GAL_zapolyar_ZhD" 
+		name = "GFX_GAL_zapolyar_ZhD" 
 		texturefile = "gfx/interface/goals/GAL_zapolyar_ZhD.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_zadacha_osvobod_nauki" 
+		name = "GFX_GAL_zadacha_osvobod_nauki" 
 		texturefile = "gfx/interface/goals/GAL_zadacha_osvobod_nauki.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_infantry" 
+		name = "GFX_GAL_infantry" 
 		texturefile = "gfx/interface/goals/GAL_infantry.tga"
 	}
 	
 	SpriteType = { 
-		name = "GAL_vpk" 
+		name = "GFX_GAL_vpk" 
 		texturefile = "gfx/interface/goals/GAL_vpk.tga"
 	}
 	
 	SpriteType = { 
-		name = "GAL_grazdanskiy_sektor" 
+		name = "GFX_GAL_grazdanskiy_sektor" 
 		texturefile = "gfx/interface/goals/GAL_grazdanskiy_sektor.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_stroyki_za_premiyu" 
+		name = "GFX_GAL_stroyki_za_premiyu" 
 		texturefile = "gfx/interface/goals/GAL_stroyki_za_premiyu.tga"
 	}
 	
 	SpriteType = { 
-		name = "GAL_ne_nado_napragat" 
+		name = "GFX_GAL_ne_nado_napragat" 
 		texturefile = "gfx/interface/goals/GAL_ne_nado_napragat.tga"
 	}
 	
 	SpriteType = { 
-		name = "GAL_ot_vinta" 
+		name = "GFX_GAL_ot_vinta" 
 		texturefile = "gfx/interface/goals/GAL_ot_vinta.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_tankograd" 
+		name = "GFX_GAL_tankograd" 
 		texturefile = "gfx/interface/goals/GAL_tankograd.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_experimenty" 
+		name = "GFX_GAL_experimenty" 
 		texturefile = "gfx/interface/goals/GAL_experimenty.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_voen_praktika" 
+		name = "GFX_GAL_voen_praktika" 
 		texturefile = "gfx/interface/goals/GAL_experimenty.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_plody_lybvi" 
+		name = "GFX_GAL_plody_lybvi" 
 		texturefile = "gfx/interface/goals/GAL_plody_lybvi.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_issledovanie_noosfery" 
+		name = "GFX_GAL_issledovanie_noosfery" 
 		texturefile = "gfx/interface/goals/GAL_issledovanie_noosfery.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_krasniy_svet" 
+		name = "GFX_GAL_krasniy_svet" 
 		texturefile = "gfx/interface/goals/GAL_krasniy_svet.dds"
 	}
 	
 	SpriteType = {  
-		name = "GAL_svyaz_i_communocation" 
+		name = "GFX_GAL_svyaz_i_communocation" 
 		texturefile = "gfx/interface/goals/GAL_svyaz_i_communocation.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_vse_idet_po_planu" 
+		name = "GFX_GAL_vse_idet_po_planu" 
 		texturefile = "gfx/interface/goals/GAL_vse_idet_po_planu.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_i_povolok_brevno" 
+		name = "GFX_GAL_i_povolok_brevno" 
 		texturefile = "gfx/interface/goals/GAL_i_povolok_brevno.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_renesans"
+		name = "GFX_GAL_renesans"
 		texturefile = "gfx/interface/goals/GAL_renesans.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_new_galileo"
+		name = "GFX_GAL_new_galileo"
 		texturefile = "gfx/interface/goals/GAL_new_galileo.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_rok_kotserty"
+		name = "GFX_GAL_rok_kotserty"
 		texturefile = "gfx/interface/goals/GAL_rok_kotserty.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_unictozit_political_yarliks"
+		name = "GFX_GAL_unictozit_political_yarliks"
 		texturefile = "gfx/interface/goals/GAL_unictozit_political_yarliks.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_nauka_i_iskusstvo"
+		name = "GFX_GAL_nauka_i_iskusstvo"
 		texturefile = "gfx/interface/goals/GAL_nauka_i_iskusstvo.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_syberia"
+		name = "GFX_GAL_syberia"
 		texturefile = "gfx/interface/goals/GAL_syberia.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_zvuk_oruzhie"
+		name = "GFX_GAL_zvuk_oruzhie"
 		texturefile = "gfx/interface/goals/GAL_zvuk_oruzhie.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_konstruirovanie_kast"
+		name = "GFX_GAL_konstruirovanie_kast"
 		texturefile = "gfx/interface/goals/GAL_konstruirovanie_kast.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_ierarhiya_tehnokratii"
+		name = "GFX_GAL_ierarhiya_tehnokratii"
 		texturefile = "gfx/interface/goals/GAL_ierarhiya_tehnokratii.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_genetika_nauka"
+		name = "GFX_GAL_genetika_nauka"
 		texturefile = "gfx/interface/goals/GAL_genetika_nauka.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_ozhivit_akadem_goroda" 
+		name = "GFX_GAL_ozhivit_akadem_goroda" 
 		texturefile = "gfx/interface/goals/GAL_ozhivit_akadem_goroda.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_Panki_Hoy"
+		name = "GFX_GAL_Panki_Hoy"
 		texturefile = "gfx/interface/goals/GAL_Panki_Hoy.tga"
 	}
 	
 	SpriteType = { 
-		name = "GAL_nado_radovatsya"
+		name = "GFX_GAL_nado_radovatsya"
 		texturefile = "gfx/interface/goals/GAL_nado_radovatsya.tga"
 	}
 	
 	SpriteType = { 
-		name = "GAL_delo_Lukina"
+		name = "GFX_GAL_delo_Lukina"
 		texturefile = "gfx/interface/goals/GAL_delo_Lukina.tga"
 	}
 	
 	SpriteType = { 
-		name = "GAL_liberalism_golovnogo_mozga"
+		name = "GFX_GAL_liberalism_golovnogo_mozga"
 		texturefile = "gfx/interface/goals/GAL_liberalism_golovnogo_mozga.tga"
 	}
 	
 	SpriteType = { 
-		name = "GAL_zadacha_oborona"
+		name = "GFX_GAL_zadacha_oborona"
 		texturefile = "gfx/interface/goals/GAL_zadacha_oborona.tga"
 	}
 	
 	SpriteType = { 
-		name = "GAL_zadacha_proryv"
+		name = "GFX_GAL_zadacha_proryv"
 		texturefile = "gfx/interface/goals/GAL_zadacha_proryv.tga"
 	}
 	
 	SpriteType = { 
-		name = "GAL_otmena_turem"
+		name = "GFX_GAL_otmena_turem"
 		texturefile = "gfx/interface/goals/GAL_otmena_turem.dds"
 	}
 	
 	SpriteType = { 
-		name = "GAL_stop_idiokraty"
+		name = "GFX_GAL_stop_idiokraty"
 		texturefile = "gfx/interface/goals/GAL_stop_idiokraty.dds"
 	}
 }

@@ -40118,7 +40118,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_experiment_zvuk"
+		name = "GFX_goal_experiment_zvuk_shine"
 		texturefile = "gfx/interface/goals/goal_experiment_zvuk.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40150,7 +40150,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_red_platform"
+		name = "GFX_goal_red_platform_shine"
 		texturefile = "gfx/interface/goals/goal_red_platform.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40182,7 +40182,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_sila_knig"
+		name = "GFX_goal_sila_knig_shine"
 		texturefile = "gfx/interface/goals/goal_sila_knig.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40214,7 +40214,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_kniga_pamyati"
+		name = "GFX_goal_kniga_pamyati_shine"
 		texturefile = "gfx/interface/goals/goal_kniga_pamyati.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40246,7 +40246,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_kniga_yarosti"
+		name = "GFX_goal_kniga_yarosti_shine"
 		texturefile = "gfx/interface/goals/goal_kniga_yarosti.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40278,7 +40278,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_kniga_sily"
+		name = "GFX_goal_kniga_sily_shine"
 		texturefile = "gfx/interface/goals/goal_kniga_sily.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40310,7 +40310,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_divinity"
+		name = "GFX_goal_divinity_shine"
 		texturefile = "gfx/interface/goals/goal_divinity.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40342,7 +40342,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_sila_nostalgy"
+		name = "GFX_goal_sila_nostalgy_shine"
 		texturefile = "gfx/interface/goals/goal_sila_nostalgy.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40374,7 +40374,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_knife_boy"
+		name = "GFX_goal_knife_boy_shine"
 		texturefile = "gfx/interface/goals/goal_knife_boy.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40406,7 +40406,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_kniga_radosti"
+		name = "GFX_goal_kniga_radosti_shine"
 		texturefile = "gfx/interface/goals/goal_kniga_radosti.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40438,7 +40438,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_voin_gospoden"
+		name = "GFX_goal_voin_gospoden_shine"
 		texturefile = "gfx/interface/goals/goal_voin_gospoden.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40470,7 +40470,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_SSSR"
+		name = "GFX_goal_SSSR_shine"
 		texturefile = "gfx/interface/goals/goal_SSSR.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40502,7 +40502,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_kniga_terpeniya"
+		name = "GFX_goal_kniga_terpeniya_shine"
 		texturefile = "gfx/interface/goals/goal_kniga_terpeniya.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40534,7 +40534,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_kniga_vlasti"
+		name = "GFX_goal_kniga_vlasti_shine"
 		texturefile = "gfx/interface/goals/goal_kniga_vlasti.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40566,7 +40566,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_Rus_Fed"
+		name = "GFX_goal_Rus_Fed_shine"
 		texturefile = "gfx/interface/goals/goal_Rus_Fed.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40598,7 +40598,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_kniga_smysla"
+		name = "GFX_goal_kniga_smysla_shine"
 		texturefile = "gfx/interface/goals/goal_kniga_smysla.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40630,7 +40630,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_sila_music"
+		name = "GFX_goal_sila_music_shine"
 		texturefile = "gfx/interface/goals/goal_sila_music.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40662,7 +40662,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_grob_records"
+		name = "GFX_goal_grob_records_shine"
 		texturefile = "gfx/interface/goals/goal_grob_records.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40694,7 +40694,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_grob_records"
+		name = "GFX_goal_grob_records_shine"
 		texturefile = "gfx/interface/goals/goal_grob_records.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40726,7 +40726,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_orskay"
+		name = "GFX_goal_orskay_shine"
 		texturefile = "gfx/interface/goals/goal_orskay.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40758,7 +40758,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_perepet_sovshdvr"
+		name = "GFX_goal_perepet_sovshdvr_shine"
 		texturefile = "gfx/interface/goals/goal_perepet_sovshdvr.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40790,7 +40790,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_upor_na_original"
+		name = "GFX_goal_upor_na_original_shine"
 		texturefile = "gfx/interface/goals/goal_upor_na_original.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40822,7 +40822,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_soviet_oficial"
+		name = "GFX_goal_soviet_oficial_shine"
 		texturefile = "gfx/interface/goals/goal_soviet_oficial.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40854,7 +40854,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_industrial"
+		name = "GFX_goal_industrial_shine"
 		texturefile = "gfx/interface/goals/goal_industrial.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40886,7 +40886,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_elektrogitara_ural"
+		name = "GFX_goal_elektrogitara_ural_shine"
 		texturefile = "gfx/interface/goals/goal_elektrogitara_ural.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40918,7 +40918,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_japan_treaty"
+		name = "GFX_goal_japan_treaty_shine"
 		texturefile = "gfx/interface/goals/goal_japan_treaty.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40950,7 +40950,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_heavy_music_heavy_industry"
+		name = "GFX_goal_heavy_music_heavy_industry_shine"
 		texturefile = "gfx/interface/goals/goal_heavy_music_heavy_industry.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -40982,7 +40982,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_gospank"
+		name = "GFX_goal_gospank_shine"
 		texturefile = "gfx/interface/goals/goal_gospank.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41014,7 +41014,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_alchemy"
+		name = "GFX_goal_alchemy_shine"
 		texturefile = "gfx/interface/goals/goal_alchemy.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41046,7 +41046,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_old_songs"
+		name = "GFX_goal_old_songs_shine"
 		texturefile = "gfx/interface/goals/goal_old_songs.tga"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41078,7 +41078,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_big_gun"
+		name = "GFX_GAL_big_gun_shine"
 		texturefile = "gfx/interface/goals/GAL_big_gun.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41110,7 +41110,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_tehnat_pravitelstvo"
+		name = "GFX_GAL_tehnat_pravitelstvo_shine"
 		texturefile = "gfx/interface/goals/GAL_tehnat_pravitelstvo.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41142,7 +41142,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_nayka_pobezhdat"
+		name = "GFX_GAL_nayka_pobezhdat_shine"
 		texturefile = "gfx/interface/goals/GAL_nayka_pobezhdat.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41174,7 +41174,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_tsel_vyzhit"
+		name = "GFX_GAL_tsel_vyzhit_shine"
 		texturefile = "gfx/interface/goals/GAL_tsel_vyzhit.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41206,7 +41206,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_voenspetsi"
+		name = "GFX_GAL_voenspetsi_shine"
 		texturefile = "gfx/interface/goals/GAL_voenspetsi.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41238,7 +41238,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_okonch_vosstanovlenie_strany"
+		name = "GFX_GAL_okonch_vosstanovlenie_strany_shine"
 		texturefile = "gfx/interface/goals/GAL_okonch_vosstanovlenie_strany.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41270,7 +41270,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Boyarshinov"
+		name = "GFX_GAL_Boyarshinov_shine"
 		texturefile = "gfx/interface/goals/GAL_Boyarshinov.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41302,7 +41302,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Boyarshinov_2"
+		name = "GFX_GAL_Boyarshinov_2_shine"
 		texturefile = "gfx/interface/goals/GAL_Boyarshinov_2.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41334,7 +41334,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Boyarshinov_3"
+		name = "GFX_GAL_Boyarshinov_3_shine"
 		texturefile = "gfx/interface/goals/GAL_Boyarshinov_3.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41366,7 +41366,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Syenduk"
+		name = "GFX_GAL_Syenduk_shine"
 		texturefile = "gfx/interface/goals/GAL_Syenduk.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41398,7 +41398,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Syenduk_2"
+		name = "GFX_GAL_Syenduk_2_shine"
 		texturefile = "gfx/interface/goals/GAL_Syenduk_2.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41430,7 +41430,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Syenduk_3"
+		name = "GFX_GAL_Syenduk_3_shine"
 		texturefile = "gfx/interface/goals/GAL_Syenduk_3.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41462,7 +41462,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Toples"
+		name = "GFX_GAL_Toples_shine"
 		texturefile = "gfx/interface/goals/GAL_Toples.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41494,7 +41494,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Toples_2"
+		name = "GFX_GAL_Toples_2_shine"
 		texturefile = "gfx/interface/goals/GAL_Toples_2.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41526,7 +41526,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Toples_3"
+		name = "GFX_GAL_Toples_3_shine"
 		texturefile = "gfx/interface/goals/GAL_Toples_3.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41558,7 +41558,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Deb"
+		name = "GFX_GAL_Deb_shine"
 		texturefile = "gfx/interface/goals/GAL_Deb.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41590,7 +41590,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Deb_2"
+		name = "GFX_GAL_Deb_2_shine"
 		texturefile = "gfx/interface/goals/GAL_Deb_2.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41622,7 +41622,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Deb_3"
+		name = "GFX_GAL_Deb_3_shine"
 		texturefile = "gfx/interface/goals/GAL_Deb_3.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41654,7 +41654,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Savvateev"
+		name = "GFX_GAL_Savvateev_shine"
 		texturefile = "gfx/interface/goals/GAL_Savvateev.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41686,7 +41686,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Savvateev_2"
+		name = "GFX_GAL_Savvateev_2_shine"
 		texturefile = "gfx/interface/goals/GAL_Savvateev_2.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41718,7 +41718,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Savvateev_3"
+		name = "GFX_GAL_Savvateev_3_shine"
 		texturefile = "gfx/interface/goals/GAL_Savvateev_3.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41750,7 +41750,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Panchin"
+		name = "GFX_GAL_Panchin_shine"
 		texturefile = "gfx/interface/goals/GAL_Panchin.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41782,7 +41782,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Panchin_2"
+		name = "GFX_GAL_Panchin_2_shine"
 		texturefile = "gfx/interface/goals/GAL_Panchin_2.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41814,7 +41814,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Panchin_3"
+		name = "GFX_GAL_Panchin_3_shine"
 		texturefile = "gfx/interface/goals/GAL_Panchin_3.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41846,7 +41846,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Rogozin"
+		name = "GFX_GAL_Rogozin_shine"
 		texturefile = "gfx/interface/goals/GAL_Rogozin.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41878,7 +41878,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Rogozin_2"
+		name = "GFX_GAL_Rogozin_2_shine"
 		texturefile = "gfx/interface/goals/GAL_Rogozin_2.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41910,7 +41910,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Rogozin_3"
+		name = "GFX_GAL_Rogozin_3_shine"
 		texturefile = "gfx/interface/goals/GAL_Rogozin_3.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41942,7 +41942,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_stroyki_za_dolgi"
+		name = "GFX_GAL_stroyki_za_dolgi_shine"
 		texturefile = "gfx/interface/goals/GAL_stroyki_za_dolgi.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -41974,7 +41974,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_rashirit_TransSib"
+		name = "GFX_GAL_rashirit_TransSib_shine"
 		texturefile = "gfx/interface/goals/GAL_rashirit_TransSib.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42006,7 +42006,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_ey_uhnem"
+		name = "GFX_GAL_ey_uhnem_shine"
 		texturefile = "gfx/interface/goals/GAL_ey_uhnem.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42038,7 +42038,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_krisis_manager"
+		name = "GFX_GAL_krisis_manager_shine"
 		texturefile = "gfx/interface/goals/GAL_krisis_manager.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42070,7 +42070,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_peregovor_komision"
+		name = "GFX_GAL_peregovor_komision_shine"
 		texturefile = "gfx/interface/goals/GAL_peregovor_komision.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42102,7 +42102,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_rational_economy"
+		name = "GFX_GAL_rational_economy_shine"
 		texturefile = "gfx/interface/goals/GAL_rational_economy.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42134,7 +42134,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_bogatstvo_severa"
+		name = "GFX_GAL_bogatstvo_severa_shine"
 		texturefile = "gfx/interface/goals/GAL_bogatstvo_severa.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42166,7 +42166,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_zapolyar_ZhD"
+		name = "GFX_GAL_zapolyar_ZhD_shine"
 		texturefile = "gfx/interface/goals/GAL_zapolyar_ZhD.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42198,7 +42198,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_zadacha_osvobod_nauki"
+		name = "GFX_GAL_zadacha_osvobod_nauki_shine"
 		texturefile = "gfx/interface/goals/GAL_zadacha_osvobod_nauki.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42230,7 +42230,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_infantry"
+		name = "GFX_GAL_infantry_shine"
 		texturefile = "gfx/interface/goals/GAL_infantry.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42262,7 +42262,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_vpk"
+		name = "GFX_GAL_vpk_shine"
 		texturefile = "gfx/interface/goals/GAL_vpk.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42294,7 +42294,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_grazdanskiy_sektor"
+		name = "GFX_GAL_grazdanskiy_sektor_shine"
 		texturefile = "gfx/interface/goals/GAL_grazdanskiy_sektor.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42326,7 +42326,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_stroyki_za_premiyu"
+		name = "GFX_GAL_stroyki_za_premiyu_shine"
 		texturefile = "gfx/interface/goals/GAL_stroyki_za_premiyu.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42358,7 +42358,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_ne_nado_napragat"
+		name = "GFX_GAL_ne_nado_napragat_shine"
 		texturefile = "gfx/interface/goals/GAL_ne_nado_napragat.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42390,7 +42390,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_ot_vinta"
+		name = "GFX_GAL_ot_vinta_shine"
 		texturefile = "gfx/interface/goals/GAL_ot_vinta.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42422,7 +42422,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_tankograd"
+		name = "GFX_GAL_tankograd_shine"
 		texturefile = "gfx/interface/goals/GAL_tankograd.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42454,7 +42454,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_experimenty"
+		name = "GFX_GAL_experimenty_shine"
 		texturefile = "gfx/interface/goals/GAL_experimenty.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42486,7 +42486,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_voen_praktika"
+		name = "GFX_GAL_voen_praktika_shine"
 		texturefile = "gfx/interface/goals/GAL_voen_praktika.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42518,7 +42518,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_plody_lybvi"
+		name = "GFX_GAL_plody_lybvi_shine"
 		texturefile = "gfx/interface/goals/GAL_plody_lybvi.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42550,7 +42550,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_issledovanie_noosfery"
+		name = "GFX_GAL_issledovanie_noosfery_shine"
 		texturefile = "gfx/interface/goals/GAL_issledovanie_noosfery.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42582,7 +42582,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_krasniy_svet"
+		name = "GFX_GAL_krasniy_svet_shine"
 		texturefile = "gfx/interface/goals/GAL_krasniy_svet.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42614,7 +42614,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_svyaz_i_communocation"
+		name = "GFX_GAL_svyaz_i_communocation_shine"
 		texturefile = "gfx/interface/goals/GAL_svyaz_i_communocation.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42646,7 +42646,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_vse_idet_po_planu"
+		name = "GFX_GAL_vse_idet_po_planu_shine"
 		texturefile = "gfx/interface/goals/GAL_vse_idet_po_planu.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42678,7 +42678,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_i_povolok_brevno"
+		name = "GFX_GAL_i_povolok_brevno_shine"
 		texturefile = "gfx/interface/goals/GAL_i_povolok_brevno.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42710,7 +42710,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_renesans"
+		name = "GFX_GAL_renesans_shine"
 		texturefile = "gfx/interface/goals/GAL_renesans.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42742,7 +42742,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_new_galileo" 
+		name = "GFX_GAL_new_galileo_shine" 
 		texturefile = "gfx/interface/goals/GAL_new_galileo.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42774,7 +42774,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_rok_kotserty" 
+		name = "GFX_GAL_rok_kotserty_shine" 
 		texturefile = "gfx/interface/goals/GAL_rok_kotserty.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42806,7 +42806,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_unictozit_political_yarliks" 
+		name = "GFX_GAL_unictozit_political_yarliks_shine" 
 		texturefile = "gfx/interface/goals/GAL_unictozit_political_yarliks.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42838,7 +42838,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_nauka_i_iskusstvo" 
+		name = "GFX_GAL_nauka_i_iskusstvo_shine" 
 		texturefile = "gfx/interface/goals/GAL_nauka_i_iskusstvo.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42870,7 +42870,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_syberia" 
+		name = "GFX_GAL_syberia_shine" 
 		texturefile = "gfx/interface/goals/GAL_syberia.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42902,7 +42902,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_zvuk_oruzhie" 
+		name = "GFX_GAL_zvuk_oruzhie_shine" 
 		texturefile = "gfx/interface/goals/GAL_zvuk_oruzhie.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42934,7 +42934,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_konstruirovanie_kast" 
+		name = "GFX_GAL_konstruirovanie_kast_shine" 
 		texturefile = "gfx/interface/goals/GAL_konstruirovanie_kast.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42966,7 +42966,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_ierarhiya_tehnokratii" 
+		name = "GFX_GAL_ierarhiya_tehnokratii_shine" 
 		texturefile = "gfx/interface/goals/GAL_ierarhiya_tehnokratii.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -42998,7 +42998,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_genetika_nauka" 
+		name = "GFX_GAL_genetika_nauka_shine" 
 		texturefile = "gfx/interface/goals/GAL_genetika_nauka.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -43030,7 +43030,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_Panki_Hoy" 
+		name = "GFX_GAL_Panki_Hoy_shine" 
 		texturefile = "gfx/interface/goals/GAL_Panki_Hoy.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -43062,7 +43062,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_nado_radovatsya" 
+		name = "GFX_GAL_nado_radovatsya_shine" 
 		texturefile = "gfx/interface/goals/GAL_nado_radovatsya.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -43094,7 +43094,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_delo_Lukina" 
+		name = "GFX_GAL_delo_Lukina_shine" 
 		texturefile = "gfx/interface/goals/GAL_delo_Lukina.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -43126,7 +43126,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_liberalism_golovnogo_mozga" 
+		name = "GFX_GAL_liberalism_golovnogo_mozga_shine" 
 		texturefile = "gfx/interface/goals/GAL_liberalism_golovnogo_mozga.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -43158,7 +43158,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_zadacha_oborona" 
+		name = "GFX_GAL_zadacha_oborona_shine" 
 		texturefile = "gfx/interface/goals/GAL_zadacha_oborona.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -43190,7 +43190,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_zadacha_proryv" 
+		name = "GFX_GAL_zadacha_proryv_shine" 
 		texturefile = "gfx/interface/goals/GAL_zadacha_proryv.tga" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -43222,7 +43222,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_otmena_turem" 
+		name = "GFX_GAL_otmena_turem_shine" 
 		texturefile = "gfx/interface/goals/GAL_otmena_turem.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -43254,7 +43254,7 @@ spriteTypes = {
 	} 
 	
 	SpriteType = {
-		name = "GFX_GAL_stop_idiokraty" 
+		name = "GFX_GAL_stop_idiokraty_shine" 
 		texturefile = "gfx/interface/goals/GAL_stop_idiokraty.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -43286,7 +43286,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GAL_ozhivit_akadem_goroda" 
+		name = "GFX_GAL_ozhivit_akadem_goroda_shine" 
 		texturefile = "gfx/interface/goals/GAL_ozhivit_akadem_goroda.dds" 
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
