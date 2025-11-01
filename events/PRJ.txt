@@ -78,18 +78,78 @@ country_event = { #Последствия убийства Абэ
 	
 	option = {
 	name = PRJ.4.a
-    
+	set_party_name = { ideology = democratic long_name = PRJ_triple_baka_party_long name = PRJ_triple_baka_party }
+    add_country_leader_role = {
+			character = PRJ_triple_baka
+			promote_leader = yes
+			country_leader = {
+			    desc = ""     
+				ideology = liberalism
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+	}
+	}
 	}
 		option = {
 	name = PRJ.4.b
-   
+   set_party_name = { ideology = neutrality long_name = PRJ_AZki_party_long name = PRJ_AZki_party }
+   		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+    add_country_leader_role = {
+			character = PRJ_AZki
+			promote_leader = yes
+			country_leader = {
+			    desc = ""     
+				ideology = military_administration
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+	}
+	}
 	}
 		option = {
 	name = PRJ.4.c
-    
+    set_party_name = { ideology = neutrality long_name = PRJ_Kson_party_long name = PRJ_Kson_party }
+      		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+   add_country_leader_role = {
+			character = PRJ_Kson
+			promote_leader = yes
+			country_leader = {
+			    desc = ""     
+				ideology = despotism
+				expire = "1965.1.1.1"
+				traits = {
+					tokio_dragon
+				}
+	}
+	}
 	}
 		option = {
 	name = PRJ.4.d
-    
+	set_party_name = { ideology = neutrality long_name = PRJ_Mishima_Zaibatsu_party_long name = PRJ_Mishima_Zaibatsu_party }
+       		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+	add_country_leader_role = {
+			character = PRJ_Jinpachi_Mishima
+			promote_leader = yes
+			country_leader = {
+			    desc = ""     
+				ideology = oligarchism
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
 	}
+}
+}
 }

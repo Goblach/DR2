@@ -46,3 +46,36 @@ characters={
 			}
 		}
 }
+		PRJ_Kson = {
+		name = "Ксон Казума"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/Kson.dds"
+			}
+		}
+    }
+		PRJ_triple_baka = {
+		name = "Триумвират"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/triple_baka.dds"
+			}
+		}
+    }
+		PRJ_AZki = {
+		name = "АЗКи"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/AZki.dds"
+			}
+		}
+    }
+		PRJ_Jinpachi_Mishima = {
+		name = "Дзимпати Мисима"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/Jinpachi_Mishima.dds"
+			}
+		}
+    }
+}
