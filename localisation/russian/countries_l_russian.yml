@@ -2177,6 +2177,10 @@
  PRJ_democratic:0 "Японская республика"
  PRJ_democratic_DEF:0 "Правительство Японии"
  PRJ_democratic_ADJ:0 "Японск."
+ PRJ_neutrality:0 "Японская республика"
+ PRJ_neutrality_DEF:0 "Правительство Японии"
+ PRJ_neutrality_ADJ:0 "Японск."
+ ###############################################
  KHA_democratic:0 "Хакассия"
  KHA_democratic_DEF:0 "Республика Хакассия"
  KHA_democratic_ADJ:0 "Хакасск."
