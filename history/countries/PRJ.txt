@@ -37,10 +37,10 @@ PRJ_vosstanovlenie_economiki
 
 set_popularities = {
 	democratic = 42
-	memoism = 37
-	neutrality = 8
+	memoism = 30
+	neutrality = 10
 	fascism = 4
-	vmestolev = 5
+	vmestolev = 10
 	metacommy = 2
 	anarhostalinism = 2
 }

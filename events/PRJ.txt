@@ -79,6 +79,8 @@ country_event = { #Последствия убийства Абэ
 	option = {
 	name = PRJ.4.a
 	set_party_name = { ideology = democratic long_name = PRJ_triple_baka_party_long name = PRJ_triple_baka_party }
+	set_party_name = { ideology = vmestolev long_name = PRJ_vmestolev_party_long name = PRJ_triple_baka_party }
+	set_party_name = { ideology = memoism long_name = PRJ_memoism_party_long name = PRJ_triple_baka_party }
     add_country_leader_role = {
 			character = PRJ_triple_baka
 			promote_leader = yes
