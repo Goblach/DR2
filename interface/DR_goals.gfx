@@ -4363,4 +4363,24 @@ spriteTypes = {
 		name = "GFX_GAL_stop_idiokraty"
 		texturefile = "gfx/interface/goals/GAL_stop_idiokraty.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_GAL_videnie_Pushnogo"
+		texturefile = "gfx/interface/goals/GAL_videnie_Pushnogo.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_GAL_pochemy_socialism"
+		texturefile = "gfx/interface/goals/GAL_pochemy_socialism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_GAL_pisma_Saveleva"
+		texturefile = "gfx/interface/goals/GAL_pisma_Saveleva.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_GAL_otkaz_ot_radikalisma"
+		texturefile = "gfx/interface/goals/GAL_otkaz_ot_radikalisma.dds"
+	}
 }

@@ -1980,7 +1980,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_pochemy_socialism
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_pochemy_socialism
 		cost = 3.00
 		prerequisite = {
 			focus = GAL_zadacha_osvobod_nauki
@@ -2038,7 +2038,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_otkaz_ot_radikalisma
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_otkaz_ot_radikalisma 
 		cost = 3.00
 		prerequisite = {
 			focus = GAL_zadacha_osvobod_nauki
@@ -2058,7 +2058,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_pisma_Saveleva
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_pisma_Saveleva
 		cost = 3.00
 		prerequisite = {
 			focus = GAL_zadacha_osvobod_nauki
@@ -2103,7 +2103,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_videnie_Pushnogo
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_videnie_Pushnogo
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_pochemy_socialism
