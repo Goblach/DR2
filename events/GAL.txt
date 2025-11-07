@@ -1656,7 +1656,7 @@ country_event = {
 
 	option = {
 	name = GAL_drob.1.a
-		add_manpower = -6437
+		add_manpower = -5437
 	}
 }
 #Расстрелять спортзалы
@@ -1746,7 +1746,7 @@ country_event = {
 
 	option = {
 	name = GAL_drob.1.a
-		add_manpower = -10342
+		add_manpower = -8342
 		add_stability = 0.01
 		add_war_support = 0.01
 		add_popularity = {
@@ -1831,7 +1831,7 @@ country_event = {
 	name = GAL_drob.1.a
 		add_popularity = {
             ideology = fascism
-            popularity = -0.05
+            popularity = -0.03
         }
 	}
 }

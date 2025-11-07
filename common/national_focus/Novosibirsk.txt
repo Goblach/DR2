@@ -1748,8 +1748,13 @@ focus_tree = {
 			create_railway_gun = {
 				equipment = railway_gun_equipment_1
 			}
+			GAL_Okarin = {
+				add_scientist_level = {
+					specialization = specialization_land
+					level = 1
+				}
+			}
 		}
-
 	}
 	focus = {
 		id = GAL_stroyki_za_dolgi
@@ -2001,6 +2006,11 @@ focus_tree = {
 				popularity = 0.1
 			}
 			set_politics = { ruling_party = metacommy }
+			set_party_name = {
+				ideology = metacommy
+				long_name = GAL_metacommy_kybernetika_vernadsry_long
+				name = GAL_metacommy_kybernetika_vernadsry
+			}
 			set_portraits = {
 				character = GAL_pusnoy
 				civilian = { large = GFX_GAL_Pushnoy_Lenin }
@@ -2074,6 +2084,11 @@ focus_tree = {
 				popularity = 0.1
 			}
 			set_politics = { ruling_party = fascism }
+			set_party_name = {
+				ideology = fascism
+				long_name = GAL_fascism_cybernetics_long
+				name = GAL_fascism_cybernetics
+			}
 			set_portraits = {
 				character = GAL_pusnoy
 				civilian = { large = GFX_GAL_Pushnoy_Lysenko }
@@ -2138,6 +2153,8 @@ focus_tree = {
 			}
 			custom_effect_tooltip = GAL_wire_decisions_tt
 			set_variable = { GAL_wire_number = 0 }
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GAL_Lukyanenko
             country_event = { id = GAL.44 } 
 		}
 	}

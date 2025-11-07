@@ -1523,7 +1523,7 @@ leader_traits = {
 		resistance_damage_to_garrison = -0.1
 		
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 	}
 	think_tank = {
@@ -1537,7 +1537,7 @@ leader_traits = {
 		planning_speed = 0.1
 		
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 	}
 	nuclear_ded = {
@@ -1552,6 +1552,15 @@ leader_traits = {
 		production_speed_rocket_site_factor = 0.2
 		sp_tag_rocket_speed_factor = 0.1
 		rocket_attack_factor = 0.1
+	}
+	pisatel_fantast = {
+		random = no 
+		political_power_factor = 0.07
+		research_speed_factor = 0.03
+		
+		ai_will_do = {
+			factor = 5
+		}
 	}
 	###UKRAINA ZELYA###
 	
