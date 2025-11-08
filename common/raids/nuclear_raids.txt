@@ -25,14 +25,6 @@ types = {
 				}
 			}
 			modifier = {
-				factor = 5 # Historical bombing of Japan
-				FROM = {
-					original_tag = JAP
-				}
-				original_tag = USA
-				has_war_with = FROM
-			}
-			modifier = {
 				factor = 0.25 # If possible, during peacetime, prepare strikes against the main enemies
 				NOT = { has_war_with = FROM }
 				FROM = { is_major = no }
@@ -172,7 +164,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
 						custom_effect_tooltip = raid_nuclear_strike_tt
 						add_dynamic_modifier = {
 							modifier = fallout_atomic
@@ -200,7 +191,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
 						custom_effect_tooltip = raid_nuclear_strike_tt
 						add_dynamic_modifier = {
 							modifier = fallout_atomic
@@ -229,7 +219,6 @@ types = {
 					}
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
 						custom_effect_tooltip = raid_nuclear_strike_tt
 						add_dynamic_modifier = {
 							modifier = fallout_atomic
@@ -371,7 +360,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
 						#custom_effect_tooltip = raid_nuclear_strike_tt
 						add_dynamic_modifier = {
 							modifier = fallout_atomic
@@ -394,7 +382,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
 						add_dynamic_modifier = {
 							modifier = fallout_atomic
 							days = 365
@@ -599,7 +586,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }   
 					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
 						custom_effect_tooltip = raid_nuclear_strike_tt
 						hidden_effect = {
 							IF = {
@@ -635,7 +621,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
 						custom_effect_tooltip = raid_nuclear_strike_tt
 						hidden_effect = {
 							IF = {
@@ -795,7 +780,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
 						#custom_effect_tooltip = raid_nuclear_strike_tt
 						add_dynamic_modifier = {
 							modifier = fallout_thermonuclear
@@ -819,7 +803,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
 						add_dynamic_modifier = {
 							modifier = fallout_thermonuclear
 							days = 730

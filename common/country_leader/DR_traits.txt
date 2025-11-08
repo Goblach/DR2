@@ -590,7 +590,7 @@ leader_traits = {
 	rocket_dviglo_aircraft_manufacturer = { 
 		random = no
 		equipment_bonus = {
-			rocketry = {
+			guided_missile = {
 			    air_agility = 0.1    
 				reliability = 0.1
 			}		
@@ -604,11 +604,11 @@ leader_traits = {
     dviglo_aircraft_manufacturer = { 
 		random = no
 		equipment_bonus = {
-			rocketry = {
+			guided_missile = {
 			    air_agility = 0.1    
 				reliability = 0.1
 			}
-			CAS_equipment = {
+			small_plane_cas_airframe = {
 				air_agility = 0.1 
 				reliability = 0.1
 			}
@@ -1049,12 +1049,12 @@ leader_traits = {
     voenniy_kustar = {
 		random = no 
 		equipment_bonus = {
-				infantry_weapons = {
+				infantry_equipment = {
 					build_cost_ic = -0.1
 					reliability = -0.05
 					instant = yes
 				}
-				support_tech = {
+				support_equipment = {
 					build_cost_ic = -0.1
 					reliability = -0.05
 					instant = yes

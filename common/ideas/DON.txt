@@ -15,7 +15,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			    stability_factor_factor = 0.1
+			    stability_factor = 0.1
 				decryption = 1
 				encryption = 1
 				army_morale_factor = 0.1

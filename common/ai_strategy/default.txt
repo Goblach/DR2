@@ -736,6 +736,7 @@ more_naval_focused_nation = {
 
 default_area_priority = {
 	enable = {
+		always = yes
 	}
 	abort_when_not_enabled = yes
 
@@ -1035,7 +1036,6 @@ DEFAULT_early_template_design = {
 
 DEFAULT_midlate_template_design = {
 	enable = {
-		}
 		date > 7.1.1
 	}
 	abort_when_not_enabled = yes
@@ -1526,25 +1526,6 @@ default_produce_floating_harbors = {
 		type = unit_ratio
 		id = floating_harbor # for floating harbors, 'unit_ratio' is actually not a ratio but an absolute desired number
 		value = 10
-	}
-}
-
-we_dont_believe_in_mountain_tanks = {
-	enable = {
-		is_historical_focus_on = yes
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = front_armor_score
-		id = "GRE"
-		value = -100
-	}
-
-	ai_strategy = {
-		type = front_armor_score
-		id = "YUG"
-		value = -100
 	}
 }
 

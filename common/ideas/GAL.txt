@@ -647,8 +647,7 @@ ideas = {
 					electronics = 0.1
 				}
 			} 
-		}
-	}	
+		}	
 	hidden_ideas = {
 	
 		GAL_drobysh_idea = {
@@ -705,7 +704,7 @@ ideas = {
 			}	
 		}
 		
-		GAL_izhevsk_dynamics = {
+		izhevsk_dynamics = {
 
 			allowed = {
                 original_tag = GAL			
@@ -715,6 +714,7 @@ ideas = {
 				has_completed_focus = GAL_Rogozin_2
 				controls_state = 399
 		    }
+			
 			
 			cost = 150
 			removal_cost = 10

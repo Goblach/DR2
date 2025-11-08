@@ -4,7 +4,7 @@ music_station = "base_music"
 music = {
 	song = "londoninflames"
 	chance = {
-		base = 0
+		base = 5
 		modifier = { factor = 0		has_war = yes }
 	}
 }
@@ -12,15 +12,13 @@ music = {
 music = {
 	song = "operationcompas"
 	chance = {
-		base = 0
-		modifier = { add = 5		has_socialist_government = yes }
+		base = 5
 	}
 }
 
 music = {
 	song = "heroesofelalamein"
 	chance = {
-		base = 0
-		modifier = { add = 5		has_socialist_government = yes }
+		base = 5
 	}
 }
