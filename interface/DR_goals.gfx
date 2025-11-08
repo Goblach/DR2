@@ -4236,7 +4236,7 @@ spriteTypes = {
 	
 	SpriteType = { 
 		name = "GFX_GAL_voen_praktika" 
-		texturefile = "gfx/interface/goals/GAL_experimenty.dds"
+		texturefile = "gfx/interface/goals/GAL_voen_praktika.dds"
 	}
 	
 	SpriteType = { 
