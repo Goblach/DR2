@@ -3287,7 +3287,7 @@ focus_tree = {
 				}
 			}
 			custom_effect_tooltip = available_industrial_concern
-			show_ideas_tooltip = GAL_izhevsk_dynamics
+			show_ideas_tooltip = izhevsk_dynamics
 			sp:sp_air_jet_engine = { add_project_progress_ratio = 0.5 }
 		}
 	}
