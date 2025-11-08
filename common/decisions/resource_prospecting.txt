@@ -5827,7 +5827,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			has_completed_focus = ITA_oil_in_tripoli
 			448 = {
 				NOT = {
 					has_state_flag = {
@@ -5919,7 +5918,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			has_completed_focus = ITA_steel_in_tripoli
 			448 = {
 				NOT = {
 					has_state_flag = {

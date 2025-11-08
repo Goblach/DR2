@@ -43,7 +43,7 @@ characters={
 				NOT = { has_government = memoism }
 				NOT = { has_government = vmestolev }
 				NOT = { has_government = metacommy }
-				NOT = { has_government = milo }
+				
 			}
 	    
 			traits = { army_chief_offensive_2 }
@@ -62,7 +62,7 @@ characters={
 			    NOT = { has_government = memoism }
 				NOT = { has_government = vmestolev }
 				NOT = { has_government = anarhostalinism }
-				NOT = { has_government = milo }
+				
 				NOT = { has_government = metacommy }
 			}
             traits = { anti_levak }
@@ -187,7 +187,7 @@ characters={
 				NOT = { has_government = memoism }
 				NOT = { has_government = vmestolev }
 				NOT = { has_government = metacommy }
-				NOT = { has_government = milo }
+				
 			}
 	    
 			traits = { army_chief_maneuver_2 }
@@ -216,7 +216,7 @@ characters={
 				NOT = { has_government = memoism }
 				NOT = { has_government = vmestolev }
 				NOT = { has_government = metacommy }
-				NOT = { has_government = milo }
+				
 			}
 	       
 			traits = { army_chief_drill_1 }
