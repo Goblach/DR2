@@ -2,6 +2,9 @@ default_unit_production = {
 	# If adding country-unique ones, bear in mind that they STACK unless excluding countries in the enable
 	enable = {
 		always = yes
+		NOT = {
+			tag = LAZ
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -125,6 +128,34 @@ default_unit_production = {
 		type = equipment_production_factor
 		id = artillery
 		value = 25
+	}
+}
+
+default_unit_production_super_heavies = {
+	enable = {
+		is_major = yes
+		num_of_military_factories > 150 # nly if we have loads of factories
+		date > 1943.6.1 # Lets wait until late war
+		NOT = { has_tech = main_battle_tank_chassis } # Abandon Super heavy projects if we start doing modern tanks instead
+		NOT = { has_government = democratic } # Let the authoritarian regimes spend money on this 
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = role_ratio
+		id = super_heavy_breakthrough_role
+		value = 1
+	}
+}
+
+default_unit_production_land_cruiser = {
+	enable = {
+		is_special_project_completed = sp:sp_land_land_cruiser
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = role_ratio
+		id = mega_heavy_breakthrough_role
+		value = 2
 	}
 }
 
@@ -674,6 +705,7 @@ highered_armored_production = {
 
 slightly_naval_focused_nation = {
 	enable = {
+		tag = ARK
 	}
 	abort_when_not_enabled = yes
 
