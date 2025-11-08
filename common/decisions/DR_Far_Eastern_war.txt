@@ -1013,7 +1013,7 @@ DR_form_russian_far_east_state_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 100
+			base = 150
 		}
 		
 		modifier = {
@@ -1050,7 +1050,7 @@ DR_form_russian_far_east_state_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 100
+			base = 150
 		}
 		
 		modifier = {
@@ -1085,7 +1085,7 @@ DR_form_russian_far_east_state_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 100
+			base = 150
 		}
 		
 		modifier = {
@@ -1121,7 +1121,7 @@ DR_form_russian_far_east_state_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 100
+			base = 150
 		}
 		
 		modifier = {
@@ -1158,7 +1158,7 @@ DR_form_russian_far_east_state_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 100
+			base = 150
 		}
 		
 		modifier = {
@@ -1196,7 +1196,7 @@ DR_form_russian_far_east_state_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 100
+			base = 150
 		}
 		
 		modifier = {
@@ -1235,7 +1235,7 @@ DR_form_russian_far_east_state_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 100
+			base = 150
 		}
 		
 		modifier = {

@@ -1548,10 +1548,6 @@ CRI = {
 			add_timed_idea = { idea = NOD_plan_Yug days = 90 }         
 			create_wargoal = {
 				type = annex_everything
-				target = STR
-			}
-			create_wargoal = {
-				type = annex_everything
 				target = CHK
 			}		
 		}

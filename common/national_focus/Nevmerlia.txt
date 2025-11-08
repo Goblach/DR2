@@ -1196,7 +1196,7 @@ focus_tree = {
 			available = {
 					has_war = no
 					has_army_manpower = {
-							size > 59999
+							size > 79999
 					}
 			}
 			completion_reward = {
