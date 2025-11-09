@@ -1,0 +1,303 @@
+add_namespace = KOF
+
+	
+#Поражение_в_Британии
+country_event = {
+	id = KOF.1
+	title = KOF.1.t
+	desc = KOF.1.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes	
+	
+	option = {
+		name = KOF.1.a
+		ai_chance = {
+			base = 100
+		}
+		if = {
+   limit = {
+    owns_state = 120 
+    var:120.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 120
+   remove_state_claim = 120
+   if = {
+    limit = {
+     var:120.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:120.controller = {
+     transfer_state = 120
+    }
+   }
+  }
+		if = {
+   limit = {
+    owns_state = 121 
+    var:121.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 121
+   remove_state_claim = 121
+   if = {
+    limit = {
+     var:121.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:121.controller = {
+     transfer_state = 121
+    }
+   }
+  }
+		if = {
+   limit = {
+    owns_state = 122 
+    var:122.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 122
+   remove_state_claim = 122
+   if = {
+    limit = {
+     var:122.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:122.controller = {
+     transfer_state = 122
+    }
+   }
+  }
+		if = {
+   limit = {
+    owns_state = 123 
+    var:123.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 123
+   remove_state_claim = 123
+   if = {
+    limit = {
+     var:123.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:123.controller = {
+     transfer_state = 123
+    }
+   }
+  }
+		if = {
+   limit = {
+    owns_state = 125 
+    var:125.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 125
+   remove_state_claim = 125
+   if = {
+    limit = {
+     var:125.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:125.controller = {
+     transfer_state = 125
+    }
+   }
+  }
+		if = {
+   limit = {
+    owns_state = 126 
+    var:126.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 126
+   remove_state_claim = 126
+   if = {
+    limit = {
+     var:126.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:126.controller = {
+     transfer_state = 126
+    }
+   }
+  }
+		if = {
+   limit = {
+    owns_state = 127 
+    var:127.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 127
+   remove_state_claim = 127
+   if = {
+    limit = {
+     var:127.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:127.controller = {
+     transfer_state = 127
+    }
+   }
+  }
+		if = {
+   limit = {
+    owns_state = 128 
+    var:128.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 128
+   remove_state_claim = 128
+   if = {
+    limit = {
+     var:128.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:128.controller = {
+     transfer_state = 128
+    }
+   }
+  }
+		if = {
+   limit = {
+    owns_state = 129 
+    var:129.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 129
+   remove_state_claim = 129
+   if = {
+    limit = {
+     var:129.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:129.controller = {
+     transfer_state = 129
+    }
+   }
+  }
+			if = {
+   limit = {
+    owns_state = 130 
+    var:130.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 130
+   remove_state_claim = 130
+   if = {
+    limit = {
+     var:130.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:130.controller = {
+     transfer_state = 130
+    }
+   }
+  }
+				if = {
+   limit = {
+    owns_state = 131 
+    var:131.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 131
+   remove_state_claim = 131
+   if = {
+    limit = {
+     var:131.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:131.controller = {
+     transfer_state = 131
+    }
+   }
+  }
+			if = {
+   limit = {
+    owns_state = 132 
+    var:132.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 132
+   remove_state_claim = 132
+   if = {
+    limit = {
+     var:132.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:132.controller = {
+     transfer_state = 132
+    }
+   }
+  }
+			if = {
+   limit = {
+    owns_state = 133 
+    var:133.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 133
+   remove_state_claim = 133
+   if = {
+    limit = {
+     var:133.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:133.controller = {
+     transfer_state = 133
+    }
+   }
+  }
+			if = {
+   limit = {
+    owns_state = 136 
+    var:136.controller = {
+     has_war_with = ROOT
+    }
+   }
+   remove_state_core = 136
+   remove_state_claim = 136
+   if = {
+    limit = {
+     var:136.controller = {
+      has_war_with = ROOT
+     }
+    }
+    var:136.controller = {
+     transfer_state = 136
+    }
+   }
+  }
+		white_peace = PBG
+		white_peace = UBR
+		white_peace = UKE
+		white_peace = FSK
+	}
+}
