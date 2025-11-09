@@ -27,7 +27,6 @@ state={
 			}
 
 		}
-		add_core_of = NEU
 		add_core_of = FRG
 		add_core_of = BAV
 

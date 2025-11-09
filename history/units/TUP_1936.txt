@@ -54,7 +54,22 @@ division_template = {
 }
 
 units = {
-	#Royal Afghani Army
+	division = {
+		name = "Авангард Тупичка"
+		location = 3151
+		division_template = "Авангард революции"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Авангард Тупичка"
+		location = 3151
+		division_template = "Авангард революции"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	
 	division = {
 		name = "Авангард Тупичка"
 		location = 3151
@@ -88,6 +103,14 @@ units = {
 	}
 	
 	division = {
+		name = "Новгородские силы самообороны"
+		location = 117
+		division_template = "Силы самообороны"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
 		name = "Лужские силы самообороны"
 		location = 9098
 		division_template = "Силы самообороны"
@@ -98,6 +121,22 @@ units = {
 	division = {
 		name = "Псковские силы самообороны"
 		location = 11202
+		division_template = "Силы самообороны"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Псковские силы самообороны"
+		location = 11202
+		division_template = "Силы самообороны"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Великолужские силы самообороны"
+		location = 11234
 		division_template = "Силы самообороны"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5

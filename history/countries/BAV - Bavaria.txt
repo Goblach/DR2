@@ -1,5 +1,5 @@
 ﻿capital = 52
-
+set_oob = "BAV_1936"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -8,7 +8,7 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
-		tech_trucks = 1
+	tech_trucks = 1
 	gw_artillery = 1
 	interwar_antiair = 1
 	iw_small_airframe = 1
@@ -30,9 +30,7 @@ recruit_character = BAV_Shevtsov
 
 if = {
 	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
+		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
 		gwtank = 1
@@ -43,15 +41,14 @@ if = {
 }
 if = {
 	limit = {
-		
 		has_dlc = "No Step Back"
-		
 	}
 	set_technology = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 		improved_light_tank_chassis = 1
 		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
 	}
 }
 if = {
@@ -88,4 +85,10 @@ add_ideas = {
 	partial_economic_mobilisation
 	BAV_oplot_protiv_migrantov
 	BAV_fraykor
+}
+
+set_autonomy = {
+	target = ZCE
+	autonomous_state = autonomy_reichsprotectorate
+	freedom_level = 0.5
 }

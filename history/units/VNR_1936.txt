@@ -28,7 +28,25 @@ division_template = {
 	}
 	priority = 1
 }
+division_template = {
+	name = "Морпехи" 		# 1st, 2nd Marine Brigades, precursors to 1st, 2nd USMC Divisions
 
+	division_names_group = USA_MAR_01
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
 units = {
 	division = {
 		name = "1-й пехотная дивизия"
@@ -65,5 +83,17 @@ units = {
 		location = 11584
 		division_template = "Пехота"
 		start_experience_factor = 0.3
-	}   	
+	}  
+	division = {
+		name = "1-я морпехота"
+		location = 11584
+		division_template = "Морпехи"
+		start_experience_factor = 0.5
+	}
+    division = {
+		name = "2-я морпехота"
+		location = 11584
+		division_template = "Морпехи"
+		start_experience_factor = 0.5
+	} 	
 }

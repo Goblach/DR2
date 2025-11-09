@@ -77,4 +77,11 @@ units = {
 		division_template = "Советские партизаны"
 		start_experience_factor = 0.3
 	}	
+	
+	division = {
+		name = "10-я партизанская дивизия"
+		location = 10696
+		division_template = "Советские партизаны"
+		start_experience_factor = 0.3
+	}	
 }

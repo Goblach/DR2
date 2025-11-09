@@ -103,7 +103,7 @@ country_event = {
         }
         add_popularity = {
 				ideology = metacommy
-				popularity = 0.2
+				popularity = 0.35
 		}
 		remove_ideas = FRG_polit_borba
 	}	
@@ -114,7 +114,7 @@ country_event = {
         }
         add_popularity = {
 				ideology = neutrality
-				popularity = 0.2
+				popularity = 0.35
 		}
 		remove_ideas = FRG_polit_borba
 	    }

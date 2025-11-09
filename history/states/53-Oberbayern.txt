@@ -13,7 +13,6 @@ state={
 		}
 		add_core_of = BAV
 		add_core_of = FRG
-		add_core_of = NEU
 		victory_points = {
 			9515 3
 		}

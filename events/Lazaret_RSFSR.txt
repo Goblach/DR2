@@ -494,7 +494,7 @@ country_event = { #Развал пакта
 		add_civil_war_target = LAZ
 			division_template = { 
 				name = "Пехтура" 	
-				division_names_group = OSV_ARM_011
+				division_names_group = 123_INF_01
 
 				regiments = {
 					infantry = { x = 0 y = 0 }
@@ -504,6 +504,7 @@ country_event = { #Развал пакта
 					infantry = { x = 1 y = 1 }
 					infantry = { x = 1 y = 2 }	
 				}
+				priority = 1
 			}
 			247 = {
 				create_unit = {

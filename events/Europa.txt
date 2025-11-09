@@ -144,12 +144,6 @@ country_event = {
 	option = {
 		news_event = dk_news.95
 	        name = europa.2.a 
-			    NEU = {			
-		            declare_war_on = {
-		                target = FRG
-		                type = annex_everything
-		            }
-				}
 				FRG = {
 					declare_war_on = {
 						target = BAV

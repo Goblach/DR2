@@ -15,7 +15,6 @@ name = "Пехота"
 }
 
 units = {
-	#Royal Afghani Army
 	division = {
 		name = "Восставшие новосибирцы"
 		location = 7274
@@ -29,7 +28,6 @@ units = {
 		division_template = "Пехота"
 		start_experience_factor = 0.3
 	}
-	
 	division = {
 		name = "Восставшие новосибирцы"
 		location = 7274
@@ -43,7 +41,6 @@ units = {
 		division_template = "Пехота"
 		start_experience_factor = 0.3
 	}
-	
 	division = {
 		name = "Восставшие новосибирцы"
 		location = 7274
@@ -56,14 +53,24 @@ units = {
 		division_template = "Пехота"
 		start_experience_factor = 0.3
 	}
-	
-    	division = {
+    division = {
 		name = "Восставшие новосибирцы"
 		location = 7274
 		division_template = "Пехота"
 		start_experience_factor = 0.3
 	}
-	
+	division = {
+		name = "Восставшие новосибирцы"
+		location = 7274
+		division_template = "Пехота"
+		start_experience_factor = 0.3
+	} 
+	division = {
+		name = "Восставшие новосибирцы"
+		location = 7274
+		division_template = "Пехота"
+		start_experience_factor = 0.3
+	}
 	division = {
 		name = "Восставшие новосибирцы"
 		location = 7274
