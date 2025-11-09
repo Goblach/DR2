@@ -156,3 +156,7 @@
  LRG_support_weapons2: "MG34 и 50-мм миномет обр. 1936"
  LRG_support_weapons3: "MG42 и 80-мм миномет обр. 1934"
  LRG_support_weapons4: "MG45 и 120-мм миномет обр. 1942"
+ 
+ GAL_sp_land_super_heavy_railway_gun: "Сверхтяжелая Желепушка"
+ GAL_sp_land_super_heavy_howitzer: "Желейная Гаубица" 
+ GAL_sp_land_self_propelled_super_heavy_howitzer: "Самоходная Желейная Гаубица"

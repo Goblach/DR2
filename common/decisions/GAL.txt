@@ -1,4 +1,4 @@
-political_actions= {
+political_actions = {
 	GAL_wire_state = {
 		icon = generic_electricity
 
@@ -232,7 +232,7 @@ political_actions= {
 	}
 	GAL_burunduk = {
 		icon = generic_intelligence_operation
-		cost = 10
+		cost = 25
         ai_will_do = {
 			factor = 10
 		}
@@ -242,11 +242,10 @@ political_actions= {
 		}
 		visible = {
 			tag = GAL
-			has_completed_focus = GAL_Syenduk_1
+			has_completed_focus = GAL_Syenduk
 		}
-		fire_only_once
-		days_remove = 30
-		remove_effect = {
+		fire_only_once = yes
+		complete_effect = {
 			add_ideas = GAL_burunduk_army
 		}
 	}
@@ -265,7 +264,7 @@ economy_decisions = {
 			tag = GAL
 			has_completed_focus = GAL_Deb_2
 		}
-		fire_only_once
+		fire_only_once = yes
 		days_remove = 70
 		modifier = {
 			civilian_factory_use = 4
@@ -277,7 +276,7 @@ economy_decisions = {
 	}
 	GAL_baikonur = {
 		icon = generic_construction
-		cost = 10
+		cost = 15
         ai_will_do = {
 			factor = 10
 		}
@@ -290,7 +289,10 @@ economy_decisions = {
 			tag = GAL
 			has_completed_focus = GAL_Rogozin_3
 		}
-		fire_only_once
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 1
+		}
 		days_remove = 15
 		remove_effect = {
 			404 = {
@@ -303,7 +305,7 @@ economy_decisions = {
 	}
 	GAL_moon = {
 		icon = generic_research
-		cost = 25
+		cost = 50
         ai_will_do = {
 			factor = 10
 		}
@@ -315,7 +317,7 @@ economy_decisions = {
 			tag = GAL
 			has_completed_focus = GAL_Rogozin_3
 		}
-		fire_only_once
+		fire_only_once = yes
 		modifier = {
 			civilian_factory_use = 3
 		}
@@ -339,7 +341,7 @@ economy_decisions = {
 			tag = GAL
 			has_completed_focus = GAL_Rogozin_3
 		}
-		fire_only_once
+		fire_only_once = yes
 		modifier = {
 			civilian_factory_use = 3
 		}
@@ -859,8 +861,8 @@ GAL_rock_zhiv = {
 	GAL_lenin_poslal = {
 		icon = eng_propaganda_campaigns
 		cost = 50
-		days_remove = 100
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		available = {
 			NOT = {
 				has_country_flag = GAL_pesnya
@@ -871,6 +873,9 @@ GAL_rock_zhiv = {
 			production_speed_buildings_factor = 0.1
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -881,8 +886,8 @@ GAL_rock_zhiv = {
 	GAL_vse_po_planu = {
 		icon = eng_propaganda_campaigns
 		cost = 50
-		days_remove = 100
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		available = {
 			NOT = {
 				has_country_flag = GAL_pesnya
@@ -893,6 +898,9 @@ GAL_rock_zhiv = {
 			production_factory_efficiency_gain_factor = 0.15
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -903,8 +911,8 @@ GAL_rock_zhiv = {
 	GAL_nado_rad = {
 		icon = eng_propaganda_campaigns
 		cost = 50
-		days_remove = 100
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		visible = {
 			NOT = { has_completed_focus = GAL_ey_uhnem }
 		}
@@ -920,6 +928,9 @@ GAL_rock_zhiv = {
 			neutrality_drift = 0.05
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -930,8 +941,8 @@ GAL_rock_zhiv = {
 	GAL_ot_vint = {
 		icon = eng_propaganda_campaigns
 		cost = 50
-		days_remove = 100
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		available = {
 			has_completed_focus = GAL_ot_vinta
 			NOT = {
@@ -944,6 +955,9 @@ GAL_rock_zhiv = {
 			air_defence_factor = 0.25
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -954,8 +968,8 @@ GAL_rock_zhiv = {
 	GAL_kak_na_voyne = {
 		icon = eng_propaganda_campaigns
 		cost = 50
-		days_remove = 100
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		available = {
 			NOT = {
 				has_country_flag = GAL_pesnya
@@ -967,6 +981,9 @@ GAL_rock_zhiv = {
 			army_attack_factor = 0.1
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -977,8 +994,8 @@ GAL_rock_zhiv = {
 	GAL_ey_uhnem = {
 		icon = eng_propaganda_campaigns
 		cost = 30
-		days_remove = 100
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		visible = {
 			NOT = { has_completed_focus = GAL_ne_nado_napragat }
 		}
@@ -993,6 +1010,9 @@ GAL_rock_zhiv = {
 			consumer_goods_factor = -0.1
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -1003,8 +1023,8 @@ GAL_rock_zhiv = {
 	GAL_18_mne_uzhe = {
 		icon = eng_propaganda_campaigns
 		cost = 30
-		days_remove = 150
-		days_re_enable = 50
+		days_remove = 60
+		days_re_enable = 40
 		available = {
 			NOT = {
 				has_country_flag = GAL_pesnya
@@ -1015,6 +1035,9 @@ GAL_rock_zhiv = {
 			weekly_manpower = 150
 		}
 		complete_effect = { 		
+			hidden_effect = { set_country_flag = GAL_pesnya	 }
+		}
+		remove_effect = {
 			hidden_effect = { clr_country_flag = GAL_pesnya }
 		}
 		ai_will_do = {
@@ -1051,6 +1074,8 @@ GAL_akademgoroda_cat = {
 		cost = 50
 		days_remove = 1
 		remove_effect = {
+			add_stability = 0.05
+			add_war_support = 0.05
 			570 = {
 				add_dynamic_modifier = {
 					modifier = GAL_akademgorod
@@ -1116,6 +1141,8 @@ GAL_akademgoroda_cat = {
 		cost = 50
 		days_remove = 50
 		remove_effect = {
+			add_stability = 0.05
+			add_war_support = 0.05
 			582 = {
 				add_dynamic_modifier = {
 					modifier = GAL_akademgorod
@@ -1176,6 +1203,8 @@ GAL_akademgoroda_cat = {
 		cost = 50
 		days_remove = 50
 		remove_effect = {
+			add_stability = 0.05
+			add_war_support = 0.05
 			405 = {
 				add_dynamic_modifier = {
 					modifier = GAL_akademgorod
@@ -1248,6 +1277,8 @@ GAL_akademgoroda_cat = {
 		cost = 50
 		days_remove = 50
 		remove_effect = {
+			add_stability = 0.05
+			add_war_support = 0.05
 			219 = {
 				add_dynamic_modifier = {
 					modifier = GAL_akademgorod
@@ -1321,6 +1352,8 @@ GAL_akademgoroda_cat = {
 		cost = 50
 		days_remove = 50
 		remove_effect = {
+			add_stability = 0.05
+			add_war_support = 0.05
 			195 = {
 				add_dynamic_modifier = {
 					modifier = GAL_akademgorod
@@ -1382,6 +1415,8 @@ GAL_akademgoroda_cat = {
 		cost = 50
 		days_remove = 50
 		remove_effect = {
+			add_stability = 0.05
+			add_war_support = 0.05
 			408 = {
 				add_dynamic_modifier = {
 					modifier = GAL_akademgorod

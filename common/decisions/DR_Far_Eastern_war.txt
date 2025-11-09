@@ -1008,12 +1008,12 @@ DR_form_russian_far_east_state_decisions_category = {
 			state = 637 
 		}
 		
-        cost = 45
+        cost = 30
 		fire_only_once = yes
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10
+			base = 150
 		}
 		
 		modifier = {
@@ -1045,12 +1045,12 @@ DR_form_russian_far_east_state_decisions_category = {
 			state = 644 
 		}
 		
-        cost = 45
+        cost = 30
 		fire_only_once = yes
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10
+			base = 150
 		}
 		
 		modifier = {
@@ -1080,12 +1080,12 @@ DR_form_russian_far_east_state_decisions_category = {
 			state = 874 
 		}
 		
-        cost = 45
+        cost = 30
 		fire_only_once = yes
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10
+			base = 150
 		}
 		
 		modifier = {
@@ -1116,12 +1116,12 @@ DR_form_russian_far_east_state_decisions_category = {
 			state = 574 
 		}
 		
-        cost = 45
+        cost = 30
 		fire_only_once = yes
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10
+			base = 150
 		}
 		
 		modifier = {
@@ -1153,12 +1153,12 @@ DR_form_russian_far_east_state_decisions_category = {
 			state = 657 
 		}
 		
-        cost = 45
+        cost = 30
 		fire_only_once = yes
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10
+			base = 150
 		}
 		
 		modifier = {
@@ -1191,12 +1191,12 @@ DR_form_russian_far_east_state_decisions_category = {
 			state = 408 
 		}
 		
-        cost = 45
+        cost = 30
 		fire_only_once = yes
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10
+			base = 150
 		}
 		
 		modifier = {
@@ -1230,12 +1230,12 @@ DR_form_russian_far_east_state_decisions_category = {
 			state = 564 
 		}
 		
-        cost = 45
+        cost = 30
 		fire_only_once = yes
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10
+			base = 150
 		}
 		
 		modifier = {

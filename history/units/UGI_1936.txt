@@ -28,7 +28,24 @@ division_template = {
 	}
 	priority = 1
 }
+division_template = {
+	name = "Горнострелки"				# Divisione Alpina (high experience, best equipment)
+	division_names_group = ITA_MNT_01
 
+	regiments = {
+		mountaineers = { x = 0 y = 0 }		# Elite Alpina Regiments
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
 units = {
 	division = {
 		name = "1-й пехотная дивизия"
@@ -66,4 +83,16 @@ units = {
 		division_template = "Пехота"
 		start_experience_factor = 0.3
 	}   	
+	division = {
+		name = "1-я горнострелковая дивизия"
+		location = 819
+		division_template = "Горнострелки"
+		start_experience_factor = 0.5
+	}
+    division = {
+		name = "2-я горнострелковая дивизия"
+		location = 819
+		division_template = "Горнострелки"
+		start_experience_factor = 0.5
+	}
 }

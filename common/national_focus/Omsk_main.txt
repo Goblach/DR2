@@ -49,18 +49,9 @@ country_event = {
 					id = OMS.4
 						    }
             hidden_effect = {
-					retire_country_leader = yes
-					add_country_leader_role = {
-                        character = OMS_Elizarov
-                        promote_leader = yes
-                        country_leader = {
-                            ideology = white_polpotism
-                        }
-                    }	
-
+				retire_country_leader = yes	
 				OMS_Elizarov = {
 				add_trait = {
-				ideology = white_polpotism
 				trait = elizarov_trait
 				}
 				}

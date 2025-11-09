@@ -13,7 +13,7 @@ characters={
 		}
         
 		field_marshal = {
-    		traits = { trait_reckless media_personality armor_officer war_hero trickster war_hero  }
+    		traits = { trait_reckless media_personality armor_officer war_hero trickster war_hero desert_fox }
         	skill = 3
         	attack_skill = 4
         	defense_skill = 3

@@ -957,55 +957,55 @@ focus_tree = {
 							limit = {
 									has_idea = GAL_marakumba_1
 								}
-							remove_idea = GAL_marakumba_1
+							remove_ideas = GAL_marakumba_1
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_2
 								}
-							remove_idea = GAL_marakumba_2
+							remove_ideas = GAL_marakumba_2
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_3
 								}
-							remove_idea = GAL_marakumba_3
+							remove_ideas = GAL_marakumba_3
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_4
 								}
-							remove_idea = GAL_marakumba_4
+							remove_ideas = GAL_marakumba_4
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_5
 								}
-							remove_idea = GAL_marakumba_5
+							remove_ideas = GAL_marakumba_5
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_import_0
 								}
-							remove_idea = GAL_marakumba_import_0
+							remove_ideas = GAL_marakumba_import_0
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_import_1
 								}
-							remove_idea = GAL_marakumba_import_1
+							remove_ideas = GAL_marakumba_import_1
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_import_2
 								}
-							remove_idea = GAL_marakumba_import_2
+							remove_ideas = GAL_marakumba_import_2
 						}
 					if = {
 							limit = {
 									has_idea = GAL_marakumba_import_3
 								}
-							remove_idea = GAL_marakumba_import_3
+							remove_ideas = GAL_marakumba_import_3
 						}
 				}
 
@@ -1509,7 +1509,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_delo_Lukina
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_delo_Lukina
 		cost = 3.00
 		prerequisite = {
 			focus = GAL_peregovor_komision
@@ -1525,7 +1525,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_Panki_Hoy
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_Panki_Hoy
 		cost = 3.00
 		prerequisite = {
 			focus = GAL_peregovor_komision
@@ -1551,7 +1551,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_liberalism_golovnogo_mozga
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_liberalism_golovnogo_mozga
 		cost = 2.00
 		prerequisite = {
 			focus = GAL_peregovor_komision
@@ -1573,7 +1573,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_nado_radovatsya
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_nado_radovatsya
 		cost = 1.00
 		prerequisite = {
 			focus = GAL_krisis_manager
@@ -1748,8 +1748,13 @@ focus_tree = {
 			create_railway_gun = {
 				equipment = railway_gun_equipment_1
 			}
+			GAL_Okarin = {
+				add_scientist_level = {
+					specialization = specialization_land
+					level = 1
+				}
+			}
 		}
-
 	}
 	focus = {
 		id = GAL_stroyki_za_dolgi
@@ -1877,7 +1882,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_zadacha_oborona
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_zadacha_oborona
 		cost = 6.00
 		prerequisite = {
 			focus = GAL_tsel_vyzhit
@@ -1902,7 +1907,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_zadacha_proryv
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_zadacha_proryv
 		cost = 6.00
 		prerequisite = {
 			focus = GAL_tsel_vyzhit
@@ -1975,7 +1980,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_pochemy_socialism
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_pochemy_socialism
 		cost = 3.00
 		prerequisite = {
 			focus = GAL_zadacha_osvobod_nauki
@@ -2001,6 +2006,11 @@ focus_tree = {
 				popularity = 0.1
 			}
 			set_politics = { ruling_party = metacommy }
+			set_party_name = {
+				ideology = metacommy
+				long_name = GAL_metacommy_kybernetika_vernadsry_long
+				name = GAL_metacommy_kybernetika_vernadsry
+			}
 			set_portraits = {
 				character = GAL_pusnoy
 				civilian = { large = GFX_GAL_Pushnoy_Lenin }
@@ -2016,12 +2026,19 @@ focus_tree = {
 				GAL_Panchin = {
 					unit_leader_event = { id = GAL.6 days = 15 }
 				}
+				every_possible_country = {
+					limit = { has_character = KUR_vasserman }
+					random_character = {
+						limit = { is_character = KUR_vasserman }
+						set_nationality = GAL
+					}
+				}
 			}
 		}
 	}
 	focus = {
 		id = GAL_otkaz_ot_radikalisma
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_otkaz_ot_radikalisma 
 		cost = 3.00
 		prerequisite = {
 			focus = GAL_zadacha_osvobod_nauki
@@ -2041,7 +2058,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_pisma_Saveleva
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_pisma_Saveleva
 		cost = 3.00
 		prerequisite = {
 			focus = GAL_zadacha_osvobod_nauki
@@ -2067,21 +2084,26 @@ focus_tree = {
 				popularity = 0.1
 			}
 			set_politics = { ruling_party = fascism }
+			set_party_name = {
+				ideology = fascism
+				long_name = GAL_fascism_cybernetics_long
+				name = GAL_fascism_cybernetics
+			}
 			set_portraits = {
 				character = GAL_pusnoy
 				civilian = { large = GFX_GAL_Pushnoy_Lysenko }
 			}
+			country_event = { id = GAL.40 days = 25 }
 			hidden_effect = {
 				GAL_Savvateev = {
 					unit_leader_event = { id = GAL.7 days = 15 }
 				}
-				country_event = { id = GAL.40 days = 25 } 			
 			}
 		}
 	}
 	focus = {
 		id = GAL_videnie_Pushnogo
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_videnie_Pushnogo
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_pochemy_socialism
@@ -2113,7 +2135,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = GAL_issledovanie_noosfery
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_issledovanie_noosfery
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_videnie_Pushnogo
@@ -2131,12 +2153,14 @@ focus_tree = {
 			}
 			custom_effect_tooltip = GAL_wire_decisions_tt
 			set_variable = { GAL_wire_number = 0 }
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GAL_Lukyanenko
             country_event = { id = GAL.44 } 
 		}
 	}
 	focus = {
 		id = GAL_krasniy_svet
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_krasniy_svet
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_issledovanie_noosfery
@@ -2171,7 +2195,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_i_povolok_brevno
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_i_povolok_brevno
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_issledovanie_noosfery
@@ -2196,7 +2220,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_svyaz_i_communocation
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_svyaz_i_communocation
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_i_povolok_brevno
@@ -2233,12 +2257,11 @@ focus_tree = {
 		y = 15
 		completion_reward = {
 			country_event = { id = GAL.9 }
-			clear_variable = GAL_wire_number
 		}
 	}
 	focus = {
 		id = GAL_rok_kotserty
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_rok_kotserty
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_videnie_Pushnogo
@@ -2255,7 +2278,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_syberia
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_syberia 
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_rok_kotserty
@@ -2271,7 +2294,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_nauka_i_iskusstvo
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_nauka_i_iskusstvo
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_rok_kotserty
@@ -2285,7 +2308,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_genetika_nauka
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_genetika_nauka
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_videnie_Pushnogo
@@ -2309,7 +2332,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_unictozit_political_yarliks
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_unictozit_political_yarliks
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_genetika_nauka
@@ -2337,7 +2360,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_konstruirovanie_kast
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_konstruirovanie_kast
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_genetika_nauka
@@ -2351,7 +2374,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_otmena_turem
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_otmena_turem
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_konstruirovanie_kast
@@ -2363,8 +2386,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GAL_renesans
-		icon = GFX_goal_unknown
+		id = GAL_renesans 
+		icon = GFX_GAL_renesans
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_nauka_i_iskusstvo
@@ -2397,8 +2420,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GAL_ozhivit_akadem_goroda
-		icon = GFX_goal_unknown
+		id = GAL_ozhivit_akadem_goroda 
+		icon = GFX_GAL_ozhivit_akadem_goroda
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_genetika_nauka
@@ -2413,9 +2436,9 @@ focus_tree = {
 		}
 
 	}
-	focus = {
+	focus = { 
 		id = GAL_stop_idiokraty
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_stop_idiokraty
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_ierarhiya_tehnokratii
@@ -2673,7 +2696,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_ierarhiya_tehnokratii
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_ierarhiya_tehnokratii
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_genetika_nauka
@@ -2689,7 +2712,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_new_galileo
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_new_galileo
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_nauka_i_iskusstvo
@@ -2700,12 +2723,14 @@ focus_tree = {
 			add_ideas = {
 				GAL_new_galileo_idea
 			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GAL_Kristina
 		}
 
 	}
 	focus = {
 		id = GAL_zvuk_oruzhie
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_zvuk_oruzhie 
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_new_galileo
@@ -2721,7 +2746,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_vse_idet_po_planu
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_vse_idet_po_planu
 		cost = 5.00
 		prerequisite = {
 			focus = GAL_issledovanie_noosfery
@@ -2778,7 +2803,7 @@ focus_tree = {
 			GAL_scientist_cd = yes
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = GAL_sndk
-			unlock_decision_tooltip = decision = GAL_burunduk 
+			unlock_decision_tooltip = GAL_burunduk 
 			hidden_effect = {
 				country_event = { id = GAL_proekt.01 }
 				GAL_sndk = {
@@ -3262,7 +3287,7 @@ focus_tree = {
 				}
 			}
 			custom_effect_tooltip = available_industrial_concern
-			show_ideas_tooltip = GAL_izhevsk_dynamics
+			show_ideas_tooltip = izhevsk_dynamics
 			sp:sp_air_jet_engine = { add_project_progress_ratio = 0.5 }
 		}
 	}
@@ -3668,7 +3693,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_ideas = GAL_sibgektar
+			remove_ideas = GAL_sibgektar
 			580 = {
 				if = {
 					limit = {

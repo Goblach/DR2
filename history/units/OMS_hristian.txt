@@ -30,5 +30,11 @@ units = {
 		division_template = "Христианские отряды"
 		start_experience_factor = 0.3
 	}	
+	division = {
+		name = "4-я христианская дивизия"
+		location = 10696
+		division_template = "Христианские отряды"
+		start_experience_factor = 0.3
+	}	
 }
 

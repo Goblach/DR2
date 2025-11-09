@@ -213,7 +213,7 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					has_government = communism
+					has_government = vmestolev
 				}
 			}
 			effect_tooltip = {
@@ -222,7 +222,7 @@ country_event = {
 					days = 365
 				}
 				set_politics = {
-					ruling_party = communism
+					ruling_party = vmestolev
 					elections_allowed = no
 				}
 			}

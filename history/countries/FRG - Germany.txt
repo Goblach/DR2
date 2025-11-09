@@ -1,5 +1,5 @@
 ﻿capital = 64
-
+set_oob = "FRG_1936"
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
 
@@ -424,22 +424,4 @@ create_equipment_variant = {
 		plane_reliability_upgrade = 5
 	}
 	obsolete = yes
-}
-
-set_autonomy = {
-	target = BAV
-	autonomous_state = autonomy_dominion
-	freedom_level = 0.5
-}
-
-set_autonomy = {
-	target = ZCE
-	autonomous_state = autonomy_dominion
-	freedom_level = 0.5
-}
-
-set_autonomy = {
-	target = ECP
-	autonomous_state = autonomy_dominion
-	freedom_level = 0.5
 }

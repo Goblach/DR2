@@ -42,7 +42,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_ideology_cybernetics_pushnoy"
-		texturefile = "gfx/interface/ideologies/party/cybernetics.dds"
+		texturefile = "gfx/interface/ideologies/party/cybernetics_neutral.dds"
 	}
 	
 	SpriteType = {

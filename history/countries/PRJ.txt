@@ -19,6 +19,11 @@ set_technology = {
 
 recruit_character = PRJ_Shinzo_Abe
 recruit_character = PRJ_Sanae_Takaichi
+recruit_character = PRJ_parlament
+recruit_character = PRJ_Kson
+recruit_character = PRJ_triple_baka
+recruit_character = PRJ_AZki
+recruit_character = PRJ_Jinpachi_Mishima
 
 add_ideas = {
 civilian_economy
@@ -32,10 +37,10 @@ PRJ_vosstanovlenie_economiki
 
 set_popularities = {
 	democratic = 42
-	memoism = 37
-	neutrality = 8
+	memoism = 30
+	neutrality = 10
 	fascism = 4
-	vmestolev = 5
+	vmestolev = 10
 	metacommy = 2
 	anarhostalinism = 2
 }

@@ -76,11 +76,13 @@ country_event = {
 				modifier = TUR_traitors_of_the_revolution
 			}
 		}
-		load_focus_tree = Omsk_main
-		remove_ideas = OMS_radio_omsk 
-		remove_ideas = OMS_radio_omsk_1
-		remove_ideas = OMS_kustarnoe_proizvodstvo
-		remove_ideas = POK_idea_GV
+		hidden_effect = {
+			load_focus_tree = Omsk_main
+			remove_ideas = OMS_radio_omsk 
+			remove_ideas = OMS_radio_omsk_1
+			remove_ideas = OMS_kustarnoe_proizvodstvo
+			remove_ideas = POK_idea_GV
+		}
 	}	
 }
 country_event = {
@@ -135,15 +137,7 @@ country_event = {
     planning_skill = 2
     logistics_skill = 2
 	}
-	add_advisor_role  = {
-			cost = 150
-			slot = army_chief
-			idea_token = OMS_Elizarov
-			traits = {
-				army_chief_defensive_1
-			}
-			visible = { tag = OMS  }
-		}
+	
 set_victory_points = { province = 6226 value = 10 }
 	250 = { add_manpower = 250000 } 
 	}

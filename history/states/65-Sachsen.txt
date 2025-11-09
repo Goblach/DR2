@@ -25,7 +25,6 @@ state={
 		}
 		add_core_of = FRG
 		add_core_of = BAV
-		add_core_of = NEU
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 2

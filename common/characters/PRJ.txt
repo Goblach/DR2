@@ -20,7 +20,7 @@ characters={
 		name = "Санаэ Такаити"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PRJ/.dds"
+				large = "gfx/leaders/PRJ/Sanae_Takaichi.dds"
 			}
 		}
 		country_leader = {
@@ -37,5 +37,45 @@ characters={
 	    logistics_skill = 3
 		legacy_id = -1
         }
+    }
+		PRJ_parlament = {
+		name = "Парламент Японии"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/jap_parlament.dds"
+			}
+		}
+}
+		PRJ_Kson = {
+		name = "Ксон Казума"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/Kson.dds"
+			}
+		}
+    }
+		PRJ_triple_baka = {
+		name = "Триумвират"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/triple_baka.dds"
+			}
+		}
+    }
+		PRJ_AZki = {
+		name = "АЗКи"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/AZki.dds"
+			}
+		}
+    }
+		PRJ_Jinpachi_Mishima = {
+		name = "Дзимпати Мисима"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRJ/Jinpachi_Mishima.dds"
+			}
+		}
     }
 }

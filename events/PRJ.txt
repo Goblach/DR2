@@ -1,7 +1,7 @@
 add_namespace = PRJ
 
 	
-country_event = { #История
+country_event = { #История (надо написатт)
 	id = PRJ.1 
 	title = PRJ.1.t
 	desc = PRJ.1.d
@@ -20,11 +20,35 @@ country_event = { #Убийство Синдзо Абэ
 	desc = PRJ.2.d
 	picture = GFX_report_event_japanese_soldiers_02
 	
+		trigger = {
+		tag = PRJ
+	}
+	
 	is_triggered_only = yes	
 	
-	option = {
-	name = PRJ.2.a
+	mean_time_to_happen = {
+		days = 1
+	}
 	
+	option = {
+	news_event = dk_news.94
+	name = PRJ.2.a
+	kill_country_leader = yes
+		hidden_effect = {	
+		PRJ = { country_event = PRJ.3 }
+		add_country_leader_role = {
+			character = PRJ_parlament
+			promote_leader = yes
+			country_leader = {
+			    desc = ""     
+				ideology = liberalism
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+			}
+		}
+	}
 	}
 }
 
@@ -38,7 +62,9 @@ country_event = { #Политическое завещание
 	
 	option = {
 	name = PRJ.3.a
-
+		hidden_effect = {	
+		PRJ = { country_event = PRJ.4 }
+		}
 	}
 }
 
@@ -52,18 +78,80 @@ country_event = { #Последствия убийства Абэ
 	
 	option = {
 	name = PRJ.4.a
-    
+	set_party_name = { ideology = democratic long_name = PRJ_triple_baka_party_long name = PRJ_triple_baka_party }
+	set_party_name = { ideology = vmestolev long_name = PRJ_vmestolev_party_long name = PRJ_triple_baka_party }
+	set_party_name = { ideology = memoism long_name = PRJ_memoism_party_long name = PRJ_triple_baka_party }
+    add_country_leader_role = {
+			character = PRJ_triple_baka
+			promote_leader = yes
+			country_leader = {
+			    desc = ""     
+				ideology = liberalism
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+	}
+	}
 	}
 		option = {
 	name = PRJ.4.b
-   
+   set_party_name = { ideology = neutrality long_name = PRJ_AZki_party_long name = PRJ_AZki_party }
+   		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+    add_country_leader_role = {
+			character = PRJ_AZki
+			promote_leader = yes
+			country_leader = {
+			    desc = ""     
+				ideology = military_administration
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
+	}
+	}
 	}
 		option = {
 	name = PRJ.4.c
-    
+    set_party_name = { ideology = neutrality long_name = PRJ_Kson_party_long name = PRJ_Kson_party }
+      		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+   add_country_leader_role = {
+			character = PRJ_Kson
+			promote_leader = yes
+			country_leader = {
+			    desc = ""     
+				ideology = despotism
+				expire = "1965.1.1.1"
+				traits = {
+					tokio_dragon
+				}
+	}
+	}
 	}
 		option = {
 	name = PRJ.4.d
-    
+	set_party_name = { ideology = neutrality long_name = PRJ_Mishima_Zaibatsu_party_long name = PRJ_Mishima_Zaibatsu_party }
+       		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+	add_country_leader_role = {
+			character = PRJ_Jinpachi_Mishima
+			promote_leader = yes
+			country_leader = {
+			    desc = ""     
+				ideology = oligarchism
+				expire = "1965.1.1.1"
+				traits = {
+					
+				}
 	}
+}
+}
 }

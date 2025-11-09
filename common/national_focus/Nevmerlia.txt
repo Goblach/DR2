@@ -1196,12 +1196,12 @@ focus_tree = {
 			available = {
 					has_war = no
 					has_army_manpower = {
-							size > 99999
-						}
-				}
+							size > 79999
+					}
+			}
 			completion_reward = {
 					unlock_decision_category_tooltip = UKR_vizvolene_decision_cat
-				}
+			}
 
 	}
 	focus = {

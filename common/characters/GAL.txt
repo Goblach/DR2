@@ -299,10 +299,6 @@ characters={
 	GAL_Antonov = {
 		name = "Виктор Антонов"
 		portraits = {
-			army = {
-				small = "GFX_idea_GAL_Antonov"
-				large = "gfx/leaders/GAL/Antonov.dds"				
-			}
 			civilian = {
 				small = "GFX_idea_GAL_Antonov"
 			}
@@ -318,6 +314,62 @@ characters={
 				AUS_reknowned_architecht
 			}
 			visible = { has_completed_focus = GAL_ozhivit_akadem_goroda  }
+		}		
+	}
+	
+		
+	GAL_Kristina = {
+		name = "Кристина Макисовна"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_GAL_Kristina"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = GAL_Kristina
+			allowed = {
+				original_tag = GAL
+			}
+			traits = {
+				technocrat
+			}
+			visible = { has_completed_focus = GAL_new_galileo  }
+		}		
+	}
+	
+	GAL_Okarin = {
+		name = "Ринат Окабов"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAL/Okarin.dds"	
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_artillery_specialist }
+			skills = { specialization_land = 1 }
+		}
+	}
+	
+	GAL_Lukyanenko = {
+		name = "Сергей Лукьяненко"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_GAL_Lukyanenko"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = GAL_Lukyanenko
+			allowed = {
+				original_tag = GAL
+			}
+			traits = {
+				pisatel_fantast
+			}
+			visible = { has_completed_focus = GAL_issledovanie_noosfery  }
 		}		
 	}
 	

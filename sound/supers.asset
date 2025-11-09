@@ -6,13 +6,6 @@ sound = {
 }
 
 sound = {
-	name = "crab"
-	file = "menu/crabrave.wav"
-	volume = 0.75
-	always_load = yes
-}
-
-sound = {
 	name = "superevent_bebs_1"
 	file = "menu/superevent_bebs_1.wav"
 	volume = 0.75

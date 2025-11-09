@@ -46,6 +46,13 @@ units = {
 		division_template = "Ополченцы"
 		start_experience_factor = 0.3
 	}
+	
+	division = {
+		name = "2-е рабочее ополчение"
+		location = 4724
+		division_template = "Ополченцы"
+		start_experience_factor = 0.3
+	}
 
     division = {
 		name = "Курьеры Delivery Club"
@@ -66,6 +73,13 @@ units = {
 		location = 4724
 		division_template = "Курьеры"
 		start_experience_factor = 0.3
-	}  	
+	} 
+
+	division = {
+		name = "Курьеры Самокат"
+		location = 4724
+		division_template = "Курьеры"
+		start_experience_factor = 0.3
+	}  	 	
 }
 

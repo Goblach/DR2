@@ -178,7 +178,7 @@ ideas = {
 		
 	    }     
 	
-		industrial_concern = {
+	industrial_concern = {
 		PRM_TrikolorTV = {
 			
 			allowed = {
