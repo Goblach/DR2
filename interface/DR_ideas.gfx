@@ -112,4 +112,8 @@ spriteTypes = {
 		name = "GFX_idea_GAL_lena"
 		texturefile = "gfx/interface/ideas/GAL_lena.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_GAL_cowboyi_protivodeystvie"
+		texturefile = "gfx/interface/ideas/GAL_cowboyi_protivodeystvie.dds"
+	}
 }

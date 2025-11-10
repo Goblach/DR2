@@ -389,6 +389,7 @@ ideas = {
 				}
 			}
 			GAL_cowboyi_protivodeystvie = {
+				picture = GAL_cowboyi_protivodeystvie
 				modifier = {
 				 stability_factor = -0.1
 				 war_support_factor = -0.1
