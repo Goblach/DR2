@@ -3,14 +3,15 @@ capital = 113
 oob = 123_1936
 
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.6
+set_war_support = 0.85
 set_technology = {
 	infantry_weapons = 1
 	basic_train = 1
 }
 
 recruit_character = KOF_voen_sovet
+recruit_character = KOF_Alina_Gingertail
 
 add_ideas = {
 limited_conscription
@@ -20,8 +21,11 @@ partial_economic_mobilisation
 add_timed_idea = { idea = BRS_posledstvie_brist_rezni days = 180 }
 
 set_popularities = {
-	fascism = 80
-    democratic = 20 	
+	fascism = 36
+	metacommy = 36
+	vmestolev = 6
+    democratic = 20
+	neutrality = 2 	
 }
 set_politics = {
 	ruling_party = fascism

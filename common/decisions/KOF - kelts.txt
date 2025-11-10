@@ -1,4 +1,4 @@
-BTS_soprotivleniye_btsnikov = { 
+KOF_voina_v_Britanii = { 
 
 	KOF_porazhenie = {
 
@@ -7,30 +7,40 @@ BTS_soprotivleniye_btsnikov = {
 		}
 		
 		visible = {
-			original_tag = KOF
+			has_war = yes
 		}
+		
+		cost = 0
 
+		ai_will_do = {
+			factor = 200
+			}
+		
 		icon = ger_mefo_bills
 
-		days_mission_timeout = 30
 		fire_only_once = yes
 		
 		available = {
+			has_war = yes
 			NOT = {
 				controls_state = 120
 				controls_state = 121
-			}
-			hidden_trigger = { always = no }
-			
+				controls_state = 122
+				controls_state = 123
+				controls_state = 125
+				controls_state = 126
+				controls_state = 127
+				controls_state = 128
+				controls_state = 129
+				controls_state = 130
+				controls_state = 131
+				controls_state = 132
+				controls_state = 133
+				controls_state = 136
 		}
-
-		cancel_trigger = {	
-			
 		}
-		
-
-		timeout_effect = {
-		
+		complete_effect = {
+			KOF = { country_event = KOF.1 }
 		}
 	}
-	
+	}

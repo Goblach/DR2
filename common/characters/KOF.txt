@@ -12,4 +12,17 @@ characters={
 		    id=-1
 	    }
     }
+	KOF_Alina_Gingertail = {
+		name = "Алина Рыжехвост"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOF/Alina_Gingertail.dds"
+			}
+		}
+		country_leader = {
+		    ideology = conservatism
+	        expire = "1999.1.1"
+		    id=-1
+	    }
+    }
 }

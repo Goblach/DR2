@@ -15,6 +15,6 @@ country_event = { #Глобалпланировка Альфа
 	
 	option = {
 	name = PRJ.1.a
-    PRJ = { country_event = PRJ.2 }	
+    PRJ = { country_event = PRJ.2 days = 15 }	
 	}
 }

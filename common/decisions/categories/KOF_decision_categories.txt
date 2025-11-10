@@ -1,4 +1,4 @@
-SWE_voina_v_Britanii = { 
+KOF_voina_v_Britanii = { 
     icon = military_operation
     allowed = {
 		original_tag = KOF

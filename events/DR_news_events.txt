@@ -1942,3 +1942,22 @@ news_event = { #война_в_германии
 		name = dk_news.30.a
 	}
 }
+
+news_event = { #Падение Кельского Освободительного Фронта 
+    id = dk_news.96
+	title = dk_news.96.t
+	desc = dk_news.96.d
+	picture = "GFX_news_event_konets_kelts"
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.96.a
+	}
+}

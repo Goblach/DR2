@@ -295,9 +295,36 @@ country_event = {
     }
    }
   }
+  KOF = { country_event = { id = KOF.2 days = 15 } }
 		white_peace = PBG
 		white_peace = UBR
 		white_peace = UKE
 		white_peace = FSK
+	}
+}
+
+country_event = { #Падение_правительства
+	id = KOF.2
+	title = KOF.2.t
+	desc = KOF.2.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+		trigger = {
+		tag = KOF
+	}
+	
+	is_triggered_only = yes	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+	news_event = dk_news.96
+	name = KOF.2.a
+	set_politics = {
+			ruling_party = democratic
+			elections_allowed = no
+		}
 	}
 }
