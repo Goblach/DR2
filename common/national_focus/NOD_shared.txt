@@ -1525,9 +1525,6 @@ CRI = {
 			focus = NOD_hazari
 		}
 		bypass = {
-			STR = { 
-			exists = no
-			}
 			CHK = { 
 			exists = no
 			}
