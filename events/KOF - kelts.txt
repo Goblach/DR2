@@ -320,6 +320,7 @@ country_event = { #Падение_правительства
 	}
 	
 	option = {
+	119 = { set_demilitarized_zone = yes }
 	news_event = dk_news.96
 	name = KOF.2.a
 	set_politics = {

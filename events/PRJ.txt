@@ -34,8 +34,8 @@ country_event = { #Убийство Синдзо Абэ
 	news_event = dk_news.94
 	name = PRJ.2.a
 	kill_country_leader = yes
-		hidden_effect = {	
-		PRJ = { country_event = PRJ.3 days = 5 }
+		hidden_effect = {
+		PRJ = { country_event = { id = PRJ.3 days = 5 } }			
 		add_country_leader_role = {
 			character = PRJ_parlament
 			promote_leader = yes
@@ -63,7 +63,7 @@ country_event = { #Политическое завещание
 	option = {
 	name = PRJ.3.a
 		hidden_effect = {	
-		PRJ = { country_event = PRJ.4 days = 15 }
+		PRJ = { country_event = { id = PRJ.4 days = 15 } }
 		}
 	}
 }

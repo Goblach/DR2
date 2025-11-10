@@ -39,6 +39,7 @@ KOF_voina_v_Britanii = {
 				controls_state = 136
 		}
 		}
+		
 		complete_effect = {
 			KOF = { country_event = KOF.1 }
 		}
