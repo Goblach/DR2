@@ -3300,10 +3300,10 @@ DR_core_russian_territories_decisions_category = {
 		}
 		
 		remove_effect = {
-			controls_state = 220
-			controls_state = 222
-			controls_state = 224
-			controls_state = 240
+			add_state_core = 220
+			add_state_core = 222
+			add_state_core = 224
+			add_state_core = 240
 		}
 	}
 	

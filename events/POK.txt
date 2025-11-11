@@ -45,7 +45,12 @@ country_event = {
 	}
 	MGN = {
 	transfer_state = 582
+	transfer_state = 572
+	transfer_state = 573
 	}
+	572 = { set_demilitarized_zone = no }
+	573 = { set_demilitarized_zone = no }
+	582 = { set_demilitarized_zone = no }
 	}
 	
 	option = {
@@ -80,8 +85,13 @@ country_event = {
 	}
 	MGN = {
 	transfer_state = 582
+	transfer_state = 572
+	transfer_state = 573
 	change_tag_from = POK
 	}
+	572 = { set_demilitarized_zone = no }
+	573 = { set_demilitarized_zone = no }
+	582 = { set_demilitarized_zone = no }
 	}
 }
 
@@ -129,7 +139,10 @@ country_event = {
 	}
 	OMS = {
 	transfer_state = 571
+	transfer_state = 403
 	}
+	403 = { set_demilitarized_zone = no }
+	571 = { set_demilitarized_zone = no }
 	}
 	
 	option = {
@@ -165,8 +178,11 @@ country_event = {
 	}
 	OMS = {
 	transfer_state = 571
+	transfer_state = 403
 	change_tag_from = POK
 	}
+	403 = { set_demilitarized_zone = no }
+	571 = { set_demilitarized_zone = no }
 	}
 }
 
@@ -214,7 +230,10 @@ country_event = {
 	}
 	GAL = {
 	transfer_state = 570
+	transfer_state = 578
 	}
+	570 = { set_demilitarized_zone = no }
+	578 = { set_demilitarized_zone = no }
 	}
 	
 	option = {
@@ -249,8 +268,11 @@ country_event = {
 	}
 	GAL = {
 	transfer_state = 570
+	transfer_state = 578
 	change_tag_from = POK
 	}
+	470 = { set_demilitarized_zone = no }
+	578 = { set_demilitarized_zone = no }
 	}
 }
 
@@ -298,7 +320,12 @@ country_event = {
 	}
 	YSK = {
 	transfer_state = 40
+	transfer_state = 654
+	transfer_state = 569
 	}
+	40 = { set_demilitarized_zone = no }
+	569 = { set_demilitarized_zone = no }
+	654 = { set_demilitarized_zone = no }
 	}
 	
 	option = {
@@ -333,8 +360,13 @@ country_event = {
 	}
 	YSK = {
 	transfer_state = 40
+	transfer_state = 654
+	transfer_state = 569
 	change_tag_from = POK
 	}
+	40 = { set_demilitarized_zone = no }
+	569 = { set_demilitarized_zone = no }
+	654 = { set_demilitarized_zone = no }
 	}
 }
 
@@ -382,7 +414,12 @@ country_event = {
 	}
 	ZNS = {
 	transfer_state = 568
+	transfer_state = 567
+	transfer_state = 329
 	}
+	567 = { set_demilitarized_zone = no }
+	568 = { set_demilitarized_zone = no }
+	329 = { set_demilitarized_zone = no }
 	}
 	
 	option = {
@@ -417,8 +454,13 @@ country_event = {
 	}
 	ZNS = {
 	transfer_state = 568
+	transfer_state = 567
+	transfer_state = 329
 	change_tag_from = POK
 	}
+	567 = { set_demilitarized_zone = no }
+	568 = { set_demilitarized_zone = no }
+	329 = { set_demilitarized_zone = no }
 	}
 }
 country_event = {
@@ -959,6 +1001,26 @@ country_event = {
 		country_event = { id = POK.3 days = 19}
 		country_event = { id = POK.4 days = 15}
 		country_event = { id = POK.5 days = 17}
+		hidden_effect = {
+		572 = { set_demilitarized_zone = yes }
+		573 = { set_demilitarized_zone = yes }
+		582 = { set_demilitarized_zone = yes }
+		403 = { set_demilitarized_zone = yes }
+		571 = { set_demilitarized_zone = yes }
+		570 = { set_demilitarized_zone = yes }
+		578 = { set_demilitarized_zone = yes }
+		40 = { set_demilitarized_zone = yes }
+		569 = { set_demilitarized_zone = yes }
+		654 = { set_demilitarized_zone = yes }
+		568 = { set_demilitarized_zone = yes }
+		329 = { set_demilitarized_zone = yes }
+		567 = { set_demilitarized_zone = yes }
+		824 = { set_demilitarized_zone = yes }
+		577 = { set_demilitarized_zone = yes }
+		576 = { set_demilitarized_zone = yes }
+		575 = { set_demilitarized_zone = yes }
+		}
+		
 
 	}
 }

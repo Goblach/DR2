@@ -283,6 +283,20 @@ country_event = { #Оповещение_о_развале_Покаянии
 	option = {
 		name = mordor.13.a
 		set_country_flag = MRD_podgotovka_k_interventsii_country_flag
+		MRD = {
+			transfer_state = 824
+			transfer_state = 577
+			transfer_state = 576
+			transfer_state = 575
+			add_state_core = 824
+			add_state_core = 577
+			add_state_core = 576
+			add_state_core = 575
+		}
+			577 = { set_demilitarized_zone = no }
+			576 = { set_demilitarized_zone = no }
+			575 = { set_demilitarized_zone = no }
+			824 = { set_demilitarized_zone = no }
 	}
 }
 country_event = { #Интервенция_в_гражданскую_войну
