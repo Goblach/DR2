@@ -37,6 +37,44 @@ characters={
 		}	
 	}
 	
+	KAZ_Zombie_Chan = {
+		name = "Зомби Чан"
+
+		portraits = {
+			army = {
+				small = ""
+				large = "gfx/leaders/KAZ/Zombie_Chan.dds"
+			}
+		}
+		
+		country_leader = {
+	    	expire = "1999.1.1"
+        	ideology = fascism_ideology
+         	traits = {
+        		#
+         	}
+		}	
+	}
+	
+	KAZ_Igor_Vihorkov = {
+		name = "Игорь Вихорьков"
+
+		portraits = {
+			army = {
+				small = ""
+				large = "gfx/leaders/KAZ/Igor_Vihorkov.dds"
+			}
+		}
+		
+		country_leader = {
+	    	expire = "1999.1.1"
+        	ideology = postironism
+         	traits = {
+        		#
+         	}
+		}	
+	}
+	
 	KAZ_shingiz = {
 		name = "Шингиз"
 

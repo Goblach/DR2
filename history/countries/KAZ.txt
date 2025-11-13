@@ -13,6 +13,8 @@ set_technology = {
 recruit_character = KAZ_borat
 recruit_character = KAZ_sanat
 recruit_character = KAZ_shingiz
+recruit_character = KAZ_Igor_Vihorkov
+recruit_character = KAZ_Zombie_Chan
 
 add_ideas = {
 limited_conscription
@@ -20,8 +22,10 @@ low_economic_mobilisation
 }
 
 set_popularities = {
-	democratic = 80
-	vmestolev = 20
+	democratic = 70
+	memoism = 18
+	vmestolev = 8
+	fascism = 4
 }
 set_politics = {
 	ruling_party = democratic
