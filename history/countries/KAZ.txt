@@ -22,10 +22,10 @@ low_economic_mobilisation
 }
 
 set_popularities = {
-	democratic = 72
+	democratic = 70
 	memoism = 18
 	vmestolev = 8
-	fascism = 2
+	fascism = 4
 }
 set_politics = {
 	ruling_party = democratic
