@@ -1430,7 +1430,7 @@ leader_traits = {
 	mad_scientist = {
 		random = no	
 		research_speed_factor = 0.05
-		special_project_speed_factor = 0.15
+		special_project_speed_factor = 0.10
 		stability_factor = -0.05
 		weekly_manpower = -25
 		
@@ -1560,6 +1560,23 @@ leader_traits = {
 		
 		ai_will_do = {
 			factor = 5
+		}
+	}
+	enginer_mason = {
+		sprite = 10
+		random = no
+		production_speed_buildings_factor = 0.15
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	experimentator = {
+		sprite = 10
+		random = no
+		special_project_speed_factor = 0.15
+		production_speed_facility_factor = 0.3
+		ai_will_do = {
+			factor = 2
 		}
 	}
 	###UKRAINA ZELYA###

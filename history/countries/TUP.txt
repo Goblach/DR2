@@ -29,11 +29,12 @@ recruit_character = TUP_Admiral
 recruit_character = TUP_postebaylo
 
 add_ideas = {
-	TUP_dikiy_sevzapad
 	TUP_home_of_revolution
 	partial_economic_mobilisation
 	limited_conscription
 }
+
+add_timed_idea = { idea = TUP_dikiy_sevzapad days = 300 }
 
 set_popularities = {
 	anarhostalinism = 100
