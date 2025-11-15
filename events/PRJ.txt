@@ -1,7 +1,7 @@
 add_namespace = PRJ
 
 	
-country_event = { #История (надо написатт)
+country_event = { #История 
 	id = PRJ.1 
 	title = PRJ.1.t
 	desc = PRJ.1.d
@@ -62,6 +62,7 @@ country_event = { #Политическое завещание
 	
 	option = {
 	name = PRJ.3.a
+		add_ideas = PRJ_final_fantasy
 		hidden_effect = {	
 		PRJ = { country_event = { id = PRJ.4 days = 15 } }
 		}
