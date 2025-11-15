@@ -11,7 +11,7 @@ ideas = {
 			    PRJ_zagovor_NHK = {
 			picture = PRJ_zagovor_NHK		
 			modifier = {
-			   		monthly_population = -1.2
+			   		monthly_population = -1.5
 					memoism_drift = 0.05
 					stability_factor = -0.25
 			}
@@ -38,6 +38,12 @@ ideas = {
 					production_speed_buildings_factor = -0.5
 					industrial_capacity_factory = -0.25
 					industrial_capacity_dockyard = -0.15
+			}
+		}
+		PRJ_final_fantasy = {
+			picture = PRJ_final_fantasy 	
+			modifier = {
+			   		monthly_population = 0.75
 			}
 		}
 	}		
