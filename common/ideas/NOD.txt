@@ -23,18 +23,6 @@ ideas = {
 			    tag = CHK
 			    attack_bonus_against = 0.25
 		        }
-				targeted_modifier = {
-				tag = GEO
-			    attack_bonus_against = 0.25
-		        }
-				targeted_modifier = {
-				tag = ARM
-			    attack_bonus_against = 0.25
-		        }
-				targeted_modifier = {
-				tag = AZR
-			    attack_bonus_against = 0.25
-		        }
 			modifier = {
 			  war_support_factor = 0.15
 			}
@@ -47,7 +35,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			army_morale_factor = -0.01
+			army_morale_factor = -0.1
 		    stability_factor = -0.15
 			}
 		}
@@ -60,8 +48,8 @@ ideas = {
 			
 			modifier = {
 			drift_defence_factor = 0.05
-			army_org_factor = 0.01
-		    stability_factor = 0.01
+			army_org_factor = 0.05
+		    stability_factor = 0.05
 			
 			}
 		}
@@ -75,7 +63,7 @@ ideas = {
 			
 			modifier = {
 		    stability_factor = -0.05
-			political_power_factor = -0.01
+			political_power_factor = -0.1
 			}
 		}
 	
@@ -91,7 +79,7 @@ ideas = {
 			
 		    materiel_manufacturer_cost_factor = -0.1
 			industrial_concern_cost_factor = -0.1
-			political_power_factor = 0.01
+			political_power_factor = 0.05
 			party_popularity_stability_factor = 0.05
 			consumer_goods_factor = 0.05
 			
@@ -100,7 +88,7 @@ ideas = {
 		
 	NOD_propag_industr = {
 	
-	picture = Sdelano_u_nas_33
+		picture = Sdelano_u_nas_33
 			
 			removal_cost = -1
 			
@@ -108,7 +96,7 @@ ideas = {
 			
 		    industrial_capacity_factory = 0.05
 			consumer_goods_factor = 0.05
-			monthly_population = 0.01
+			monthly_population = 0.1
 			
 			}
 			
@@ -277,7 +265,7 @@ ideas = {
 			modifier = {
             defence = 0.05
             non_core_manpower = 0.3
-            recruitable_population = 0.03
+            recruitable_population_factor = 0.15
 			}
 		}
 		NOD_hramy_kreposty = {
@@ -324,8 +312,8 @@ ideas = {
 			
 			modifier = {
 				amphibious_invasion = 0.10
-				special_forces_defence_factor = 0.01
-			    special_forces_attack_factor = 0.01
+				special_forces_defence_factor = 0.1
+			    special_forces_attack_factor = 0.1
 			}
 			
 		}
@@ -336,8 +324,8 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    war_support_factor = 0.02
-				recruitable_population = 0.01
+			    war_support_factor = 0.05
+				recruitable_population_factor = 0.05
 			}
 			
 		}
@@ -352,7 +340,7 @@ ideas = {
 			    drift_defence_factor = 0.05
 			    army_org_factor = -0.05
 			    war_support_factor = 0.05
-				recruitable_population = 0.02
+				recruitable_population_factor = 0.1
 			}
 			
 		}
@@ -364,7 +352,7 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			recruitable_population = 0.02
+			recruitable_population_factor = 0.05
 			army_speed_factor = -0.05
 			max_dig_in_factor = 0.05
 			}
@@ -378,11 +366,11 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			recruitable_population = 0.02
+			recruitable_population = 0.05
 			army_defence_factor = 0.05
 			dig_in_speed = 2
 			max_dig_in_factor = 0.05
-			army_morale_factor = 0.03
+			army_morale_factor = 0.05
 			production_speed_bunker_factor = 0.15
 			defensive_war_stability_factor = 0.5
 			}
@@ -427,7 +415,7 @@ ideas = {
 			}
 			equipment_bonus = {
 				artillery_equipment = {
-					breakthrough  = 0.02				
+					breakthrough  = 0.1				
 					instant = yes
 				}
 			}
@@ -440,22 +428,15 @@ ideas = {
 			
 			removal_cost = -1
 			
-            modifier = {
-			breakthrough_factor = 0.1
-			}
 			equipment_bonus = {
 				motorized_rocket_unit = {
-					breakthrough  = 0.02				
+					breakthrough  = 0.1				
 					instant = yes
 				}
 			}
-			
-			modifier = {
-			breakthrough_factor = 0.1
-			}
 			equipment_bonus = {
 				rocket_artillery = {
-					breakthrough  = 0.02				
+					breakthrough  = 0.1				
 					instant = yes
 				}
 			}
@@ -485,8 +466,8 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			army_morale_factor = 0.01
-			army_org_factor = 0.01
+			army_morale_factor = 0.05
+			army_org_factor = 0.05
 		    army_attack_factor = 0.05
 			}
 			
@@ -512,9 +493,9 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-				encryption_factor = 0.05
+				encryption_factor = 0.1
 				decryption_factor = 0.1
-				enemy_operative_detection_chance = 0.00005
+				enemy_operative_detection_chance = 0.1
 			}
 		}
    }
