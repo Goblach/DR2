@@ -135,7 +135,7 @@ country_event = { #Последствия убийства Абэ
 	}
 	}
 		option = {
-	name = PRJ.4.d
+	name = PRJ.4.e
 	set_party_name = { ideology = neutrality long_name = PRJ_Mishima_Zaibatsu_party_long name = PRJ_Mishima_Zaibatsu_party }
        		set_politics = {
 			ruling_party = neutrality
