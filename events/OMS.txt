@@ -25,6 +25,9 @@ country_event = {
 	
 	option = {
 	name = OMS.1.a
+		trigger = {
+			LIM = { exists = yes }
+		}
 		ai_chance = {
 			base = 30
 		}
