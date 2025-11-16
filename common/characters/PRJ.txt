@@ -63,7 +63,7 @@ characters={
 		}
     }
 		PRJ_AZki = {
-		name = "АЗКи"
+		name = "АZКи"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/PRJ/AZki.dds"

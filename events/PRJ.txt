@@ -1,7 +1,7 @@
 add_namespace = PRJ
 
 	
-country_event = { #История (надо написатт)
+country_event = { #История 
 	id = PRJ.1 
 	title = PRJ.1.t
 	desc = PRJ.1.d
@@ -62,6 +62,7 @@ country_event = { #Политическое завещание
 	
 	option = {
 	name = PRJ.3.a
+		add_ideas = PRJ_final_fantasy
 		hidden_effect = {	
 		PRJ = { country_event = { id = PRJ.4 days = 15 } }
 		}
@@ -135,7 +136,7 @@ country_event = { #Последствия убийства Абэ
 	}
 	}
 		option = {
-	name = PRJ.4.d
+	name = PRJ.4.e
 	set_party_name = { ideology = neutrality long_name = PRJ_Mishima_Zaibatsu_party_long name = PRJ_Mishima_Zaibatsu_party }
        		set_politics = {
 			ruling_party = neutrality
