@@ -25,7 +25,9 @@ country_event = {
 	
 	option = {
 	name = OMS.1.a
-		ai_chance = { factor = 100 }
+		ai_chance = {
+			base = 30
+		}
 		remove_ideas = POK_idea_GV
 		news_event = dk_news.50
 		OMS = {
@@ -66,7 +68,9 @@ country_event = {
 	}
 	option = {
 	name = OMS.1.b
-		ai_chance = { factor = 0 }
+		ai_chance = {
+			base = 70
+		}
 		set_cosmetic_tag = OMS_nezavisimost
 		set_country_flag = DR_start_reunite_Russia_cf
 		news_event = dk_news.50
