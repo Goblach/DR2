@@ -260,7 +260,7 @@
  GAL_spartanism_2:0 "Научный спартанизм"
  GAL_rational_economy:0 "Рациональная экономика"
  GAL_cowboyi_protivodeystvie:0 "Противодействие ковбоев"
- GAL_cowboyi_protivodeystvie_desc:0 ""
+ GAL_cowboyi_protivodeystvie_desc:0 "§YТы не можешь сдаться сейчас... Сохраняй решимость...§"
  #OMS
   OMS_omsk_revolution:0 "Пой, революция!"
  OMS_vzyat_gorod:0 "Город детства"
