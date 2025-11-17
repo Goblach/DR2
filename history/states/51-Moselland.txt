@@ -11,7 +11,7 @@ state={
 	state_category = metropolis
 	
 	history={
-		owner = BAV
+		owner = FRG
 		victory_points = {
 			6469 10 
 		}
@@ -32,16 +32,7 @@ state={
 
 		}
 		add_core_of = FRG
-		add_core_of = BAV
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 6
-				radar_station = 1
-			}
-		}
-	
-		
+		add_core_of = BAV		
 	}
 
 	provinces={

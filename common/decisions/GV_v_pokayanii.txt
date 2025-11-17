@@ -6,7 +6,7 @@ GV_v_pokayanii_podgotovka = {
 		days_re_enable = 0
 		
 		ai_will_do = {
-			base = 20
+			factor = 20
 		}
 		
         visible = {
@@ -46,7 +46,7 @@ GV_v_pokayanii_podgotovka = {
 		days_re_enable = 0
 		
 		ai_will_do = {
-			base = 10
+			factor = 10
 		}
 		
         visible = {
@@ -85,7 +85,7 @@ GV_v_pokayanii_podgotovka = {
 		days_re_enable = 0
 		
 		ai_will_do = {
-			base = 10
+			factor = 10
 		}
 
         visible = {
@@ -124,7 +124,7 @@ GV_v_pokayanii_podgotovka = {
 		days_re_enable = 0
 		
 		ai_will_do = {
-			base = 10
+			factor = 10
 		}
 
         visible = {

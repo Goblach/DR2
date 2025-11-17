@@ -235,6 +235,10 @@ spriteTypes = {
 		name = "GFX_idea_PRJ_vosstanovlenie_economiki"
 		texturefile = "gfx/interface/ideas/PRJ_vosstanovlenie_economiki.dds"
 	}
+		spriteType = {
+		name = "GFX_idea_PRJ_final_fantasy"
+		texturefile = "gfx/interface/ideas/PRJ_final_fantasy.dds"
+	}
 	
 	#фокусы  
 	

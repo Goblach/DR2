@@ -373,6 +373,56 @@ characters={
 		}		
 	}
 	
+	GAL_Danya = {
+		name = "Даня Крайстер"
+		portraits = {
+			army = {
+				small = "GFX_idea_GAL_Danya"
+				large = "gfx/leaders/GAL/Danya.dds"				
+			}	
+			civilian = {
+				small = "GFX_idea_GAL_Danya"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = GAL_Danya
+			allowed = {
+				original_tag = GAL
+			}
+			traits = {
+				enginer_mason
+			}
+			visible = { has_completed_focus = GAL_new_galileo  }
+		}		
+	}
+	
+	GAL_DoktorDye = {
+		name = "Доктор Дью"
+		portraits = {
+			army = {
+				small = "GFX_idea_GAL_DoktorDye"
+				large = "gfx/leaders/GAL/DoktorDye.dds"				
+			}	
+			civilian = {
+				small = "GFX_idea_GAL_DoktorDye"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = GAL_DoktorDye
+			allowed = {
+				original_tag = GAL
+			}
+			traits = {
+				experimentator
+			}
+			visible = { has_completed_focus = GAL_renesans  }
+		}		
+	}
+	
 	GAL_oso = {
 		name = "О-Сознание"
 		

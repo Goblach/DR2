@@ -271,7 +271,7 @@ country_event = {
 	transfer_state = 578
 	change_tag_from = POK
 	}
-	470 = { set_demilitarized_zone = no }
+	570 = { set_demilitarized_zone = no }
 	578 = { set_demilitarized_zone = no }
 	}
 }

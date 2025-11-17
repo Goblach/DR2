@@ -770,6 +770,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_GAL_Lukyanenko.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_GAL_Danya"
+		texturefile = "gfx/interface/ideas/idea_GAL_Danya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAL_DoktorDye"
+		texturefile = "gfx/interface/ideas/idea_GAL_DoktorDye.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_IRQ_ali_hassan_al_majid"
 		texturefile = "gfx/interface/ideas/idea_IRQ_ali_hassan_al_majid.dds" 
  	}

@@ -117,7 +117,34 @@ focus_tree = {
 		x = 16
 		y = 3
 		completion_reward = {
-			load_oob = "OMS_DRdobrovoltsi"
+			division_template = {
+					name = "Гражданская оборона"
+					division_names_group = POK_JBT_01
+
+		            regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+	                }
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+					}
+			}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"Гражданская оборона\" division_template = \"Гражданская оборона\" start_experience_factor = 1 start_equipment_factor = 1.0" owner = ROOT
+					}
+					create_unit = { 
+						division = "name = \"Гражданская оборона\" division_template = \"Гражданская оборона\" start_experience_factor = 1 start_equipment_factor = 1.0" owner = ROOT
+					}
+				}
 		}
 	}
 	focus = {
