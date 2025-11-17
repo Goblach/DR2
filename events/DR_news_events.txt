@@ -1939,7 +1939,7 @@ news_event = { #война_в_германии
 	is_triggered_only = yes
 	
 	option = {
-		name = dk_news.30.a
+		name = dk_news.95.a
 	}
 }
 
