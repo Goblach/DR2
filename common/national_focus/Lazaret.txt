@@ -1166,8 +1166,8 @@ focus_tree = {
 		x = 30
 		y = 1
 			completion_reward = {
-country_event = { id = lazaret.11  days = 1 }
-}
+				country_event = { id = lazaret.11  days = 1 }
+		}
 
 	}
 	focus = {

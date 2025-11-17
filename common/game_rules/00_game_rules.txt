@@ -489,7 +489,7 @@ maximum_fort_level = {
 
 POK_ai_behavior = {						#Настройки_Великой_Покаянии
 	name = "DR_AI_BEHAVIOR_RW_POK"
-	group = "RULE_GROUP_COUNTRY_PATHS_POK_COUNTRIES"
+	group = "RULE_GROUP_AI_BEHAVIOR"
 	default = {
 		name = DR_DEFAULT
 		text = "DR_RULE_OPTION_DEFAULT"
@@ -530,6 +530,29 @@ POK_ai_behavior = {						#Настройки_Великой_Покаянии
 		name = DR_OPTIONAL_POK_PARLAMENT_RAZVAL
 		text = "RULE_OPTION_OPTIONAL_POK_PARLAMENT_RAZVAL"
 		desc = "RULE_OPTION_OPTIONAL_POK_PARLAMENT_RAZVAL_AI_DESC"
+		allow_achievements = yes
+	}
+}
+
+LAZ_path = {
+	name = "LAZ_PATH"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DR_DEFAULT
+		text = DR_RULE_OPTION_DEFAULT
+		desc = "DR_RULE_OPTION_DEFAULT_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DR_OPTIONAL_LAZ_PURGE
+		text = "RULE_OPTION_DR_OPTIONAL_LAZ_PURGE"
+		desc = "RULE_OPTION_DR_OPTIONAL_LAZ_PURGE_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DR_OPTIONAL_LAZ_NOT_PURGE
+		text = "RULE_OPTION_DR_OPTIONAL_LAZ_NOT_PURGE"
+		desc = "RULE_OPTION_DR_OPTIONAL_LAZ_NOT_PURGE_AI_DESC"
 		allow_achievements = yes
 	}
 }

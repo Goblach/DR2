@@ -5,13 +5,19 @@ country_event = { #Для ИИ
 	title = lazaret.10000.t
 	desc = lazaret.10000.d
 	picture = GFX_report_event_ast_parliament_house
-		hidden = yes
+	hidden = yes
 	is_triggered_only = yes
+	trigger = { is_ai = yes }
 
 	option = { #Za Doka
 		name = lazaret.10000.a
 		ai_chance = {
 			base = 70
+			modifier = {
+				factor = 0
+				NOT = { has_game_rule = { rule = LAZ_path option = DR_DEFAULT } }
+				NOT = { has_game_rule = { rule = LAZ_path option = DR_OPTIONAL_LAZ_PURGE } }
+			}
 		}
 		set_country_flag = LAZ_loyalist_ai
 	}
@@ -20,6 +26,11 @@ country_event = { #Для ИИ
 		name = lazaret.10000.b
 		ai_chance = {
 			base = 30
+			modifier = {
+				factor = 0
+				NOT = { has_game_rule = { rule = LAZ_path option = DR_DEFAULT } }
+				NOT = { has_game_rule = { rule = LAZ_path option = DR_OPTIONAL_LAZ_NOT_PURGE } }
+			}
 		}
 	}
 }
@@ -577,7 +588,7 @@ country_event = { #Развал пакта
 		}
 		send_equipment_fraction = { value = 0.4 target = OSV}	
 	}
-	
+}
 country_event = { #Доступ_к_экспансии_после_чисток
 	id = lazaret.10
 	title = lazaret.10.t
