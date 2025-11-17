@@ -2235,7 +2235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_proekt_galileo
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_proekt_galileo
 		cost = 10.00
 		prerequisite = {
 			focus = GAL_plody_lybvi
@@ -2404,7 +2404,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_osoznanie
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_osoznanie
 		cost = 10.00
 		available = {
 			has_idea = GAL_sovet_spor
@@ -2452,7 +2452,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAL_proekt_complimintetion
-		icon = GFX_goal_unknown
+		icon = GFX_GAL_proekt_complimintetion
 		cost = 10.00
 		prerequisite = {
 			focus = GAL_otmena_turem

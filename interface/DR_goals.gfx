@@ -4383,4 +4383,19 @@ spriteTypes = {
 		name = "GFX_GAL_otkaz_ot_radikalisma"
 		texturefile = "gfx/interface/goals/GAL_otkaz_ot_radikalisma.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_GAL_proekt_complimintetion"
+		texturefile = "gfx/interface/goals/GAL_proekt_complimintetion.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_GAL_osoznanie"
+		texturefile = "gfx/interface/goals/GAL_osoznanie.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_GAL_proekt_galileo"
+		texturefile = "gfx/interface/goals/GAL_proekt_galileo.dds"
+	}
 }
