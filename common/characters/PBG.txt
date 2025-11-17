@@ -7,7 +7,12 @@ characters={
 			}
 		}
 		country_leader = {
+			desc = "POLITICS_SHELBY_DESC"
 		    ideology = despotism
+			traits = {
+		        cornered_fox
+				bykvalno_i
+	        }
 	        expire = "1999.1.1"
 		    id=-1
 	    }
