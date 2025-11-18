@@ -23,6 +23,6 @@ GAL_akademgorod = {
 }
 GAL_research_akademgoroda = {
 	enable = { always = yes }
-	icon = GFX_idea_GAL_akademgorod
+	icon = GFX_idea_jap_supremacy_of_technology
 	research_speed_factor = GAL_research_speed_factor
 }

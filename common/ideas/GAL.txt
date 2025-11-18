@@ -364,6 +364,7 @@ ideas = {
 			   }
 			}
 			GAL_rational_economy = {
+				picture = generic_central_management
 				modifier = {
 				 production_factory_efficiency_gain_factor = 0.1
 				 production_factory_max_efficiency_factor = 0.1
@@ -371,6 +372,7 @@ ideas = {
 				}
 			}
 			GAL_rational_economy_2 = {
+				picture = generic_central_management
 				modifier = {
 				 production_factory_efficiency_gain_factor = 0.15
 				 production_factory_max_efficiency_factor = 0.15
@@ -379,6 +381,7 @@ ideas = {
 				}
 			}
 			GAL_protiv_liberalisma = {
+				picture = generic_democracy_banned
 				available = {
 					POK = { exists = yes }
 				}
@@ -410,6 +413,7 @@ ideas = {
 				}
 			}
 			GAL_svyaz_i_communocation = {
+				picture = usa_magic
 				modifier = {
 				 production_speed_radar_station_factor = 0.2
 				 coordination_bonus = 0.1
@@ -592,11 +596,13 @@ ideas = {
 				}
 			}
 			GAL_sovet_spor = {
+				picture = generic_disjointed_gov
 				modifier = {
 				 political_power_factor = -0.15
 				}
 			}
 			GAL_ban_religion = {
+				picture = SOV_opiate_of_the_masses
 				modifier = {
 				 political_power_factor = -0.15
 				 stability_weekly = -0.005
@@ -604,6 +610,7 @@ ideas = {
 				}
 			}
 			GAL_panacea = {
+				picture = SOV_opiate_of_the_masses
 				modifier = {
 				 conscription = 0.01
 				 industrial_capacity_factory = 0.15
