@@ -352,6 +352,19 @@ characters={
 		}
 	}
 	
+	GAL_Klyaner = {
+		name = "Иисак Кляйнер"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAL/Klyaner.dds"	
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_nuclear_power_expert scientist_trait_bright  }
+			skills = { specialization_nuclear = 1 }
+		}
+	}
+	
 	GAL_Lukyanenko = {
 		name = "Сергей Лукьяненко"
 		portraits = {

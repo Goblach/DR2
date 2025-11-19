@@ -17,6 +17,20 @@ focus_tree = {
 		cost = 1.00
 		x = 30
 		y = 0
+		offset = {
+			x = -14
+			y = 0
+			trigger = {
+				has_completed_focus = GAL_cowboyi
+			}
+		}
+		offset = {
+			x = 15
+			y = 0
+			trigger = {
+				has_completed_focus = GAL_mobilizaciya_nauchnih_sotrudnikov
+			}
+		}
 		completion_reward = {
 			add_stability = 0.05
 			hidden_effect = {
@@ -41,9 +55,15 @@ focus_tree = {
 		}
 		x = 16
 		y = 1
+		allow_branch = {
+			if = {
+				NOT = { has_completed_focus = GAL_mobilizaciya_nauchnih_sotrudnikov }
+			}
+		}
 			completion_reward = {
 					load_oob = GAL_kovboys
-				}
+					mark_focus_tree_layout_dirty = yes
+			}
 
 	}
 	focus = {
@@ -1336,6 +1356,11 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GAL_cowboyi
 		}
+		allow_branch = {
+			if = {
+				NOT = { has_completed_focus = GAL_cowboyi }
+			}
+		}
 		x = 45
 		y = 1
 		completion_reward = {
@@ -1450,6 +1475,7 @@ focus_tree = {
 						division = "name = \"Университетская дивизия\" division_template = \"Университетская дивизия\" start_experience_factor = 0.3 start_equipment_factor = 1.0" owner = ROOT
 					}
 				}
+				mark_focus_tree_layout_dirty = yes
 			
 		}
 	}
@@ -2248,8 +2274,8 @@ focus_tree = {
 		}
 		available = {
 			custom_override_tooltip = {
-				check_variable = { GAL_wire_number > 30 }
-				tooltip = GAL_wire_number_above_30
+				check_variable = { GAL_wire_number > 45 }
+				tooltip = GAL_wire_number_above_45
 			}
 		}
 		cancelable = no
@@ -2273,7 +2299,7 @@ focus_tree = {
 		y = 12
 		completion_reward = {
 			unlock_decision_category_tooltip = GAL_rock_zhiv
-				country_event = { id = GAL.43 } 
+			country_event = { id = GAL.43 } 
 		}
 	}
 	focus = {
@@ -2321,8 +2347,8 @@ focus_tree = {
 		completion_reward = {
 			unlock_decision_category_tooltip = GAL_genetika_nauka_decisions_category
 			country_event = {
-							id = GAL.42
-						}
+				id = GAL.42
+			}
 			hidden_effect = {
 				activate_mission = GAL_drobysh_agenda
 				add_ideas = GAL_drobysh_idea
@@ -2369,8 +2395,11 @@ focus_tree = {
 		y = 13
 		completion_reward = {
 			add_ideas = GAL_kasty
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 		}
-
 	}
 	focus = {
 		id = GAL_otmena_turem
@@ -2401,7 +2430,7 @@ focus_tree = {
 			}
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = GAL_DoktorDye
-						add_corps_commander_role = {
+			add_corps_commander_role = {
 				character = GAL_DoktorDye
 				traits = { trait_engineer }
 				skill = 2
@@ -2718,6 +2747,10 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = {
 				GAL_ierarhiya_tehnokratii
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
 			}
 		}
 

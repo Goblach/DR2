@@ -26,6 +26,7 @@ recruit_character = GAL_Panchin
 recruit_character = GAL_Antonov
 recruit_character = GAL_Kristina
 recruit_character = GAL_Okarin
+recruit_character = GAL_Klyaner
 recruit_character = GAL_Lukyanenko
 recruit_character = GAL_DoktorDye
 recruit_character = GAL_Danya
