@@ -1301,6 +1301,8 @@ news_event = { #Падение_калиниграда
 		}
 	}
 	
+	fire_only_once = yes
+	
 	immediate = {
 		set_global_flag = DR_news_event_fall_KLG_gf
 	}
@@ -1386,6 +1388,8 @@ news_event = { #Борат_Сагдиев_объединяет_Казахста�
 		882 = { is_controlled_by = KAZ }
 		588 = { is_controlled_by = KAZ }
 	}
+	
+	fire_only_once = yes
 	
 	option = {
 		name = dk_news.65.a
@@ -1837,6 +1841,8 @@ news_event = { #Бебей_взял_Москву
 	mean_time_to_happen = {
 		days = 3
 	}
+	
+	fire_only_once = yes
 	
 	option = {
 		name = dk_news.90.a

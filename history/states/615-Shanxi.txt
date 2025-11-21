@@ -4,10 +4,13 @@ state=
 	name="STATE_615"
 	manpower = 11601000
 	
+	resources={
+		coal = 20
+	}	
+	
 	state_category = town
 	
-	history=
-	{
+	history= {
 		owner = PRC
 		add_core_of = PRC
 		victory_points = {

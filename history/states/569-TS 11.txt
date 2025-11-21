@@ -4,6 +4,9 @@ state = {
 	name = "STATE_569" # Khakassia
 	manpower = 3567322
 	
+	resources = {
+		coal = 16 # initial distribution
+	}
 	state_category = large_town
 
 	history = {

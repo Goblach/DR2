@@ -4,6 +4,10 @@ state={
 	name="STATE_578" # Tomsk
 	manpower = 2409304
 	
+	resources = {
+		coal = 16 # initial distribution
+	}
+	
 	state_category = town
 
 	history={
