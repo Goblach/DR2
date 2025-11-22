@@ -1,18 +1,6 @@
 every_possible_country = {
 	limit = {
 		has_dlc = "La Resistance"
-		# china gets a special one via focus
-		NOT = { original_tag = CHI }
-		NOT = { is_chinese_warlord = yes }
-		if = {
-			limit = {
-				has_dlc = "Battle for the Bosporus"
-			}
-			NOT = {
-				tag = GRE
-				tag = TUR
-			}
-		}
 		NOT = {
 			has_allowed_idea_with_traits = { idea = head_of_intelligence characters = yes }
 		}

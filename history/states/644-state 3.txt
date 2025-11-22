@@ -1,6 +1,10 @@
 state = {
 	id = 644
 	name = "STATE_644" # Kolyma
+	
+	resources = {
+		coal = 50 # initial distribution
+	}
 
 	history = {
 		owner = KOL
