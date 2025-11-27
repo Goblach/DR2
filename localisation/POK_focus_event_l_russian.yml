@@ -106,7 +106,7 @@
  GAL_svyaz_i_communocation:0 "Связь и коммуникации"
  GAL_signal_upgrade_tt:0 "§YЭффект§!:\nРота связи:\n      Разведка: §G+50%§!\n      Прорыв: §G+50%§!\n      Инициатива: §G+5%§!\n      Защита: §G+10%§!\n"
  GAL_proekt_galileo:0 "Проект ГАЛИЛЕО"
- GAL_wire_number_above_30:0 "Количество регионов подключенных к §RСети§! больше §Y45§!"
+ GAL_wire_number_above_45:0 "Количество регионов подключенных к §RСети§! больше §Y45§!"
  GAL_wire_number_tt:0 "Регионы подключенные к §RСети§ = §Y[?GAL_wire_number]§!"
  GAL_proekt_complimintetion:0 "Проект КОМПЛЕМЕНТАЦИЯ"
  GAL_syberia:0 "Клуб "Сиберия""

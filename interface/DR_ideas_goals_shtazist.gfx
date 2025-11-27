@@ -48,8 +48,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_GAL_izhevsk_dynamics"
-		texturefile = "gfx/interface/ideas/GAL_izhevsk_dynamics.dds"
+		name = "GFX_idea_izhevsk_dynamics"
+		texturefile = "gfx/interface/ideas/izhevsk_dynamics.dds"
 	}		
 	
 	spriteType = {
