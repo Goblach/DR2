@@ -22,7 +22,6 @@ pokayan_eqilibrium = {
 		POK_vote_heart
 		POK_under_one_umbrella
 		POK_majoritar
-		
 		POK_power_president
 		POK_sderzhki_i_protivovesi
 	}
@@ -54,9 +53,7 @@ pokayan_Putin = {
 		POK_vote_heart
 		POK_under_one_umbrella
 		POK_majoritar
-		
 		POK_power_president
-		
 		POK_proyect_EVA
 		POK_lunar_Putin
 	}
@@ -88,9 +85,7 @@ pokayan_Eltsin = {
 		POK_vote_heart
 		POK_under_one_umbrella
 		POK_majoritar
-		
 		POK_power_president
-		
 		POK_proyect_EVA
 		POK_Ya_prihozhu
 	}
@@ -122,9 +117,7 @@ pokayan_US = {
 		POK_vote_mind
 		POK_liberal_coalition
 		POK_proportional
-		
 		POK_power_parlament
-		
 		POK_radical_decommunisation
 		POK_Burn_soviet_books
 		POK_destroy_sov_buildings
@@ -164,18 +157,14 @@ pokayan_Razval = {
 		POK_vote_mind
 		POK_liberal_coalition
 		POK_proportional
-		
 		POK_power_parlament
-		
 		POK_radical_decommunisation
 		POK_Burn_soviet_books
 		POK_destroy_sov_buildings
 		POK_destroy_socrealism_art
 		POK_exploit_rusosovki
-		
 		POK_law_of_Novodvorskava
 		POK_destroy_soviet_military
-		
 		POK_parad_suverenitetov
 		POK_full_separation
 		POK_proshay_nemitaya_rossiya
