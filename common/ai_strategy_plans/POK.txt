@@ -1,0 +1,186 @@
+
+pokayan_eqilibrium = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = POK
+	}
+	enable = {
+		OR = {
+			has_country_flag = POK_eqilibrium 
+			has_game_rule = {
+				rule = POK_ai_behavior
+				option = DR_OPTIONAL_POK_EQILIBRIUM
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		POK_the_viborshiki
+		POK_imushestv_cenz
+		POK_vote_heart
+		POK_under_one_umbrella
+		POK_majoritar
+		
+		POK_power_president
+		POK_sderzhki_i_protivovesi
+	}
+	ideas = {
+		
+	}
+}
+
+pokayan_Putin = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = POK
+	}
+	enable = {
+		OR = {
+			has_country_flag = POK_Putin 
+			has_game_rule = {
+				rule = POK_ai_behavior
+				option = DR_OPTIONAL_POK_PUTIN
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		POK_the_viborshiki
+		POK_imushestv_cenz
+		POK_vote_heart
+		POK_under_one_umbrella
+		POK_majoritar
+		
+		POK_power_president
+		
+		POK_proyect_EVA
+		POK_lunar_Putin
+	}
+	ideas = {
+		
+	}
+}
+
+pokayan_Eltsin = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = POK
+	}
+	enable = {
+		OR = {
+			has_country_flag = POK_Eltsin 
+			has_game_rule = {
+				rule = POK_ai_behavior
+				option = DR_OPTIONAL_POK_YELTSIN
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		POK_the_viborshiki
+		POK_imushestv_cenz
+		POK_vote_heart
+		POK_under_one_umbrella
+		POK_majoritar
+		
+		POK_power_president
+		
+		POK_proyect_EVA
+		POK_Ya_prihozhu
+	}
+	ideas = {
+		
+	}
+}
+
+pokayan_US = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = POK
+	}
+	enable = {
+		OR = {
+			has_country_flag = POK_US 
+			has_game_rule = {
+				rule = POK_ai_behavior
+				option = DR_OPTIONAL_POK_PARLAMENT_UNITED_STATES
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		POK_european_standart
+		POK_anti_totalitarian_cenz
+		POK_vote_mind
+		POK_liberal_coalition
+		POK_proportional
+		
+		POK_power_parlament
+		
+		POK_radical_decommunisation
+		POK_Burn_soviet_books
+		POK_destroy_sov_buildings
+		POK_destroy_socrealism_art
+		POK_exploit_rusosovki
+		
+		POK_law_of_Novodvorskava
+		POK_destroy_soviet_military
+		
+		POK_united_states_of_russia
+	}
+	ideas = {
+		
+	}
+}
+
+pokayan_Razval = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = POK
+	}
+	enable = {
+		OR = {
+			has_country_flag = POK_Razval
+			has_game_rule = {
+				rule = POK_ai_behavior
+				option = DR_OPTIONAL_POK_PARLAMENT_RAZVAL
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		POK_european_standart
+		POK_anti_totalitarian_cenz
+		POK_vote_mind
+		POK_liberal_coalition
+		POK_proportional
+		
+		POK_power_parlament
+		
+		POK_radical_decommunisation
+		POK_Burn_soviet_books
+		POK_destroy_sov_buildings
+		POK_destroy_socrealism_art
+		POK_exploit_rusosovki
+		
+		POK_law_of_Novodvorskava
+		POK_destroy_soviet_military
+		
+		POK_parad_suverenitetov
+		POK_full_separation
+		POK_proshay_nemitaya_rossiya
+	}
+	ideas = {
+		
+	}
+}
