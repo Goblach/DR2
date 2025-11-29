@@ -23,6 +23,7 @@ pokayan_eqilibrium = {
 		POK_under_one_umbrella
 		POK_majoritar
 		POK_power_president
+		POK_otkaz_ot_chrezvich_polnomochiy
 		POK_sderzhki_i_protivovesi
 	}
 	ideas = {
@@ -54,6 +55,7 @@ pokayan_Putin = {
 		POK_under_one_umbrella
 		POK_majoritar
 		POK_power_president
+		POK_otkaz_ot_chrezvich_polnomochiy
 		POK_proyect_EVA
 		POK_lunar_Putin
 	}
@@ -86,6 +88,7 @@ pokayan_Eltsin = {
 		POK_under_one_umbrella
 		POK_majoritar
 		POK_power_president
+		POK_otkaz_ot_chrezvich_polnomochiy
 		POK_proyect_EVA
 		POK_Ya_prihozhu
 	}
@@ -118,15 +121,7 @@ pokayan_US = {
 		POK_liberal_coalition
 		POK_proportional
 		POK_power_parlament
-		POK_radical_decommunisation
-		POK_Burn_soviet_books
-		POK_destroy_sov_buildings
-		POK_destroy_socrealism_art
-		POK_exploit_rusosovki
-		
-		POK_law_of_Novodvorskava
-		POK_destroy_soviet_military
-		
+		POK_new_elections
 		POK_united_states_of_russia
 	}
 	ideas = {
@@ -158,6 +153,7 @@ pokayan_Razval = {
 		POK_liberal_coalition
 		POK_proportional
 		POK_power_parlament
+		POK_new_elections
 		POK_radical_decommunisation
 		POK_Burn_soviet_books
 		POK_destroy_sov_buildings
