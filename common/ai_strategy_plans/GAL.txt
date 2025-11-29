@@ -1,0 +1,106 @@
+
+neutral_Lukin = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = GAL
+	}
+	enable = {
+		OR = {
+			has_country_flag = GAL_Neutral_Lukin 
+			has_game_rule = {
+				rule = GAL_ai_behavior
+				option = DR_OPTIONAL_GAL_NEUTRAL_LUKIN
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		GAL_cowboyi
+	}
+	ideas = {
+		
+	}
+}
+
+left_Pusnoy = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = GAL
+	}
+	enable = {
+		OR = {
+			has_country_flag = GAL_left_Pusnoy
+			has_game_rule = {
+				rule = GAL_ai_behavior
+				option = DR_OPTIONAL_GAL_LEFT_PUSNOY
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		GAL_mobilizaciya_nauchnih_sotrudnikov
+		GAL_pochemy_socialism
+	}
+	ideas = {
+		
+	}
+}
+
+centre_Pusnoy = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = GAL
+	}
+	enable = {
+		OR = {
+			has_country_flag = GAL_centre_Pusnoy
+			has_game_rule = {
+				rule = GAL_ai_behavior
+				option = DR_OPTIONAL_GAL_CENTRE_PUSNOY
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		GAL_mobilizaciya_nauchnih_sotrudnikov
+		GAL_otkaz_ot_radikalisma
+	}
+	ideas = {
+		
+	}
+}
+
+right_Pusnoy = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = GAL
+	}
+	enable = {
+		OR = {
+			has_country_flag = GAL_right_Pusnoy
+			has_game_rule = {
+				rule = GAL_ai_behavior
+				option = DR_OPTIONAL_GAL_RIGHT_PUSNOYS
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		GAL_mobilizaciya_nauchnih_sotrudnikov
+		GAL_pisma_Saveleva
+		GAL_Deb
+		GAL_Rogozin
+		GAL_Panchin
+	}
+	ideas = {
+		
+	}
+}

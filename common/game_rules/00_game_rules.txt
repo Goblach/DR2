@@ -551,3 +551,37 @@ POK_ai_behavior = {						#Настройки_Великой_Покаянии
 	}
 }
 
+GAL_ai_behavior = {						#Новосибирск
+	name = "GAL_PATH"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DR_DEFAULT
+		text = "DR_RULE_OPTION_DEFAULT"
+		desc = "DR_RULE_OPTION_DEFAULT_AI_DESC"
+		allow_achievements = yes							
+	}
+	option = {												
+		name = DR_OPTIONAL_GAL_NEUTRAL_LUKIN
+		text = "RULE_OPTION_OPTIONAL_GAL_NEUTRAL_LUKIN"
+		desc = "RULE_OPTION_OPTIONAL_GAL_NEUTRAL_LUKIN_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {												
+		name = DR_OPTIONAL_GAL_LEFT_PUSNOY
+		text = "RULE_OPTION_OPTIONAL_GAL_LEFT_PUSNOY"
+		desc = "RULE_OPTION_OPTIONAL_GAL_LEFT_PUSNOY_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {												
+		name = DR_OPTIONAL_GAL_CENTRE_PUSNOY
+		text = "RULE_OPTION_OPTIONAL_GAL_CENTRE_PUSNOY"
+		desc = "RULE_OPTION_OPTIONAL_GAL_CENTRE_PUSNOY_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {												
+		name = DR_OPTIONAL_GAL_RIGHT_PUSNOY
+		text = "RULE_OPTION_OPTIONAL_GAL_RIGHT_PUSNOY"
+		desc = "RULE_OPTION_OPTIONAL_GAL_RIGHT_PUSNOY_AI_DESC"
+		allow_achievements = yes
+	}
+}

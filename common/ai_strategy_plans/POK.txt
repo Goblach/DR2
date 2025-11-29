@@ -23,6 +23,7 @@ pokayan_eqilibrium = {
 		POK_under_one_umbrella
 		POK_majoritar
 		POK_power_president
+		POK_strong_hand_of_liberalism
 		POK_otkaz_ot_chrezvich_polnomochiy
 		POK_sderzhki_i_protivovesi
 	}
@@ -55,6 +56,7 @@ pokayan_Putin = {
 		POK_under_one_umbrella
 		POK_majoritar
 		POK_power_president
+		POK_strong_hand_of_liberalism
 		POK_otkaz_ot_chrezvich_polnomochiy
 		POK_proyect_EVA
 		POK_lunar_Putin
@@ -88,6 +90,7 @@ pokayan_Eltsin = {
 		POK_under_one_umbrella
 		POK_majoritar
 		POK_power_president
+		POK_strong_hand_of_liberalism
 		POK_otkaz_ot_chrezvich_polnomochiy
 		POK_proyect_EVA
 		POK_Ya_prihozhu
@@ -115,7 +118,7 @@ pokayan_US = {
 	}
 
 	ai_national_focuses = {
-		POK_european_standart
+		POK_the_viborshiki
 		POK_anti_totalitarian_cenz
 		POK_vote_mind
 		POK_liberal_coalition
