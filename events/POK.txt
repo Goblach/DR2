@@ -1411,10 +1411,26 @@ country_event = {
 	option = {
 	name = POK.30.a
     set_country_flag = lunar_option
+	ai_chance = {
+			base = 50
+			modifier = {
+				factor = 0
+				NOT = { has_game_rule = { rule = DR_AI_BEHAVIOR_RW_POK option = DR_DEFAULT } }
+				NOT = { has_game_rule = { rule = DR_AI_BEHAVIOR_RW_POK option = DR_OPTIONAL_POK_YELTSIN } }
+			}
+		}
 	}
 	option = {
 	name = POK.30.b
     set_country_flag = eltsin_option
+	ai_chance = {
+			base = 50
+			modifier = {
+				factor = 0
+				NOT = { has_game_rule = { rule = DR_AI_BEHAVIOR_RW_POK option = DR_DEFAULT } }
+				NOT = { has_game_rule = { rule = DR_AI_BEHAVIOR_RW_POK option = DR_OPTIONAL_POK_PUTIN } }
+			}
+		}
 	}
 }
 country_event = {
