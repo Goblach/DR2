@@ -22,7 +22,22 @@ characters={
 			logistics_skill = 2
 			legacy_id = 0
 		}     		
-	}	
+	}
+	TUB_Nalivkin = {
+		name = "Виталий Наливкин"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TUB/Nalivkin.dds"
+			}
+		}
+		country_leader = {
+		    ideology = conservatism
+	        expire = "1999.1.1"
+		    id=-1
+			traits = {
+			
+			}
+	    }	
 	TUB_Chekist = {
 		name = "Чекист Вопреки"
 		portraits = {

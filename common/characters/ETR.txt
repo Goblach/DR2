@@ -1,0 +1,37 @@
+characters={
+	ETR_Zadornov = {
+		name = "Задор-Ра"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETR/Zadornov.dds"
+			}
+		}
+
+		country_leader = {
+			traits = { Syn_Peruna }
+			desc = ""
+			ideology = despotism
+			expire = "3000.1.1"
+			id = -1
+		}
+	}
+	ETR_Andrboll = {
+		name = "Андрей «Андрболл» Шаров"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ETR/Andrboll.dds"
+				small = 
+			}
+		}
+
+		corps_commander = {
+			traits = { camouflage_expert }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 0
+		}
+	}
+}

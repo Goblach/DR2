@@ -10,6 +10,9 @@ set_technology = {
 	basic_train = 1
 }
 
+recruit_character = RES_Soloviow
+recruit_character = RES_Anchovy
+
 add_ideas = {
 limited_conscription
 low_economic_mobilisation
@@ -24,14 +27,3 @@ set_politics = {
 }
 
 set_convoys = 40
-
-create_country_leader = {
-	name = "Владимир Соловьев"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Duche_Solovew.dds"
-	expire = "1999.1.1"
-	ideology = fascism_ideology
-	traits = {
-		Duche
-	}
-}

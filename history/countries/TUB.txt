@@ -28,6 +28,7 @@ set_technology = {
 
 recruit_character = TUB_Tubus
 recruit_character = TUB_Chekist
+recruit_character = TUB_Nalivkin
 
 add_ideas = {
 TUB_iditki_mashinistki

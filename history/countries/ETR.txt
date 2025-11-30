@@ -10,6 +10,9 @@ set_technology = {
 	basic_train = 1
 }
 
+recruit_character = ETR_Zadornov
+recruit_character = ETR_Andrboll
+
 add_ideas = {
 limited_conscription
 low_economic_mobilisation
@@ -25,13 +28,3 @@ set_politics = {
 
 set_convoys = 40
 
-create_country_leader = {
-	name = "Задор-Ра"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Zadornov.dds"
-	expire = "1999.1.1"
-	ideology = despotism
-	traits = {
-		Syn_Peruna
-	}
-}
