@@ -1411,10 +1411,26 @@ country_event = {
 	option = {
 	name = POK.30.a
     set_country_flag = lunar_option
+	ai_chance = {
+			base = 50
+			modifier = {
+				factor = 0
+				NOT = { has_game_rule = { rule = DR_AI_BEHAVIOR_RW_POK option = DR_DEFAULT } }
+				NOT = { has_game_rule = { rule = DR_AI_BEHAVIOR_RW_POK option = DR_OPTIONAL_POK_YELTSIN } }
+			}
+		}
 	}
 	option = {
 	name = POK.30.b
     set_country_flag = eltsin_option
+	ai_chance = {
+			base = 50
+			modifier = {
+				factor = 0
+				NOT = { has_game_rule = { rule = DR_AI_BEHAVIOR_RW_POK option = DR_DEFAULT } }
+				NOT = { has_game_rule = { rule = DR_AI_BEHAVIOR_RW_POK option = DR_OPTIONAL_POK_PUTIN } }
+			}
+		}
 	}
 }
 country_event = {
@@ -3263,11 +3279,11 @@ country_event = {
 		name = POK.55.a
 		add_ideas = POK_baron_sibirskiy
 	    set_cosmetic_tag = POK_mon
-		add_popularity = { ideology = neutrality popularity = 0.1 }
+		add_popularity = { ideology = neutrality popularity = 0.15 }
 		hidden_effect = {
 		if = {
 		limit = {
-					 ENG = exists
+					 UKE = exists
 					
 				}
 				 POK = {country_event = POK.56}
@@ -3276,7 +3292,7 @@ country_event = {
 	}
 	option = {
 		name = POK.55.b
-		add_popularity = { ideology = democratic popularity = 0.1 }
+		add_popularity = { ideology = democratic popularity = 0.15 }
 	}
 }
 country_event = { 
@@ -3292,22 +3308,13 @@ country_event = {
 		add_equipment_to_stockpile = {
         type = infantry_equipment_1
         amount = 500
-		producer = ENG
+		producer = UKE
 
     }
-		if = {
-		limit = {
-					 ENG = exists
-					
-				}
-				add_ideas = POK_brirus
-				ENG = {add_ideas = POK_brirus1
-			set_autonomy = {
-target = POK
-autonomous_state = autonomy_cryptocolony
-}
-				}
-		}
+	add_ideas = POK_brirus
+	
+	UKE = { add_ideas = POK_brirus1 }
+	
 	}
 }
 country_event = { 
@@ -3320,5 +3327,41 @@ country_event = {
 	
 	option = {
 		name = POK.57.a
+	}
+}
+
+country_event = { 
+	id = POK.58
+        title = POK.58.t
+        desc = POK.58.d
+	picture = GFX_report_event_dkr_solzh_golova
+
+fire_only_once = yes
+
+trigger = {
+		tag = POK
+		POK = {
+		owns_state = 246
+		owns_state = 195
+		owns_state = 213
+		owns_state = 214
+		has_idea = POK_brirus
+		}
+		UKE = exists
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = POK.58.a
+				UKE = {
+			set_autonomy = {
+target = POK
+autonomous_state = autonomy_cryptocolony
+}
+				}
+		
 	}
 }

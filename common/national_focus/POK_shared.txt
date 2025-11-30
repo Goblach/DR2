@@ -1095,6 +1095,7 @@ country_event = POK.30
 		}
         completion_reward = {
             add_political_power = 75
+			set_party_name = { ideology = democratic long_name = POK_Eltsin_party_long name = POK_Eltsin_party }
             add_popularity = {
                 ideology = fascism
                 popularity = 0.15
@@ -1139,6 +1140,7 @@ country_event = POK.30
 		}
 		completion_reward = {
             add_political_power = 75
+			set_party_name = { ideology = democratic long_name = POK_Putin_party_long name = POK_Putin_party }
             add_ideas = POK_pod_dlanyu_Luny
             add_corps_commander_role = {
 			character = POK_Zolotov
