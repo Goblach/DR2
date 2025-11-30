@@ -1659,7 +1659,7 @@ country_event = { id = POK.36 }
 		x = 6
 		y = 14
         available = {
-			has_war = no
+			has_completed_focus = POK_end_civil_conflict
 		}
 		completion_reward = {
             remove_country_leader_trait = russkiy_Pinochet
@@ -4026,11 +4026,11 @@ completion_reward = {
 		prerequisite = {
 			focus = POK_lyudi_s_horochimi_saces
 		}
+		available = {
+			has_completed_focus = POK_end_civil_conflict
+		}
 		x = 33
 		y = 15
-		available = {
-			has_war = no
-		}
 completion_reward = {
 			add_political_power = 100
 			add_stability = 0.1
