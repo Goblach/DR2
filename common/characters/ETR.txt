@@ -25,7 +25,7 @@ characters={
 		}
 
 		corps_commander = {
-			traits = { camouflage_expert }
+			traits = { camouflage_expert ranger }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
