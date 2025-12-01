@@ -3749,7 +3749,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			remove_ideas = GAL_sibgektar
+			add_ideas = GAL_sibgektar
 			580 = {
 				if = {
 					limit = {
