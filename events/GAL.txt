@@ -1147,7 +1147,6 @@ country_event = {
 	
 	option = {
 	name = GAL.44.a
-	set_cosmetic_tag = GAL_Lain
 		add_ideas = GAL_lena
 	}
 }

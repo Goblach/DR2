@@ -2032,6 +2032,7 @@ focus_tree = {
 				popularity = 0.1
 			}
 			set_politics = { ruling_party = metacommy }
+			set_cosmetic_tag = GAL_Lain
 			set_party_name = {
 				ideology = metacommy
 				long_name = GAL_metacommy_kybernetika_vernadsry_long
