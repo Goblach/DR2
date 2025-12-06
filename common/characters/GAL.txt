@@ -34,6 +34,23 @@ characters={
 		}		
 	}
 
+	GAL_Vnuk_Elkina = {
+		name = "Внук Елькина"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/GAL/Vnuk_Elkina.dds"
+			}
+		}
+
+        country_leader = {
+			ideology = postironism
+			expire = "1999.3.1.1"
+			id = -1
+		}  	
+	}
+	
 	GAL_lukin = {
 		name = "Павел Лукин"
 
