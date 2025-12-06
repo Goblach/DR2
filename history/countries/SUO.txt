@@ -11,9 +11,12 @@ set_technology = {
 }
 
 
+recruit_character = SUO_Mannergeym
+recruit_character = SUO_Sam_Lake
 
 set_popularities = {
-	fascism = 100
+	fascism = 70
+	democratic = 30
 }
 set_politics = {
 	ruling_party = fascism
@@ -21,14 +24,3 @@ set_politics = {
 }
 
 set_convoys = 40
-
-create_country_leader = {
-	name = "Карл Густав Маннергейм"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "NegrMannergeim.dds"
-	expire = "1999.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}

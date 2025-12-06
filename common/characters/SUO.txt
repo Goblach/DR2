@@ -1,0 +1,35 @@
+characters={
+	SUO_Mannergeym = {
+		name = "Карл Густав Маннергейм"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SUO/NegrMannergeim.dds"
+			}
+		}
+
+		country_leader = {
+			traits = {  }
+			desc = ""
+			ideology = fascism_ideology
+			expire = "3000.1.1"
+			id = -1
+		}
+	}
+	SUO_Sam_Lake = {
+		name = "Сэм Лейк"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SUO/Sam_Lake.dds"
+				small = 
+			}
+		}
+
+		country_leader = {
+			traits = {  }
+			desc = ""
+			ideology = liberalism
+			expire = "3000.1.1"
+			id = -1
+		}
+	}
+}
