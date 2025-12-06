@@ -10,7 +10,7 @@ characters={
 		}
 
         country_leader = {
-    		desc = "POLITICS_POKAYAN_DESC"
+    		desc = POLITICS_POKAYAN_DESC
 			ideology = democratura
 			traits = {
 	         	Otec_russkoy_democracy
@@ -40,7 +40,7 @@ characters={
 		}
 
         country_leader = {
-    		desc = "POLITICS_BUKIN_DESC"
+    		desc = POLITICS_BUKIN_DESC
 			ideology = gachi
 			traits = {
 	         	ideological_crusader
@@ -65,7 +65,7 @@ characters={
 		}
 
         country_leader = {
-    		desc = "POLITICS_SHWARANSK_DESC"
+    		desc = POLITICS_SHWARANSK_DESC
 			ideology = fourth_floor
 			traits = {
 	         	Ljesharanskiy
@@ -104,7 +104,7 @@ characters={
 		}
 
         country_leader = {
-    		desc = "POLITICS_ROMANOVA_DESC"
+    		desc = POLITICS_ROMANOVA_DESC
 			ideology = oligarchism
 			traits = {
 	         	popular_queen

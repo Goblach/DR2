@@ -1504,6 +1504,7 @@ leader_traits = {
 		production_factory_max_efficiency_factor = 0.05
 	}
 	spartanist = {
+		sprite = 5
 		random = no
 		army_org_factor = 0.1
 		army_morale_factor = 0.05
@@ -1563,7 +1564,6 @@ leader_traits = {
 		}
 	}
 	enginer_mason = {
-		sprite = 10
 		random = no
 		production_speed_buildings_factor = 0.15
 		ai_will_do = {
@@ -1571,7 +1571,6 @@ leader_traits = {
 		}
 	}
 	experimentator = {
-		sprite = 10
 		random = no
 		special_project_speed_factor = 0.15
 		production_speed_facility_factor = 0.3
@@ -1579,6 +1578,15 @@ leader_traits = {
 			factor = 2
 		}
 	}
+	specialist_po_nychkam = {
+		sprite = 5
+		random = no
+		supply_consumption_factor = -0.1
+		out_of_supply_factor = -0.15
+		ai_will_do = {
+			factor = 2
+		}
+	}	
 	###UKRAINA ZELYA###
 	
 	pig_master = {
@@ -1606,5 +1614,4 @@ leader_traits = {
 		army_defence_factor = 0.1
 	}
 	
-	
-	}
+}

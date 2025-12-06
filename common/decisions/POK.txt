@@ -23,7 +23,7 @@ POK_prepar_balance_of_power_category = {
 			political_power_factor = -0.1
 		}
 		ai_will_do = {
-			base = 100
+			base = 0
 		}
 		complete_effect = {
 			add_power_balance_value = {
@@ -51,6 +51,9 @@ POK_prepar_balance_of_power_category = {
 		modifier = {
 			stability_weekly = -0.01
 			political_power_factor = -0.1
+		}
+		ai_will_do = {
+			base = 0
 		}
 		complete_effect = {
 			add_power_balance_value = {

@@ -10,6 +10,18 @@ peace_ai_desires = {
 		}
 		ai_desire = 100
 	}
+	
+	take_states_own_claims = {
+		peace_action_type = { take_states }
+		enable = {
+			tag = ROOT.FROM
+			ROOT.FROM.FROM.FROM = {
+				is_claimed_by = ROOT.FROM
+				NOT = { is_core_of = ROOT.FROM }
+			}
+		}
+		ai_desire = 60
+	}
 
 	not_at_war_with_owner = {
 		peace_action_type = { take_states liberate puppet force_government }

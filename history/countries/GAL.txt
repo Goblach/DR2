@@ -35,6 +35,7 @@ recruit_character = GAL_oso
 recruit_character = GAL_oso_land
 recruit_character = GAL_oso_air
 recruit_character = GAL_oso_nuclear
+recruit_character = GAL_Vnuk_Elkina
 
 add_ideas = {
 }

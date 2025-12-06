@@ -368,10 +368,9 @@ country_event = {
 	trigger = {
 		tag = GAL
 		has_completed_focus = GAL_Boyarshinov_3
-		is_special_project_completed = sp:sp_nuclear_bomb
 	}
 	
-	mean_time_to_happen = { months = 1 }
+	mean_time_to_happen = { months = 6 }
 	fire_only_once = yes
 	
 	option = {
@@ -880,12 +879,12 @@ country_event = {
 		}
 		add_corps_commander_role = {
 			character = GAL_oso
-			traits = { organizer skilled_staffer }
-			skill = 5
-			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 5
+			traits = { trait_GAL_warbrain organizer }
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
 			legacy_id = -1
 		}
 		remove_ideas = GAL_sovet_spor
@@ -1084,7 +1083,7 @@ country_event = {
 		add_ideas = GAL_odealo
 	}
 }
-#Борьба за власть
+#Коалиционное правительство 
 country_event = {
 	id = GAL.41
 	title = GAL.41.t
@@ -1148,11 +1147,10 @@ country_event = {
 	
 	option = {
 	name = GAL.44.a
-	set_cosmetic_tag = GAL_Lain
 		add_ideas = GAL_lena
 	}
 }
-
+#Ну чё с письмами то?
 country_event = {
 	id = GAL.45
 	title = GAL.45.t
