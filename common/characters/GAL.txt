@@ -355,9 +355,30 @@ characters={
 	GAL_Klyaner = {
 		name = "Иисак Кляйнер"
 		portraits = {
+			army = {
+				small = "GFX_idea_GAL_Klyaner"
+				large = "gfx/leaders/GAL/Klyaner.dds"				
+			}
 			civilian = {
 				large = "gfx/leaders/GAL/Klyaner.dds"	
 			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GAL_Klyaner
+			ledger = army 
+			desc = GAL_Klyaner_desc
+			allowed = {
+				original_tag = GAL
+			}
+			traits = {
+				specialist_po_nychkam
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1
+			}
+
 		}
 		scientist = {
 			traits = { scientist_trait_nuclear_power_expert scientist_trait_bright  }

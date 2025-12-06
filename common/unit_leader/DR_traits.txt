@@ -114,5 +114,24 @@ leader_traits = {
 			factor = 0
 		}
 	}
+	
+	trait_GAL_warbrain = { 
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {
+			army_attack_factor = 0.1
+			army_defence_factor = 0.1
+			promote_cost_factor = 10.0
+			max_commander_army_size = 30
+		}
+		allowed = {
+			FROM = { original_tag = GAL }
+		}
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
 }
 
