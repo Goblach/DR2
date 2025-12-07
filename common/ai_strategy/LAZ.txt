@@ -218,3 +218,25 @@ LAZ_anti_armor = {
 		value = 5
 	}
 }
+
+LAZ_send_volunteers_to_donbass = {
+	allowed = {
+		original_tag = LAZ
+	}
+	enable = {
+		DON = { has_war_with = UKR }
+		country_exists = DON
+	}
+
+	abort = {
+		NOT = {
+			DON = { has_war_with = UKR }
+		}
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "DON"
+		value = 999
+	}
+}
