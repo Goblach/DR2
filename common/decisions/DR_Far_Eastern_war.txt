@@ -21,10 +21,6 @@ DR_form_russian_far_east_state_decisions_category = {
 			controls_state = 409
 			controls_state = 655
 			controls_state = 537
-			controls_state = 566
-			controls_state = 564
-			controls_state = 563
-			controls_state = 565
 			if = {
 				limit = {
 					tag = DOT
@@ -102,6 +98,7 @@ DR_form_russian_far_east_state_decisions_category = {
 			}
 		}
 		cost = 0
+		days_remove = 125
 		OR = {
 			tag = DOT
 			tag = KOL

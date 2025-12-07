@@ -8,6 +8,7 @@ DR_form_russian_far_east_state_decisions_category = {
 		is_puppet = no
 		is_subject = no
 	}
+	priority = 100
 	visible = {
 		NOT = { has_country_flag = DR_DF_unider_cf }
 		OR = {
