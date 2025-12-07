@@ -336,7 +336,7 @@ characters={
 	
 		
 	GAL_Kristina = {
-		name = "Кристина Макисовна"
+		name = "Кристина Макисова"
 		portraits = {
 			civilian = {
 				small = "GFX_idea_GAL_Kristina"
