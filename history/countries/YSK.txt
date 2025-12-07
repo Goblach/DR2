@@ -42,7 +42,7 @@ recruit_character = YSK_Goga_Romanov
 
 recruit_character = YSK_rus_sobranie
 
-recruit_character = YSK_Alexsey_Zhuravlev
+recruit_character = YSK_Aleksander_Zhuravlev
 recruit_character = YSK_Leonid_Reshetnikov
 
 recruit_character = YSK_Victor_Afanasev
