@@ -59,7 +59,11 @@ declare_war_on = {
 }
 
 set_popularities = {
-	vmestolev = 100
+	vmestolev = 51
+	metacommy = 14
+	anarhostalinism = 12
+	fascism = 1
+	democratic = 22
 }
 set_politics = {
 	ruling_party = vmestolev
