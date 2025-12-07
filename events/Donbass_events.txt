@@ -15,13 +15,6 @@ country_event = { #По_традиции_первый_ивент_это_разв
 			factor = 1
 		}
 	}
-	option = {
-		name = donbass.0.b
-		LAZ = { remove_mission = LAZ_razval_mission } #Лазарет_не_разваливается
-		ai_will_do = {
-			factor = 0
-		}
-	}
 }
 country_event = { #Промышленное_планирование
 
