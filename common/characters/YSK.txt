@@ -129,12 +129,12 @@ characters={
         }
     }
 	
-	YSK_Alexsey_Zhuravlev = {
-		name = "Алексей Журавлёв"
+	YSK_Aleksander_Zhuravlev = {
+		name = "Александр Журавлёв"
 		portraits = {
 			army = {
-				large = "gfx/leaders/YSK/Alexsey_Zhuravlev.dds"
-				small= "GFX_idea_YSK_RNG"
+				large = "gfx/leaders/YSK/Aleksander_Zhuravlev.dds"
+				small= "GFX_idea_YSK_Aleksander_Zhuravlev"
 			}
 		}
 		corps_commander = {
@@ -148,7 +148,7 @@ characters={
         }
 		advisor={
 			slot = high_command
-			idea_token = YSK_Gennadiy_Troshev
+			idea_token = YSK_Aleksander_Zhuravlev
 
 			allowed = {
 				original_tag = YSK
@@ -164,7 +164,7 @@ characters={
 		portraits = {
 			army = {
 				large = "gfx/leaders/YSK/Leonid_Reshetnikov.dds"
-				small= "GFX_idea_YSK_RNG"
+				small= "GFX_idea_YSK_Leonid_Reshetnikov"
 			}
 		}
 		advisor={
@@ -458,7 +458,7 @@ characters={
 		portraits = {
 			army = {
 				large = "gfx/leaders/YSK/Gennadiy_Troshev.dds"
-				small= "GFX_idea_YSK_RNG"
+				small= "GFX_idea_YSK_Gennadiy_Troshev"
 			}
 		}
 		corps_commander = {
@@ -488,7 +488,7 @@ characters={
 		portraits = {
 			army = {
 				large = "gfx/leaders/YSK/Eduard_Ulman.dds"
-				small= "GFX_idea_YSK_RNG"
+				small= "GFX_idea_YSK_Eduard_Ulman"
 			}
 		}
 		corps_commander = {
@@ -525,7 +525,7 @@ characters={
 		portraits = {
 			army = {
 				large = "gfx/leaders/YSK/Yuriy_Budanov.dds"
-				small= "GFX_idea_YSK_RNG"
+				small= "GFX_portrait_YSK_Yuriy_Budanov"
 			}
 		}
 		corps_commander = {
@@ -553,7 +553,7 @@ characters={
 		name = "Егор Холмогоров"
 		portraits = {
 			civilian = {
-				small = "GFX_idea_YSK_RNG"
+				small = "GFX_idea_YSK_Egor_Holmogorov"
 			}
 		}
 		advisor={
@@ -576,7 +576,7 @@ characters={
 		name = "Дмитрий Бастраков"
 		portraits = {
 			civilian = {
-				small = "GFX_idea_YSK_RNG"
+				small = "GFX_idea_YSK_Dmitriy_Bastrakov"
 			}
 		}
 		advisor={
@@ -600,7 +600,7 @@ characters={
 		name = "Сергей Григоров"
 		portraits = {
 			civilian = {
-				small = "GFX_idea_YSK_RNG"
+				small = "GFX_idea_YSK_Sergey_Grigorov"
 			}
 		}
 		advisor={
@@ -620,7 +620,7 @@ characters={
 		name = "Анатолий Карлин"
 		portraits = {
 			civilian = {
-				small = "GFX_idea_YSK_RNG"
+				small = "GFX_idea_YSK_Anatoliy_Carlin"
 			}
 		}
 		advisor={
@@ -640,7 +640,7 @@ characters={
 		name = "Григорий Баженов"
 		portraits = {
 			civilian = {
-				small = "GFX_idea_YSK_RNG"
+				small = "GFX_idea_YSK_Grigoriy_Bazhenov"
 			}
 		}
 		advisor={
@@ -660,7 +660,7 @@ characters={
 		name = "Никита Сафронов"
 		portraits = {
 			civilian = {
-				small = "GFX_idea_YSK_RNG"
+				small = "GFX_idea_YSK_Nikita_Safronov"
 			}
 		}
 		advisor={
@@ -684,7 +684,7 @@ characters={
 		name = "Василий «Ватоадмин» Тополев"
 		portraits = {
 			civilian = {
-				small = "GFX_idea_YSK_RNG"
+				small = "GFX_idea_YSK_Watoadmin"
 			}
 		}
 		advisor={
@@ -701,14 +701,14 @@ characters={
 					has_government = fascism
 				}           
 			}
-            traits = { industry_reformer }
+            traits = { egg_man }
 	    }
 	}
 	YSK_Pavel_Gnilorybov = {
 		name = "Павел Гнилорыбов"
 		portraits = {
 			civilian = {
-				small = "GFX_idea_YSK_RNG"
+				small = "GFX_idea_YSK_Pavel_Gnilorybov"
 			}
 		}
 		advisor={
@@ -732,7 +732,7 @@ characters={
 		name = "Константин Синюшин"
 		portraits = {
 			civilian = {
-				small = "GFX_idea_YSK_RNG"
+				small = "GFX_idea_YSK_Konstantin_Sinyushin"
 			}
 		}
 		advisor={
@@ -755,7 +755,7 @@ characters={
 		name = "Евгений Норин"
 		portraits = {
 			civilian = {
-				small = "GFX_idea_YSK_RNG"
+				small = "GFX_idea_YSK_Evgeniy_Noreen"
 			}
 		}
 		advisor={
@@ -776,11 +776,11 @@ characters={
 	    }
 	}
 	YSK_UncleDED = {
-		name = "UncleDED"
+		name = "Павел «UncleDED» Чистяков"
 		portraits = {
 			army = {
 				large = "gfx/leaders/YSK/UncleDED.dds"
-				small= "GFX_idea_YSK_RNG"
+				small= "GFX_idea_YSK_UncleDED"
 			}
 		}
 		corps_commander = {
@@ -793,14 +793,14 @@ characters={
 		legacy_id = -1
         }
 		advisor={
-			slot = high_command
+			slot = theorist
 			idea_token = YSK_UncleDED
 
 			allowed = {
 				original_tag = YSK
 			}
 			traits = {
-				army_infantry_1
+				military_theorist
 			}
 		}
     }

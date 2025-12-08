@@ -419,7 +419,7 @@ characters = {
                 large = "gfx/leaders/NOD/Podolyaka.dds"
 			}
 		}
-        corps_commander = {
+        field_marshal = {
 	    traits = { brilliant_strategist thorough_planner }
 	    skill = 7
     	attack_skill = 2
@@ -436,7 +436,7 @@ characters = {
 				original_tag = NOD
 				
 			}			
-			traits = { military_theorist }
+			traits = { military_theorist teoretic_symi }
 			ai_will_do = {
 				factor = 1
 			}

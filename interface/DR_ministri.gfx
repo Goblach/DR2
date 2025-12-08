@@ -883,6 +883,71 @@ spriteTypes = {
 		name = "GFX_portrait_ZHE_lucy"
 		texturefile = "gfx/interface/ideas/idea_ZHE_Lucy.dds"
 	}
+########################Барнаул########################
+	spriteType = {
+		name = "GFX_portrait_YSK_Yuriy_Budanov"
+		texturefile = "gfx/interface/ideas/idea_YSK_Yuriy_Budanov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Anatoliy_Carlin"
+		texturefile = "gfx/interface/ideas/idea_YSK_Anatoliy_Carlin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Konstantin_Sinyushin"
+		texturefile = "gfx/interface/ideas/idea_YSK_Konstantin_Sinyushin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Evgeniy_Noreen"
+		texturefile = "gfx/interface/ideas/idea_YSK_Evgeniy_Noreen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Pavel_Gnilorybov"
+		texturefile = "gfx/interface/ideas/idea_YSK_Pavel_Gnilorybov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Watoadmin"
+		texturefile = "gfx/interface/ideas/idea_YSK_Watoadmin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Nikita_Safronov"
+		texturefile = "gfx/interface/ideas/idea_YSK_Nikita_Safronov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Grigoriy_Bazhenov"
+		texturefile = "gfx/interface/ideas/idea_YSK_Grigoriy_Bazhenov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Sergey_Grigorov"
+		texturefile = "gfx/interface/ideas/idea_YSK_Sergey_Grigorov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Dmitriy_Bastrakov"
+		texturefile = "gfx/interface/ideas/idea_YSK_Dmitriy_Bastrakov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Egor_Holmogorov"
+		texturefile = "gfx/interface/ideas/idea_YSK_Egor_Holmogorov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Leonid_Reshetnikov"
+		texturefile = "gfx/interface/ideas/idea_YSK_Leonid_Reshetnikov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Aleksander_Zhuravlev"
+		texturefile = "gfx/interface/ideas/idea_YSK_Aleksander_Zhuravlev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_UncleDED"
+		texturefile = "gfx/interface/ideas/idea_YSK_UncleDED.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Eduard_Ulman"
+		texturefile = "gfx/interface/ideas/idea_YSK_Eduard_Ulman.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YSK_Gennadiy_Troshev"
+		texturefile = "gfx/interface/ideas/idea_YSK_Gennadiy_Troshev.dds"
+	}
 	#ВНИМАНИЕ-ПРИСУТСТВУЕТ-АНИМАЦИЯ
 	#spriteType = {
 	#	name = "GFX_POK_novodvorskaya_ap"
