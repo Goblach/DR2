@@ -657,7 +657,7 @@ characters={
 	    }
 	}
 	YSK_Nikita_Safronov = {
-		name = "Никита Сафронов"
+		name = "Микитко сын (двух) Алексеев"
 		portraits = {
 			civilian = {
 				small = "GFX_idea_YSK_Nikita_Safronov"
