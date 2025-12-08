@@ -1587,6 +1587,13 @@ leader_traits = {
 			factor = 2
 		}
 	}	
+	teoretic_symi = {
+		max_planning_factor = 0.25
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	
 	###UKRAINA ZELYA###
 	
 	pig_master = {
