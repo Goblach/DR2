@@ -37,7 +37,40 @@ characters={
 			traits = {
 			
 			}
+	    }
+	}
+	TUB_Vasiliy_Sadonin = {
+		name = "Василий Садонин"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TUB/Vasiliy_Sadonin.dds"
+			}
+		}
+		country_leader = {
+		    ideology = libertanian_trockyst
+	        expire = "1999.1.1"
+		    id=-1
+			traits = {
+			
+			}
 	    }	
+	}
+	TUB_Nikolay_Platoshkin = {
+		name = "Николай Платошкин"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TUB/Nikolay_Platoshkin.dds"
+			}
+		}
+		country_leader = {
+		    ideology = fourth_floor
+	        expire = "1999.1.1"
+		    id=-1
+			traits = {
+			
+			}
+	    }	
+	}
 	TUB_Chekist = {
 		name = "Чекист Вопреки"
 		portraits = {

@@ -168,6 +168,8 @@ ideologies = {
 			kybernetika_vernadsry = {
 			}
 			
+			fantom_socialism = {
+			}
 		}
 		
 		dynamic_faction_names = {
