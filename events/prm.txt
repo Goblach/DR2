@@ -118,6 +118,13 @@ country_event = { #Идеология социзма и дружба с пони
 	name = prm.5.a
 	add_political_power = 25
 	recruit_character = PRM_Olezhko
+	hidden_effect = {
+		set_country_leader_portrait = {
+				ideology = fascism
+				portrait = "gfx/leaders/PRM/Rosov_sozism.dds"
+			}	
+		set_cosmetic_tag = PRM_sozism			
+		}
 	}
 }
 
@@ -168,6 +175,12 @@ country_event = { #Росов косплеит нацдема
 	
 	option = {
 	name = prm.8.a
+	hidden_effect = {
+		set_country_leader_portrait = {
+				ideology = democratic
+				portrait = "gfx/leaders/PRM/Rosov_ratatuy.dds"
+			}				
+		}
 	}
 }
 country_event = { #росов не уходит с собрания партии до тех пор, пока оно не окупится и не отпускает никого
