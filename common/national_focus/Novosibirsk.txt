@@ -1969,7 +1969,6 @@ focus_tree = {
 			add_doctrine_cost_reduction = {
 				name = land_doc_bonus
 					cost_reduction = 0.5
-					uses = 2
 					category = land_doctrine
 			}
 			custom_effect_tooltip = available_theorist
@@ -3271,7 +3270,10 @@ focus_tree = {
 		y = 9
 		available = {
 			NOT = {
-				has_idea = GAL_sovet_spor
+				OR = {
+					has_idea = GAL_sovet_spor
+					has_completed_focus = GAL_osoznanie
+				}
 			}
 			GAL_scientist_cd_over = yes
 			if = {
@@ -3285,7 +3287,12 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			country_event = { id = GAL.24 }
+			if = {
+				limit = {
+					has_character = GAL_Panchin
+				}
+				country_event = { id = GAL.24 }
+			}
 			custom_effect_tooltip = {
 				localization_key = GER_ascension_of_character_focus_tt
 				CHARACTER = YSK_Dmitriy_Rogozin

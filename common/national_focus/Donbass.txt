@@ -931,6 +931,9 @@ focus_tree = {
 		}
 		available = {
 			country_exists = LAZ
+			LAZ = {
+				has_completed_focus = LAZ_pokusheniye_na_Kerbonavta
+			}
 		}
 		x = 14
 		y = 5
@@ -1578,7 +1581,7 @@ focus_tree = {
 		prerequisite = {
 			focus = DON_odessa
 		}
-		x = 17
+		x = 19
 		y = 11
 		completion_reward = {
 			set_technology = {
@@ -1629,7 +1632,7 @@ focus_tree = {
 				exists = no
 			}
 		}
-		x = 19
+		x = 17
 		y = 11
 		completion_reward = {
 			declare_war_on = {
@@ -1650,13 +1653,10 @@ focus_tree = {
 		icon = GFX_DON_goal_modernizatsia_flota
 		cost = 5.00
 		prerequisite = {
-			focus = DON_krimnash
-		}
-		prerequisite = {
 			focus = DON_zahvat_flota
 		}
-		x = 18
-		y = 12
+		x = 19
+		y = 13
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1.0
@@ -1678,13 +1678,10 @@ focus_tree = {
 		prerequisite = {
 			focus = DON_krimnash
 		}
-			prerequisite = {
-			focus = DON_novorosskoye_chudo
-		}
 		mutually_exclusive = {
 			focus = DON_dolgaya_doroga_domoy
 		}
-		x = 15
+		x = 18
 		y = 12
 		completion_reward = {
 			custom_effect_tooltip = DON_noviye_fokusi_tt
@@ -1699,9 +1696,6 @@ focus_tree = {
 		icon = GFX_DON_goal_dolgaya_doroga_domoy
 		cost = 3.00
 		prerequisite = {
-			focus = DON_novorosskoye_chudo
-		}
-		prerequisite = {
 			focus = DON_zapadnaya_ukraina
 		}
 		prerequisite = {
@@ -1714,7 +1708,7 @@ focus_tree = {
 			country_exists = LAZ
 			LAZ = { has_government = vmestolev }
 		}
-		x = 9
+		x = 14
 		y = 12
 		completion_reward = {
 			DON = {

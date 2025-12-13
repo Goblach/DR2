@@ -2619,6 +2619,7 @@ DR_reunite_russia_decisions_category = {
 		available = {
 			NOT = {
 				tag = DON
+				tag = LAZ
 			}
 			has_war = no 
 			is_neighbor_of = DON
