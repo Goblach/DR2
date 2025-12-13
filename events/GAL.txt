@@ -611,12 +611,12 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					has_government = metacommy
+					has_character = GAL_Panchin
 				}
-				country_event = { id = GAL_proekt.07 }
+				country_event = { id = GAL.25 }
 			}
 			else = { 
-				country_event = { id = GAL.25 }
+				country_event = { id = GAL_proekt.07 }
 			}
 		}
 	}

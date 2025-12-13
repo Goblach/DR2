@@ -3287,17 +3287,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			if = {
-				limit = {
-					has_character = GAL_Panchin
-				}
-				country_event = { id = GAL.24 }
-			}
-			else = {
-				hidden_effect = {
-					country_event = { id = GAL_proekt.07 }
-				}
-			}
+			country_event = { id = GAL.24 }
 			custom_effect_tooltip = {
 				localization_key = GER_ascension_of_character_focus_tt
 				CHARACTER = YSK_Dmitriy_Rogozin
