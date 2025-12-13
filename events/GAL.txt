@@ -368,6 +368,7 @@ country_event = {
 	trigger = {
 		tag = GAL
 		has_completed_focus = GAL_Boyarshinov_3
+		NOT = { has_completed_focus = GAL_osoznanie }
 	}
 	
 	mean_time_to_happen = { months = 6 }
