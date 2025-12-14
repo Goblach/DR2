@@ -1,0 +1,10 @@
+faction_template_Chumnoi_Pakt = {
+	name = Chumnoi_Pakt
+	icon = GFX_faction_logo_generic_14
+	manifest = faction_manifest_regional_expansionism
+
+	default_rules = {
+		manpower_contribution_high
+		change_leader_rule_never
+	}
+}

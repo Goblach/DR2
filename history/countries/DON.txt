@@ -47,6 +47,10 @@ set_politics = {
 
 set_convoys = 40
 
+send_embargo = UKR
+add_opinion_modifier = { target = UKR modifier = hostile_status }
+reverse_add_opinion_modifier = { target = UKR modifier = hostile_status }
+
 ### VARIANTS ###
 # 1936 Start #
 

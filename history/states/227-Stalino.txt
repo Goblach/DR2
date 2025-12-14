@@ -26,6 +26,7 @@ state={
 			502 1
 		}
 		add_core_of = DON
+		add_claim_by = UKR
 	}
 
 	provinces={

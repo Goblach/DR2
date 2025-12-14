@@ -115,7 +115,7 @@ set_autonomy = {
 	freedom_level = 0.5
 }
 
-create_faction = Chumnoi_Pakt
+create_faction_from_template = faction_template_Chumnoi_Pakt
 add_to_faction = LAZ
 add_to_faction = WHS
 add_to_faction = ARK

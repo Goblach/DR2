@@ -21,7 +21,7 @@ joining_rule_non_fascist = {
 		}
 		modifier = {
 			add = 1
-			has_government = communism
+			has_government = vmestolev
 		}
 	}
 	trigger = {
@@ -65,13 +65,13 @@ joining_rule_non_democratic = {
 joining_rule_non_communist = {
 	type = joining_rules
 	visible = {
-		NOT = { has_government = communism }
+		NOT = { has_government = vmestolev }
 	}
 	ai_will_do = {
 		base = 0
 		modifier = {
 			add = 1
-			NOT = { has_government = communism }
+			NOT = { has_government = vmestolev }
 		}
 		modifier = {
 			add = 1
@@ -105,7 +105,7 @@ joining_rule_non_communist = {
 	}
 	trigger = {
 		NOT = {
-			has_government = communism 
+			has_government = vmestolev 
 		}
 		IF = {
 			limit = { NOT = { has_rule = can_join_opposite_factions } }
@@ -167,10 +167,10 @@ joining_rule_communist_only = {
 		base = 0
 	}
 	available = {
-		has_government = communism
+		has_government = vmestolev
 	}
 	trigger = {
-		has_government = communism
+		has_government = vmestolev
 		IF = {
 			limit = { NOT = { has_rule = can_join_opposite_factions } }
 			has_government = FROM

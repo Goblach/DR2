@@ -61,29 +61,29 @@ dismissal_rule_ideology_not_democratic = {
 	}
 }
 
-dismissal_rule_ideology_not_communism = {
+dismissal_rule_ideology_not_vmestolev = {
 	type = dismissal_rules
-	visible = { has_government = communism }
+	visible = { has_government = vmestolev }
 	ai_will_do = {
 		base = 0
 	}
 
 	dismiss_member_trigger = {
 		NOT = {
-			has_government = communism 
+			has_government = vmestolev 
 		}
 	}
 }
 
 dismissal_rule_ideology_communist = {
 	type = dismissal_rules
-	visible = { NOT = { has_government = communism } }
+	visible = { NOT = { has_government = vmestolev } }
 	ai_will_do = {
 		base = 0
 	}
 
 	dismiss_member_trigger = {
-		has_government = communism
+		has_government = vmestolev
 	}
 }
 

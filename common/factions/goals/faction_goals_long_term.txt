@@ -534,10 +534,10 @@ faction_goal_the_atomic_race = {
 
 ### Ideology based
 
-# Defeat of Communism 
-faction_goal_defeat_of_communism = {
-	name = defeat_of_communism_goal_name
-	description = defeat_of_communism_goal_desc
+# Defeat of vmestolev 
+faction_goal_defeat_of_vmestolev = {
+	name = defeat_of_vmestolev_goal_name
+	description = defeat_of_vmestolev_goal_desc
 	group = FOCUS_FILTER_CONSOLIDATION
 	category = long_term
 	visible = {
@@ -547,7 +547,7 @@ faction_goal_defeat_of_communism = {
 				operators = {
 					faction_members
 					limit = {
-						has_government = communism
+						has_government = vmestolev
 					}
 				}
 				name = FACTION
@@ -578,7 +578,7 @@ faction_goal_defeat_of_communism = {
 		custom_effect_tooltip = ALL_FACTION_MEMBERS
 		every_faction_member = {
 			add_popularity = {
-				ideology = communism
+				ideology = vmestolev
 				popularity = -0.15
 			}
 			add_political_power = 100
@@ -694,7 +694,7 @@ faction_goal_defeat_of_anti_fascists = {
 		modifier = { 
 			add = 1 # If war with communists you probably hate them
 			any_enemy_country = {
-				has_government = communism
+				has_government = vmestolev
 			}
 		}
 	}
@@ -746,7 +746,7 @@ faction_goal_defeat_of_anti_communists = {
 		custom_effect_tooltip = ALL_FACTION_MEMBERS
 		every_faction_member = {
 			add_popularity = {
-				ideology = communism
+				ideology = vmestolev
 				popularity = 0.2
 			}
 			add_political_power = 100
@@ -757,7 +757,7 @@ faction_goal_defeat_of_anti_communists = {
 		modifier = { 
 			add = 1 # If war with communists you probably hate them
 			any_enemy_country = {
-				has_government = communism
+				has_government = vmestolev
 			}
 		}
 	}
@@ -775,7 +775,7 @@ faction_goal_the_red_tide = {
 	visible = {
 		FROM = {
 			is_major = yes
-			has_government = communism
+			has_government = vmestolev
 		}
 	}
 	completed = {
