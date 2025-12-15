@@ -1174,7 +1174,7 @@ country_event = {
 	id = GAL.46
 	title = GAL.46.t
 	desc = GAL.46.d
-	picture = GFX_report_event_dkr_push_dumaet
+	picture = GFX_report_event_dkr_lab
 	trigger = {
 		tag = GAL
 	}
@@ -1191,7 +1191,7 @@ country_event = {
 	id = GAL.47
 	title = GAL.47.t
 	desc = GAL.47.d
-	picture = GFX_report_event_dkr_push_dumaet
+	picture = GFX_report_event_dkr_dora
 	trigger = {
 		tag = GAL
 	}
@@ -1207,7 +1207,7 @@ country_event = {
 	id = GAL.48
 	title = GAL.48.t
 	desc = GAL.48.d
-	picture = GFX_report_event_dkr_push_dumaet
+	picture = GFX_report_event_dkr_znachyok_push
 	trigger = {
 		tag = GAL
 	}

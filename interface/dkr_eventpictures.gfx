@@ -756,4 +756,16 @@ spriteTypes = {
 		name = "GFX_news_event_konets_kelts"
 		texturefile = "gfx/event_pictures/news_event_konets_kelts.dds"
 	}
+		spriteType = {
+		name = "GFX_news_event_dkr_lab"
+		texturefile = "gfx/event_pictures/news_event_dkr_lab.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_dkr_dora"
+		texturefile = "gfx/event_pictures/news_event_dkr_dora.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_dkr_znachyok_push"
+		texturefile = "gfx/event_pictures/news_event_znachyok_push.dds"
+	}
 }
