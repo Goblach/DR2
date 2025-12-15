@@ -889,6 +889,7 @@ country_event = {
 			legacy_id = -1
 		}
 		remove_ideas = GAL_sovet_spor
+		country_event = { id = GAL.48 days = 40 }
 	}
 }
 #Разборки после экспедиции Пушного
@@ -1166,6 +1167,55 @@ country_event = {
 	option = {
 	name = GAL.45.a
 	add_political_power = 100
+	}
+}
+#Это на Куристину
+country_event = {
+	id = GAL.46
+	title = GAL.46.t
+	desc = GAL.46.d
+	picture = GFX_report_event_dkr_push_dumaet
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.46.a
+	add_political_power = 150
+	}
+}
+#Желепушечка
+country_event = {
+	id = GAL.47
+	title = GAL.47.t
+	desc = GAL.47.d
+	picture = GFX_report_event_dkr_push_dumaet
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.47.a
+	}
+}
+#Это финал нейтрала
+country_event = {
+	id = GAL.48
+	title = GAL.48.t
+	desc = GAL.48.d
+	picture = GFX_report_event_dkr_push_dumaet
+	trigger = {
+		tag = GAL
+	}
+	
+	is_triggered_only = yes	
+	
+	option = {
+	name = GAL.48.a
 	}
 }
  ###ПРОЕКТЫ УЧЕНЫХ###
