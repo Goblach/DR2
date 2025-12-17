@@ -1780,6 +1780,12 @@ focus_tree = {
 					level = 1
 				}
 			}
+			if = {
+				limit = {
+					has_completed_focus = GAL_otkaz_ot_radikalisma
+				}
+				country_event = { id = GAL.47 }
+			}
 		}
 	}
 	focus = {
@@ -2781,6 +2787,7 @@ focus_tree = {
 				logistics_skill = 1
 				legacy_id = -1
 			}
+			country_event = { id = GAL.46 }
 		}
 
 	}
