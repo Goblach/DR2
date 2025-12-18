@@ -243,7 +243,7 @@ characters={
 			}
 		}
 		advisor = {
-			cost = 100
+			cost = 50
 			slot = political_advisor
 			idea_token = GAL_Sokolov
 			allowed = {
@@ -491,7 +491,7 @@ characters={
 		portraits = {
 			army = {
 				small = "GFX_idea_GAL_Osonanie"
-				large = "gfx/leaders/GAL/Osoznanie_l.dds"				
+				large = "gfx/leaders/GAL/Osoznanie.dds"				
 			}
 		}		
 		scientist = {
@@ -509,7 +509,7 @@ characters={
 		portraits = {
 			army = {
 				small = "GFX_idea_GAL_Osonanie"
-				large = "gfx/leaders/GAL/Osoznanie_a.dds"				
+				large = "gfx/leaders/GAL/Osoznanie.dds"				
 			}
 		}		
 		scientist = {
@@ -527,7 +527,7 @@ characters={
 		portraits = {
 			army = {
 				small = "GFX_idea_GAL_Osonanie"
-				large = "gfx/leaders/GAL/Osoznanie_n.dds"				
+				large = "gfx/leaders/GAL/Osoznanie.dds"				
 			}
 		}		
 		scientist = {

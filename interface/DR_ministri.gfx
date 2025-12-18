@@ -948,6 +948,10 @@ spriteTypes = {
 		name = "GFX_idea_YSK_Gennadiy_Troshev"
 		texturefile = "gfx/interface/ideas/idea_YSK_Gennadiy_Troshev.dds"
 	}
+		spriteType = {
+		name = "GFX_idea_GAL_Osonanie"
+		texturefile = "gfx/interface/goals/idea_GAL_Osonanie.dds"
+	}
 	#ВНИМАНИЕ-ПРИСУТСТВУЕТ-АНИМАЦИЯ
 	#spriteType = {
 	#	name = "GFX_POK_novodvorskaya_ap"

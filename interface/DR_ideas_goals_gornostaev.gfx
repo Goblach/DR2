@@ -1281,6 +1281,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_MRD_vlivania_v_proizvodstvo_radioaktivnyh.dds"	
 	}
 	
+	SpriteType = {
+		name = "GFX_idea_GAL_sinofobia" 
+		texturefile = "gfx/interface/ideas/idea_GAL_sinofobia.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GAL_new_galileo_idea" 
+		texturefile = "gfx/interface/ideas/idea_GAL_new_galileo_idea.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GAL_military_nauka" 
+		texturefile = "gfx/interface/ideas/idea_GAL_military_nauka.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GAL_stroyki_za_dolgi" 
+		texturefile = "gfx/interface/ideas/idea_GAL_stroyki_za_dolgi.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GAL_stroyki_za_premiyu" 
+		texturefile = "gfx/interface/ideas/idea_GAL_stroyki_za_premiyu.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GAL_students_in_army" 
+		texturefile = "gfx/interface/ideas/idea_GAL_students_in_army.dds"	
+	}
+	
 	##########################
 	####Национальные_фокусы###
 	##########################
