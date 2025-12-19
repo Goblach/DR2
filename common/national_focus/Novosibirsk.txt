@@ -1459,8 +1459,10 @@ focus_tree = {
 		            infantry = { x = 1 y = 0 }
 		            infantry = { x = 1 y = 1 }
 		            infantry = { x = 1 y = 2 }
-		            artillery_brigade = { x = 2 y = 0 }
-		            artillery_brigade = { x = 2 y = 1 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+		            artillery_brigade = { x = 3 y = 0 }
+		            artillery_brigade = { x = 3 y = 1 }
 	                }
 					support = {
 					recon = { x = 0 y = 0 }
@@ -1837,7 +1839,7 @@ focus_tree = {
 	focus = {
 		id = GAL_rashirit_TransSib
 		icon = GFX_GAL_rashirit_TransSib
-		cost = 3.00
+		cost = 2.00
 		prerequisite = {
 			focus = GAL_ey_uhnem
 			focus = GAL_ne_nado_napragat
@@ -2057,13 +2059,6 @@ focus_tree = {
 			hidden_effect = {
 				GAL_Panchin = {
 					unit_leader_event = { id = GAL.6 days = 15 }
-				}
-				every_possible_country = {
-					limit = { has_character = KUR_vasserman }
-					random_character = {
-						limit = { is_character = KUR_vasserman }
-						set_nationality = GAL
-					}
 				}
 			}
 		}
@@ -3668,9 +3663,6 @@ focus_tree = {
 		id = GAL_Savvateev
 		icon = GFX_GAL_Savvateev
 		cost = 2
-		available = {
-			has_character = GAL_Savvateev
-		}
 		prerequisite = {
 			focus = GAL_experimenty
 		}

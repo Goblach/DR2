@@ -482,6 +482,9 @@ characters={
 				small = "GFX_idea_GAL_Osoznanie"
 				large = "gfx/leaders/GAL/Osoznanie.dds"				
 			}
+			civilian = {
+				small = "GFX_idea_GAL_Osoznanie"
+			}
 		}		
 	}
 	
@@ -489,9 +492,8 @@ characters={
 		name = "О-Сознание"
 		
 		portraits = {
-			army = {
-				small = "GFX_idea_GAL_Osonanie"
-				large = "gfx/leaders/GAL/Osoznanie.dds"				
+			civilian = {
+				large = "gfx/leaders/GAL/Osoznanie.dds"	
 			}
 		}		
 		scientist = {
@@ -499,7 +501,8 @@ characters={
 			skills = {
 				specialization_land = 3
 			}
-			visible = { has_completed_focus = GAL_osoznanie  }
+			
+			visible = { owner = { has_completed_focus = GAL_osoznanie } }
 		}	
 	}
 	
@@ -507,9 +510,8 @@ characters={
 		name = "О-Сознание"
 		
 		portraits = {
-			army = {
-				small = "GFX_idea_GAL_Osonanie"
-				large = "gfx/leaders/GAL/Osoznanie.dds"				
+			civilian = {
+				large = "gfx/leaders/GAL/Osoznanie.dds"	
 			}
 		}		
 		scientist = {
@@ -517,7 +519,7 @@ characters={
 			skills = {
 				specialization_air = 3
 			}
-			visible = { has_completed_focus = GAL_osoznanie  }
+			visible = { owner = { has_completed_focus = GAL_osoznanie } }
 		}	
 	}
 	
@@ -525,9 +527,8 @@ characters={
 		name = "О-Сознание"
 		
 		portraits = {
-			army = {
-				small = "GFX_idea_GAL_Osonanie"
-				large = "gfx/leaders/GAL/Osoznanie.dds"				
+			civilian = {
+				large = "gfx/leaders/GAL/Osoznanie.dds"	
 			}
 		}		
 		scientist = {
@@ -535,7 +536,7 @@ characters={
 			skills = {
 				specialization_nuclear = 3
 			}
-			visible = { has_completed_focus = GAL_osoznanie  }
+			visible = { owner = { has_completed_focus = GAL_osoznanie } }
 		}	
 	}
 	
