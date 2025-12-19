@@ -1967,3 +1967,57 @@ news_event = { #Падение Кельского Освободительног
 		name = dk_news.96.a
 	}
 }
+
+news_event = { #Левый_Пушной_объединяет_Россию
+    id = dk_news.97
+	title = dk_news.97.t
+	desc = dk_news.97.d
+	picture = GFX_news_event_GAL_unite_left
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dk_news.97.a
+		hidden_effect = {
+			GAL = {
+				country_event = super.32
+			}
+		}
+	}
+}
+
+news_event = { #Центральный_Пушной_объединяет_Россию
+    id = dk_news.98
+	title = dk_news.98.t
+	desc = dk_news.98.d
+	picture = GFX_news_event_GAL_unite_centre
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dk_news.98.a
+		hidden_effect = {
+			GAL = {
+				country_event = super.33
+			}
+		}
+	}
+}
+
+news_event = { #Правый_Пушной_объединяет_Россию
+    id = dk_news.99
+	title = dk_news.99.t
+	desc = dk_news.99.d
+	picture = GFX_news_event_GAL_unite_right
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dk_news.99.a
+		hidden_effect = {
+			GAL = {
+				country_event = super.34
+			}
+		}
+	}
+}

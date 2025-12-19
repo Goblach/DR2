@@ -730,7 +730,7 @@ country_event = {	#Невмерлия_объединяет_Украину
 		
 	}
 }
-country_event = {	#Невмерлия_объединяет_Украину
+country_event = {	#OMSK
 	id = super.31
 	title = super.31.t
 	desc = super.31.d
@@ -746,6 +746,66 @@ country_event = {	#Невмерлия_объединяет_Украину
         set_global_flag = OMS_Letov_reunite_russia
 		set_global_flag = Super_Event_Visible
 	    sound_effect = "superevent_letov"
+		
+	}
+}
+
+country_event = {	#Левый_Пушной_объединяет_Россию
+	id = super.32
+	title = super.32.t
+	desc = super.32.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	option = {
+		name = super.32.a
+		
+        set_global_flag = OMS_Pushnoy_left_reunite_russia
+		set_global_flag = Super_Event_Visible
+	    sound_effect = "superevent_pushnoy_left"
+		
+	}
+}
+
+country_event = {	#Центральный_Пушной_объединяет_Россию
+	id = super.33
+	title = super.33.t
+	desc = super.33.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	option = {
+		name = super.33.a
+		
+        set_global_flag = OMS_Pushnoy_centre_reunite_russia
+		set_global_flag = Super_Event_Visible
+	    sound_effect = "superevent_pushnoy_centre"
+		
+	}
+}
+
+country_event = {   #Правый_Пушной_объединяет_Россию
+	id = super.34
+	title = super.34.t
+	desc = super.34.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	option = {
+		name = super.34.a
+		
+        set_global_flag = OMS_Pushnoy_right_reunite_russia
+		set_global_flag = Super_Event_Visible
+	    sound_effect = "superevent_pushnoy_right"
 		
 	}
 }
