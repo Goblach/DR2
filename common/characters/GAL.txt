@@ -479,7 +479,7 @@ characters={
 		
 		portraits = {
 			army = {
-				small = "GFX_idea_GAL_Osonanie"
+				small = "GFX_idea_GAL_Osoznanie"
 				large = "gfx/leaders/GAL/Osoznanie.dds"				
 			}
 		}		

@@ -949,8 +949,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_YSK_Gennadiy_Troshev.dds"
 	}
 		spriteType = {
-		name = "GFX_idea_GAL_Osonanie"
-		texturefile = "gfx/interface/goals/idea_GAL_Osonanie.dds"
+		name = "GFX_idea_GAL_Osoznanie"
+		texturefile = "gfx/interface/goals/idea_GAL_Osoznanie.dds"
 	}
 	#ВНИМАНИЕ-ПРИСУТСТВУЕТ-АНИМАЦИЯ
 	#spriteType = {
