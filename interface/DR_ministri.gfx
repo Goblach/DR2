@@ -782,6 +782,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_GAL_Klyaner.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_GAL_Osoznanie"
+		texturefile = "gfx/interface/ideas/idea_GAL_Osoznanie.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_IRQ_ali_hassan_al_majid"
 		texturefile = "gfx/interface/ideas/idea_IRQ_ali_hassan_al_majid.dds" 
  	}
@@ -947,10 +951,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_YSK_Gennadiy_Troshev"
 		texturefile = "gfx/interface/ideas/idea_YSK_Gennadiy_Troshev.dds"
-	}
-		spriteType = {
-		name = "GFX_idea_GAL_Osoznanie"
-		texturefile = "gfx/interface/goals/idea_GAL_Osoznanie.dds"
 	}
 	#ВНИМАНИЕ-ПРИСУТСТВУЕТ-АНИМАЦИЯ
 	#spriteType = {

@@ -888,6 +888,11 @@ country_event = {
 			logistics_skill = 6
 			legacy_id = -1
 		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = GAL_Galileo_neutrality_party
+			name = GAL_Galileo_neutrality_party
+		}
 		remove_ideas = GAL_sovet_spor
 		country_event = { id = GAL.48 days = 40 }
 	}
@@ -952,6 +957,9 @@ country_event = {
 	
 	option = {
 	name = GAL.37.1
+		trigger = {
+			has_character = GAL_Panchin
+		}
 		retire_character = GAL_Deb
 		retire_character = GAL_sndk
 		add_country_leader_role = { 

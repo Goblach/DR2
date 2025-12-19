@@ -1389,6 +1389,9 @@ if = {
 		prerequisite = {
 			focus = NOD_nats_iskluchitelnost
 		}
+		available = {
+			num_of_controlled_states > 170
+		}
 		x = 41
 		y = 6
 completion_reward = {
