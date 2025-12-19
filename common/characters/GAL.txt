@@ -482,9 +482,6 @@ characters={
 				small = "GFX_idea_GAL_Osoznanie"
 				large = "gfx/leaders/GAL/Osoznanie.dds"				
 			}
-			civilian = {
-				small = "GFX_idea_GAL_Osoznanie"
-			}
 		}		
 	}
 	
@@ -493,7 +490,7 @@ characters={
 		
 		portraits = {
 			army = {
-				small = "GFX_idea_GAL_Osoznanie"
+				small = "GFX_idea_GAL_Osonanie"
 				large = "gfx/leaders/GAL/Osoznanie.dds"				
 			}
 		}		
@@ -511,7 +508,7 @@ characters={
 		
 		portraits = {
 			army = {
-				small = "GFX_idea_GAL_Osoznanie"
+				small = "GFX_idea_GAL_Osonanie"
 				large = "gfx/leaders/GAL/Osoznanie.dds"				
 			}
 		}		
@@ -529,7 +526,7 @@ characters={
 		
 		portraits = {
 			army = {
-				small = "GFX_idea_GAL_Osoznanie"
+				small = "GFX_idea_GAL_Osonanie"
 				large = "gfx/leaders/GAL/Osoznanie.dds"				
 			}
 		}		
