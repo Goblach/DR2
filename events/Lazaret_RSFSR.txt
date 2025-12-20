@@ -267,13 +267,6 @@ country_event = { #Развал пакта
 				random_hours = 12
 			}
 		}
-		WHS = { 
-			country_event = { 
-				id = 
-				days = 2
-				random_hours = 12
-			}
-		}
 		UNT = { 
 			country_event = { 
 				id = 
@@ -301,15 +294,12 @@ country_event = { #Развал пакта
 			end_puppet = DON
 			end_puppet = ARK
 			end_puppet = UNT
-			end_puppet = WHS
 			end_puppet = BSH
 		}
 		set_country_flag = LAZ_bilo_vosstaniye
 		set_global_flag = Razval_ChP
 		leave_faction = yes
 		MAT = {leave_faction = yes}
-		DON = {leave_faction = yes }
-		WHS = {leave_faction = yes }
 		UNT = {leave_faction = yes }
 		ARK = {leave_faction = yes }
 		BSH = {leave_faction = yes }
@@ -432,13 +422,6 @@ country_event = { #Развал пакта
 		#		random_hours = 12
 		#	}
 		#}
-		#WHS = { 
-		#	country_event = { 
-		#		id = 
-		#		days = 2
-		#		random_hours = 12
-		#	}
-		#}
 		#UNT = { 
 		#	country_event = { 
 		#		id = 
@@ -463,10 +446,8 @@ country_event = { #Развал пакта
 		LAZ = {
 			end_puppet = CHT
 			end_puppet = MAT
-			end_puppet = DON
 			end_puppet = ARK
 			end_puppet = UNT
-			end_puppet = WHS
 			end_puppet = BSH
 		}
 		set_country_flag = LAZ_bilo_vosstaniye
@@ -474,8 +455,6 @@ country_event = { #Развал пакта
 		leave_faction = yes 
 		hidden_effect = {
 		MAT = {leave_faction = yes }
-		DON = {leave_faction = yes }
-		WHS = {leave_faction = yes }
 		UNT = {leave_faction = yes }
 		ARK = {leave_faction = yes }
 		BSH = {leave_faction = yes }

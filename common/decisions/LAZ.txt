@@ -46,29 +46,6 @@ DR_dela_chumnogo_pakta = {
 			set_country_flag = LAZ_UNT_int
 	    }
 	}
-	LAZ_war_WHS = { #Оккупация_Вейшнории
-	
-		cost = 25
-		
-		available = {
-			has_country_flag = LAZ_bilo_vosstaniye
-			has_war = no 
-		}
-		visible = {
-			tag = LAZ
-			country_exist = WHS		
-		}	
-		fire_only_once = yes
-	    ai_will_do = {
-			factor = 100
-		}
-		remove_effect = {
-			WHS = {
-				country_event = lazaret.27
-		    }
-			set_country_flag = LAZ_WHS_int
-	    }
-	}
 	LAZ_war_DON = { #Оккупация_Донбасса
 	
 		cost = 25
@@ -199,47 +176,6 @@ DR_dela_chumnogo_pakta = {
 		}
 	}
 	
-	LAZ_int_WHS = { #Интеграция_Вейшнории
-	
-		cost = 25
-
-		visible = { 
-			has_completed_focus = LAZ_KNOR_po_chatu
-			NOT = {
-				has_country_flag = LAZ_bilo_vosstaniye 
-			}
-		}
-		available = {
-			WHS = {
-				is_puppet_of = LAZ
-				#has_completed_focus = WHS_integratsiya_v_lazaret
-				OR = {
-					has_government = vmestolev
-					has_government = anarhostalinism
-				}
-			}
-		}
-
-		fire_only_once = yes
-		days_remove = 90
-
-		remove_effect = {
-			annex_country = {
-				target = WHS
-				transfer_troops = yes
-			}
-		}
-		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0
-				WHS = {
-					is_ai = no
-				}
-			}
-		}
-	}
-	
 	LAZ_int_UNT = { #Интеграция_Воронежа
 	
 		cost = 25
@@ -319,43 +255,6 @@ DR_dela_chumnogo_pakta = {
 			}
 		}
 	}	
-	
-	LAZ_int_DON = { #Интеграция_Донбасса
-	
-		cost = 25
-		visible = { 
-			has_completed_focus = LAZ_KNOR_po_chatu
-			NOT = {
-				has_country_flag = LAZ_bilo_vosstaniye 
-			}
-		}
-		available = {
-			DON = {
-				is_puppet_of = LAZ 
-				has_completed_focus = DON_dolgaya_doroga_domoy 
-				has_government = metacommy
-			}
-		}
-		
-		fire_only_once = yes
-		days_remove = 90
-		
-		remove_effect = {
-			annex_country = {
-				target = DON
-				transfer_troops = yes
-			}
-		}
-		ai_will_do = {
-			base = 10
-			modifier = {
-				factor = 0
-				DON = {
-					is_ai = no
-				}
-			}
-		}
-	}
 }
 
 LAZ_proizvodstvo_kontenta = { #Производство_контента
