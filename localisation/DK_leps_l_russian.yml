@@ -1,0 +1,9 @@
+﻿l_russian:
+ modifier_production_speed_energy_infrastructure_factor: "Скорость строительства §Yусиленной энергосети§!"
+ modifier_production_speed_energy_infrastructure_factor_desc: "Изменяет скорость строительства усиленной энергосети."
+ production_speed_energy_infrastructure_factor_tt: " $modifier_production_speed_energy_infrastructure_factor$: $RIGHT|+=%1$"
+ production_speed_energy_infrastructure_factor_whitespace_tt: " $production_speed_energy_infrastructure_factor_tt$"
+ modifier_production_speed_industrial_infrastructure_factor: "Скорость строительства §Yвысокоемкой энергосети§!"
+ modifier_production_speed_industrial_infrastructure_factor_desc: "Изменяет скорость строительства высокоемкой энергосети."
+ production_speed_industrial_infrastructure_factor_tt: " $modifier_production_speed_industrial_infrastructure_factor$: $RIGHT|+=%1$"
+ production_speed_industrial_infrastructure_factor_whitespace_tt: " $production_speed_industrial_infrastructure_factor_tt$"
