@@ -53,10 +53,10 @@ faction_manifest_defense_of_democracy_allies = {
 	}
 }
 
-# Containment of vmestolev
-faction_manifest_containment_of_vmestolev = {
-	name = containment_of_vmestolev_goal_name
-	description = containment_of_vmestolev_goal_desc
+# Containment of communism
+faction_manifest_containment_of_communism = {
+	name = containment_of_communism_goal_name
+	description = containment_of_communism_goal_desc
 	is_manifest = yes
 	ratio_progress = {
 		total_amount_collection = game:all_states
@@ -131,57 +131,6 @@ faction_manifest_regional_expansionism = {
 		}
 	}
 }
-
-# Supress Regional vmestolev
-faction_manifest_suppress_regional_vmestolev = {
-	name = suppress_regional_vmestolev_goal_name
-	description = suppress_regional_vmestolev_goal_desc
-	is_manifest = yes
-	ratio_progress = {
-		total_amount_collection = collection:states_on_my_continent
-		completed_amount_collection = collection:non_communist_controlled_states_on_my_continent
-		
-		scale = {
-			vmestolev_drift = -0.05
-		}
-		
-		progress_sections = {
-			manifest_fulfilled = {
-				min = @manifest_fulfilled_value
-	
-				modifier = { 
-					weekly_casualties_war_support = 0.003
-				}
-			}
-		}
-	}
-}
-
-# Supress Regional Democracy
-faction_manifest_suppress_regional_democracy = {
-	name = suppress_regional_democracy_goal_name
-	description = suppress_regional_democracy_goal_desc
-	is_manifest = yes
-	ratio_progress = {
-		total_amount_collection = collection:states_on_my_continent
-		completed_amount_collection = collection:non_democratic_controlled_states_on_my_continent
-		
-		scale = {
-			democratic_drift = -0.05
-		}
-		
-		progress_sections = {
-			manifest_fulfilled = {
-				min = @manifest_fulfilled_value
-	
-				modifier = { 
-					weekly_casualties_war_support = 0.003
-				}			
-			}
-		}
-	}
-}
-
 # Conquest of territory 
 faction_manifest_conquest_of_territory = {
 	name = conquest_of_territory_goal_name
@@ -210,37 +159,6 @@ faction_manifest_conquest_of_territory = {
 			}
 		}
 	}
-}
-
-
-# Spread of vmestolev 
-faction_manifest_spread_of_vmestolev = {
-	name = spread_of_vmestolev_goal_name
-	description = spread_of_vmestolev_goal_desc
-	is_manifest = yes
-	ratio_progress = {
-		total_amount_collection = game:all_countries
-		completed_amount_collection = collection:world_communist_countries
-		range = { 
-			max = 1
-		}
-		
-		scale = {
-			vmestolev_drift = 0.1
-		}
-		
-		progress_sections = {
-			manifest_fulfilled = {
-				min = @manifest_fulfilled_value
-	
-				modifier = { 
-					conscription_factor = 0.05
-					party_popularity_stability_factor = 0.1
-				}			
-			}
-		}
-	}
-
 }
 
 # Strength in Unity 
@@ -291,147 +209,6 @@ faction_manifest_protector_of_peace = {
 	
 				modifier = { 
 					trade_opinion_factor = 0.2
-				}			
-			}
-		}
-	}
-}
-
-# African Domination
-faction_manifest_african_domination = {
-	name = african_domination_goal_name
-	description = african_domination_goal_desc
-	is_manifest = yes
-	ratio_progress = {
-		total_amount_collection = collection:states_in_africa
-		completed_amount_collection = collection:faction_states_in_africa
-		
-		scale = {
-			stability_factor = 0.08
-		}
-		
-		progress_sections = {
-			manifest_fulfilled = {
-				min = @manifest_fulfilled_value
-	
-				modifier = { 
-					army_core_defence_factor = 0.05
-				}			
-			}
-		}
-	}
-}
-
-# Pan-Americanism
-faction_manifest_pan_americanism = {
-	name = pan_americanism_goal_name
-	description = pan_americanism_goal_desc
-	is_manifest = yes
-	ratio_progress = {
-		total_amount_collection = collection:states_in_americas
-		completed_amount_collection = collection:faction_states_in_americas
-		
-		scale = {
-			stability_factor = 0.1
-		}
-		
-		progress_sections = {
-			manifest_fulfilled = {
-				min = @manifest_fulfilled_value
-	
-				modifier = {
-					war_support_factor = 0.05
-					army_core_defence_factor = 0.1
-				}			
-			}
-		}
-	}
-}
-
-
-# European Dominance
-faction_manifest_european_dominance = {
-	name = european_dominance_goal_name
-	description = european_dominance_goal_desc
-	is_manifest = yes
-	ratio_progress = {
-		total_amount_collection = collection:states_in_europe
-		completed_amount_collection = collection:faction_states_in_europe
-		range = { 
-			max = 0.67 # two thirds should be enough to secure a qualified majority 
-		}
-		
-		scale = {
-			stability_factor = 0.1
-		}
-		
-		progress_sections = {
-			manifest_fulfilled = {
-				min = @manifest_fulfilled_value
-	
-				modifier = {
-					war_support_factor = 0.05
-					army_core_defence_factor = 0.1
-				}			
-			}
-		}
-	}
-}
-
-
-# Asian Dominance
-faction_manifest_asian_dominance = {
-	name = asian_dominance_goal_name
-	description = asian_dominance_goal_desc
-	is_manifest = yes
-	ratio_progress = {
-		total_amount_collection = collection:states_in_asia
-		completed_amount_collection = collection:faction_states_in_asia
-		range = { 
-			max = 0.67 # two thirds should be enough to secure a qualified majority 
-		}
-		
-		scale = {
-			stability_factor = 0.1
-		}
-		
-		progress_sections = {
-			manifest_fulfilled = {
-				min = @manifest_fulfilled_value
-	
-				modifier = {
-					war_support_factor = 0.05
-					army_core_defence_factor = 0.1
-				}			
-			}
-		}
-	}
-}
-
-
-# Middle East Dominance
-faction_manifest_middle_east_dominance = {
-	name = middle_east_dominance_goal_name
-	description = middle_east_dominance_goal_desc
-	is_manifest = yes
-	ratio_progress = {
-		total_amount_collection = collection:states_in_middle_east
-		completed_amount_collection = collection:faction_states_in_middle_east
-		range = { 
-			max = 1
-		}
-		
-		scale = {
-			stability_factor = 0.1
-		}
-		
-		progress_sections = {
-			manifest_fulfilled = {
-				min = @manifest_fulfilled_value
-	
-				modifier = {
-					war_support_factor = 0.05
-					army_core_defence_factor = 0.1
 				}			
 			}
 		}

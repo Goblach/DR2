@@ -90,11 +90,6 @@ set_autonomy = {
 	freedom_level = 0.5
 }
 set_autonomy = {
-	target = WHS
-	autonomous_state = autonomy_puppet
-	freedom_level = 0.5
-}
-set_autonomy = {
 	target = ARK
 	autonomous_state = autonomy_puppet
 	freedom_level = 0.5
@@ -117,7 +112,6 @@ set_autonomy = {
 
 create_faction_from_template = faction_template_Chumnoi_Pakt
 add_to_faction = LAZ
-add_to_faction = WHS
 add_to_faction = ARK
 add_to_faction = UNT
 add_to_faction = MAT

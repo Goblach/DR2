@@ -1,4 +1,18 @@
 characters={
+	Sergey_Tihanovskiy = {
+		name = "Сергей Тихановский"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZWN/Tihanovskiy.dds"
+			}
+		}
+		country_leader = {
+		    ideology = fascism_ideology
+	        expire = "1999.1.1"
+			traits = {  }
+		    id=-1
+	    }
+	}
 	ZWN_Denis_Prokhorov = {
 		name = "Денис Прохоров"
 		portraits = {

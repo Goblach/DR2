@@ -11,6 +11,7 @@ set_technology = {
 }
 
 recruit_character = ZWN_Denis_Prokhorov
+recruit_character = Sergey_Tihanovskiy
 
 add_ideas = {
 	limited_conscription
@@ -29,14 +30,3 @@ set_politics = {
 }
 
 set_convoys = 40
-
-create_country_leader = {
-	name = "Зенон Станиславович Позняк"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Poznyak.dds"
-	expire = "1999.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}

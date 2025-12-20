@@ -27,8 +27,8 @@ MHL = {
 	color_ui = rgb { 85 148 150 }
 }
 WHS = {
-	color = rgb { 6 17 137 }
-	color_ui = rgb { 5 15 127 }
+	color = rgb { 80  120  30 }
+	color_ui = rgb { 70  110  20 }
 }
 BSH = {
 	color = rgb { 60 164 40 }

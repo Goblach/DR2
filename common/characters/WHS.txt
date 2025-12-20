@@ -1,0 +1,16 @@
+characters={
+	Suharev = {
+		name = "Сухаревский Сёгун"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WHS/Suharev.dds"
+			}
+		}
+		country_leader = {
+		    ideology = postironism
+	        expire = "1999.1.1"
+			traits = {  }
+		    id=-1
+	    }
+	}
+}
