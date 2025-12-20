@@ -763,7 +763,7 @@ country_event = {	#Левый_Пушной_объединяет_Россию
 	option = {
 		name = super.32.a
 		
-        set_global_flag = OMS_Pushnoy_left_reunite_russia
+        set_global_flag = GAL_Pushnoy_left_reunite_russia
 		set_global_flag = Super_Event_Visible
 	    sound_effect = "superevent_pushnoy_left"
 		
@@ -783,7 +783,7 @@ country_event = {	#Центральный_Пушной_объединяет_Ро
 	option = {
 		name = super.33.a
 		
-        set_global_flag = OMS_Pushnoy_centre_reunite_russia
+        set_global_flag = GAL_Pushnoy_centre_reunite_russia
 		set_global_flag = Super_Event_Visible
 	    sound_effect = "superevent_pushnoy_centre"
 		
@@ -803,7 +803,7 @@ country_event = {   #Правый_Пушной_объединяет_Россию
 	option = {
 		name = super.34.a
 		
-        set_global_flag = OMS_Pushnoy_right_reunite_russia
+        set_global_flag = GAL_Pushnoy_right_reunite_russia
 		set_global_flag = Super_Event_Visible
 	    sound_effect = "superevent_pushnoy_right"
 		

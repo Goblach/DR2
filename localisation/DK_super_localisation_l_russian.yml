@@ -126,3 +126,15 @@
   sp_event_OMS_Letov_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
   sp_event_OMS_Letov_reunite_russia_QUOTE:0 "Я никогда не был противником коммунизма, именно настоящего коммунизма, каким он должен быть. Коммунизм - это Царство Божие на Земле. \n- Егор Летов"
   sp_event_OMS_Letov_reunite_russia_REMARK:0 "Я выдуман напрочь"
+  
+  sp_event_GAL_Pushnoy_left_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_GAL_Pushnoy_left_russia_QUOTE:0 "\n- Александр Пушной"
+  sp_event_GAL_Pushnoy_left_russia_REMARK:0 ""
+  
+  sp_event_GAL_Pushnoy_centre_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_GAL_Pushnoy_centre_russia_QUOTE:0 "\n- Александр Пушной"
+  sp_event_GAL_Pushnoy_centre_russia_REMARK:0 ""
+  
+  sp_event_GAL_Pushnoy_right_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
+  sp_event_GAL_Pushnoy_right_russia_QUOTE:0 "\n- Александр Пушной"
+  sp_event_GAL_Pushnoy_right_russia_REMARK:0 ""

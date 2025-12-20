@@ -704,7 +704,7 @@ scripted_gui = {
 		}
 	}
 	
-	sp_event_dimon = {
+	sp_event_letov = {
 		window_name = "sp_event_letov"
 		context_type = player_context
 
@@ -717,6 +717,30 @@ scripted_gui = {
 		triggers = {
 			Super_Event_OMS_Letov_reunite_russia = {
 				has_global_flag = OMS_Letov_reunite_russia
+			}
+		}
+
+		effects = {
+			sp_event_close_button_click = {
+				clr_global_flag = Super_Event_Visible
+				
+			}
+		}
+	}
+	
+	sp_event_letov = {
+		window_name = "sp_event_pushnoy_left"
+		context_type = player_context
+
+		visible = {
+		    is_ai = no
+			has_global_flag = Super_Event_Visible
+			has_global_flag = GAL_Pushnoy_left_reunite_russia
+		}
+		
+		triggers = {
+			Super_Event_GAL_Pushnoy_left_reunite_russia = {
+				has_global_flag = GAL_Pushnoy_left_reunite_russia
 			}
 		}
 
@@ -920,6 +944,12 @@ scripted_gui = {
 		triggers = {
 			Super_Event_OMS_Letov_reunite_russia = {
 				has_global_flag = OMS_Letov_reunite_russia
+			}
+		}
+		
+		triggers = {
+			Super_Event_GAL_Pushnoy_left_reunite_russia = {
+				has_global_flag = GAL_Pushnoy_left_reunite_russia
 			}
 		}
 
@@ -1142,6 +1172,13 @@ scripted_gui = {
 						has_global_flag = OMS_Letov_reunite_russia
 					}
 					clr_global_flag = OMS_Letov_reunite_russia
+				}
+				
+				if = {
+					limit = {
+						has_global_flag = GAL_Pushnoy_left_reunite_russia
+					}
+					clr_global_flag = GAL_Pushnoy_left_reunite_russia
 				}
 			}
 		}

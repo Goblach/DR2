@@ -1097,7 +1097,7 @@ DR_form_russian_state_decisions_category = {
 			factor = 100
 		}
 		remove_effect = {
-			news_event = dk_news.93
+			news_event = dk_news.97
 		}	
 	}
 	
@@ -1132,7 +1132,7 @@ DR_form_russian_state_decisions_category = {
 			factor = 100
 		}
 		remove_effect = {
-			news_event = dk_news.93
+			news_event = dk_news.98
 		}	
 	}
 	
@@ -1167,7 +1167,7 @@ DR_form_russian_state_decisions_category = {
 			factor = 100
 		}
 		remove_effect = {
-			news_event = dk_news.93
+			news_event = dk_news.99
 		}	
 	}
 	
