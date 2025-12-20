@@ -55,7 +55,6 @@ country_event = {
 	id = GAL.3
 	title = GAL.3.t
 	desc = GAL.3.d
-	picture = GFX_report_event_dkr_solzh_golova
 	trigger = {
 		tag = GAL
 	}
@@ -87,7 +86,7 @@ country_event = {
 	id = GAL.4
 	title = GAL.4.t
 	desc = GAL.4.d
-	picture = GFX_report_event_spr_republican_old_volunteers
+	picture = GFX_report_event_generic_read_write
 	trigger = {
 		tag = GAL
 	}
@@ -103,7 +102,7 @@ country_event = {
 	id = GAL.5
 	title = GAL.5.t
 	desc = GAL.5.d
-	picture = GFX_report_event_dkr_solzh_golova
+	picture = GFX_report_event_generic_read_write
 	trigger = {
 		tag = GAL
 	}
