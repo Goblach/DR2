@@ -369,7 +369,7 @@ ideas = {
 				picture = generic_central_management
 				modifier = {
 				 production_factory_efficiency_gain_factor = 0.1
-				 production_factory_max_efficiency_factor = 0.1
+				 production_factory_max_efficiency_factor = 0.05
 				 industrial_capacity_factory = 0.1
 				}
 			}
@@ -377,9 +377,9 @@ ideas = {
 				picture = generic_central_management
 				modifier = {
 				 production_factory_efficiency_gain_factor = 0.15
-				 production_factory_max_efficiency_factor = 0.15
+				 production_factory_max_efficiency_factor = 0.1
 				 industrial_capacity_factory = 0.15
-				 line_change_production_efficiency_factor = 0.15
+				 line_change_production_efficiency_factor = 0.1
 				}
 			}
 			GAL_protiv_liberalisma = {

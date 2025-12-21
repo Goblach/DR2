@@ -56,7 +56,7 @@ country_event = {
 	option = {
 	name = POK.1.b
 	hidden_effect = {
-	transfer_units_fraction = { target = MGN stockpile_ratio = 0.05 }
+	send_equipment_fraction = { target = MGN stockpile_ratio = 0.05 }
 	MGN = {
 	add_state_core = 824
 			add_state_core = 577

@@ -169,19 +169,6 @@ bookmarks = {
 
 			}
 		}
-		"WHS"={
-			minor = yes
-			history = "WHS_GATHERING_STORM_DESC"
-			ideology = anarhostalinism
-			ideas = {
-				WHS_zapad_bastion
-				WHS_nasledie_VeynshGV
-				UNT_neudach_vostoch_pohod
-			}
-			focuses = {
-
-			}
-		}
 		"UNT"={
 			minor = yes
 			history = "UNT_GATHERING_STORM_DESC"
