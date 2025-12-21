@@ -1587,10 +1587,7 @@ focus_tree = {
 		x = 43
 		y = 6
 		completion_reward = {
-			add_timed_idea = {
-				idea = GAL_protiv_liberalisma
-				days = 100
-			}
+			add_ideas = GAL_protiv_liberalisma
 			add_popularity = {
 				ideology = democratic
 				popularity = -0.1
@@ -3491,6 +3488,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = GAL_ban_religion
+			add_timed_idea = { 
+				idea = GAL_religion_sobstvennost 
+				days = 150 
+			}
 		}
 	}
 	focus = {
