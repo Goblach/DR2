@@ -1267,3 +1267,26 @@ country_event = {	###Назгул-Томас_Шэлби
 		}
 	}
 }
+country_event = {	###Объединение России
+
+	id = mordor.67
+        title = mordor.67.t
+        desc = mordor.67.d
+	picture = GFX_report_event_dkr_sauron_dovolen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mordor.67.a
+		news_event = {
+			id = dk_news.63
+		}
+	}
+	
+	option = {
+		name = mordor.67.b
+		news_event = {
+			id = dk_news.64
+		}
+	}
+}
