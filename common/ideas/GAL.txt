@@ -369,7 +369,7 @@ ideas = {
 				picture = generic_central_management
 				modifier = {
 				 production_factory_efficiency_gain_factor = 0.1
-				 production_factory_max_efficiency_factor = 0.1
+				 production_factory_max_efficiency_factor = 0.05
 				 industrial_capacity_factory = 0.1
 				}
 			}
@@ -377,9 +377,9 @@ ideas = {
 				picture = generic_central_management
 				modifier = {
 				 production_factory_efficiency_gain_factor = 0.15
-				 production_factory_max_efficiency_factor = 0.15
+				 production_factory_max_efficiency_factor = 0.1
 				 industrial_capacity_factory = 0.15
-				 line_change_production_efficiency_factor = 0.15
+				 line_change_production_efficiency_factor = 0.1
 				}
 			}
 			GAL_protiv_liberalisma = {
@@ -401,12 +401,14 @@ ideas = {
 				}
 			}
 			GAL_ey_uhnem = {
+				picture = generic_production_bonus
 				modifier = {
 				 consumer_goods_factor = -0.15
 				 political_power_factor = -0.1
 				}
 			}
 			GAL_krasniy_rassvet = {
+				picture = socialist_science_focus
 				modifier = {
 				 consumer_goods_factor = -0.1
 				 local_resources_factor = 0.1
@@ -533,6 +535,7 @@ ideas = {
 				}
 			}
 			GAL_toples_program = {
+				picture = generic_morale_bonus
 				modifier = {
 				 political_power_factor = 0.05
 				 stability_factor = 0.05
@@ -547,6 +550,7 @@ ideas = {
 				}
 			}
 			GAL_sibgektar = {
+				picture = BEL_traditional_family_values
 				modifier = {
 				 consumer_goods_factor = 0.05
 				 research_speed_factor = 0.03
@@ -617,6 +621,12 @@ ideas = {
 				 war_support_weekly = -0.005
 				}
 			}
+			GAL_religion_sobstvennost = {
+				picture = SPR_appropriate_church_riches
+				modifier = {
+					consumer_goods_factor = -0.15
+				}
+			}
 			GAL_panacea = {
 				picture = SOV_opiate_of_the_masses
 				modifier = {
@@ -626,6 +636,7 @@ ideas = {
 				}
 			}
 			GAL_burunduk_army = {
+				picture = SWE_hedgehog_defense
 				modifier = {
 				 army_morale_factor = 0.05
 				 army_core_attack_factor = 0.05
@@ -652,7 +663,7 @@ ideas = {
 				 research_speed_factor = 0.1
 				 stability_factor = -0.1
 				 war_support_factor = 0.1
-				 fascism_drift = 0.05
+				 fascism_drift = 0.1
 				}
 			}
 			GAL_lena = {

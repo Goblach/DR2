@@ -346,16 +346,6 @@ country_event = {	#Саурон_объединяет_Россию
 	is_triggered_only = yes
 	
 	hidden = yes
-	
-	trigger = {
-		AND = {
-			MRD = { has_government = metacommy }
-			has_country_flag = MRD_reunite_russia_kostil
-			NOT = {
-				has_global_flag = MRD_reunite_russia
-			}
-		}
-	}
 
 	option = {
 		name = super.11.a

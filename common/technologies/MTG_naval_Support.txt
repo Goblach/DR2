@@ -1761,6 +1761,14 @@ technologies = {
 			leads_to_tech = airdrop_mines_bba
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = airsweep_mines_bba
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = airsweep_mines
+			research_cost_coeff = 1
+		}
 
 		naval_mines_damage_factor = 0.3 # more boom for the boom box
 		folder = {

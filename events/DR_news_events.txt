@@ -1337,6 +1337,11 @@ news_event = { #Саурон_испытывает_ЯО
 
 	option = {
 		name = dk_news.62.a
+		hidden_effect = {
+			MRD = {
+				country_event = super.11
+			}
+		}
 	}
 } 
 news_event = { #Саурон_объединяет_Россию
@@ -1351,6 +1356,11 @@ news_event = { #Саурон_объединяет_Россию
 
 	option = {
 		name = dk_news.63.a
+		hidden_effect = {
+			MRD = {
+				country_event = super.11
+			}
+		}
 	}
 }
 news_event = { #Саурон_создаёт_СССР

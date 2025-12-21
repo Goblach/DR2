@@ -3,12 +3,15 @@ ideas = {
 			YSK_Barnaul_Altayskiy_kray = {
 
 			    picture = spr_anti_fascist_crusade
+				
+				available = {
+					has_war = yes
+				}
 			
 			    modifier = {
 				war_support_factor = 0.15
 				conscription_factor = 0.15
-				army_core_defence_factor = 0.075
-				surrender_limit = 0.025
+				army_core_defence_factor = 0.05
 			    }
 		    }
 			YSK_rus_idut = {
