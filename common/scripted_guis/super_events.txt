@@ -728,7 +728,7 @@ scripted_gui = {
 		}
 	}
 	
-	sp_event_letov = {
+	sp_event_puchnoy_left = {
 		window_name = "sp_event_pushnoy_left"
 		context_type = player_context
 
@@ -741,6 +741,54 @@ scripted_gui = {
 		triggers = {
 			Super_Event_GAL_Pushnoy_left_reunite_russia = {
 				has_global_flag = GAL_Pushnoy_left_reunite_russia
+			}
+		}
+
+		effects = {
+			sp_event_close_button_click = {
+				clr_global_flag = Super_Event_Visible
+				
+			}
+		}
+	}
+	
+	sp_event_puchnoy_centre = {
+		window_name = "sp_event_pushnoy_centre"
+		context_type = player_context
+
+		visible = {
+		    is_ai = no
+			has_global_flag = Super_Event_Visible
+			has_global_flag = GAL_Pushnoy_centre_reunite_russia
+		}
+		
+		triggers = {
+			Super_Event_GAL_Pushnoy_centre_reunite_russia = {
+				has_global_flag = GAL_Pushnoy_centre_reunite_russia
+			}
+		}
+
+		effects = {
+			sp_event_close_button_click = {
+				clr_global_flag = Super_Event_Visible
+				
+			}
+		}
+	}
+	
+	sp_event_puchnoy_right = {
+		window_name = "sp_event_pushnoy_right"
+		context_type = player_context
+
+		visible = {
+		    is_ai = no
+			has_global_flag = Super_Event_Visible
+			has_global_flag = GAL_Pushnoy_right_reunite_russia
+		}
+		
+		triggers = {
+			Super_Event_GAL_Pushnoy_right_reunite_russia = {
+				has_global_flag = GAL_Pushnoy_right_reunite_russia
 			}
 		}
 
@@ -950,6 +998,18 @@ scripted_gui = {
 		triggers = {
 			Super_Event_GAL_Pushnoy_left_reunite_russia = {
 				has_global_flag = GAL_Pushnoy_left_reunite_russia
+			}
+		}
+		
+		triggers = {
+			Super_Event_GAL_Pushnoy_centre_reunite_russia = {
+				has_global_flag = GAL_Pushnoy_centre_reunite_russia
+			}
+		}
+		
+		triggers = {
+			Super_Event_GAL_Pushnoy_right_reunite_russia = {
+				has_global_flag = GAL_Pushnoy_right_reunite_russia
 			}
 		}
 
@@ -1179,6 +1239,20 @@ scripted_gui = {
 						has_global_flag = GAL_Pushnoy_left_reunite_russia
 					}
 					clr_global_flag = GAL_Pushnoy_left_reunite_russia
+				}
+				
+				if = {
+					limit = {
+						has_global_flag = GAL_Pushnoy_centre_reunite_russia
+					}
+					clr_global_flag = GAL_Pushnoy_centre_reunite_russia
+				}
+				
+				if = {
+					limit = {
+						has_global_flag = GAL_Pushnoy_right_reunite_russia
+					}
+					clr_global_flag = GAL_Pushnoy_right_reunite_russia
 				}
 			}
 		}
