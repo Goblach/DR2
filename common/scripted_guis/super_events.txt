@@ -728,7 +728,7 @@ scripted_gui = {
 		}
 	}
 	
-	sp_event_puchnoy_left = {
+	sp_event_pushnoy_left = {
 		window_name = "sp_event_pushnoy_left"
 		context_type = player_context
 
@@ -752,7 +752,7 @@ scripted_gui = {
 		}
 	}
 	
-	sp_event_puchnoy_centre = {
+	sp_event_pushnoy_centre = {
 		window_name = "sp_event_pushnoy_centre"
 		context_type = player_context
 
@@ -776,7 +776,7 @@ scripted_gui = {
 		}
 	}
 	
-	sp_event_puchnoy_right = {
+	sp_event_pushnoy_right = {
 		window_name = "sp_event_pushnoy_right"
 		context_type = player_context
 
