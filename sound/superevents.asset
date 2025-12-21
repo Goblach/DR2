@@ -285,3 +285,30 @@ soundeffect =
 	}
 	volume = 0.4
 }
+
+soundeffect =
+{
+	name = "superevent_pushnoy_left"
+	sounds = {
+		sound = "superevent_pushnoy_left"
+	}
+	volume = 0.4
+}
+
+soundeffect =
+{
+	name = "superevent_pushnoy_centre"
+	sounds = {
+		sound = "superevent_pushnoy_centre"
+	}
+	volume = 0.4
+}
+
+soundeffect =
+{
+	name = "superevent_pushnoy_right"
+	sounds = {
+		sound = "superevent_pushnoy_right"
+	}
+	volume = 0.4
+}

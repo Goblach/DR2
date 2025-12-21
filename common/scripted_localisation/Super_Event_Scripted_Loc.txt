@@ -465,21 +465,21 @@ defined_text = {
         trigger = {
             has_global_flag = GAL_Pushnoy_left_reunite_russia
         }
-        localization_key = "sp_event_GAL_Pushnoy_left_reunite_russia"
+        localization_key = "sp_event_GAL_Pushnoy_left_reunite_russia_REMARK"
     }
 	
 	text = {
         trigger = {
             has_global_flag = GAL_Pushnoy_centre_reunite_russia
         }
-        localization_key = "sp_event_GAL_Pushnoy_centre_reunite_russia"
+        localization_key = "sp_event_GAL_Pushnoy_centre_reunite_russia_REMARK"
     }
 	
 	text = {
         trigger = {
             has_global_flag = GAL_Pushnoy_right_reunite_russia
         }
-        localization_key = "sp_event_GAL_Pushnoy_right_reunite_russia"
+        localization_key = "sp_event_GAL_Pushnoy_right_reunite_russia_REMARK"
     }
 }
 #РЕАКЦИЯ(КНОПКА)
@@ -707,20 +707,20 @@ defined_text = {
         trigger = {
             has_global_flag = GAL_Pushnoy_left_reunite_russia
         }
-        localization_key = "sp_event_GAL_Pushnoy_left_reunite_russia"
+        localization_key = "sp_event_GAL_Pushnoy_left_reunite_russia_QUOTE"
     }
 	
 	text = {
         trigger = {
             has_global_flag = GAL_Pushnoy_centre_reunite_russia
         }
-        localization_key = "sp_event_GAL_Pushnoy_centre_reunite_russia"
+        localization_key = "sp_event_GAL_Pushnoy_centre_reunite_russia_QUOTE"
     }
 	
 	text = {
         trigger = {
             has_global_flag = GAL_Pushnoy_right_reunite_russia
         }
-        localization_key = "sp_event_GAL_Pushnoy_right_reunite_russia"
+        localization_key = "sp_event_GAL_Pushnoy_right_reunite_russia_QUOTE"
     }
 }	

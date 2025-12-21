@@ -213,3 +213,24 @@ sound = {
 	volume = 0.70
 	always_load = yes
 }
+
+sound = {
+	name = "superevent_pushnoy_left"
+	file = "menu/superevent_pushnoy_left.wav"
+	volume = 0.70
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_pushnoy_centre"
+	file = "menu/superevent_pushnoy_centre.wav"
+	volume = 0.70
+	always_load = yes
+}
+
+sound = {
+	name = "superevent_pushnoy_right"
+	file = "menu/superevent_pushnoy_right.wav"
+	volume = 0.70
+	always_load = yes
+}

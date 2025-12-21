@@ -34,6 +34,9 @@ category = {
 		superevent_yuneman
 		superevent_zhelezniy_dimon
 		superevent_letov
+		superevent_pushnoy_left
+		superevent_pushnoy_centre
+		superevent_pushnoy_right
 	}
 	compressor = master_compressor
 }
