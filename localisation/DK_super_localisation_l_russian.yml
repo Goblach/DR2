@@ -128,13 +128,13 @@
   sp_event_OMS_Letov_reunite_russia_REMARK:0 "Я выдуман напрочь"
   
   sp_event_GAL_Pushnoy_left_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
-  sp_event_GAL_Pushnoy_left_russia_QUOTE:0 "Мы переживаем сейчас выделение в биосфере царства разума, меняющего коренным образом и ее облик, и ее строение - ноосферы.\n- Владимир Вернадский"
-  sp_event_GAL_Pushnoy_left_russia_REMARK:0 "Мир интересней, чем кажется"
+  sp_event_GAL_Pushnoy_left_reunite_russia_QUOTE:0 "Мы переживаем сейчас выделение в биосфере царства разума, меняющего коренным образом и ее облик, и ее строение - ноосферы.\n- Владимир Вернадский"
+  sp_event_GAL_Pushnoy_left_reunite_russia_REMARK:0 "Мир интересней, чем кажется"
   
   sp_event_GAL_Pushnoy_centre_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
-  sp_event_GAL_Pushnoy_centre_russia_QUOTE:0 "Вот все кричат: «Конец Света! Конец Света!» Чего вы боитесь, ребят? Ну, закончился свет. Включите фонарик!\n- Александр Пушной"
-  sp_event_GAL_Pushnoy_centre_russia_REMARK:0 "Мир интересней, чем кажется"
+  sp_event_GAL_Pushnoy_centre_reunite_russia_QUOTE:0 "Вот все кричат: «Конец Света! Конец Света!» Чего вы боитесь, ребят? Ну, закончился свет. Включите фонарик!\n- Александр Пушной"
+  sp_event_GAL_Pushnoy_centre_reunite_russia_REMARK:0 "Мир интересней, чем кажется"
   
   sp_event_GAL_Pushnoy_right_reunite_russia:0 "ВОССОЕДИНЕНИЕ РОССИИ"
-  sp_event_GAL_Pushnoy_right_russia_QUOTE:0 "У меня не может не получиться, я же физик... по дедушке!\n- Александр Пушной"
-  sp_event_GAL_Pushnoy_right_russia_REMARK:0 "Мир интересней, чем кажется"
+  sp_event_GAL_Pushnoy_right_reunite_russia_QUOTE:0 "У меня не может не получиться, я же физик... по дедушке!\n- Александр Пушной"
+  sp_event_GAL_Pushnoy_right_reunite_russia_REMARK:0 "Мир интересней, чем кажется"
