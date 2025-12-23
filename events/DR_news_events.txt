@@ -1427,6 +1427,10 @@ news_event = { #Борат_Сагдиев_вернул_Омск
 	
 	option = {
 		name = dk_news.67.a
+		ASI = {
+			transfer_state = 571
+			add_state_core = 571
+		}
 	}
 }
 news_event = { #Тайвань_вернул_территории

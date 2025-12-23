@@ -2864,10 +2864,6 @@ air_ratio = 0.05
 }
 		news_event = dk_news.66
 		hidden_effect = {
-		    country_event = {
-                id = KAZ.2
-                days = 7
-            }
 			news_event = {
                 id = dk_news.67
                 days = 7
