@@ -30,7 +30,7 @@ characters={
 		    id=-1
 	    }
 		corps_commander = {
-        	traits = { career_officer politically_connected }
+        	traits = { inspirational_bagpiper career_officer politically_connected }
          	skill = 3
           	attack_skill = 2
           	defense_skill = 4
@@ -47,7 +47,7 @@ characters={
 			}
 		}
 		corps_commander = {
-        	traits = { politically_connected naval_invader }
+        	traits = { inspirational_bagpiper politically_connected naval_invader }
          	skill = 1
           	attack_skill = 1
           	defense_skill = 1
