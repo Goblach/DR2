@@ -18,7 +18,10 @@ state={
 			3668 = { dam = 1 }
 		}
 		victory_points = {
-			6701 3 
+			3668 10
+		}
+		victory_points = {
+			3682 3
 		}
 		add_core_of = CHK
 	}

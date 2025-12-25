@@ -1021,7 +1021,9 @@
  VICTORY_POINTS_11974:0 "Асьют"
  VICTORY_POINTS_5064:0 "Кандагар"
  VICTORY_POINTS_12248:0 "Кундуз"
- VICTORY_POINTS_6701:0 "Махачкала"
+ VICTORY_POINTS_3668:0 "Махачкала"
+ CHK_VICTORY_POINTS_3682:0 "Хас-Вегас"
+ VICTORY_POINTS_3682:0 "Хасавюрт"
  VICTORY_POINTS_11674:0 "Гянджа"
  VICTORY_POINTS_12441:1 "Гюмри"
  VICTORY_POINTS_1614:0 "Нукус"
@@ -1070,7 +1072,7 @@
  VICTORY_POINTS_2015:0 "Кашгар"
  VICTORY_POINTS_4973:0 "Хотан"
  VICTORY_POINTS_4823:0 "Алтай"
- VICTORY_POINTS_4800:0 "Ойрот-Тура" #(Was Gorno-Altaysk), which it was historically changed to in 1948
+ VICTORY_POINTS_4800:0 "Горно-Алтайск" #(Was Gorno-Altaysk), which it was historically changed to in 1948
  VICTORY_POINTS_7835:0 "Улан-Удэ"
  VICTORY_POINTS_12644:0 "Баргузин"
  VICTORY_POINTS_13063:0 "Анадырь"
