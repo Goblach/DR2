@@ -811,7 +811,7 @@ GAL_marakumba_zapasi_balance_of_power_category = {
         icon = decision_category_generic_economy
 
         ai_will_do = {
-			factor = 4
+			factor = 10
 		}
 		fire_only_once = no
 		available = {
@@ -837,7 +837,7 @@ GAL_marakumba_zapasi_balance_of_power_category = {
         icon = decision_category_generic_economy
 
         ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 		fire_only_once = no
 		available = {
