@@ -3177,7 +3177,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3206,7 +3206,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3238,7 +3238,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3275,7 +3275,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3319,7 +3319,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3358,7 +3358,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3390,7 +3390,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3427,7 +3427,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3467,7 +3467,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		#complete_effect = {
 		#	if = {
@@ -3532,7 +3532,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3561,7 +3561,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3589,7 +3589,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3619,7 +3619,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3648,7 +3648,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3676,7 +3676,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3714,7 +3714,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3753,7 +3753,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3791,7 +3791,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3829,7 +3829,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3867,7 +3867,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3906,7 +3906,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3948,7 +3948,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -3991,7 +3991,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4031,7 +4031,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4070,7 +4070,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4110,7 +4110,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4149,7 +4149,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4186,7 +4186,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4224,7 +4224,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4256,7 +4256,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4293,7 +4293,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4327,7 +4327,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4359,7 +4359,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4392,7 +4392,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4421,7 +4421,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4449,7 +4449,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4476,7 +4476,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4507,7 +4507,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4539,7 +4539,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4569,7 +4569,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4598,7 +4598,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4628,7 +4628,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4660,7 +4660,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4699,7 +4699,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4738,7 +4738,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4772,7 +4772,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4803,7 +4803,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4836,7 +4836,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4875,7 +4875,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4919,7 +4919,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		
 		remove_effect = {
@@ -4956,7 +4956,7 @@ DR_core_russian_territories_decisions_category = {
 		days_remove = 35
 		
 		ai_will_do = {
-			base = 10.5
+			base = 200
 		}
 		#complete_effect = {
 		#	release_puppet = POL
