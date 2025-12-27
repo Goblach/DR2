@@ -668,6 +668,7 @@ ideas = {
 					country_resource_aluminium = 20
 					country_resource_steel = 20
 					country_resource_chromium = 20
+					country_resource_tungsten = 10
 				}
 			}
 			GAL_odealo = {
