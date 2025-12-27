@@ -1100,6 +1100,7 @@ country_event = {
 	
 	option = {
 	name = GAL.39.a
+		add_manpower = -10000
 		swap_ideas = {
 			remove_idea = GAL_moon_colony
 			add_idea = GAL_moon_mars_colony

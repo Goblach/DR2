@@ -323,6 +323,7 @@ economy_decisions = {
 		}
 		days_remove = 50
 		remove_effect = {
+			add_manpower = -10000
 			add_ideas = GAL_moon_colony
 		}
 	}
