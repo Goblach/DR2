@@ -768,4 +768,19 @@ spriteTypes = {
 		name = "GFX_report_event_dkr_znachyok_push"
 		texturefile = "gfx/event_pictures/report_event_dkr_znachyok_push.dds"
 	}
+	
+		spriteType = {
+		name = "GFX_news_event_GAL_pushnoy_centre"
+		texturefile = "gfx/event_pictures/news_event_GAL_pushnoy_centre.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_GAL_pushnoy_left"
+		texturefile = "gfx/event_pictures/news_event_GAL_pushnoy_left.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_GAL_pushnoy_right"
+		texturefile = "gfx/event_pictures/news_event_GAL_pushnoy_right.dds"
+	}
 }

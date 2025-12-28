@@ -1986,7 +1986,7 @@ news_event = { #Левый_Пушной_объединяет_Россию
     id = dk_news.97
 	title = dk_news.97.t
 	desc = dk_news.97.d
-	picture = GFX_news_event_GAL_unite_left
+	picture = GFX_news_event_GAL_pushnoy_left
 	
 	is_triggered_only = yes
 	
@@ -2004,7 +2004,7 @@ news_event = { #Центральный_Пушной_объединяет_Рос�
     id = dk_news.98
 	title = dk_news.98.t
 	desc = dk_news.98.d
-	picture = GFX_news_event_GAL_unite_centre
+	picture = GFX_news_event_GAL_pushnoy_centre
 	
 	is_triggered_only = yes
 	
@@ -2022,7 +2022,7 @@ news_event = { #Правый_Пушной_объединяет_Россию
     id = dk_news.99
 	title = dk_news.99.t
 	desc = dk_news.99.d
-	picture = GFX_news_event_GAL_unite_right
+	picture = GFX_news_event_GAL_pushnoy_right
 	
 	is_triggered_only = yes
 	

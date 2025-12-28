@@ -1361,6 +1361,9 @@ focus_tree = {
 				NOT = { has_completed_focus = GAL_cowboyi }
 			}
 		}
+		ai_will_do = {
+			factor = 100
+		}
 		x = 45
 		y = 1
 		completion_reward = {
@@ -1769,6 +1772,12 @@ focus_tree = {
 				bonus = 1
 				uses = 1
 				category = artillery
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = railway_gun }
+				}
+				set_technology = { railway_gun = 1 }
 			}
 			create_railway_gun = {
 				equipment = railway_gun_equipment_1

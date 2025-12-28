@@ -277,14 +277,14 @@ ideas = {
 		    }
 			
 			GAL_tecnocratia = {
-	
+			   picture = generic_research_bonus
 			   modifier = {
 			   political_power_gain = -0.05
 				research_speed_factor = 0.1
 			   }
 		    }
 			GAL_tecnocratia_2 = {
-	
+			   picture = generic_research_bonus
 			   modifier = {
 			   political_power_gain = -0.1
 				research_speed_factor = 0.2
@@ -467,20 +467,23 @@ ideas = {
 				}
 			}
 			GAL_spartanism_1 = {
+				picture = gre_venerate_the_ancient_hellenes_hoplite
 				modifier = {
 				 research_speed_factor = 0.03
-				 production_lack_of_resource_penalty_factor = 0.05
+				 production_lack_of_resource_penalty_factor = -0.05
 				 consumer_goods_factor = -0.03
 				}
 			}
 			GAL_spartanism_2 = {
+				picture = gre_venerate_the_ancient_hellenes_hoplite
 				modifier = {
 				 research_speed_factor = 0.06
-				 production_lack_of_resource_penalty_factor = 0.1
+				 production_lack_of_resource_penalty_factor = -0.1
 				 consumer_goods_factor = -0.06
 				}
 			}
 			GAL_meat = {
+				picture = generic_supply_depot
 				modifier = {
 				 army_strength_factor = 0.1
 				 supply_consumption_factor  = -0.05
@@ -489,6 +492,7 @@ ideas = {
 				}
 			}
 			GAL_meat_2 = {
+				picture = generic_supply_depot
 				modifier = {
 				 army_strength_factor = 0.2
 				 supply_consumption_factor  = -0.1
@@ -497,12 +501,14 @@ ideas = {
 				}
 			}
 			GAL_war_idiokracy = {
+				picture = FRA_scw_intervention_nationalists_focus
 				modifier = {
 				 war_stability_factor = 0.15
 				 weekly_casualties_war_support = 0.005
 				}
 			}
 			GAL_otmena_turem_idea = {
+				picture = generic_prisoner
 				modifier = {
 				 stability_factor = -0.1
 				 local_resources_factor = 0.1
@@ -518,6 +524,7 @@ ideas = {
 				}
 			}
 			GAL_ierarhiya_tehnokratii = {
+				picture = tur_etatism_bonus
 				modifier = {
 				 political_power_gain = 0.05
 				 political_advisor_cost_factor = -0.15
@@ -527,6 +534,7 @@ ideas = {
 				}
 			}
 			GAL_banya = {
+				picture = FIN_maan_turva
 				modifier = {
 				 political_power_gain = 0.1
 				 intelligence_agency_defense = 0.5
@@ -558,6 +566,7 @@ ideas = {
 				}
 			}
 			GAL_nauka_i_iskusstvo = {
+				picture = rom_carol_ii_hedonist
 				modifier = {
 				 political_power_factor = 0.05
 				 stability_factor = 0.05
@@ -567,6 +576,7 @@ ideas = {
 				}
 			}
 			GAL_renesans = {
+				picture = SOV_the_true_tsars
 				modifier = {
 				 political_power_factor = 0.1
 				 stability_factor = 0.1
@@ -583,6 +593,7 @@ ideas = {
 				}
 			}
 			GAL_kasty = {
+				picture = saf_history_of_segregation
 				modifier = {
 				 stability_factor = -0.1
 				 political_power_factor = 0.05
@@ -644,6 +655,7 @@ ideas = {
 				}
 			}
 			GAL_moon_colony = { 
+				picture = ast_all_in
 				modifier = {
 					country_resource_aluminium = 10
 					country_resource_steel = 10
@@ -651,10 +663,12 @@ ideas = {
 				}
 			}
 			GAL_moon_mars_colony = { 
+				picture = ast_all_in
 				modifier = {
 					country_resource_aluminium = 20
 					country_resource_steel = 20
 					country_resource_chromium = 20
+					country_resource_tungsten = 10
 				}
 			}
 			GAL_odealo = {

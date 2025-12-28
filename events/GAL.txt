@@ -368,6 +368,7 @@ country_event = {
 		tag = GAL
 		has_completed_focus = GAL_Boyarshinov_3
 		NOT = { has_completed_focus = GAL_osoznanie }
+		GAL_Boyarshinov = {	is_country_leader = no }
 	}
 	
 	mean_time_to_happen = { months = 6 }
@@ -861,12 +862,16 @@ country_event = {
 	
 	option = {
 	name = GAL.35.a
-		retire_character = GAL_sndk
-		retire_character = GAL_Boyarshinov
-		retire_character = GAL_Deb
-		retire_character = GAL_Savvateev
-		retire_character = GAL_Toples
-		retire_character = GAL_Panchin
+		hidden_effect = {
+			retire_character = GAL_sndk
+			retire_character = GAL_Boyarshinov
+			retire_character = GAL_Deb
+			retire_character = GAL_Savvateev
+			retire_character = GAL_Toples
+			retire_character = GAL_Panchin
+			retire_character = YSK_Dmitriy_Rogozin
+		}
+		custom_effect_tooltip = GAL_OSO_TT
 		add_advisor_role = {
 			activate = yes
 			character = GAL_oso
@@ -918,6 +923,9 @@ country_event = {
 	
 	option = {
 	name = GAL.36.b
+		trigger = {
+			has_completed_focus = GAL_Deb_3
+		}
 		add_country_leader_role = { 
 			character = GAL_Deb
 			promote_leader = yes
@@ -936,6 +944,26 @@ country_event = {
 	
 	option = {
 	name = GAL.36.c
+		trigger = {
+			OR = {
+				AND = {
+					has_character = GAL_Panchin
+					has_completed_focus = GAL_Panchin_3
+				}
+				AND = {
+					has_character = GAL_Boyarshinov
+					has_completed_focus = GAL_Boyarshinov_3
+				}
+				AND = {
+					has_character = GAL_Toples
+					has_completed_focus = GAL_Toples_3
+				}
+				AND = {
+					has_character = YSK_Dmitriy_Rogozin
+					has_completed_focus = GAL_Rogozin_3
+				}
+			}
+		}
 		add_manpower = -10000
 		add_stability = -0.1
 		add_war_support = -0.1
@@ -958,6 +986,7 @@ country_event = {
 	name = GAL.37.1
 		trigger = {
 			has_character = GAL_Panchin
+			has_completed_focus = GAL_Panchin_3
 		}
 		retire_character = GAL_Deb
 		retire_character = GAL_sndk
@@ -979,6 +1008,7 @@ country_event = {
 	name = GAL.37.2
 		trigger = {
 			has_character = GAL_Boyarshinov
+			has_completed_focus = GAL_Boyarshinov_3
 		}
 		retire_character = GAL_Deb
 		retire_character = GAL_sndk
@@ -998,6 +1028,7 @@ country_event = {
 	name = GAL.37.3
 		trigger = {
 			has_character = GAL_Toples
+			has_completed_focus = GAL_Toples_3
 		}
 		retire_character = GAL_Deb
 		retire_character = GAL_sndk
@@ -1018,7 +1049,7 @@ country_event = {
 		trigger = {
 			AND = {
 				has_character = YSK_Dmitriy_Rogozin
-				has_completed_focus = GAL_Rogozin_2
+				has_completed_focus = GAL_Rogozin_3
 			}
 		}
 		retire_character = GAL_Deb
@@ -1069,6 +1100,7 @@ country_event = {
 	
 	option = {
 	name = GAL.39.a
+		add_manpower = -10000
 		swap_ideas = {
 			remove_idea = GAL_moon_colony
 			add_idea = GAL_moon_mars_colony

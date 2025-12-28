@@ -1039,6 +1039,7 @@ DR_form_russian_state_decisions_category = {
 		}
 		
 		available = {
+			has_completed_focus = GAL_proekt_galileo
 			controls_state = 195
 			controls_state = 219
 			controls_state = 217
@@ -1074,6 +1075,7 @@ DR_form_russian_state_decisions_category = {
 		}
 		
 		available = {
+			has_completed_focus = GAL_osoznanie
 			controls_state = 195
 			controls_state = 219
 			controls_state = 217
@@ -1109,6 +1111,7 @@ DR_form_russian_state_decisions_category = {
 		}
 		
 		available = {
+			has_completed_focus = GAL_proekt_complimintetion
 			controls_state = 195
 			controls_state = 219
 			controls_state = 217

@@ -2,7 +2,7 @@ ideas = {
        country = {
 	        ZNS_uchilel_v_armii = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = tfv_can_conscription_crisis 
 			
 			    removal_cost = -1 
 				
@@ -16,7 +16,7 @@ ideas = {
 		   
 		    ZNS_prodvizheniye_svoikh = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = generic_intel_bonus 
 			
 			    removal_cost = -1 
 				
@@ -31,7 +31,7 @@ ideas = {
 			
 			ZNS_RevDrop = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = trotskyite_plot_purged 
 			
 			    removal_cost = -1 
 				
@@ -47,7 +47,7 @@ ideas = {
 			
 			ZNS_posledstviya_gv = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = great_depression 
 			
 			    removal_cost = -1 
 				
@@ -66,7 +66,7 @@ ideas = {
 			
 			ZNS_posledstviya_gv_1 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = great_depression 
 			
 			    removal_cost = -1 
 				
@@ -85,7 +85,7 @@ ideas = {
 			
 			ZNS_posledstviya_gv_2 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = great_depression 
 			
 			    removal_cost = -1 
 				
@@ -104,7 +104,7 @@ ideas = {
 			
 			ZNS_szhech_dolgi = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = spr_class_war 
 			
 			    removal_cost = -1 
 				
@@ -118,7 +118,7 @@ ideas = {
 			
 			ZNS_natsionalizirovat_Kraskon = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = SOV_second_five_year_plan 
 			
 			    removal_cost = -1 
 				
@@ -132,7 +132,7 @@ ideas = {
 			
 			ZNS_revolyutsiya_navsegda= {
 		
-			    picture = chi_incompetent_officers 
+			    picture = home_of_the_revolution 
 			
 			    removal_cost = -1 
 				
@@ -150,7 +150,7 @@ ideas = {
 			
 			ZNS_Stalin_ili_Trotskiy = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = generic_rev_army 
 			
 			    removal_cost = -1 
 				
@@ -169,7 +169,7 @@ ideas = {
 			
 			ZNS_goneniya_na_byurokratiyu = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = generic_purge 
 			
 			    removal_cost = -1 
 				
@@ -187,7 +187,7 @@ ideas = {
 			
 			ZNS_Trotskiy = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = fourth_international 
 			
 			    removal_cost = -1 
 				
@@ -205,7 +205,7 @@ ideas = {
 			
 			ZNS_Trotskiy_1 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = fourth_international 
 			
 			    removal_cost = -1 
 				
@@ -223,7 +223,7 @@ ideas = {
 			
 			ZNS_Trotskiy_2 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = fourth_international 
 			
 			    removal_cost = -1 
 				
@@ -256,7 +256,7 @@ ideas = {
 			
 			ZNS_novyye_lishentsy = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = prc_low_popular_support3 
 			
 			    removal_cost = -1 
 				
@@ -272,7 +272,7 @@ ideas = {
 			
 			ZNS_podchinit_partgos_apparutu = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = tur_etatism 
 			
 			    removal_cost = -1 
 				
@@ -290,7 +290,7 @@ ideas = {
 			
 			ZNS_Stalin = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = nkvd_2 
 			
 			    removal_cost = -1 
 				
@@ -308,7 +308,7 @@ ideas = {
 			
 			ZNS_Stalin_1 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = nkvd_2 
 			
 			    removal_cost = -1 
 				
@@ -326,7 +326,7 @@ ideas = {
 			
 			ZNS_Stalin_2 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = nkvd_2 
 			
 			    removal_cost = -1 
 				
@@ -346,7 +346,7 @@ ideas = {
 			
 			ZNS_trud_zaklyuchonnykh = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = saf_history_of_segregation 
 			
 			    removal_cost = -1 
 				
@@ -361,7 +361,7 @@ ideas = {
 			
 			ZNS_podderzhat_maloye_predprinimatelstvo = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = can_wartime_prices_and_trade_board 
 			
 			    removal_cost = -1 
 				
@@ -377,7 +377,7 @@ ideas = {
 			
 			ZNS_sov_obzhepit = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = eng_for_the_good_of_the_revolution 
 			
 			    removal_cost = -1 
 				
@@ -393,7 +393,7 @@ ideas = {
 			
 			ZNS_tri_stati_dlya_vstupleniya_v_partiyu = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = SOV_system_decentralization 
 			
 			    removal_cost = -1 
 				
@@ -409,7 +409,7 @@ ideas = {
 			
 			ZNS_donaty_partii = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = SOV_system_decentralization 
 			
 			    removal_cost = -1 
 				
@@ -426,7 +426,7 @@ ideas = {
 			
 			ZNS_zhenshchiny_v_armii = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = AUS_women_in_academia 
 			
 			    removal_cost = -1 
 				
@@ -441,7 +441,7 @@ ideas = {
 			
 			ZNS_goskruzhki = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = generic_pp_unity_bonus. 
 			
 			    removal_cost = -1 
 				
@@ -456,7 +456,7 @@ ideas = {
 			
 			ZNS_levyy_nauchop = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = jap_the_unthinkable_option 
 			
 			    removal_cost = -1 
 				
@@ -471,7 +471,7 @@ ideas = {
 			
 			ZNS_profsoyuz_Uchitel  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = jap_supremacy_of_technology 
 			
 			    removal_cost = -1 
 				
@@ -485,7 +485,7 @@ ideas = {
 			
 			ZNS_profsoyuz_Uchitel_1  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = jap_supremacy_of_technology 
 			
 			    removal_cost = -1 
 				
@@ -500,7 +500,7 @@ ideas = {
 			
 			ZNS_profsoyuz_Krestyanin  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = POL_looming_peasants_strike 
 			
 			    removal_cost = -1 
 				
@@ -515,7 +515,7 @@ ideas = {
 			
 			ZNS_profsoyuz_Krestyanin_1  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = POL_looming_peasants_strike 
 			
 			    removal_cost = -1 
 				
@@ -530,7 +530,7 @@ ideas = {
 			
 			ZNS_profsoyuz_Uchonyy  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = SOV_atomic_bomb_project 
 			
 			    removal_cost = -1 
 				
@@ -544,7 +544,7 @@ ideas = {
 			
 			ZNS_profsoyuz_Uchonyy_1  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = SOV_atomic_bomb_project 
 			
 			    removal_cost = -1 
 				
@@ -558,7 +558,7 @@ ideas = {
 			
 			ZNS_profsoyuz_Rabochiy  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = generic_production_bonus 
 			
 			    removal_cost = -1 
 				
@@ -573,7 +573,7 @@ ideas = {
 			
 			ZNS_profsoyuz_Rabochiy_1  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = generic_production_bonus
 			
 			    removal_cost = -1 
 				
@@ -589,7 +589,7 @@ ideas = {
 			
 			ZNS_profsoyuz_Kurer  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = air_war_plans_division 
 			
 			    removal_cost = -1 
 				
@@ -604,7 +604,7 @@ ideas = {
 			
 			ZNS_profsoyuz_Kurer_1  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = air_war_plans_division 
 			
 			    removal_cost = -1 
 				
@@ -620,7 +620,7 @@ ideas = {
 			
 			ZNS_federatsiya_profsoyuzov  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = eng_spirit_of_the_industrial_revolution 
 			
 			    removal_cost = -1 
 				
@@ -640,7 +640,7 @@ ideas = {
 			
 			ZNS_repkory_v_voyskah  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = mex_revolutionary_army 
 			
 			    removal_cost = -1 
 				
@@ -655,7 +655,7 @@ ideas = {
 			
 			ZNS_dvigaysya_dvigaysya_dvigaysya  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = ITA_bandits_war 
 			
 			    removal_cost = -1 
 				
@@ -669,7 +669,7 @@ ideas = {
 			
 			ZNS_davay_gazochku_pribavlyay  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = ITA_bandits_war 
 			
 			    removal_cost = -1 
 				
@@ -723,7 +723,7 @@ ideas = {
 			
 			ZNS_army_Budonnyy  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = ETH_national_studs 
 			
 			    removal_cost = -1 
 				
@@ -738,7 +738,7 @@ ideas = {
 			
 			ZNS_army_Budonnyy_1  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = ETH_national_studs  
 			
 			    removal_cost = -1 
 				
@@ -753,7 +753,7 @@ ideas = {
 			}
 			ZNS_army_Budonnyy_2  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = ETH_national_studs  
 			
 			    removal_cost = -1 
 				
@@ -768,7 +768,7 @@ ideas = {
 			}
 			ZNS_army_Budonnyy_3  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = ETH_national_studs  
 			
 			    removal_cost = -1 
 				
@@ -785,7 +785,7 @@ ideas = {
 			}
 			ZNS_army_Budonnyy_4  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = ETH_national_studs  
 			
 			    removal_cost = -1 
 				
@@ -803,7 +803,7 @@ ideas = {
 			}
 			ZNS_mass_motorization  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = generic_supply_lines 
 			
 			    removal_cost = -1 
 				
@@ -823,7 +823,7 @@ ideas = {
 		    }
 			ZNS_stalnaya_vilna  = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = generic_acquire_tanks 
 			
 			    removal_cost = -1 
 				
@@ -840,7 +840,7 @@ ideas = {
 			}
 			ZNS_znamya_burzh_svobod = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = generic_democratic_drift_bonus 
 			
 			    removal_cost = -1 
 				
@@ -854,7 +854,7 @@ ideas = {
 			}
 			ZNS_otklyuchit_tserkov_ot_finansirovaniya = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = SOV_a_church_of_the_catacombs 
 			
 			    removal_cost = -1 
 				
@@ -867,7 +867,7 @@ ideas = {
 			}
 			ZNS_antikrinzh_protest = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = anti_soviet_pact 
 			
 			    removal_cost = -1 
 				
@@ -884,7 +884,7 @@ ideas = {
 			}
 			ZNS_antikrinzh_protest_1 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = anti_soviet_pact 
 			
 			    removal_cost = -1 
 				
@@ -901,7 +901,7 @@ ideas = {
 			}
 			ZNS_antikrinzh_protest_2 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = anti_soviet_pact 
 			
 			    removal_cost = -1 
 				
@@ -918,7 +918,7 @@ ideas = {
 			}
 			ZNS_antikrinzh_protest_3 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = anti_soviet_pact 
 			
 			    removal_cost = -1 
 				
@@ -935,7 +935,7 @@ ideas = {
 			}
 			ZNS_antikrinzh_protest_4 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = anti_soviet_pact 
 			
 			    removal_cost = -1 
 				
@@ -952,7 +952,7 @@ ideas = {
 			}
 			ZNS_antikrinzh_protest_5 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = anti_soviet_pact 
 			
 			    removal_cost = -1 
 				
@@ -969,7 +969,7 @@ ideas = {
 			}
 			ZNS_antikrinzh_protest_6 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = anti_soviet_pact 
 			
 			    removal_cost = -1 
 				
@@ -986,7 +986,7 @@ ideas = {
 			}
 			ZNS_sverhchelovek = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = SOV_war_heroes 
 			
 			    removal_cost = -1 
 				
@@ -998,7 +998,7 @@ ideas = {
 			}
 			ZNS_sverhchelovek_1 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = SOV_war_heroes 
 			
 			    removal_cost = -1 
 				
@@ -1012,7 +1012,7 @@ ideas = {
 			}
 			ZNS_sverhchelovek_2 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = SOV_war_heroes 
 			
 			    removal_cost = -1 
 				
@@ -1027,7 +1027,7 @@ ideas = {
 			}
 			ZNS_sverhchelovek_3 = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = SOV_war_heroes 
 			
 			    removal_cost = -1 
 				
@@ -1042,7 +1042,7 @@ ideas = {
 			}
 			ZNS_eksperimentalnaya_metodika_lecheniya_shizy = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = cht_shizofrenia 
 			
 			    removal_cost = -1 
 				
@@ -1061,7 +1061,7 @@ ideas = {
 			}
 			ZNS_translytsiya_BBT_vnutri_strani = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = officers_purged 
 			
 			    removal_cost = -1 
 				
@@ -1074,7 +1074,7 @@ ideas = {
 			}
 			ZNS_translytsiya_BBT_v_drugie_strani = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = officers_purged 
 			
 			    removal_cost = -1 
 				
@@ -1089,7 +1089,7 @@ ideas = {
 			}
 			ZNS_vozdeysvie_BBT = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = officers_purged 
 			
 			    removal_cost = -1 
 				
@@ -1104,7 +1104,7 @@ ideas = {
 			}
 			ZNS_eksperimenti_nad_yspevaimostu = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = jap_duplicate_research 
 			
 			    removal_cost = -1 
 				
@@ -1117,7 +1117,7 @@ ideas = {
 			}
 			ZNS_new_korenization = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = generic_morale_bonus 
 			
 			    removal_cost = -1 
 				
