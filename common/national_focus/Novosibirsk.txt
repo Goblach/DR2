@@ -1361,6 +1361,9 @@ focus_tree = {
 				NOT = { has_completed_focus = GAL_cowboyi }
 			}
 		}
+		ai_will_do = {
+			factor = 100
+		}
 		x = 45
 		y = 1
 		completion_reward = {
