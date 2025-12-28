@@ -1770,6 +1770,12 @@ focus_tree = {
 				uses = 1
 				category = artillery
 			}
+			if = {
+				limit = {
+					NOT = { has_tech = railway_gun }
+				}
+				set_technology = { railway_gun = 1 }
+			}
 			create_railway_gun = {
 				equipment = railway_gun_equipment_1
 			}
