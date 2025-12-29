@@ -92,7 +92,7 @@ DR_dela_chumnogo_pakta = {
 			factor = 100
 		}
 	}
-}
+
 	#Интеграция_клик_по_завершении_их_экономического_развития
 	LAZ_annex_ChAT = {
 	    
@@ -111,7 +111,7 @@ DR_dela_chumnogo_pakta = {
 		available = {
 			CHT = {
 				is_puppet_of = LAZ
-				has_completed_focus = CHT_razvitoy_socialism 
+				has_completed_focus = CHT_vozrat_k_doky
 				has_government = vmestolev
 			}
 		}
@@ -148,7 +148,6 @@ DR_dela_chumnogo_pakta = {
 		available = {
 			ARK = {
 				is_puppet_of = LAZ
-				#has_completed_focus = ARK_integratsiya_v_lazaret
 				OR = {
 					has_government = vmestolev
 					has_government = anarhostalinism
@@ -188,7 +187,7 @@ DR_dela_chumnogo_pakta = {
 		available = {
 			UNT = {
 				is_puppet_of = LAZ
-				#has_completed_focus = UNT_integratsiya_v_lazaret
+				
 				OR = {
 					has_government = vmestolev
 					has_government = anarhostalinism
@@ -228,7 +227,6 @@ DR_dela_chumnogo_pakta = {
 		available = {
 			MAT = {
 				is_puppet_of = LAZ 
-				has_completed_focus = MAT_integratsiya_v_lazaret
 				OR = {
 					has_government = metacommy
 					has_government = vmestolev
