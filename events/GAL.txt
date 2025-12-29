@@ -182,7 +182,7 @@ country_event = {
 	id = GAL.9
 	title = GAL.9.t
 	desc = GAL.9.d
-	picture = GFX_report_event_dkr_solzh_golova
+	picture = GFX_report_event_dkr_provoda
 	trigger = {
 		tag = GAL
 	}
@@ -204,7 +204,7 @@ country_event = {
 	id = GAL.10
 	title = GAL.10.t
 	desc = GAL.10.d
-	picture = GFX_report_event_dkr_solzh_golova
+	picture = GFX_report_event_physics_lab_01
 	trigger = {
 		tag = GAL
 		has_government = fascism
@@ -906,7 +906,7 @@ country_event = {
 	id = GAL.36
 	title = GAL.36.t
 	desc = GAL.36.d
-	picture = GFX_report_event_dkr_solzh_golova
+	picture = GFX_report_event_physics_lab_01
 	trigger = {
 		tag = GAL
 	}
@@ -975,7 +975,7 @@ country_event = {
 	id = GAL.37
 	title = GAL.37.t
 	desc = GAL.37.d
-	picture = GFX_report_event_dkr_solzh_golova
+	picture = GFX_report_event_physics_lab_02
 	trigger = {
 		tag = GAL
 	}
