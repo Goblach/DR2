@@ -1,0 +1,25 @@
+#Особенности_национальной_географии
+
+DR_iskazheniye_karti_modifier_high = { 
+	
+	enable = { always = yes }
+	icon = GFX_modifiers_generic_military_plans
+	
+	army_speed_factor = 0.40
+	local_supply_impact_factor = -0.1
+}
+DR_iskazheniye_karti_modifier_medium = { 
+	
+	enable = { always = yes }
+	icon = GFX_modifiers_generic_military_plans
+	
+	army_speed_factor = 0.20
+	local_supply_impact_factor = -0.05
+}
+DR_iskazheniye_karti_modifier_low = { 
+	
+	enable = { always = yes }
+	icon = GFX_modifiers_generic_military_plans
+	
+	army_speed_factor = 0.10
+}

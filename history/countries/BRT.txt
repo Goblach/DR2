@@ -13,9 +13,13 @@ set_technology = {
 
 recruit_character = BRT_kodzima
 
+565 = {
+	add_dynamic_modifier = { modifier = DR_iskazheniye_karti_modifier_small }
+}
+
 add_ideas = {
-BRT_new_rodina_anime
-BRT_borba_za_vlast
+	BRT_new_rodina_anime
+	BRT_borba_za_vlast
 }
 
 set_popularities = {

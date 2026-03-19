@@ -34,7 +34,15 @@ YAK_war_against_devils
 
 add_timed_idea = { idea = MAG_war_za_DV days = 1460 }
 
-
+876 = {
+	add_dynamic_modifier = { modifier = DR_iskazheniye_karti_modifier_high }
+}
+877 = {
+	add_dynamic_modifier = { modifier = DR_iskazheniye_karti_modifier_high }
+}
+574 = {
+	add_dynamic_modifier = { modifier = DR_iskazheniye_karti_modifier_medium }
+}
 set_popularities = {
 	fascism = 100
 }

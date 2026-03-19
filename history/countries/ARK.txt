@@ -38,6 +38,19 @@ set_politics = {
 
 set_convoys = 100
 
+879 = {
+	add_dynamic_modifier = { modifier = DR_iskazheniye_karti_modifier_low }
+}
+880 = {
+	add_dynamic_modifier = { modifier = DR_iskazheniye_karti_modifier_low }
+}
+214 = {
+	add_dynamic_modifier = { modifier = DR_iskazheniye_karti_modifier_low }
+}
+825 = {
+	add_dynamic_modifier = { modifier = DR_iskazheniye_karti_modifier_medium }
+}
+
 	create_equipment_variant = {
 		name = "Класс Курочка"				
 		type = ship_hull_submarine_1
