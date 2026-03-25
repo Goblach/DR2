@@ -21,7 +21,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3
+		start_year = 1936
 
 		enable_equipments = {
 			bhammer_equipment_1
@@ -32,16 +32,20 @@ technologies = {
 		}
 	}
 
-	MRD_urukhai_battalion_tech = {
+	urukhai_battalion_tech = {		#ЭТО_ТЕХНОЛОГИЯ
 
 		allow = {
 			always = no
 		}
 
 		research_cost = 1
-		start_year = 3
-
-		enable_subunits = {
+		start_year = 1936
+		
+		enable_equipments = {			#ЭТО_ЭКИПИРОВКА
+			urki_equipment_1
+		}
+		
+		enable_subunits = {				#ЭТО_ЮНИТ
 			urki_assault_battalion
 		}
 	}

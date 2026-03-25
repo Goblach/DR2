@@ -21,9 +21,15 @@ ideas = {
 				local_resources_factor = -1.0
 				drift_defence_factor = 1.0
 				conscription = -1.0
-				research_speed_factor = -9.0
+				research_speed_factor = -10.0
 				enemy_justify_war_goal_time = 99.99
-				weekly_manpower = -700
+				weekly_manpower = -1000
+				trade_opinion_factor = -1
+				trade_opinion_factor = -1
+				production_factory_max_efficiency_factor = -1
+				production_factory_efficiency_gain_factor = -0.085
+				production_speed_buildings_factor = -2
+				consumer_goods_expected_value = 1
 			}
 		}
 	}
