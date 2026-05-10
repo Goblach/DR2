@@ -10,7 +10,7 @@ set_technology = {
 	tech_trucks = 1
 	bicycle_infantry = 1
 	basic_train = 1
-	tech_militias = 1
+	militia_tech = 1
 }
 
 recruit_character = ALB_Semen
