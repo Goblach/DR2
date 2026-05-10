@@ -37,12 +37,21 @@ recruit_character = SKT_Gamburg
 recruit_character = SKT_sovet_borodachey
 
 add_ideas = {
-limited_conscription
-low_economic_mobilisation
-PRM_ural_karapuz
-SKT_hui_ded_Maksim
+	limited_conscription
+	low_economic_mobilisation
+	PRM_ural_karapuz
+	SKT_hui_ded_Maksim
 }
 
+397 = {
+	add_dynamic_modifier = { modifier = DR_iskazheniye_karti_modifier_low }
+}
+262 = {
+	add_dynamic_modifier = { modifier = DR_iskazheniye_karti_modifier_low }
+}
+581 = {
+	add_dynamic_modifier = { modifier = DR_iskazheniye_karti_modifier_low }
+}
 set_popularities = {
 	memoism = 100
 }

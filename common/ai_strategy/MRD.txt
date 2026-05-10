@@ -1,0 +1,57 @@
+MRD_operation_usilit_partizan_operatsii_strat = {
+	allowed = {
+		tag = MRD
+	}
+	
+	enable = {
+		tag = MRD
+		has_country_flag = MRD_uspeshniy_reid_country_flag
+	}
+	
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = operative_operation
+		operation = MRD_operation_usilit_partizan
+		value = 1200
+		operation_target = POK
+	}
+}
+MRD_operation_koridor_dlya_bezhentsev_operatsii_strat = {
+	allowed = {
+		tag = MRD
+	}
+	
+	enable = {
+		tag = MRD
+		has_country_flag = MRD_uspeshniy_reid_country_flag
+	}
+	
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = operative_operation
+		operation = MRD_operation_koridor_dlya_bezhentsev
+		value = 1200
+		operation_target = POK
+	}
+}
+MRD_operation_cherniy_rinok_operatsii_strat = {
+	allowed = {
+		tag = MRD
+	}
+	
+	enable = {
+		tag = MRD
+		has_country_flag = MRD_uspeshniy_reid_country_flag
+	}
+	
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = operative_operation
+		operation = MRD_operation_cherniy_rinok
+		value = 1200
+		operation_target = POK
+	}
+}

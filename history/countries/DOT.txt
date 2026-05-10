@@ -37,6 +37,11 @@ set_technology = {
 	basic_battery = 1
 	basic_torpedo = 1
 }
+
+637 = {
+	add_dynamic_modifier = { modifier = DR_iskazheniye_karti_modifier_medium }
+}
+
 starting_train_buffer = 3.0
 set_convoys = 40
 
