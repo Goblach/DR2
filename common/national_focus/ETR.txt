@@ -1,0 +1,199 @@
+focus_tree = {
+	id = ETR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ETR
+		}
+	}
+	default = no
+	focus = {
+		id = ETR_rus_iznachalnaya
+		icon = GFX_goal_unknown
+		cost = 3,00
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = ETR_nyzni_vse
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = ETR_rus_iznachalnaya
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = ETR_rodokommie
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = ETR_nyzni_vse
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = ETR_krasnie_volhvi
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_rodokommie
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = ETR_pustit_bronepoezda
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_krasnie_volhvi
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = ETR_hristoyazichniki
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = ETR_nyzni_vse
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = ETR_religiozniy_sinkretizm
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_hristoyazichniki
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = ETR_monarhoslavanisti
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = ETR_nyzni_vse
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = ETR_polit_cveti
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = ETR_hristoyazichniki
+		}
+		prerequisite = {
+			focus = ETR_monarhoslavanisti
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = ETR_druzhina
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_monarhoslavanisti
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = ETR_tehniki_stroitelstva_predkov
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_religiozniy_sinkretizm
+		}
+		prerequisite = {
+			focus = ETR_druzhina
+		}
+		prerequisite = {
+			focus = ETR_polit_cveti
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = ETR_veduni_sibiri
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = ETR_nyzni_vse
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = ETR_volshebnoe_zelie
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_veduni_sibiri
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = ETR_boevoy_telekenez
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_volshebnoe_zelie
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = ETR_i_vse_kto_v_lesu
+		icon = GFX_goal_unknown
+		cost = 7,00
+		prerequisite = {
+			focus = ETR_pustit_bronepoezda
+		}
+		prerequisite = {
+			focus = ETR_tehniki_stroitelstva_predkov
+		}
+		prerequisite = {
+			focus = ETR_boevoy_telekenez
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = ETR_Sekrets_Papstva
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = ETR_i_vse_kto_v_lesu
+		}
+		x = 13
+		y = 6
+
+	}
+}
