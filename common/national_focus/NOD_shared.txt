@@ -1545,7 +1545,9 @@ CRI = {
 		x = 45
 		y = 4
 		completion_reward = {
-			add_timed_idea = { idea = NOD_plan_Yug days = 90 }         
+			add_timed_idea = { idea = NOD_plan_Yug days = 90 }  
+			add_state_claim = 232
+			add_state_claim = 821		
 			create_wargoal = {
 				type = annex_everything
 				target = CHK
