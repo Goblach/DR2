@@ -12,6 +12,7 @@ set_technology = {
 
 recruit_character = RES_Soloviow
 recruit_character = RES_Anchovy
+recruit_character = RES_Viktoria_Bonya
 
 add_ideas = {
 limited_conscription
@@ -19,7 +20,12 @@ low_economic_mobilisation
 }
 
 set_popularities = {
-	fascism = 100
+	fascism = 46
+	neutrality = 26
+	vmestolev = 10
+	democratic = 12
+	metacommy = 5
+	anarhostalinism = 1
 }
 set_politics = {
 	ruling_party = fascism

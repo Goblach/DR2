@@ -960,6 +960,18 @@ spriteTypes = {
 		name = "GFX_idea_DON_SexDNR"
 		texturefile = "gfx/interface/ideas/idea_DON_SexDNR.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_ETR_Bazil"
+		texturefile = "gfx/interface/ideas/idea_ETR_Bazil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RES_Viktoria_Bonya"
+		texturefile = "gfx/interface/ideas/idea_RES_Viktoria_Bonya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ETR_Korneplod"
+		texturefile = "gfx/interface/ideas/idea_ETR_Korneplod.dds"
+	}
 	#ВНИМАНИЕ-ПРИСУТСТВУЕТ-АНИМАЦИЯ
 	#spriteType = {
 	#	name = "GFX_POK_novodvorskaya_ap"

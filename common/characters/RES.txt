@@ -34,4 +34,23 @@ characters={
 			legacy_id = 0
 		}
 	}
+	RES_Viktoria_Bonya = {
+		name = "Виктория Боня"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RES/Viktoria_Bonya.dds"
+				small = GFX_idea_RES_Viktoria_Bonya
+			}
+		}
+
+		field_marshal = {
+			traits = { harsh_leader winter_specialist winter_expert trait_mountaineer hidden_sympathies }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
 }

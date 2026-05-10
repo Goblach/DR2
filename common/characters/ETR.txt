@@ -29,8 +29,46 @@ characters={
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	ETR_Bazil = {
+		name = "Василий Подсолнечник"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ETR/Bazil.dds"
+				small = "GFX_idea_ETR_Bazil"
+			}
+		}
+
+		corps_commander = {
+			traits = { hill_fighter ranger }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 4
+			legacy_id = 0
+		}
+	}
+	ETR_Korneplod = {
+		name = "Виктор Корнеплод"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ETR/Korneplod.dds"
+				small = "GFX_idea_ETR_Korneplod"
+			}
+		}
+
+		field_marshal = {
+			traits = { old_guard war_hero jaeger expert_delegator }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 5
 			legacy_id = 0
 		}
 	}

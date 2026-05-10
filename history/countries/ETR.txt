@@ -12,6 +12,8 @@ set_technology = {
 
 recruit_character = ETR_Zadornov
 recruit_character = ETR_Andrboll
+recruit_character = ETR_Bazil
+recruit_character = ETR_Korneplod
 
 add_ideas = {
 limited_conscription
