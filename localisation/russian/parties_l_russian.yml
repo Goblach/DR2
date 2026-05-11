@@ -529,3 +529,20 @@
  KOF_memoism_party_long:0 "Партия любителей виски"
  KOF_metacommy_party:0 "Новая Подлинная КРА"
  KOF_metacommy_party_long:0 "Новая Подлинная Кельтская республиканская армия"
+ ############Кавказ###########
+ GEO_neutrality_party:0 "Гейсовет РГ"
+ GEO_neutrality_party_long:0 "Геймерский совет Республики Грузия"
+ GEO_fascism_party:0 "ЄНР"
+ GEO_fascism_party_long:0 "Єдиний національний рух"
+ ############Кавказ###########
+ RES_fascism_party:0 "РФП"
+ RES_fascism_party_long:0 "Республиканская фашистская партия"
+ ETR_fascism_party:0 "СМС"
+ ETR_fascism_party_long:0 "Союз монархо-славинистов"
+ ETR_neutrality_party:0 "Двор великого князя"
+ ETR_neutrality_party_long:0 "Двор великого князя"
+ ETR_metacommy_party:0 "РКПР"
+ ETR_metacommy_party_long:0 "Родокоммунистическая партия Расенны"
+ ETR_memoism_party:0 "КВС"
+ ETR_memoism_party_long:0 "Конклав ведунов Сибири"
+ 

@@ -1,4 +1,36 @@
 characters={
+	GEO_Saakashvili = {
+		name = "Михаил Саакашвили"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEO/Saakashvili.dds"
+			}
+		}
+
+		country_leader = {
+			traits = { }
+			desc = ""
+			ideology = fascism_ideology
+			expire = "3000.1.1"
+			id = -1
+		}
+	}
+	GEO_Dedpi47 = {
+		name = "Леонид Родин"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEO/Dedpi47.dds"
+			}
+		}
+
+		country_leader = {
+			traits = { pahan }
+			desc = ""
+			ideology = oligarchism
+			expire = "3000.1.1"
+			id = -1
+		}
+	}
 	GEO_Mamulashvili_Mamuka = {
 		name = "Мамука Мамумашвили"
 		portraits = {
@@ -18,4 +50,5 @@ characters={
 			legacy_id = 0
 		}
 	}
+	
 }

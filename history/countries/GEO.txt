@@ -11,6 +11,8 @@ set_technology = {
 }
 
 recruit_character = GEO_Mamulashvili_Mamuka
+recruit_character = GEO_Saakashvili
+recruit_character = GEO_Dedpi47
 
 add_ideas = {
 limited_conscription
@@ -20,7 +22,8 @@ GEO_sotrudnishestvo_s_ukraintsami
 }
 
 set_popularities = {
-	fascism = 100
+	fascism = 65
+	neutrality = 35
 }
 set_politics = {
 	ruling_party = fascism
@@ -29,13 +32,3 @@ set_politics = {
 
 set_convoys = 200
 
-create_country_leader = {
-	name = "Михаил Саакашвили"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Saakashvili.dds"
-	expire = "1999.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}

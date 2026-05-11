@@ -21,7 +21,10 @@ low_economic_mobilisation
 }
 
 set_popularities = {
-	neutrality = 100
+	neutrality = 25
+	memoism = 25
+	fascism = 25
+	metacommy = 25
 }
 set_politics = {
 	ruling_party = neutrality
