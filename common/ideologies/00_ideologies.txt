@@ -30,11 +30,6 @@ ideologies = {
 		
 		color = { 255 43 43 }
 		
-		war_impact_on_world_tension = 1.0			
-		faction_impact_on_world_tension = 1.0
-		
-		ai_fascist = yes 
-		
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
@@ -64,6 +59,11 @@ ideologies = {
 		}
 		
 		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 1.0			
+		faction_impact_on_world_tension = 1.0
+
+		ai_fascist = yes 
 
 	}
 	
@@ -94,11 +94,6 @@ ideologies = {
 		
 		color = { 255 0 0 }
 		
-		war_impact_on_world_tension = 1.0			
-		faction_impact_on_world_tension = 1.0
-		
-		ai_fascist = yes 
-		
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
@@ -127,6 +122,11 @@ ideologies = {
 		}
 		
 		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 1.0			
+		faction_impact_on_world_tension = 1.0
+
+		ai_fascist = yes 
 
 	}
 	
@@ -182,11 +182,6 @@ ideologies = {
 		
 		color = { 146 0 10 }
 		
-		war_impact_on_world_tension = 1.0			
-		faction_impact_on_world_tension = 1.0
-		
-		ai_fascist = yes 
-		
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
@@ -211,10 +206,15 @@ ideologies = {
 		}
 		
 		faction_modifiers = {
-		political_power_factor = 0.5	
+	
 		}
 		
 		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 1.0			
+		faction_impact_on_world_tension = 1.0
+
+		ai_fascist = yes 
 
 	}
 	
@@ -314,9 +314,6 @@ ideologies = {
 		
 		color = { 83 26 80 }
 		
-		war_impact_on_world_tension = 2.0			
-		faction_impact_on_world_tension = 2.0
-		
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
@@ -339,10 +336,13 @@ ideologies = {
 			navy_intel_to_others = 5.0
 			airforce_intel_to_others = 10.0
 		}
-
-		ai_fascist = yes 
 		
 		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 1.0			
+		faction_impact_on_world_tension = 1.0
+
+		ai_fascist = yes 
 	}
 	
 
@@ -397,9 +397,6 @@ ideologies = {
 		
 		color = { 150 75 0 }
 		
-		war_impact_on_world_tension = 1.0			
-		faction_impact_on_world_tension = 1.0
-		
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
@@ -424,6 +421,10 @@ ideologies = {
 		}
 
 		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 1.0			
+		faction_impact_on_world_tension = 1.0
+
 		ai_fascist = yes 
 	}
 	
@@ -460,10 +461,6 @@ ideologies = {
 		
 		color = { 124 124 124 }
 		
-		
-		war_impact_on_world_tension = 1.0		
-		faction_impact_on_world_tension = 1.0
-		
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
@@ -491,10 +488,11 @@ ideologies = {
 		faction_modifiers = {
 		}
 
-		can_be_boosted = no
-		can_collaborate = yes
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 1.0			
+		faction_impact_on_world_tension = 1.0
 
 		ai_fascist = yes 
-		can_host_government_in_exile = yes
 	}
 }

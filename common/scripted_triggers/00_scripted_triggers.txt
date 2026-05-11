@@ -88,31 +88,6 @@ is_controlled_by_ROOT_or_ally = {
 	}
 }
 
-is_csa_state = {
-	OR = {
-		state = 366
-		state = 365
-		state = 367
-		state = 370
-		state = 362
-		state = 363
-		state = 364
-		state = 371
-		state = 375
-		state = 368
-		state = 372
-	}
-}
-
-has_naval_treaty_trigger = {
-	OR = {
-		has_idea = MTG_naval_treaty_adherent
-		has_idea = MTG_naval_treaty_cheating
-		has_idea = MTG_naval_treaty_adherent_reduced
-		has_idea = MTG_naval_treaty_cheating_reduced
-	}
-}
-
 ai_air_doctrine_tier_1_trigger = {
 	OR = {
 		has_tech = naval_strike_tactics
@@ -331,6 +306,18 @@ has_same_ideology = {
 				has_government = neutrality
 				ROOT = { has_government = neutrality }
 			}
+			AND = {
+				has_government = anarhostalinism
+				ROOT = { has_government = anarhostalinism }
+			}
+			AND = {
+				has_government = memoism
+				ROOT = { has_government = memoism }
+			}
+			AND = {
+				has_government = metacommy
+				ROOT = { has_government = metacommy }
+			}
 		}
 	}
 }
@@ -499,13 +486,6 @@ has_subject_autonomy_feature = {
 	#TODO_Manu: More DLCs?
 }
 
-is_organization_of_african_unity_member = {
-	custom_trigger_tooltip = {
-		tooltip = is_league_of_nations_member_tt
-		has_idea = organization_of_african_unity_member_idea
-	}
-}
-
 has_tech_sharing_feature = {
 	OR = {
 		has_dlc = "Together for Victory"
@@ -575,6 +555,10 @@ state_has_any_resource = {
 		}
 		has_resources_amount = {
 			resource = chromium
+			amount > 0
+		}
+		has_resources_amount = {
+			resource = coal
 			amount > 0
 		}
 	}
