@@ -1,0 +1,19 @@
+ideas = {
+		country = {
+	        RES_blackshirts = {
+			picture = generic_manpower_bonus
+				modifier = {
+					conscription = 0.01
+					modifier_army_sub_unit_militia_attack_factor = 0.1
+					modifier_army_sub_unit_militia_defence_factor = 0.1
+				}
+			}
+			RES_Solidarizm = {
+			picture = received_attache
+				modifier = {
+					industrial_capacity_factory = 0.1
+					consumer_goods_factor = -0.1
+				}
+			}
+	   }		
+}

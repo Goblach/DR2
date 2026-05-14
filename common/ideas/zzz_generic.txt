@@ -1752,6 +1752,19 @@ ideas = {
 				consumer_goods_factor = 0.025
 			}
 		}
+		
+		italy_disunited = {
+			on_remove = {
+				add_offsite_building = { type = arms_factory level = -3 }
+			}
+			picture = vittoria_mutilata
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.15
+				war_support_factor = 0.15
+				army_attack_factor = 0.15
+			}
+		}
 	}
 
 	# TECHNOLOGY

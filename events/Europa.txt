@@ -20,10 +20,6 @@ country_event = {
 		news_event = dk_news.30
 	        name = europa.1.a 
                 RES = {			
-		            declare_war_on = {
-		                target = VNR
-		                type = annex_everything
-		            }
 					add_state_claim = 158
 					add_state_claim = 159
 					add_state_claim = 850
@@ -43,7 +39,7 @@ country_event = {
 				}
 				VNR = {			
 					declare_war_on = {
-		                target = ETR
+		                target = RES
 		                type = annex_everything
 		            }
 					add_state_claim = 158

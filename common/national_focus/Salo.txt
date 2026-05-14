@@ -1,0 +1,275 @@
+focus_tree = {
+	id = RES
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RES
+		}
+	}
+	default = no
+	focus = {
+		id = RES_konservativnaya_rev
+		icon = GFX_focus_generic_italy_first
+		cost = 3,00
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = RES_sobrat_sovet
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = RES_konservativnaya_rev
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = RES_chernorubashecniki
+		icon = GFX_focus_ITA_blackshirts
+		cost = 5,00
+		prerequisite = {
+			focus = RES_sobrat_sovet
+		}
+		x = 10
+		y = 2
+		completion_reward = {
+			add_ideas = { RES_blackshirts }
+			division_template = {
+				name = "Чернорубашечники"
+				division_names_group = POK_JBT_01
+
+		        regiments = {
+					militia = { x = 0 y = 0 }
+					militia = { x = 0 y = 1 }
+					militia = { x = 1 y = 0 }
+					militia = { x = 1 y = 1 }
+					militia = { x = 2 y = 0 }
+					militia = { x = 2 y = 1 }
+	            }
+				support = {
+					engineer = { x = 0 y = 0 }
+				}
+			}
+			capital_scope = {
+				create_unit = { 
+					division = "name = \"Чернорубашечники\" division_template = \"Чернорубашечники\" start_experience_factor = 0.3 start_equipment_factor = 1.0" owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"Чернорубашечники\" division_template = \"Чернорубашечники\" start_experience_factor = 0.3 start_equipment_factor = 1.0" owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"Чернорубашечники\" division_template = \"Чернорубашечники\" start_experience_factor = 0.3 start_equipment_factor = 1.0" owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"Чернорубашечники\" division_template = \"Чернорубашечники\" start_experience_factor = 0.3 start_equipment_factor = 1.0" owner = ROOT
+				}
+			}
+		}
+	}
+	focus = {
+		id = RES_Anzio_school
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = RES_chernorubashecniki
+		}
+		x = 10
+		y = 3
+		completion_reward = {
+			RES_Anchovy = {
+				add_attack = 1
+				add_defense = 1
+				add_planning = 1
+				add_logistics = 1
+			}
+			division_template = {
+				name = "Танкетки"
+				division_names_group = POK_JBT_01
+
+		        regiments = {
+					motorized = { x = 0 y = 0 }
+					motorized = { x = 0 y = 1 }
+					motorized = { x = 1 y = 0 }
+					light_armor = { x = 1 y = 1 }
+					light_armor = { x = 2 y = 0 }
+					light_armor = { x = 2 y = 1 }
+	            }
+				support = {
+					engineer = { x = 0 y = 0 }
+				}
+			}
+			capital_scope = {
+				create_unit = { 
+					division = "name = \"Танкетки\" division_template = \"Танкетки\" start_experience_factor = 0.3 start_equipment_factor = 1.0" owner = ROOT
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = RES_dovod_Duce
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = RES_Anzio_school
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = RES_police_state
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = RES_sobrat_sovet
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = RES_otpravit_migrantov_no_front
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = RES_police_state
+		}
+		x = 12
+		y = 3
+		completion_reward = {
+			add_manpower = 50000
+		}
+
+	}
+	focus = {
+		id = RES_organizovat_ohotu_na_migrantov
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = RES_police_state
+		}
+		x = 14
+		y = 3
+		completion_reward = {
+			add_resource = {
+                type = coal
+                amount = 10
+                state = 158
+            }   
+            add_resource = {
+                type = steel
+                amount = 10
+                state = 158
+            }
+		}
+	}
+	focus = {
+		id = RES_SOLIDARIZM
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = RES_otpravit_migrantov_no_front
+		}
+		prerequisite = {
+			focus = RES_organizovat_ohotu_na_migrantov
+		}
+		x = 13
+		y = 4
+		completion_reward = {
+			add_ideas = { RES_Solidarizm }
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = RES_ice_quinn
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = RES_sobrat_sovet
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = RES_Briggs_citadel
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = RES_ice_quinn
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = RES_alpian_strelki
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = RES_Briggs_citadel
+		}
+		x = 15
+		y = 4
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = mountaineers_tech
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = cat_mountaineers_doctrine
+			}
+		}
+	}
+	focus = {
+		id = RES_Giovinezza
+		icon = GFX_goal_unknown
+		cost = 7,00
+		prerequisite = {
+			focus = RES_dovod_Duce
+		}
+		prerequisite = {
+			focus = RES_SOLIDARIZM
+		}
+		prerequisite = {
+			focus = RES_alpian_strelki
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = RES_peregovori_s_papoy
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = RES_Giovinezza
+		}
+		x = 13
+		y = 6
+
+	}
+}
