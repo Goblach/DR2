@@ -1390,7 +1390,7 @@ if = {
 			focus = NOD_nats_iskluchitelnost
 		}
 		available = {
-			num_of_controlled_states > 115
+			num_of_controlled_states > 110
 		}
 		x = 41
 		y = 6
@@ -1413,8 +1413,8 @@ completion_reward = {
 
 				}
 				country_event = { id = nod.32 days = 2  }    #Putin returned
-				load_focus_tree = NOD_putin
-				set_global_flag = NOD_putin_return
+				hidden_effect = {load_focus_tree = NOD_putin
+								set_global_flag = NOD_putin_return}
 				
 				else = {
 				limit = {
