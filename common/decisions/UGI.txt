@@ -167,6 +167,10 @@ UGI_risorgimento = {
 		}
 		complete_effect = {
 			remove_ideas = { italy_disunited }
-		}		
+		}
+		remove_effect = {
+			hidden_effect = {news_event = dk_news.102
+			}
+		}
 	}
 }

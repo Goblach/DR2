@@ -342,7 +342,7 @@ news_event = { # Стариков объединяет Россию
 			original_tag = NOD
 		}
 	set_country_flag = NOD_Starikov_reunite_russia_kostil
-	country_event = { days = 1 id = super.7}
+	hidden_effect = { country_event = { days = 1 id = super.7} }
 	}
 	
 	option = {
@@ -351,7 +351,7 @@ news_event = { # Стариков объединяет Россию
 			NOT = { original_tag = NOD }
 		}
 		set_country_flag = NOD_Starikov_reunite_russia_kostil
-		country_event = { days = 1 id = super.7}
+	hidden_effect = {country_event = { days = 1 id = super.7} }
 	}
 }
 news_event = { # Фёдоров возвращает Путина
@@ -370,7 +370,7 @@ news_event = { # Фёдоров возвращает Путина
 			original_tag = NOD
 		}
 		set_country_flag = NOD_Fedorov_reunite_russia_kostil
-	country_event = { days = 1 id = super.6}
+	hidden_effect = { country_event = { days = 1 id = super.6} }
 	}
 	
 	option = {
@@ -379,7 +379,7 @@ news_event = { # Фёдоров возвращает Путина
 			NOT = { original_tag = NOD }
 		}
 		set_country_flag = NOD_Fedorov_reunite_russia_kostil
-	country_event = { days = 1 id = super.6}
+	hidden_effect = {country_event = { days = 1 id = super.6} }
 	}
 }
 news_event = { # Барков объединяет Россию
@@ -398,7 +398,7 @@ news_event = { # Барков объединяет Россию
 			original_tag = NOD
 		}
 		set_country_flag = NOD_Barkov_reunite_russia_kostil
-	country_event = { days = 1 id = super.3}
+	hidden_effect = {country_event = { days = 1 id = super.3} }
 	}
 	
 	option = {
@@ -407,7 +407,7 @@ news_event = { # Барков объединяет Россию
 			NOT = { original_tag = NOD }
 		}
 		set_country_flag = NOD_Barkov_reunite_russia_kostil
-	country_event = { days = 1 id = super.3}
+	hidden_effect = {country_event = { days = 1 id = super.3} }
 	}
 }
 news_event = { #Лазарет объединяет Россию
@@ -426,7 +426,7 @@ news_event = { #Лазарет объединяет Россию
 			original_tag = LAZ
 		}
 	set_country_flag = LAZ_reunite_russia_kostil
-	country_event = { days = 1 id = super.1}
+	hidden_effect = {country_event = { days = 1 id = super.1} }
 	}
 	
 	option = {
@@ -435,7 +435,7 @@ news_event = { #Лазарет объединяет Россию
 				NOT = { original_tag = LAZ }
 			}
 		set_country_flag = LAZ_reunite_russia_kostil
-		country_event = { days = 1 id = super.1}
+	hidden_effect = {country_event = { days = 1 id = super.1} }
 	}
 }
 news_event = { #Гражданская война в Албании
@@ -500,7 +500,7 @@ news_event = { #Камчатка объединяет Россию
 			original_tag = DOT
 		}
 		set_country_flag = DOT_reunite_russia_kostil
-		country_event = { days = 1 id = super.4}
+		hidden_effect = {country_event = { days = 1 id = super.4} }
 	}
 	
 	option = {
@@ -527,7 +527,7 @@ news_event = { #Сыктывкар объединяет Россию
 			tag = SKT
 		}
 		set_country_flag = SKT_levoborod_reunite_russia_kostil
-		country_event = { days = 1 id = super.5}
+		hidden_effect = {country_event = { days = 1 id = super.5} }
 	}
 	
 	option = {
@@ -536,7 +536,7 @@ news_event = { #Сыктывкар объединяет Россию
 			NOT = { tag = SKT }
 		}
 		set_country_flag = SKT_levoborod_reunite_russia_kostil
-		country_event = { days = 1 id = super.5}
+		hidden_effect = {country_event = { days = 1 id = super.5} }
 	}
 }
 news_event = { #Орлов_совершает_госпереворот
@@ -2033,5 +2033,113 @@ news_event = { #Правый_Пушной_объединяет_Россию
 				country_event = super.34
 			}
 		}
+	}
+}
+news_event = { # Соловьёв объединяет Италию
+    id = dk_news.100
+	title = dk_news.100.t
+	desc = dk_news.100.d
+	picture = ""
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.100.a
+	}
+}
+news_event = { # Задорнов объединяет Италию
+    id = dk_news.101
+	title = dk_news.101.t
+	desc = dk_news.101.d
+	picture = ""
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.101.a
+	}
+}
+news_event = { # Леваки объединяют Италию (плейсхольдер)
+    id = dk_news.102
+	title = dk_news.102.t
+	desc = dk_news.102.d
+	picture = ""
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.102.a
+	}
+}
+news_event = { # Стул объединяет Италию
+    id = dk_news.103
+	title = dk_news.103.t
+	desc = dk_news.103.d
+	picture = ""
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.103.a
+	}
+}
+news_event = { # Папич объединяет Италию
+    id = dk_news.104
+	title = dk_news.104.t
+	desc = dk_news.104.d
+	picture = ""
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.104.a
+	}
+}
+news_event = { # Папич разъединяет Италию
+    id = dk_news.105
+	title = dk_news.105.t
+	desc = dk_news.105.d
+	picture = ""
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.105.a
 	}
 }

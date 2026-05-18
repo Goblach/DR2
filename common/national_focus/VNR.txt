@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = VNR_a_ya_to_dumal_kogda_je_ti_poyavishsia
 		icon = GFX_goal_unknown
-		cost = 3,00
+		cost = 4,00
 		x = 13
 		y = 0
 
@@ -19,7 +19,7 @@ focus_tree = {
 	focus = {
 		id = VNR_svetleyshaya_dla_velichayshego
 		icon = GFX_goal_unknown
-		cost = 6,00
+		cost = 7,00
 		prerequisite = {
 			focus = VNR_a_ya_to_dumal_kogda_je_ti_poyavishsia
 		}
@@ -41,7 +41,7 @@ focus_tree = {
 	focus = {
 		id = VNR_arsenal_dlia_rabotiag
 		icon = GFX_goal_unknown
-		cost = 6,00
+		cost = 7,00
 		prerequisite = {
 			focus = VNR_dobrovolniy_nalog
 		}

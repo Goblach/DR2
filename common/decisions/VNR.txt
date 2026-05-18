@@ -160,7 +160,20 @@ VNR_risorgimento = {
 	VNR_Unite_Italy = { 
 	
 		cost = 0
-
+			
+			visible = {
+			OR = {
+				AND = {
+					tag = VNR
+					NOT = { has_completed_focus = VNR_a_ya_to_dumal_kogda_je_ti_poyavishsia }
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
 		available = {
 			controls_state = 158
 			controls_state = 159
@@ -183,6 +196,101 @@ VNR_risorgimento = {
 		}
 		complete_effect = {
 			remove_ideas = { italy_disunited }
-		}	
+		}
+		remove_effect = {
+			hidden_effect = {news_event = dk_news.103
+			}
+		}		
+	}
+	VNR_Unite_Italy_Papich = { 
+	
+		cost = 0
+		
+			visible = {
+			OR = {
+				AND = {
+					tag = VNR
+					has_completed_focus = VNR_a_ya_to_dumal_kogda_je_ti_poyavishsia
+					NOT = { has_completed_focus = VNR_terra_ferma }
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 158
+			controls_state = 159
+			controls_state = 160
+			controls_state = 736
+			controls_state = 852
+			controls_state = 161
+			controls_state = 162
+			controls_state = 2
+			controls_state = 157
+			controls_state = 156
+			controls_state = 117
+			controls_state = 849
+		}
+		
+		fire_only_once = yes
+
+		ai_will_do = {
+        factor = 1000
+		}
+		complete_effect = {
+			remove_ideas = { italy_disunited }
+		}
+		remove_effect = {
+			hidden_effect = {news_event = dk_news.104
+			}
+		}		
+	}
+	VNR_Disunion_Italy = { 
+	
+		cost = 0
+		
+			visible = {
+			OR = {
+				AND = {
+					tag = VNR
+					has_completed_focus = VNR_terra_ferma
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 158
+			controls_state = 159
+			controls_state = 160
+			controls_state = 736
+			controls_state = 852
+			controls_state = 161
+			controls_state = 162
+			controls_state = 2
+			controls_state = 157
+			controls_state = 156
+			controls_state = 117
+			controls_state = 849
+		}
+		
+		fire_only_once = yes
+
+		ai_will_do = {
+        factor = 1000
+		}
+		complete_effect = {
+			remove_ideas = { italy_disunited }
+		}
+		remove_effect = {
+			hidden_effect = {news_event = dk_news.105
+			}
+		}		
 	}
 }
