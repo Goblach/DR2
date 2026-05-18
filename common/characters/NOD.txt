@@ -33,7 +33,7 @@ characters = {
 		country_leader = {
 			traits = {  }
 			desc = "POLITICS_BARKOV_DESC"
-			ideology = despotism
+			ideology = military_administration
 			expire = "3000.1.1"
 			id = -1
 		}
