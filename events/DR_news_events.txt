@@ -2039,7 +2039,7 @@ news_event = { # Соловьёв объединяет Италию
     id = dk_news.100
 	title = dk_news.100.t
 	desc = dk_news.100.d
-	picture = ""
+	picture = "GFX_news_event_italia_soloviyov"
 	
 	major = yes
 	
@@ -2057,7 +2057,7 @@ news_event = { # Задорнов объединяет Италию
     id = dk_news.101
 	title = dk_news.101.t
 	desc = dk_news.101.d
-	picture = ""
+	picture = "GFX_news_event_italia_zadornov"
 	
 	major = yes
 	
@@ -2093,7 +2093,7 @@ news_event = { # Стул объединяет Италию
     id = dk_news.103
 	title = dk_news.103.t
 	desc = dk_news.103.d
-	picture = ""
+	picture = "GFX_news_event_italia_stul"
 	
 	major = yes
 	

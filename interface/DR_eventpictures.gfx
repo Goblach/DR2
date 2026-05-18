@@ -788,4 +788,18 @@ spriteTypes = {
 		name = "GFX_report_event_dkr_provoda"
 		texturefile = "gfx/event_pictures/report_event_dkr_provoda.dds"
 	}
+			spriteType = {
+		name = "GFX_news_event_italia_zadornov"
+		texturefile = "gfx/event_pictures/news_event_italia_zadornov.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_italia_stul"
+		texturefile = "gfx/event_pictures/news_event_italia_stul.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_italia_soloviyov"
+		texturefile = "gfx/event_pictures/news_event_italia_soloviyov.dds"
+	}
 }
