@@ -47,6 +47,7 @@ recruit_character = NOD_ste_zoto
 recruit_character = NOD_podolyaka
 recruit_character = NOD_Vitaly_Milonov
 recruit_character = NOD_Nikita_Dzhigurda
+recruit_character = NOD_Grisha_Putin
 
 set_popularities = {
 	fascism = 75

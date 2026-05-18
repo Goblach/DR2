@@ -972,6 +972,10 @@ spriteTypes = {
 		name = "GFX_idea_ETR_Korneplod"
 		texturefile = "gfx/interface/ideas/idea_ETR_Korneplod.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_NOD_Grisha_Putin"
+		texturefile = "gfx/interface/ideas/idea_NOD_Grisha_Putin.dds"
+	}
 	#ВНИМАНИЕ-ПРИСУТСТВУЕТ-АНИМАЦИЯ
 	#spriteType = {
 	#	name = "GFX_POK_novodvorskaya_ap"

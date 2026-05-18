@@ -466,9 +466,19 @@ country_event = {
 		add_popularity = { ideology = metacommy popularity = 0.02 }
 		add_popularity = { ideology = neutrality popularity = 0.1 }
 		remove_unit_leader = 8010
-			
+		retire_character = NOD_Fedorov
 		hidden_effect = {	
 			set_country_flag = NOD_barkov_revolt
+			add_country_leader_role = {
+			character = NOD_Grisha_Putin
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = fascism_ideology
+				traits = {
+				}
+			}
+			promote_leader = yes
+		}
 		}
 		news_event = dk_news.88
 	}
