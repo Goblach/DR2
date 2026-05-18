@@ -330,7 +330,6 @@ completion_reward = {
 		x = 30
 		y = 3
 completion_reward = {
-	add_ideas = ideological_fanaticism_focus
 	country_event = {
 							id = prm.5
 						    }
