@@ -38,6 +38,8 @@ focus_tree = {
 		y = 2
 		completion_reward = {
 			add_ideas = { RES_blackshirts }
+			hidden_effect = {
+				set_technology = { militia_tech = 1 popup = no } }
 			division_template = {
 				name = "Чернорубашечники"
 				division_names_group = POK_JBT_01
@@ -142,7 +144,38 @@ focus_tree = {
 		x = 12
 		y = 3
 		completion_reward = {
-			add_manpower = 50000
+			hidden_effect = {
+				set_technology = { penal_infantry = 1 popup = no } }
+
+				division_template = {
+					name = "Мигранты"
+					division_names_group = POK_JBT_01
+
+					regiments = {
+						penal_battalion = { x = 0 y = 0 }
+						penal_battalion = { x = 0 y = 1 }
+						penal_battalion = { x = 0 y = 2 }
+						penal_battalion = { x = 1 y = 0 }
+						penal_battalion = { x = 1 y = 1 }
+						penal_battalion = { x = 1 y = 2 }
+						penal_battalion = { x = 2 y = 0 }
+						penal_battalion = { x = 2 y = 1 }
+						penal_battalion = { x = 2 y = 2 }
+					}
+					support = {
+						artillery = { x = 0 y = 0 }
+					}
+				}
+			capital_scope = {
+				create_unit = { 
+					division = "name = \"Мигранты\" division_template = \"Мигранты\" start_experience_factor = 0.15 start_equipment_factor = 1.0" owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"Мигранты\" division_template = \"Мигранты\" start_experience_factor = 0.15 start_equipment_factor = 1.0" owner = ROOT
+				}
+	
+			}
+				
 		}
 
 	}
