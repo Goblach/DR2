@@ -39,6 +39,11 @@ division_template = {
 		bicycle_battalion = { x = 2 y = 0 }
 		bicycle_battalion = { x = 2 y = 1 }
     }	
+	
+	support = 	{
+		motorized_military_police = { x = 0 y = 0 }
+	}
+	
     priority = 2
 }
 
