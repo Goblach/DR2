@@ -250,7 +250,6 @@ ideas = {
 			
 			modifier = {
 			justify_war_goal_time = -0.2
-            annex_cost_factor	 = -0.3
             offence = 0.05
             army_morale_factor = 0.05
 			}
