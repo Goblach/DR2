@@ -19,6 +19,7 @@ add_ideas = {
 limited_conscription
 low_economic_mobilisation
 FSK_KSHR
+FSK_gorci
 }
 
 set_popularities = {
