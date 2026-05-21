@@ -1,8 +1,0 @@
-technologies = {
-	irregular_infantry_tech = {
- 		allow = { always = no }
-		enable_subunits = {
-			irregular_infantry
-		}
-	}
-}
