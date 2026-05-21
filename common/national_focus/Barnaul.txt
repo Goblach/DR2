@@ -699,7 +699,7 @@ focus_tree = {
 						}
 					add_equipment_to_stockpile = {
 							type = infantry_equipment
-							amount = 1500
+							amount = 780
 							producer = YSK
 						}
 				}
