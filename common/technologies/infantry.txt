@@ -1998,6 +1998,13 @@ technologies = {
 			militia
 		}
 	}
+	
+	irregular_infantry_tech = {
+ 		allow = { always = no }
+		enable_subunits = {
+			irregular_infantry
+		}
+	}
 
 	amphibious_mechanized_infantry = {
 
