@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Kazaki"				# Militia units (lowest experience, oldest equipment)
+	name = "Казачья кавалерия"				# Militia units (lowest experience, oldest equipment)
 
 	division_names_group = KRR_GAR_01
 
@@ -14,62 +14,84 @@
 	}
 	priority = 1
 }
+division_template = {
+	name = "Казачья пехота"		
+	division_names_group = KRR_GAR_01
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+		irregular_infantry = { x = 2 y = 0 }
+		irregular_infantry = { x = 2 y = 1 }
+		irregular_infantry = { x = 2 y = 2 }
+	}
+	priority = 1 
+}
 
 units = {
 	division = {
-		name = "1-й казацкий полк"
+		name = "1-й казацкий кавалерийский полк"
 		location = 9417
-		division_template = "Kazaki"
-		start_experience_factor = 0.3
-	}
-		
-   division = {
-		name = "8-й казацкий полк"
-		location = 6741
-		division_template = "Kazaki"
+		division_template = "Казачья кавалерия"
 		start_experience_factor = 0.3
 	}
 	
 	division = {
-		name = "2-й казацкий полк"
-		location = 9417
-		division_template = "Kazaki"
-		start_experience_factor = 0.3
-	}
-	
-	division = {
-		name = "3-й казацкий полк"
+		name = "2-й казацкий кавалерийский полк"
 		location = 717
-		division_template = "Kazaki"
+		division_template = "Казачья кавалерия"
 		start_experience_factor = 0.3
 	}
 	
 	division = {
-		name = "4-й казацкий полк"
+		name = "3-й казацкий кавалерийский полк"
 		location = 11400
-		division_template = "Kazaki"
+		division_template = "Казачья кавалерия"
 		start_experience_factor = 0.3
 	}
 	
     division = {
-		name = "5-й казацкий полк"
+		name = "4-й казацкий кавалерийский полк"
+		location = 3734 
+		division_template = "Казачья кавалерия"
+		start_experience_factor = 0.3
+	}
+	
+		
+	division = {
+		name = "1-й казацкий полк"
+		location = 9417
+		division_template = "Казачья пехота"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2-й казацкий полк"
 		location = 11450
-		division_template = "Kazaki"
-		start_experience_factor = 0.3
+		division_template = "Казачья пехота"
+		start_experience_factor = 0.1
 	}
 	
 	division = {
-		name = "6-й казацкий полк"
-		location = 3734
-		division_template = "Kazaki"
-		start_experience_factor = 0.3
-	}
-	
-	division = {
-		name = "7-й казацкий полк"
+		name = "3-й казацкий полк"
 		location = 3720
-		division_template = "Kazaki"
-		start_experience_factor = 0.3
+		division_template = "Казачья пехота"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4-й казацкий полк"
+		location = 719
+		division_template = "Казачья пехота"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5-й казацкий полк"
+		location = 6741
+		division_template = "Казачья пехота"
+		start_experience_factor = 0.1
 	}
 }
 

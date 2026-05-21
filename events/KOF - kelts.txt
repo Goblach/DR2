@@ -295,6 +295,12 @@ country_event = {
     }
    }
   }
+  remove_state_core = 136
+  remove_state_claim = 136
+  remove_state_core = 133
+  remove_state_claim = 133
+  remove_state_core = 121
+  remove_state_claim = 121
   KOF = { country_event = { id = KOF.2 days = 15 } }
 		white_peace = PBG
 		white_peace = UBR
