@@ -84,14 +84,6 @@ units = {
 		start_experience_factor = 0.4
 	}
 
-    division = {
-		name = "6-я дивизия Сербских добровольцев"
-		location = 9821
-		division_template = "Дивизия пехоты"
-		start_experience_factor = 0.3
-	}
-
-
 }
 
 ### Starting Equipment ###

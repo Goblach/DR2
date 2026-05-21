@@ -33,28 +33,28 @@ division_template = {
 
 units = {
 	division = {
-		name = "1-й казацкий кавалерийский полк"
+		name = "1-й Донской казачий полк"
 		location = 9417
 		division_template = "Казачья кавалерия"
 		start_experience_factor = 0.3
 	}
 	
 	division = {
-		name = "2-й казацкий кавалерийский полк"
+		name = "1-й Кубанский казачий полк"
 		location = 717
 		division_template = "Казачья кавалерия"
 		start_experience_factor = 0.3
 	}
 	
 	division = {
-		name = "3-й казацкий кавалерийский полк"
+		name = "2-й Донской казачий полк"
 		location = 11400
 		division_template = "Казачья кавалерия"
 		start_experience_factor = 0.3
 	}
 	
     division = {
-		name = "4-й казацкий кавалерийский полк"
+		name = "2-й Кубанский казачий полк"
 		location = 3734 
 		division_template = "Казачья кавалерия"
 		start_experience_factor = 0.3
