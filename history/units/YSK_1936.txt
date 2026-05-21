@@ -17,7 +17,6 @@ name = "Пехота"
 }
 
 units = {
-	#Royal Afghani Army
 	division = {
 		name = "Восставшие националисты"
 		location = 4803
@@ -26,13 +25,6 @@ units = {
 	}
 	
    division = {
-		name = "Восставшие националисты"
-		location = 4803
-		division_template = "Пехота"
-		start_experience_factor = 0.3
-	}
-	
-	division = {
 		name = "Восставшие националисты"
 		location = 4803
 		division_template = "Пехота"
