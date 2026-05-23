@@ -1400,3 +1400,13 @@
  
  italy_disunited:0 "Разделённая Италия"
  italy_disunited_desc:0 "Пока активная эта идея мы получаем +3 военных заводов вне карты"
+ 
+ tooltip_modify_dynmod:0 "Заменяет $DYNMOD|Y$ на"
+ ETR_vedic_civilisation_modifier:0 "Ведическая цивилизация"
+ ETR_conscription_factor_tt:0 "$MODIFIER_CONSCRIPTION_FACTOR$: §G+10%§!"
+ ETR_required_garrison_factor_tt:0 "§Y$MODIFIER_REQUIRED_GARRISON_FACTOR$§!: §G+10%§!"
+ ETR_local_non_core_manpower_tt:0 "§Y$MODIFIER_LOCAL_NON_CORE_MANPOWER$§!: §G+10%§!"
+ ETR_production_speed_buildings_factor_tt:0 "§Y$MODIFIER_STATE_PRODUCTION_SPEED_BUILDINGS_FACTOR$§!: §G+10%§!"
+ 
+ RES_blackshirts:0 "Организованные чернорубашечники"
+ RES_Solidarizm:0 "Солидаризм"

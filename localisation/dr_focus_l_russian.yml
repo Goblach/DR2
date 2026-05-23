@@ -2669,6 +2669,7 @@
  ETR_veduni_sibiri_desc:0 ""
  ETR_volshebnoe_zelie:0 "Волшебные отвары"
  ETR_volshebnoe_zelie_desc:0 ""
+ ETR_volshebnoe_zelie_tt:0 "§YЭффект§!:\nПолевой госпиталь:\n      Возмещение потерь: §G+20%§!\n      Потеря опыта: §G-30%§!"
  ETR_boevoy_telekenez:0 "Боевой телекинез"
  ETR_boevoy_telekenez_desc:0 ""
  ETR_i_vse_kto_v_lesu:0 "И все кто в лесу..."

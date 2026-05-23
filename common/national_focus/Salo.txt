@@ -38,8 +38,6 @@ focus_tree = {
 		y = 2
 		completion_reward = {
 			add_ideas = { RES_blackshirts }
-			hidden_effect = {
-				set_technology = { militia_tech = 1 popup = no } }
 			division_template = {
 				name = "Чернорубашечники"
 				division_names_group = POK_JBT_01
@@ -145,9 +143,7 @@ focus_tree = {
 		x = 12
 		y = 3
 		completion_reward = {
-			hidden_effect = {
-				set_technology = { penal_infantry = 1 popup = no } }
-
+			hidden_effect = { set_technology = { penal_infantry = 1 popup = no } }
 				division_template = {
 					name = "Мигранты"
 					division_names_group = POK_JBT_01
@@ -174,11 +170,9 @@ focus_tree = {
 				create_unit = { 
 					division = "name = \"Мигранты\" division_template = \"Мигранты\" start_experience_factor = 0.15 start_equipment_factor = 1.0" owner = ROOT
 				}
-	
-			}
-				
-		}
 
+			}	
+		}
 	}
 	focus = {
 		id = RES_organizovat_ohotu_na_migrantov
@@ -266,6 +260,34 @@ focus_tree = {
 		x = 15
 		y = 4
 		completion_reward = {
+			division_template = {
+				name = "Альпийские стрелки"
+				division_names_group = POK_JBT_01
+
+		        regiments = {
+					mountaineers = { x = 0 y = 0 }		# Elite Alpina Regiments
+					mountaineers = { x = 0 y = 1 }
+					mountaineers = { x = 0 y = 2 }	
+					mountaineers = { x = 1 y = 0 }
+					mountaineers = { x = 1 y = 1 }
+					mountaineers = { x = 1 y = 2 }
+					mountaineers = { x = 2 y = 0 }
+					mountaineers = { x = 2 y = 1 }
+					mountaineers = { x = 2 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+				}
+			}
+			capital_scope = {
+				create_unit = { 
+					division = "name = \"Альпини\" division_template = \"Альпийские стрелки\" start_experience_factor = 0.7 start_equipment_factor = 1.0" owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"Альпини\" division_template = \"Альпийские стрелки\" start_experience_factor = 0.7 start_equipment_factor = 1.0" owner = ROOT
+				}
+			}
 			add_tech_bonus = {
 				bonus = 1
 				uses = 1

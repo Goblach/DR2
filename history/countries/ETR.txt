@@ -31,5 +31,14 @@ set_politics = {
 	elections_allowed = no	
 }
 
+set_variable = { ETR_army_attack_factor = 0.05  }
+set_variable = { ETR_stability_factor = -0.05  } 
+set_variable = { ETR_conscription_factor = 0  } 
+set_variable = { ETR_required_garrison_factor = 0  } 
+set_variable = { ETR_local_non_core_manpower = 0  } 
+set_variable = { ETR_production_speed_buildings_factor = 0  } 
+
+add_dynamic_modifier = { modifier = ETR_vedic_civilisation_modifier }
+
 set_convoys = 40
 

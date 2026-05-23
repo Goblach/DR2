@@ -196,4 +196,11 @@ technologies = {
 		air_interception_detect_factor = 0.1
 		air_superiority_detect_factor = 0.1
 	}
+	ETR_volshebnoe_zelie_tech = { #Saint Bernard tech из ванилы
+		allow = { always = no } 
+		field_hospital = {
+			casualty_trickleback = 0.20 
+			experience_loss_factor = -0.3
+		}
+	}
 }
