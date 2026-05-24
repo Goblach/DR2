@@ -28,7 +28,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 255 43 43 }
+		color = { 255 81 81 }
 		
 		rules = {
 			can_force_government = no
