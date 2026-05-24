@@ -161,6 +161,7 @@
  VICTORY_POINTS_9817:0 "Порту"
  VICTORY_POINTS_9904:1 "Рим"
  VICTORY_POINTS_3780:1 "Милан"
+ VICTORY_POINTS_11587:1 "Сало"
  VICTORY_POINTS_819:1 "Неаполь"
  VICTORY_POINTS_6626:0 "Триест"
  VICTORY_POINTS_6780:1 "Турин"
@@ -918,6 +919,7 @@
  VICTORY_POINTS_3118:0 "Фуншал"
  VICTORY_POINTS_10329:0 "Златоуст"
  VICTORY_POINTS_4824:0 "Тюмень"
+ VICTORY_POINTS_4754:0 "Мясосибирск"
  VICTORY_POINTS_12594:0 "Семипалатинск"
  VICTORY_POINTS_1668:0 "Аягуз"
  VICTORY_POINTS_1794:0 "Барнаул"
@@ -1076,6 +1078,7 @@
  VICTORY_POINTS_4800:0 "Горно-Алтайск" #(Was Gorno-Altaysk), which it was historically changed to in 1948
  VICTORY_POINTS_7835:0 "Улан-Удэ"
  VICTORY_POINTS_12644:0 "Баргузин"
+ VICTORY_POINTS_10583:0 "Анимезаводск"
  VICTORY_POINTS_13063:0 "Анадырь"
  VICTORY_POINTS_4705:0 "Чита"
  VICTORY_POINTS_4859:0 "Дудинка"
