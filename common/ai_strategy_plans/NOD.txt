@@ -1,0 +1,87 @@
+
+NOD_Prodolzhit_poiski = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = NOD
+	}
+	enable = {
+		OR = {
+			has_country_flag = NOD_Prodolzhit_poiski
+			has_game_rule = {
+				rule = NOD_ai_behavior
+				option = DR_OPTIONAL_NOD_POISKI
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		NOD_prodolzhat_poiski
+		NOD_volosatye_ruki_Kremlay
+		NOD_otdel_E	
+		NOD_iskat_5_kolonnu
+		NOD_otrayady_Putina
+		NOD_chuvstvo_ranga
+		NOD_podnyat_army_s_kolen
+		NOD_national_unity
+	}
+	ideas = {
+		
+	}
+}
+
+NOD_Barkov_perevorot = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = NOD
+	}
+	enable = {
+		OR = {
+			has_country_flag = NOD_Barkov_perevorot
+			has_game_rule = {
+				rule = NOD_ai_behavior
+				option = DR_OPTIONAL_NOD_BARKOV
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		NOD_prodolzhat_poiski
+		NOD_volosatye_ruki_Kremlay
+		NOD_otdel_E
+		NOD_iskat_5_kolonnu
+		NOD_otrayady_Putina
+		NOD_national_unity
+	}
+	ideas = {
+		
+	}
+}
+
+NOD_bratstvo = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = NOD
+	}
+	enable = {
+		OR = {
+			has_country_flag = NOD_bratstvo
+			has_game_rule = {
+				rule = NOD_ai_behavior
+				option = DR_OPTIONAL_NOD_BRATSTVO
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		##################v_relize######################
+	}
+	ideas = {
+		
+	}
+}

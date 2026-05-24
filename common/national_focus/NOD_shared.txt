@@ -65,11 +65,19 @@ completion_reward = {
 		}
 		x = 17
 		y = 2
+		  	ai_will_do = {
+			modifier = {
+				factor = 200
+				has_game_rule = { rule = NOD_path option = DR_OPTIONAL_NOD_POISKI }
+				has_completed_focus = NOD_otrayady_Putina				
+			}
+		}
 completion_reward = {
             add_ideas = NOD_chuvstvo_ranga
 			add_popularity = { ideology = fascism popularity = 0.02 }			
 			add_popularity = { ideology = neutrality popularity = 0.04 }
               }
+
 	}
 	shared_focus = {
 		id = NOD_flot
@@ -370,6 +378,13 @@ completion_reward = {
 		cost = 5
 		prerequisite = {
 			focus = NOD_chuvstvo_ranga
+		}
+			ai_will_do = {
+			modifier = {
+				factor = 200
+				has_game_rule = { rule = NOD_path option = DR_OPTIONAL_NOD_POISKI }
+				has_completed_focus = NOD_chuvstvo_ranga				
+			}
 		}
 		x = 17
 		y = 3
