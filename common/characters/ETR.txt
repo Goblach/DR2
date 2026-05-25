@@ -72,4 +72,97 @@ characters={
 			legacy_id = 0
 		}
 	}
+	ETR_mikhail_tukhachevsky = {
+		name = "Михаил Тухачевский"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ETR/Mikhail_Tukhachevsky.dds"
+				small = "GFX_idea_mikhail_tukhachevsky"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = mikhail_tukhachevsky
+			ledger = army
+			allowed = {
+				original_tag = ETR
+			}
+			available = {
+				
+			}
+			visible = { has_completed_focus = ETR_rodokommie  }
+			traits = {
+				mass_assault_expert
+			}
+			ai_will_do = {
+				base = 1
+			}
+		}
+
+		field_marshal = {
+			traits = { brilliant_strategist career_officer trait_reckless infantry_officer offensive_doctrine }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = 401
+			visible = { has_completed_focus = ETR_rodokommie  }
+		}
+	}
+	ETR_roman_ungern_sternberg = {
+		name = "Роман фон Унгерн-Штернберг"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ETR/Roman_Ungern_Sternberg.png"
+				small = "GFX_idea_mikhail_tukhachevsky"
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader cavalry_officer trait_reckless inspirational_leader }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+			visible = { has_completed_focus = ETR_monarhoslavanisti  }
+		}
+	}
+	ETR_alexandr_hinevich = {
+		name = "Александр Хиневич"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ASI/Hinevich.dds"
+				small = "GFX_idea_mikhail_tukhachevsky"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+			visible = { has_completed_focus = ETR_hristoyazichniki  }
+		}
+	}
+	ETR_dolboslav = {
+		name = "Доброслав"
+		portraits = {
+			army = {
+				large = ""
+				small = "GFX_idea_mikhail_tukhachevsky"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard media_personality jaeger inspirational_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+			visible = { has_completed_focus = ETR_veduni_sibiri  }
+		}
+	}
 }
