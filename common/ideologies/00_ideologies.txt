@@ -148,27 +148,33 @@ ideologies = {
 			}
 			
 			sauronism = {
+			can_be_randomly_selected = no
 			}
 			
 			left_shumerism = {
 			}
 			
 			lukinism = {
+			can_be_randomly_selected = no
 			}
 			
 			islam_socialism = {
+			can_be_randomly_selected = no
 			}
 			
 			metacommy_intersec = {
+			can_be_randomly_selected = no
 			}
 			
 			monarho_socialism = {
 			}
 			
 			kybernetika_vernadsry = {
+			can_be_randomly_selected = no
 			}
 			
 			fantom_socialism = {
+			can_be_randomly_selected = no
 			}
 		}
 		
@@ -232,6 +238,7 @@ ideologies = {
 			}
 			
 			eltsinism = {
+			can_be_randomly_selected = no
 			}
 			
 			ancap = {
@@ -301,6 +308,7 @@ ideologies = {
 			}
 			
 			nefascism = {
+			can_be_randomly_selected = no
 			}
 		}
 		
@@ -445,6 +453,7 @@ ideologies = {
 			}
 			
 		    cybernetics_pushnoy = {
+			can_be_randomly_selected = no
 			}
 			
 			military_administration = {
