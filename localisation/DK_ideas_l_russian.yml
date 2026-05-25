@@ -1400,13 +1400,18 @@
  
  italy_disunited:0 "Разделённая Италия"
  italy_disunited_desc:0 "Пока активная эта идея мы получаем +3 военных заводов вне карты"
+ italy_battle:0 "Битва за Италию"
  
  tooltip_modify_dynmod:0 "Заменяет $DYNMOD|Y$ на"
  ETR_vedic_civilisation_modifier:0 "Ведическая цивилизация"
  ETR_conscription_factor_tt:0 "$MODIFIER_CONSCRIPTION_FACTOR$: §G+10%§!"
- ETR_required_garrison_factor_tt:0 "§Y$MODIFIER_REQUIRED_GARRISON_FACTOR$§!: §G+10%§!"
- ETR_local_non_core_manpower_tt:0 "§Y$MODIFIER_LOCAL_NON_CORE_MANPOWER$§!: §G+10%§!"
- ETR_production_speed_buildings_factor_tt:0 "§Y$MODIFIER_STATE_PRODUCTION_SPEED_BUILDINGS_FACTOR$§!: §G+10%§!"
+ ETR_required_garrison_factor_tt:0 "$MODIFIER_REQUIRED_GARRISON_FACTOR$: §G+10%§!"
+ ETR_local_non_core_manpower_tt:0 "$MODIFIER_LOCAL_NON_CORE_MANPOWER$: §G+10%§!"
+ ETR_production_speed_buildings_factor_tt:0 "$MODIFIER_STATE_PRODUCTION_SPEED_BUILDINGS_FACTOR$: §G+10%§!"
+ ETR_industrial_capacity_factory_tt:0 "$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: §G+5%§!"
+ ETR_production_factory_efficiency_gain_factor_tt:0 "$MODIFIER_PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR$: §G+5%§!"
+ ETR_army_attack_factor_tt:0 "$MODIFIERS_ARMY_ATTACK_FACTOR$: §G+5%§!"
+ ETR_breakthrough_factor_tt:0 "$MODIFIER_BREAKTHROUGH$: §G+5%§!"
  
  RES_blackshirts:0 "Организованные чернорубашечники"
  RES_Solidarizm:0 "Солидаризм"

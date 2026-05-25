@@ -23,6 +23,10 @@ recruit_character = ETR_Zadornov
 recruit_character = ETR_Andrboll
 recruit_character = ETR_Bazil
 recruit_character = ETR_Korneplod
+recruit_character = ETR_mikhail_tukhachevsky
+recruit_character = ETR_roman_ungern_sternberg
+recruit_character = ETR_alexandr_hinevich
+recruit_character = ETR_dolboslav
 
 add_ideas = {
 limited_conscription
@@ -46,6 +50,9 @@ set_variable = { ETR_conscription_factor = 0  }
 set_variable = { ETR_required_garrison_factor = 0  } 
 set_variable = { ETR_local_non_core_manpower = 0  } 
 set_variable = { ETR_production_speed_buildings_factor = 0  } 
+set_variable = { ETR_industrial_capacity_factory = 0  } 
+set_variable = { ETR_production_factory_efficiency_gain_factor = 0  } 
+set_variable = { ETR_breakthrough_factor = 0  }
 
 add_dynamic_modifier = { modifier = ETR_vedic_civilisation_modifier }
 

@@ -155,7 +155,12 @@ focus_tree = {
 		}
 		x = 13
 		y = 5
-
+		completion_reward = {
+			add_timed_idea = {
+			    idea = italy_battle
+    			days = 100
+			}
+		}
 	}
 	focus = {
 		id = VNR_nastoyashiy_papizi

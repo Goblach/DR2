@@ -7,4 +7,7 @@ ETR_vedic_civilisation_modifier = {
 	required_garrison_factor = ETR_required_garrison_factor
 	local_non_core_manpower = ETR_local_non_core_manpower
 	production_speed_buildings_factor = ETR_production_speed_buildings_factor
+	industrial_capacity_factory = ETR_industrial_capacity_factory
+	production_factory_efficiency_gain_factor = ETR_production_factory_efficiency_gain_factor
+	breakthrough_factor = ETR_breakthrough_factor
 }

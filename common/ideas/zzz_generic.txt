@@ -1765,6 +1765,14 @@ ideas = {
 				army_attack_factor = 0.15
 			}
 		}
+		
+		italy_battle = {
+			picture = chi_war_of_resistance
+			modifier = {
+				army_attack_factor = 0.1
+				army_speed_factor = 0.1
+			}
+		}
 	}
 
 	# TECHNOLOGY

@@ -26,6 +26,7 @@ focus_tree = {
 		x = 13
 		y = 1
 		completion_reward = {
+			add_manpower = 50000
 			custom_effect_tooltip = {
 				localization_key = tooltip_modify_dynmod
 				DYNMOD = ETR_vedic_civilisation_modifier
@@ -46,6 +47,7 @@ focus_tree = {
 		x = 10
 		y = 2
 		completion_reward = {
+			show_unit_leaders_tooltip = ETR_mikhail_tukhachevsky
 			division_template = {
 				name = "Родокоммунисты"
 				division_names_group = POK_JBT_01
@@ -86,7 +88,20 @@ focus_tree = {
 		}
 		x = 9
 		y = 3
-
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = ETR_vedic_civilisation_modifier
+			}
+			add_to_variable = {
+				ETR_industrial_capacity_factory = 0.05
+				tooltip = ETR_industrial_capacity_factory_tt
+			}
+			add_to_variable = {
+				ETR_production_factory_efficiency_gain_factor = 0.05
+				tooltip = ETR_production_factory_efficiency_gain_factor_tt
+			}
+		}
 	}
 	focus = {
 		id = ETR_pustit_bronepoezda
@@ -119,6 +134,7 @@ focus_tree = {
 		x = 12
 		y = 2
 		completion_reward = {
+			show_unit_leaders_tooltip = ETR_alexandr_hinevich
 			division_template = {
 				name = "Христоязычники"
 				division_names_group = POK_JBT_01
@@ -188,6 +204,7 @@ focus_tree = {
 		x = 14
 		y = 2
 		completion_reward = {
+			show_unit_leaders_tooltip = ETR_roman_ungern_sternberg
 			division_template = {
 				name = "Монархославянисты"
 				division_names_group = POK_JBT_01
@@ -320,6 +337,7 @@ focus_tree = {
 		x = 16
 		y = 2
 		completion_reward = {
+			show_unit_leaders_tooltip = ETR_dolboslav
 			hidden_effect = {set_technology = {rangers_tech = 1 popup = no} }
 			division_template = {
 				name = "Ведуны Сибири"
@@ -384,7 +402,20 @@ focus_tree = {
 		}
 		x = 16
 		y = 4
-
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = ETR_vedic_civilisation_modifier
+			}
+			add_to_variable = {
+				ETR_army_attack_factor = 0.05
+				tooltip = ETR_army_attack_factor_tt
+			}
+			add_to_variable = {
+				ETR_breakthrough_factor = 0.05
+				tooltip = ETR_breakthrough_factor_tt
+			}
+		}
 	}
 	focus = {
 		id = ETR_i_vse_kto_v_lesu
@@ -401,7 +432,12 @@ focus_tree = {
 		}
 		x = 13
 		y = 5
-
+		completion_reward = {
+			add_timed_idea = {
+			    idea = italy_battle
+    			days = 100
+			}
+		}
 	}
 	focus = {
 		id = ETR_Sekrets_Papstva
