@@ -1,17 +1,4 @@
 characters={
-	FSK_Ilya_Maddison = {
-		name = "Илья Мэддисон"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/FSK/Ilya_Maddison.dds"
-			}
-		}
-		country_leader = {
-		    ideology = liberalism
-	        expire = "1999.1.1"
-		    id=-1
-	    }
-    }
 	FSK_Shon_Konneri = {
 		name = "Шон Коннери"
 		portraits = {

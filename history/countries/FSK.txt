@@ -11,7 +11,6 @@ set_technology = {
 	basic_train = 1
 }
 
-recruit_character = FSK_Ilya_Maddison
 recruit_character = FSK_Shon_Konneri
 recruit_character = FSK_Niels_Olaf
 
@@ -23,8 +22,12 @@ FSK_gorci
 }
 
 set_popularities = {
-	democratic = 75
-	neutrality = 25
+	neutrality = 45
+	democratic = 20
+	fascism = 20
+	vmestolev = 5
+	metacommy = 5
+	anarhostalinism = 5
 }
 set_politics = {
 	ruling_party = neutrality
