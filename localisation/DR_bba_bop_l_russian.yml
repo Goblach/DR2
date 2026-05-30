@@ -67,6 +67,22 @@
  POK_mid_range:0 "Ни одна из сторон не преобладает"
  POK_bop_increase_pre_influence:0 "Слегка усилить Президента"
  POK_bop_increase_par_influence:0 "Слегка усилить Парламент"
+ 
+ ####### Острые Козырьки BoP Modifiers #######
+
+ PBG_karma_balance:1 "Карма"
+ PBG_low_karma_side:0 "Плохая карма"
+ PBG_high_karma_side:0 "Хорошая карма"
+ PBG_bebra:0 "Бееееебраа"
+ PBG_ultranasral:0 "Ультранасрал"
+ PBG_nasral:0 "Насрал"
+ PBG_megaploh:0 "Мегаплох"
+ PBG_ploh:0 "Плох"
+ PBG_norm:0 "Норм"
+ PBG_harosh:0 "Харош"
+ PBG_megaharosh:0 "Мегахарош"
+ PBG_ultramegaharosh:0 "Ультрахарош"
+ PBG_megabombicheskiharosh:0 "Мегабомбическихорош"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  BOP_RANGE_ACTIVATE_EFFECT:0 "Эффект после активации:\n$ACTIVATE_EFFECT$"
