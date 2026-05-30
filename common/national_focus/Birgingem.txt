@@ -1,0 +1,155 @@
+focus_tree = {
+	id = Birgingem
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PBG
+		}
+	}
+	default = no
+	focus = {
+		id = PBG_mi_iz_birgingema
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = PBG_vedy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_mi_iz_birgingema
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = PBG_organizovat_skachky
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_vedy
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = PBG_za_tebya_porvu
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_vedy
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = PBG_kontrobanda
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_vedy
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = PBG_vragi_so_vseh_storon
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_organizovat_skachky
+		}
+		prerequisite = {
+			focus = PBG_za_tebya_porvu
+		}
+		prerequisite = {
+			focus = PBG_kontrobanda
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = PBG_Ira
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_vragi_so_vseh_storon
+		}
+		mutually_exclusive = {
+			focus = PBG_Pinkfloyd
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = PBG_obchistit_partkassy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_Ira
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = PBG_Pinkfloyd
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_vragi_so_vseh_storon
+		}
+		mutually_exclusive = {
+			focus = PBG_Ira
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = PBG_udar_v_spinu
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_Ira
+			focus = PBG_Pinkfloyd
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = PBG_ukrast_keltskoe_oryzhie
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_Pinkfloyd
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = PBG_party_kozirkov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_udar_v_spinu
+			focus = PBG_obchistit_partkassy
+			focus = PBG_ukrast_keltskoe_oryzhie
+		}
+		x = 7
+		y = 6
+
+	}
+}
