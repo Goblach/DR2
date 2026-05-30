@@ -1,0 +1,65 @@
+PBG_karma_balance = {
+	initial_value = 0
+	left_side = PBG_low_karma_side
+	right_side = PBG_high_karma_side
+
+	side = {
+		id = PBG_low_karma_side
+		icon = GFX_bop_POK_par_side
+		range = {
+			id = PBG_bebra
+			min = -1
+			max = -0.8
+		}
+		range = {
+			id = PBG_ultranasral
+			min = -0.8
+			max = -0.6
+		}
+		range = {
+			id = PBG_nasral
+			min = -0.6
+			max = -0.4
+		}
+		range = {
+			id = PBG_megaploh
+			min = -0.4
+			max = -0.2
+		}
+		range = {
+			id = PBG_ploh
+			min = -0.2
+			max = 0
+		}
+	}
+	
+	side = {
+		id = PBG_high_karma_side
+		icon = GFX_bop_POK_pre_side
+		range = {
+			id = PBG_norm
+			min = 0
+			max = 0.2
+		}
+		range = {
+			id = PBG_harosh
+			min = 0.2
+			max = 0.4
+		}
+		range = {
+			id = PBG_megaharosh
+			min = 0.4
+			max = 0.6
+		}
+		range = {
+			id = PBG_ultramegaharosh
+			min = 0.6
+			max = 0.8
+		}
+		range = {
+			id = PBG_megabombicheskiharosh
+			min = 0.8
+			max = 1
+		}
+	}
+}
