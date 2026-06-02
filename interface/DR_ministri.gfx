@@ -976,6 +976,18 @@ spriteTypes = {
 		name = "GFX_idea_NOD_Grisha_Putin"
 		texturefile = "gfx/interface/ideas/idea_NOD_Grisha_Putin.dds"
 	}
+		spriteType = {
+		name = "GFX_idea_UBR_Alan_Moore"
+		texturefile = "gfx/interface/ideas/idea_UBR_Alan_Moore.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UBR_George_Galloway"
+		texturefile = "gfx/interface/ideas/idea_UBR_George_Galloway.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UBR_Jeremy_Corbyn"
+		texturefile = "gfx/interface/ideas/idea_UBR_Jeremy_Corbyn.dds"
+	}
 	#ВНИМАНИЕ-ПРИСУТСТВУЕТ-АНИМАЦИЯ
 	#spriteType = {
 	#	name = "GFX_POK_novodvorskaya_ap"

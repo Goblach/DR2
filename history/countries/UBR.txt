@@ -11,16 +11,22 @@ set_technology = {
 }
 
 recruit_character = UBR_Roger_Waters
+recruit_character = UBR_George_Galloway 
+recruit_character = UBR_Alan_Moore
+recruit_character = UBR_Jeremy_Corbyn
 
 add_ideas = {
 		limited_conscription
 	    partial_economic_mobilisation
+		UBR_tankie
 }
 
 add_timed_idea = { idea = BRS_strah_brist_rezni days = 180 }
 
 set_popularities = {
-	vmestolev = 100
+	vmestolev = 66
+	metacommy = 17
+	anarhostalinism = 17
 }
 set_politics = {
 	ruling_party = vmestolev

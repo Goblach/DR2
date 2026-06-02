@@ -16,4 +16,121 @@ characters={
 		    id=-1
 	    }
     }
+	UBR_George_Galloway = {
+		name = "Джордж Галлоуэй"
+		portraits = {
+			civilian = {
+			    large = "gfx/leaders/UBR/George_Galloway.dds"
+				small = "GFX_idea_UBR_George_Galloway"
+			}
+		}
+		
+		 country_leader = {
+			ideology = nacbol
+			traits = {
+	         	man_in_the_hat
+	        }
+			expire = "1999.3.1"
+			id = -1
+		}
+
+		advisor = {
+    		slot = political_advisor	
+			idea_token = UBR_George_Galloway
+				has_country_leader = {
+				ruling_only = yes
+				character = UBR_George_Galloway
+				}
+			allowed = {
+				original_tag = UBR
+				
+			}	
+			available = {
+			    OR = { 
+				    has_government = vmestolev
+					has_government = metacommy
+					has_government = anarhostalinism 
+				}	
+			}
+			traits = { man_in_the_hat }
+			ai_will_do = {
+				factor = 2
+			}
+	    }
+	}
+	UBR_Alan_Moore = {
+		name = "Алан Мур"
+		portraits = {
+			civilian = {
+			    large = "gfx/leaders/UBR/Alan_Moore.dds"
+				small = "GFX_idea_UBR_Alan_Moore"
+			}
+		}
+		
+		 country_leader = { 
+			ideology = anti_politarism
+			traits = {
+	         	anarhist_comics
+	        }
+			expire = "1999.3.1"
+			id = -1
+		}
+
+		advisor = {
+    		slot = political_advisor	
+			idea_token = UBR_Alan_Moore
+				has_country_leader = {
+				ruling_only = yes
+				character = UBR_Alan_Moore
+				}
+			allowed = {
+				original_tag = UBR
+				
+			}	
+			available = {
+			    OR = { 
+				    has_government = vmestolev
+					has_government = metacommy
+					has_government = anarhostalinism 
+				}	
+			}			
+			traits = { anarhist_comics }
+			ai_will_do = {
+				factor = 2
+			}
+	    }
+	}
+	UBR_Jeremy_Corbyn = {
+		name = "Джереми Корбин"
+		portraits = {
+			civilian = {
+			    large = "gfx/leaders/UBR/Jeremy_Corbyn.dds"
+				small = "GFX_idea_UBR_Jeremy_Corbyn"
+			}
+		}
+
+		advisor = {
+    		slot = political_advisor	
+			idea_token = UBR_Jeremy_Corbyn
+				has_country_leader = {
+				ruling_only = yes
+				character = UBR_Jeremy_Corbyn
+				}
+			allowed = {
+				original_tag = UBR
+				
+			}
+			available = {
+			    OR = { 
+				    has_government = vmestolev
+					has_government = metacommy
+					has_government = anarhostalinism 
+				}	
+			}			
+			traits = { chair_of_the_unions }
+			ai_will_do = {
+				factor = 2
+			}
+	    }
+	}
 }
