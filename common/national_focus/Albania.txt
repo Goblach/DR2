@@ -1004,7 +1004,9 @@ focus_tree = {
 					has_tech = advanced_rocket_engines
 				}
 			completion_reward = {
-					add_political_power = 150
+					country_event = {
+							id = ALB.6
+					}
 				}
 
 	}

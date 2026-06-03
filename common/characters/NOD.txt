@@ -33,7 +33,7 @@ characters = {
 		country_leader = {
 			traits = {  }
 			desc = "POLITICS_BARKOV_DESC"
-			ideology = despotism
+			ideology = military_administration
 			expire = "3000.1.1"
 			id = -1
 		}
@@ -62,6 +62,40 @@ characters = {
 			}
 	    }
 	}	
+		NOD_Grisha_Putin = {
+	name = "Григорий «GrishaPutin» Королёв"
+		portraits = {
+			army = {
+			    large = "gfx/leaders/NOD/Grisha_Putin.dds"
+				small = "GFX_idea_NOD_Grisha_Putin"
+			}
+		}
+		corps_commander = {
+	    traits = { brilliant_strategist naval_invader }
+	    skill = 3
+    	attack_skill = 3
+    	defense_skill = 3
+    	planning_skill = 3
+	    logistics_skill = 3
+		legacy_id = -1
+        }
+		advisor = {	
+			cost = 150
+		    slot = high_command
+		    idea_token = NOD_Grisha_Putin
+			allowed = {
+			    original_tag = NOD
+			}
+			
+			available = { 	   
+			}
+			traits = { navy_amphibious_assault_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+	    }
+	}
 	NOD_britva = {
 	name = "Борис Бритва"
 		portraits = {

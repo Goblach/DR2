@@ -10,6 +10,9 @@ state = {
 		victory_points = { #Milano
 			3780 15 
 		}
+		victory_points = { #Salo
+			3776 16 
+		}
 		victory_points = { #Brescia
 			773 3
 		}

@@ -342,7 +342,7 @@ news_event = { # Стариков объединяет Россию
 			original_tag = NOD
 		}
 	set_country_flag = NOD_Starikov_reunite_russia_kostil
-	country_event = { days = 1 id = super.7}
+	hidden_effect = { country_event = { days = 1 id = super.7} }
 	}
 	
 	option = {
@@ -351,7 +351,7 @@ news_event = { # Стариков объединяет Россию
 			NOT = { original_tag = NOD }
 		}
 		set_country_flag = NOD_Starikov_reunite_russia_kostil
-		country_event = { days = 1 id = super.7}
+	hidden_effect = {country_event = { days = 1 id = super.7} }
 	}
 }
 news_event = { # Фёдоров возвращает Путина
@@ -370,7 +370,7 @@ news_event = { # Фёдоров возвращает Путина
 			original_tag = NOD
 		}
 		set_country_flag = NOD_Fedorov_reunite_russia_kostil
-	country_event = { days = 1 id = super.6}
+	hidden_effect = { country_event = { days = 1 id = super.6} }
 	}
 	
 	option = {
@@ -379,7 +379,7 @@ news_event = { # Фёдоров возвращает Путина
 			NOT = { original_tag = NOD }
 		}
 		set_country_flag = NOD_Fedorov_reunite_russia_kostil
-	country_event = { days = 1 id = super.6}
+	hidden_effect = {country_event = { days = 1 id = super.6} }
 	}
 }
 news_event = { # Барков объединяет Россию
@@ -398,7 +398,7 @@ news_event = { # Барков объединяет Россию
 			original_tag = NOD
 		}
 		set_country_flag = NOD_Barkov_reunite_russia_kostil
-	country_event = { days = 1 id = super.3}
+	hidden_effect = {country_event = { days = 1 id = super.3} }
 	}
 	
 	option = {
@@ -407,7 +407,7 @@ news_event = { # Барков объединяет Россию
 			NOT = { original_tag = NOD }
 		}
 		set_country_flag = NOD_Barkov_reunite_russia_kostil
-	country_event = { days = 1 id = super.3}
+	hidden_effect = {country_event = { days = 1 id = super.3} }
 	}
 }
 news_event = { #Лазарет объединяет Россию
@@ -426,7 +426,7 @@ news_event = { #Лазарет объединяет Россию
 			original_tag = LAZ
 		}
 	set_country_flag = LAZ_reunite_russia_kostil
-	country_event = { days = 1 id = super.1}
+	hidden_effect = {country_event = { days = 1 id = super.1} }
 	}
 	
 	option = {
@@ -435,7 +435,7 @@ news_event = { #Лазарет объединяет Россию
 				NOT = { original_tag = LAZ }
 			}
 		set_country_flag = LAZ_reunite_russia_kostil
-		country_event = { days = 1 id = super.1}
+	hidden_effect = {country_event = { days = 1 id = super.1} }
 	}
 }
 news_event = { #Гражданская война в Албании
@@ -500,7 +500,7 @@ news_event = { #Камчатка объединяет Россию
 			original_tag = DOT
 		}
 		set_country_flag = DOT_reunite_russia_kostil
-		country_event = { days = 1 id = super.4}
+		hidden_effect = {country_event = { days = 1 id = super.4} }
 	}
 	
 	option = {
@@ -527,7 +527,7 @@ news_event = { #Сыктывкар объединяет Россию
 			tag = SKT
 		}
 		set_country_flag = SKT_levoborod_reunite_russia_kostil
-		country_event = { days = 1 id = super.5}
+		hidden_effect = {country_event = { days = 1 id = super.5} }
 	}
 	
 	option = {
@@ -536,7 +536,7 @@ news_event = { #Сыктывкар объединяет Россию
 			NOT = { tag = SKT }
 		}
 		set_country_flag = SKT_levoborod_reunite_russia_kostil
-		country_event = { days = 1 id = super.5}
+		hidden_effect = {country_event = { days = 1 id = super.5} }
 	}
 }
 news_event = { #Орлов_совершает_госпереворот
@@ -1411,6 +1411,8 @@ news_event = { #Борат_Сагдиев_вернул_Омск
 	desc = dk_news.66.d
 	picture = GFX_news_event_DKR_KAZ_Omsk_1
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1422,6 +1424,8 @@ news_event = { #Борат_Сагдиев_вернул_Омск
 	title = dk_news.67.t
 	desc = dk_news.67.d
 	picture = GFX_news_event_DKR_KAZ_Omsk_2
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -1438,6 +1442,8 @@ news_event = { #Тайвань_вернул_территории
 	title = dk_news.68.t
 	desc = dk_news.68.d
 	picture = GFX_news_event_prc_declared
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -1456,6 +1462,8 @@ news_event = { #Словолжицин объединяет Россию
 	desc = dk_news.69.d
 	picture = GFX_news_event_DKR_slovolzhitsin
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1472,6 +1480,8 @@ news_event = { #Ельцин объединяет Россию
 	title = dk_news.70.t
 	desc = dk_news.70.d
 	picture = GFX_news_event_POK_yeltsin
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -1490,6 +1500,8 @@ news_event = { #Путин объединяет Россию
 	desc = dk_news.71.d
 	picture = GFX_news_event_DKR_putin_lunarniy
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1506,6 +1518,8 @@ news_event = { #Парламент объединяет Россию
 	title = dk_news.72.t
 	desc = dk_news.72.d
 	picture = GFX_news_event_parlament
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -1525,6 +1539,8 @@ news_event = { #Развал России
 	desc = dk_news.73.d
 	picture = GFX_news_event_POK_razval
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1542,6 +1558,8 @@ news_event = { #Лукин объединяет Россию
 	title = dk_news.74.t
 	desc = dk_news.74.d
 	picture = GFX_news_event_GAL_lukin
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -1561,6 +1579,8 @@ news_event = { #Рудой объединяет Россию
 	desc = dk_news.75.d
 	picture = GFX_news_event_ZNS_yevroliviye
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1578,6 +1598,8 @@ news_event = { #Юнеман объединяет Россию
 	title = dk_news.76.t
 	desc = dk_news.76.d
 	picture = GFX_news_event_YSK_natsdemi
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -1597,6 +1619,8 @@ news_event = { #Райт объединяет Россию
 	desc = dk_news.77.d
 	picture = GFX_news_event_YSK_natsdemi
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1614,6 +1638,8 @@ news_event = { #Погром объединяет Россию
 	title = dk_news.78.t
 	desc = dk_news.78.d
 	picture = GFX_news_event_YSK_pogrom_alt_2
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -1633,6 +1659,8 @@ news_event = { #Романовы объединяют Россию
 	desc = dk_news.79.d
 	picture = GFX_news_event_YSK_tsar
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1650,6 +1678,8 @@ news_event = { #Гога объединяет Россию
 	title = dk_news.80.t
 	desc = dk_news.80.d
 	picture = GFX_news_event_YSK_comradetsar
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -1669,6 +1699,8 @@ news_event = { #Рогозин объединяет Россию
 	desc = dk_news.81.d
 	picture = GFX_news_event_DKR_YSK_izhevsk_dynamiks
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1686,6 +1718,8 @@ news_event = { #Тесак объединяет Россию
 	title = dk_news.82.t
 	desc = dk_news.82.d
 	picture = GFX_news_event_YSK_tesak
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -1705,6 +1739,8 @@ news_event = { #РНЕ объединяет Россию
 	desc = dk_news.83.d
 	picture = GFX_news_event_YSK_RNE
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1722,6 +1758,8 @@ news_event = { #НПФ объединяет Россию
 	title = dk_news.84.t
 	desc = dk_news.84.d
 	picture = GFX_news_event_YSK_NFP_Pamyat
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -1741,6 +1779,8 @@ news_event = { #Медведев объединяет Россию
 	desc = dk_news.85.d
 	picture = GFX_news_event_YSK_Medvedev
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1758,6 +1798,8 @@ news_event = { #Невмерлия объединяет Украину
 	title = dk_news.86.t
 	desc = dk_news.86.d
 	picture = GFX_news_event_UKR_Poroh
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -1777,6 +1819,8 @@ news_event = { #Магнитогорск объединяет Россию
 	desc = dk_news.87.d
 	picture = GFX_NKVD_rasstrel
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1794,6 +1838,8 @@ news_event = { #Переворот_Баркова
 	desc = dk_news.88.d
 	picture = GFX_news_event_DKR_NOD_barkov_perevorot
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1806,6 +1852,7 @@ news_event = { #Барков_взял_Москву
 	desc = dk_news.89.d
 	picture = GFX_news_event_DKR_NOD_barkov_perevorot
 	
+	major = yes
 	
 	trigger = {
 		219 = { is_controlled_by = NOD }
@@ -1841,6 +1888,7 @@ news_event = { #Бебей_взял_Москву
 	desc = dk_news.90.d
 	picture = GFX_news_event_BSH_bebey_v_moskve
 	
+	major = yes
 	
 	trigger = {
 		219 = { is_controlled_by = BSH }
@@ -1918,6 +1966,8 @@ news_event = { #Омск_объединяет_Россию
 	desc = dk_news.93.d
 	picture = GFX_news_event_OMS_Letov
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -1988,6 +2038,8 @@ news_event = { #Левый_Пушной_объединяет_Россию
 	desc = dk_news.97.d
 	picture = GFX_news_event_GAL_pushnoy_left
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -2005,6 +2057,8 @@ news_event = { #Центральный_Пушной_объединяет_Рос�
 	title = dk_news.98.t
 	desc = dk_news.98.d
 	picture = GFX_news_event_GAL_pushnoy_centre
+	
+	major = yes
 	
 	is_triggered_only = yes
 	
@@ -2024,6 +2078,8 @@ news_event = { #Правый_Пушной_объединяет_Россию
 	desc = dk_news.99.d
 	picture = GFX_news_event_GAL_pushnoy_right
 	
+	major = yes
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -2033,5 +2089,113 @@ news_event = { #Правый_Пушной_объединяет_Россию
 				country_event = super.34
 			}
 		}
+	}
+}
+news_event = { # Соловьёв объединяет Италию
+    id = dk_news.100
+	title = dk_news.100.t
+	desc = dk_news.100.d
+	picture = "GFX_news_event_italia_soloviyov"
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.100.a
+	}
+}
+news_event = { # Задорнов объединяет Италию
+    id = dk_news.101
+	title = dk_news.101.t
+	desc = dk_news.101.d
+	picture = "GFX_news_event_italia_zadornov"
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.101.a
+	}
+}
+news_event = { # Леваки объединяют Италию (плейсхольдер)
+    id = dk_news.102
+	title = dk_news.102.t
+	desc = dk_news.102.d
+	picture = ""
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.102.a
+	}
+}
+news_event = { # Стул объединяет Италию
+    id = dk_news.103
+	title = dk_news.103.t
+	desc = dk_news.103.d
+	picture = "GFX_news_event_italia_stul"
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.103.a
+	}
+}
+news_event = { # Папич объединяет Италию
+    id = dk_news.104
+	title = dk_news.104.t
+	desc = dk_news.104.d
+	picture = ""
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.104.a
+	}
+}
+news_event = { # Папич разъединяет Италию
+    id = dk_news.105
+	title = dk_news.105.t
+	desc = dk_news.105.d
+	picture = ""
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag =  
+	}
+	
+	option = {
+		name = dk_news.105.a
 	}
 }

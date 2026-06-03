@@ -1,17 +1,4 @@
 characters={
-	FSK_Ilya_Maddison = {
-		name = "Илья Мэддисон"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/FSK/Ilya_Maddison.dds"
-			}
-		}
-		country_leader = {
-		    ideology = liberalism
-	        expire = "1999.1.1"
-		    id=-1
-	    }
-    }
 	FSK_Shon_Konneri = {
 		name = "Шон Коннери"
 		portraits = {
@@ -54,5 +41,62 @@ characters={
           	planning_skill = 1
         	logistics_skill = 1
         }
+    }
+	FSK_William_Wallace = {
+		name = "Уильям Уоллес"
+		portraits = {
+			army = {
+				small = "GFX_idea_FSK_William_Wallace"
+				large = "gfx/leaders/FSK/William_Wallace.dds"
+			}
+		}
+		corps_commander = {
+        	traits = { inspirational_bagpiper trickster guerilla_fighter militias_officer }
+         	skill = 4
+          	attack_skill = 5
+          	defense_skill = 3
+          	planning_skill = 3
+        	logistics_skill = 4
+        }
+    }
+	FSK_Kofi_Offe = {
+		name = "Кофи Оффе"
+		portraits = {
+			army = {
+				small = "GFX_idea_FSK_Kofi_Offe"
+				large = "gfx/leaders/FSK/Kofi_Offe.dds"
+			}
+		}
+		corps_commander = {
+        	traits = { politically_connected camouflage_expert ranger }
+         	skill = 2
+          	attack_skill = 2
+          	defense_skill = 2
+          	planning_skill = 2
+        	logistics_skill = 3
+        }
+		 country_leader = {
+			ideology = postironism
+			expire = "1999.3.1.1"
+			id = -1
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = FSK_Kofi_Offe
+			ledger = army
+			allowed = {
+				original_tag = FSK
+			}
+			available = {
+				
+			}
+			traits = {
+				army_concealment_3
+			}
+			ai_will_do = {
+				base = 1
+			}
+		}
     }
 }

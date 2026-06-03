@@ -510,6 +510,35 @@ LAZ_path = {							#Настройки_Лазарета
 	}
 }
 
+NOD_path = {							#Настройки_НОДа
+	name = "NOD_PATH"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DR_DEFAULT
+		text = DR_RULE_OPTION_DEFAULT
+		desc = "DR_RULE_OPTION_DEFAULT_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DR_OPTIONAL_NOD_POISKI
+		text = "RULE_OPTION_DR_OPTIONAL_NOD_POISKI"
+		desc = "RULE_OPTION_DR_OPTIONAL_NOD_POISKI_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DR_OPTIONAL_NOD_BARKOV
+		text = "RULE_OPTION_DR_OPTIONAL_NOD_BARKOV"
+		desc = "RULE_OPTION_DR_OPTIONAL_NOD_BARKOV_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DR_OPTIONAL_NOD_BRATSTVO
+		text = "RULE_OPTION_DR_OPTIONAL_NOD_BRATSTVO"
+		desc = "RULE_OPTION_DR_OPTIONAL_NOD_BRATSTVO_AI_DESC"
+		allow_achievements = yes
+	}
+}
+
 POK_ai_behavior = {						#Настройки_Великой_Покаянии
 	name = "DR_AI_BEHAVIOR_RW_POK"
 	group = "RULE_GROUP_AI_BEHAVIOR"

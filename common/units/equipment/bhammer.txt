@@ -1,9 +1,7 @@
-# All infantry equipment
-
 equipments = {
 
 	bhammer_equipment = {
-		year = 1936
+		year = 1
 	
 		is_archetype = yes
 		picture = archetype_infantry_equipment		
@@ -42,7 +40,7 @@ equipments = {
 	}
 	
 	bhammer_equipment_1 = {
-		year = 1936
+		year = 1
 	
 		archetype = bhammer_equipment
 		priority = 10
@@ -60,5 +58,4 @@ equipments = {
 		build_cost_ic = 5.5
 	}
 
-   
 }

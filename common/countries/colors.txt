@@ -287,12 +287,12 @@ BRS = {
 	color_ui = rgb { 0 0 118 }
 }
 AZR = {
-	color = rgb { 250 10 108 }
-	color_ui = rgb { 240 9 98 }
+	color = rgb { 69  151  49 }
+	color_ui = rgb { 69  151  49 }
 }
 ARM = {
-	color = rgb { 255 255 0 }
-	color_ui = rgb { 245 245 0 }
+	color = rgb { 176  102  180 }
+	color_ui = rgb { 176  102  180 }
 }
 GEO = {
 	color = rgb { 80 80 80 }
@@ -383,8 +383,8 @@ SPL = {
 	color_ui = rgb { 128 128 0 }	
 }
 RES = {
-	color = rgb { 67 127 63 }
-	color_ui = rgb { 67 127 63 }	
+	color = rgb { 64 117 60 }
+	color_ui = rgb { 60 99 57 }	
 }
 NII = {
 	color = rgb { 242  205  94 }
@@ -395,8 +395,8 @@ ETR = {
 	color_ui = rgb { 112  128  144 }	
 }
 VNR = {
-	color = rgb { 75  0  130 }
-	color_ui = rgb { 75  0  130 }	
+	color = rgb { 2 201 201 }
+	color_ui = rgb { 2 201 201 }	
 }
 AUS = {
 	color = rgb { 194 198 215 }
@@ -431,15 +431,15 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRG = {
-	color = HSV { 0.1 0.15 0.4 }
+	color = rgb { 130 130 125 }
 	color_ui = rgb { 138 155 116 }
 }
 ZCE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
 }
 BAV = {
-	color = rgb { 233  231  246 }
-	color_ui = rgb { 233  231  246 }
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
 }
 NEU = {
 	color = rgb { 230 230 70 }

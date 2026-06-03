@@ -14,19 +14,13 @@ name = "Русские добровольцы"
 
 units = {
 	division = {
-		name = "1-я добровольческая дивизия аниме-консерваторов"
+		name = "1-я добровольческая дивизия русских трапов «Подвязочки»"
 		location = 1794
 		division_template = "Русские добровольцы"
 		start_experience_factor = 0.9
 	}
     	division = {
 		name = "2-я добровольческая дивизия русских трапов «Правые чулочки»"
-		location = 1794
-		division_template = "Русские добровольцы"
-		start_experience_factor = 0.9
-	}
-    	division = {
-		name = "3-я добровольческая дивизия русских трапов «Подвязочки»"
 		location = 1794
 		division_template = "Русские добровольцы"
 		start_experience_factor = 0.9

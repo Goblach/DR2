@@ -531,6 +531,7 @@ leader_traits = {
 	}         
 	
     nyash_myash = {
+		random = no
 		sprite = 13
 		stability_factor = 0.05
 		political_power_gain = 0.05
@@ -563,6 +564,7 @@ leader_traits = {
 	}
 
     uzhas_severa = {
+		random = no
 		sprite = 13
 		resistance_damage_to_garrison = -0.3 
 		foreign_subversive_activites = -0.35
@@ -835,6 +837,7 @@ leader_traits = {
 	}
 	
 	Nakachal_nogi = {
+		random = no
     	army_speed_factor = 0.1
 		
 		ai_will_do = {
@@ -843,6 +846,7 @@ leader_traits = {
 	}
 	
     Slabie_nogi_silnie_ruki = {
+		random = no
     	army_speed_factor = -0.2
 		offence = 0.2
 		
@@ -852,6 +856,7 @@ leader_traits = {
 	}
 
     Slabie_nogi = {
+		random = no
     	army_speed_factor = -0.1
 		offence = 0.1
 		
@@ -862,8 +867,8 @@ leader_traits = {
 	
 	gazoviy_gigant = {
     	sprite = 6
-		consumer_goods_factor = -0.02
-		stability_factor = 0.03
+		consumer_goods_factor = -0.05
+		stability_factor = 0.05
 		
 		ai_will_do = {
 			factor = 1
@@ -892,8 +897,8 @@ leader_traits = {
 
     pokrovitel_alcogolnoy_promki = {
 	    sprite = 10
-		consumer_goods_factor = -0.03
-		stability_factor = 0.02
+		consumer_goods_factor = -0.05
+		stability_factor = 0.05
 		
 		ai_will_do = {
 			factor = 1
@@ -902,7 +907,7 @@ leader_traits = {
 	
 	crovaviy_agronom = {
 		weekly_manpower = -10
-		consumer_goods_factor = -0.03
+		consumer_goods_factor = -0.1
 		
 		ai_will_do = {
 			factor = 1
@@ -1633,6 +1638,41 @@ leader_traits = {
 		political_power_factor = 0.15
 		army_attack_factor = 0.1
 		army_defence_factor = 0.1
+	}
+	
+
+	###Kavkaz###
+	
+	pahan = {
+		random = no
+		political_power_factor = 0.1
+		stability_factor = -0.15
+		resistance_damage_to_garrison = -0.3 
+		foreign_subversive_activites = -0.35
+		non_core_manpower = 0.1
+	}
+	
+	###Brits###
+	
+	anarhist_comics = {
+		random = no
+		sprite = 13
+		anarhostalinism_drift = 0.02
+		weekly_manpower = 200
+		stability_factor = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	man_in_the_hat = {
+		random = no
+		sprite = 13
+		metacommy_drift = 0.02
+		political_power_factor = 0.15
+		army_org_factor = 0.1
+		ai_will_do = {
+			factor = 2
+		}
 	}
 	
 }

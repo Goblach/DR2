@@ -41,6 +41,4 @@ sub_units = {
 			bhammer_equipment = 50
 		}
 	}
-
-	
 }

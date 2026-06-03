@@ -33,11 +33,34 @@ ETR_risorgimento = {
 			}
 		}	
 	}
+	ETR_attack_VNR = {
+	
+		cost = 25
+
+		available = {
+			NOT = { country_exists = RES }
+			has_war = no 
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 15
+		ai_will_do = {
+        factor = 100
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = VNR
+				type = annex_everything
+			}
+		}	
+	}
     ETR_Salo = { 
 	
 		cost = 50
 
 		available = {
+			controls_state = 161
 			controls_state = 158
 			controls_state = 159
 		}
@@ -54,6 +77,7 @@ ETR_risorgimento = {
             consumer_goods_factor = 0.05      			
 		}
 		remove_effect = {
+			add_state_core = 161
             add_state_core = 158
 			add_state_core = 159       			
 		}	
@@ -136,5 +160,37 @@ ETR_risorgimento = {
 			add_state_core = 117
 			add_state_core = 849     			
 		}	
+	}
+	ETR_Unite_Italy = { 
+	
+		cost = 0
+
+		available = {
+			controls_state = 158
+			controls_state = 159
+			controls_state = 160
+			controls_state = 736
+			controls_state = 852
+			controls_state = 161
+			controls_state = 162
+			controls_state = 2
+			controls_state = 157
+			controls_state = 156
+			controls_state = 117
+			controls_state = 849
+		}
+		
+		fire_only_once = yes
+
+		ai_will_do = {
+        factor = 1000
+		}
+		complete_effect = {
+			remove_ideas = { italy_disunited }
+		}
+		remove_effect = {
+			hidden_effect = {news_event = dk_news.101
+			}
+		}		
 	}
 }

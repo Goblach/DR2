@@ -1,4 +1,4 @@
-capital = 136
+capital = 121
 
 oob = FSK_1936
 
@@ -7,22 +7,28 @@ set_stability = 0.5
 set_war_support = 0.5
 set_technology = {
 	infantry_weapons = 1
+	tech_mountaineers = 1
 	basic_train = 1
 }
 
-recruit_character = FSK_Ilya_Maddison
 recruit_character = FSK_Shon_Konneri
 recruit_character = FSK_Niels_Olaf
+recruit_character = FSK_Kofi_Offe
+recruit_character = FSK_William_Wallace
 
 add_ideas = {
 limited_conscription
 low_economic_mobilisation
 FSK_KSHR
+FSK_gorci
 }
 
 set_popularities = {
-	democratic = 75
-	neutrality = 25
+	neutrality = 45
+	democratic = 15
+	fascism = 15
+	vmestolev = 15
+	memoism = 10
 }
 set_politics = {
 	ruling_party = neutrality

@@ -192,5 +192,6 @@ country_event = {
 	
 	option = {
 		name = ALB.6.a
+		add_political_power = 150
 	}
 }

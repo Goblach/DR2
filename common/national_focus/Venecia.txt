@@ -1,0 +1,193 @@
+focus_tree = {
+	id = VNR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VNR
+		}
+	}
+	default = no
+	focus = {
+		id = VNR_a_ya_to_dumal_kogda_je_ti_poyavishsia
+		icon = GFX_goal_unknown
+		cost = 4,00
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = VNR_svetleyshaya_dla_velichayshego
+		icon = GFX_goal_unknown
+		cost = 7,00
+		prerequisite = {
+			focus = VNR_a_ya_to_dumal_kogda_je_ti_poyavishsia
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = VNR_dobrovolniy_nalog
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = VNR_svetleyshaya_dla_velichayshego
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = VNR_arsenal_dlia_rabotiag
+		icon = GFX_goal_unknown
+		cost = 7,00
+		prerequisite = {
+			focus = VNR_dobrovolniy_nalog
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = VNR_noviye_rations
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = VNR_arsenal_dlia_rabotiag
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = VNR_Zakoni_Papicha
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = VNR_svetleyshaya_dla_velichayshego
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = VNR_tops_po_adekvatnosty
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = VNR_Zakoni_Papicha
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = VNR_asketichnaya_burocracy
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = VNR_Zakoni_Papicha
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = VNR_spravedlivoe_gosudarstvo
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = VNR_tops_po_adekvatnosty
+		}
+		prerequisite = {
+			focus = VNR_asketichnaya_burocracy
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = VNR_agility
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = VNR_svetleyshaya_dla_velichayshego
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = VNR_plus_moral
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = VNR_agility
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = VNR_kopio_Longinia
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = VNR_plus_moral
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = VNR_VI_KA
+		icon = GFX_goal_unknown
+		cost = 7,00
+		prerequisite = {
+			focus = VNR_noviye_rations
+		}
+		prerequisite = {
+			focus = VNR_spravedlivoe_gosudarstvo
+		}
+		prerequisite = {
+			focus = VNR_kopio_Longinia
+		}
+		x = 13
+		y = 5
+		completion_reward = {
+			add_timed_idea = {
+			    idea = italy_battle
+    			days = 100
+			}
+		}
+	}
+	focus = {
+		id = VNR_nastoyashiy_papizi
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = VNR_VI_KA
+		}
+		mutually_exclusive = {
+			focus = VNR_terra_ferma
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = VNR_terra_ferma
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = VNR_VI_KA
+		}
+		mutually_exclusive = {
+			focus = VNR_nastoyashiy_papizi
+		}
+		x = 14
+		y = 6
+
+	}
+}

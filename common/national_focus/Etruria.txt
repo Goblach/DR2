@@ -1,0 +1,453 @@
+focus_tree = {
+	id = ETR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ETR
+		}
+	}
+	default = no
+	focus = {
+		id = ETR_rus_iznachalnaya
+		icon = GFX_goal_unknown
+		cost = 3,00
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = ETR_nyzni_vse
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = ETR_rus_iznachalnaya
+		}
+		x = 13
+		y = 1
+		completion_reward = {
+			add_manpower = 50000
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = ETR_vedic_civilisation_modifier
+			}
+			add_to_variable = {
+				ETR_conscription_factor = 0.1
+				tooltip = ETR_conscription_factor_tt
+			}
+		}
+	}
+	focus = {
+		id = ETR_rodokommie
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = ETR_nyzni_vse
+		}
+		x = 10
+		y = 2
+		completion_reward = {
+			show_unit_leaders_tooltip = ETR_mikhail_tukhachevsky
+			division_template = {
+				name = "Родокоммунисты"
+				division_names_group = POK_JBT_01
+				template_counter = 69
+
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					artillery_brigade = { x = 2 y = 0 }
+					artillery_brigade = { x = 2 y = 1 }						
+				}
+	
+				support = {
+					artillery = { x = 0 y = 0 }
+				}
+			}
+			capital_scope = {
+				create_unit = { 
+					division = "name = \"1-я Волховская стрелковая дивизия имени товарища Сталина\" division_template = \"Родокоммунисты\" start_experience_factor = 0.5 start_equipment_factor = 1.0" owner = ROOT
+				}
+			}
+			add_popularity = {
+				ideology = metacommy
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = ETR_krasnie_volhvi
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_rodokommie
+		}
+		x = 9
+		y = 3
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = ETR_vedic_civilisation_modifier
+			}
+			add_to_variable = {
+				ETR_industrial_capacity_factory = 0.05
+				tooltip = ETR_industrial_capacity_factory_tt
+			}
+			add_to_variable = {
+				ETR_production_factory_efficiency_gain_factor = 0.05
+				tooltip = ETR_production_factory_efficiency_gain_factor_tt
+			}
+		}
+	}
+	focus = {
+		id = ETR_pustit_bronepoezda
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_krasnie_volhvi
+		}
+		x = 10
+		y = 4
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = { has_tech = railway_gun }
+				}
+				set_technology = { railway_gun = 1 }
+			}
+			create_railway_gun = {
+				equipment = railway_gun_equipment_1
+			}
+		}
+	}
+	focus = {
+		id = ETR_hristoyazichniki
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = ETR_nyzni_vse
+		}
+		x = 12
+		y = 2
+		completion_reward = {
+			show_unit_leaders_tooltip = ETR_alexandr_hinevich
+			division_template = {
+				name = "Христоязычники"
+				division_names_group = POK_JBT_01
+				template_counter = 8
+
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 2 y = 2 }
+					infantry = { x = 3 y = 0 }
+					infantry = { x = 3 y = 1 }
+					infantry = { x = 3 y = 2 }					
+				}
+				support = {
+				
+				}
+			}
+			capital_scope = {
+				create_unit = { 
+					division = "name = \"Дивизия православных староверов-инглингов\" division_template = \"Христоязычники\" start_experience_factor = 0.5 start_equipment_factor = 1.0" owner = ROOT
+				}
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = ETR_religiozniy_sinkretizm
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_hristoyazichniki
+		}
+		x = 11
+		y = 3
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = ETR_vedic_civilisation_modifier
+			}
+			add_to_variable = {
+				ETR_required_garrison_factor = -0.1
+				tooltip = ETR_required_garrison_factor_tt
+			}
+			add_to_variable = {
+				ETR_local_non_core_manpower = 0.1
+				tooltip = ETR_local_non_core_manpower_tt
+			}
+		}
+
+	}
+	focus = {
+		id = ETR_monarhoslavanisti
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = ETR_nyzni_vse
+		}
+		x = 14
+		y = 2
+		completion_reward = {
+			show_unit_leaders_tooltip = ETR_roman_ungern_sternberg
+			division_template = {
+				name = "Монархославянисты"
+				division_names_group = POK_JBT_01
+				template_counter = 96
+
+				regiments = {
+					cavalry = { x = 0 y = 0 }
+					cavalry = { x = 0 y = 1 }
+					cavalry = { x = 0 y = 2 }
+					cavalry = { x = 1 y = 0 }
+					cavalry = { x = 1 y = 1 }
+					cavalry = { x = 1 y = 2 }
+					cavalry = { x = 2 y = 0 }
+					cavalry = { x = 2 y = 1 }
+					cavalry = { x = 2 y = 2 }					
+				}
+	
+				support = {
+					recon = { x = 0 y = 0 }
+				}
+			}
+			capital_scope = {
+				create_unit = { 
+					division = "name = \"Его Императорского Величества Славянская Казачья дивизия\" division_template = \"Монархославянисты\" start_experience_factor = 0.5 start_equipment_factor = 1.0" owner = ROOT
+				}
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = ETR_polit_cveti
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = ETR_hristoyazichniki
+		}
+		prerequisite = {
+			focus = ETR_monarhoslavanisti
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = ETR_druzhina
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_monarhoslavanisti
+		}
+		x = 15
+		y = 3
+		completion_reward = {
+			division_template = {
+				name = "Дружина"
+				division_names_group = POK_JBT_01
+				template_counter = 56
+
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 2 y = 2 }
+				}
+	
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+				}
+			}
+			capital_scope = {
+				create_unit = { 
+					division = "name = \"Дружина\" division_template = \"Дружина\" start_experience_factor = 0.9 start_equipment_factor = 1.0" owner = ROOT
+				}
+				create_unit = { 
+					division = "name = \"Дружина\" division_template = \"Дружина\" start_experience_factor = 0.9 start_equipment_factor = 1.0" owner = ROOT
+				}
+			}
+		}
+	}
+	focus = {
+		id = ETR_tehniki_stroitelstva_predkov
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_religiozniy_sinkretizm
+		}
+		prerequisite = {
+			focus = ETR_druzhina
+		}
+		prerequisite = {
+			focus = ETR_polit_cveti
+		}
+		x = 13
+		y = 4
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = ETR_vedic_civilisation_modifier
+			}
+			add_to_variable = {
+				ETR_production_speed_buildings_factor = 0.1
+				tooltip = ETR_production_speed_buildings_factor_tt
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ETR_veduni_sibiri
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = ETR_nyzni_vse
+		}
+		x = 16
+		y = 2
+		completion_reward = {
+			show_unit_leaders_tooltip = ETR_dolboslav
+			hidden_effect = {set_technology = {rangers_tech = 1 popup = no} }
+			division_template = {
+				name = "Ведуны Сибири"
+				division_names_group = POK_JBT_01
+
+				regiments = {
+					ranger_battalion = { x = 0 y = 0 }
+					ranger_battalion = { x = 0 y = 1 }
+					ranger_battalion = { x = 0 y = 2 }
+					ranger_battalion = { x = 1 y = 0 }
+					ranger_battalion = { x = 1 y = 1 }
+					ranger_battalion = { x = 1 y = 2 }
+					ranger_battalion = { x = 2 y = 0 }
+					ranger_battalion = { x = 2 y = 1 }
+					ranger_battalion = { x = 2 y = 2 }				
+				}
+				support = {
+					field_hospital = { x = 0 y = 0 }
+				}
+			}
+			capital_scope = {
+				create_unit = { 
+					division = "name = \"Сибирская ведическая дивизия\" division_template = \"Ведуны Сибири\" start_experience_factor = 0.5 start_equipment_factor = 1.0" owner = ROOT
+				}
+			}
+			add_popularity = {
+				ideology = memoism
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = ETR_volshebnoe_zelie
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_veduni_sibiri
+		}
+		x = 17
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				uses = 1 
+				bonus = 1 
+				category = hospital_tech
+			}
+			custom_effect_tooltip = ETR_volshebnoe_zelie_tt
+			hidden_effect = {
+				set_technology = { 
+					ETR_volshebnoe_zelie_tech = 1
+					popup = no 
+				} 
+			}
+		}
+	}
+	focus = {
+		id = ETR_boevoy_telekenez
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = ETR_volshebnoe_zelie
+		}
+		x = 16
+		y = 4
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = ETR_vedic_civilisation_modifier
+			}
+			add_to_variable = {
+				ETR_army_attack_factor = 0.05
+				tooltip = ETR_army_attack_factor_tt
+			}
+			add_to_variable = {
+				ETR_breakthrough_factor = 0.05
+				tooltip = ETR_breakthrough_factor_tt
+			}
+		}
+	}
+	focus = {
+		id = ETR_i_vse_kto_v_lesu
+		icon = GFX_goal_unknown
+		cost = 7,00
+		prerequisite = {
+			focus = ETR_pustit_bronepoezda
+		}
+		prerequisite = {
+			focus = ETR_tehniki_stroitelstva_predkov
+		}
+		prerequisite = {
+			focus = ETR_boevoy_telekenez
+		}
+		x = 13
+		y = 5
+		completion_reward = {
+			add_timed_idea = {
+			    idea = italy_battle
+    			days = 100
+			}
+		}
+	}
+	focus = {
+		id = ETR_Sekrets_Papstva
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = ETR_i_vse_kto_v_lesu
+		}
+		x = 13
+		y = 6
+
+	}
+}

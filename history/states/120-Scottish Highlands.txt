@@ -14,7 +14,7 @@ state= {
 	history= {
 		add_core_of = FSK
 		add_core_of = KOF
-		owner = FSK
+		owner = KOF
 		victory_points = {
 			6062 1 #Skye/Stornoway
 		}

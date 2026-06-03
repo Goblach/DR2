@@ -34,7 +34,7 @@ units = {
 	
 	division = {
 		name = "Белфастская бригада (ИНОА)"
-		location = 6395
+		location = 284
 		division_template = "Бригада"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -49,7 +49,7 @@ units = {
 	}
     division = {
 		name = "Деррийская бригада"
-		location = 9392
+		location = 9075
 		division_template = "Бригада"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.8

@@ -7,11 +7,26 @@ set_stability = 0.5
 set_war_support = 0.5
 set_technology = {
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	fuel_silos = 1
+	fuel_refining = 1
 	basic_train = 1
 }
 
 recruit_character = ETR_Zadornov
 recruit_character = ETR_Andrboll
+recruit_character = ETR_Bazil
+recruit_character = ETR_Korneplod
+recruit_character = ETR_mikhail_tukhachevsky
+recruit_character = ETR_roman_ungern_sternberg
+recruit_character = ETR_alexandr_hinevich
+recruit_character = ETR_dolboslav
 
 add_ideas = {
 limited_conscription
@@ -19,12 +34,27 @@ low_economic_mobilisation
 }
 
 set_popularities = {
-	neutrality = 100
+	neutrality = 25
+	memoism = 25
+	fascism = 25
+	metacommy = 25
 }
 set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no	
 }
+
+set_variable = { ETR_army_attack_factor = 0.05  }
+set_variable = { ETR_stability_factor = -0.05  } 
+set_variable = { ETR_conscription_factor = 0  } 
+set_variable = { ETR_required_garrison_factor = 0  } 
+set_variable = { ETR_local_non_core_manpower = 0  } 
+set_variable = { ETR_production_speed_buildings_factor = 0  } 
+set_variable = { ETR_industrial_capacity_factory = 0  } 
+set_variable = { ETR_production_factory_efficiency_gain_factor = 0  } 
+set_variable = { ETR_breakthrough_factor = 0  }
+
+add_dynamic_modifier = { modifier = ETR_vedic_civilisation_modifier }
 
 set_convoys = 40
 

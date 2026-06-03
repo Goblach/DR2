@@ -336,5 +336,30 @@ on_actions = {
 			#} #This would add a unit medal to the history entry you just received
 		}
 	}
+	
+	on_startup = {
+		effect = {
+			RES = {
+				add_ideas = { italy_disunited }
+				add_offsite_building = { type = arms_factory level = 3 }
+			}
+			VNR = {
+				add_ideas = { italy_disunited }
+				add_offsite_building = { type = arms_factory level = 3 }			
+			}
+			ETR = {
+				add_ideas = { italy_disunited }
+				add_offsite_building = { type = arms_factory level = 3 }			
+			}
+			NII = {
+				add_ideas = { italy_disunited }
+				add_offsite_building = { type = arms_factory level = 3 }			
+			}
+			UGI = {
+				add_ideas = { italy_disunited }
+				add_offsite_building = { type = arms_factory level = 3 }			
+			}
+		}
+	}
 
 }

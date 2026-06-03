@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Стрелковая дивизия"				
+	name = "Стрелковая дивизия"
 
 	division_names_group = MRD_INF_01
 
@@ -7,11 +7,14 @@
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
 	}
 	support = {
+		engineer = { x = 0 y = 0 }
 	}
 	priority = 2
 }
@@ -34,11 +37,14 @@ division_template = {
 	division_names_group = SOV_ARM_04
 	regiments = {
 		medium_armor = { x = 0 y = 0 }
-		medium_armor = { x = 0 y = 1 }			
-		medium_armor = { x = 1 y = 0 }	
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 1 y = 0 }
 		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 1 y = 2 }
 		cavalry = { x = 2 y = 0 }
 		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
 	}
 }
 
