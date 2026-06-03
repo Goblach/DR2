@@ -42,6 +42,23 @@ characters={
         	logistics_skill = 1
         }
     }
+	FSK_William_Wallace = {
+		name = "Уильям Уоллес"
+		portraits = {
+			army = {
+				small = "GFX_idea_FSK_William_Wallace"
+				large = "gfx/leaders/FSK/William_Wallace.dds"
+			}
+		}
+		corps_commander = {
+        	traits = { inspirational_bagpiper trickster guerilla_fighter militias_officer }
+         	skill = 4
+          	attack_skill = 5
+          	defense_skill = 3
+          	planning_skill = 3
+        	logistics_skill = 4
+        }
+    }
 	FSK_Kofi_Offe = {
 		name = "Кофи Оффе"
 		portraits = {

@@ -14,6 +14,7 @@ set_technology = {
 recruit_character = FSK_Shon_Konneri
 recruit_character = FSK_Niels_Olaf
 recruit_character = FSK_Kofi_Offe
+recruit_character = FSK_William_Wallace
 
 add_ideas = {
 limited_conscription

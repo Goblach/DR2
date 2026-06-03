@@ -996,6 +996,10 @@ spriteTypes = {
 		name = "GFX_idea_FSK_Kofi_Offe"
 		texturefile = "gfx/interface/ideas/idea_FSK_Kofi_Offe.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_FSK_William_Wallace"
+		texturefile = "gfx/interface/ideas/idea_FSK_William_Wallace.dds"
+	}
 	#ВНИМАНИЕ-ПРИСУТСТВУЕТ-АНИМАЦИЯ
 	#spriteType = {
 	#	name = "GFX_POK_novodvorskaya_ap"
