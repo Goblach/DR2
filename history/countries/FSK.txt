@@ -13,6 +13,7 @@ set_technology = {
 
 recruit_character = FSK_Shon_Konneri
 recruit_character = FSK_Niels_Olaf
+recruit_character = FSK_Kofi_Offe
 
 add_ideas = {
 limited_conscription
@@ -23,11 +24,10 @@ FSK_gorci
 
 set_popularities = {
 	neutrality = 45
-	democratic = 20
-	fascism = 20
-	vmestolev = 5
-	metacommy = 5
-	anarhostalinism = 5
+	democratic = 15
+	fascism = 15
+	vmestolev = 15
+	memoism = 10
 }
 set_politics = {
 	ruling_party = neutrality

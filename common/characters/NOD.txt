@@ -80,6 +80,7 @@ characters = {
 		legacy_id = -1
         }
 		advisor = {	
+			cost = 150
 		    slot = high_command
 		    idea_token = NOD_Grisha_Putin
 			allowed = {

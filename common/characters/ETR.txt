@@ -20,7 +20,7 @@ characters={
 		portraits = {
 			army = {
 				large = "gfx/leaders/ETR/Andrboll.dds"
-				small = 
+				small = GFX_idea_ETR_Andrboll
 			}
 		}
 
@@ -32,6 +32,24 @@ characters={
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = 0
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = ETR_Andrboll
+			ledger = army
+			allowed = {
+				original_tag = ETR
+			}
+			available = {
+				
+			}
+			traits = {
+				army_concealment_3
+			}
+			ai_will_do = {
+				base = 1
+			}
 		}
 	}
 	ETR_Bazil = {
