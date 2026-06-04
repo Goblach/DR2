@@ -1355,6 +1355,7 @@ focus_tree = {
 						engine_type_slot = engine_2_1x
 						special_type_slot_1 = empty
 					}
+					icon = "gfx/interface/technologies/SOV_fighter2.dds"
 				}
 				set_technology = {
 					iw_small_airframe = 1
