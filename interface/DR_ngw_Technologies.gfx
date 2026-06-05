@@ -884,4 +884,9 @@ spriteTypes = {
 		name = "GFX_UKR_motorized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/UKR_kraz.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_urki_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/MRD_urki.dds"
+	}
 }

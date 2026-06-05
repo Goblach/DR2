@@ -281,6 +281,11 @@ spriteTypes = {
 		name = "GFX_sp_banhammer"
 		texturefile = "gfx/interface/special_project/project_icons/sp_banhammer.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_sp_urki"
+		texturefile = "gfx/interface/special_project/project_icons/sp_urki.dds"
+	}
 
 ## AIR ##
 
