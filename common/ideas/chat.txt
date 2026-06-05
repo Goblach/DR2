@@ -13,7 +13,7 @@ ideas = {
 		}
 	    CHT_plan = {
 
-			picture = HUN_hungarian_monarchy
+			picture = CHT_plan
 			
 			modifier = {
 			    industrial_capacity_factory = 0.1

@@ -1014,7 +1014,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_morale_bonus
+			picture = memi
 	
 			modifier = {
 				memoism_drift = 0.01
@@ -1138,7 +1138,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_morale_bonus
+			picture = ruka_rinka
 	
 			modifier = {
 				consumer_goods_factor = -0.025

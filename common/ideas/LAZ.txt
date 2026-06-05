@@ -300,7 +300,7 @@ ideas = {
 		
 		LAZ_plan_lazaret_moderat_army = {
 		
-			picture = chi_incompetent_officers 
+			picture = LAZ_plan_lazaret_moderat_army 
 			
 			removal_cost = -1 
 				
@@ -519,7 +519,7 @@ ideas = {
 		
 		LAZ_komitet_moderov_gosplana = {
 		
-		 picture = generic_the_london_naval_treaty
+		 picture = LAZ_komitet_moderov_gosplana
 			
 			removal_cost = -1
 
