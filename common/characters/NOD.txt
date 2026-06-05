@@ -1,4 +1,4 @@
-characters = {
+ characters = {
 	NOD_Fedorov = {
 		name = "Евгений Федоров"
 		portraits = {
@@ -307,6 +307,11 @@ characters = {
 			allowed = {
 				original_tag = NOD
 				
+			}
+			available = { 	
+			NOT = { has_country_leader = {
+				ruling_only = yes
+					character = NOD_nik_star  } }
 			}			
 			traits = { backroom_backstabber }
 			ai_will_do = {
