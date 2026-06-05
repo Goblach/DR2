@@ -1640,7 +1640,13 @@ country_event = {
 					backroom_backstabber
 				}
 			}
-		set_politics = { ruling_party = fascism elections_allowed = no }	
+		set_politics = { ruling_party = fascism elections_allowed = no }
+			set_party_name = {
+							ideology = fascism
+							long_name = NOD_star_party_long
+							name = NOD_star_party
+						}
+		remove_ideas = NOD_bez_putina						
 		}
 	}
 	country_event = {

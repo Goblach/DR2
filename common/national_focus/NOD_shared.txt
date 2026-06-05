@@ -1405,7 +1405,7 @@ if = {
 			focus = NOD_nats_iskluchitelnost
 		}
 		available = {
-			num_of_controlled_states > 110
+			num_of_controlled_states > 120
 		}
 		x = 41
 		y = 6
