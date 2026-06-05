@@ -6553,7 +6553,7 @@ generic_infantry_equipment_organization = {
 	icon = GFX_idea_generic_infantry_equipment_manufacturer_2
 
 	allowed = {
-		NOT = { OR = { original_tag = CHT original_tag = DON original_tag = LAZ original_tag = OSV original_tag = NOD original_tag = POK original_tag = MGN original_tag = GAL original_tag = YSK original_tag = ZNS original_tag = OMS original_tag = MRD original_tag = UKR } }
+		NOT = { OR = { original_tag = CHT original_tag = DON original_tag = LAZ original_tag = OSV original_tag = NOD original_tag = POK original_tag = MGN original_tag = GAL original_tag = YSK original_tag = ZNS original_tag = OMS original_tag = MRD original_tag = UKR original_tag = IRQ } }
 	}
 
 	equipment_type = {
