@@ -1,0 +1,37 @@
+ideas = {
+       country = {
+	        KAZ_ekonom_problem = {
+
+			picture = KAZ_ekonom_problem
+			
+			   modifier = {
+			    consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.2
+			    }
+		    }
+			
+			KAZ_social_problem = {
+
+			picture = KAZ_social_problem
+			
+			   modifier = {
+			   stability_factor = -0.2
+			   research_speed_factor = -0.1
+			    }
+		    }
+			
+			KAZ_evrei_problem = {
+
+			picture = KAZ_evrei_problem
+			 targeted_modifier = {
+			    tag = LIM
+			    attack_bonus_against = -0.1
+			    defense_bonus_against = -0.1
+		        }
+			
+			   modifier = {
+			    political_power_gain = -0.1
+			    }
+		    }
+		}
+}

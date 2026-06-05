@@ -414,6 +414,50 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/MAT_idea_krasniy_shumirism.dds"	
 	}
 	SpriteType = {
+		name = "GFX_idea_LAZ_plan_lazaret_moderat_army"
+		texturefile = "gfx/interface/ideas/LAZ_plan_lazaret_moderat_army.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_LAZ_komitet_moderov_gosplana"
+		texturefile = "gfx/interface/ideas/LAZ_komitet_moderov_gosplana.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_memi"
+		texturefile = "gfx/interface/ideas/memi.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_OSV_only_right_books"
+		texturefile = "gfx/interface/ideas/OSV_only_right_books.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_OSV_nicto_ne_dolzno_meshat"
+		texturefile = "gfx/interface/ideas/OSV_nicto_ne_dolzno_meshat.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_OSV_only_Kerb_understand"
+		texturefile = "gfx/interface/ideas/OSV_only_Kerb_understand.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_CHT_plan"
+		texturefile = "gfx/interface/ideas/CHT_plan.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_ruka_rinka"
+		texturefile = "gfx/interface/ideas/ruka_rinka.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KAZ_ekonom_problem"
+		texturefile = "gfx/interface/ideas/KAZ_ekonom_problem.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KAZ_social_problem"
+		texturefile = "gfx/interface/ideas/KAZ_social_problem.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_KAZ_evrei_problem"
+		texturefile = "gfx/interface/ideas/KAZ_evrei_problem.dds"	
+	}
+	SpriteType = {
 		name = "GFX_idea_"
 		texturefile = "gfx/interface/ideas/.dds"	
 	}

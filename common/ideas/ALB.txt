@@ -3,6 +3,10 @@ ideas = {
 	        ALB_kozlovodstvo = {
 
 			    picture = Kozlovodstvo
+				
+				allowed_civil_war = {
+				has_government = vmestolev
+			}
 			
 			    modifier = {
 				    MONTHLY_POPULATION = 0.3
@@ -13,6 +17,10 @@ ideas = {
 	        ALB_bunkervodstvo = {
 
 			    picture = ALB_gosbunkerstroy
+				
+				allowed_civil_war = {
+				has_government = vmestolev
+			}
 			
 			    modifier = {
 				production_speed_bunker_factor = 0.15
@@ -24,6 +32,10 @@ ideas = {
 			ALB_chess_segregation = {
 
 			    picture = Shakhmatnaya_segregatsia
+				
+				allowed_civil_war = {
+				has_government = vmestolev
+			}
 			
 			    modifier = {
 					
@@ -37,6 +49,10 @@ ideas = {
 			ALB_the_great_antigamer_campaign = {
 
 			    picture = cht_shizofrenia
+				
+				allowed_civil_war = {
+				has_government = vmestolev
+			}
 			
 			    modifier = {
 					
@@ -226,6 +242,10 @@ ideas = {
 			
 			allowed = {
 				original_tag = ALB
+			}
+			
+			allowed_civil_war = {
+				has_government = vmestolev
 			}
 		
 			modifier = {

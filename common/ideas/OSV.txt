@@ -86,7 +86,7 @@ ideas = {
 			}
 		}
 		OSV_only_right_books = {
-			picture = generic_communism_drift_bonus
+			picture = OSV_only_right_books
 			
 			removal_cost = -1
 			
@@ -101,7 +101,7 @@ ideas = {
 			}
 		}
 		OSV_nicto_ne_dolzno_meshat = {
-			picture = generic_communism_drift_bonus
+			picture = OSV_nicto_ne_dolzno_meshat
 			
 			removal_cost = -1
 			
@@ -115,7 +115,7 @@ ideas = {
 			}
 		}
 		OSV_only_Kerb_understand = {
-			picture = generic_communism_drift_bonus
+			picture = OSV_only_Kerb_understand
 			
 			removal_cost = -1
 			

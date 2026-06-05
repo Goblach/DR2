@@ -1,1 +1,38 @@
-﻿
+capital = 586
+
+oob = KAZ_1936
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = KAZ_borat
+recruit_character = KAZ_sanat
+recruit_character = KAZ_shingiz
+recruit_character = KAZ_Igor_Vihorkov
+recruit_character = KAZ_Zombie_Chan
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+KAZ_ekonom_problem
+KAZ_social_problem
+KAZ_evrei_problem
+}
+
+set_popularities = {
+	democratic = 70
+	memoism = 18
+	vmestolev = 8
+	fascism = 4
+}
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no	
+}
+
+set_convoys = 40
