@@ -116,4 +116,309 @@ spriteTypes = {
 		name = "GFX_idea_GAL_cowboyi_protivodeystvie"
 		texturefile = "gfx/interface/ideas/GAL_cowboyi_protivodeystvie.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_GAL_Zhidkoe_myaso"
+		texturefile = "gfx/interface/ideas/GAL_Zhidkoe_myaso.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GAL_Kasty"
+		texturefile = "gfx/interface/ideas/GAL_Kasty.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GAL_Kolonii_na_Lune"
+		texturefile = "gfx/interface/ideas/GAL_Kolonii_na_Lune.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GAL_Kolonii_na_Marse"
+		texturefile = "gfx/interface/ideas/GAL_Kolonii_na_Marse.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GAL_Nauchny_spartanizm"
+		texturefile = "gfx/interface/ideas/GAL_Nauchny_spartanizm.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GAL_Natsionalny_panoptikum"
+		texturefile = "gfx/interface/ideas/GAL_Natsionalny_panoptikum.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GAL_Otmena_tyurem"
+		texturefile = "gfx/interface/ideas/GAL_Otmena_tyurem.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GAL_Tekhnokraticheskoe_pravitelstvo"
+		texturefile = "gfx/interface/ideas/GAL_Tekhnokraticheskoe_pravitelstvo.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_POK_Natsgvardia"
+		texturefile = "gfx/interface/ideas/POK_Natsgvardia.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_POK_bolshe_transikov"
+		texturefile = "gfx/interface/ideas/POK_bolshe_transikov.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_POK_kachat_uglevodorodi_zarubezh"
+		texturefile = "gfx/interface/ideas/POK_kachat_uglevodorodi_zarubezh.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_POK_kult_Nepolzivova"
+		texturefile = "gfx/interface/ideas/POK_kult_Nepolzivova.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_POK_ruka_rinka_v_perchatke"
+		texturefile = "gfx/interface/ideas/POK_ruka_rinka_v_perchatke.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_POK_steel_hvatka_libera"
+		texturefile = "gfx/interface/ideas/POK_steel_hvatka_liberal.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_POK_CHP_v_stolitse"
+		texturefile = "gfx/interface/ideas/POK_CHP_v_stolitse.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_POK_antitotal_cenz"
+		texturefile = "gfx/interface/ideas/POK_antitotal_cenz.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_POK_new_gosduma"
+		texturefile = "gfx/interface/ideas/POK_new_gosduma.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_unichtozh_vertolyotiki"
+		texturefile = "gfx/interface/ideas/YSK_unichtozh_vertolyotiki.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_soslovie_kazakov"
+		texturefile = "gfx/interface/ideas/YSK_soslovie_kazakov.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_russkiy_bizness"
+		texturefile = "gfx/interface/ideas/YSK_russkiy_bizness.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_russkie_idut"
+		texturefile = "gfx/interface/ideas/YSK_russkie_idut.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_russkie_vperyod"
+		texturefile = "gfx/interface/ideas/YSK_russkie_vperyod.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_pravilnoe_ispolz_resursov"
+		texturefile = "gfx/interface/ideas/YSK_pravilnoe_ispolz_resursov.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_pomosh_fermeram"
+		texturefile = "gfx/interface/ideas/YSK_pomosh_fermeram.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_help_russia_kapitalists"
+		texturefile = "gfx/interface/ideas/YSK_help_russia_kapitalists.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_nichtozn_tnoids"
+		texturefile = "gfx/interface/ideas/YSK_nichtozn_tnoids.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_nasledie_white_gvard"
+		texturefile = "gfx/interface/ideas/YSK_nasledie_white_gvard.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_idealiz_dorevolution_proshlogo"
+		texturefile = "gfx/interface/ideas/YSK_idealiz_dorevolution_proshlogo.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_boy_neosovky"
+		texturefile = "gfx/interface/ideas/YSK_boy_neosovky.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_YSK_BARNAUL"
+		texturefile = "gfx/interface/ideas/YSK_BARNAUL.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BTS_razvitie_legkoproma"
+		texturefile = "gfx/interface/ideas/BTS_razvitie_legkoproma.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BTS_sh_teh"
+		texturefile = "gfx/interface/ideas/BTS_sh_teh.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_NOD_ogon_i_sila"
+		texturefile = "gfx/interface/ideas/NOD_ogon_i_sila.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_NOD_kontsentratsiya_arti"
+		texturefile = "gfx/interface/ideas/NOD_kontsentratsiya_arti.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_NOD_react_art"
+		texturefile = "gfx/interface/ideas/NOD_react_art.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_NOD_voini_ognya"
+		texturefile = "gfx/interface/ideas/NOD_voini_ognya.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_IRQ_torgovlya_s_Iydeey"
+		texturefile = "gfx/interface/ideas/IRQ_torgovlya_s_Iydeey.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_IRQ_kazhdomu_muzhchine-po_deshevoy_butilke_vodki"
+		texturefile = "gfx/interface/ideas/IRQ_kazhdomu_muzhchine-po_deshevoy_butilke_vodki.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_IRQ_kazhdoy_odinokoy_zhenshine-po_muzhchine"
+		texturefile = "gfx/interface/ideas/IRQ_kazhdoy_odinokoy_zhenshine-po_muzhchine.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_IRQ_voennoe_vmesto_yazikovogo_obucheniye"
+		texturefile = "gfx/interface/ideas/IRQ_voennoe_vmesto_yazikovogo_obucheniye.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_IRQ_berem_vseh"
+		texturefile = "gfx/interface/ideas/IRQ_berem_vseh.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_IRQ_mit_sapogi_v_indiyskom_okeane"
+		texturefile = "gfx/interface/ideas/IRQ_mit_sapogi_v_indiyskom_okeane.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_IRQ_fedaini_saddama"
+		texturefile = "gfx/interface/ideas/IRQ_fedaini_saddama.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_SKT_avangard_lumpen_kassir"
+		texturefile = "gfx/interface/ideas/SKT_avangard_lumpen_kassir.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_SKT_opit_sevkor_ansabley_pesen "
+		texturefile = "gfx/interface/ideas/SKT_opit_sevkor_ansabley_pesen.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_SKT_elementi_chuchhe "
+		texturefile = "gfx/interface/ideas/SKT_elementi_chuchhe.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_SKT_KSKR"
+		texturefile = "gfx/interface/ideas/SKT_KSKR.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_SKT_kommunist_agora"
+		texturefile = "gfx/interface/ideas/SKT_kommunist_agora.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_SKT_razvodid_kochevoy_kartofel"
+		texturefile = "gfx/interface/ideas/SKT_razvodid_kochevoy_kartofel.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_SKT_no_step_back"
+		texturefile = "gfx/interface/ideas/SKT_no_step_back.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_DON_voyenniy_plan"
+		texturefile = "gfx/interface/ideas/DON_voyenniy_plan.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_DON_red_popi"
+		texturefile = "gfx/interface/ideas/DON_red_popi.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_DON_Nasledie_Koshkina"
+		texturefile = "gfx/interface/ideas/DON_Nasledie_Koshkina.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_DON_next_generation"
+		texturefile = "gfx/interface/ideas/DON_next_generation.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_DON_new_stankostroenie"
+		texturefile = "gfx/interface/ideas/DON_new_stankostroenie.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_DON_otzhym"
+		texturefile = "gfx/interface/ideas/DON_otzhym.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_DON_idea_OGAS_building"
+		texturefile = "gfx/interface/ideas/DON_idea_OGAS_building.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_DON_idea_mini_i_protivotankoviye_kusti"
+		texturefile = "gfx/interface/ideas/DON_idea_mini_i_protivotankoviye_kusti.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_LAZ_soktatit_polnomochia_moderatorov"
+		texturefile = "gfx/interface/ideas/LAZ_soktatit_polnomochia_moderatorov.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_LAZ_rabochiy_kontrol"
+		texturefile = "gfx/interface/ideas/LAZ_rabochiy_kontrol.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_LAZ_opolchenie2"
+		texturefile = "gfx/interface/ideas/LAZ_opolchenie2.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_LAZ_ofitseri_iz_moderatorov"
+		texturefile = "gfx/interface/ideas/LAZ_ofitseri_iz_moderatorov.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_LAZ_obzor_SRL"
+		texturefile = "gfx/interface/ideas/LAZ_obzor_SRL.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_LAZ_new_collectivization"
+		texturefile = "gfx/interface/ideas/LAZ_new_collectivization.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_LAZ_chistka_moderatorov"
+		texturefile = "gfx/interface/ideas/LAZ_chistka_moderatorov.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_LAZ_building_MTS"
+		texturefile = "gfx/interface/ideas/LAZ_building_MTS.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_LAZ_bankovskaya_reforma"
+		texturefile = "gfx/interface/ideas/LAZ_bankovskaya_reforma.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_LAZ_agroreformy_2"
+		texturefile = "gfx/interface/ideas/LAZ_agroreformy_2.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_LAZ_agroreformy_1"
+		texturefile = "gfx/interface/ideas/LAZ_agroreformy_1.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_kolhozi"
+		texturefile = "gfx/interface/ideas/kolhozi.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_MAT_idea_religiya_1"
+		texturefile = "gfx/interface/ideas/MAT_idea_religiya_1.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_MAT_idea_krasniy_shumirism"
+		texturefile = "gfx/interface/ideas/MAT_idea_krasniy_shumirism.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_"
+		texturefile = "gfx/interface/ideas/.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_"
+		texturefile = "gfx/interface/ideas/.dds"	
+	}
 }

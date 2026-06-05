@@ -153,7 +153,7 @@ ideas = {
 		}
 		DON_idea_red_popi = { #Красные_Попы
 			
-			picture = generic_morale_bonus
+			picture = DON_red_popi
 				
 		    removal_cost = -1
 				
@@ -167,7 +167,7 @@ ideas = {
 		}
 		DON_idea_next_generation = { #Новое_Поколение
 		
-			picture = generic_morale_bonus
+			picture = DON_next_generation
 			
 		    removal_cost = -1
 			
@@ -182,7 +182,7 @@ ideas = {
 			
 		DON_idea_new_stankostroenie = { #Новое_Станкостроение
 			
-			picture = generic_morale_bonus
+			picture = DON_new_stankostroenie
 			
 			removal_cost = -1
 			
@@ -228,7 +228,7 @@ ideas = {
 		
 		DON_idea_OGAS_building = { #Строительство_ОГАСа
 		
-			picture = generic_morale_bonus
+			picture = DON_idea_OGAS_building
 			
 			removal_cost = -1
 			
@@ -255,7 +255,7 @@ ideas = {
 		
 		DON_idea_Nasledie_Koshkina = { #Наследие_Кошкина
 			
-			picture = generic_morale_bonus
+			picture = DON_Nasledie_Koshkina
 			
 			removal_cost = -1
 
@@ -267,7 +267,7 @@ ideas = {
 		
 		DON_idea_voyenniy_plan = { #Сетецентрическая_война
 			
-			picture = generic_morale_bonus
+			picture = DON_voyenniy_plan
 			
 			removal_cost = -1
 			
@@ -313,7 +313,7 @@ ideas = {
 		
 		DON_idea_otzhym = { #Русские_назад
 		
-			picture = generic_morale_bonus
+			picture = DON_otzhym
 			
 			removal_cost = -1
 			
@@ -327,7 +327,7 @@ ideas = {
 		}
 		DON_idea_mini_i_protivotankoviye_kusti = {  #Мины_и_противотанковые_кусты
 		
-			picture = generic_morale_bonus
+			picture = DON_idea_mini_i_protivotankoviye_kusti
 			
 			removal_cost = -1
 			

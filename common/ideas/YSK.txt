@@ -2,7 +2,7 @@ ideas = {
         country = {
 			YSK_Barnaul_Altayskiy_kray = {
 
-			    picture = spr_anti_fascist_crusade
+			    picture = YSK_BARNAUL
 				
 				available = {
 					has_war = yes
@@ -16,7 +16,7 @@ ideas = {
 		    }
 			YSK_rus_idut = {
 
-			    picture = spr_anti_fascist_crusade
+			    picture = YSK_russkie_idut
 			
 			    modifier = {
 				army_attack_speed_factor = 0.15
@@ -25,7 +25,7 @@ ideas = {
 		    }
 			YSK_boy_neosovku = {
 
-			    picture = spr_anti_fascist_crusade
+			    picture = YSK_boy_neosovky
 			    
 				targeted_modifier = {
 			    tag = MGN
@@ -54,7 +54,7 @@ ideas = {
 		    }
 			YSK_rus_bisass = {
 
-			    picture = spr_anti_fascist_crusade
+			    picture = YSK_russkiy_bizness
 			
 			    modifier = {
 				consumer_goods_factor = -0.025
@@ -73,7 +73,7 @@ ideas = {
 		    }
 			YSK_rus_vperde = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = YSK_russkie_vperyod
 			
 			    removal_cost = -1 
 				
@@ -142,7 +142,7 @@ ideas = {
 		    }
 			YSK_help_rus_capitalist = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = YSK_help_russia_kapitalists
 			
 			    removal_cost = -1 
 				
@@ -2042,7 +2042,7 @@ ideas = {
 		    }
 			YSK_TNO_0 = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_nichtozn_tnoids
 			
 			    modifier = {
 				stability_factor = 0.05
@@ -2056,7 +2056,7 @@ ideas = {
 		    }
 			YSK_TNO_1 = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_nichtozn_tnoids
 			
 			    modifier = {
 				stability_factor = -0.02
@@ -2070,7 +2070,7 @@ ideas = {
 		    }
 			YSK_TNO_2 = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_nichtozn_tnoids
 			
 			    modifier = {
 				stability_factor = -0.05
@@ -2084,7 +2084,7 @@ ideas = {
 		    }
 			YSK_TNO_3 = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_nichtozn_tnoids
 			
 			    modifier = {
 				stability_factor = -0.075
@@ -2098,7 +2098,7 @@ ideas = {
 		    }
 			YSK_TNO_4 = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_nichtozn_tnoids
 			
 			    modifier = {
 				stability_factor = -0.1
@@ -2112,7 +2112,7 @@ ideas = {
 		    }
 			YSK_destroy_vertolets = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_unichtozh_vertolyotiki
 			
 			    modifier = {
 				research_speed_factor = -0.02
@@ -2129,7 +2129,7 @@ ideas = {
 		    }
 			YSK_true_ispilzovanie_recursov = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_pravilnoe_ispolz_resursov
 			
 			    modifier = {
 				production_factory_efficiency_gain_factor = 0.05
@@ -2139,7 +2139,7 @@ ideas = {
 		    }
 			YSK_true_ispilzovanie_recursov_1 = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_pravilnoe_ispolz_resursov
 			
 			    modifier = {
 				production_factory_efficiency_gain_factor = 0.05
@@ -2162,7 +2162,7 @@ ideas = {
 		    }
 			YSK_idealizatsiya_dorev_proshlogo = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_idealiz_dorevolution_proshlogo
 			
 			    modifier = {
 				stability_factor = 0.075
@@ -2172,7 +2172,7 @@ ideas = {
 		    }
 			YSK_help_farmers = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_pomosh_fermeram
 			
 			    modifier = {
 				stability_factor = 0.025
@@ -2183,7 +2183,7 @@ ideas = {
 		    }
 			YSK_legacy_white_guardian = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_nasledie_white_gvard
 			
 			    modifier = {
 				army_attack_factor = 0.025
@@ -2193,7 +2193,7 @@ ideas = {
 		    }
 			YSK_legacy_white_guardian_1 = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_nasledie_white_gvard
 			
 			    modifier = {
 				army_attack_factor = 0.05
@@ -2204,7 +2204,7 @@ ideas = {
 		    }
 			YSK_soslovie_kazakov = {
 
-			    picture = YSK_perestroyka_gos_machine
+			    picture = YSK_soslovie_kazakov
 			
 			    modifier = {
 				cavalry_attack_factor = 0.05

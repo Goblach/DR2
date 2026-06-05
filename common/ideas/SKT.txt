@@ -133,7 +133,7 @@ ideas = {
 		    }
 			SKT_avangard_lumpen_kassir = {
 
-			picture = cht_shizofrenia  
+			picture = SKT_avangard_lumpen_kassir  
 			    modifier = {
 				vmestolev_drift = 0.01
 				party_popularity_stability_factor = 0.15
@@ -159,7 +159,7 @@ ideas = {
 		    }
 			SKT_opit_sevkor_ansabley_pesen = {
 
-			picture = cht_shizofrenia  
+			picture = SKT_opit_sevkor_ansabley_pesen  
 			    modifier = {
 				political_power_gain = 0.1
                 vmestolev_drift = 0.01     				
@@ -167,7 +167,7 @@ ideas = {
 		    }
 			SKT_elementi_chuchhe = {
 
-			    picture = cht_shizofrenia  
+			    picture = SKT_elementi_chuchhe  
 			    modifier = {
 				army_org_factor = 0.05
 				industrial_capacity_factory = 0.05
@@ -176,7 +176,7 @@ ideas = {
 		    }
 			SKT_KSKR = {
 
-			    picture = cht_shizofrenia  
+			    picture = SKT_KSKR  
 			    modifier = {
 				army_org_factor = 0.05
 				army_core_defence_factor = 0.1
@@ -185,7 +185,7 @@ ideas = {
 		    }
 			SKT_kommunist_agora = {
 
-			    picture = cht_shizofrenia  
+			    picture = SKT_kommunist_agora  
 			    modifier = {
 				vmestolev_drift = 0.01
                 war_support_factor = 0.05
@@ -194,7 +194,7 @@ ideas = {
 		    }
 			SKT_razvodid_kochevoy_kartofel = {
 
-			    picture = cht_shizofrenia  
+			    picture = SKT_razvodid_kochevoy_kartofel  
 			    modifier = {
 				consumer_goods_factor = -0.05  
  				army_speed_factor = 0.1
@@ -211,7 +211,7 @@ ideas = {
 		    }
 			SKT_no_step_back = {
 
-			    picture = cht_shizofrenia  
+			    picture = SKT_no_step_back  
 			    modifier = {
 				dig_in_speed_factor = -0.05
 				army_core_attack_factor = 0.1

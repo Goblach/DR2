@@ -37,7 +37,6 @@ characters={
 			cost = 150
 			slot = high_command
 			idea_token = ETR_Andrboll
-			ledger = army
 			allowed = {
 				original_tag = ETR
 			}

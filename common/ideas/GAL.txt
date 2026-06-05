@@ -277,14 +277,14 @@ ideas = {
 		    }
 			
 			GAL_tecnocratia = {
-			   picture = generic_research_bonus
+			   picture = GAL_Tekhnokraticheskoe_pravitelstvo
 			   modifier = {
 			   political_power_gain = -0.05
 				research_speed_factor = 0.1
 			   }
 		    }
 			GAL_tecnocratia_2 = {
-			   picture = generic_research_bonus
+			   picture = GAL_Tekhnokraticheskoe_pravitelstvo
 			   modifier = {
 			   political_power_gain = -0.1
 				research_speed_factor = 0.2
@@ -467,7 +467,7 @@ ideas = {
 				}
 			}
 			GAL_spartanism_1 = {
-				picture = gre_venerate_the_ancient_hellenes_hoplite
+				picture = GAL_Nauchny_spartanizm
 				modifier = {
 				 research_speed_factor = 0.03
 				 production_lack_of_resource_penalty_factor = -0.05
@@ -475,7 +475,7 @@ ideas = {
 				}
 			}
 			GAL_spartanism_2 = {
-				picture = gre_venerate_the_ancient_hellenes_hoplite
+				picture = GAL_Nauchny_spartanizm
 				modifier = {
 				 research_speed_factor = 0.06
 				 production_lack_of_resource_penalty_factor = -0.1
@@ -483,7 +483,7 @@ ideas = {
 				}
 			}
 			GAL_meat = {
-				picture = generic_supply_depot
+				picture = GAL_Zhidkoe_myaso
 				modifier = {
 				 army_strength_factor = 0.1
 				 supply_consumption_factor  = -0.05
@@ -492,7 +492,7 @@ ideas = {
 				}
 			}
 			GAL_meat_2 = {
-				picture = generic_supply_depot
+				picture = GAL_Zhidkoe_myaso
 				modifier = {
 				 army_strength_factor = 0.2
 				 supply_consumption_factor  = -0.1
@@ -508,7 +508,7 @@ ideas = {
 				}
 			}
 			GAL_otmena_turem_idea = {
-				picture = generic_prisoner
+				picture = GAL_Otmena_tyurem
 				modifier = {
 				 stability_factor = -0.1
 				 local_resources_factor = 0.1
@@ -543,7 +543,7 @@ ideas = {
 				}
 			}
 			GAL_toples_program = {
-				picture = generic_morale_bonus
+				picture = GAL_Natsionalny_panoptikum
 				modifier = {
 				 political_power_factor = 0.05
 				 stability_factor = 0.05
@@ -593,7 +593,7 @@ ideas = {
 				}
 			}
 			GAL_kasty = {
-				picture = saf_history_of_segregation
+				picture = GAL_Kasty
 				modifier = {
 				 stability_factor = -0.1
 				 political_power_factor = 0.05
@@ -655,7 +655,7 @@ ideas = {
 				}
 			}
 			GAL_moon_colony = { 
-				picture = ast_all_in
+				picture = GAL_Kolonii_na_Lune
 				modifier = {
 					country_resource_aluminium = 10
 					country_resource_steel = 10
@@ -663,7 +663,7 @@ ideas = {
 				}
 			}
 			GAL_moon_mars_colony = { 
-				picture = ast_all_in
+				picture = GAL_Kolonii_na_Marse
 				modifier = {
 					country_resource_aluminium = 20
 					country_resource_steel = 20

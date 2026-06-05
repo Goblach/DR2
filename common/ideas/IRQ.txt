@@ -4,7 +4,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = idea_saf_history_of_segregation
+			picture = IRQ_torgovlya_s_Iydeey
 
 			modifier = { 
 			    production_factory_max_efficiency_factor = 0.05
@@ -12,11 +12,11 @@ ideas = {
 			}		
 		}
 		
-	    IRQ_kazhdomu_muzhchine-po_deshevoy_butilke_vodki = {
+	    IRQ_kazhdomu_muzhchine-po_deshevoy_butilke_vodki_i = {
 			
 			removal_cost = -1
 
-			picture = GFX_idea_GAL_vodochnaya_monopoliya_i
+			picture = IRQ_kazhdomu_muzhchine-po_deshevoy_butilke_vodki
 
 			modifier = { 
 			    production_factory_max_efficiency_factor = -0.05
@@ -24,22 +24,22 @@ ideas = {
 			}		
 		}
 		
-		IRQ_kazhdoy_odinokoy_zhenshine-po_muzhchine = {
+		IRQ_kazhdoy_odinokoy_zhenshine-po_muzhchine_i = {
 			
 			removal_cost = -1
 
-			picture = idea_saf_history_of_segregation
+			picture = IRQ_kazhdoy_odinokoy_zhenshine-po_muzhchine
 
 			modifier = { 
 			    monthly_population = 0.5
 			}		
 		}
 		
-		IRQ_voennoe_vmesto_yazikovogo_obucheniye = {
+		IRQ_voennoe_vmesto_yazikovogo_obucheniye_i = {
 			
 			removal_cost = -1
 
-			picture = idea_saf_history_of_segregation
+			picture = IRQ_voennoe_vmesto_yazikovogo_obucheniye
 
 			modifier = { 
 			    opinion_gain_monthly_factor = -0.1
@@ -47,33 +47,33 @@ ideas = {
 			}		
 		}
 		
-		IRQ_berem_vseh = {
+		IRQ_berem_vseh_i = {
 			
 			removal_cost = -1
 
-			picture = idea_saf_history_of_segregation
+			picture = IRQ_berem_vseh
 
 			modifier = { 
 				conscription_factor = 0.1
 			}		
 		}
 		
-		IRQ_mit_sapogi_v_indiyskom_okeane = {
+		IRQ_mit_sapogi_v_indiyskom_okeane_i = {
 			
 			removal_cost = -1
 
-			picture = idea_saf_history_of_segregation
+			picture = IRQ_mit_sapogi_v_indiyskom_okeane
 
 			modifier = { 
 				acclimatization_hot_climate_gain_factor = 0.5
 			}		
 		}
 		
-		IRQ_fedaini_saddama = {
+		IRQ_fedaini_saddama_i = {
 			
 			removal_cost = -1
 
-			picture = idea_saf_history_of_segregation
+			picture = IRQ_fedaini_saddama
 
 			modifier = { 
 				conscription = 0.05

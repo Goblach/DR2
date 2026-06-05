@@ -1341,7 +1341,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = POK_antitotal_cenz
 			
 			modifier = {
 			    anarhostalinism_drift = -0.01
@@ -1382,7 +1382,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = POK_bolshe_transikov
 			
 			modifier = {
 			}
@@ -1405,7 +1405,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = POK_ruka_rinka_v_perchatke
 			
 			modifier = {
 			    drift_defence_factor = 0.05
@@ -1425,7 +1425,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = POK_steel_hvatka_libera
 			
 			modifier = {
 			    drift_defence_factor = 0.05
@@ -1444,7 +1444,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = POK_kachat_uglevodorodi_zarubezh
 			
 			modifier = {
 			    min_export = 0.075
@@ -1463,7 +1463,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = POK_CHP_v_stolitse
 			
 			modifier = {
 			    army_attack_factor = -0.15      				
@@ -1481,7 +1481,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = POK_new_gosduma
 			
 			modifier = {
 			    stability_factor = 0.05
@@ -1500,7 +1500,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = POK_kult_Nepolzivova
 			
 			modifier = {
 			    stability_factor = 0.1
@@ -1644,7 +1644,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = POK_Natsgvardia
 			
 			modifier = {   
 			    war_support_factor = 0.05

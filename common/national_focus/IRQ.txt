@@ -358,7 +358,7 @@ focus_tree = {
 		x = 12
 		y = 3
 			completion_reward = {
-					add_ideas = IRQ_berem_vseh
+					add_ideas = IRQ_berem_vseh_i
 				}
 
 	}
@@ -372,7 +372,7 @@ focus_tree = {
 		x = 14
 		y = 2
 			completion_reward = {
-					add_ideas = IRQ_voennoe_vmesto_yazikovogo_obucheniye
+					add_ideas = IRQ_voennoe_vmesto_yazikovogo_obucheniye_i
 				}
 
 	}
@@ -401,7 +401,7 @@ focus_tree = {
 		y = 2
 			completion_reward = {
 					add_stability = 0.05
-					add_ideas = IRQ_kazhdoy_odinokoy_zhenshine-po_muzhchine
+					add_ideas = IRQ_kazhdoy_odinokoy_zhenshine-po_muzhchine_i
 				}
 
 	}
@@ -416,7 +416,7 @@ focus_tree = {
 		y = 3
 			completion_reward = {
 					add_stability = 0.1
-					add_ideas = IRQ_kazhdomu_muzhchine-po_deshevoy_butilke_vodki
+					add_ideas = IRQ_kazhdomu_muzhchine-po_deshevoy_butilke_vodki_i
 				}
 
 	}
@@ -436,7 +436,7 @@ focus_tree = {
 		x = 14
 		y = 4
 			completion_reward = {
-					add_ideas = IRQ_mit_sapogi_v_indiyskom_okeane
+					add_ideas = IRQ_mit_sapogi_v_indiyskom_okeane_i
 				}
 
 	}
@@ -593,7 +593,7 @@ focus_tree = {
 		x = 24
 		y = 3
 			completion_reward = {
-					add_ideas = IRQ_fedaini_saddama
+					add_ideas = IRQ_fedaini_saddama_i
 				}
 
 	}

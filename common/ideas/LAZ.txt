@@ -93,7 +93,7 @@ ideas = {
 		
 		LAZ_idea_obzor_SRL = {
 		
-			picture = chi_incompetent_officers 
+			picture = LAZ_obzor_SRL
 			
 			removal_cost = -1 
 				
@@ -213,7 +213,7 @@ ideas = {
 		
 		LAZ_chistka_moderatorov = {
 		
-			picture = chi_incompetent_officers 
+			picture = LAZ_chistka_moderatorov 
 			
 			removal_cost = -1 
 				
@@ -252,7 +252,7 @@ ideas = {
 		
 		LAZ_soktatit_polnomochia_moderatorov = {
 		
-			picture = chi_incompetent_officers 
+			picture = LAZ_soktatit_polnomochia_moderatorov
 			
 			removal_cost = -1 
 				
@@ -371,7 +371,7 @@ ideas = {
 		
 		LAZ_opolchenie2 = {
 		
-			picture = chi_army_corruption2 
+			picture = LAZ_opolchenie2 
 			
 			removal_cost = -1 
 				
@@ -390,7 +390,7 @@ ideas = {
 		
 		LAZ_ofitseri_iz_moderatorov = {
 		
-			picture = generic_infantry_bonus 
+			picture = LAZ_ofitseri_iz_moderatorov 
 			
 			removal_cost = -1 
 				
@@ -469,7 +469,7 @@ ideas = {
 		
 		LAZ_rabochiy_kontrol = {
 		
-		 picture = generic_the_london_naval_treaty
+		 picture = LAZ_rabochiy_kontrol
 			
 			removal_cost = -1
 
@@ -494,7 +494,7 @@ ideas = {
 		
 		LAZ_building_MTS = {
 		
-		 picture = generic_the_london_naval_treaty
+		 picture = LAZ_building_MTS
 			
 			removal_cost = -1
 
@@ -574,7 +574,7 @@ ideas = {
 		
 		LAZ_bankovskaya_reforma = {
 			
-		 picture = generic_the_london_naval_treaty
+		 picture = LAZ_bankovskaya_reforma
 			
 			removal_cost = -1
 
@@ -586,7 +586,7 @@ ideas = {
 		
 		LAZ_new_collectivization = {
 			
-		 picture = generic_the_london_naval_treaty
+		 picture = LAZ_new_collectivization
 			
 			removal_cost = -1
 
@@ -624,7 +624,7 @@ ideas = {
 		}
 		LAZ_agroreformy_1 = {
 			
-		 picture = generic_the_london_naval_treaty
+		 picture = LAZ_agroreformy_1
 			
 			removal_cost = -1
 
@@ -638,7 +638,7 @@ ideas = {
 		}
 		LAZ_agroreformy_2 = {
 			
-		 picture = generic_the_london_naval_treaty
+		 picture = LAZ_agroreformy_2
 			
 			removal_cost = -1
 

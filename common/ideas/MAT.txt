@@ -40,7 +40,7 @@ ideas = {
 			}			
 		}
 	    MAT_idea_krasniy_shumirism = {
-			picture = generic_communism_drift_bonus
+			picture = MAT_idea_krasniy_shumirism
 			
 			removal_cost = -1
 			
@@ -79,7 +79,7 @@ ideas = {
 			}
 		}
 		MAT_idea_religiya_1 = {
-			picture = generic_communism_drift_bonus
+			picture = MAT_idea_religiya_1
 			
 			removal_cost = -1
 			

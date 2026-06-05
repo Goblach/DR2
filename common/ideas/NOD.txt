@@ -423,7 +423,7 @@ ideas = {
 		
 		NOD_react_art = {
 		
-		picture = generic_manpower_bonus
+		picture = NOD_react_art
 			
 			removal_cost = -1
 			
@@ -444,7 +444,7 @@ ideas = {
 		
 		NOD_voini_ognya = {
 		
-		picture = generic_manpower_bonus
+		picture = NOD_voini_ognya
 			
 			removal_cost = -1
 			
