@@ -31,7 +31,7 @@ ideas = {
 		    }
 			ALB_chess_segregation = {
 
-			    picture = Shakhmatnaya_segregatsia
+			    picture = cht_shizofrenia
 				
 				allowed_civil_war = {
 				has_government = vmestolev
@@ -39,10 +39,10 @@ ideas = {
 			
 			    modifier = {
 					
-                conscription_factor = -0.3
+                conscription_factor = -0.2
 				consumer_goods_factor = -0.1
-				local_resources_factor = 0.1
-				production_speed_buildings_factor = 0.1
+				production_speed_buildings_factor = 0.15
+				local_resources_factor = 0.15
 			    }
 		    }
 			

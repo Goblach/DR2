@@ -2,7 +2,7 @@ ideas = {
        country = {
 	        BSH_plotneyshaya_zastroyka = {
 
-			picture = cht_shizofrenia
+			picture = BSH_plotneyshaya_zastroyka
 			
 			   modifier = {
 			    local_building_slots_factor = 0.2
@@ -93,7 +93,7 @@ ideas = {
 			
 			BSH_evrey = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_evrey 
 			
 			    removal_cost = -1 
 				
@@ -108,7 +108,7 @@ ideas = {
 			
 			BSH_svyaz_s_evreyskimi_obzhinami = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_svyaz_s_evreyskimi_obzhinami 
 			
 			    removal_cost = -1 
 				
@@ -123,7 +123,7 @@ ideas = {
 			
 			BSH_ural_israel = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_ural_israel
 			
 			    removal_cost = -1 
 				
@@ -139,7 +139,7 @@ ideas = {
 			
 			BSH_ottsovskaya_liniya = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_ottsovskaya_liniya 
 			
 			    removal_cost = -1 
 				
@@ -155,7 +155,7 @@ ideas = {
 			
 			BSH_sila_stepey = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_sila_stepey
 			
 			    removal_cost = -1 
 				
@@ -171,7 +171,7 @@ ideas = {
 			
 			BSH_vladika_stepey = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_vladika_stepey 
 			
 			    removal_cost = -1 
 				
@@ -188,7 +188,7 @@ ideas = {
 			
 			BSH_materinskaya_liniya = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_materinskaya_liniya 
 			
 			    removal_cost = -1 
 				
@@ -203,7 +203,7 @@ ideas = {
 			
 			BSH_sev_stoykost = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_sev_stoykost 
 			
 			    removal_cost = -1 
 				
@@ -219,7 +219,7 @@ ideas = {
 			
 			BSH_uzhas_severa = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_uzhas_severa
 			
 			    removal_cost = -1 
 				
@@ -251,7 +251,7 @@ ideas = {
 			
 			BSH_zabaytit_na_hram_Olegu = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_zabaytit_na_hram_Olegu
 			
 			    removal_cost = -1 
 				
@@ -266,7 +266,7 @@ ideas = {
 			
 			BSH_obzhestvo_ravenstva = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_obzhestvo_ravenstva 
 			
 			    removal_cost = -1 
 				
@@ -282,7 +282,7 @@ ideas = {
 			
 			BSH_odna_party = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_odna_party
 			
 			    removal_cost = -1 
 				
@@ -319,7 +319,7 @@ ideas = {
 			
 			BSH_strong_natsprovitelstvo = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_strong_natsprovitelstvo 
 			
 			    removal_cost = -1 
 				
@@ -342,8 +342,8 @@ ideas = {
 			
 			BSH_cheloveku_opasno_davat_mnogo_svobodi = {
 		
-			    picture = chi_incompetent_officers 
-			
+			    picture = BSH_cheloveku_opasno_davat_mnogo_svobodi
+				
 			    removal_cost = -1 
 				
 			    allowed = { always = no } 
@@ -367,7 +367,7 @@ ideas = {
 			
 			BSH_voyna_otobrazhenie_nashey_suzhnosti = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_voyna_otobrazhenie_nashey_suzhnosti 
 			
 			    removal_cost = -1 
 				
@@ -393,7 +393,7 @@ ideas = {
 			
 			BSH_prevoshodstvo_great_nation = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_prevoshodstvo_great_nation
 			
 			    removal_cost = -1 
 				
@@ -420,7 +420,7 @@ ideas = {
 			
 			BSH_otstanennost_gosva = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_otstanennost_gosva 
 			
 			    removal_cost = -1 
 				
@@ -436,7 +436,7 @@ ideas = {
 			
 			BSH_goshelp_obshinam = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_goshelp_obshinam 
 			
 			    removal_cost = -1 
 				
@@ -452,7 +452,7 @@ ideas = {
 			
 			BSH_pokonshit_konets_potreb_decadansa = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_pokonshit_konets_potreb_decadansa 
 			
 			    removal_cost = -1 
 				
@@ -468,7 +468,7 @@ ideas = {
 			
 			BSH_prodvigat_kult_potrebleniya = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_prodvigat_kult_potrebleniya 
 			
 			    removal_cost = -1 
 				
@@ -484,7 +484,7 @@ ideas = {
 			
 			BSH_upor_na_tehno_economic_prevoshodstvo = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_upor_na_tehno_economic_prevoshodstvo 
 			
 			    removal_cost = -1 
 				
@@ -500,7 +500,7 @@ ideas = {
 			
 			BSH_podderzhat_monopoliy = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_podderzhat_monopoliy 
 			
 			    removal_cost = -1 
 				
@@ -517,7 +517,7 @@ ideas = {
 			
 			BSH_prodvigat_duh_tsennosti = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_prodvigat_duh_tsennosti 
 			
 			    removal_cost = -1 
 				
@@ -533,7 +533,7 @@ ideas = {
 			
 			BSH_mnogopartiynost = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_mnogopartiynost 
 			
 			    removal_cost = -1 
 				
@@ -549,7 +549,7 @@ ideas = {
 			
 			BSH_ilusion_vunora = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_ilusion_vubora 
 			
 			    removal_cost = -1 
 				
@@ -572,7 +572,7 @@ ideas = {
 			
 			BSH_preobladanie_gosva_nad_chelovekom = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_preobladanie_gosva_nad_chelovekom 
 			
 			    removal_cost = -1 
 				
@@ -595,7 +595,7 @@ ideas = {
 			
 			BSH_prevoshodstvo_nashey_culture = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_prevoshodstvo_nashey_culture 
 			
 			    removal_cost = -1 
 				
@@ -619,7 +619,7 @@ ideas = {
 			
 			BSH_strong_army_dlya_zazhity = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_strong_army_dlya_zazhity
 			
 			    removal_cost = -1 
 				
@@ -645,7 +645,7 @@ ideas = {
 			
 			BSH_propagandirovat_borby_nastiy = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_propagandirovat_borby_nastiy 
 			
 			    removal_cost = -1 
 				
@@ -671,7 +671,7 @@ ideas = {
 			
 			BSH_economoc_gosvmeshatelstvo = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_economoc_gosvmeshatelstvo 
 			
 			    removal_cost = -1 
 				
@@ -687,7 +687,7 @@ ideas = {
 			
 			BSH_meriticraty = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_meriticraty 
 			
 			    removal_cost = -1 
 				
@@ -722,7 +722,7 @@ ideas = {
 			
 			BSH_chestniy_chelovek_ne_boitsya_gosnadzora = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_chestniy_chelovek_ne_boitsya_gosnadzora 
 			
 			    removal_cost = -1 
 				
@@ -741,7 +741,7 @@ ideas = {
 			
 			BSH_unitarism = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_unitarism 
 			
 			    removal_cost = -1 
 				
@@ -761,7 +761,7 @@ ideas = {
 			
 			BSH_opravdanie_voyni = {
 		
-			    picture = chi_incompetent_officers 
+			    picture = BSH_opravdanie_voyni 
 			
 			    removal_cost = -1 
 				
