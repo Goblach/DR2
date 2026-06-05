@@ -458,6 +458,146 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/KAZ_evrei_problem.dds"	
 	}
 	SpriteType = {
+		name = "GFX_idea_BSH_ottsovskaya_liniya "
+		texturefile = "gfx/interface/ideas/BSH_ottsovskaya_liniya .dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_ural_israel"
+		texturefile = "gfx/interface/ideas/BSH_ural_israel.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_svyaz_s_evreyskimi_obzhinami"
+		texturefile = "gfx/interface/ideas/BSH_svyaz_s_evreyskimi_obzhinami.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_evrey"
+		texturefile = "gfx/interface/ideas/BSH_evrey.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_plotneyshaya_zastroyka"
+		texturefile = "gfx/interface/ideas/BSH_plotneyshaya_zastroyka.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_sila_stepey"
+		texturefile = "gfx/interface/ideas/BSH_sila_stepey.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_vladika_stepey"
+		texturefile = "gfx/interface/ideas/BSH_vladika_stepey.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_zabaytit_na_hram_Olegu"
+		texturefile = "gfx/interface/ideas/BSH_zabaytit_na_hram_Olegu.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_materinskaya_liniya"
+		texturefile = "gfx/interface/ideas/BSH_materinskaya_liniya.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_uzhas_severa"
+		texturefile = "gfx/interface/ideas/BSH_uzhas_severa.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_odna_party"
+		texturefile = "gfx/interface/ideas/BSH_odna_party.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_prevoshodstvo_great_nation"
+		texturefile = "gfx/interface/ideas/BSH_prevoshodstvo_great_nation.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_cheloveku_opasno_davat_mnogo_svobodi"
+		texturefile = "gfx/interface/ideas/BSH_cheloveku_opasno_davat_mnogo_svobodi.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_strong_natsprovitelstvo"
+		texturefile = "gfx/interface/ideas/BSH_strong_natsprovitelstvo.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_obzhestvo_ravenstva"
+		texturefile = "gfx/interface/ideas/BSH_obzhestvo_ravenstva.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_upor_na_tehno_economic_prevoshodstvo"
+		texturefile = "gfx/interface/ideas/BSH_upor_na_tehno_economic_prevoshodstvo.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_prodvigat_duh_tsennosti"
+		texturefile = "gfx/interface/ideas/BSH_prodvigat_duh_tsennosti.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_ilusion_vubora"
+		texturefile = "gfx/interface/ideas/BSH_ilusion_vubora.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_mnogopartiynost"
+		texturefile = "gfx/interface/ideas/BSH_mnogopartiynost.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_podderzhat_monopoliy"
+		texturefile = "gfx/interface/ideas/BSH_podderzhat_monopoliy.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_economoc_gosvmeshatelstvo"
+		texturefile = "gfx/interface/ideas/BSH_economoc_gosvmeshatelstvo.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_strong_army_dlya_zazhity"
+		texturefile = "gfx/interface/ideas/BSH_strong_army_dlya_zazhity.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_prevoshodstvo_nashey_culture"
+		texturefile = "gfx/interface/ideas/BSH_prevoshodstvo_nashey_culture.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_preobladanie_gosva_nad_chelovekom"
+		texturefile = "gfx/interface/ideas/BSH_preobladanie_gosva_nad_chelovekom.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_propagandirovat_borby_nastiy"
+		texturefile = "gfx/interface/ideas/BSH_propagandirovat_borby_nastiy.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_chestniy_chelovek_ne_boitsya_gosnadzora"
+		texturefile = "gfx/interface/ideas/BSH_chestniy_chelovek_ne_boitsya_gosnadzora.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_unitarism"
+		texturefile = "gfx/interface/ideas/BSH_unitarism.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_sev_stoykost"
+		texturefile = "gfx/interface/ideas/BSH_sev_stoykost.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_prodvigat_kult_potrebleniya"
+		texturefile = "gfx/interface/ideas/BSH_prodvigat_kult_potrebleniya.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_voyna_otobrazhenie_nashey_suzhnosti"
+		texturefile = "gfx/interface/ideas/BSH_voyna_otobrazhenie_nashey_suzhnosti.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_goshelp_obshinam"
+		texturefile = "gfx/interface/ideas/BSH_goshelp_obshinam.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_meriticraty"
+		texturefile = "gfx/interface/ideas/BSH_meriticraty.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_opravdanie_voyni"
+		texturefile = "gfx/interface/ideas/BSH_opravdanie_voyni.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_otstanennost_gosva"
+		texturefile = "gfx/interface/ideas/BSH_otstanennost_gosva.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BSH_pokonshit_konets_potreb_decadansa"
+		texturefile = "gfx/interface/ideas/BSH_pokonshit_konets_potreb_decadansa.dds"	
+	}
+	SpriteType = {
 		name = "GFX_idea_"
 		texturefile = "gfx/interface/ideas/.dds"	
 	}
