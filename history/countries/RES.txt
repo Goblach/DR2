@@ -60,6 +60,7 @@ if = {
 			tank_nsb_armor_upgrade = 1
 		}
 		icon = "GFX_ITA_basic_light_tank_medium"
+		model = "RES_light_armor_entity"
 	}
 }
 
