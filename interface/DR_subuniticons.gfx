@@ -1,0 +1,9 @@
+spriteTypes = {	
+    ### Large
+    spriteType = { name = "GFX_unit_bhaminf_icon_medium"							        texturefile = "gfx/interface/counters/divisions_large/unit_bhinf_icon.dds" noOfFrames = 2}
+    spriteType = { name = "GFX_unit_urki_assault_battalion_icon_medium"						texturefile = "gfx/interface/counters/divisions_large/unit_urki_assault_battalion_icon.dds" noOfFrames = 2}
+
+    ### Small
+    spriteType = { name = "GFX_unit_bhaminf_icon_medium_white"			                    textureFile = "gfx/interface/counters/divisions_small/onmap_unit_bhinf_icon.dds" noOfFrames = 2 }
+    spriteType = { name = "GFX_unit_urki_assault_battalion_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_urki_assault_battalion_icon.dds" noOfFrames = 2 }
+}
