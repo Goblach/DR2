@@ -642,15 +642,9 @@ peoples_war = {
     xp_cost = 50
     xp_type = army
 
-    available = {
-		OR = {
-			has_government = metacommy
-			has_government = vmestolev
-			has_government = anarhostalinism
-		}
-    }
     visible = {
         has_dlc = "No Compromise, No Surrender"
+		has_template_containing_unit = militia
     }
     ai_will_do = {
 
