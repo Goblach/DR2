@@ -1,7 +1,7 @@
 add_namespace = YSK
 
 	
-#Русский_Кукож
+#Русский Кукож
 country_event = {
 	id = YSK.1
 	title = YSK.1.t
@@ -28,7 +28,7 @@ country_event = {
 	}
 }
 
-#Тру_русские
+#Тру русские
 country_event = {
 	id = YSK.2
 	title = YSK.2.t
@@ -50,7 +50,7 @@ country_event = {
 	}
 }
 
-#шанс_нацболам?
+#шанс нацболам?
 country_event = {
 	id = YSK.3
 	title = YSK.3.t
@@ -91,7 +91,7 @@ country_event = {
 	}
 }
 
-#события_в_Ельцинбурге
+#события в Ельцинбурге
 country_event = {
 	id = YSK.4
 	title = YSK.4.t
@@ -1087,7 +1087,7 @@ country_event = {
 		}
 	}      	
 }
-#переворот_монархистов
+#переворот монархистов
 country_event = {
 	id = YSK.24
 	title = YSK.24.t
@@ -1101,7 +1101,7 @@ country_event = {
 		set_country_flag = monarhist_win        		
 	}
 }
-#Победа_Погрома
+#Победа Погрома
 country_event = {
 	id = YSK.25
 	title = YSK.25.t
@@ -1175,7 +1175,7 @@ country_event = {
 		country_event = YSK.24       		
 	}
 }
-#Укрепление_Погрома
+#Укрепление Погрома
 country_event = {
 	id = YSK.558
 	title = YSK.558.t
