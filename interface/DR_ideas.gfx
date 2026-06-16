@@ -302,11 +302,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SKT_avangard_lumpen_kassir.dds"	
 	}
 	SpriteType = {
-		name = "GFX_idea_SKT_opit_sevkor_ansabley_pesen "
+		name = "GFX_idea_SKT_opit_sevkor_ansabley_pesen"
 		texturefile = "gfx/interface/ideas/SKT_opit_sevkor_ansabley_pesen.dds"	
 	}
 	SpriteType = {
-		name = "GFX_idea_SKT_elementi_chuchhe "
+		name = "GFX_idea_SKT_elementi_chuchhe"
 		texturefile = "gfx/interface/ideas/SKT_elementi_chuchhe.dds"	
 	}
 	SpriteType = {
