@@ -458,7 +458,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/KAZ_evrei_problem.dds"	
 	}
 	SpriteType = {
-		name = "GFX_idea_BSH_ottsovskaya_liniya "
+		name = "GFX_idea_BSH_ottsovskaya_liniya"
 		texturefile = "gfx/interface/ideas/BSH_ottsovskaya_liniya .dds"	
 	}
 	SpriteType = {
