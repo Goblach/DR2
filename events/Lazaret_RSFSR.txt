@@ -191,7 +191,7 @@ country_event = {
 		add_to_variable = { LAZ_specsluzhba = 3 }
 	}
 }
-#country_event = { 
+#country_event = { #Закономерный вопрос кто будет руководить чистками(на будущее, если будет гачистский и дадувнедрёжевский путь)
 #
 #	id = lazaret.6
 #       title = lazaret.6.t
