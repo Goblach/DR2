@@ -1,12 +1,13 @@
 add_namespace = lazaret
 
-country_event = { #Для ИИ
+country_event = { 
 	id = lazaret.10000
 	title = lazaret.10000.t
 	desc = lazaret.10000.d
 	picture = GFX_report_event_ast_parliament_house
 	hidden = yes
 	is_triggered_only = yes
+	fire_only_once = yes
 	trigger = { is_ai = yes }
 
 	option = { #Za Doka
@@ -34,7 +35,7 @@ country_event = { #Для ИИ
 		}
 	}
 }
-country_event = { #Пошлопоехало_первые_4_ивента_это_развернутый_лор
+country_event = { #Пошлопоехало первые 4 ивента это развернутый лор
 
 	id = lazaret.0 
         title = lazaret.0.t
@@ -42,6 +43,7 @@ country_event = { #Пошлопоехало_первые_4_ивента_это_развернутый_лор
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.0.a
@@ -174,6 +176,7 @@ country_event = {
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.5.a
@@ -188,7 +191,7 @@ country_event = {
 		add_to_variable = { LAZ_specsluzhba = 3 }
 	}
 }
-#country_event = { #Закономерный_вопрос_кто_будет_руководить_чистками(на будущее, если будет гачистский и дадувнедрёжевский путь)
+#country_event = { 
 #
 #	id = lazaret.6
 #       title = lazaret.6.t
@@ -215,6 +218,7 @@ country_event = { #Статусмодераторов
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.7.a
@@ -237,6 +241,7 @@ country_event = { #Покушение на Кербонавта
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = { #Керб_шот_килд
 		name = lazaret.8.a
@@ -254,6 +259,7 @@ country_event = { #Развал пакта
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = { #сторона Керба и Чумака
 		name = lazaret.9.a
@@ -438,6 +444,7 @@ country_event = { #План Унца
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.12.a
@@ -452,6 +459,7 @@ country_event = { #План Серегина
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.13.a
@@ -466,6 +474,7 @@ country_event = { #План Куракова
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.14.a
@@ -480,49 +489,49 @@ country_event = { #План Морито
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.15.a
 	}
 }
 
-country_event = { #1-я реакция на стрим по нейропсихологии
-
+country_event = { 
 	id = lazaret.16
-	title = lazaret.16.t
-	desc = lazaret.16.d
+    title = lazaret.16.t
+    desc = lazaret.16.d
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.16.a
-		add_political_power = 5
 	}
 }
 
-country_event = { #2-я реакция на стрим по нейропсихологии
-
+country_event = { 
 	id = lazaret.17
 	title = lazaret.17.t
 	desc = lazaret.17.d
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.17.a
 	}
 }
 
-country_event = { #3-я реакция на стрим по нейропсихологии
-
+country_event = { 
 	id = lazaret.18
 	title = lazaret.18.t
 	desc = lazaret.18.d
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.18.a
@@ -530,7 +539,7 @@ country_event = { #3-я реакция на стрим по нейропсихологии
 	}
 }
 
-country_event = { #4-яреакциянастримпонейропсихологии
+country_event = { 
 
 	id = lazaret.19
 	title = lazaret.19.t
@@ -538,6 +547,7 @@ country_event = { #4-яреакциянастримпонейропсихологии
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.19.a
@@ -549,7 +559,7 @@ country_event = { #4-яреакциянастримпонейропсихологии
 	}
 }
 
-country_event = { #5-яреакциянастримпонейропсихологии
+country_event = { 
 
 	id = lazaret.20
 	title = lazaret.20.t
@@ -557,6 +567,7 @@ country_event = { #5-яреакциянастримпонейропсихологии
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.20.a
@@ -577,6 +588,7 @@ country_event = { #Стрим по Урбанистике
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.21.a
@@ -592,6 +604,7 @@ country_event = { #Стрим по НАО 1
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.22.a
@@ -607,6 +620,7 @@ country_event = { #Стрим по НАО 2
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.23.a
@@ -622,6 +636,7 @@ country_event = { #Вторжение в тупичок
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.24.a
@@ -656,6 +671,7 @@ country_event = { #После гражданки - Ультиматум Клике Орлова
 	picture = GFX_report_event_japanese_soldiers_02
 	
 	is_triggered_only = yes	
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.25.a
@@ -694,7 +710,8 @@ country_event = { #После гражданки - Ультиматум клике Унца
 	desc = lazaret.26.d
 	picture = GFX_report_event_japanese_soldiers_02
 	
-	is_triggered_only = yes	
+	is_triggered_only = yes
+	fire_only_once = yes	
 	
 	option = {
 		name = lazaret.26.a
@@ -734,6 +751,7 @@ country_event = { #После гражданки - Ультиматум клике Вейшнория
 	picture = GFX_report_event_japanese_soldiers_02
 	
 	is_triggered_only = yes	
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.27.a
@@ -772,7 +790,8 @@ country_event = { #После гражданки - Ультиматум клике Донбасс
 	desc = lazaret.28.d
 	picture = GFX_report_event_japanese_soldiers_02
 	
-	is_triggered_only = yes	
+	is_triggered_only = yes
+	fire_only_once = yes	
 	
 	option = {
 		name = lazaret.28.a
@@ -811,7 +830,8 @@ country_event = { #После гражданки - Ультиматум Адмиралтейству Яна
 	desc = lazaret.29.d
 	picture = GFX_report_event_japanese_soldiers_02
 	
-	is_triggered_only = yes	
+	is_triggered_only = yes
+	fire_only_once = yes	
 	
 	option = {
 		name = lazaret.29.a
@@ -851,7 +871,8 @@ country_event = { #Док устал
 	desc = lazaret.30.d
 	picture = GFX_report_event_japanese_soldiers_02
 	
-	is_triggered_only = yes	
+	is_triggered_only = yes
+	fire_only_once = yes	
 	
 	option = {
 		name = lazaret.30.a
