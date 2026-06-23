@@ -1,12 +1,13 @@
 add_namespace = lazaret
 
-country_event = { #Для ИИ
+country_event = { 
 	id = lazaret.10000
 	title = lazaret.10000.t
 	desc = lazaret.10000.d
 	picture = GFX_report_event_ast_parliament_house
 	hidden = yes
 	is_triggered_only = yes
+	fire_only_once = yes
 	trigger = { is_ai = yes }
 
 	option = { #Za Doka
@@ -34,7 +35,7 @@ country_event = { #Для ИИ
 		}
 	}
 }
-country_event = { #Пошлопоехало_первые_4_ивента_это_развернутый_лор
+country_event = { #Пошлопоехало первые 4 ивента это развернутый лор
 
 	id = lazaret.0 
         title = lazaret.0.t
@@ -42,6 +43,7 @@ country_event = { #Пошлопоехало_первые_4_ивента_это_развернутый_лор
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.0.a
@@ -139,11 +141,11 @@ country_event = {
 	}
 }
 
-country_event = { #Ильгиз_вываливается_из_Чумного_Пакта
+country_event = { 
 
 	id = lazaret.4
-        title = lazaret.4.t
-        desc = lazaret.4.d
+    title = lazaret.4.t
+    desc = lazaret.4.d
 	picture = GFX_report_event_ast_parliament_house
 
 	fire_only_once = yes
@@ -166,16 +168,15 @@ country_event = { #Ильгиз_вываливается_из_Чумного_Пакта
 	}
 }
 
-#Далее_попёрла_внутренняя_политика_и_чисточки
-
-country_event = { #Ивент_о_необходимости_создания_независимой_от_армии_спецслужбы_будущей_КЧС_типа_КГБ
+country_event = { 
 
 	id = lazaret.5
-        title = lazaret.5.t
-        desc = lazaret.5.d
+    title = lazaret.5.t
+    desc = lazaret.5.d
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.5.a
@@ -190,7 +191,7 @@ country_event = { #Ивент_о_необходимости_создания_независимой_от_армии_спецслужб
 		add_to_variable = { LAZ_specsluzhba = 3 }
 	}
 }
-#country_event = { #Закономерный_вопрос_кто_будет_руководить_чистками(на будущее, если будет гачистский и дадувнедрёжевский путь)
+#country_event = { #Закономерный вопрос кто будет руководить чистками(на будущее, если будет гачистский и дадувнедрёжевский путь)
 #
 #	id = lazaret.6
 #       title = lazaret.6.t
@@ -209,7 +210,7 @@ country_event = { #Ивент_о_необходимости_создания_независимой_от_армии_спецслужб
 #		name = lazaret.6.с
 #	}
 #}
-country_event = { #Статус_модераторов
+country_event = { #Статусмодераторов
 
 	id = lazaret.7
         title = lazaret.7.t
@@ -217,6 +218,7 @@ country_event = { #Статус_модераторов
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.7.a
@@ -239,6 +241,7 @@ country_event = { #Покушение на Кербонавта
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = { #Керб_шот_килд
 		name = lazaret.8.a
@@ -256,24 +259,12 @@ country_event = { #Развал пакта
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = { #сторона Керба и Чумака
 		name = lazaret.9.a
 		news_event = dk_news.25
-		ARK = { 
-			country_event = { 
-				id = 
-				days = 2
-				random_hours = 12
-			}
-		}
-		UNT = { 
-			country_event = { 
-				id = 
-				days = 2
-				random_hours = 12
-			}
-		}
+		hidden_effect = {
 		MAT  = { 
 			country_event = { 
 				id = Orel.30
@@ -304,131 +295,43 @@ country_event = { #Развал пакта
 		ARK = {leave_faction = yes }
 		BSH = {leave_faction = yes }
 		CHT = {leave_faction = yes }
-		hidden_effect = {
 		OSV = {
-		    inherit_technology = LAZ    
-				LAZ = {
-			every_state = {
-			limit = {
-				is_owned_by = LAZ
+		    inherit_technology = LAZ  
+			LAZ = {
+				every_state = {
+					limit = {
+						is_owned_by = LAZ
+					}
+					OSV = {
+						add_state_core = PREV
+					}
+				}
 			}
-			OSV = {
-				add_state_core = PREV
-			}
-		  }
-		  }
-		  transfer_state = 253
-		  transfer_state = 248
-		  transfer_state = 247
-		  transfer_state = 246
-		declare_war_on = {
+			transfer_state = 253
+			transfer_state = 248
+			transfer_state = 247
+			transfer_state = 246
+			declare_war_on = {
 		        target = LAZ
 		        type = civil_war
 			}
-		add_civil_war_target = LAZ
-		division_template = { 
-				name = "Пехтура" 	
-				division_names_group = OSV_ARM_011
-
-				regiments = {
-					infantry = { x = 0 y = 0 }
-					infantry = { x = 0 y = 1 }
-					infantry = { x = 0 y = 2 }
-					infantry = { x = 1 y = 0 }
-					infantry = { x = 1 y = 1 }
-					infantry = { x = 1 y = 2 }	
-				}
+			add_civil_war_target = LAZ
+			load_oob = OSV_vosstanie
 		}
-		 247 = {
-				create_unit = {
-					division = "name = \"1-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"2-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-		        create_unit = {
-					division = "name = \"3-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-                create_unit = {
-					division = "name = \"4-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"5-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-		        create_unit = {
-					division = "name = \"6-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"7-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"8-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-		        create_unit = {
-					division = "name = \"9-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-                create_unit = {
-					division = "name = \"10-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"11-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"12-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"13-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"14-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"15-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-			}
 		}
+		OSV = {
+			change_tag_from = LAZ
+			248 = { set_demilitarized_zone = no }
+			247 = { set_demilitarized_zone = no }
+			246 = { set_demilitarized_zone = no }
+			253 = { set_demilitarized_zone = no }
 		}
 		send_equipment_fraction = { value = 0.4 target = OSV}
-		OSV = { change_tag_from = LAZ }
-		hidden_effect = {
-		                248 = { set_demilitarized_zone = no }
-			            247 = { set_demilitarized_zone = no }
-						246 = { set_demilitarized_zone = no }
-			            253 = { set_demilitarized_zone = no }
-						}
 	}
 	option = { #сторона Лазарета
 		name = lazaret.9.b
 		news_event = dk_news.25
-		#ARK = { 
-		#	country_event = { 
-		#		id = 
-		#		days = 2
-		#		random_hours = 12
-		#	}
-		#}
-		#UNT = { 
-		#	country_event = { 
-		#		id = 
-		#		days = 2
-		#		random_hours = 12
-		#	}
-		#}
+		hidden_effect = {
 		MAT  = { 
 			country_event = { 
 				id = Orel.30
@@ -453,122 +356,43 @@ country_event = { #Развал пакта
 		set_country_flag = LAZ_bilo_vosstaniye
 		set_global_flag = Razval_ChP
 		leave_faction = yes 
-		hidden_effect = {
 		MAT = {leave_faction = yes }
 		UNT = {leave_faction = yes }
 		ARK = {leave_faction = yes }
 		BSH = {leave_faction = yes }
 		CHT = {leave_faction = yes }
-		}
-		hidden_effect = {
-		OSV = {
-		    inherit_technology = LAZ   
-				LAZ = {
-			every_state = {
-			limit = {
-				is_owned_by = LAZ
-			}
 			OSV = {
-				add_state_core = PREV
-			}
-		  }
-		  }
-		    transfer_state = 253
-			transfer_state = 248
-			transfer_state = 247
-			transfer_state = 246
-		declare_war_on = {
-		        target = LAZ
-		        type = civil_war
-			}
-		add_civil_war_target = LAZ
-			division_template = { 
-				name = "Пехтура" 	
-				division_names_group = 123_INF_01
-
-				regiments = {
-					infantry = { x = 0 y = 0 }
-					infantry = { x = 0 y = 1 }
-					infantry = { x = 0 y = 2 }
-					infantry = { x = 1 y = 0 }
-					infantry = { x = 1 y = 1 }
-					infantry = { x = 1 y = 2 }	
+				inherit_technology = LAZ   
+				LAZ = {
+					every_state = {
+						limit = {
+							is_owned_by = LAZ
+						}
+						OSV = {
+							add_state_core = PREV
+						}
+					}
 				}
-				priority = 1
-			}
-			247 = {
-				create_unit = {
-					division = "name = \"1-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
+				transfer_state = 253
+				transfer_state = 248
+				transfer_state = 247
+				transfer_state = 246
+				declare_war_on = {
+					target = LAZ
+					type = civil_war
 				}
-				create_unit = {
-					division = "name = \"2-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-		        create_unit = {
-					division = "name = \"3-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-                create_unit = {
-					division = "name = \"4-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"5-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-		        create_unit = {
-					division = "name = \"6-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"7-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"8-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-		        create_unit = {
-					division = "name = \"9-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-                create_unit = {
-					division = "name = \"10-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"11-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"12-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"13-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"14-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
-				create_unit = {
-					division = "name = \"15-я дивизия \" division_template = \"Пехтура\" start_experience_factor = 0.3"  
-					owner = OSV
-				}
+				add_civil_war_target = LAZ
+				load_oob = OSV_vosstanie
 			}
 		}
-				248 = { set_demilitarized_zone = no }
-			    247 = { set_demilitarized_zone = no }
-				246 = { set_demilitarized_zone = no }
-			    253 = { set_demilitarized_zone = no }
-		
-		}
+		248 = { set_demilitarized_zone = no }
+		247 = { set_demilitarized_zone = no }
+		246 = { set_demilitarized_zone = no }
+		253 = { set_demilitarized_zone = no }
 		send_equipment_fraction = { value = 0.4 target = OSV}	
 	}
 }
-country_event = { #Доступ_к_экспансии_после_чисток
+country_event = { #Доступ к экспансии после чисток
 	id = lazaret.10
 	title = lazaret.10.t
 	desc = lazaret.10.d
@@ -594,7 +418,7 @@ country_event = { #Доступ_к_экспансии_после_чисток
 }
 	
 	
-country_event = { #КНОР_по_Экономике
+country_event = { #КНОР по Экономике
 	id = lazaret.11
 	title = lazaret.11.t
 	desc = lazaret.11.d
@@ -612,7 +436,7 @@ country_event = { #КНОР_по_Экономике
 	}
 }
 
-country_event = { #План_Унца
+country_event = { #План Унца
 
 	id = lazaret.12
     title = lazaret.12.t
@@ -620,13 +444,14 @@ country_event = { #План_Унца
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.12.a
 	}
 }
 
-country_event = { #План_Серегина
+country_event = { #План Серегина
 
 	id = lazaret.13
     title = lazaret.13.t
@@ -634,13 +459,14 @@ country_event = { #План_Серегина
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.13.a
 	}
 }
 
-country_event = { #План_Куракова
+country_event = { #План Куракова
 
 	id = lazaret.14
     title = lazaret.14.t
@@ -648,13 +474,14 @@ country_event = { #План_Куракова
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.14.a
 	}
 }
 
-country_event = { #План_Морито
+country_event = { #План Морито
 
 	id = lazaret.15
     title = lazaret.15.t
@@ -662,49 +489,49 @@ country_event = { #План_Морито
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.15.a
 	}
 }
 
-country_event = { #1-я_реакция_на_стрим_по_нейропсихологии
-
+country_event = { 
 	id = lazaret.16
-	title = lazaret.16.t
-	desc = lazaret.16.d
+    title = lazaret.16.t
+    desc = lazaret.16.d
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.16.a
-		add_political_power = 5
 	}
 }
 
-country_event = { #2-я_реакция_на_стрим_по_нейропсихологии
-
+country_event = { 
 	id = lazaret.17
 	title = lazaret.17.t
 	desc = lazaret.17.d
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.17.a
 	}
 }
 
-country_event = { #3-я_реакция_на_стрим_по_нейропсихологии
-
+country_event = { 
 	id = lazaret.18
 	title = lazaret.18.t
 	desc = lazaret.18.d
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.18.a
@@ -712,7 +539,7 @@ country_event = { #3-я_реакция_на_стрим_по_нейропсихологии
 	}
 }
 
-country_event = { #4-я_реакция_на_стрим_по_нейропсихологии
+country_event = { 
 
 	id = lazaret.19
 	title = lazaret.19.t
@@ -720,6 +547,7 @@ country_event = { #4-я_реакция_на_стрим_по_нейропсихологии
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.19.a
@@ -731,7 +559,7 @@ country_event = { #4-я_реакция_на_стрим_по_нейропсихологии
 	}
 }
 
-country_event = { #5-я_реакция_на_стрим_по_нейропсихологии
+country_event = { 
 
 	id = lazaret.20
 	title = lazaret.20.t
@@ -739,6 +567,7 @@ country_event = { #5-я_реакция_на_стрим_по_нейропсихологии
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.20.a
@@ -751,7 +580,7 @@ country_event = { #5-я_реакция_на_стрим_по_нейропсихологии
 	}
 }
 
-country_event = { #Стрим_по_Урбанистике
+country_event = { #Стрим по Урбанистике
 
 	id = lazaret.21
 	title = lazaret.21.t
@@ -759,6 +588,7 @@ country_event = { #Стрим_по_Урбанистике
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.21.a
@@ -766,7 +596,7 @@ country_event = { #Стрим_по_Урбанистике
 	}
 }
 
-country_event = { #Стрим_по_НАО_1
+country_event = { #Стрим по НАО 1
 
 	id = lazaret.22
 	title = lazaret.22.t
@@ -774,6 +604,7 @@ country_event = { #Стрим_по_НАО_1
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.22.a
@@ -781,7 +612,7 @@ country_event = { #Стрим_по_НАО_1
 	}
 }
 
-country_event = { #Стрим_по_НАО_2
+country_event = { #Стрим по НАО 2
 
 	id = lazaret.23
 	title = lazaret.23.t
@@ -789,6 +620,7 @@ country_event = { #Стрим_по_НАО_2
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.23.a
@@ -796,7 +628,7 @@ country_event = { #Стрим_по_НАО_2
 	}
 }
 
-country_event = { #Вторжение_в_тупичок
+country_event = { #Вторжение в тупичок
 
 	id = lazaret.24
 	title = lazaret.24.t
@@ -804,6 +636,7 @@ country_event = { #Вторжение_в_тупичок
 	picture = GFX_report_event_ast_parliament_house
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.24.a
@@ -838,6 +671,7 @@ country_event = { #После гражданки - Ультиматум Клике Орлова
 	picture = GFX_report_event_japanese_soldiers_02
 	
 	is_triggered_only = yes	
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.25.a
@@ -876,7 +710,8 @@ country_event = { #После гражданки - Ультиматум клике Унца
 	desc = lazaret.26.d
 	picture = GFX_report_event_japanese_soldiers_02
 	
-	is_triggered_only = yes	
+	is_triggered_only = yes
+	fire_only_once = yes	
 	
 	option = {
 		name = lazaret.26.a
@@ -916,6 +751,7 @@ country_event = { #После гражданки - Ультиматум клике Вейшнория
 	picture = GFX_report_event_japanese_soldiers_02
 	
 	is_triggered_only = yes	
+	fire_only_once = yes
 	
 	option = {
 		name = lazaret.27.a
@@ -954,7 +790,8 @@ country_event = { #После гражданки - Ультиматум клике Донбасс
 	desc = lazaret.28.d
 	picture = GFX_report_event_japanese_soldiers_02
 	
-	is_triggered_only = yes	
+	is_triggered_only = yes
+	fire_only_once = yes	
 	
 	option = {
 		name = lazaret.28.a
@@ -993,7 +830,8 @@ country_event = { #После гражданки - Ультиматум Адмиралтейству Яна
 	desc = lazaret.29.d
 	picture = GFX_report_event_japanese_soldiers_02
 	
-	is_triggered_only = yes	
+	is_triggered_only = yes
+	fire_only_once = yes	
 	
 	option = {
 		name = lazaret.29.a
@@ -1033,7 +871,8 @@ country_event = { #Док устал
 	desc = lazaret.30.d
 	picture = GFX_report_event_japanese_soldiers_02
 	
-	is_triggered_only = yes	
+	is_triggered_only = yes
+	fire_only_once = yes	
 	
 	option = {
 		name = lazaret.30.a

@@ -1,7 +1,7 @@
 add_namespace = BSH
 
 	
-country_event = { #Ильгиз_вываливается_из_Чумного_Пакта
+country_event = { #Ильгиз вываливается из Чумного Пакта
 	id = BSH.0 
 	title = BSH.0.t
 	desc = BSH.0.d

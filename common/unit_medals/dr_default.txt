@@ -43,10 +43,13 @@ unit_medals = {
 			supply_consumption_factor = -0.15
 			army_fuel_consumption_factor = -0.15
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_supply_consumption_factor = -0.15
+			navy_fuel_consumption_factor = -0.15
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -65,10 +68,13 @@ unit_medals = {
 			army_morale_factor = 0.1
 			army_defence_factor = 0.05
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_morale_factor = 0.05
+			naval_defense_factor = 0.05
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -86,10 +92,12 @@ unit_medals = {
 		unit_modifiers = {
 			army_org_factor = 0.1
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			navy_org_factor = 0.1
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -107,10 +115,11 @@ unit_medals = {
 		unit_modifiers = {
 			army_strength_factor = 0.1
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_damage_factor = 0.1
 		}
+		officer_xp = 100
 		
 	}
 	
@@ -130,10 +139,12 @@ unit_medals = {
 		unit_modifiers = {
 			army_morale_factor = 0.1
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_morale_factor = 0.1
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -151,10 +162,12 @@ unit_medals = {
 		unit_modifiers = {
 			supply_consumption_factor = -0.15
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_supply_consumption_factor = -0.15
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -173,10 +186,13 @@ unit_medals = {
 			army_defence_factor = 0.05
 			recon_factor = 0.1
 		}
+
+		ship_modifiers = {
+			naval_detection = 0.1
+			naval_defense_factor = 0.05
+		}	
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
-		}
+		officer_xp = 100
 		
 	}
 	
@@ -194,14 +210,16 @@ unit_medals = {
 		unit_modifiers = {
 			experience_loss_factor = -0.25
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			experience_gain_navy_unit_factor = 0.25
 		}
+		
+		officer_xp = 100
 		
 	}
 	
-		### Generic Fascism
+	### Generic Fascism
 	
 	fascism_bravery = {
 		
@@ -217,10 +235,12 @@ unit_medals = {
 		unit_modifiers = {
 			army_org_factor = 0.1
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			navy_org_factor = 0.1
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -238,10 +258,12 @@ unit_medals = {
 		unit_modifiers = {
 			army_attack_factor = 0.05
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_damage_factor = 0.05
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -260,10 +282,13 @@ unit_medals = {
 			armor_factor = 0.1
 			recon_factor = 0.1
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_detection = 0.1
+			critical_receive_chance = -0.1
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -281,14 +306,16 @@ unit_medals = {
 		unit_modifiers = {
 			breakthrough_factor = 0.1
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_critical_score_chance_factor = 0.1
 		}
+		
+		officer_xp = 100
 		
 	}
 	
-		### Generic Neutrality
+	### Generic Neutrality
 	
 	neutral_bravery = {
 		
@@ -305,10 +332,13 @@ unit_medals = {
 			army_defence_factor = 0.05
 			max_dig_in_factor = 0.1
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_defense_factor = 0.05
+			naval_mines_effect_reduction = 0.1
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -327,10 +357,13 @@ unit_medals = {
 			supply_consumption_factor = -0.15
 			army_morale_factor = 0.1
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_morale_factor = 0.1
+			naval_supply_consumption_factor = -0.15
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -348,10 +381,12 @@ unit_medals = {
 		unit_modifiers = {
 			army_attack_factor = 0.05
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_damage_factor = 0.05
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -370,10 +405,13 @@ unit_medals = {
 			experience_loss_factor = -0.2
 			army_morale_factor = 0.05
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_morale_factor = 0.05
+			experience_gain_navy_unit_factor = 0.05
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -394,9 +432,12 @@ unit_medals = {
 			army_fuel_consumption_factor = -0.15
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			naval_supply_consumption_factor = -0.15
+			navy_fuel_consumption_factor = -0.15
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -415,10 +456,11 @@ unit_medals = {
 			army_defence_factor = 0.05
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			naval_morale_factor = 0.05
+			naval_defense_factor = 0.05
 		}
-		
+		officer_xp = 100
 	}
 	
 	CHK_medal_zash_ChR = {
@@ -435,9 +477,10 @@ unit_medals = {
 			army_org_factor = 0.1
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			navy_org_factor = 0.1
 		}
+		officer_xp = 100
 		
 	}
 	
@@ -455,9 +498,10 @@ unit_medals = {
 			army_strength_factor = 0.1
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			naval_damage_factor = 0.1
 		}
+		officer_xp = 100
 		
 	}
 	
@@ -479,9 +523,12 @@ unit_medals = {
 			army_fuel_consumption_factor = -0.15
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			naval_supply_consumption_factor = -0.15
+			navy_fuel_consumption_factor = -0.15
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -501,9 +548,12 @@ unit_medals = {
 			army_defence_factor = 0.05
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			naval_morale_factor = 0.05
+			naval_defense_factor = 0.05
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -522,10 +572,10 @@ unit_medals = {
 			army_org_factor = 0.1
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			navy_org_factor = 0.1
 		}
-		
+		officer_xp = 100
 	}
 	
 	anstal_orden_mahno = {
@@ -543,9 +593,10 @@ unit_medals = {
 			army_strength_factor = 0.1
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			naval_damage_factor = 0.1
 		}
+		officer_xp = 100
 		
 	}
 	
@@ -565,10 +616,13 @@ unit_medals = {
 			supply_consumption_factor = -0.15
 			army_fuel_consumption_factor = -0.15
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_supply_consumption_factor = -0.15
+			navy_fuel_consumption_factor = -0.15
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -587,10 +641,13 @@ unit_medals = {
 			army_morale_factor = 0.1
 			army_defence_factor = 0.05
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_morale_factor = 0.05
+			naval_defense_factor = 0.05
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -608,10 +665,12 @@ unit_medals = {
 		unit_modifiers = {
 			army_org_factor = 0.1
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			navy_org_factor = 0.1
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -629,11 +688,11 @@ unit_medals = {
 		unit_modifiers = {
 			army_strength_factor = 0.1
 		}
-		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+
+		ship_modifiers = {
+			naval_damage_factor = 0.1
 		}
-		
+		officer_xp = 100
 	}
 	
 	###Memoism###
@@ -653,10 +712,11 @@ unit_medals = {
 			army_fuel_consumption_factor = -0.15
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			naval_supply_consumption_factor = -0.15
+			navy_fuel_consumption_factor = -0.15
 		}
-		
+		officer_xp = 100
 	}
 	
 	memoism_orden_gch3 = {
@@ -675,9 +735,12 @@ unit_medals = {
 			army_defence_factor = 0.05
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			naval_morale_factor = 0.05
+			naval_defense_factor = 0.05
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -696,9 +759,11 @@ unit_medals = {
 			army_org_factor = 0.1
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			navy_org_factor = 0.1
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -717,9 +782,10 @@ unit_medals = {
 			army_strength_factor = 0.1
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			naval_damage_factor = 0.1
 		}
+		officer_xp = 100
 		
 	}
 	
@@ -739,9 +805,10 @@ unit_medals = {
 			army_strength_factor = 0.1
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			naval_damage_factor = 0.1
 		}
+		officer_xp = 100
 		
 	}
 	
@@ -760,9 +827,12 @@ unit_medals = {
 			army_defence_factor = 0.05
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			naval_morale_factor = 0.05
+			naval_defense_factor = 0.05
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -780,9 +850,11 @@ unit_medals = {
 			army_org_factor = 0.1
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			navy_org_factor = 0.1
 		}
+		
+		officer_xp = 100
 		
 	}
 	
@@ -801,10 +873,12 @@ unit_medals = {
 			army_fuel_consumption_factor = -0.15
 		}
 		
-		one_time_effect = {
-			add_divisional_commander_xp = 100
+		ship_modifiers = {
+			naval_supply_consumption_factor = -0.15
+			navy_fuel_consumption_factor = -0.15
 		}
 		
-	}
+		officer_xp = 100
 		
+	}	
 }		

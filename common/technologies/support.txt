@@ -91,6 +91,10 @@ technologies = {
 		enable_subunits = {
 			engineer
 		}
+		enable_subunits = {
+			limit = { has_dlc = "Thunder at Our Gates"}
+			hq_engineer
+		}
 		
 		path = {
 			leads_to_tech = tech_engineers2
@@ -259,7 +263,7 @@ technologies = {
 		engineer = {
 			entrenchment = 0.50
 			river = {
-				attack = 0.1	
+				attack = 0.1
 				defence = 0.10
 			}
 		}
@@ -274,7 +278,7 @@ technologies = {
 		armored_engineer = {
 			entrenchment = 1
 			river = {
-				attack = 0.05	
+				attack = 0.05
 				defence = 0.05
 				movement = 0.15
 			}
@@ -285,7 +289,7 @@ technologies = {
 				attack = 0.1
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.1
 			}
 		}
 		medium_flame_tank = {
@@ -293,7 +297,7 @@ technologies = {
 				attack = 0.1
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.1
 			}
 		}
 		heavy_flame_tank = {
@@ -301,13 +305,13 @@ technologies = {
 				attack = 0.1
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.1
 			}
 		}
 		path = {
 			leads_to_tech = tech_engineers4
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 2.0
 		start_year = 9
@@ -351,7 +355,7 @@ technologies = {
 		engineer = {
 			entrenchment = 0.50
 			urban = {
-				attack = 0.1	
+				attack = 0.1
 				defence = 0.1
 			}
 		}
@@ -359,7 +363,7 @@ technologies = {
 		assault_engineer = {
 			breakthrough = 0.1
 			urban = {
-				attack = 0.15	
+				attack = 0.15
 			}
 		}
 
@@ -376,7 +380,7 @@ technologies = {
 				attack = 0.1
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.1
 			}
 		}
 		medium_flame_tank = {
@@ -384,7 +388,7 @@ technologies = {
 				attack = 0.1
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.1
 			}
 		}
 		heavy_flame_tank = {
@@ -392,7 +396,7 @@ technologies = {
 				attack = 0.1
 			}
 			fort = {
-				attack = 0.10
+				attack = 0.1
 			}
 		}
 		research_cost = 2.0
@@ -440,7 +444,10 @@ technologies = {
 			armored_car_recon
 			light_tank_recon
 		}
-		
+		enable_subunits = {
+			limit = { has_dlc = "Thunder at Our Gates"}
+			hq_recon
+		}
 		path = {
 			leads_to_tech = tech_recon2
 			research_cost_coeff = 1
@@ -636,7 +643,10 @@ technologies = {
 		enable_subunits = {
 			military_police
 		}
-		
+		enable_subunits = {
+			limit = { has_dlc = "Thunder at Our Gates"}
+			hq_military_police
+		}
 		path = {
 			leads_to_tech = tech_military_police2
 			research_cost_coeff = 1
@@ -661,6 +671,10 @@ technologies = {
 		
 		ai_will_do = {
 			base = 0.5
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
 		}
 	}
 	
@@ -800,7 +814,10 @@ technologies = {
 		enable_subunits = {
 			maintenance_company
 		}
-		
+		enable_subunits = {
+			limit = { has_dlc = "Thunder at Our Gates"}
+			hq_maintenance
+		}
 		path = {
 			leads_to_tech = tech_maintenance_company2
 			research_cost_coeff = 1
@@ -1011,7 +1028,10 @@ technologies = {
 		enable_subunits = {
 			field_hospital
 		}
-		
+		enable_subunits = {
+			limit = { has_dlc = "Thunder at Our Gates"}
+			hq_field_hospital
+		}
 		path = {
 			leads_to_tech = tech_field_hospital2
 			research_cost_coeff = 1
@@ -1236,7 +1256,7 @@ technologies = {
 	SWI_saint_bernard_tech = { #Saint Bernard tech
 		allow = { always = no } #Only obtained through Focus
 		field_hospital = {
-			casualty_trickleback = 0.20 ## REMEMBER TO UPDATE THE TOOLTIP 
+			casualty_trickleback = 0.20 ## REMEMBER TO UPDATE THE TOOLTIP
 			experience_loss_factor = -0.3
 		}
 	}
@@ -1246,7 +1266,7 @@ technologies = {
 		category_support_battalions = {
 			max_organisation = 10
 			soft_attack = 0.25
-			experience_loss_factor = 0.05
+			experience_loss_factor = -0.05
 		}
 	}
 
@@ -1255,7 +1275,10 @@ technologies = {
 		enable_subunits = {
 			logistics_company
 		}
-		
+		enable_subunits = {
+			limit = { has_dlc = "Thunder at Our Gates"}
+			hq_logistics
+		}
 		path = {
 			leads_to_tech = tech_logistics_company2
 			research_cost_coeff = 1
@@ -1463,6 +1486,10 @@ technologies = {
 		enable_subunits = {
 			signal_company
 		}
+		enable_subunits = {
+			limit = { has_dlc = "Thunder at Our Gates"}
+			hq_signal
+		}
 		
 		path = {
 			leads_to_tech = tech_signal_company2
@@ -1567,7 +1594,6 @@ technologies = {
 			battalion_mult = {
 				category = category_all_armor
 				breakthrough = 0.01
-				add = yes
 			}
 		}
 
@@ -1727,11 +1753,6 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 3 }
-		}
-
-		path = {
-			leads_to_tech = sp_cluster_shells
-			research_cost_coeff = 1
 		}
 		
 		categories = {

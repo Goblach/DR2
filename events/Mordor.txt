@@ -1,6 +1,6 @@
 add_namespace = mordor
 
-country_event = { #Предыстория_Мордора
+country_event = { #Предыстория Мордора
 
 	id = mordor.0 
         title = mordor.0.t
@@ -13,7 +13,7 @@ country_event = { #Предыстория_Мордора
 		name = mordor.0.a
 	}
 }
-country_event = { #Идеи_Саурона
+country_event = { #Идеи Саурона
 
 	id = mordor.1
         title = mordor.1.t
@@ -26,7 +26,7 @@ country_event = { #Идеи_Саурона
 		name = mordor.1.a
 	}
 }
-country_event = { #Идеи_Сарумяна
+country_event = { #Идеи Сарумяна
 
 	id = mordor.2
         title = mordor.2.t
@@ -47,7 +47,7 @@ country_event = { #Идеи_Сарумяна
 		custom_effect_tooltip = MRD_3_industrial_capacity_factory_tt
 	}
 }
-country_event = { #Начинаем_с_дачников
+country_event = { #Начинаем с дачников
 
 	id = mordor.3
         title = mordor.3.t
@@ -90,7 +90,7 @@ country_event = { #Начинаем_с_дачников
 		name = mordor.3.b
 	}
 }
-country_event = { #Победа_Мордовии_Саурон
+country_event = { #Победа Мордовии Саурон
 
 	id = mordor.4
         title = mordor.4.t
@@ -114,7 +114,7 @@ country_event = { #Победа_Мордовии_Саурон
 		set_country_flag = MRD_uspeshniy_reid_country_flag_3
 	}
 }
-country_event = { #Победа_Покаянии_Саурон
+country_event = { #Победа Покаянии Саурон
 
 	id = mordor.5
         title = mordor.5.t
@@ -127,7 +127,7 @@ country_event = { #Победа_Покаянии_Саурон
 		name = mordor.5.a
 	}
 }
-country_event = { #Победа_Покаянии_Покаян
+country_event = { #Победа Покаянии Покаян
 
 	id = mordor.6
         title = mordor.6.t
@@ -141,7 +141,7 @@ country_event = { #Победа_Покаянии_Покаян
 		
 	}
 }
-country_event = { #Победа_Мордовии_Покаян
+country_event = { #Победа Мордовии Покаян
 
 	id = mordor.7
         title = mordor.7.t
@@ -154,7 +154,7 @@ country_event = { #Победа_Мордовии_Покаян
 		name = mordor.7.a
 	}
 }
-country_event = { #Проблема_назгулов
+country_event = { #Проблема назгулов
 
 	id = mordor.8
         title = mordor.8.t
@@ -180,7 +180,7 @@ country_event = { #Проблема_назгулов
 		}
 	}
 }
-country_event = { #Первый_блин
+country_event = { #Первый блин
 
 	id = mordor.9
         title = mordor.9.t
@@ -201,7 +201,7 @@ country_event = { #Первый_блин
 		custom_effect_tooltip = MRD_1_h_weekly_manpower_tt
 	}
 }
-country_event = { #Пендальфа_завербовали
+country_event = { #Пендальфа завербовали
 
 	id = mordor.10
         title = mordor.10.t
@@ -215,7 +215,7 @@ country_event = { #Пендальфа_завербовали
 		recruit_character = MRD_pendalf
 	}
 }
-country_event = { #Оповещение_о_погранконфликте_для_Покаянии
+country_event = { #Оповещение о погранконфликте для Покаянии
 
 	id = mordor.11
         title = mordor.11.t
@@ -228,7 +228,7 @@ country_event = { #Оповещение_о_погранконфликте_для
 		name = mordor.11.a
 	}
 }
-country_event = { #Финальные_приготовления
+country_event = { #Финальные приготовления
 
 	id = mordor.12
 	title = mordor.12.t
@@ -271,7 +271,7 @@ country_event = { #Финальные_приготовления
 		}
 	}
 }
-country_event = { #Оповещение_о_развале_Покаянии
+country_event = { #Оповещение о развале Покаянии
 
 	id = mordor.13
         title = mordor.13.t
@@ -293,7 +293,7 @@ country_event = { #Оповещение_о_развале_Покаянии
 			575 = { set_demilitarized_zone = no }
 	}
 }
-country_event = { #Интервенция_в_гражданскую_войну
+country_event = { #Интервенция в гражданскую войну
 
 	id = mordor.14
         title = mordor.14.t
@@ -334,7 +334,7 @@ country_event = { #Интервенция_в_гражданскую_войну
 		}
 	}
 }
-country_event = { #На_случай_если_война_затягивается
+country_event = { #На случай если война затягивается
 
 	id = mordor.15
         title = mordor.15.t
@@ -369,7 +369,7 @@ country_event = { #На_случай_если_война_затягиваетс�
 		custom_effect_tooltip = MRD_3_h_army_org_factor_tt
 	}
 }
-country_event = { #Победа_в_гражданской_войне
+country_event = { #Победа в гражданской войне
 
 	id = mordor.16
         title = mordor.16.t
@@ -432,7 +432,7 @@ country_event = { #Победа_в_гражданской_войне
 	}
 }
 
-country_event = {	###Состояние_дел_в_армии
+country_event = {	###Состояние дел в армии
 
 	id = mordor.17
         title = mordor.17.t
@@ -446,7 +446,7 @@ country_event = {	###Состояние_дел_в_армии
 	}
 }
 
-country_event = {	###Тёмные_дела_Саурона
+country_event = {	###Тёмные дела Саурона
 
 	id = mordor.18
         title = mordor.18.t
@@ -460,7 +460,7 @@ country_event = {	###Тёмные_дела_Саурона
 	}
 }
 
-country_event = {	###Проект_Гриб_Саурона_вводная
+country_event = {	###Проект Гриб Саурона вводная
 
 	id = mordor.19
         title = mordor.19.t
@@ -474,7 +474,7 @@ country_event = {	###Проект_Гриб_Саурона_вводная
 	}
 }
 
-country_event = {	###Проект_Гриб_Саурона_приглашение
+country_event = {	###Проект Гриб Саурона приглашение
 
 	id = mordor.20
         title = mordor.20.t
@@ -491,7 +491,7 @@ country_event = {	###Проект_Гриб_Саурона_приглашение
 	}
 }
 
-country_event = {	###Проект_Гриб_Саурона_положительный_ответ_на_приглашение
+country_event = {	###Проект Гриб Саурона положительный ответ на приглашение
 
 	id = mordor.21
         title = mordor.21.t
@@ -506,7 +506,7 @@ country_event = {	###Проект_Гриб_Саурона_положительн
 	}
 }
 
-country_event = {	###Проект_Гриб_Саурона_отрицательный_ответ_на_приглашение
+country_event = {	###Проект Гриб Саурона отрицательный ответ на приглашение
 
 	id = mordor.22
         title = mordor.22.t
@@ -524,7 +524,7 @@ country_event = {	###Проект_Гриб_Саурона_отрицательн
 	}
 }
 
-country_event = {	###Положительный_исход
+country_event = {	###Положительный исход
 
 	id = mordor.23
         title = mordor.23.t
@@ -581,7 +581,7 @@ country_event = {	###Положительный_исход
 #	}
 #}
 
-country_event = {	###Финансовые_источники
+country_event = {	###Финансовые источники
 
 	id = mordor.26
         title = mordor.26.t
@@ -595,7 +595,7 @@ country_event = {	###Финансовые_источники
 	}
 }
 
-country_event = {	###Суть_экономических_приколов
+country_event = {	###Суть экономических приколов
 
 	id = mordor.27
         title = mordor.27.t
@@ -609,7 +609,7 @@ country_event = {	###Суть_экономических_приколов
 	}
 }
 
-country_event = {	###Письмо_мордора_о_поддержке_и_идеологических_диверсиях
+country_event = {	###Письмо мордора о поддержке и идеологических диверсиях
 
 	id = mordor.28
         title = mordor.28.t
@@ -626,7 +626,7 @@ country_event = {	###Письмо_мордора_о_поддержке_и_иде
 	}
 }
 
-country_event = {	###Идеологическая_диверсия
+country_event = {	###Идеологическая диверсия
 
 	id = mordor.29
         title = mordor.29.t
@@ -647,7 +647,7 @@ country_event = {	###Идеологическая_диверсия
 	}
 }
 
-country_event = {	###Вводная_по_мегакольцу
+country_event = {	###Вводная по мегакольцу
 
 	id = mordor.30
         title = mordor.30.t
@@ -662,7 +662,7 @@ country_event = {	###Вводная_по_мегакольцу
 	}
 }
 
-country_event = {	###Вводная_по_раздаче_колец
+country_event = {	###Вводная по раздаче колец
 
 	id = mordor.31
         title = mordor.31.t
@@ -676,7 +676,7 @@ country_event = {	###Вводная_по_раздаче_колец
 	}
 }
 
-country_event = {	###Саурон_предлагает_сыграть_в_игру
+country_event = {	###Саурон предлагает сыграть в игру
 
 	id = mordor.32
         title = mordor.32.t
@@ -697,7 +697,7 @@ country_event = {	###Саурон_предлагает_сыграть_в_игр�
 		add_ideas = MRD_LAZ_diversiya
 	}
 }
-country_event = {	###Лазарет_начинает_ответную_игру
+country_event = {	###Лазарет начинает ответную игру
 
 	id = mordor.33
         title = mordor.33.t
@@ -719,7 +719,7 @@ country_event = {	###Лазарет_начинает_ответную_игру
 		LAZ = { country_event = mordor.36 }
 	}
 }
-country_event = {	###Саурон_будет_воевать
+country_event = {	###Саурон будет воевать
 
 	id = mordor.34
         title = mordor.34.t
@@ -736,7 +736,7 @@ country_event = {	###Саурон_будет_воевать
 		}
 	}
 }
-country_event = {	###Саурон_уклоняется
+country_event = {	###Саурон уклоняется
 
 	id = mordor.35
         title = mordor.35.t
@@ -750,7 +750,7 @@ country_event = {	###Саурон_уклоняется
 		remove_ideas = MRD_LAZ_diversiya
 	}
 }
-country_event = {	###Саурон_соглашается
+country_event = {	###Саурон соглашается
 
 	id = mordor.36
         title = mordor.36.t
@@ -768,7 +768,7 @@ country_event = {	###Саурон_соглашается
 		}
 	}
 }
-country_event = {	###Почему_мы_ищем_Равшана_1
+country_event = {	###Почему мы ищем Равшана 1
 
 	id = mordor.37
         title = mordor.37.t
@@ -788,7 +788,7 @@ country_event = {	###Почему_мы_ищем_Равшана_1
 		}
 	}
 }
-country_event = {	###Эсэсовцы_едут_к_Равшану_1
+country_event = {	###Эсэсовцы едут к Равшану 1
 
 	id = mordor.38
         title = mordor.38.t
@@ -808,7 +808,7 @@ country_event = {	###Эсэсовцы_едут_к_Равшану_1
 		}
 	}
 }
-country_event = {	###Итоги_разборок_с_Равшаном_1
+country_event = {	###Итоги разборок с Равшаном 1
 
 	id = mordor.39
         title = mordor.39.t
@@ -822,7 +822,7 @@ country_event = {	###Итоги_разборок_с_Равшаном_1
 		set_country_flag = MRD_poisk_koltsa_1
 	}
 }
-country_event = {	###Почему_мы_ищем_Шевцова
+country_event = {	###Почему мы ищем Шевцова
 
 	id = mordor.40
         title = mordor.40.t
@@ -842,7 +842,7 @@ country_event = {	###Почему_мы_ищем_Шевцова
 		}
 	}
 }
-country_event = {	###Эсэсовцы_едут_к_Шевцову
+country_event = {	###Эсэсовцы едут к Шевцову
 
 	id = mordor.41
         title = mordor.41.t
@@ -862,7 +862,7 @@ country_event = {	###Эсэсовцы_едут_к_Шевцову
 		}
 	}
 }
-country_event = {	###Итоги_разборок_с_Шевцовым
+country_event = {	###Итоги разборок с Шевцовым
 
 	id = mordor.42
         title = mordor.42.t
@@ -876,7 +876,7 @@ country_event = {	###Итоги_разборок_с_Шевцовым
 		set_country_flag = MRD_poisk_koltsa_2
 	}
 }
-country_event = {	###Почему_мы_ищем_Ценина
+country_event = {	###Почему мы ищем Ценина
 
 	id = mordor.43
         title = mordor.43.t
@@ -896,7 +896,7 @@ country_event = {	###Почему_мы_ищем_Ценина
 		}
 	}
 }
-country_event = {	###Эсэсовцы_едут_к_Ценину
+country_event = {	###Эсэсовцы едут к Ценину
 
 	id = mordor.44
         title = mordor.44.t
@@ -916,7 +916,7 @@ country_event = {	###Эсэсовцы_едут_к_Ценину
 		}
 	}
 }
-country_event = {	###Итоги_разборок_с_Цениным
+country_event = {	###Итоги разборок с Цениным
 
 	id = mordor.45
         title = mordor.45.t
@@ -930,7 +930,7 @@ country_event = {	###Итоги_разборок_с_Цениным
 		set_country_flag = MRD_poisk_koltsa_3
 	}
 }
-country_event = {	###Почему_мы_ищем_Бубуея
+country_event = {	###Почему мы ищем Бубуея
 
 	id = mordor.46
         title = mordor.46.t
@@ -950,7 +950,7 @@ country_event = {	###Почему_мы_ищем_Бубуея
 		}
 	}
 }
-country_event = {	###Эсэсовцы_едут_к_Бебею
+country_event = {	###Эсэсовцы едут к Бебею
 
 	id = mordor.47
         title = mordor.47.t
@@ -970,7 +970,7 @@ country_event = {	###Эсэсовцы_едут_к_Бебею
 		}
 	}
 }
-country_event = {	###Итоги_разборок_с_Бабаем
+country_event = {	###Итоги разборок с Бабаем
 
 	id = mordor.48
         title = mordor.48.t
@@ -984,7 +984,7 @@ country_event = {	###Итоги_разборок_с_Бабаем
 		set_country_flag = MRD_poisk_koltsa_4
 	}
 }
-country_event = {	###Итоги_расследования-Кольцо_у_Киркорова
+country_event = {	###Итоги расследования-Кольцо у Киркорова
 
 	id = mordor.49
         title = mordor.49.t
@@ -997,7 +997,7 @@ country_event = {	###Итоги_расследования-Кольцо_у_Ки�
 		name = mordor.49.a
 	}
 }
-country_event = {	###Киркоров_уходит_в_Мордор_(Болгарский_ивент)
+country_event = {	###Киркоров уходит в Мордор (Болгарский ивент)
 
 	id = mordor.50
         title = mordor.50.t
@@ -1010,7 +1010,7 @@ country_event = {	###Киркоров_уходит_в_Мордор_(Болгар
 		name = mordor.50.a
 	}
 }
-country_event = {	###Кольцо_у_Саурона
+country_event = {	###Кольцо у Саурона
 
 	id = mordor.51
         title = mordor.51.t
@@ -1023,7 +1023,7 @@ country_event = {	###Кольцо_у_Саурона
 		name = mordor.51.a
 	}
 }
-country_event = {	###Мордор_-_победа
+country_event = {	###Мордор - победа
 
 	id = mordor.52
         title = mordor.52.t
@@ -1040,7 +1040,7 @@ country_event = {	###Мордор_-_победа
 		custom_effect_tooltip = MRD_2_h_consumer_goods_factor_tt
 	}
 }
-country_event = {	###Мордор_-_поражение
+country_event = {	###Мордор - поражение
 
 	id = mordor.53
         title = mordor.53.t
@@ -1054,7 +1054,7 @@ country_event = {	###Мордор_-_поражение
 		add_political_power = -50
 	}
 }
-country_event = {	###Мордор_-_ничья
+country_event = {	###Мордор - ничья
 
 	id = mordor.54
         title = mordor.54.t
@@ -1068,7 +1068,7 @@ country_event = {	###Мордор_-_ничья
 		add_political_power = -25
 	}
 }
-country_event = {	###Обороняющийся_-_победа
+country_event = {	###Обороняющийся - победа
 
 	id = mordor.55
         title = mordor.55.t
@@ -1082,7 +1082,7 @@ country_event = {	###Обороняющийся_-_победа
 		add_political_power = 105
 	}
 }
-country_event = {	###Обороняющийся_-_поражение
+country_event = {	###Обороняющийся - поражение
 
 	id = mordor.56
         title = mordor.56.t
@@ -1098,7 +1098,7 @@ country_event = {	###Обороняющийся_-_поражение
 		add_war_support = -0.05
 	}
 }
-country_event = {	###Обороняющийся_-_ничья
+country_event = {	###Обороняющийся - ничья
 
 	id = mordor.57
         title = mordor.57.t
@@ -1112,7 +1112,7 @@ country_event = {	###Обороняющийся_-_ничья
 		add_political_power = -25
 	}
 }
-country_event = {	###Исходящий_ивент_о_рейде
+country_event = {	###Исходящий ивент о рейде
 
 	id = mordor.58
         title = mordor.58.t
@@ -1210,7 +1210,7 @@ country_event = {	###Назгул-Роммель
 		}
 	}
 }
-country_event = {	###Назгул-Карл_Эглессер
+country_event = {	###Назгул-Карл Эглессер
 
 	id = mordor.64
         title = mordor.64.t
@@ -1244,7 +1244,7 @@ country_event = {	###Назгул-Мафиозник
 		}
 	}
 }
-country_event = {	###Назгул-Томас_Шэлби
+country_event = {	###Назгул-Томас Шэлби
 
 	id = mordor.66
         title = mordor.66.t
