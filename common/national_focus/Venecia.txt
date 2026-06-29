@@ -169,24 +169,8 @@ focus_tree = {
 		prerequisite = {
 			focus = VNR_VI_KA
 		}
-		mutually_exclusive = {
-			focus = VNR_terra_ferma
-		}
-		x = 12
-		y = 6
-
-	}
-	focus = {
-		id = VNR_terra_ferma
-		icon = GFX_goal_unknown
-		cost = 3,00
-		prerequisite = {
-			focus = VNR_VI_KA
-		}
-		mutually_exclusive = {
-			focus = VNR_nastoyashiy_papizi
-		}
-		x = 14
+		
+		x = 13
 		y = 6
 
 	}

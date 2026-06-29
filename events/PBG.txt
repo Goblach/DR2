@@ -1,0 +1,80 @@
+add_namespace = PBG
+
+country_event = { 
+
+	id = PBG.1
+        title = PBG.1.t
+        desc = PBG.1.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.1.a
+	}
+	
+}
+country_event = { 
+
+	id = PBG.2
+        title = PBG.2.t
+        desc = PBG.2.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.2.a
+		add_power_balance_value = {
+    id = PBG_karma_balance
+    value = -0.05
+}
+	}
+	option = {
+		name = PBG.2.b
+		add_power_balance_value = {
+    id = PBG_karma_balance 
+    value = 0.05
+}
+	}
+	
+}
+country_event = { 
+
+	id = PBG.3
+        title = PBG.3.t
+        desc = PBG.3.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.3.a
+	}
+	
+}
+country_event = { 
+
+	id = PBG.4
+        title = PBG.4.t
+        desc = PBG.4.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.4.a
+		add_power_balance_value = {
+    id = PBG_karma_balance
+    value = -0.05
+}
+	}
+	option = {
+		name = PBG.4.b
+		add_power_balance_value = {
+    id = PBG_karma_balance 
+    value = 0.05
+}
+	}
+	
+}

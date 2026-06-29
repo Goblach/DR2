@@ -2159,7 +2159,7 @@ country_event = { id = POK.36 }
                 add_ideas = POK_parlament_army 
             }
             else_if = {
-                limit = {
+                limit = { 
                     has_completed_focus = POK_remember_fevral_1917
                 }
                 add_ideas = POK_parlament_army_1 

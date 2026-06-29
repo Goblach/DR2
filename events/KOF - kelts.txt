@@ -1,7 +1,7 @@
 add_namespace = KOF
 
 	
-#Поражение_в_Британии
+#Поражение в Британии
 country_event = {
 	id = KOF.1
 	title = KOF.1.t
@@ -309,7 +309,7 @@ country_event = {
 	}
 }
 
-country_event = { #Падение_правительства
+country_event = { #Падение правительства
 	id = KOF.2
 	title = KOF.2.t
 	desc = KOF.2.d

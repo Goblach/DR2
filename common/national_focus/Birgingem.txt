@@ -8,31 +8,34 @@ focus_tree = {
 		}
 	}
 	default = no
-	focus = {
-		id = PBG_mi_iz_birgingema
-		icon = GFX_goal_unknown
-		cost = 3,00
-		x = 7
-		y = 0
-		completion_reward = {
-			add_political_power = 100
-			add_war_support = 0.05
-			add_manpower = 10000
-		}
-	}
+	
 	focus = {
 		id = PBG_vedy
 		icon = GFX_goal_unknown
 		cost = 3,00
-		prerequisite = {
-			focus = PBG_mi_iz_birgingema
-		}
-		x = 7
-		y = 1
+		x = 13
+		y = 0
 		completion_reward = {
 			set_power_balance = {
-				id = PBG_karma_balance
+				id = PBG_karma_balance 
 			}
+			country_event = { id = PBG.1 }
+		}
+	}
+	focus = {
+		id = PBG_mi_iz_birgingema
+		icon = GFX_goal_unknown
+		cost = 3,00
+		x = 13
+		y = 1
+		prerequisite = {
+			focus = PBG_vedy
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_war_support = 0.05
+			add_manpower = 10000
+			country_event = { id = PBG.2 }
 		}
 	}
 	focus = {
@@ -40,42 +43,69 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 3,00
 		prerequisite = {
-			focus = PBG_vedy
+			focus = PBG_mi_iz_birgingema
 		}
-		x = 4
+		x = 10
 		y = 2
-
+completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
 	}
 	focus = {
 		id = PBG_vragi_so_vseh_storon
 		icon = GFX_goal_unknown
 		cost = 3,00
 		prerequisite = {
-			focus = PBG_vedy
+			focus = PBG_organizovat_skachky
 		}
-		x = 6
-		y = 2
-
+		prerequisite = {
+			focus = PBG_za_tebya_porvu
+		}
+		prerequisite = {
+			focus = PBG_cigane
+		}
+		prerequisite = {
+			focus = PBG_kontrobanda
+		}
+		x = 13
+		y = 3
+completion_reward = {
+			add_ideas = PBG_vragi_so_vseh_storon
+			country_event = { id = PBG.3 }
+		}
 	}
 	focus = {
 		id = PBG_cigane
 		icon = GFX_goal_unknown
 		cost = 3,00
 		prerequisite = {
-			focus = PBG_vedy
+			focus = PBG_mi_iz_birgingema
 		}
-		x = 8
+		x = 14
 		y = 2
-
+completion_reward = {
+				add_ideas = PBG_cigane
+				add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 1000
+							producer = PBG
+						}
+				add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 500
+							producer = PBG
+						}	
+		}
 	}
 	focus = {
 		id = PBG_kontrobanda
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = PBG_vedy
+			focus = PBG_mi_iz_birgingema
 		}
-		x = 10
+		x = 16
 		y = 2
 		completion_reward = {
 			add_power_balance_value = {
@@ -87,45 +117,38 @@ focus_tree = {
 	focus = {
 		id = PBG_za_tebya_porvu
 		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = PBG_organizovat_skachky
+		cost = 5
+			prerequisite = {
+			focus = PBG_mi_iz_birgingema
 		}
-		prerequisite = {
-			focus = PBG_vragi_so_vseh_storon
+		x = 12
+		y = 2
+completion_reward = {
+				add_ideas = PBG_za_tebya_porvu
 		}
-		prerequisite = {
-			focus = PBG_cigane
-		}
-		prerequisite = {
-			focus = PBG_kontrobanda
-		}
-		x = 7
-		y = 3
-
 	}
 	focus = {
 		id = PBG_Ira
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5
 		prerequisite = {
-			focus = PBG_za_tebya_porvu
+			focus = PBG_vragi_so_vseh_storon
 		}
 		mutually_exclusive = {
 			focus = PBG_Pinkfloyd
 		}
-		x = 6
+		x = 12
 		y = 4
 
 	}
 	focus = {
 		id = PBG_obchistit_partkassy
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5
 		prerequisite = {
 			focus = PBG_Ira
 		}
-		x = 5
+		x = 11
 		y = 5
 		completion_reward = {
 			add_power_balance_value = {
@@ -133,31 +156,32 @@ focus_tree = {
 				value = -0.1
 			}
 			add_political_power = 100
+			country_event = { id = PBG.4 }
 		}
 	}
 	focus = {
 		id = PBG_Pinkfloyd
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5
 		prerequisite = {
-			focus = PBG_za_tebya_porvu
+			focus = PBG_vragi_so_vseh_storon
 		}
 		mutually_exclusive = {
 			focus = PBG_Ira
 		}
-		x = 8
+		x = 14
 		y = 4
 
 	}
 	focus = {
 		id = PBG_udar_v_spinu
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5
 		prerequisite = {
 			focus = PBG_Ira
 			focus = PBG_Pinkfloyd
 		}
-		x = 7
+		x = 13
 		y = 5
 		completion_reward = {
 			add_power_balance_value = {
@@ -169,18 +193,18 @@ focus_tree = {
 	focus = {
 		id = PBG_ukrast_keltskoe_oryzhie
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5
 		prerequisite = {
 			focus = PBG_Pinkfloyd
 		}
-		x = 9
+		x = 15
 		y = 5
 
 	}
 	focus = {
 		id = PBG_party_kozirkov
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 6
 		prerequisite = {
 			focus = PBG_obchistit_partkassy
 			focus = PBG_ukrast_keltskoe_oryzhie
@@ -188,7 +212,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PBG_udar_v_spinu	
 		}
-		x = 7
+		x = 13
 		y = 6
 		completion_reward = {
 			add_power_balance_value = {
@@ -196,6 +220,7 @@ focus_tree = {
 				value = 0.2
 			}
 			add_stability = 0.1
+			remove_ideas = PBG_criminal_volnica
 		}
 	}
 }
