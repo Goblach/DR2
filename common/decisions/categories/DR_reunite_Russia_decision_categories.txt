@@ -2,7 +2,7 @@
   ### REUNITE_RUSSIA/USSR ###
 ###############################
 DR_form_russian_state_decisions_category = {
-	icon = GFX_decision_generic_form_nation
+	icon = generic_formable_nations
 	visible = {
 		OR = {
 			AND = {
@@ -29,7 +29,7 @@ DR_reunite_russia_decisions_category = {
 	}
 }
 DR_core_russian_territories_decisions_category = {
-	icon = GFX_decision_generic_nationalism
+	icon = generic_political_actions
 	allowed = {
 	}
 	visible = {

@@ -1,5 +1,7 @@
 DR_form_russian_state_decisions_category = {
-	LAZ_reunification = { #Формирование_Советского_Союза_Лазарет
+
+	LAZ_reunification = { #Формирование Советского Союза Лазарет
+	
         icon = GFX_decision_generic_form_nation	
 
 		visible = {
@@ -41,7 +43,7 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-    SKT_form_USSR = { #Формирование_Советского_Союза_Коми
+    SKT_form_USSR = { #Формирование Советского Союза Коми
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -82,7 +84,7 @@ DR_form_russian_state_decisions_category = {
 		}	
 	}
 	
-    BSH_form_Sever_empire = { #Формирование_Гипербореи_Бэбэй
+    BSH_form_Sever_empire = { #Формирование Гипербореи Бэбэй
 	
         icon = GFX_decision_generic_form_nation	
 		
@@ -128,7 +130,7 @@ DR_form_russian_state_decisions_category = {
 		}	
 	}
 	
-	BSH_form_Bashkir_hanstvo = { #Формирование_Башкирского_Ханства_Бэбэй
+	BSH_form_Bashkir_hanstvo = { #Формирование Башкирского Ханства Бэбэй
 	
         icon = GFX_decision_generic_form_nation	
 		
@@ -172,7 +174,8 @@ DR_form_russian_state_decisions_category = {
 		}	
 	}
 	
-    BSH_form_Ural_Israel = { #Формирование_Уральского_Израиля_Бэбэй
+    BSH_form_Ural_Israel = { 
+	
 		icon = GFX_decision_generic_form_nation
 		
 		visible = {
@@ -214,7 +217,8 @@ DR_form_russian_state_decisions_category = {
 		}	
 	}
 	
-	NOD_reunification_1 = { #Стариков_объединяет_Россию
+	NOD_reunification_1 = { #Стариков объединяет Россию
+	
         icon = GFX_decision_generic_form_nation		
 		
 		available = {
@@ -263,8 +267,10 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	NOD_reunification_2 = { #Путин_объединяет_Россию
+	NOD_reunification_2 = { #Путин объединяет Россию
+	
         icon = GFX_decision_generic_form_nation		
+		
 		available = {
 			has_completed_focus = NOD_vostanovit_suverenitet_Russia		
 			controls_state = 195
@@ -305,8 +311,10 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	NOD_reunification_3 = {	#Барков_объединяет_Россию
+	NOD_reunification_3 = {	#Барков объединяет Россию
+	
         icon = GFX_decision_generic_form_nation		
+		
 		available = {
 			has_completed_focus = NOD_vostanovit_suverenitet_Russia	
 			controls_state = 195
@@ -342,7 +350,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	DOT_Russia = { #Дальневосточная_Хунта_объединяет_Россию
+	DOT_Russia = { #Дальневосточная Хунта объединяет Россию
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -378,7 +387,8 @@ DR_form_russian_state_decisions_category = {
 		}	
 	}
 	
-	ZNS_Sovet_Union = { #Формирование_Советского_Союза_Рудой
+	ZNS_Sovet_Union = { #Формирование Советского Союза Рудой
+	
         icon = GFX_decision_generic_form_nation
 		
 		visible = {
@@ -419,7 +429,7 @@ DR_form_russian_state_decisions_category = {
 		}
     }
 	
-	MGN_soyuz_sionskih_socialnih_razrushiteley_baza = { #Формирование_Советского_Союза_Андеграунд
+	MGN_soyuz_sionskih_socialnih_razrushiteley_baza = { #Формирование Советского Союза Андеграунд
 		icon = GFX_decision_generic_form_nation
 
 		ai_will_do = {
@@ -461,7 +471,8 @@ DR_form_russian_state_decisions_category = {
 			}
 		}
     }
-	MRD_reunification_RUS = { #Объединение_России_за_Мордор
+	MRD_reunification_RUS = { #Объединение России за Мордор
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -501,7 +512,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	POK_slovolzhitsin_decision = { #Провозглашение_России_за_Словолжицына
+	POK_slovolzhitsin_decision = { #Провозглашение России за Словолжицына
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -538,7 +550,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	POK_eltsin_decision = { #Провозглашение_России_за_Ельцина
+	POK_eltsin_decision = { #Провозглашение России за Ельцина
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -575,7 +588,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	POK_putin_decision = { #Провозглашение_России_за_Путина
+	POK_putin_decision = { #Провозглашение России за Путина
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -612,7 +626,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	POK_parlament_decision = { #Провозглашение_России_за_Шульман
+	POK_parlament_decision = { #Провозглашение России за Шульман
+	
         icon = GFX_decision_generic_form_nation
 		
 		visible = {
@@ -653,7 +668,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	YSK_yuneman_decision = { #Провозглашение_России_за_Юнемана
+	YSK_yuneman_decision = { #Провозглашение России за Юнемана
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -690,7 +706,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	YSK_wright_decision = { #Провозглашение_России_за_Райта
+	YSK_wright_decision = { #Провозглашение России за Райта
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -727,7 +744,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	YSK_pogrom_decision = { #Провозглашение_России_за_Погрома
+	YSK_pogrom_decision = { #Провозглашение России за Погрома
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -764,7 +782,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	YSK_romanovi_decision = { #Провозглашение_России_за_Романовых
+	YSK_romanovi_decision = { #Провозглашение России за Романовых
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -801,7 +820,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	YSK_goga_decision = { #Провозглашение_России_за_Романовых
+	YSK_goga_decision = { #Провозглашение России за Романовых
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -875,7 +895,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	YSK_tesak_decision = { #Провозглашение_России_за_Тесака
+	YSK_tesak_decision = { #Провозглашение России за Тесака
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -912,7 +933,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	YSK_rne_decision = { #Провозглашение_России_за_РНЕ
+	YSK_rne_decision = { #Провозглашение России за РНЕ
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -952,8 +974,10 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	YSK_npf_decision = { #Провозглашение_России_за_РНЕ
+	YSK_npf_decision = { #Провозглашение России за РНЕ
+	
         icon = GFX_decision_generic_form_nation
+		
 		visible = {
 			OR = {
 				AND = {
@@ -988,7 +1012,8 @@ DR_form_russian_state_decisions_category = {
 		}
 	}
 	
-	OMS_Russia = { #Омск_объединяет_Россию
+	OMS_Russia = { #Омск объединяет Россию
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -1022,7 +1047,8 @@ DR_form_russian_state_decisions_category = {
 		}	
 	}
 	
-	GAL_Russia_left_Push = { #Левый_Пушной_объединяет_Россию
+	GAL_Russia_left_Push = { #Левый Пушной объединяет Россию
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -1058,7 +1084,8 @@ DR_form_russian_state_decisions_category = {
 		}	
 	}
 	
-	GAL_Russia_centre_Push = { #Центральный_Пушной_объединяет_Россию
+	GAL_Russia_centre_Push = { #Центральный Пушной объединяет Россию
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -1094,7 +1121,8 @@ DR_form_russian_state_decisions_category = {
 		}	
 	}
 	
-	GAL_Russia_right_Push = { #Правый_Пушной_объединяет_Россию
+	GAL_Russia_right_Push = { #Правый Пушной объединяет Россию
+	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
@@ -1134,7 +1162,7 @@ DR_form_russian_state_decisions_category = {
 
 DR_reunite_russia_decisions_category = {
 
-	####Север_России
+	####СеверРоссии
 	
 	DR_REU_RUS_WAR_WITH_EBN = {
 	
@@ -1264,8 +1292,6 @@ DR_reunite_russia_decisions_category = {
 		}			
 	}
 	
-	####Центральная_и_Западная_Россия
-	
 	DR_REU_RUS_WAR_WITH_LAZ = {
 	
 		cost = 25
@@ -1394,8 +1420,6 @@ DR_reunite_russia_decisions_category = {
 		}			
 	}
 	
-	####ЧАТ
-	
 	DR_REU_RUS_WAR_WITH_CHAT = {
 	
 		cost = 25
@@ -1493,8 +1517,6 @@ DR_reunite_russia_decisions_category = {
 			}
 		}			
 	}
-	
-	####Южная_Россия
 	
 	DR_REU_RUS_WAR_WITH_NOD = {
 	
@@ -1627,8 +1649,6 @@ DR_reunite_russia_decisions_category = {
 		}			
 	}
 	
-	####Уральские_Карапузы
-	
 	DR_REU_RUS_WAR_WITH_SKT = {
 	
 		cost = 25
@@ -1724,8 +1744,6 @@ DR_reunite_russia_decisions_category = {
             }
 		}			
 	}
-	
-	####Покаяния
 	
 	DR_REU_RUS_WAR_interventsiya_v_pokoyanskyu_GV = {
 	
@@ -2007,8 +2025,6 @@ DR_reunite_russia_decisions_category = {
 		}			
 	}
 	
-	####Дальний_Восток
-	
 	DR_REU_RUS_WAR_WITH_BRT = {
 	
 		cost = 25
@@ -2289,9 +2305,6 @@ DR_reunite_russia_decisions_category = {
 		}			
 	}
 	
-	#####Ближнее_зарубежье
-	####Средняя_азия
-	
 	DR_REU_RUS_WAR_WITH_LIM = {
 	
 		cost = 25
@@ -2482,8 +2495,6 @@ DR_reunite_russia_decisions_category = {
 		}			
 	}
 	
-	####Кавказ
-	
 	DR_REU_RUS_WAR_WITH_CHK = {
 	
 		cost = 25
@@ -2636,8 +2647,6 @@ DR_reunite_russia_decisions_category = {
 		}			
 	}
 	
-	####Новороссия
-	
 	DR_REU_RUS_WAR_WITH_CRI = {
 	
 		cost = 25
@@ -2714,8 +2723,6 @@ DR_reunite_russia_decisions_category = {
             }
 		}			
 	}
-	
-	####Украина
 	
 	DR_REU_RUS_WAR_WITH_UKR = {
 	
@@ -2907,8 +2914,6 @@ DR_reunite_russia_decisions_category = {
 		}			
 	}
 	
-	####Молдавия
-	
 	DR_REU_RUS_WAR_WITH_MLD = {
 	
 		cost = 25
@@ -2946,8 +2951,6 @@ DR_reunite_russia_decisions_category = {
             }
 		}			
 	}
-	
-	####Белоруссия
 		
 	DR_REU_RUS_WAR_WITH_WHS = {
 	
@@ -3024,8 +3027,6 @@ DR_reunite_russia_decisions_category = {
             }
 		}			
 	}
-	
-	####Прибалтика
 		
 	DR_REU_RUS_WAR_WITH_SPL = {
 	
@@ -3108,8 +3109,6 @@ DR_reunite_russia_decisions_category = {
             }
 		}			
 	}
-	
-	####Калининград
 		
 	DR_REU_RUS_WAR_WITH_KLG = {
 	
@@ -3472,38 +3471,7 @@ DR_core_russian_territories_decisions_category = {
 		ai_will_do = {
 			base = 200
 		}
-		#complete_effect = {
-		#	if = {
-		#		limit = {
-		#			OR = {
-		#				has_government = vmestolev
-		#				has_government = metacommy
-		#				has_government = anarhostalinism
-		#			}
-		#		}
-		#		set_province_name = { id = 3529 name = "Сталинград" }
-		#		set_province_name = { id = 11523 name = "Энгельс" }
-		#		set_province_name = { id = 9432 name = "Маркс" }
-		#	}
-		#	else_if = {
-		#		limit = {
-		#			OR = {
-		#				has_government = democratic
-		#				has_government = memoism
-		#				has_government = neutrality
-		#			}
-		#		}
-		#		set_province_name = { id = 3529 name = "Волгоград" }
-		#		set_province_name = { id = 11523 name = "Покровск" }
-		#		set_province_name = { id = 9432 name = "Екатериненштадт" }
-		#	}
-		#	else = {
-		#		set_province_name = { id = 3529 name = "Царицын" }
-		#		set_province_name = { id = 11523 name = "Покровская слобода" }
-		#		set_province_name = { id = 9432 name = "Баронск" }
-		#	}		
-		#}
-#ТУДУ_переименование_переименование_городов_перенесено_так_как_ломает_уловие_починить_получилось_возможно_надо_делать_костыльный_ивент_на_переименование_городов_и_стейтов
+		
 		remove_effect = { 
 			add_state_core = 217
 			add_state_core = 265
