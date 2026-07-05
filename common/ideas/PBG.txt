@@ -44,13 +44,15 @@ ideas = {
 			picture = generic_purge
 			modifier = {
 			army_core_attack_factor = 0.1
+			army_core_defence_factor = 0.1
 		    }
 	    }
 		
 		PBG_cigane = {
 			picture = generic_purge
 			modifier = {
-			army_core_defence_factor = 0.1
+			out_of_supply_factor = -0.5
+			equipment_capture_factor = 0.8
 		    }
 	    }
 	}

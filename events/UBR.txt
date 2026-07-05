@@ -1,0 +1,22 @@
+add_namespace = UBR
+
+country_event = {
+	id = UBR.1
+	title = UBR.1.t
+	desc = UBR.1.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = UBR.1.a 
+		UBR = {
+add_manpower = -100
+add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = -400
+							producer = UBR
+						}
+		}
+	}
+}

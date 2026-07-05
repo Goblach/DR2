@@ -29,6 +29,35 @@ country_event = {
     id = PBG_karma_balance
     value = -0.05
 }
+division_template = {
+					name = "Gang"
+					division_names_group = PBG_GANG_01
+					template_counter = 118
+
+		regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+	}
+	support = {
+	
+	}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"Ветераны козырьков\" division_template = \"Gang\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+					}
+					create_unit = { 
+						division = "name = \"Новички козырьков\" division_template = \"Gang\" start_experience_factor = 0.1 start_equipment_factor = 1.0" owner = ROOT
+					}
+					create_unit = { 
+						division = "name = \"Новички козырьков\" division_template = \"Gang\" start_experience_factor = 0.1 start_equipment_factor = 1.0" owner = ROOT
+					}
+				}
 	}
 	option = {
 		name = PBG.2.b
@@ -36,6 +65,32 @@ country_event = {
     id = PBG_karma_balance 
     value = 0.05
 }
+division_template = {
+					name = "Gang"
+					division_names_group = PBG_GANG_01
+					template_counter = 118
+
+		regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+	}
+	support = {
+	
+	}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"Ветераны козырьков\" division_template = \"Gang\" start_experience_factor = 1.0 start_equipment_factor = 1.0" owner = ROOT
+					}
+					create_unit = { 
+						division = "name = \"Ветераны козырьков\" division_template = \"Gang\" start_experience_factor = 1.0 start_equipment_factor = 1.0" owner = ROOT
+					}
+				}
 	}
 	
 }
