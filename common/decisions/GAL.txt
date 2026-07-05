@@ -393,9 +393,12 @@ GAL_sssr = {
 		}
     }
 	
-	GAL_pobeda_v_gv = { #Интеграция_Сибири
+	GAL_pobeda_v_gv = { #Интеграция Сибири
 
 		available = {
+			controls_state = 582
+			controls_state = 572
+			controls_state = 573
 			controls_state = 577
 			controls_state = 571
 			controls_state = 570

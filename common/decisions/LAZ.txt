@@ -127,10 +127,10 @@ DR_dela_chumnogo_pakta = {
 			}
 		}
 		ai_will_do = {
-			base = 10
+			base = 1000
 			modifier = {
 				factor = 0
-				ARK = {
+				CHT = {
 					is_ai = no
 				}
 			}
@@ -167,7 +167,7 @@ DR_dela_chumnogo_pakta = {
 			}
 		}
 		ai_will_do = {
-			base = 10
+			base = 1000
 			modifier = {
 				factor = 0
 				ARK = {
@@ -207,7 +207,7 @@ DR_dela_chumnogo_pakta = {
 			}
 		}
 		ai_will_do = {
-			base = 10
+			base = 1000
 			modifier = {
 				factor = 0
 				UNT = {
@@ -246,7 +246,7 @@ DR_dela_chumnogo_pakta = {
 			}
 		}
 		ai_will_do = {
-			base = 10
+			base = 1000
 			modifier = {
 				factor = 0
 				MAT = {
