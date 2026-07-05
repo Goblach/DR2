@@ -1,6 +1,6 @@
 DR_dela_chumnogo_pakta = {
-	#Переподчинение_либо_аннексия_клик_после_гражданской_войны
-	LAZ_war_MAT = { #Оккупация_Орла
+	
+	LAZ_war_MAT = { 
 	
 		cost = 25
 		
@@ -23,7 +23,8 @@ DR_dela_chumnogo_pakta = {
 			set_country_flag = LAZ_MAT_int
 	    }
 	}
-	LAZ_war_UNT = { #Оккупация_Воронежа
+	
+	LAZ_war_UNT = { 
 	
 		cost = 25
 		
@@ -46,7 +47,8 @@ DR_dela_chumnogo_pakta = {
 			set_country_flag = LAZ_UNT_int
 	    }
 	}
-	LAZ_war_DON = { #Оккупация_Донбасса
+	
+	LAZ_war_DON = { 
 	
 		cost = 25
 		
@@ -69,7 +71,8 @@ DR_dela_chumnogo_pakta = {
 			set_country_flag = LAZ_DON_int
 	    }
 	}
-	LAZ_war_ARK = { #Оккупация_Архангельска
+	
+	LAZ_war_ARK = { 
 	
 		available = {
 			has_country_flag = LAZ_bilo_vosstaniye
@@ -92,8 +95,7 @@ DR_dela_chumnogo_pakta = {
 			factor = 100
 		}
 	}
-
-	#Интеграция_клик_по_завершении_их_экономического_развития
+	
 	LAZ_annex_ChAT = {
 	    
 		cost = 75
@@ -125,17 +127,17 @@ DR_dela_chumnogo_pakta = {
 			}
 		}
 		ai_will_do = {
-			base = 10
+			base = 1000
 			modifier = {
 				factor = 0
-				ARK = {
+				CHT = {
 					is_ai = no
 				}
 			}
 		}
     }
 
-	LAZ_int_ARK = { #Интеграция_Архангельска
+	LAZ_int_ARK = { 
 	
 		cost = 35
 		
@@ -165,7 +167,7 @@ DR_dela_chumnogo_pakta = {
 			}
 		}
 		ai_will_do = {
-			base = 10
+			base = 1000
 			modifier = {
 				factor = 0
 				ARK = {
@@ -175,7 +177,7 @@ DR_dela_chumnogo_pakta = {
 		}
 	}
 	
-	LAZ_int_UNT = { #Интеграция_Воронежа
+	LAZ_int_UNT = { 
 	
 		cost = 25
 		visible = { 
@@ -205,7 +207,7 @@ DR_dela_chumnogo_pakta = {
 			}
 		}
 		ai_will_do = {
-			base = 10
+			base = 1000
 			modifier = {
 				factor = 0
 				UNT = {
@@ -215,7 +217,7 @@ DR_dela_chumnogo_pakta = {
 		}
 	}
 	
-	LAZ_int_MAT = { #Интеграция_Орла
+	LAZ_int_MAT = { 
 	
 		cost = 40
 		visible = { 
@@ -244,7 +246,7 @@ DR_dela_chumnogo_pakta = {
 			}
 		}
 		ai_will_do = {
-			base = 10
+			base = 1000
 			modifier = {
 				factor = 0
 				MAT = {
@@ -255,7 +257,7 @@ DR_dela_chumnogo_pakta = {
 	}	
 }
 
-LAZ_proizvodstvo_kontenta = { #Производство_контента
+LAZ_proizvodstvo_kontenta = { #Производство контента
 
 	LAZ_razval_mission = {
 
@@ -297,7 +299,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 		}
 	}
 	
-	LAZ_neyropsih_strim_decision_1 = { #Стримы_по_нейропсихологии_часть_1
+	LAZ_neyropsih_strim_decision_1 = { #Стримы по нейропсихологии часть 1
 	
 		cost = 30
 
@@ -324,7 +326,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 		}	
 	}
 	
-	LAZ_neyropsih_strim_decision_2 = { #Стримы_по_нейропсихологии_часть_2
+	LAZ_neyropsih_strim_decision_2 = { #Стримы по нейропсихологии часть 2
 	
 		cost = 35
 
@@ -352,7 +354,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 		}	
 	}
 	
-	LAZ_neyropsih_strim_decision_3 = { #Стримы_по_нейропсихологии_часть_3
+	LAZ_neyropsih_strim_decision_3 = { #Стримы по нейропсихологии часть 3
 	
 		cost = 40
 
@@ -380,7 +382,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 		}	
 	}
 	
-	LAZ_neyropsih_strim_decision_4 = { #Стримы_по_нейропсихологии_часть_4
+	LAZ_neyropsih_strim_decision_4 = { #Стримы по нейропсихологии часть 4
 	
 		cost = 45
 
@@ -407,7 +409,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 			}
 		}	
 	}
-	LAZ_neyropsih_strim_decision_5 = { #Стримы_по_нейропсихологии_часть_5
+	LAZ_neyropsih_strim_decision_5 = { #Стримы по нейропсихологии часть 5
 	
 		cost = 50
 
@@ -435,7 +437,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 		}	
 	}
 	
-	LAZ_strim_po_NAO_1 = { #Стримы_по_НАО
+	LAZ_strim_po_NAO_1 = { #Стримы по НАО
 	
 		cost = 25
 
@@ -468,7 +470,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 		}	
 	}
 	
-	LAZ_strim_po_NAO_2 = { #Стримы_по_НАО
+	LAZ_strim_po_NAO_2 = { #Стримы по НАО
 	
 		cost = 25
 
@@ -532,7 +534,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 		}	
 	}
 	
-	LAZ_strim_po_WHS_1 = { #Стримы_по_Вейшнории
+	LAZ_strim_po_WHS_1 = { #Стримы по Вейшнории
 	
 		cost = 25
 
@@ -575,7 +577,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 		}	
 	}
 	
-	LAZ_strim_po_WHS_2 = { #Стримы_по_Вейшнории
+	LAZ_strim_po_WHS_2 = { #Стримы по Вейшнории
 		cost = 70
 
 		available = {
@@ -618,7 +620,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 		}	
 	}
 	
-	LAZ_strim_po_floty_ARK = { #Стримы_по_флоту_с_Яном
+	LAZ_strim_po_floty_ARK = { #Стримы по флоту с Яном
 		cost = 65
 
 		available = {
@@ -650,7 +652,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 		}	
 	}
 	
-	LAZ_strim_po_idealismu = { #Стримы_по_идеализму
+	LAZ_strim_po_idealismu = { #Стримы по идеализму
 		cost = 5
 
 		available = {
@@ -672,7 +674,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 		}	
 	}
 	
-	LAZ_strim_po_urbanistike_1 = { #Стримы_по_урбанистике
+	LAZ_strim_po_urbanistike_1 = { #Стримы по урбанистике
 		cost = 250
 
 		available = {
@@ -727,7 +729,7 @@ LAZ_proizvodstvo_kontenta = { #Производство_контента
 		}	
 	}
 
-	LAZ_strim_po_urbanistike_2 = { #Стримы_по_урбанистике
+	LAZ_strim_po_urbanistike_2 = { #Стримы по урбанистике
 		cost = 250
 
 		available = {
