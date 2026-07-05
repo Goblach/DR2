@@ -1,0 +1,11 @@
+# By Yard1
+
+has_blocked_intelligency_agency = {
+
+}
+
+can_create_intelligence_agency = {
+	# change as desired
+	always = yes
+}
+

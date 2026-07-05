@@ -822,3 +822,7 @@ is_allied_seller_trigger = {
 	}
 }
 
+AI_trigger_can_upgrade_in_field = {
+	surrender_progress < 0.15
+}
+
