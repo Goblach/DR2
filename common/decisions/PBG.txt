@@ -1,0 +1,102 @@
+PBG_tsigane = { 
+
+	PBG_tsigane_vori_UKE = {
+
+	allowed = {
+			original_tag = PBG
+		}
+		
+		visible = {
+		}
+		
+		cost = 50
+
+		ai_will_do = {
+			factor = 100
+			}
+		
+		icon = ger_mefo_bills
+
+		
+		available = {
+			UKE = {
+				is_neighbor_of = PBG
+		}
+		}
+		days_remove = 70
+		complete_effect = {
+		add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 400
+							producer = UKE
+						}
+			UKE = { country_event = UKE.6 }
+		}
+	}
+	PBG_tsigane_vori_KOF = {
+
+	allowed = {
+			original_tag = PBG
+		}
+		
+		visible = {
+		}
+		
+		cost = 50
+
+		ai_will_do = {
+			factor = 100
+			}
+		
+		icon = ger_mefo_bills
+
+		
+		available = {
+			KOF = {
+				is_neighbor_of = PBG
+		}
+		}
+		days_remove = 70
+		complete_effect = {
+		add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 400
+							producer = KOF
+						}
+			KOF = { country_event = KOF.3 }
+		}
+	}
+	PBG_tsigane_vori_UBR = {
+
+	allowed = {
+			original_tag = PBG
+		}
+		
+		visible = {
+		}
+		
+		cost = 50
+
+		ai_will_do = {
+			factor = 100
+			}
+		
+		icon = ger_mefo_bills
+
+		
+		available = {
+			UBR = {
+				is_neighbor_of = PBG
+		}
+		}
+		days_remove = 70
+		complete_effect = {
+		add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 400
+							producer = UBR
+						}
+			UBR = { country_event = UBR.1 }
+		}
+	}
+	}

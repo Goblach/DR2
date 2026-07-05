@@ -165,3 +165,23 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = UKE.6
+	title = UKE.6.t
+	desc = UKE.6.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = UKE.6.a 
+		UKE = {
+add_manpower = -100
+add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = -400
+							producer = UKE
+						}
+		}
+	}
+}

@@ -750,7 +750,7 @@ MRD_grib_saurona_decisions_category = {
 
 MRD_poisk_nazgulov_decisions_category = {
 
-	MRD_nazgul_chumak = { ###Предложить_Чумаку_1
+	MRD_nazgul_chumak = { ###Предложить Чумаку 1
 
 		icon = generic_research 
 
@@ -778,7 +778,7 @@ MRD_poisk_nazgulov_decisions_category = {
 			country_event = mordor.59
 		}
 	}
-	MRD_nazgul_orlov = { ###Предложить_Орлову_2
+	MRD_nazgul_orlov = { ###Предложить Орлову 2
 
 		icon = generic_research 
 
@@ -806,7 +806,7 @@ MRD_poisk_nazgulov_decisions_category = {
 			country_event = mordor.60
 		}
 	}
-	MRD_nazgul_piston = { ###Предложить_Пистону_3
+	MRD_nazgul_piston = { ###Предложить Пистону 3
 
 		icon = generic_research 
 
@@ -834,7 +834,7 @@ MRD_poisk_nazgulov_decisions_category = {
 			country_event = mordor.61
 		}
 	}
-	MRD_nazgul_day_lama = { ###Предложить_Дай_Ламе_4
+	MRD_nazgul_day_lama = { ###Предложить Дай Ламе 4
 
 		icon = generic_research 
 
@@ -862,7 +862,7 @@ MRD_poisk_nazgulov_decisions_category = {
 			country_event = mordor.62
 		}
 	}
-	MRD_nazgul_rommel = { ###Предложить_Роммелю_5
+	MRD_nazgul_rommel = { ###Предложить Роммелю 5
 
 		icon = generic_research 
 
@@ -890,7 +890,7 @@ MRD_poisk_nazgulov_decisions_category = {
 			country_event = mordor.63
 		}
 	}
-	MRD_nazgul_carl_egglesser = { ###Предложить_Карлу_Эглессеру_6
+	MRD_nazgul_carl_egglesser = { ###Предложить Карлу Эглессеру 6
 
 		icon = generic_research 
 
@@ -918,7 +918,7 @@ MRD_poisk_nazgulov_decisions_category = {
 			country_event = mordor.64
 		}
 	}
-	MRD_nazgul_mafioznik = { ###Предложить_Мафиознику_7
+	MRD_nazgul_mafioznik = { ###Предложить Мафиознику 7
 
 		icon = generic_research 
 
@@ -946,7 +946,7 @@ MRD_poisk_nazgulov_decisions_category = {
 			country_event = mordor.65
 		}
 	}
-	MRD_nazgul_tomas_shelbi = { ###Предложить_Томасу_Шэлби_8
+	MRD_nazgul_tomas_shelbi = { ###Предложить Томасу Шэлби 8
 
 		icon = generic_research 
 
@@ -977,7 +977,7 @@ MRD_poisk_nazgulov_decisions_category = {
 }
 
 MRD_poisk_koltsa_decisions_category = {
-	MRD_proverit_ravshana_1 = { ###Проверить_Равшана_1
+	MRD_proverit_ravshana_1 = { ###Проверить Равшана 1
 
 		icon = generic_research 
 
@@ -1005,7 +1005,7 @@ MRD_poisk_koltsa_decisions_category = {
 			country_event = 
 		}
 	}
-	MRD_proverit_shevtsova = { ###Проверить_Шевцова
+	MRD_proverit_shevtsova = { ###Проверить Шевцова
 
 		icon = generic_research 
 
@@ -1033,7 +1033,7 @@ MRD_poisk_koltsa_decisions_category = {
 			country_event = 
 		}
 	}
-	MRD_proverit_Fillipa_Tsenina = { ###Проверить_Шевцова
+	MRD_proverit_Fillipa_Tsenina = { ###Проверить Шевцова
 
 		icon = generic_research 
 
@@ -1061,7 +1061,7 @@ MRD_poisk_koltsa_decisions_category = {
 			country_event = 
 		}
 	}
-	MRD_proverit_Bebeya = { ###Проверить_Шевцова
+	MRD_proverit_Bebeya = { ###Проверить Шевцова
 
 		icon = generic_research 
 
@@ -1089,7 +1089,7 @@ MRD_poisk_koltsa_decisions_category = {
 			country_event = 
 		}
 	}
-	MRD_idti_k_kirkorovu = { ###Проверить_Шевцова
+	MRD_idti_k_kirkorovu = { ###Проверить Шевцова
 
 		icon = generic_research 
 
@@ -1124,7 +1124,7 @@ MRD_poisk_koltsa_decisions_category = {
 }
 
 MRD_infiltratsiya_decisions_category = { 
-	MRD_decision_usilit_partizan = { #Усилить_партизан
+	MRD_decision_usilit_partizan = { #Усилить партизан
 		
 		cost = 40
 		days_remove = 35
@@ -1148,7 +1148,7 @@ MRD_infiltratsiya_decisions_category = {
 			custom_effect_tooltip = MRD_usilit_partizan_conec_flag_tt	
 		}
 	}
-	MRD_decision_koridor_dlya_bezhentsev = { #Коридор_для_беженцев
+	MRD_decision_koridor_dlya_bezhentsev = { #Коридор для беженцев
 	
 		cost = 40
 		days_remove = 35
@@ -1179,7 +1179,7 @@ MRD_infiltratsiya_decisions_category = {
 			custom_effect_tooltip = MRD_1_weekly_manpower_tt
 		}
 	}
-	MRD_decision_cherniy_rinok = { #Черный_рынок
+	MRD_decision_cherniy_rinok = { #Черный рынок
 
 		cost = 40
 		days_remove = 35

@@ -1,0 +1,9 @@
+PBG_tsigane = { 
+    icon = military_operation
+    allowed = {
+		original_tag = PBG
+	}
+	visible = {		
+	has_completed_focus = PBG_cigane
+	}
+}
