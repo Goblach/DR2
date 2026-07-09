@@ -1,12 +1,27 @@
 capital = 132
 
-oob = 123_1936
+oob = UBR_1936
 
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.5
 set_technology = {
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	basic_medium_tank_chassis = 1
+	basic_heavy_tank_chassis = 1
+	improved_medium_tank_chassis = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_military_police = 1
+	mobile_warfare = 1
+	militia_tech = 1
 	basic_train = 1
 }
 
@@ -34,3 +49,22 @@ set_politics = {
 }
 
 set_convoys = 100
+
+create_equipment_variant = {
+	name = "T-34"
+	type = medium_tank_chassis_2
+	parent_version = 0
+	modules = {
+			main_armament_slot = tank_medium_cannon_2
+			turret_type_slot = tank_medium_two_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			special_type_slot_1 = sloped_armor
+			}
+		upgrades = {
+			tank_nsb_engine_upgrade = 10
+			tank_nsb_armor_upgrade = 7
+				}
+	icon = "GFX_SOV_improved_medium_tank_medium"
+	}
