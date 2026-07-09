@@ -20,39 +20,39 @@ ideas = {
 		    }
 			targeted_modifier = {
 			    tag = UKE
-			    attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
+			    attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 		    }
 			targeted_modifier = {
 			    tag = KOF
-			    attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
+			    attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 		    }
 			targeted_modifier = {
 			    tag = UBR
-			    attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
+			    attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 		    }
 			targeted_modifier = {
 			    tag = FSK
-			    attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
+			    attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 		    }
 	    }
 		
 		PBG_za_tebya_porvu = {
 			picture = generic_purge
 			modifier = {
-			army_core_attack_factor = 0.1
-			army_core_defence_factor = 0.1
+			army_core_attack_factor = 0.05
+			army_core_defence_factor = 0.05
 		    }
 	    }
 		
 		PBG_cigane = {
 			picture = generic_purge
 			modifier = {
-			out_of_supply_factor = -0.5
-			equipment_capture_factor = 0.8
+			out_of_supply_factor = -0.1
+			equipment_capture_factor = 0.2
 		    }
 	    }
 		
