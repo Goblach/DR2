@@ -245,7 +245,7 @@ characters={
 			legacy_id = 0
 		}
 		
-		advisor={
+		advisor ={
 			slot = high_command
 			idea_token = POK_evdokimov
 			allowed = {
@@ -320,7 +320,7 @@ characters={
 			}
 		}
             
-        advisor={
+        advisor ={
 			slot = political_advisor
 			idea_token = POK_chubays
              

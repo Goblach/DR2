@@ -149,6 +149,30 @@ completion_reward = {
 		y = 2
 completion_reward = {
 				add_ideas = PBG_za_tebya_porvu
+				add_power_balance_value = {
+				id = PBG_karma_balance 
+				value = 0.2
+			}
+			add_corps_commander_role = {
+			character = PBG_Jonh_Shelby
+			traits = { politically_connected cavalry_leader }
+	        skill = 1
+	        attack_skill = 1
+	        defense_skill = 1
+	        planning_skill = 1
+	        logistics_skill = 1
+		    legacy_id = -1
+            }
+			add_corps_commander_role = {
+			character = PBG_Arthur_Shelby
+			traits = { politically_connected cavalry_leader }
+	        skill = 1
+	        attack_skill = 1
+	        defense_skill = 1
+	        planning_skill = 1
+	        logistics_skill = 1
+		    legacy_id = -1
+            }
 		}
 	}
 	focus = {
@@ -163,7 +187,18 @@ completion_reward = {
 		}
 		x = 12
 		y = 4
-
+		completion_reward = {
+add_corps_commander_role = {
+			character = PBG_Mikkie_ONill
+			traits = { }
+	        skill = 3
+	        attack_skill = 4
+	        defense_skill = 3
+	        planning_skill = 4
+	        logistics_skill = 4
+		    legacy_id = -1
+            }
+}
 	}
 	focus = {
 		id = PBG_obchistit_partkassy

@@ -5,6 +5,10 @@ characters={
 			civilian = {
 				large = "gfx/leaders/PBG/Thomas_Shelby.dds"
 			}
+			army = {
+			    large = "gfx/leaders/PBG/Thomas_Shelby.dds"
+				small = "GFX_idea_PBG_Thomas_Shelby"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_SHELBY_DESC"
@@ -16,5 +20,56 @@ characters={
 	        expire = "1999.1.1"
 		    id=-1
 	    }
+		field_marshal = {
+	    traits = { war_hero organisational_leader cavalry_expert }
+	    skill = 8
+	    attack_skill = 10
+	    defense_skill = 10
+	    planning_skill = 10
+	    logistics_skill = 10
+		legacy_id = -1
+        }
     }
+	
+	PBG_Solomon_Alfi = {
+		name = "Соломон Альфи"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_PBG_Solomon_Alfi"
+			}
+		}
+
+		advisor = {
+    		slot = political_advisor	
+			idea_token = PBG_Solomon_Alfi
+			allowed = {
+				original_tag = PBG
+				
+			}			
+			traits = { captain_of_industry }
+			ai_will_do = {
+				factor = 1
+			}
+	    }
+	}
+	
+	PBG_Jonh_Shelby = {
+	name = "МРАЗИ Я ДЖОН ШЕЛБИ"
+		portraits = {
+			army = {
+			    large = "gfx/leaders/PBG/Jonh_Shelby.dds"
+				small = "GFX_idea_PBG/Jonh_Shelby"
+			}
+		}
+	}
+	
+	PBG_Arthur_Shelby = {
+	name = "Артур Шелби"
+		portraits = {
+			army = {
+			    large = "gfx/leaders/PBG/Arthur_Shelby.dds"
+				small = "GFX_idea_PBG/Arthur_Shelby"
+			}
+		}
+	}
 }

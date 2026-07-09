@@ -31,6 +31,7 @@ state= {
 		}
 		add_core_of = UKE
 		add_core_of = UBR
+		add_core_of = PBG
 		1939.1.1 = {
 			buildings = {
 				dockyard = 4

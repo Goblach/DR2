@@ -7,10 +7,15 @@ set_stability = 0.5
 set_war_support = 0.5
 set_technology = {
 	infantry_weapons = 1
+	tech_trucks = 1
 	basic_train = 1
 }
 
 recruit_character = PBG_Thomas_Shelby
+recruit_character = PBG_Solomon_Alfi
+recruit_character = PBG_Arthur_Shelby
+recruit_character = PBG_Jonh_Shelby
+recruit_character = PBG_Mikkie_ONill
 
 add_ideas = {
 	limited_conscription

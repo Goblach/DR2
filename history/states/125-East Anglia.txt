@@ -22,6 +22,7 @@ state={
 		}
 		add_core_of = UKE
 		add_core_of = UBR
+		add_core_of = PBG
 	}
 
 	provinces={
