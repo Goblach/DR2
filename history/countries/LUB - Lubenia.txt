@@ -10,6 +10,9 @@ set_technology = {
 	basic_train = 1
 }
 
+recruit_character = LUB_Kurva
+recruit_character = LUB_VGA
+
 add_ideas = {
 limited_conscription
 low_economic_mobilisation
@@ -27,13 +30,3 @@ set_politics = {
 
 set_convoys = 40
 
-create_country_leader = {
-	name = "Стаху Джонс"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Kurva.dds"
-	expire = "1999.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}

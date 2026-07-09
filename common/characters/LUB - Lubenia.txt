@@ -1,0 +1,26 @@
+characters={
+	LUB_Kurva = {
+		name = "Стаху Джонс"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUB/Kurva.dds"
+			}
+		}
+		country_leader = {
+		    ideology = despotism
+			traits = {
+		        
+	        }
+	        expire = "1999.1.1"
+		    id=-1
+	    }
+}
+	LUB_VGA = {
+		name = "Военная администрация"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KLG/VGA.dds"
+			}
+		}
+	}
+}

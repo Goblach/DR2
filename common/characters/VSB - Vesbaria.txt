@@ -1,0 +1,26 @@
+characters={
+	VSB_Utopian = {
+		name = "Ясос Бибу"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VSB/Utopian.dds"
+			}
+		}
+		country_leader = {
+		    ideology = fascism_ideology
+			traits = {
+		        
+	        }
+	        expire = "1999.1.1"
+		    id=-1
+	    }
+}
+	VSB_VGA = {
+		name = "Военная администрация"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KLG/VGA.dds"
+			}
+		}
+	}
+}

@@ -10,6 +10,9 @@ set_technology = {
 	basic_train = 1
 }
 
+recruit_character = VSB_Utopian
+recruit_character = VSB_VGA
+
 add_ideas = {
     VSB_teotsentrism
     limited_conscription
@@ -26,24 +29,3 @@ set_politics = {
 }
 
 set_convoys = 40
-
-create_country_leader = {
-	name = "Ясос Биб"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Utopian.dds"
-	expire = "1999.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Ясос Бибу"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Utopian.dds"
-	expire = "1999.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
