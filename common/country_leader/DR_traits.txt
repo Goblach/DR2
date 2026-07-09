@@ -625,8 +625,8 @@ leader_traits = {
 		random = no
 		sprite = 13
 
-		political_power_factor = 0.02
-		war_support_factor = 0.075
+		political_power_factor = 0.15
+		industrial_capacity_factory = 0.075
 		vmestolev_drift = 0.02
 	}
 
@@ -1668,7 +1668,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 		metacommy_drift = 0.02
-		political_power_factor = 0.15
+		war_support_factor = 0.15
 		army_org_factor = 0.1
 		ai_will_do = {
 			factor = 2

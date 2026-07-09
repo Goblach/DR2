@@ -9,8 +9,8 @@ characters={
 		country_leader = {
 		    ideology = stalinismus
             traits = {
-	         	musicant
-                hardliner_stalinist    
+                hardliner_stalinist 
+				champion_of_peace_3				
 	        }   
 	        expire = "1999.1.1"
 		    id=-1
