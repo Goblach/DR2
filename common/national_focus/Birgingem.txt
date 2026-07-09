@@ -132,10 +132,7 @@ completion_reward = {
 		x = 16
 		y = 2
 		completion_reward = {
-			add_power_balance_value = {
-				id = PBG_karma_balance 
-				value = -0.1
-			}
+			add_ideas = PBG_kontrobanda
 		}
 	}
 	focus = {

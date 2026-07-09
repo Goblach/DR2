@@ -55,5 +55,15 @@ ideas = {
 			equipment_capture_factor = 0.8
 		    }
 	    }
+		
+		PBG_kontrobanda = {
+			picture = generic_purge
+			allowed = {
+				has_war = no
+			}
+			modifier = {
+            consumer_goods_factor = -0.1
+		    }
+	    }
 	}
 }
