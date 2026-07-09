@@ -237,7 +237,6 @@ news_event = { #Залупа_Иваныча
 		name = dk_news.8.b
 		add_political_power = 25
 		trigger = {
-			NOT = { tag = ZZZ }
 			OR = {
 				has_government = neutrality	
 				has_government = fascism
@@ -248,6 +247,7 @@ news_event = { #Залупа_Иваныча
 		name = dk_news.8.c
 		add_political_power = 25
 		trigger = {
+			NOT = { tag = ZZZ }
 			OR = {
 				has_government = metacommy
 				has_government = anarhostalinism
@@ -274,9 +274,7 @@ news_event = { #Залупа_Иваныча
 		}
 		trigger = {
 			NOT = { tag = ZZZ }
-			OR = {
-				has_government = memoism
-			}
+			has_government = memoism
 		}
 	}
 	option = { #Для_ГЭГЭЛЯ
