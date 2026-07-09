@@ -72,4 +72,14 @@ characters={
 			}
 		}
 	}
+	
+	PBG_Mikkie_ONill = {
+	name = "Микки О'Нилл"
+		portraits = {
+			army = {
+			    large = "gfx/leaders/PBG/Mikkie_ONill.dds"
+				small = "GFX_idea_PBG/Mikkie_ONill"
+			}
+		}
+	}
 }
