@@ -136,6 +136,23 @@ completion_reward = {
 		}
 	}
 	focus = {
+		id = PBG_stalker_birmingem
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_kontrobanda
+		}
+		prerequisite = {
+			focus = PBG_cigane
+		}
+		x = 15
+		y = 3
+		completion_reward = {
+			add_political_power = -100
+			custom_effect_tooltip = PBG_stalker_birmingem_tt
+		}
+	}
+	focus = {
 		id = PBG_za_tebya_porvu
 		icon = GFX_goal_unknown
 		cost = 5
@@ -170,6 +187,22 @@ completion_reward = {
 	        logistics_skill = 1
 		    legacy_id = -1
             }
+		}
+	}
+	focus = {
+		id = PBG_shelby_prav
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_za_tebya_porvu
+		}
+		prerequisite = {
+			focus = PBG_organizovat_skachky
+		}
+		x = 11
+		y = 3
+		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 	focus = {
