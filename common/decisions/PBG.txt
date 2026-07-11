@@ -99,4 +99,35 @@ PBG_tsigane = {
 			UBR = { country_event = UBR.1 }
 		}
 	}
+	PBG_tsigane_stalkeri_BRS = {
+
+	allowed = {
+			original_tag = PBG
+		}
+		
+		visible = {
+		has_completed_focus = PBG_stalker_birmingem
+		}
+		
+		cost = 50
+
+		ai_will_do = {
+			factor = 100
+			}
+		
+		icon = ger_mefo_bills
+
+		
+		available = {
+			BRS = {
+				is_neighbor_of = PBG
+		}
+		}
+		days_remove = 70
+		complete_effect = {
+		country_event = PBG.5
+
+			
+		}
+	}
 	}

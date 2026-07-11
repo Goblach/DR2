@@ -133,3 +133,88 @@ country_event = {
 	}
 	
 }
+country_event = { 
+
+	id = PBG.5
+        title = PBG.5.t
+        desc = PBG.5.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.5.a
+	 random_list = { 
+	 25 = {
+	     add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 200
+							producer = PBG
+						}
+						add_manpower = -500
+	 }
+	 10 = {
+	     128 = {
+		 add_resource = {
+									type = oil
+									amount = 1
+								} 
+								}
+						add_manpower = -500   
+					  
+	 }
+	 15 = {
+	      add_equipment_to_stockpile = {
+							type = transport_plane_equipment_1
+							amount = 10
+							producer = PBG
+						}
+						add_manpower = -500   
+					  
+	 }
+	 25 = {
+	     add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 500
+							producer = PBG
+						}
+						add_manpower = -500    
+					  
+	 }
+	 15 = { 
+ add_equipment_to_stockpile = {
+							type =  artillery_equipment_1
+							amount = 12
+							producer = PBG
+						}
+						add_equipment_to_stockpile = {
+							type =  anti_air_equipment_1
+							amount = 12
+							producer = PBG
+						}
+						add_equipment_to_stockpile = {
+							type =   anti_tank_equipment_1
+							amount = 12
+							producer = PBG
+						}
+						add_manpower = -500  
+	                    
+	 }
+	  10 = {
+	     add_equipment_to_stockpile = {
+							type = amphibious_tank_equipment_1
+							amount = 20
+							producer = PBG
+						}
+		add_equipment_to_stockpile = {
+							type = gw_tank_equipment
+							amount = 20
+							producer = PBG
+						}
+						add_manpower = -500    
+					  
+	 }
+	 }
+	}
+	
+}
