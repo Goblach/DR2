@@ -37,7 +37,7 @@ country_event = {	#Лазарет_объединяет_Россию
 		set_global_flag = LAZ_reunite_russia_2
 	}
 }
-country_event = {	#Андеграунд_объединяет_Россию
+country_event = {	#Андеграунд объединяет Россию
 	id = super.2
 	title = super.2.t
 	desc = super.2.d
