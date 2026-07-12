@@ -1832,12 +1832,21 @@ news_event = { #Магнитогорск объединяет Россию
 	is_triggered_only = yes
 	
 	option = {
-		name = dk_news.87.a
-		hidden_effect = {
-			MGN = {
-				country_event = super.2
-			}
+	name = dk_news.87.a
+		trigger = {
+			original_tag = MGN
 		}
+	set_country_flag = MGN_reunite_russia_kostil
+	hidden_effect = { country_event = { days = 1 id = super.2} }
+	}
+	
+	option = {
+	name = dk_news.87.b
+		trigger = { 
+			NOT = { original_tag = MGN }
+		}
+		set_country_flag = MGN_reunite_russia_kostil
+	hidden_effect = {country_event = { days = 1 id = super.2} }
 	}
 }
 news_event = { #Переворот_Баркова
