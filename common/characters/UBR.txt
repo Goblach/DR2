@@ -7,6 +7,7 @@ characters={
 			}
 		}
 		country_leader = {
+		    desc = "POLITICS_WATERS_DESC"
 		    ideology = stalinismus
             traits = {
                 hardliner_stalinist 
