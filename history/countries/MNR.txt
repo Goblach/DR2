@@ -20,30 +20,12 @@ set_popularities = {
 	neutrality = 100
 }
 
+recruit_character = MNR_Botsik
+recruit_character = MNR_Lzhezeder
+recruit_character = MNR_Agnes_Tachyon
+
 
 add_ideas = {
 }
 
 
-
-create_country_leader = {
-	name = "Боцик"
-	desc = "POLITICS_REDEZ_DESC"
-	picture = "Botsik.dds"
-	expire = "1999.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Зедерхан"
-	desc = "POLITICS_REDEZ_DESC"
-	picture = "Lzhezeder.dds"
-	expire = "1999.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}

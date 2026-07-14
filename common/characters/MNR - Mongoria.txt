@@ -1,0 +1,50 @@
+characters = {
+	MNR_Botsik = {
+		name = "Боцик"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MNR/Botsik.dds"
+			}
+		}
+
+		country_leader = {
+			desc = ""
+			expire = "1999.1.1"
+        	ideology = oligarchism
+        	traits = {
+         		 
+        	}
+			id = -1
+		}
+	}
+	MNR_Lzhezeder = {
+		name = "Зедерхан"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MNR/Lzhezeder.dds"
+			}
+		}
+
+		country_leader = {
+			desc = ""
+			expire = "1999.1.1"
+        	ideology = nazism
+        	traits = {
+         		 
+        	}
+			id = -1
+		}
+	}
+	MNR_Agnes_Tachyon = {
+		name = "Агнес Тахион"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MNR/Agnes_Tachyon_scientist.dds"	
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_nuclear_power_expert scientist_trait_bright  }
+			skills = { specialization_nuclear = 1 }
+		}
+	}
+}
