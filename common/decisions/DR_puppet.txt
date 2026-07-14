@@ -1,14 +1,13 @@
 DR_puppet_decisions_category = {
 
-	GAL_Mongolia_puppet_right_Pusnoy = { #Монголия правого Пушного
+	GAL_Mongolia_puppet_Pusnoy = { #Монголия Пушной
 	
         icon = GFX_decision_generic_form_nation	
 		
 		visible = {
 			OR = {
 				AND = {
-				    has_completed_focus = GAL_pisma_Saveleva
-					tag = GAL
+					original_tag = GAL
 					controls_state = 330
 					controls_state = 820
 					controls_state = 819
@@ -26,7 +25,6 @@ DR_puppet_decisions_category = {
 		}
 		
 		available = {
-			has_completed_focus = GAL_pisma_Saveleva
 			controls_state = 330
 			controls_state = 820
 			controls_state = 819
@@ -45,188 +43,79 @@ DR_puppet_decisions_category = {
 		}
 		remove_effect = {
 			hidden_effect = {
-			MNR = {
-			add_country_leader_role = { 
-			character = MNR_Agnes_Tachyon
-			promote_leader = yes
-			country_leader = {   
-				ideology = cybernetics
-				traits = {
-					technocrat
+				if = {
+					limit = {
+						GAL = { has_completed_focus = GAL_pisma_Saveleva }
+					}
+					MNR = {
+						add_country_leader_role = { 
+							character = MNR_Agnes_Tachyon
+							promote_leader = yes
+							country_leader = {   
+								ideology = cybernetics
+								traits = {
+									technocrat
+								}
+							}
+						}
+						set_country_leader_portrait = {
+							ideology = fascism
+							portrait = "gfx/leaders/MNR/Agnes_Tachyon.dds"
+						}				
+					}
+				}
+				else_if = {
+					limit = {
+						GAL = { has_completed_focus = GAL_pochemy_socialism }
+					}
+					MNR = {
+						add_country_leader_role = { 
+							character = MNR_Agnes_Tachyon
+							promote_leader = yes
+							country_leader = {   
+								ideology = kybernetika_vernadsry
+								traits = {
+									technocrat
+								}
+							}
+						}
+						set_country_leader_portrait = {
+							ideology = metacommy
+							portrait = "gfx/leaders/MNR/Agnes_Tachyon.dds"
+						}
+					}
+				}
+				else = {
+					MNR = {
+						add_country_leader_role = { 
+							character = MNR_Agnes_Tachyon
+							promote_leader = yes
+							country_leader = {   
+								ideology = cybernetics_pushnoy
+								traits = {
+									technocrat
+								}
+							}
+						}
+						set_country_leader_portrait = {
+							ideology = neutrality
+							portrait = "gfx/leaders/MNR/Agnes_Tachyon.dds"
+						}	
+					}
 				}
 			}
-		}
-			set_country_leader_portrait = {
-				ideology = fascism
-				portrait = "gfx/leaders/MNR/Agnes_Tachyon.dds"
-			}	
-		set_cosmetic_tag = MNR_techn			
-		}
-		}
-		GAL = { puppet = MNR }
-		MNR = {
-			transfer_state = 330
-			transfer_state = 820
-			transfer_state = 819
-			transfer_state = 818
-			transfer_state = 817
-			transfer_state = 612
-			transfer_state = 611
-			transfer_state = 621	
+			GAL = { puppet = MNR }
+			MNR = {
+				transfer_state = 330
+				transfer_state = 820
+				transfer_state = 819
+				transfer_state = 818
+				transfer_state = 817
+				transfer_state = 612
+				transfer_state = 611
+				transfer_state = 621	
+				set_cosmetic_tag = MNR_techn
 			}
 		}
 	}
-	GAL_Mongolia_puppet_centr_Pusnoy = { #Монголия центрового Пушного
-	
-        icon = GFX_decision_generic_form_nation	
-		
-		visible = {
-			OR = {
-				AND = {
-				    has_completed_focus = GAL_otkaz_ot_radikalisma
-					tag = GAL
-					controls_state = 330
-					controls_state = 820
-					controls_state = 819
-					controls_state = 818
-					controls_state = 817
-					controls_state = 612
-					controls_state = 611
-					controls_state = 621
-				}
-				AND = {
-					is_debug = yes
-					is_ai = no
-				}
-			}
-		}
-		
-		available = {
-			has_completed_focus = GAL_otkaz_ot_radikalisma
-			controls_state = 330
-			controls_state = 820
-			controls_state = 819
-			controls_state = 818
-			controls_state = 817
-			controls_state = 612
-			controls_state = 611
-			controls_state = 621
-		}
-		
-		fire_only_once = yes
-		days_remove = 10
-		
-		ai_will_do = {
-			factor = 100
-		}
-		remove_effect = {
-			hidden_effect = {
-			MNR = {
-			add_country_leader_role = { 
-			character = MNR_Agnes_Tachyon
-			promote_leader = yes
-			country_leader = {   
-				ideology = cybernetics_pushnoy
-				traits = {
-					technocrat
-				}
-			}
-		}
-			set_country_leader_portrait = {
-				ideology = neutrality
-				portrait = "gfx/leaders/MNR/Agnes_Tachyon.dds"
-			}	
-		set_cosmetic_tag = MNR_techn			
-		}
-		}
-		GAL = { puppet = MNR }
-		MNR = {
-			transfer_state = 330
-			transfer_state = 820
-			transfer_state = 819
-			transfer_state = 818
-			transfer_state = 817
-			transfer_state = 612
-			transfer_state = 611
-			transfer_state = 621	
-			}
-		}
-	}
-	GAL_Mongolia_puppet_left_Pusnoy = { #Монголия левого Пушного
-	
-        icon = GFX_decision_generic_form_nation	
-		
-		visible = {
-			OR = {
-				AND = {
-				    has_completed_focus = GAL_pochemy_socialism
-					tag = GAL
-					controls_state = 330
-					controls_state = 820
-					controls_state = 819
-					controls_state = 818
-					controls_state = 817
-					controls_state = 612
-					controls_state = 611
-					controls_state = 621
-				}
-				AND = {
-					is_debug = yes
-					is_ai = no
-				}
-			}
-		}
-		
-		available = {
-			has_completed_focus = GAL_pochemy_socialism
-			controls_state = 330
-			controls_state = 820
-			controls_state = 819
-			controls_state = 818
-			controls_state = 817
-			controls_state = 612
-			controls_state = 611
-			controls_state = 621
-		}
-		
-		fire_only_once = yes
-		days_remove = 10
-		
-		ai_will_do = {
-			factor = 100
-		}
-		remove_effect = {
-			hidden_effect = {
-			MNR = {
-			add_country_leader_role = { 
-			character = MNR_Agnes_Tachyon
-			promote_leader = yes
-			country_leader = {   
-				ideology = kybernetika_vernadsry
-				traits = {
-					technocrat
-				}
-			}
-		}
-			set_country_leader_portrait = {
-				ideology = metacommy
-				portrait = "gfx/leaders/MNR/Agnes_Tachyon.dds"
-			}	
-		set_cosmetic_tag = MNR_techn			
-		}
-		}
-		GAL = { puppet = MNR }
-		MNR = {
-			transfer_state = 330
-			transfer_state = 820
-			transfer_state = 819
-			transfer_state = 818
-			transfer_state = 817
-			transfer_state = 612
-			transfer_state = 611
-			transfer_state = 621	
-			}
-		}
-	}
-	
 }
