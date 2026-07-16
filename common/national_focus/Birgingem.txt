@@ -125,7 +125,7 @@ completion_reward = {
 	focus = {
 		id = PBG_kontrobanda
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_mi_iz_birgingema
 		}
@@ -218,6 +218,10 @@ completion_reward = {
 		x = 12
 		y = 4
 		completion_reward = {
+		give_guarantee = KOF
+		KOF = {
+		give_guarantee = PBG
+		}
 add_corps_commander_role = {
 			character = PBG_Mikkie_ONill
 			traits = { }
@@ -240,10 +244,6 @@ add_corps_commander_role = {
 		x = 11
 		y = 5
 		completion_reward = {
-			add_power_balance_value = {
-				id = PBG_karma_balance 
-				value = -0.1
-			}
 			add_political_power = 100
 			country_event = { id = PBG.4 }
 		}
@@ -260,15 +260,23 @@ add_corps_commander_role = {
 		}
 		x = 14
 		y = 4
-
+    completion_reward = {
+		give_guarantee = UBR
+		UBR = {
+		give_guarantee = PBG
+		}
+		}
 	}
 	focus = {
 		id = PBG_udar_v_spinu
 		icon = GFX_goal_unknown
-		cost = 5
+		cost = 8
 		prerequisite = {
 			focus = PBG_Ira
 			focus = PBG_Pinkfloyd
+		}
+		available = {
+			has_war = yes
 		}
 		x = 13
 		y = 5
@@ -276,6 +284,40 @@ add_corps_commander_role = {
 			add_power_balance_value = {
 				id = PBG_karma_balance 
 				value = -0.1
+			}
+		if = {
+				limit = {
+					has_completed_focus = PBG_Pinkfloyd
+				}
+				PBG = {			
+		    declare_war_on = {
+		        target = UBR
+		        type = annex_everything
+		    }
+			add_state_claim = 130
+			add_state_claim = 131
+			add_state_claim = 132
+		}
+		UBR = {
+			add_state_claim = 128
+		}
+			}
+		if = {
+				limit = {
+					has_completed_focus = PBG_Ira
+				}
+				PBG = {			
+		    declare_war_on = {
+		        target = KOF
+		        type = annex_everything
+		    }
+			add_state_claim = 120
+			add_state_claim = 122
+			add_state_claim = 123
+		}
+		KOF = {
+			add_state_claim = 128
+		}
 			}
 		}
 	}
@@ -288,7 +330,10 @@ add_corps_commander_role = {
 		}
 		x = 15
 		y = 5
-
+		completion_reward = {
+		army_experience = 50
+        country_event = { id = PBG.6 }
+}
 	}
 	focus = {
 		id = PBG_party_kozirkov
@@ -298,9 +343,7 @@ add_corps_commander_role = {
 			focus = PBG_obchistit_partkassy
 			focus = PBG_ukrast_keltskoe_oryzhie
 		}
-		prerequisite = {
-			focus = PBG_udar_v_spinu	
-		}
+
 		x = 13
 		y = 6
 		completion_reward = {

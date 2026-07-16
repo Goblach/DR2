@@ -218,3 +218,40 @@ country_event = {
 	}
 	
 }
+country_event = { 
+
+	id = PBG.6
+        title = PBG.6.t
+        desc = PBG.6.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.6.a
+		add_power_balance_value = {
+    id = PBG_karma_balance
+    value = -0.05
+} 
+add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 1200
+							producer = KOF
+						}
+						add_manpower = -500
+	}
+	option = {
+		name = PBG.6.b
+		add_power_balance_value = {
+    id = PBG_karma_balance 
+    value = 0.05
+}
+ add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 200
+							producer = KOF
+						}
+						add_manpower = -500
+	}
+	
+}
