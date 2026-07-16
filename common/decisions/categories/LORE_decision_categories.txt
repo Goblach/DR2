@@ -4,8 +4,15 @@
 
 LORE_3000 = {
 	icon = generic_propaganda
-
+		priority = {
+		base = -1
+	}
+	allowed = {
+		is_ai = no
+	}
 	visible = {
-
+		NOT = {
+			has_country_flag = LORE_net
+		}
 	}
 }

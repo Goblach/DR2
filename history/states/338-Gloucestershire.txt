@@ -24,9 +24,9 @@ state={
 			}
 		}
 		add_core_of = BRS
-		add_core_of = UKE
-		add_core_of = UBR
-		add_core_of = PBG
+		add_claim_by = UKE
+		add_claim_by = UBR
+		add_claim_by = PBG
 	}
 
 	provinces={

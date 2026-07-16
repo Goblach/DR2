@@ -14,6 +14,9 @@ state={
 	history={
 		add_core_of = KOF
 		add_core_of = FSK
+		add_claim_by = UKE
+		add_claim_by = UBR
+		add_claim_by = PBG
 		owner = FSK
 		victory_points = {
 			3273 15

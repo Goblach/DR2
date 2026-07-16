@@ -25,14 +25,8 @@ state={
 			air_base = 5
 		}
 		add_core_of = UKE
-		add_core_of = UBR
-		add_core_of = PBG
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				industrial_complex = 2
-			}
-		}
+		add_claim_by = UBR
+		add_claim_by = PBG
 	}
 
 	provinces={

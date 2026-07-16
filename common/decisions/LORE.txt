@@ -54,6 +54,13 @@ LORE_3000 = {
 			country_event = lore.5
 		}	
 	}
+	
+	hide_LORE = {
+		complete_effect = {
+			custom_effect_tooltip = hide_LORE
+			set_country_flag = LORE_net
+		}
+	}
 
 }
    

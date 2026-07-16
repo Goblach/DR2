@@ -21,15 +21,9 @@ state={
 		victory_points = {
 			9297 25
 		}
-		add_core_of = UKE
-		add_core_of = UBR
+		add_claim_by = UKE
+		add_claim_by = UBR
 		add_core_of = PBG
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				industrial_complex = 4
-			}
-		}
 	}
 
 	provinces={

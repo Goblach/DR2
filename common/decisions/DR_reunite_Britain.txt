@@ -1,0 +1,439 @@
+DR_reunite_Britain_category = {	
+	
+	Britain_reunification = { 
+	
+        icon = GFX_decision_generic_form_nation	
+
+		visible = {
+		}
+		
+		available = {
+			controls_state = 126
+			controls_state = 128
+			controls_state = 122
+			controls_state = 132
+			controls_state = 121
+		}
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+		}
+	}
+	
+	Attack_Scotland = { 
+	
+        icon = hol_draw_up_staff_plans	
+
+		visible = {
+		}
+		
+		available = {
+			controls_state = 126
+			controls_state = 128
+			controls_state = 122
+			controls_state = 132
+		}
+		
+		cost = 25
+		fire_only_once = yes
+		days_remove = 15
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			create_wargoal = {
+				target = FSK
+				type = annex_everything
+            }
+		}
+	}
+	
+	Britain_Core_120 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+		}
+		
+		available = {
+			controls_state = 120 
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 120 
+		}
+	}
+	
+	Britain_Core_136 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+		}
+		
+		available = {
+			controls_state = 136 
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 136
+		}
+	}
+	
+	Britain_Core_133 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+		}
+		
+		available = {
+			controls_state = 133
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 133
+		}
+	}
+	
+	Britain_Core_121 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+		}
+		
+		available = {
+			controls_state = 121
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 121
+		}
+	}
+	
+	Britain_Core_131 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+			NOT = {
+				original_tag = UBR
+			}
+		}
+		
+		available = {
+			controls_state = 131
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 131
+		}
+	}
+	
+	Britain_Core_130 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+			NOT = {
+				original_tag = UBR
+			}
+		}
+		
+		available = {
+			controls_state = 130
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 130
+		}
+	}
+	
+	Britain_Core_132 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+			NOT = {
+				original_tag = UBR
+			}
+		}
+		
+		available = {
+			controls_state = 132
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 132
+		}
+	}
+	
+	Britain_Core_128 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+			NOT = {
+				original_tag = PBG
+			}
+		}
+		
+		available = {
+			controls_state = 128
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 128
+		}
+	}
+	
+	Britain_Core_122 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+		}
+		
+		available = {
+			controls_state = 122
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 122
+		}
+	}
+	
+	Britain_Core_129 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+			NOT = {
+				original_tag = UKE
+			}
+		}
+		
+		available = {
+			controls_state = 129
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 129
+		}
+	}
+	
+	Britain_Core_125 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+			NOT = {
+				original_tag = UKE
+			}
+		}
+		
+		available = {
+			controls_state = 125
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 125
+		}
+	}
+	
+	Britain_Core_126 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+			NOT = {
+				original_tag = UKE
+			}
+		}
+		
+		available = {
+			controls_state = 126
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 126
+		}
+	}
+	
+	Britain_Core_127 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+			NOT = {
+				original_tag = UKE
+			}
+		}
+		
+		available = {
+			controls_state = 127
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 127
+		}
+	}
+	
+	Britain_Core_338 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+		}
+		
+		available = {
+			controls_state = 338
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 338
+		}
+	}
+	
+	Britain_Core_123 = {
+		icon = GFX_decision_generic_nationalism
+		cost = 5
+		
+		visible = {
+		}
+		
+		available = {
+			controls_state = 123
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		ai_will_do = {
+			base = 200
+		}
+		
+		remove_effect = {
+			add_state_core = 123
+		}
+	}
+}

@@ -33,15 +33,9 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = UKE
+		add_claim_by = UKE
 		add_core_of = UBR
-		add_core_of = PBG
-		1939.1.1 = {
-			buildings = {
-				dockyard = 5
-				industrial_complex = 2
-			}
-		}
+		add_claim_by = PBG
 	}
 
 	provinces={
