@@ -8,12 +8,12 @@ focus_tree = {
 		}
 	}
 	default = no
-	
+	continuous_focus_position = { x = 2 y = 2000 }
 	focus = {
 		id = PBG_vedy
 		icon = GFX_goal_unknown
 		cost = 3,00
-		x = 13
+		x = 9
 		y = 0
 		completion_reward = {
 			set_power_balance = {
@@ -26,7 +26,7 @@ focus_tree = {
 		id = PBG_mi_iz_birgingema
 		icon = GFX_goal_unknown
 		cost = 3,00
-		x = 13
+		x = 9
 		y = 1
 		prerequisite = {
 			focus = PBG_vedy
@@ -45,7 +45,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PBG_mi_iz_birgingema
 		}
-		x = 10
+		x = 6
 		y = 2
 completion_reward = {
 			add_political_power = 100
@@ -92,7 +92,7 @@ completion_reward = {
 		prerequisite = {
 			focus = PBG_kontrobanda
 		}
-		x = 13
+		x = 9
 		y = 3
 completion_reward = {
 			add_ideas = PBG_vragi_so_vseh_storon
@@ -106,7 +106,7 @@ completion_reward = {
 		prerequisite = {
 			focus = PBG_mi_iz_birgingema
 		}
-		x = 14
+		x = 10
 		y = 2
 completion_reward = {
 				add_ideas = PBG_cigane
@@ -129,7 +129,7 @@ completion_reward = {
 		prerequisite = {
 			focus = PBG_mi_iz_birgingema
 		}
-		x = 16
+		x = 12
 		y = 2
 		completion_reward = {
 			add_ideas = PBG_kontrobanda
@@ -145,7 +145,7 @@ completion_reward = {
 		prerequisite = {
 			focus = PBG_cigane
 		}
-		x = 15
+		x = 11
 		y = 3
 		completion_reward = {
 			add_political_power = -100
@@ -159,7 +159,7 @@ completion_reward = {
 			prerequisite = {
 			focus = PBG_mi_iz_birgingema
 		}
-		x = 12
+		x = 8
 		y = 2
 completion_reward = {
 				add_ideas = PBG_za_tebya_porvu
@@ -199,7 +199,7 @@ completion_reward = {
 		prerequisite = {
 			focus = PBG_organizovat_skachky
 		}
-		x = 11
+		x = 7
 		y = 3
 		completion_reward = {
 			add_research_slot = 1
@@ -215,7 +215,7 @@ completion_reward = {
 		mutually_exclusive = {
 			focus = PBG_Pinkfloyd
 		}
-		x = 12
+		x = 8
 		y = 4
 		completion_reward = {
 		give_guarantee = KOF
@@ -241,7 +241,7 @@ add_corps_commander_role = {
 		prerequisite = {
 			focus = PBG_Ira
 		}
-		x = 11
+		x = 7
 		y = 5
 		completion_reward = {
 			add_political_power = 100
@@ -258,7 +258,7 @@ add_corps_commander_role = {
 		mutually_exclusive = {
 			focus = PBG_Ira
 		}
-		x = 14
+		x = 10
 		y = 4
     completion_reward = {
 		give_guarantee = UBR
@@ -278,7 +278,7 @@ add_corps_commander_role = {
 		available = {
 			has_war = yes
 		}
-		x = 13
+		x = 9
 		y = 5
 		completion_reward = {
 			add_power_balance_value = {
@@ -328,7 +328,7 @@ add_corps_commander_role = {
 		prerequisite = {
 			focus = PBG_Pinkfloyd
 		}
-		x = 15
+		x = 11
 		y = 5
 		completion_reward = {
 		army_experience = 50
@@ -344,7 +344,7 @@ add_corps_commander_role = {
 			focus = PBG_ukrast_keltskoe_oryzhie
 		}
 
-		x = 13
+		x = 9
 		y = 6
 		completion_reward = {
 			add_power_balance_value = {
