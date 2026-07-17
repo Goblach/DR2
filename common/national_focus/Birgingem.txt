@@ -132,6 +132,7 @@ completion_reward = {
 		x = 12
 		y = 2
 		completion_reward = {
+		    add_ideas = free_trade
 			add_ideas = PBG_kontrobanda
 		}
 	}
@@ -353,6 +354,122 @@ add_corps_commander_role = {
 			}
 			add_stability = 0.1
 			remove_ideas = PBG_criminal_volnica
+		}
+	}
+	focus = {
+		id = PBG_leyborism_po_ponyatiyam
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PBG_party_kozirkov
+		}
+mutually_exclusive = {
+			focus = PBG_opergaymer
+		}
+		x = 7
+		y = 7
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = PBG_mafia_profsoyuz
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PBG_leyborism_po_ponyatiyam
+		}
+		x = 6
+		y = 8
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = PBG_pensii
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PBG_leyborism_po_ponyatiyam
+		}
+		x = 8
+		y = 8
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = PBG_krasniy_voshod
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PBG_mafia_profsoyuz
+		}
+		mutually_exclusive = {
+			focus = PBG_korichneviy_zakat
+		}
+		x = 6
+		y = 9
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = PBG_korichneviy_zakat
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PBG_pensii
+		}
+		mutually_exclusive = {
+			focus = PBG_krasniy_voshod
+		}
+		x = 8
+		y = 9
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = PBG_opergaymer
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PBG_party_kozirkov
+		}
+mutually_exclusive = {
+			focus = PBG_leyborism_po_ponyatiyam
+		}
+		x = 11
+		y = 7
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = PBG_Kembridzh_3000
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PBG_opergaymer
+		}
+		x = 10
+		y = 8
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = PBG_strana_bez_chinush
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PBG_opergaymer
+		}
+		x = 12
+		y = 8
+		completion_reward = {
+			add_stability = 0.1
 		}
 	}
 }
