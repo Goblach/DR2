@@ -2367,4 +2367,9 @@ spriteTypes = {
 		name = "GFX_GAL_proekt_galileo"
 		texturefile = "gfx/interface/goals/GAL_proekt_galileo.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_vedy"
+		texturefile = "gfx/interface/goals/PBG_vedy.dds"
+	}
 }	
