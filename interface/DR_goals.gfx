@@ -2372,4 +2372,19 @@ spriteTypes = {
 		name = "GFX_PBG_vedy"
 		texturefile = "gfx/interface/goals/PBG_vedy.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_party_kozirkov"
+		texturefile = "gfx/interface/goals/PBG_party_kozirkov.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_mi_iz_birgingema"
+		texturefile = "gfx/interface/goals/PBG_mi_iz_birgingema.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_kontrobanda"
+		texturefile = "gfx/interface/goals/PBG_kontrobanda.dds"
+	}
 }	
