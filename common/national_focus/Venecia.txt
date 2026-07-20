@@ -36,7 +36,9 @@ focus_tree = {
 		}
 		x = 10
 		y = 2
-
+		completion_reward = {
+			add_ideas = VNR_economy_1
+		}
 	}
 	focus = {
 		id = VNR_arsenal_dlia_rabotiag
@@ -47,6 +49,10 @@ focus_tree = {
 		}
 		x = 10
 		y = 3
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
 
 	}
 	focus = {
@@ -58,7 +64,12 @@ focus_tree = {
 		}
 		x = 11
 		y = 4
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VNR_economy_1
+				add_idea = VNR_economy_2
+			}
+		}
 	}
 	focus = {
 		id = VNR_Zakoni_Papicha
@@ -116,7 +127,9 @@ focus_tree = {
 		}
 		x = 16
 		y = 2
-
+		completion_reward = {
+			add_ideas = VNR_army_1
+		}
 	}
 	focus = {
 		id = VNR_plus_moral
@@ -127,7 +140,12 @@ focus_tree = {
 		}
 		x = 16
 		y = 3
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VNR_army_1
+				add_idea = VNR_army_2
+			}
+		}
 	}
 	focus = {
 		id = VNR_kopio_Longinia
@@ -138,7 +156,12 @@ focus_tree = {
 		}
 		x = 15
 		y = 4
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = VNR_army_2
+				add_idea = VNR_army_3
+			}
+		}
 	}
 	focus = {
 		id = VNR_VI_KA

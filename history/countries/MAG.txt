@@ -31,7 +31,7 @@ recruit_character = MAG_Maysner
 recruit_character = MAG_Harchok
 
 add_ideas = {
-	limited_conscription
+	service_by_requirement
 	low_economic_mobilisation
 	MAG_petushinnoe_podpole
 	MAG_vory_v_gosudarstve

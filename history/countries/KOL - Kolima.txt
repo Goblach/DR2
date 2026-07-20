@@ -29,7 +29,7 @@ set_technology = {
 recruit_character = KOL_dud
 
 add_ideas = {
-	limited_conscription
+	service_by_requirement
 	low_economic_mobilisation
 	POK_Metostazi_sovka
 }
