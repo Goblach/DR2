@@ -40,7 +40,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_organizovat_skachky
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_organizovat_skachky
 		cost = 3,00
 		prerequisite = {
 			focus = PBG_mi_iz_birgingema
@@ -192,7 +192,7 @@ completion_reward = {
 	}
 	focus = {
 		id = PBG_shelby_prav
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_shelby_prav
 		cost = 10,00
 		prerequisite = {
 			focus = PBG_za_tebya_porvu

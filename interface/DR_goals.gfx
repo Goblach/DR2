@@ -2387,4 +2387,14 @@ spriteTypes = {
 		name = "GFX_PBG_kontrobanda"
 		texturefile = "gfx/interface/goals/PBG_kontrobanda.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_organizovat_skachky"
+		texturefile = "gfx/interface/goals/PBG_organizovat_skachky.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_shelby_prav"
+		texturefile = "gfx/interface/goals/PBG_shelby_prav.dds"
+	}
 }	
