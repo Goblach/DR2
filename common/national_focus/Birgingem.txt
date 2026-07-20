@@ -78,7 +78,7 @@ completion_reward = {
 	}
 	focus = {
 		id = PBG_vragi_so_vseh_storon
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_vragi_so_vseh_storon
 		cost = 3,00
 		prerequisite = {
 			focus = PBG_organizovat_skachky
@@ -138,7 +138,7 @@ completion_reward = {
 	}
 	focus = {
 		id = PBG_stalker_birmingem
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_stalker_birmingem
 		cost = 10,00
 		prerequisite = {
 			focus = PBG_kontrobanda

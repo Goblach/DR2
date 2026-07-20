@@ -2397,4 +2397,14 @@ spriteTypes = {
 		name = "GFX_PBG_shelby_prav"
 		texturefile = "gfx/interface/goals/PBG_shelby_prav.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_stalker_birmingem"
+		texturefile = "gfx/interface/goals/PBG_stalker_birmingem.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_vragi_so_vseh_storon"
+		texturefile = "gfx/interface/goals/PBG_vragi_so_vseh_storon.dds"
+	}
 }	
