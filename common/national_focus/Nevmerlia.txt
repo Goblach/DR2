@@ -790,20 +790,25 @@ focus_tree = {
 		prerequisite = {
 			focus = UKR_uluchshit_otnoshenye_s_guziyey
 		}
+		available = {
+					NOT = { country_exists = DON }
+				}
 		x = 36
 		y = 3
-			bypass = {
+			bypass = { 
 					GEO = {
 							exists = no
 						}
-				}
+					}
 			completion_reward = {
 					create_faction = Sanitar_Kordon
+					if = {
+					limit = { GEO = { is_subject = no } }
 					GEO = {
 									country_event = UKR.52
 								}
 				}
-
+			}
 	}
 	focus = {
 		id = UKR_ATO
