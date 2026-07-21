@@ -22,7 +22,7 @@ ideas = {
 			    }
 		    }
 			FSK_gorci = {
-		        picture = 
+		        picture = FSK_gorci
 			
 			    allowed = {
 				    always = no

@@ -28,7 +28,7 @@ ideas = {
 			
 			    removal_cost = -1
 
-			    picture = spr_torchbearers_of_tomorrow
+			    picture = OMS_psihodel_v_army
             
 			    modifier = {
 			        army_org_factor = -0.05

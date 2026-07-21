@@ -1,5 +1,5 @@
 ETR_vedic_civilisation_modifier = {
-	icon = "GFX_idea_LAT_neopaganism_4"
+	icon = "GFX_idea_ETR_neopaganism"
 
 	army_attack_factor = ETR_army_attack_factor
 	stability_factor = ETR_stability_factor
