@@ -11,7 +11,7 @@ characters={
 		    ideology = stalinismus
             traits = {
                 hardliner_stalinist 
-				champion_of_peace_3				
+				champion_of_peace_2			
 	        }   
 	        expire = "1999.1.1"
 		    id=-1
