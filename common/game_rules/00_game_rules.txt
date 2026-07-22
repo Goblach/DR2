@@ -242,6 +242,11 @@ allow_kick_faction = {
 		text = "RULE_OPTION_ALLOWED"
 		desc = "RULE_ALLOW_KICK_FACTION_ALLOWED_DESC"
 	}
+	default = {
+		name = "FOR_PLAYER"
+		text = "RULE_OPTION_FOR_PLAYER"
+		desc = "RULE_ALLOW_KICK_FACTION_FOR_PLAYER_DESC"
+	}
 	option = {
 		name = "BLOCKED"
 		text = "RULE_OPTION_BLOCKED"

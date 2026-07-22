@@ -424,7 +424,7 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 	}
 }
 DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
-	else_if = {
+	if = {
 		limit = {
 			has_game_rule = { rule = allow_wargoals option = FOR_PLAYER }
 			is_ai = yes 
@@ -562,6 +562,13 @@ DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
 	}
 }
 DIPLOMACY_KICK_FROM_FACTION_ENABLE_TRIGGER = {
+	else_if = {
+		limit = {
+			has_game_rule = { rule = allow_wargoals option = FOR_PLAYER }
+			is_ai = yes 
+		}
+		always = no
+	}
 	if = {
 		limit = {
 			has_game_rule = {
