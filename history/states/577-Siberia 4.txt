@@ -4,15 +4,15 @@ state = {
 	manpower = 1029299
 	name = "STATE_577"
 	resources = {
-		oil=13 # was: 14
+		oil=80
 	}
 	
-	state_category = pastoral
+	state_category = town
 
 	history = {
 		owner = POK
 		victory_points = {
-			4817 3
+			4817 5
 		}
 		victory_points = {
 			1726 2
