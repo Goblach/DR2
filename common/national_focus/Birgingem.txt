@@ -101,7 +101,7 @@ completion_reward = {
 	}
 	focus = {
 		id = PBG_cigane
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_cigane
 		cost = 3,00
 		prerequisite = {
 			focus = PBG_mi_iz_birgingema
@@ -155,7 +155,7 @@ completion_reward = {
 	}
 	focus = {
 		id = PBG_za_tebya_porvu
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_za_tebya_porvu
 		cost = 5
 			prerequisite = {
 			focus = PBG_mi_iz_birgingema
@@ -208,7 +208,7 @@ completion_reward = {
 	}
 	focus = {
 		id = PBG_Ira
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_Ira
 		cost = 5
 		prerequisite = {
 			focus = PBG_vragi_so_vseh_storon
@@ -251,7 +251,7 @@ add_corps_commander_role = {
 	}
 	focus = {
 		id = PBG_Pinkfloyd
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_Pinkfloyd
 		cost = 5
 		prerequisite = {
 			focus = PBG_vragi_so_vseh_storon

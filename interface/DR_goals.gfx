@@ -2407,4 +2407,24 @@ spriteTypes = {
 		name = "GFX_PBG_vragi_so_vseh_storon"
 		texturefile = "gfx/interface/goals/PBG_vragi_so_vseh_storon.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_cigane"
+		texturefile = "gfx/interface/goals/PBG_cigane.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_za_tebya_porvu"
+		texturefile = "gfx/interface/goals/PBG_za_tebya_porvu.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_Ira"
+		texturefile = "gfx/interface/goals/PBG_Ira.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_Pinkfloyd"
+		texturefile = "gfx/interface/goals/PBG_Pinkfloyd.dds"
+	}
 }	
