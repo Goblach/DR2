@@ -5,8 +5,9 @@ ideas = {
 			picture = KAZ_ekonom_problem
 			
 			   modifier = {
-			    consumer_goods_factor = 0.1
-				production_speed_buildings_factor = -0.2
+			    consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.25
+				local_resources_factor = -0.25
 			    }
 		    }
 			
@@ -15,8 +16,9 @@ ideas = {
 			picture = KAZ_social_problem
 			
 			   modifier = {
-			   stability_factor = -0.2
+			   stability_factor = -0.25
 			   research_speed_factor = -0.1
+			   conscription_factor = -0.15
 			    }
 		    }
 			
@@ -30,7 +32,7 @@ ideas = {
 		        }
 			
 			   modifier = {
-			    political_power_gain = -0.1
+			    political_power_gain = -0.15
 			    }
 		    }
 		}
