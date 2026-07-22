@@ -788,13 +788,13 @@ focus_tree = {
 		icon = GFX_UKR_sanitar
 		cost = 5.00
 		prerequisite = {
-			focus = UKR_uluchshit_otnoshenye_s_guziyey
+			focus = UKR_ATO
 		}
 		available = {
 					NOT = { country_exists = DON }
 				}
 		x = 36
-		y = 3
+		y = 4
 			bypass = { 
 					GEO = {
 							exists = no
@@ -815,10 +815,10 @@ focus_tree = {
 		icon = GFX_UKR_ATO
 		cost = 5.00
 		prerequisite = {
-			focus = UKR_sanitarniy_kordon
+			focus = UKR_uluchshit_otnoshenye_s_guziyey
 		}
 		x = 36
-		y = 4
+		y = 3
 			bypass = {
 		            OR = {
 				    	NOT = {
@@ -1194,7 +1194,7 @@ focus_tree = {
 		icon = GFX_UKR_ukraina
 		cost = 5.00
 		prerequisite = {
-			focus = UKR_ATO
+			focus = UKR_sanitarniy_kordon
 		}
 		x = 36
 		y = 5
