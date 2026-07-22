@@ -534,7 +534,7 @@ ideas = {
 				}
 			}
 			GAL_banya = {
-				picture = FIN_maan_turva
+				picture = GAL_Natsionalny_panoptikum
 				modifier = {
 				 political_power_gain = 0.1
 				 intelligence_agency_defense = 0.5
@@ -543,7 +543,7 @@ ideas = {
 				}
 			}
 			GAL_toples_program = {
-				picture = GAL_Natsionalny_panoptikum
+				picture = FIN_maan_turva
 				modifier = {
 				 political_power_factor = 0.05
 				 stability_factor = 0.05
