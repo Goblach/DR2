@@ -13,16 +13,16 @@ state = {
 		}
 		add_core_of = GEO
 		victory_points = {
-			9663 1
+			9663 3
 		}
 	}
 
 	provinces = {
 		  3698 6692 6721 9649 9663 9674 11664 
 	}
-	manpower = 387990
+	manpower = 561793
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
 
 	local_supplies = 0.0 
 }
