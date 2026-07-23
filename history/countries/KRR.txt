@@ -1,4 +1,4 @@
-capital = 234
+capital = 218
 
 oob = KRR_1936
 
