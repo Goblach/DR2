@@ -169,32 +169,6 @@ ideas = {
 					factor = 0.5
 					manpower_per_military_factory >  1000
 				}
-				modifier = {
-					#Block has plenty manpower
-					factor = 0
-					NOT = { tag = CHI }
-					NOT = { tag = SOV }
-					manpower_per_military_factory >  3000
-				}
-
-				modifier = { # china relies a lot on throwing bodies at the enemy
-					factor = 3
-
-					tag = CHI
-					has_manpower < 200000
-				}
-
-				modifier = { # germany needs this before russia, badly
-					factor = 10
-
-					original_tag = GER
-					has_manpower < 2000000
-				}
-				modifier = {
-					factor = 1000
-					original_tag = SOV
-					check_variable = { manpower_k < 3000 }
-				}
 
 			}
 			
@@ -243,25 +217,6 @@ ideas = {
 					#Lower chance if has decent amount
 					factor = 0.5
 					manpower_per_military_factory >  1000
-				}
-				modifier = {
-					#Block has plenty manpower
-					factor = 0
-					NOT = { tag = CHI }
-					manpower_per_military_factory >  5000
-				}
-
-				modifier = { # china relies a lot on throwing bodies at the enemy
-					factor = 3
-
-					tag = CHI
-					has_manpower < 200000
-				}
-				modifier = {
-					factor = 10
-					original_tag = SOV
-					date > 1943.1.1
-					has_manpower < 2000000	
 				}
 			}
 		

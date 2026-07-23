@@ -486,17 +486,6 @@ ideas = {
 				}
 			}
 		}
-		bureau_of_ordnance_spirit = {
-			on_add = { log = "[GetLogRoot]: add idea bureau_of_ordnance_spirit" }
-			ledger = navy
-			allowed = {
-				is_american_tag = yes
-			}
-			modifier = {
-				naval_torpedo_hit_chance_factor = -0.1
-			}
-			ai_will_do = { factor = 0 }
-		}
 
 		naval_tripwire_navy_spirit = {
 			on_add = { log = "[GetLogRoot]: add idea naval_tripwire_navy_spirit" }
