@@ -119,7 +119,17 @@ completion_reward = {
 							type = support_equipment
 							amount = 1000
 							producer = PBG
-						}	
+						}
+add_corps_commander_role = {
+			character = PBG_Mikkie_ONill
+			traits = { }
+	        skill = 3
+	        attack_skill = 4
+	        defense_skill = 3
+	        planning_skill = 4
+	        logistics_skill = 4
+		    legacy_id = -1
+            }						
 		}
 	}
 	focus = {
@@ -223,21 +233,11 @@ completion_reward = {
 		KOF = {
 		give_guarantee = PBG
 		}
-add_corps_commander_role = {
-			character = PBG_Mikkie_ONill
-			traits = { }
-	        skill = 3
-	        attack_skill = 4
-	        defense_skill = 3
-	        planning_skill = 4
-	        logistics_skill = 4
-		    legacy_id = -1
-            }
 }
 	}
 	focus = {
 		id = PBG_obchistit_partkassy
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_obchistit_partkassy
 		cost = 5
 		prerequisite = {
 			focus = PBG_Ira
@@ -270,7 +270,7 @@ add_corps_commander_role = {
 	}
 	focus = {
 		id = PBG_udar_v_spinu
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_udar_v_spinu
 		cost = 8
 		prerequisite = {
 			focus = PBG_Ira
@@ -324,7 +324,7 @@ add_corps_commander_role = {
 	}
 	focus = {
 		id = PBG_ukrast_keltskoe_oryzhie
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_ukrast_keltskoe_oryzhie
 		cost = 5
 		prerequisite = {
 			focus = PBG_Pinkfloyd
@@ -822,7 +822,7 @@ add_corps_commander_role = {
 	}
 	focus = {
 		id = PBG_izumrudnyi_ostrov
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_izumrudnyi_ostrov
 		cost = 5
 		available = {
 			OR = {

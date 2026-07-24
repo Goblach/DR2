@@ -2427,4 +2427,24 @@ spriteTypes = {
 		name = "GFX_PBG_Pinkfloyd"
 		texturefile = "gfx/interface/goals/PBG_Pinkfloyd.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_udar_v_spinu"
+		texturefile = "gfx/interface/goals/PBG_udar_v_spinu.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_obchistit_partkassy"
+		texturefile = "gfx/interface/goals/PBG_obchistit_partkassy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_ukrast_keltskoe_oryzhie"
+		texturefile = "gfx/interface/goals/PBG_ukrast_keltskoe_oryzhie.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_izumrudnyi_ostrov"
+		texturefile = "gfx/interface/goals/PBG_izumrudnyi_ostrov.dds"
+	}
 }	
