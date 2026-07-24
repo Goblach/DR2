@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Казачья кавалерия"				# Militia units (lowest experience, oldest equipment)
+	name = "Казачья кавалерия"				
 
 	division_names_group = KRR_GAR_01
 
@@ -11,24 +11,10 @@
 		cavalry = { x = 1 y = 1 }
 		cavalry = { x = 1 y = 2 }
 		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
 	}
 	priority = 1
-}
-division_template = {
-	name = "Казачья пехота"		
-	division_names_group = KRR_GAR_01
-	regiments = {
-		irregular_infantry = { x = 0 y = 0 }
-		irregular_infantry = { x = 0 y = 1 }
-		irregular_infantry = { x = 0 y = 2 }
-		irregular_infantry = { x = 1 y = 0 }
-		irregular_infantry = { x = 1 y = 1 }
-		irregular_infantry = { x = 1 y = 2 }
-		irregular_infantry = { x = 2 y = 0 }
-		irregular_infantry = { x = 2 y = 1 }
-		irregular_infantry = { x = 2 y = 2 }
-	}
-	priority = 1 
 }
 
 units = {
@@ -62,35 +48,35 @@ units = {
 	
 		
 	division = {
-		name = "1-й казацкий полк"
+		name = "3-й Донской казачий полк"
 		location = 9417
-		division_template = "Казачья пехота"
+		division_template = "Казачья кавалерия"
 		start_experience_factor = 0.1
 	}
 	
 	division = {
-		name = "2-й казацкий полк"
+		name = "4-й Донской казачий полк"
 		location = 11450
-		division_template = "Казачья пехота"
+		division_template = "Казачья кавалерия"
 		start_experience_factor = 0.1
 	}
 	
 	division = {
-		name = "3-й казацкий полк"
+		name = "5-й Донской казачий полк"
 		location = 3720
-		division_template = "Казачья пехота"
+		division_template = "Казачья кавалерия"
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "4-й казацкий полк"
+		name = "3-й Кубанский казачий полк"
 		location = 719
-		division_template = "Казачья пехота"
+		division_template = "Казачья кавалерия"
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "5-й казацкий полк"
+		name = "4-й Кубанский казачий полк"
 		location = 6741
-		division_template = "Казачья пехота"
+		division_template = "Казачья кавалерия"
 		start_experience_factor = 0.1
 	}
 }

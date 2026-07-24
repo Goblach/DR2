@@ -4,8 +4,8 @@ ideas = {
 
 			picture = saf_ossewabrandwag_2
 			    targeted_modifier = {
-			    tag = NEU
-			    attack_bonus_against = 0.1
+			    tag = FRG
+			    attack_bonus_against = 0.12
 		        }  
 			    modifier = {
 			    war_support_factor = 0.15

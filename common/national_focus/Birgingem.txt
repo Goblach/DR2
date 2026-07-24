@@ -25,7 +25,7 @@ focus_tree = {
 	focus = {
 		id = PBG_mi_iz_birgingema
 		icon = GFX_PBG_mi_iz_birgingema
-		cost = 3,00
+		cost = 5,00
 		x = 9
 		y = 1
 		prerequisite = {
@@ -41,7 +41,7 @@ focus_tree = {
 	focus = {
 		id = PBG_organizovat_skachky
 		icon = GFX_PBG_organizovat_skachky
-		cost = 3,00
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_mi_iz_birgingema
 		}
@@ -79,7 +79,7 @@ completion_reward = {
 	focus = {
 		id = PBG_vragi_so_vseh_storon
 		icon = GFX_PBG_vragi_so_vseh_storon
-		cost = 3,00
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_organizovat_skachky
 		}
@@ -102,7 +102,7 @@ completion_reward = {
 	focus = {
 		id = PBG_cigane
 		icon = GFX_PBG_cigane
-		cost = 3,00
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_mi_iz_birgingema
 		}

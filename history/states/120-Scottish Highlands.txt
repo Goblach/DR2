@@ -25,7 +25,7 @@ state= {
 			284 1 #Oban
 		}
 		victory_points = {
-			9075 1 #Inverness
+			9075 3 #Inverness
 		}
 		victory_points = { 11064 1 }
 		buildings = {
