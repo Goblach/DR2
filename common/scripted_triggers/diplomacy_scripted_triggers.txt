@@ -426,18 +426,104 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 	if = {
 		limit = {
-			has_game_rule = { rule = allow_wargoals option = FOR_PLAYER }
-			is_ai = yes 
+			has_game_rule = {
+				rule = allow_wargoals
+				option = ALWAYS_FREE
+			}
 		}
-		always = no
+		always = yes
 	}
-	else_if = {
+	if = {
 		limit = {
-			has_game_rule = { rule = allow_wargoals option = FOCUSES_ONLY }
+			has_game_rule = {
+				rule = allow_wargoals
+				option = LIMITED
+			}
 		}
-		custom_override_tooltip = {
+		always = yes
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_wargoals
+				option = FREE_25
+			}
+		}
+		threat>0.24
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_wargoals
+				option = FREE_50
+			}
+		}
+		threat>0.49
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_wargoals
+				option = FREE_75
+			}
+		}
+		threat>0.74
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_wargoals
+				option = FREE_100
+			}
+		}
+		threat>0.99
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_wargoals
+				option = FOCUSES_ONLY
+			}
+		}
+		custom_trigger_tooltip = {
 			tooltip = RULE_WARGOALS_BLOCKED_TT
 			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_wargoals
+				option = FOCUSES_ONLY_UNTIL_38
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_WARGOALS_FOCUSES_ONLY_38_DESC
+			date > 1938.1.1
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_wargoals
+				option = FOCUSES_ONLY_UNTIL_39
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_WARGOALS_FOCUSES_ONLY_39_DESC
+			date > 1939.1.1
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_wargoals
+				option = FOCUSES_ONLY_UNTIL_40
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_WARGOALS_FOCUSES_ONLY_40_DESC
+			date > 1940.1.1
 		}
 	}
 }
@@ -528,16 +614,6 @@ DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
 		limit = {
 			has_game_rule = {
 				rule = allow_leave_faction
-				option = FOR_PLAYER
-			}
-			is_ai = yes
-		}
-		always = no
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_leave_faction
 				option = BLOCKED
 			}
 		}
@@ -562,13 +638,6 @@ DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
 	}
 }
 DIPLOMACY_KICK_FROM_FACTION_ENABLE_TRIGGER = {
-	else_if = {
-		limit = {
-			has_game_rule = { rule = allow_wargoals option = FOR_PLAYER }
-			is_ai = yes 
-		}
-		always = no
-	}
 	if = {
 		limit = {
 			has_game_rule = {
