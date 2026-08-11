@@ -3,11 +3,22 @@
 ################
 
 KLG_vrag_y_vorot = {
-	picture = generic_border_conflicts
+
 	icon = border_conflicts
+	scripted_gui = dr_war_escalation_decision_ui
+	
 	allowed = {
-		original_tag = KLG		
+		original_tag = KLG	
 	}
+
+	priority = {
+		base = 15 
+	}
+
 	visible = {
+		
 	}
+	visible_when_empty = yes 
+	
 }
+
