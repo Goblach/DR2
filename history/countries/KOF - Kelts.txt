@@ -19,7 +19,7 @@ limited_conscription
 partial_economic_mobilisation
 }
 
-add_timed_idea = { idea = BRS_posledstvie_brist_rezni days = 180 }
+add_timed_idea = { idea = BRS_posledstvie_brist_rezni days = 360 }
 
 set_popularities = {
 	fascism = 36

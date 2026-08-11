@@ -36,7 +36,7 @@ add_ideas = {
 		UBR_tankie
 }
 
-add_timed_idea = { idea = BRS_strah_brist_rezni days = 180 }
+add_timed_idea = { idea = BRS_strah_brist_rezni days = 360 }
 
 set_popularities = {
 	vmestolev = 66
