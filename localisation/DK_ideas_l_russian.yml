@@ -264,6 +264,7 @@
  NOD_propag_industr:0 "Пропаганда индустриализации"
  NOD_taynaya_industrializ:0 "Тайная индустриализация"
  NOD_army_dynamic_modifier:0 "Большая русская орда"
+ NOD_army_dynamic_modifier:0 "Мы разъясним гнилой Европе\n Про разделение труда.\n Весь Запад обратит в холопов\n Большая Русская Орда"
  DOT_military_strana:0 "Страна военных"
  DOT_military_strana_desc:0 ""
  DOT_doter_org:0 "Дотерская организация"
