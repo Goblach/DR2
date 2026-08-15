@@ -324,26 +324,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_LAZ_vlad"
 		texturefile = "gfx/interface/ideas/idea_LAZ_vlad.dds"
-	}  	
-    spriteType = {
-		name = "GFX_idea_NOD_barkov"
-		texturefile = "gfx/interface/ideas/idea_NOD_barkov.dds"
-	}  	
-    spriteType = {
-		name = "GFX_idea_NOD_britva"
-		texturefile = "gfx/interface/ideas/idea_NOD_britva.dds"
-	}  	
-    spriteType = {
-		name = "GFX_idea_NOD_hirurg"
-		texturefile = "gfx/interface/ideas/idea_NOD_hirurg.dds"
 	}  		
-	 spriteType = {
+	spriteType = {
 		name = "GFX_idea_NOD_ohlabistin"
 		texturefile = "gfx/interface/ideas/idea_NOD_ohlabistin.dds"
-	}  	
-    spriteType = {
-		name = "GFX_idea_NOD_ozon"
-		texturefile = "gfx/interface/ideas/idea_NOD_ozon.dds"
 	}  	
     spriteType = {
 		name = "GFX_idea_NOD_vandaley"
@@ -360,19 +344,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_NOD_hirurg"
 		texturefile = "gfx/interface/ideas/idea_NOD_hirurg.dds"
-	}  		
-	spriteType = {
-		name = "GFX_idea_NOD_ohlabistin"
-		texturefile = "gfx/interface/ideas/idea_NOD_ohlabistin.dds"
-	}  		
+	}  			
 	spriteType = {
 		name = "GFX_idea_NOD_ozon"
 		texturefile = "gfx/interface/ideas/idea_NOD_ozon.dds"
-	}  		
+	} 
 	spriteType = {
-		name = "GFX_idea_NOD_vandaley"
-		texturefile = "gfx/interface/ideas/idea_NOD_vandaley.dds"
-	}  		
+		name = "GFX_idea_NOD_Surovikin"
+		texturefile = "gfx/interface/ideas/idea_NOD_Surovikin.dds"
+	}	
 	spriteType = {
 		name = "GFX_idea_YUG_mladic"
 		texturefile = "gfx/interface/ideas/idea_YUG_mladic.dds"

@@ -201,8 +201,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			conscription_factor = 0.1
-			training_time_factor = -0.1
+				conscription_factor = 0.1
+				training_time_factor = -0.1
+				mobilization_speed = 0.1
 			}
 		}
 		
@@ -365,13 +366,10 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			recruitable_population = 0.05
-			army_defence_factor = 0.05
-			dig_in_speed = 2
-			max_dig_in_factor = 0.05
-			army_morale_factor = 0.05
-			production_speed_bunker_factor = 0.15
-			defensive_war_stability_factor = 0.5
+				dig_in_speed = 1
+				max_dig_in_factor = 0.05
+				production_speed_bunker_factor = 0.15
+				defensive_war_stability_factor = 0.15
 			}
 			
 		}
@@ -405,7 +403,7 @@ ideas = {
 		
 		NOD_kontsentratsiya_arti = {
 		
-		picture = generic_manpower_bonus
+			picture = generic_manpower_bonus
 			
 			removal_cost = -1
 			
@@ -423,7 +421,7 @@ ideas = {
 		
 		NOD_react_art = {
 		
-		picture = NOD_react_art
+			picture = NOD_react_art
 			
 			removal_cost = -1
 			

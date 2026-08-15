@@ -388,18 +388,18 @@ completion_reward = {
 		}
 		x = 17
 		y = 3
-completion_reward = {
-army_experience = 5
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 1.0
-				uses = 1
-				category = land_doctrine
+			completion_reward = {
+			army_experience = 25
+				add_doctrine_cost_reduction = {
+					name = land_doc_bonus
+					cost_reduction = 0.5
+					uses = 1
+					category = land_doctrine
+				}
+				add_war_support = 0.1
+				add_to_variable = { barkov_coup = -1 }
+				custom_effect_tooltip = NOD_barkov_aprove_tt
 			}
-add_war_support = 0.1
-add_to_variable = { barkov_coup = -1 }
-custom_effect_tooltip = NOD_barkov_aprove_tt
-}
 	}
 	shared_focus = {
 		id = NOD_tank_biatlon
@@ -408,27 +408,16 @@ custom_effect_tooltip = NOD_barkov_aprove_tt
 		prerequisite = {
 			focus = NOD_podnyat_army_s_kolen
 		}
-		mutually_exclusive = {
-			focus = NOD_big_russian_orda
-		}
-		mutually_exclusive = {
-			focus = NOD_ogon_i_sila
-		}
-		mutually_exclusive = {
-			focus = NOD_doctrina_terpeniya
-		}
 		x = 14
 		y = 4
-completion_reward = {
-		  army_experience = 10
-          add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-          category = cat_mobile_warfare
-          }
-		  add_war_support = 0.05
-		  add_political_power = 50
+		completion_reward = {
+		  army_experience = 15
+			add_tech_bonus = {
+				name = NOD_tank_experiments
+				uses = 2
+				bonus = 1.0
+				category = armor
+			}
 		}
 	}
 	shared_focus = {
@@ -440,69 +429,61 @@ completion_reward = {
 		}
 		x = 14
 		y = 5
-completion_reward = {
-			add_tech_bonus = {
-				name = NOD_tank_experiments
-				uses = 2
-				bonus = 1.0
-				category = armor
+		completion_reward = {
+			custom_effect_tooltip = NOD_atmta_tt
+		}
+	}
+	
+	shared_focus = {
+		id = NOD_big_russian_orda
+		icon = GFX_focus_NOD_orda
+		cost = 5
+		prerequisite = {
+			focus = NOD_podnyat_army_s_kolen
+		}
+		x = 17
+		y = 4
+		completion_reward = {
+			add_manpower = 50000
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = tooltip_add_dynmod
+					DYNMOD = NOD_army_dynamic_modifier
+				}
+				add_dynamic_modifier = { modifier = NOD_army_dynamic_modifier }
 			}
-			
+			add_to_variable = {
+				NOD_army_army_morale_factor = 0.05
+				tooltip = army_morale_factor_tooltip
+			}
+			add_to_variable = {
+				NOD_army_land_reinforce_rate = 0.02
+				tooltip = land_reinforce_rate_tooltip
+			}
 		}
 	}
-	shared_focus = {
-		id = NOD_modifitsirovat_old_tanks
-		icon = GFX_goal_generic_build_tank
-		cost = 5
-		prerequisite = {
-			focus = NOD_project_Atmta
-		}
-		x = 14
-		y = 6
-completion_reward = {
-			add_ideas = NOD_modifitsirovat_old_tanks
-		}
 
-	}
-	shared_focus = {
-		id = NOD_2000_Atmtat
-		icon = GFX_focus_NZL_bob_semple_tank
-		cost = 5
-		prerequisite = {
-			focus = NOD_modifitsirovat_old_tanks
-		}
-		x = 14
-		y = 7
-completion_reward ={
-custom_effect_tooltip = NOD_atmta_tt
-	  }
-	}
 	shared_focus = {
 		id = NOD_ogon_i_sila
 		icon = GFX_NOD_doctrina_artillerii
 		cost = 5
 		prerequisite = {
-			focus = NOD_podnyat_army_s_kolen
-		}
-		mutually_exclusive = {
-			focus = NOD_tank_biatlon
-		}
-		mutually_exclusive = {
 			focus = NOD_big_russian_orda
 		}
-		mutually_exclusive = {
-			focus = NOD_doctrina_terpeniya
-		}
 		x = 16
-		y = 4
-completion_reward = {
-			add_ideas = NOD_ogon_i_sila
-			add_war_support = 0.05
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 3
-				category = cat_superior_firepower
+		y = 5
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = NOD_army_dynamic_modifier
+			}
+			add_to_variable = {
+				NOD_army_army_attack_factor = 0.05
+				tooltip = army_attack_factor_tooltip
+			}
+			add_to_variable = {
+				NOD_army_breakthrough_factor = 0.05
+				tooltip = breakthrough_factor_tooltip
 			}
 		}
 	}
@@ -516,16 +497,32 @@ completion_reward = {
 		}
 		
 		x = 16
-		y = 5
-completion_reward = {
-			add_ideas = NOD_kontsentratsiya_arti
-				add_tech_bonus = {
-				 name = artillery_bonus
-				 bonus = 1.0
-				 uses = 1
+		y = 6
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = NOD_army_dynamic_modifier
+			}
+			add_to_variable = {
+				NOD_army_artillery_attack_factor = 0.1
+				tooltip = army_artillery_attack_factor_tooltip
+			}
+			add_to_variable = {
+				NOD_army_artillery_defence_factor = 0.1
+				tooltip = army_artillery_defence_factor_tooltip
+			}
+			add_mastery_bonus = {
+				name = NOD_kontsentratsiya_arti
+				bonus = 0.1
+				days = 365
+				track = combat_support
+			}
+			add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 1.0
+				uses = 1
 				category = artillery
-			    }
-			
+			}		
 		}
 	}
 	
@@ -534,22 +531,19 @@ completion_reward = {
 		icon = GFX_focus_rocketry
 		cost = 5
 		prerequisite = {
-			focus = NOD_kontsentratsiya_arti
+			focus = NOD_ogon_i_sila
 		}
 		
-		x = 16
+		x = 14
 		y = 6
-completion_reward = {
-			add_ideas = NOD_react_art
+		completion_reward = {
+			add_ideas = { NOD_react_art }
 			add_tech_bonus = {
-			name = rocketry
-			bonus = 0.5
-			uses = 3
-			category = rocketry
-		}
-		
-		
-			
+				name = rocketry
+				bonus = 1
+				uses = 1
+				category = rocketry
+			}	
 		}
 	}
 	
@@ -558,15 +552,23 @@ completion_reward = {
 		icon = GFX_focus_eye_in_fire
 		cost = 5
 		prerequisite = {
-			focus = NOD_react_art
+			focus = NOD_kontsentratsiya_arti
 		}
-		
 		x = 16
 		y = 7
-completion_reward = {
-			add_ideas = NOD_voini_ognya
-			add_political_power = 20
-			
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = NOD_army_dynamic_modifier
+			}
+			add_to_variable = {
+				NOD_army_army_attack_factor = 0.1
+				tooltip = army_attack_factor_tooltip
+			}
+			add_to_variable = {
+				NOD_army_breakthrough_factor = 0.1
+				tooltip = breakthrough_factor_tooltip
+			}
 		}
 	}
 	
@@ -575,27 +577,22 @@ completion_reward = {
 		icon = GFX_focus_NOD_prevozmogat
 		cost = 5
 		prerequisite = {
-			focus = NOD_podnyat_army_s_kolen
-		}
-		mutually_exclusive = {
-			focus = NOD_tank_biatlon
-		}
-		mutually_exclusive = {
 			focus = NOD_big_russian_orda
 		}
-		mutually_exclusive = {
-			focus = NOD_ogon_i_sila
-		}
 		x = 18
-		y = 4
-completion_reward = {
-			add_ideas = NOD_doctrina_terpeniya
-			add_political_power = 150
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 3
-				category = cat_grand_battle_plan
+		y = 5
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = NOD_army_dynamic_modifier
+			}
+			add_to_variable = {
+				NOD_army_max_planning_factor = 0.05
+				tooltip =  max_planning_factor_tooltip
+			}
+			add_to_variable = {
+				NOD_army_max_command_power = 40
+				tooltip = max_command_power_tooltip
 			}
 		}
 	}
@@ -608,12 +605,10 @@ completion_reward = {
 			focus = NOD_doctrina_terpeniya
 		}
 		
-		x = 18
-		y = 5
-completion_reward = {
-			add_ideas = NOD_osazhdyonnaya_krepost
-			add_stability = 0.05
-			
+		x = 20
+		y = 6
+		completion_reward = {
+			add_ideas = NOD_osazhdyonnaya_krepost			
 		}
 	}
 	
@@ -622,21 +617,36 @@ completion_reward = {
 		icon = GFX_focus_generic_military_academy
 		cost = 5
 		prerequisite = {
-			focus = NOD_osazhdyonnaya_krepost
+			focus = NOD_doctrina_terpeniya
 		}
 		
 		x = 18
 		y = 6
-completion_reward = {
-			add_ideas = NOD_analitika
-			
-			
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = NOD_army_dynamic_modifier
+			}
+			add_to_variable = {
+				NOD_army_recon_factor = 0.15
+				tooltip =  recon_factor_tooltip
+			}
+			add_to_variable = {
+				NOD_army_land_reinforce_rate = 0.02
+				tooltip = land_reinforce_rate_tooltip
+			}
+			add_mastery_bonus = {
+				name = NOD_analitika
+				bonus = 0.1
+				days = 365
+				track = operations
+			}
 		}
 	}
 	
 	shared_focus = {
 		id = NOD_prevozmoganiye
-		icon = GFX_focus_hol_united_netherlands
+		icon = GFX_goal_generic_position_armies
 		cost = 5
 		prerequisite = {
 			focus = NOD_analitika
@@ -644,40 +654,18 @@ completion_reward = {
 		
 		x = 18
 		y = 7
-completion_reward = {
-			add_ideas = NOD_prevozmoganiye
-			add_war_support = 0.1
-			
-		}
-	}
-	
-	shared_focus = {
-		id = NOD_big_russian_orda
-		icon = GFX_focus_NOD_orda
-		cost = 5
-		prerequisite = {
-			focus = NOD_podnyat_army_s_kolen
-		}
-		mutually_exclusive = {
-			focus = NOD_tank_biatlon
-		}
-		mutually_exclusive = {
-			focus = NOD_ogon_i_sila
-		}
-		mutually_exclusive = {
-			focus = NOD_doctrina_terpeniya
-		}
-		x = 20
-		y = 4
-completion_reward = {
-			add_manpower = 50000
-			add_ideas = NOD_big_russian_orda
-			add_war_support = 0.05
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 3
-				category = cat_mass_assault
+		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = NOD_army_dynamic_modifier
+			}
+			add_to_variable = {
+				NOD_army_max_planning_factor = 0.1
+				tooltip =  max_planning_factor_tooltip
+			}
+			add_to_variable = {
+				NOD_army_coordination_bonus = 0.1
+				tooltip = land_reinforce_rate_tooltip
 			}
 		}
 	}
@@ -686,51 +674,37 @@ completion_reward = {
 		icon = GFX_focus_secret_rearmament
 		cost = 5
 		prerequisite = {
-			focus = NOD_big_russian_orda
+			focus = NOD_podnyat_army_s_kolen
 		}
 		x = 20
-		y = 5
-completion_reward = {
-		        add_equipment_to_stockpile = {
-					type = infantry_equipment_0
-					amount = 1000
-					producer = NOD
-				}
-				
-				add_tech_bonus = {
-				 name = infantry_artillery_bonus
-				 bonus = 1.0
-				 uses = 1
-				 category = infantry_weapons
-			    }
-			}
-	}
-	shared_focus = {
-		id = NOD_uvelichit_rozhdaemost
-		icon = GFX_focus_generic_commonwealth_build_infantry
-		cost = 5
-		prerequisite = {
-			focus = NOD_black_kalashy
-		}
-		x = 20
-		y = 6
-
+		y = 4
 		completion_reward = {
-			add_ideas = NOD_uvelichit_rozhdaemost
+		    add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 1000
+				producer = NOD
 			}
+				
+			add_tech_bonus = {
+			name = infantry_artillery_bonus
+			bonus = 1.0
+			uses = 1
+			category = infantry_weapons
+			}
+		}
 	}
 	shared_focus = {
 		id = NOD_rashirit_prisyv
 		icon = GFX_focus_bg_red_wreath_sold
 		cost = 5
 		prerequisite = {
-			focus = NOD_uvelichit_rozhdaemost
+			focus = NOD_black_kalashy
 		}
 		x = 20
-		y = 7
-completion_reward = {
+		y = 5
+		completion_reward = {
 			add_ideas = NOD_rashirit_prisyv
-			}
+		}
 	}
 	shared_focus = {
 		id = NOD_help_korpotsiy
