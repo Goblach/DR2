@@ -15,8 +15,11 @@ state={
 			infrastructure = 2
 			air_base = 1
 		}
-		add_core_of = IZR	
+		set_demilitarized_zone = yes	
         add_core_of = SIR 	
+		start_resistance = yes
+		set_resistance = 30
+		set_compliance = 10
 	}
 
 

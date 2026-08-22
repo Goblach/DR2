@@ -19,8 +19,10 @@ state={
 		victory_points = {
 			11976 1 
 		}
-
-		add_core_of = IZR
+		set_demilitarized_zone = yes
+		start_resistance = yes
+		set_resistance = 30
+		set_compliance = 10
 	}
 
 	provinces={

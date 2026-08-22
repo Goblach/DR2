@@ -123,4 +123,17 @@ characters={
 			legacy_id = 0
 		}
 	}
+	SIR_Alexander_Druz = {
+		name = "Александр Друзь"
+
+		portraits = {
+		    civilian={
+				large="gfx/leaders/SIR/Druz.dds"
+			}
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/SIR/Druz.dds"
+			}
+		}
+	}
 }
