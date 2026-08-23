@@ -6,7 +6,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = IRQ
+		owner = SIR
 		victory_points = {
 			3942 1
 		}
@@ -19,7 +19,6 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-		add_claim_by  = IRQ
 		add_core_of = SIR
 		add_core_of = KRA
 	}

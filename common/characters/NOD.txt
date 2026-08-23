@@ -62,7 +62,7 @@
 			}
 	    }
 	}	
-		NOD_Grisha_Putin = {
+	NOD_Grisha_Putin = {
 	name = "Григорий «GrishaPutin» Королёв"
 		portraits = {
 			army = {
@@ -146,6 +146,16 @@
 	    logistics_skill = 1
 		legacy_id = -1
         }
+		advisor = {
+			slot = political_advisor
+			allowed  = {
+				original_tag = NOD
+			}
+			idea_token = NOD_ozon
+			traits  = {
+				PHI_the_silent_killer 
+			}
+		}
 	}
 	NOD_zh12 = {
 	name = "Ж-12"
@@ -163,8 +173,8 @@
 		planning_skill = 1
 		logistics_skill = 2
 		legacy_id = -1
-		visible = {
-			has_completed_focus = NOD_funny_group
+			visible = {
+				has_completed_focus = NOD_funny_group
 			}
         }
 	}
@@ -241,7 +251,7 @@
         }
 	}
 	NOD_Nikita_Dzhigurda = {
-	name = "Никита Джигурда"
+		name = "Никита Джигурда"
 		portraits = {
 			army = {
 			    large = "gfx/leaders/NOD/Nikita_Dzhigurda.dds"
@@ -257,6 +267,49 @@
 	    logistics_skill = 1
 		legacy_id = -1
         }
+	}
+	NOD_Surovikin = {
+		name = "Сергей Суровикин"
+		portraits = {
+			army = {
+			    large = "gfx/leaders/NOD/Suravikin.dds"
+				small = "GFX_idea_NOD_Surovikin"
+			}
+		}
+		corps_commander = {
+		traits = { trait_engineer }
+	    skill = 3	
+	    attack_skill = 2
+	    defense_skill = 4
+	    planning_skill = 1
+	    logistics_skill = 2
+		legacy_id = -1
+        }
+		advisor = {
+			slot = high_command
+			idea_token = NOD_Surovikin
+			ledger = army
+			allowed = {
+			    original_tag = NOD
+			}
+			traits = { army_entrenchment_2 }
+			ai_will_do = {
+				factor = 1
+			}
+			cost = 100
+		}
+		advisor = {	
+			slot = air_chief
+			idea_token = NOD_Surovikin
+			allowed = {
+			    original_tag = NOD
+			}
+			traits = { air_strategic_bombing_2 }
+			ai_will_do = {
+				factor = 1
+			}
+			cost = 100
+		}
 	}
 	
 	NOD_patr_feodor = {

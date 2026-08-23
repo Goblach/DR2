@@ -1,0 +1,31 @@
+foreign_politics = {
+	IZR_peace_with_egypt = {
+		icon = generic_ignite_civil_war
+
+		allowed = { original_tag = IZR }		
+		
+		visible = {
+			has_war_with = EGY
+		}
+		
+		available = {
+			OR = {
+				SIR = { exists = no }
+				SIR = { is_subject_of = IZR }
+			}
+			TSB = { exists = no }
+			ARV = { exists = no }
+			controls_state = 453
+			controls_state = 446
+		}
+		
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = { factor = 200 }
+
+		complete_effect = {
+			white_peace = EGY
+		}
+	}
+}

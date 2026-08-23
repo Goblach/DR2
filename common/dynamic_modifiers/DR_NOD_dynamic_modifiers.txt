@@ -1,0 +1,15 @@
+NOD_army_dynamic_modifier = { #большая русская орда	
+	enable = { always = yes }
+	icon = GFX_idea_generic_morale_bonus
+
+    army_morale_factor = NOD_army_army_morale_factor
+	land_reinforce_rate = NOD_army_land_reinforce_rate
+    army_attack_factor = NOD_army_army_attack_factor
+	recon_factor = NOD_army_recon_factor
+	breakthrough_factor = NOD_army_breakthrough_factor
+    artillery_attack_factor = NOD_army_artillery_attack_factor
+	artillery_defence_factor = NOD_army_artillery_defence_factor
+    max_command_power = NOD_army_max_command_power
+	max_planning_factor = NOD_army_max_planning_factor	
+	coordination_bonus = NOD_army_coordination_bonus
+}

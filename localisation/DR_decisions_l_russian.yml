@@ -950,6 +950,7 @@
  UKR_attack_sin:0 "Атаковатi Волiнь"
  UKR_attack_mol:0 "Вiзволенiе Iзмаiла"
  KLG_vrag_y_vorot:0 "Враг у ворот"
+ KLG_vrag_y_vorot_desc:0 "Lorem ipsum"
  KLG_napadenie_mission:0 "Нападение"
  PBG_tsigane:0 "Противодействие цыган - вещь охуительная"
  PBG_tsigane_vori_UKE:0 "Томас Шелби напрягает политиканов"
@@ -977,3 +978,5 @@
  Britain_Core_127:0 "Интегрировать Сассекс"
  Britain_Core_338:0 "Интегрировать Глостершир"
  Britain_Core_123:0 "Интегрировать Юго-Западную Англию"
+ IZR_peace_with_egypt:0 "Мир с Египтом"
+ IZR_Druze_puppet:0 "Реорганизовать Сирию"

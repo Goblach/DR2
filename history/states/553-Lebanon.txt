@@ -20,9 +20,11 @@ state={
 				naval_base = 3
 			}
 		}
-
-		add_core_of = IZR
+		set_demilitarized_zone = yes
 		add_claim_by = SIR
+		start_resistance = yes
+		set_resistance = 30
+		set_compliance = 10
 	}
 
 	provinces={

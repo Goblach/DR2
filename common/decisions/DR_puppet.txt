@@ -118,4 +118,69 @@ DR_puppet_decisions_category = {
 			}
 		}
 	}
+	
+	IZR_Druze_puppet = { #Друзы Израиль
+	
+        icon = GFX_decision_generic_form_nation	
+		
+		visible = {
+			OR = {
+				AND = {
+					original_tag = IZR
+					controls_state = 553
+					controls_state = 554
+					controls_state = 680
+					controls_state = 677
+					controls_state = 799
+				}
+				AND = {
+					is_debug = yes
+					is_ai = no
+				}
+			}
+		}
+		
+		available = {
+			controls_state = 553
+			controls_state = 554
+			controls_state = 680
+			controls_state = 677
+			controls_state = 799
+		}
+		
+		fire_only_once = yes
+		days_remove = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			hidden_effect = {
+				SIR = {
+					add_country_leader_role = { 
+						character = SIR_Alexander_Druz
+						promote_leader = yes
+						country_leader = {   
+							ideology = despotism
+						}
+					}
+					set_country_leader_portrait = {
+						ideology = neutrality
+						portrait = "gfx/leaders/SIR/Druz.dds"
+					}				
+				}
+			}
+			IZR = { puppet = SIR }
+			SIR = {
+				transfer_state = 553
+				transfer_state = 554
+				transfer_state = 680
+				transfer_state = 677
+				transfer_state = 799
+				add_state_core = 553				
+				set_cosmetic_tag = SIR_druze
+				add_ideas = { IZR_SIR_druze }
+			}
+		}
+	}
 }
