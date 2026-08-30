@@ -357,65 +357,10 @@ completion_reward = {
 		}
 	}
 	focus = {
-		id = PBG_narodnyi_shelbi
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_party_kozirkov
-		}
-		mutually_exclusive = {
-			focus = PBG_svobodnyi_shelbi
-		}
-		x = 5
-		y = 7
-		completion_reward = {
-			add_stability = 0.1
-		}
-	}
-	focus = {
-		id = PBG_left_front
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_narodnyi_shelbi
-		}
-		mutually_exclusive = {
-			focus = PBG_iron_front
-		}
-		x = 4
-		y = 8
-		completion_reward = {
-			add_stability = 0.1
-		}
-	}
-	focus = {
-		id = PBG_iron_front
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_narodnyi_shelbi
-		}
-		mutually_exclusive = {
-			focus = PBG_left_front
-		}
-		x = 6
-		y = 8
-		completion_reward = {
-			add_stability = 0.1
-		}
-	}
-	focus = {
 		id = PBG_robin_good
 		icon = GFX_goal_unknown
 		cost = 5
-		prerequisite = {
-			focus = PBG_left_front
-			focus = PBG_iron_front
-		}
-		mutually_exclusive = {
-			focus = PBG_dogovor_burzhui
-		}
-		x = 4
+		x = 7
 		y = 9
 		completion_reward = {
 			add_stability = 0.1
@@ -425,45 +370,8 @@ completion_reward = {
 		id = PBG_dogovor_burzhui
 		icon = GFX_goal_unknown
 		cost = 5
-		prerequisite = {
-			focus = PBG_left_front
-			focus = PBG_iron_front
-		}
-		mutually_exclusive = {
-			focus = PBG_robin_good
-		}
-		x = 6
+		x = 9
 		y = 9
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = PBG_partiynui_sezd
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_robin_good
-			focus = PBG_dogovor_burzhui
-		}
-		x = 5
-		y = 10
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = PBG_leiborism_po_ponyatiem
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_partiynui_sezd
-		}
-		mutually_exclusive = {
-			focus = PBG_social_demokrat
-		}
-		x = 3
-		y = 11
 		completion_reward = {
 
 		}
@@ -475,21 +383,8 @@ completion_reward = {
 		prerequisite = {
 			focus = PBG_leiborism_po_ponyatiem
 		}
-		x = 2
-		y = 12
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = PBG_sekrets_of_atom
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_kembridj_3000
-		}
-		x = 2
-		y = 13
+		x = 8
+		y = 11
 		completion_reward = {
 
 		}
@@ -498,11 +393,8 @@ completion_reward = {
 		id = PBG_krysha_profsoyuzov
 		icon = GFX_goal_unknown
 		cost = 5
-		prerequisite = {
-			focus = PBG_leiborism_po_ponyatiem
-		}
-		x = 4
-		y = 12
+		x = 7
+		y = 11
 		completion_reward = {
 
 		}
@@ -511,11 +403,8 @@ completion_reward = {
 		id = PBG_pensii
 		icon = GFX_goal_unknown
 		cost = 5
-		prerequisite = {
-			focus = PBG_krysha_profsoyuzov
-		}
-		x = 4
-		y = 13
+		x = 7
+		y = 10
 		completion_reward = {
 
 		}
@@ -530,21 +419,24 @@ completion_reward = {
 		mutually_exclusive = {
 			focus = PBG_leiborism_po_ponyatiem
 		}
-		x = 7
-		y = 11
+		x = 10
+		y = 8
 		completion_reward = {
 
 		}
 	}
 	focus = {
-		id = PBG_have_not_job_go_to_Shelbi
+		id = PBG_leiborism_po_ponyatiem
 		icon = GFX_goal_unknown
 		cost = 5
 		prerequisite = {
+			focus = PBG_partiynui_sezd
+		}
+		mutually_exclusive = {
 			focus = PBG_social_demokrat
 		}
-		x = 6
-		y = 12
+		x = 8
+		y = 8
 		completion_reward = {
 
 		}
@@ -556,21 +448,8 @@ completion_reward = {
 		prerequisite = {
 			focus = PBG_have_not_job_go_to_Shelbi
 		}
-		x = 6
-		y = 13
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = PBG_ostrye_kraya_molnii
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_social_demokrat
-		}
-		x = 8
-		y = 12
+		x = 12
+		y = 10
 		completion_reward = {
 
 		}
@@ -580,106 +459,20 @@ completion_reward = {
 		icon = GFX_goal_unknown
 		cost = 5
 		prerequisite = {
-			focus = PBG_ostrye_kraya_molnii
-		}
-		x = 8
-		y = 13
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_svobodnyi_shelbi
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_party_kozirkov
-		}
-		mutually_exclusive = {
-			focus = PBG_narodnyi_shelbi
-		}
-		x = 13
-		y = 7
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_popriderjat_parney
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_svobodnyi_shelbi
-		}
-		mutually_exclusive = {
-			focus = PBG_gore_pobezhdenomu
+			focus = PBG_direct_rule_from_Birgingem
 		}
 		x = 12
-		y = 8
+		y = 11
 		completion_reward = {
 		
 		}
 	}
 	focus = {
-		id = PBG_gore_pobezhdenomu
+		id = PBG_ostrye_kraya_molnii
 		icon = GFX_goal_unknown
 		cost = 5
-		prerequisite = {
-			focus = PBG_svobodnyi_shelbi
-		}
-		mutually_exclusive = {
-			focus = PBG_popriderjat_parney
-		}
-		x = 14
-		y = 8
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_ne_pridumal_1
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_popriderjat_parney
-			focus = PBG_gore_pobezhdenomu
-		}
-		mutually_exclusive = {
-			focus = PBG_ne_pridumal_2
-		}
-		x = 12
+		x = 11
 		y = 9
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_ne_pridumal_2
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_popriderjat_parney
-			focus = PBG_gore_pobezhdenomu
-		}
-		mutually_exclusive = {
-			focus = PBG_ne_pridumal_1
-		}
-		x = 14
-		y = 9
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_budujee_Britanii
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_ne_pridumal_1
-			focus = PBG_ne_pridumal_2
-		}
-		x = 13
-		y = 10
 		completion_reward = {
 		
 		}
@@ -688,14 +481,11 @@ completion_reward = {
 		id = PBG_free_britain
 		icon = GFX_goal_unknown
 		cost = 5
-		prerequisite = {
-			focus = PBG_budujee_Britanii
-		}
 		mutually_exclusive = {
-			focus = PBG_28_days_after
+			focus = PBG_korol_cygan
 		}
-		x = 11
-		y = 11
+		x = 8
+		y = 7
 		completion_reward = {
 		
 		}
@@ -704,11 +494,8 @@ completion_reward = {
 		id = PBG_rasstrelat_chinush
 		icon = GFX_goal_unknown
 		cost = 5
-		prerequisite = {
-			focus = PBG_free_britain
-		}
 		x = 10
-		y = 12
+		y = 10
 		completion_reward = {
 		
 		}
@@ -721,7 +508,7 @@ completion_reward = {
 			focus = PBG_rasstrelat_chinush
 		}
 		x = 10
-		y = 13
+		y = 11
 		completion_reward = {
 		
 		}
@@ -730,40 +517,11 @@ completion_reward = {
 		id = PBG_korol_cygan
 		icon = GFX_goal_unknown
 		cost = 5
-		prerequisite = {
-			focus = PBG_free_britain
-		}
-		x = 12
-		y = 12
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_antiputlerism
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_korol_cygan
-		}
-		x = 12
-		y = 13
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_28_days_after
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_budujee_Britanii
-		}
 		mutually_exclusive = {
 			focus = PBG_free_britain
 		}
-		x = 15
-		y = 11
+		x = 10
+		y = 7
 		completion_reward = {
 		
 		}
@@ -775,7 +533,7 @@ completion_reward = {
 		prerequisite = {
 			focus = PBG_28_days_after
 		}
-		x = 14
+		x = 9
 		y = 12
 		completion_reward = {
 		
@@ -788,33 +546,7 @@ completion_reward = {
 		prerequisite = {
 			focus = PBG_i_become_death
 		}
-		x = 14
-		y = 13
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_kali_yuga
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_28_days_after
-		}
-		x = 16
-		y = 12
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_orda
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_kali_yuga
-		}
-		x = 16
+		x = 9
 		y = 13
 		completion_reward = {
 		
@@ -833,8 +565,51 @@ completion_reward = {
 			}
 			NOT = { country_exists = BRS }
 		}
-		x = 9
+		x = 5
 		y = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = PBG_kozirki_sans_frontiers
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PBG_izumrudnyi_ostrov
+		}
+		x = 5
+		y = 9
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = PBG_love
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 14
+		y = 8
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = PBG_sigma
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 13
+		y = 9
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = PBG_just_a_two_of_us
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 15
+		y = 9
 		completion_reward = {
 		
 		}
