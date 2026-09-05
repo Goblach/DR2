@@ -469,7 +469,7 @@ completion_reward = {
 	}
 	focus = {
 		id = PBG_ostrye_kraya_molnii
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_ostrye_kraya_molnii
 		cost = 5
 		x = 11
 		y = 9
@@ -502,7 +502,7 @@ completion_reward = {
 	}
 	focus = {
 		id = PBG_grecha_babushkam
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_grecha_babushkam
 		cost = 5
 		prerequisite = {
 			focus = PBG_rasstrelat_chinush

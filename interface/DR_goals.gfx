@@ -2447,4 +2447,14 @@ spriteTypes = {
 		name = "GFX_PBG_izumrudnyi_ostrov"
 		texturefile = "gfx/interface/goals/PBG_izumrudnyi_ostrov.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_grecha_babushkam"
+		texturefile = "gfx/interface/goals/PBG_grecha_babushkam.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_ostrye_kraya_molnii"
+		texturefile = "gfx/interface/goals/PBG_ostrye_kraya_molnii.dds"
+	}
 }	
