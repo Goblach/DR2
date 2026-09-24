@@ -35,10 +35,10 @@ KLG_dom_Sovetov
 }
 
 set_popularities = {
-	neutrality = 20
+	neutrality = 28
 	memoism = 10
 	anarhostalinism = 10
-	vmestolev = 28
+	vmestolev = 20
 	metacommy = 10
 	democratic = 11
 	fascism = 11

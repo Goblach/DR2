@@ -1,0 +1,20 @@
+add_namespace = ETR
+
+#
+country_event = {
+	id = ETR.1
+	title = ETR.1.t
+	desc = ETR.1.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = ETR
+	}
+	
+	option = {
+	        name = ETR.1.a
+		}	
+}
