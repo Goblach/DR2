@@ -48,4 +48,5 @@ set_politics = {
 	elections_allowed = no	
 }
 
+set_grand_doctrine = grand_battleplan
 set_convoys = 250
