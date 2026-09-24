@@ -21,14 +21,18 @@ KLG_vrag_y_vorot = { #Враг у ворот
 
 		timeout_effect = {
 			KLG_escalate_the_war_effect = yes 
-			news_event = dk_news.32
+			country_event = {id = baltwar.1}
+			hidden_effect = {
+					news_event = dk_news.32
+					activate_mission = KLG_escalation_1
+				}
 			VSB = {
 			    add_state_core = 763
 			    declare_war_on = {
         		    target = KLG
         		    type = annex_everything
         	    }
-				add_ideas = VSB_nastupleniye
+				hidden_effect = { add_ideas = VSB_nastupleniye }
 			}	
 			LUB = {
 			    add_state_core = 763
@@ -36,10 +40,244 @@ KLG_vrag_y_vorot = { #Враг у ворот
     	    	    target = KLG
     	    	    type = annex_everything
         	    }
-				add_ideas = VSB_nastupleniye
+				hidden_effect = { add_ideas = VSB_nastupleniye }
 	    	}
 	    }
     }
+	KLG_escalation_1 = {
+	allowed = { always = no }
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 60
+		
+		fire_only_once = yes                          
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			KLG_escalate_the_war_effect = yes 
+			add_stability = 0.02
+			add_war_support = 0.02
+			add_political_power = 20
+			hidden_effect = {
+					activate_mission = KLG_escalation_2
+				}
+		
+	    }
+	}
+	KLG_escalation_2 = {
+	allowed = { always = no }
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 70
+		
+		fire_only_once = yes                          
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			KLG_escalate_the_war_effect = yes 
+			country_event = {id = baltwar.2}
+			add_stability = 0.03
+			add_war_support = 0.03
+			add_political_power = 30
+			hidden_effect = {
+					activate_mission = KLG_escalation_3
+				}
+	    }
+	}
+	KLG_escalation_3 = {
+	allowed = { always = no }
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 70
+		
+		fire_only_once = yes                          
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			KLG_escalate_the_war_effect = yes 
+			country_event = {id = baltwar.3}
+			hidden_effect = {
+					activate_mission = KLG_escalation_4
+				}
+	    }
+	}
+	KLG_escalation_4 = {
+	allowed = { always = no }
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 70
+		
+		fire_only_once = yes                          
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			KLG_escalate_the_war_effect = yes 
+			country_event = {id = baltwar.4}
+			hidden_effect = {
+					activate_mission = KLG_escalation_5
+				}
+	    }
+	}
+	KLG_escalation_5 = {
+	allowed = { always = no }
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 200
+		
+		fire_only_once = yes                          
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			KLG_escalate_the_war_effect = yes 
+			SPL = { country_event = {id = baltwar.5} }
+			hidden_effect = {
+					activate_mission = KLG_escalation_6
+				}
+	    }
+	}
+	KLG_escalation_6 = {
+	allowed = { always = no }
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 200
+		
+		fire_only_once = yes                          
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			KLG_escalate_the_war_effect = yes 
+			
+			hidden_effect = {
+					activate_mission = KLG_escalation_7
+				}
+	    }
+	}
+	
+	KLG_escalation_7 = {
+	allowed = { always = no }
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 200
+		
+		fire_only_once = yes                          
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			KLG_escalate_the_war_effect = yes 
+			
+			hidden_effect = {
+					activate_mission = KLG_escalation_8
+				}
+	    }
+	}
+	
+	KLG_escalation_8 = {
+	allowed = { always = no }
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 200
+		
+		fire_only_once = yes                          
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			KLG_escalate_the_war_effect = yes 
+			
+			hidden_effect = {
+					activate_mission = KLG_escalation_9
+				}
+	    }
+	}
+	
+	KLG_escalation_9 = {
+	allowed = { always = no }
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 200
+		
+		fire_only_once = yes                          
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			KLG_escalate_the_war_effect = yes 
+			
+			hidden_effect = {
+					
+				}
+	    }
+	}
 }
 
 ETH_second_italo_ethiopian_war_category = {

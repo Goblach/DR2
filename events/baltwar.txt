@@ -1,0 +1,92 @@
+add_namespace = baltwar
+
+# Балтийская война
+country_event = {
+    id = baltwar.1
+	title = baltwar.1.t
+	desc = baltwar.1.d
+	picture = GFX_report_event_bunker_01
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {	tag = KLG
+				tag = LUB
+				tag = VSB 
+				}
+	}
+	
+	option = {
+	name = baltwar.1.a
+	}
+}
+
+country_event = {
+    id = baltwar.2
+	title = baltwar.2.t
+	desc = baltwar.2.d
+	picture = GFX_report_event_bunker_01
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = KLG
+	}
+	
+	option = {
+	name = baltwar.2.a
+	add_manpower = 20000
+	army_experience = 15
+	}
+}
+
+country_event = {
+    id = baltwar.3
+	title = baltwar.3.t
+	desc = baltwar.3.d
+	picture = GFX_report_event_bunker_01
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = KLG
+	}
+	
+	option = {
+	name = baltwar.3.a
+					add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 1000
+							producer = NOD
+						}
+					add_equipment_to_stockpile = {
+							type = anti_air_equipment
+							amount = 150
+							producer = TUP
+						}
+					add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 250
+							producer = POL
+						}
+	}
+}
+
+country_event = {
+    id = baltwar.4
+	title = baltwar.4.t
+	desc = baltwar.4.d
+	picture = GFX_report_event_bunker_01
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = KLG
+	}
+	
+	option = {
+	name = baltwar.4.a
+	
+	
+	}
+}

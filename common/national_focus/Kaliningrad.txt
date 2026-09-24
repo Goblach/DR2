@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = KLG_plohie_vesti
 		icon = GFX_goal_generic_forceful_treaty
-		cost = 1
+		cost = 2
 		x = 10
 		y = 0
 			completion_reward = {
@@ -24,7 +24,7 @@ focus_tree = {
 	focus = {
 		id = KLG_vystyplenie_Verhovnogoglavtokomanduyzhego
 		icon = GFX_focus_generic_support_the_left_right
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = KLG_plohie_vesti
 		}
@@ -40,7 +40,7 @@ focus_tree = {
 	focus = {
 		id = KLG_nachat_mobilizatsiy
 		icon = GFX_focus_generic_little_entente
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = KLG_vystyplenie_Verhovnogoglavtokomanduyzhego
 		}
@@ -50,14 +50,14 @@ focus_tree = {
         factor = 100
 		}
 			completion_reward = {
-					add_ideas = extensive_conscription
+					add_manpower = 15000
 				}
 
 	}
 	focus = {
 		id = KLG_otkrut_sklady
 		icon = GFX_goal_generic_small_arms
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = KLG_nachat_mobilizatsiy
 		}
@@ -88,7 +88,7 @@ focus_tree = {
 	focus = {
 		id = KLG_vydat_gun_people
 		icon = GFX_focus_generic_little_entente
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = KLG_otkrut_sklady
 		}
@@ -129,7 +129,7 @@ focus_tree = {
 	focus = {
 		id = KLG_lion_baltika
 		icon = GFX_focus_eng_special_air_service
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = KLG_nachat_mobilizatsiy
 		}
@@ -168,7 +168,7 @@ focus_tree = {
 	focus = {
 		id = KLG_komendantskiy_chas
 		icon = GFX_goal_generic_axis_build_infantry
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = KLG_lion_baltika
 		}
@@ -185,7 +185,7 @@ focus_tree = {
 	focus = {
 		id = KLG_prizvat_rekonstruktorov
 		icon = GFX_focus_generic_manpower
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = KLG_komendantskiy_chas
 		}
@@ -198,7 +198,7 @@ focus_tree = {
         factor = 100
 		}
 		    completion_reward = {
-					add_manpower = 15000
+					add_manpower = 25000
 				}
 
 	}
@@ -206,20 +206,33 @@ focus_tree = {
 		id = KLG_economoka_voennogo_vremeny
 		icon = GFX_focus_generic_tank_production
 		cost = 3
+		available = {
+				has_war_escalation_level_1 = yes 
+ 		}
 		prerequisite = {
 			focus = KLG_vystyplenie_Verhovnogoglavtokomanduyzhego
 		}
 		x = 14
 		y = 2
 			completion_reward = {
-					add_ideas = partial_economic_mobilisation
-				}
-
+			if = {
+				limit = {  
+					OR = { 	
+							has_idea = war_economy 
+							has_idea = tot_economic_mobilisation 
+						} 
+					}
+				 add_political_power = 150
+			}
+			else_if = {
+				add_ideas = war_economy
+			}
+		}
 	}
 	focus = {
 		id = KLG_do_more
 		icon = GFX_goal_generic_military_sphere
-		cost = 2
+		cost = 3
 		prerequisite = {
 			focus = KLG_nachat_mobilizatsiy
 			focus = KLG_economoka_voennogo_vremeny
@@ -237,7 +250,7 @@ focus_tree = {
 	focus = {
 		id = KLG_defense_liniya_yg
 		icon = GFX_goal_generic_fortify_city
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = KLG_do_more
 		}
@@ -270,7 +283,7 @@ focus_tree = {
 	focus = {
 		id = KLG_defense_liniya_sever
 		icon = GFX_goal_generic_defence
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = KLG_do_more
 		}
@@ -304,13 +317,16 @@ focus_tree = {
 		id = KLG_obligatsii_voen_zayma
 		icon = GFX_focus_cht_cumpital
 		cost = 2
+		available = {
+				has_war_escalation_level_1 = yes 
+ 		}
 		prerequisite = {
 			focus = KLG_economoka_voennogo_vremeny
 		}
 		x = 13
 		y = 3
 		    completion_reward = {
-					add_ideas = KLG_obligatsii_voen_zayma
+					add_ideas = KLG_obligatsii_voen_zayma 
 			}
 
 	}
@@ -318,20 +334,26 @@ focus_tree = {
 		id = KLG_trudovaya_mobilizatsiya
 		icon = GFX_goal_generic_construction2
 		cost = 3
+		available = {
+				has_war_escalation_level_1 = yes 
+ 		}
 		prerequisite = {
 			focus = KLG_obligatsii_voen_zayma
 		}
 		x = 13
 		y = 4
 		    completion_reward = {
-					add_ideas = KLG_obligatsii_voen_zayma
+					add_ideas = KLG_trudovaya_mobilizatsiya
 			}
 
 	}
 	focus = {
 		id = KLG_reconstruktsia_voennih_zavodov
 		icon = GFX_goal_generic_small_arms
-		cost = 2
+		cost = 6
+		available = {
+				has_war_escalation_level_1 = yes 
+ 		}
 		prerequisite = {
 			focus = KLG_economoka_voennogo_vremeny
 		}
@@ -368,13 +390,17 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
+						add_offsite_building = { type = arms_factory level = 1 }
 				}
 
 	}
 	focus = {
 		id = KLG_build_war_infrastryktyry
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 3
+		cost = 6
+		available = {
+				has_war_escalation_level_2 = yes 	
+ 		}
 		prerequisite = {
 			focus = KLG_reconstruktsia_voennih_zavodov
 		}
@@ -388,13 +414,32 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
+					763 = {
+							add_building_construction = {
+									type = radar_station
+									level = 1
+									instant_build = yes
+								}
+						}
+					763 = {
+							add_building_construction = {
+									type = anti_air_building
+									level = 2
+									instant_build = yes
+								}
+						}
 				}
 
 	}
 	focus = {
 		id = KLG_narastit_dobychu_yantarya
 		icon = GFX_goal_generic_position_armies
-		cost = 3
+		cost = 6
+		available = {
+ 			OR = {
+				has_war_escalation_level_3 = yes 
+ 			}
+ 		}
 		prerequisite = {
 			focus = KLG_trudovaya_mobilizatsiya
 		}
@@ -407,13 +452,14 @@ focus_tree = {
 					763 = {
 							add_extra_state_shared_building_slots = 3
 						}
+						add_offsite_building = { type = industrial_complex level = 2 }    
 				}
 
 	}
 	focus = {
 		id = KLG_time_to_war
 		icon = GFX_focus_generic_strike_at_democracy1
-		cost = 3
+		cost = 6
 		prerequisite = {
 			focus = KLG_narastit_dobychu_yantarya
 		}

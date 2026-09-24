@@ -24,11 +24,12 @@ recruit_character = KLG_Suren
 recruit_character = KLG_Taifun
 recruit_character = KLG_Eva_Panda
 recruit_character = KLG_Hors
+recruit_character = KLG_Taganay
 
 activate_mission = KLG_napadenie_mission
 
 add_ideas = {
-limited_conscription
+extensive_conscription
 low_economic_mobilisation
 KLG_dom_Sovetov
 }

@@ -980,6 +980,10 @@ spriteTypes = {
 		name = "GFX_idea_FSK_William_Wallace"
 		texturefile = "gfx/interface/ideas/idea_FSK_William_Wallace.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_KLG_Taganay"
+		texturefile = "gfx/interface/ideas/idea_KLG_Taganay.dds"
+	}
 	#ВНИМАНИЕ-ПРИСУТСТВУЕТ-АНИМАЦИЯ
 	#spriteType = {
 	#	name = "GFX_POK_novodvorskaya_ap"

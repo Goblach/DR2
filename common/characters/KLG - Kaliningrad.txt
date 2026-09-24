@@ -7,6 +7,7 @@ characters={
 			}
 			army = {
 				large = "gfx/leaders/KLG/Andrey_general.dds"
+				small = ""
 			}
 		}
 		country_leader = {
@@ -18,7 +19,7 @@ characters={
 		    id=-1
 	    }
 		field_marshal = {
-	    traits = { infantry_officer }
+	    traits = { inflexible_strategist infantry_officer }
 	    skill = 2
 	    attack_skill = 3
 	    defense_skill = 2
@@ -35,17 +36,18 @@ characters={
 			}
 			army = {
 				large = "gfx/leaders/KLG/Suren_general.dds"
+				small = ""
 			}
 		}
 		country_leader = {
 		    ideology = marxismus
-			traits = {		     
+			traits = {	red_army_organizer	     
 	        }
 	        expire = "1999.1.1"
 		    id=-1
 	    }
 		field_marshal = {
-	    traits = { infantry_officer }
+	    traits = { trait_cautious thorough_planner infantry_officer }
 	    skill = 2
 	    attack_skill = 3
 	    defense_skill = 2
@@ -53,6 +55,20 @@ characters={
 	    logistics_skill = 2
 		legacy_id = -1
         }
+		advisor = {
+			slot = theorist
+			idea_token = KLG_Suren
+			ledger = military
+			allowed = {
+				original_tag = KLG
+			}
+			available = {  
+				is_country_leader = no
+			}
+			
+			traits = { grand_battle_plan_expert }
+			cost = 150
+		}
     }
 	KLG_Taifun = {
 		name = "Тайфун"
@@ -62,10 +78,11 @@ characters={
 			}
 			army = {
 				large = "gfx/leaders/KLG/Taifun.dds"
+				small = ""
 			}
 		}
 		corps_commander = {
-	    traits = { infantry_officer }
+	    traits = { media_personality infantry_officer }
 	    skill = 1
 	    attack_skill = 2
 	    defense_skill = 1
@@ -73,6 +90,40 @@ characters={
 	    logistics_skill = 1
 		legacy_id = -1
         }
+    }
+	KLG_Taganay = {
+		name = "Даниил «Таганай» Ковалев"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KLG/Taganay.dds"				
+			}
+			army = {
+				large = "gfx/leaders/KLG/Taganay.dds"
+				small = "GFX_idea_KLG_Taganay"
+			}
+		}
+		corps_commander = {
+	    traits = { infantry_officer }
+	    skill = 2
+	    attack_skill = 2
+	    defense_skill = 3
+	    planning_skill = 3
+	    logistics_skill = 2
+		legacy_id = -1
+        }
+		advisor = {
+			slot = army_chief
+			idea_token = KLG_Taganay
+			allowed = {
+				original_tag = KLG
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+			cost = 100
+
+			visible = {   }
+		}
     }
 	KLG_Eva_Panda = {
 		name = "Ева Панда"
@@ -82,6 +133,7 @@ characters={
 			}
 			army = {
 				large = "gfx/leaders/KLG/Eva_Panda.dds"
+				small = ""
 			}
 		}
 		corps_commander = {
@@ -102,6 +154,7 @@ characters={
 			}
 			army = {
 				large = "gfx/leaders/KLG/Hors.dds"
+				small = ""
 			}
 		}
 		corps_commander = {
