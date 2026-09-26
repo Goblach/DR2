@@ -163,7 +163,7 @@ characters={
 	}
 	
 		DON_SexDNR = {
-		name = "«Секс»"
+		name = "Сергей «Секс» Жолобенко"
 
 		portraits = {
 			army = {

@@ -14,7 +14,11 @@ focus_tree = {
 		cost = 3,00
 		x = 13
 		y = 0
-
+		completion_reward = {
+					country_event = {
+							id = ETR.1
+						}
+				}
 	}
 	focus = {
 		id = ETR_nyzni_vse
