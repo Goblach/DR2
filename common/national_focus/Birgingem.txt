@@ -443,7 +443,7 @@ completion_reward = {
 	}
 	focus = {
 		id = PBG_direct_rule_from_Birgingem
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_direct_rule_from_Birgingem
 		cost = 5
 		prerequisite = {
 			focus = PBG_have_not_job_go_to_Shelbi
@@ -456,7 +456,7 @@ completion_reward = {
 	}
 	focus = {
 		id = PBG_formula_1
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_formula_1
 		cost = 5
 		prerequisite = {
 			focus = PBG_direct_rule_from_Birgingem

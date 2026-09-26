@@ -2457,4 +2457,14 @@ spriteTypes = {
 		name = "GFX_PBG_ostrye_kraya_molnii"
 		texturefile = "gfx/interface/goals/PBG_ostrye_kraya_molnii.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_direct_rule_from_Birgingem"
+		texturefile = "gfx/interface/goals/PBG_direct_rule_from_Birgingem.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_formula_1"
+		texturefile = "gfx/interface/goals/PBG_formula_1.dds"
+	}
 }	
