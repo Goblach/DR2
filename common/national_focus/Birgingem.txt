@@ -8,35 +8,174 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 2 y = 2000 }
+	continuous_focus_position = { x = 1500 y = 100 }
 	focus = {
 		id = PBG_vedy
 		icon = GFX_PBG_vedy
 		cost = 3,00
 		x = 9
 		y = 0
-		completion_reward = {
-			set_power_balance = {
-				id = PBG_karma_balance 
-			}
-			country_event = { id = PBG.1 }
+			completion_reward = {
+					set_power_balance = {
+							id = PBG_karma_balance
+						}
+					country_event = {
+							id = PBG.1
+						}
+				}
+
+	}
+	focus = {
+		id = PBG_kembridj_3000
+		icon = GFX_goal_unknown
+		cost = 5,00
+		x = 16
+		y = 7
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_social_demokrat
+		icon = GFX_goal_unknown
+		cost = 5,00
+		x = 11
+		y = 7
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_leiborism_po_ponyatiem
+		icon = GFX_goal_unknown
+		cost = 5,00
+		x = 7
+		y = 7
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_free_britain
+		icon = GFX_goal_unknown
+		cost = 5,00
+		x = 1
+		y = 7
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PGB_London_arhiv
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = PBG_izumrudnyi_ostrov
+		icon = GFX_PBG_izumrudnyi_ostrov
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_free_britain
 		}
+		x = 0
+		y = 8
+			available = {
+					OR = {
+							has_completed_focus = PBG_leiborism_po_ponyatiem
+							has_completed_focus = PBG_social_demokrat
+							has_completed_focus = PBG_free_britain
+							has_completed_focus = PBG_28_days_after
+						}
+					NOT = {
+							country_exists = BRS
+						}
+				}
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_diplomaticheskie_kontacti
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_free_britain
+		}
+		x = 2
+		y = 8
+
+	}
+	focus = {
+		id = PBG_kozirki_sans_frontiers
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_izumrudnyi_ostrov
+		}
+		prerequisite = {
+			focus = PBG_diplomaticheskie_kontacti
+		}
+		x = 1
+		y = 9
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_robin_good
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_leiborism_po_ponyatiem
+		}
+		x = 6
+		y = 8
+			completion_reward = {
+					add_stability = 0.1
+				}
+
+	}
+	focus = {
+		id = PBG_rasstrelat_chinush
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_robin_good
+		}
+		x = 5
+		y = 9
+			completion_reward = {
+
+}
+
 	}
 	focus = {
 		id = PBG_mi_iz_birgingema
 		icon = GFX_PBG_mi_iz_birgingema
 		cost = 5,00
-		x = 9
-		y = 1
 		prerequisite = {
 			focus = PBG_vedy
 		}
-		completion_reward = {
-			add_political_power = 100
-			add_war_support = 0.05
-			add_manpower = 10000
-			country_event = { id = PBG.2 }
-		}
+		x = 9
+		y = 1
+			completion_reward = {
+					add_political_power = 100
+					add_war_support = 0.05
+					add_manpower = 10000
+					country_event = {
+							id = PBG.2
+						}
+				}
+
 	}
 	focus = {
 		id = PBG_organizovat_skachky
@@ -47,34 +186,192 @@ focus_tree = {
 		}
 		x = 6
 		y = 2
-completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
-			add_manpower = 2000
-	division_template = {
-					name = "Gypsy"
-					division_names_group = PBG_KONI_01
-					template_counter = 23
-
-		regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 } 
-		cavalry = { x = 1 y = 2 }
-	}
-	support = {
-		artillery = { x = 0 y = 1 }	
-	}
+			completion_reward = {
+					add_political_power = 100
+					add_stability = 0.1
+					add_manpower = 2000
+					division_template = {
+							name = "Gypsy"
+							division_names_group = PBG_KONI_01
+							template_counter = 23
+							regiments = {
+									cavalry = {
+											x = 0
+											y = 0
+										}
+									cavalry = {
+											x = 0
+											y = 1
+										}
+									cavalry = {
+											x = 0
+											y = 2
+										}
+									cavalry = {
+											x = 1
+											y = 0
+										}
+									cavalry = {
+											x = 1
+											y = 1
+										}
+									cavalry = {
+											x = 1
+											y = 2
+										}
+								}
+							support = {
+									artillery = {
+											x = 0
+											y = 1
+										}
+								}
+						}
+					capital_scope = {
+							create_unit = {
+									division = "name = \"Цыганский табор\" division_template = \"Gypsy\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+									owner = ROOT
+								}
+						}
 				}
 
-				capital_scope = {
-					create_unit = { 
-						division = "name = \"Цыганский табор\" division_template = \"Gypsy\" start_experience_factor = 1.0 start_equipment_factor = 1.0" owner = ROOT
-					}
-				}
+	}
+	focus = {
+		id = PBG_pensii
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_robin_good
 		}
+		x = 7
+		y = 9
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_grecha_babushkam
+		icon = GFX_PBG_grecha_babushkam
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_rasstrelat_chinush
+		}
+		prerequisite = {
+			focus = PBG_pensii
+		}
+		x = 6
+		y = 10
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_za_tebya_porvu
+		icon = GFX_PBG_za_tebya_porvu
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_mi_iz_birgingema
+		}
+		x = 8
+		y = 2
+			completion_reward = {
+					add_ideas = PBG_za_tebya_porvu
+					add_power_balance_value = {
+							id = PBG_karma_balance
+							value = 0.2
+						}
+					add_corps_commander_role = {
+							character = PBG_Jonh_Shelby
+							traits = { politically_connected  cavalry_leader }
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+							legacy_id = -1
+						}
+					add_corps_commander_role = {
+							character = PBG_Arthur_Shelby
+							traits = { politically_connected  cavalry_leader }
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+							legacy_id = -1
+						}
+				}
+
+	}
+	focus = {
+		id = PBG_shelby_prav
+		icon = GFX_PBG_shelby_prav
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_za_tebya_porvu
+		}
+		prerequisite = {
+			focus = PBG_organizovat_skachky
+		}
+		x = 7
+		y = 3
+			completion_reward = {
+					add_research_slot = 1
+				}
+
+	}
+	focus = {
+		id = PBG_cigane
+		icon = GFX_PBG_cigane
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_mi_iz_birgingema
+		}
+		x = 10
+		y = 2
+			completion_reward = {
+					add_ideas = PBG_cigane
+					add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 2000
+							producer = PBG
+						}
+					add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 1000
+							producer = PBG
+						}
+					add_corps_commander_role = {
+							character = PBG_Mikkie_ONill
+							traits = {
+
+}
+							skill = 3
+							attack_skill = 4
+							defense_skill = 3
+							planning_skill = 4
+							logistics_skill = 4
+							legacy_id = -1
+						}
+				}
+
+	}
+	focus = {
+		id = PBG_kontrobanda
+		icon = GFX_PBG_kontrobanda
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_mi_iz_birgingema
+		}
+		x = 12
+		y = 2
+			completion_reward = {
+					add_ideas = free_trade
+					add_ideas = PBG_kontrobanda
+				}
+
 	}
 	focus = {
 		id = PBG_vragi_so_vseh_storon
@@ -94,57 +391,207 @@ completion_reward = {
 		}
 		x = 9
 		y = 3
-completion_reward = {
-			add_ideas = PBG_vragi_so_vseh_storon
-			country_event = { id = PBG.3 }
-		}
+			completion_reward = {
+					add_ideas = PBG_vragi_so_vseh_storon
+					country_event = {
+							id = PBG.3
+						}
+				}
+
 	}
 	focus = {
-		id = PBG_cigane
-		icon = GFX_PBG_cigane
+		id = PBG_Ira
+		icon = GFX_PBG_Ira
 		cost = 5,00
 		prerequisite = {
-			focus = PBG_mi_iz_birgingema
+			focus = PBG_vragi_so_vseh_storon
+		}
+		mutually_exclusive = {
+			focus = PBG_Pinkfloyd
+		}
+		x = 8
+		y = 4
+			completion_reward = {
+					give_guarantee = KOF
+					KOF = {
+							give_guarantee = PBG
+						}
+				}
+
+	}
+	focus = {
+		id = PBG_obchistit_partkassy
+		icon = GFX_PBG_obchistit_partkassy
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_Ira
+		}
+		x = 7
+		y = 5
+			completion_reward = {
+					add_political_power = 100
+					country_event = {
+							id = PBG.4
+						}
+				}
+
+	}
+	focus = {
+		id = PBG_Pinkfloyd
+		icon = GFX_PBG_Pinkfloyd
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_vragi_so_vseh_storon
+		}
+		mutually_exclusive = {
+			focus = PBG_Ira
 		}
 		x = 10
-		y = 2
-completion_reward = {
-				add_ideas = PBG_cigane
-				add_equipment_to_stockpile = {
-							type = infantry_equipment_0
-							amount = 2000
-							producer = PBG
+		y = 4
+			completion_reward = {
+					give_guarantee = UBR
+					UBR = {
+							give_guarantee = PBG
 						}
-				add_equipment_to_stockpile = {
-							type = support_equipment
-							amount = 1000
-							producer = PBG
-						}
-add_corps_commander_role = {
-			character = PBG_Mikkie_ONill
-			traits = { }
-	        skill = 3
-	        attack_skill = 4
-	        defense_skill = 3
-	        planning_skill = 4
-	        logistics_skill = 4
-		    legacy_id = -1
-            }						
-		}
+				}
+
 	}
 	focus = {
-		id = PBG_kontrobanda
-		icon = GFX_PBG_kontrobanda
+		id = PBG_udar_v_spinu
+		icon = GFX_PBG_udar_v_spinu
+		cost = 8,00
+		prerequisite = {
+			focus = PBG_Ira
+			focus = PBG_Pinkfloyd
+		}
+		x = 9
+		y = 5
+			available = {
+					has_war = yes
+				}
+			completion_reward = {
+					add_power_balance_value = {
+							id = PBG_karma_balance
+							value = -0.1
+						}
+					if = {
+							limit = {
+									has_completed_focus = PBG_Pinkfloyd
+								}
+							PBG = {
+									declare_war_on = {
+											target = UBR
+											type = annex_everything
+										}
+									add_state_claim = 130
+									add_state_claim = 131
+									add_state_claim = 132
+								}
+							UBR = {
+									add_state_claim = 128
+								}
+						}
+					if = {
+							limit = {
+									has_completed_focus = PBG_Ira
+								}
+							PBG = {
+									declare_war_on = {
+											target = KOF
+											type = annex_everything
+										}
+									add_state_claim = 120
+									add_state_claim = 122
+									add_state_claim = 123
+								}
+							KOF = {
+									add_state_claim = 128
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = PBG_ukrast_keltskoe_oryzhie
+		icon = GFX_PBG_ukrast_keltskoe_oryzhie
 		cost = 5,00
 		prerequisite = {
-			focus = PBG_mi_iz_birgingema
+			focus = PBG_Pinkfloyd
 		}
-		x = 12
-		y = 2
-		completion_reward = {
-		    add_ideas = free_trade
-			add_ideas = PBG_kontrobanda
+		x = 11
+		y = 5
+			completion_reward = {
+					army_experience = 50
+					country_event = {
+							id = PBG.6
+						}
+				}
+
+	}
+	focus = {
+		id = PBG_party_kozirkov
+		icon = GFX_PBG_party_kozirkov
+		cost = 6,00
+		prerequisite = {
+			focus = PBG_obchistit_partkassy
+			focus = PBG_ukrast_keltskoe_oryzhie
 		}
+		x = 9
+		y = 6
+			completion_reward = {
+					add_power_balance_value = {
+							id = PBG_karma_balance
+							value = 0.2
+						}
+					add_stability = 0.1
+					remove_ideas = PBG_criminal_volnica
+				}
+
+	}
+	focus = {
+		id = PBG_love
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_leiborism_po_ponyatiem
+		}
+		prerequisite = {
+			focus = PBG_social_demokrat
+		}
+		x = 9
+		y = 8
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_korol_cygan
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_love
+		}
+		x = 9
+		y = 9
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_krysha_profsoyuzov
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_korol_cygan
+		}
+		x = 9
+		y = 10
+			completion_reward = {
+
+}
+
 	}
 	focus = {
 		id = PBG_stalker_birmingem
@@ -158,460 +605,160 @@ add_corps_commander_role = {
 		}
 		x = 11
 		y = 3
-		completion_reward = {
-			add_political_power = -100
-			custom_effect_tooltip = PBG_stalker_birmingem_tt
-		}
-	}
-	focus = {
-		id = PBG_za_tebya_porvu
-		icon = GFX_PBG_za_tebya_porvu
-		cost = 5
-			prerequisite = {
-			focus = PBG_mi_iz_birgingema
-		}
-		x = 8
-		y = 2
-completion_reward = {
-				add_ideas = PBG_za_tebya_porvu
-				add_power_balance_value = {
-				id = PBG_karma_balance 
-				value = 0.2
-			}
-			add_corps_commander_role = {
-			character = PBG_Jonh_Shelby
-			traits = { politically_connected cavalry_leader }
-	        skill = 1
-	        attack_skill = 1
-	        defense_skill = 1
-	        planning_skill = 1
-	        logistics_skill = 1
-		    legacy_id = -1
-            }
-			add_corps_commander_role = {
-			character = PBG_Arthur_Shelby
-			traits = { politically_connected cavalry_leader }
-	        skill = 1
-	        attack_skill = 1
-	        defense_skill = 1
-	        planning_skill = 1
-	        logistics_skill = 1
-		    legacy_id = -1
-            }
-		}
-	}
-	focus = {
-		id = PBG_shelby_prav
-		icon = GFX_PBG_shelby_prav
-		cost = 10,00
-		prerequisite = {
-			focus = PBG_za_tebya_porvu
-		}
-		prerequisite = {
-			focus = PBG_organizovat_skachky
-		}
-		x = 7
-		y = 3
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-	focus = {
-		id = PBG_Ira
-		icon = GFX_PBG_Ira
-		cost = 5
-		prerequisite = {
-			focus = PBG_vragi_so_vseh_storon
-		}
-		mutually_exclusive = {
-			focus = PBG_Pinkfloyd
-		}
-		x = 8
-		y = 4
-		completion_reward = {
-		give_guarantee = KOF
-		KOF = {
-		give_guarantee = PBG
-		}
-}
-	}
-	focus = {
-		id = PBG_obchistit_partkassy
-		icon = GFX_PBG_obchistit_partkassy
-		cost = 5
-		prerequisite = {
-			focus = PBG_Ira
-		}
-		x = 7
-		y = 5
-		completion_reward = {
-			add_political_power = 100
-			country_event = { id = PBG.4 }
-		}
-	}
-	focus = {
-		id = PBG_Pinkfloyd
-		icon = GFX_PBG_Pinkfloyd
-		cost = 5
-		prerequisite = {
-			focus = PBG_vragi_so_vseh_storon
-		}
-		mutually_exclusive = {
-			focus = PBG_Ira
-		}
-		x = 10
-		y = 4
-    completion_reward = {
-		give_guarantee = UBR
-		UBR = {
-		give_guarantee = PBG
-		}
-		}
-	}
-	focus = {
-		id = PBG_udar_v_spinu
-		icon = GFX_PBG_udar_v_spinu
-		cost = 8
-		prerequisite = {
-			focus = PBG_Ira
-			focus = PBG_Pinkfloyd
-		}
-		available = {
-			has_war = yes
-		}
-		x = 9
-		y = 5
-		completion_reward = {
-			add_power_balance_value = {
-				id = PBG_karma_balance 
-				value = -0.1
-			}
-			if = {
-				limit = {
-					has_completed_focus = PBG_Pinkfloyd
+			completion_reward = {
+					add_political_power = -100
+					custom_effect_tooltip = PBG_stalker_birmingem_tt
 				}
-				PBG = {			
-					declare_war_on = {
-						target = UBR
-						type = annex_everything
-					}
-					add_state_claim = 130
-					add_state_claim = 131
-					add_state_claim = 132
-				}
-				UBR = {
-					add_state_claim = 128
-				}
-			}
-			if = {
-				limit = {
-					has_completed_focus = PBG_Ira
-				}
-				PBG = {			
-					declare_war_on = {
-						target = KOF
-						type = annex_everything
-					}
-					add_state_claim = 120
-					add_state_claim = 122
-					add_state_claim = 123
-				}
-				KOF = {
-					add_state_claim = 128
-				}
-			}
-		}
-	}
-	focus = {
-		id = PBG_ukrast_keltskoe_oryzhie
-		icon = GFX_PBG_ukrast_keltskoe_oryzhie
-		cost = 5
-		prerequisite = {
-			focus = PBG_Pinkfloyd
-		}
-		x = 11
-		y = 5
-		completion_reward = {
-		army_experience = 50
-        country_event = { id = PBG.6 }
-}
-	}
-	focus = {
-		id = PBG_party_kozirkov
-		icon = GFX_PBG_party_kozirkov
-		cost = 6
-		prerequisite = {
-			focus = PBG_obchistit_partkassy
-			focus = PBG_ukrast_keltskoe_oryzhie
-		}
 
-		x = 9
-		y = 6
-		completion_reward = {
-			add_power_balance_value = {
-				id = PBG_karma_balance 
-				value = 0.2
-			}
-			add_stability = 0.1
-			remove_ideas = PBG_criminal_volnica
-		}
-	}
-	focus = {
-		id = PBG_robin_good
-		icon = GFX_goal_unknown
-		cost = 5
-		x = 7
-		y = 9
-		completion_reward = {
-			add_stability = 0.1
-		}
-	}
-	focus = {
-		id = PBG_dogovor_burzhui
-		icon = GFX_goal_unknown
-		cost = 5
-		x = 9
-		y = 9
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = PBG_kembridj_3000
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_leiborism_po_ponyatiem
-		}
-		x = 8
-		y = 11
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = PBG_krysha_profsoyuzov
-		icon = GFX_goal_unknown
-		cost = 5
-		x = 7
-		y = 11
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = PBG_pensii
-		icon = GFX_goal_unknown
-		cost = 5
-		x = 7
-		y = 10
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = PBG_social_demokrat
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_partiynui_sezd
-		}
-		mutually_exclusive = {
-			focus = PBG_leiborism_po_ponyatiem
-		}
-		x = 10
-		y = 8
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = PBG_leiborism_po_ponyatiem
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_partiynui_sezd
-		}
-		mutually_exclusive = {
-			focus = PBG_social_demokrat
-		}
-		x = 8
-		y = 8
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = PBG_direct_rule_from_Birgingem
-		icon = GFX_PBG_direct_rule_from_Birgingem
-		cost = 5
-		prerequisite = {
-			focus = PBG_have_not_job_go_to_Shelbi
-		}
-		x = 12
-		y = 10
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = PBG_formula_1
-		icon = GFX_PBG_formula_1
-		cost = 5
-		prerequisite = {
-			focus = PBG_direct_rule_from_Birgingem
-		}
-		x = 12
-		y = 11
-		completion_reward = {
-		
-		}
 	}
 	focus = {
 		id = PBG_ostrye_kraya_molnii
 		icon = GFX_PBG_ostrye_kraya_molnii
-		cost = 5
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_social_demokrat
+		}
+		x = 12
+		y = 8
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_dogovor_burzhui
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_ostrye_kraya_molnii
+		}
 		x = 11
 		y = 9
-		completion_reward = {
-		
-		}
+			completion_reward = {
+
+}
+
 	}
 	focus = {
-		id = PBG_free_britain
-		icon = GFX_goal_unknown
-		cost = 5
-		mutually_exclusive = {
-			focus = PBG_korol_cygan
-		}
-		x = 8
-		y = 7
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_rasstrelat_chinush
-		icon = GFX_PBG_rasstrelat_chinush
-		cost = 5
-		x = 10
-		y = 10
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_grecha_babushkam
-		icon = GFX_PBG_grecha_babushkam
-		cost = 5
+		id = PBG_formula_1
+		icon = GFX_PBG_formula_1
+		cost = 5,00
 		prerequisite = {
-			focus = PBG_rasstrelat_chinush
+			focus = PBG_ostrye_kraya_molnii
 		}
-		x = 10
-		y = 11
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_korol_cygan
-		icon = GFX_goal_unknown
-		cost = 5
-		mutually_exclusive = {
-			focus = PBG_free_britain
-		}
-		x = 10
-		y = 7
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_i_become_death
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_28_days_after
-		}
-		x = 9
-		y = 12
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_the_destroyer_of_worlds
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_i_become_death
-		}
-		x = 9
-		y = 13
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_izumrudnyi_ostrov
-		icon = GFX_PBG_izumrudnyi_ostrov
-		cost = 5
-		available = {
-			OR = {
-				has_completed_focus = PBG_leiborism_po_ponyatiem
-				has_completed_focus = PBG_social_demokrat
-				has_completed_focus = PBG_free_britain
-				has_completed_focus = PBG_28_days_after
-			}
-			NOT = { country_exists = BRS }
-		}
-		x = 5
-		y = 8
-		completion_reward = {
-		
-		}
-	}
-	focus = {
-		id = PBG_kozirki_sans_frontiers
-		icon = GFX_goal_unknown
-		cost = 5
-		prerequisite = {
-			focus = PBG_izumrudnyi_ostrov
-		}
-		x = 5
+		x = 13
 		y = 9
-		completion_reward = {
-		
-		}
+			completion_reward = {
+
+}
+
 	}
 	focus = {
-		id = PBG_love
-		icon = GFX_goal_unknown
-		cost = 5
-		x = 14
-		y = 8
-		completion_reward = {
-		
+		id = PBG_direct_rule_from_Birgingem
+		icon = GFX_PBG_direct_rule_from_Birgingem
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_dogovor_burzhui
 		}
+		prerequisite = {
+			focus = PBG_formula_1
+		}
+		x = 12
+		y = 10
+			completion_reward = {
+
+}
+
 	}
 	focus = {
 		id = PBG_sigma
 		icon = GFX_goal_unknown
-		cost = 5
-		x = 13
-		y = 9
-		completion_reward = {
-		
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_direct_rule_from_Birgingem
 		}
+		prerequisite = {
+			focus = PBG_krysha_profsoyuzov
+		}
+		prerequisite = {
+			focus = PBG_grecha_babushkam
+		}
+		mutually_exclusive = {
+			focus = PBG_just_a_two_of_us
+		}
+		x = 11
+		y = 11
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_i_become_death
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_kembridj_3000
+		}
+		prerequisite = {
+			focus = PGB_London_arhiv
+		}
+		x = 17
+		y = 8
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_the_destroyer_of_worlds
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_i_become_death
+		}
+		x = 17
+		y = 9
+			completion_reward = {
+
+}
+
 	}
 	focus = {
 		id = PBG_just_a_two_of_us
 		icon = GFX_goal_unknown
-		cost = 5
-		x = 15
-		y = 9
-		completion_reward = {
-		
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_grecha_babushkam
 		}
+		prerequisite = {
+			focus = PBG_krysha_profsoyuzov
+		}
+		prerequisite = {
+			focus = PBG_direct_rule_from_Birgingem
+		}
+		mutually_exclusive = {
+			focus = PBG_sigma
+		}
+		x = 7
+		y = 11
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_end_of_the_line
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_just_a_two_of_us
+		}
+		prerequisite = {
+			focus = PBG_sigma
+		}
+		x = 9
+		y = 12
+
 	}
 }
