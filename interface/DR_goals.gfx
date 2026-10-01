@@ -2467,4 +2467,9 @@ spriteTypes = {
 		name = "GFX_PBG_formula_1"
 		texturefile = "gfx/interface/goals/PBG_formula_1.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_rasstrelat_chinush"
+		texturefile = "gfx/interface/goals/PBG_rasstrelat_chinush.dds"
+	}
 }	

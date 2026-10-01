@@ -492,7 +492,7 @@ completion_reward = {
 	}
 	focus = {
 		id = PBG_rasstrelat_chinush
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_rasstrelat_chinush
 		cost = 5
 		x = 10
 		y = 10
