@@ -2472,4 +2472,14 @@ spriteTypes = {
 		name = "GFX_PBG_rasstrelat_chinush"
 		texturefile = "gfx/interface/goals/PBG_rasstrelat_chinush.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_dogovor_burzhui"
+		texturefile = "gfx/interface/goals/PBG_dogovor_burzhui.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_korol_cygan"
+		texturefile = "gfx/interface/goals/PBG_korol_cygan.dds"
+	}
 }	

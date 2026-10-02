@@ -567,7 +567,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_korol_cygan
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_korol_cygan
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_love
@@ -627,7 +627,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_dogovor_burzhui
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_dogovor_burzhui
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_ostrye_kraya_molnii
