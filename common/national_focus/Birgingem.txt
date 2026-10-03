@@ -29,8 +29,8 @@ focus_tree = {
 		id = PBG_kembridj_3000
 		icon = GFX_PBG_kembridj_3000
 		cost = 5,00
-		x = 16
-		y = 7
+		x = 20
+		y = 8
 			completion_reward = {
 
 }
@@ -41,7 +41,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 5,00
 		x = 11
-		y = 7
+		y = 8
 			completion_reward = {
 
 }
@@ -52,7 +52,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 5,00
 		x = 7
-		y = 7
+		y = 8
 			completion_reward = {
 
 }
@@ -62,8 +62,8 @@ focus_tree = {
 		id = PBG_free_britain
 		icon = GFX_goal_unknown
 		cost = 5,00
-		x = 1
-		y = 7
+		x = 17
+		y = 8
 			completion_reward = {
 
 }
@@ -73,61 +73,8 @@ focus_tree = {
 		id = PGB_London_arhiv
 		icon = GFX_goal_unknown
 		cost = 10,00
-		x = 18
-		y = 7
-
-	}
-	focus = {
-		id = PBG_izumrudnyi_ostrov
-		icon = GFX_PBG_izumrudnyi_ostrov
-		cost = 5,00
-		prerequisite = {
-			focus = PBG_free_britain
-		}
-		x = 0
+		x = 22
 		y = 8
-			available = {
-					OR = {
-							has_completed_focus = PBG_leiborism_po_ponyatiem
-							has_completed_focus = PBG_social_demokrat
-							has_completed_focus = PBG_free_britain
-							has_completed_focus = PBG_28_days_after
-						}
-					NOT = {
-							country_exists = BRS
-						}
-				}
-			completion_reward = {
-
-}
-
-	}
-	focus = {
-		id = PBG_diplomaticheskie_kontacti
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = PBG_free_britain
-		}
-		x = 2
-		y = 8
-
-	}
-	focus = {
-		id = PBG_kozirki_sans_frontiers
-		icon = GFX_goal_unknown
-		cost = 5,00
-		prerequisite = {
-			focus = PBG_izumrudnyi_ostrov
-		}
-		prerequisite = {
-			focus = PBG_diplomaticheskie_kontacti
-		}
-		x = 1
-		y = 9
-			completion_reward = {
-
-}
 
 	}
 	focus = {
@@ -138,7 +85,7 @@ focus_tree = {
 			focus = PBG_leiborism_po_ponyatiem
 		}
 		x = 6
-		y = 8
+		y = 9
 			completion_reward = {
 					add_stability = 0.1
 				}
@@ -152,7 +99,7 @@ focus_tree = {
 			focus = PBG_robin_good
 		}
 		x = 5
-		y = 9
+		y = 10
 			completion_reward = {
 
 }
@@ -234,37 +181,6 @@ focus_tree = {
 								}
 						}
 				}
-
-	}
-	focus = {
-		id = PBG_pensii
-		icon = GFX_PBG_pensii
-		cost = 5,00
-		prerequisite = {
-			focus = PBG_robin_good
-		}
-		x = 7
-		y = 9
-			completion_reward = {
-
-}
-
-	}
-	focus = {
-		id = PBG_grecha_babushkam
-		icon = GFX_PBG_grecha_babushkam
-		cost = 5,00
-		prerequisite = {
-			focus = PBG_rasstrelat_chinush
-		}
-		prerequisite = {
-			focus = PBG_pensii
-		}
-		x = 6
-		y = 10
-			completion_reward = {
-
-}
 
 	}
 	focus = {
@@ -437,6 +353,17 @@ focus_tree = {
 
 	}
 	focus = {
+		id = PBG_Pismo_Chumdoka_to_english_worker
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_obchistit_partkassy
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
 		id = PBG_Pinkfloyd
 		icon = GFX_PBG_Pinkfloyd
 		cost = 5,00
@@ -529,68 +456,27 @@ focus_tree = {
 
 	}
 	focus = {
-		id = PBG_party_kozirkov
-		icon = GFX_PBG_party_kozirkov
-		cost = 6,00
+		id = PBG_ukrepit_granitsu
+		icon = GFX_goal_unknown
+		cost = 10,00
 		prerequisite = {
 			focus = PBG_obchistit_partkassy
 			focus = PBG_ukrast_keltskoe_oryzhie
 		}
-		x = 9
+		x = 10
 		y = 6
-			completion_reward = {
-					add_power_balance_value = {
-							id = PBG_karma_balance
-							value = 0.2
-						}
-					add_stability = 0.1
-					remove_ideas = PBG_criminal_volnica
-				}
 
 	}
 	focus = {
-		id = PBG_love
+		id = PBG_obshiy_sbor
 		icon = GFX_goal_unknown
-		cost = 5,00
+		cost = 10,00
 		prerequisite = {
-			focus = PBG_leiborism_po_ponyatiem
+			focus = PBG_obchistit_partkassy
+			focus = PBG_ukrast_keltskoe_oryzhie
 		}
-		prerequisite = {
-			focus = PBG_social_demokrat
-		}
-		x = 9
-		y = 8
-			completion_reward = {
-
-}
-
-	}
-	focus = {
-		id = PBG_korol_cygan
-		icon = GFX_PBG_korol_cygan
-		cost = 5,00
-		prerequisite = {
-			focus = PBG_love
-		}
-		x = 9
-		y = 9
-			completion_reward = {
-
-}
-
-	}
-	focus = {
-		id = PBG_krysha_profsoyuzov
-		icon = GFX_PBG_krysha_profsoyuzov
-		cost = 5,00
-		prerequisite = {
-			focus = PBG_korol_cygan
-		}
-		x = 9
-		y = 10
-			completion_reward = {
-
-}
+		x = 6
+		y = 6
 
 	}
 	focus = {
@@ -619,7 +505,7 @@ focus_tree = {
 			focus = PBG_social_demokrat
 		}
 		x = 12
-		y = 8
+		y = 9
 			completion_reward = {
 
 }
@@ -633,10 +519,22 @@ focus_tree = {
 			focus = PBG_ostrye_kraya_molnii
 		}
 		x = 11
-		y = 9
+		y = 10
 			completion_reward = {
 
 }
+
+	}
+	focus = {
+		id = PBG_kustarniy_zombi_virus
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_ukrast_keltskoe_oryzhie
+			focus = PBG_obchistit_partkassy
+		}
+		x = 12
+		y = 6
 
 	}
 	focus = {
@@ -647,7 +545,7 @@ focus_tree = {
 			focus = PBG_ostrye_kraya_molnii
 		}
 		x = 13
-		y = 9
+		y = 10
 			completion_reward = {
 
 }
@@ -664,7 +562,220 @@ focus_tree = {
 			focus = PBG_formula_1
 		}
 		x = 12
+		y = 11
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_The_Wind_That_Shakes_the_Barley
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_ukrast_keltskoe_oryzhie
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = PBG_izumrudnyi_ostrov
+		icon = GFX_PBG_izumrudnyi_ostrov
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_free_britain
+		}
+		x = 16
+		y = 9
+			available = {
+					OR = {
+							has_completed_focus = PBG_leiborism_po_ponyatiem
+							has_completed_focus = PBG_social_demokrat
+							has_completed_focus = PBG_free_britain
+							has_completed_focus = PBG_28_days_after
+						}
+					NOT = {
+							country_exists = BRS
+						}
+				}
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_diplomaticheskie_kontacti
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_free_britain
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = PBG_kozirki_sans_frontiers
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_izumrudnyi_ostrov
+		}
+		prerequisite = {
+			focus = PBG_diplomaticheskie_kontacti
+		}
+		x = 16
 		y = 10
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_russian_svazy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_diplomaticheskie_kontacti
+		}
+		prerequisite = {
+			focus = PBG_kembridj_3000
+		}
+		x = 19
+		y = 10
+
+	}
+	focus = {
+		id = PBG_i_become_death
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_kembridj_3000
+		}
+		prerequisite = {
+			focus = PGB_London_arhiv
+		}
+		x = 21
+		y = 9
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_the_destroyer_of_worlds
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_i_become_death
+		}
+		x = 21
+		y = 10
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_pensii
+		icon = GFX_PBG_pensii
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_robin_good
+		}
+		x = 7
+		y = 10
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_grecha_babushkam
+		icon = GFX_PBG_grecha_babushkam
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_rasstrelat_chinush
+		}
+		prerequisite = {
+			focus = PBG_pensii
+		}
+		x = 6
+		y = 11
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_party_kozirkov
+		icon = GFX_PBG_party_kozirkov
+		cost = 6,00
+		prerequisite = {
+			focus = PBG_obshiy_sbor
+		}
+		prerequisite = {
+			focus = PBG_Night_call_Nolon
+		}
+		prerequisite = {
+			focus = PBG_ukrepit_granitsu
+		}
+		prerequisite = {
+			focus = PBG_kustarniy_zombi_virus
+		}
+		x = 9
+		y = 7
+			completion_reward = {
+					add_power_balance_value = {
+							id = PBG_karma_balance
+							value = 0.2
+						}
+					add_stability = 0.1
+					remove_ideas = PBG_criminal_volnica
+				}
+
+	}
+	focus = {
+		id = PBG_love
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_leiborism_po_ponyatiem
+		}
+		prerequisite = {
+			focus = PBG_social_demokrat
+		}
+		x = 9
+		y = 9
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_korol_cygan
+		icon = GFX_PBG_korol_cygan
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_love
+		}
+		x = 9
+		y = 10
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = PBG_krysha_profsoyuzov
+		icon = GFX_PBG_krysha_profsoyuzov
+		cost = 5,00
+		prerequisite = {
+			focus = PBG_korol_cygan
+		}
+		x = 9
+		y = 11
 			completion_reward = {
 
 }
@@ -687,38 +798,7 @@ focus_tree = {
 			focus = PBG_just_a_two_of_us
 		}
 		x = 11
-		y = 11
-			completion_reward = {
-
-}
-
-	}
-	focus = {
-		id = PBG_i_become_death
-		icon = GFX_goal_unknown
-		cost = 5,00
-		prerequisite = {
-			focus = PBG_kembridj_3000
-		}
-		prerequisite = {
-			focus = PGB_London_arhiv
-		}
-		x = 17
-		y = 8
-			completion_reward = {
-
-}
-
-	}
-	focus = {
-		id = PBG_the_destroyer_of_worlds
-		icon = GFX_goal_unknown
-		cost = 5,00
-		prerequisite = {
-			focus = PBG_i_become_death
-		}
-		x = 17
-		y = 9
+		y = 12
 			completion_reward = {
 
 }
@@ -741,7 +821,7 @@ focus_tree = {
 			focus = PBG_sigma
 		}
 		x = 7
-		y = 11
+		y = 12
 			completion_reward = {
 
 }
@@ -758,7 +838,33 @@ focus_tree = {
 			focus = PBG_sigma
 		}
 		x = 9
-		y = 12
+		y = 13
+
+	}
+	focus = {
+		id = PBG_Night_call_Nolon
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PBG_obchistit_partkassy
+			focus = PBG_ukrast_keltskoe_oryzhie
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = PBG_VEDRO_project
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = PGB_London_arhiv
+		}
+		prerequisite = {
+			focus = PBG_kembridj_3000
+		}
+		x = 23
+		y = 9
 
 	}
 }
