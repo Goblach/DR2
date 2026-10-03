@@ -2482,4 +2482,29 @@ spriteTypes = {
 		name = "GFX_PBG_korol_cygan"
 		texturefile = "gfx/interface/goals/PBG_korol_cygan.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_krysha_profsoyuzov"
+		texturefile = "gfx/interface/goals/PBG_krysha_profsoyuzov.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_sigma"
+		texturefile = "gfx/interface/goals/PBG_sigma.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_pensii"
+		texturefile = "gfx/interface/goals/PBG_pensii.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_robin_good"
+		texturefile = "gfx/interface/goals/PBG_robin_good.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_kembridj_3000"
+		texturefile = "gfx/interface/goals/PBG_kembridj_3000.dds"
+	}
 }	

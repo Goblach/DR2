@@ -27,7 +27,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_kembridj_3000
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_kembridj_3000
 		cost = 5,00
 		x = 16
 		y = 7
@@ -132,7 +132,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_robin_good
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_robin_good
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_leiborism_po_ponyatiem
@@ -238,7 +238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_pensii
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_pensii
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_robin_good
@@ -581,7 +581,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_krysha_profsoyuzov
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_krysha_profsoyuzov
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_korol_cygan
@@ -672,7 +672,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_sigma
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_sigma
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_direct_rule_from_Birgingem
