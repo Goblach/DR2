@@ -2507,4 +2507,14 @@ spriteTypes = {
 		name = "GFX_PBG_kembridj_3000"
 		texturefile = "gfx/interface/goals/PBG_kembridj_3000.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_leiborism_po_ponyatiem"
+		texturefile = "gfx/interface/goals/PBG_leiborism_po_ponyatiem.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_social_demokrat"
+		texturefile = "gfx/interface/goals/PBG_social_demokrat.dds"
+	}
 }	
