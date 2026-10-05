@@ -2517,4 +2517,54 @@ spriteTypes = {
 		name = "GFX_PBG_social_demokrat"
 		texturefile = "gfx/interface/goals/PBG_social_demokrat.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_social_demokrat"
+		texturefile = "gfx/interface/goals/PBG_social_demokrat.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_free_britain"
+		texturefile = "gfx/interface/goals/PBG_free_britain.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_kozirki_sans_frontiers"
+		texturefile = "gfx/interface/goals/PBG_kozirki_sans_frontiers.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_diplomaticheskie_kontacti"
+		texturefile = "gfx/interface/goals/PBG_diplomaticheskie_kontacti.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_kustarniy_zombi_virus"
+		texturefile = "gfx/interface/goals/PBG_kustarniy_zombi_virus.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_ukrepit_granitsu"
+		texturefile = "gfx/interface/goals/PBG_ukrepit_granitsu.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_obshiy_sbor"
+		texturefile = "gfx/interface/goals/PBG_obshiy_sbor.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_Pismo_Chumdoka_to_english_worker"
+		texturefile = "gfx/interface/goals/PBG_Pismo_Chumdoka_to_english_worker.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_The_Wind_That_Shakes_the_Barley"
+		texturefile = "gfx/interface/goals/PBG_The_Wind_That_Shakes_the_Barley.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_russian_svazy"
+		texturefile = "gfx/interface/goals/PBG_russian_svazy.dds"
+	}
 }	

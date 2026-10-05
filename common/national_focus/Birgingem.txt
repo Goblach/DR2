@@ -60,7 +60,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_free_britain
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_free_britain
 		cost = 5,00
 		x = 17
 		y = 8
@@ -354,7 +354,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_Pismo_Chumdoka_to_english_worker
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_Pismo_Chumdoka_to_english_worker
 		cost = 10,00
 		prerequisite = {
 			focus = PBG_obchistit_partkassy
@@ -457,7 +457,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_ukrepit_granitsu
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_ukrepit_granitsu
 		cost = 10,00
 		prerequisite = {
 			focus = PBG_obchistit_partkassy
@@ -469,7 +469,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_obshiy_sbor
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_obshiy_sbor
 		cost = 10,00
 		prerequisite = {
 			focus = PBG_obchistit_partkassy
@@ -527,7 +527,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_kustarniy_zombi_virus
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_kustarniy_zombi_virus
 		cost = 10,00
 		prerequisite = {
 			focus = PBG_ukrast_keltskoe_oryzhie
@@ -570,7 +570,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_The_Wind_That_Shakes_the_Barley
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_The_Wind_That_Shakes_the_Barley
 		cost = 10,00
 		prerequisite = {
 			focus = PBG_ukrast_keltskoe_oryzhie
@@ -606,7 +606,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_diplomaticheskie_kontacti
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_diplomaticheskie_kontacti
 		cost = 10,00
 		prerequisite = {
 			focus = PBG_free_britain
@@ -617,7 +617,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_kozirki_sans_frontiers
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_kozirki_sans_frontiers
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_izumrudnyi_ostrov
@@ -634,7 +634,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_russian_svazy
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_russian_svazy
 		cost = 10,00
 		prerequisite = {
 			focus = PBG_diplomaticheskie_kontacti
