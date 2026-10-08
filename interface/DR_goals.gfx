@@ -2567,4 +2567,44 @@ spriteTypes = {
 		name = "GFX_PBG_russian_svazy"
 		texturefile = "gfx/interface/goals/PBG_russian_svazy.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_i_become_death"
+		texturefile = "gfx/interface/goals/PBG_i_become_death.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_the_destroyer_of_worlds"
+		texturefile = "gfx/interface/goals/PBG_the_destroyer_of_worlds.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PGB_London_arhiv"
+		texturefile = "gfx/interface/goals/PGB_London_arhiv.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_Night_call_Nolon"
+		texturefile = "gfx/interface/goals/PBG_Night_call_Nolon.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_VEDRO_project"
+		texturefile = "gfx/interface/goals/PBG_VEDRO_project.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_love"
+		texturefile = "gfx/interface/goals/PBG_love.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_just_a_two_of_us"
+		texturefile = "gfx/interface/goals/PBG_just_a_two_of_us.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_PBG_end_of_the_line"
+		texturefile = "gfx/interface/goals/PBG_end_of_the_line.dds"
+	}
 }	

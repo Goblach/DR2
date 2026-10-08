@@ -71,7 +71,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PGB_London_arhiv
-		icon = GFX_goal_unknown
+		icon = GFX_PGB_London_arhiv
 		cost = 10,00
 		x = 22
 		y = 8
@@ -93,7 +93,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_rasstrelat_chinush
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_rasstrelat_chinush
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_robin_good
@@ -355,7 +355,7 @@ focus_tree = {
 	focus = {
 		id = PBG_Pismo_Chumdoka_to_english_worker
 		icon = GFX_PBG_Pismo_Chumdoka_to_english_worker
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_obchistit_partkassy
 		}
@@ -458,7 +458,7 @@ focus_tree = {
 	focus = {
 		id = PBG_ukrepit_granitsu
 		icon = GFX_PBG_ukrepit_granitsu
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_obchistit_partkassy
 			focus = PBG_ukrast_keltskoe_oryzhie
@@ -470,7 +470,7 @@ focus_tree = {
 	focus = {
 		id = PBG_obshiy_sbor
 		icon = GFX_PBG_obshiy_sbor
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_obchistit_partkassy
 			focus = PBG_ukrast_keltskoe_oryzhie
@@ -482,7 +482,7 @@ focus_tree = {
 	focus = {
 		id = PBG_stalker_birmingem
 		icon = GFX_PBG_stalker_birmingem
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_kontrobanda
 		}
@@ -528,7 +528,7 @@ focus_tree = {
 	focus = {
 		id = PBG_kustarniy_zombi_virus
 		icon = GFX_PBG_kustarniy_zombi_virus
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_ukrast_keltskoe_oryzhie
 			focus = PBG_obchistit_partkassy
@@ -571,7 +571,7 @@ focus_tree = {
 	focus = {
 		id = PBG_The_Wind_That_Shakes_the_Barley
 		icon = GFX_PBG_The_Wind_That_Shakes_the_Barley
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_ukrast_keltskoe_oryzhie
 		}
@@ -607,7 +607,7 @@ focus_tree = {
 	focus = {
 		id = PBG_diplomaticheskie_kontacti
 		icon = GFX_PBG_diplomaticheskie_kontacti
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_free_britain
 		}
@@ -648,7 +648,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_i_become_death
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_the_destroyer_of_worlds
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_kembridj_3000
@@ -665,7 +665,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_the_destroyer_of_worlds
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_i_become_death
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_i_become_death
@@ -738,7 +738,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_love
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_love
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_leiborism_po_ponyatiem
@@ -806,7 +806,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_just_a_two_of_us
-		icon = GFX_goal_unknown
+		icon = GFX_PBG_just_a_two_of_us
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_grecha_babushkam
@@ -829,8 +829,8 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_end_of_the_line
-		icon = GFX_goal_unknown
-		cost = 10,00
+		icon = GFX_PBG_end_of_the_line
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_just_a_two_of_us
 		}
@@ -843,8 +843,8 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_Night_call_Nolon
-		icon = GFX_goal_unknown
-		cost = 10,00
+		icon = GFX_PBG_Night_call_Nolon
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_obchistit_partkassy
 			focus = PBG_ukrast_keltskoe_oryzhie
@@ -855,8 +855,8 @@ focus_tree = {
 	}
 	focus = {
 		id = PBG_VEDRO_project
-		icon = GFX_goal_unknown
-		cost = 10,00
+		icon = GFX_PBG_VEDRO_project
+		cost = 5,00
 		prerequisite = {
 			focus = PGB_London_arhiv
 		}
