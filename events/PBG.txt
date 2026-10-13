@@ -151,9 +151,14 @@ country_event = {
 							amount = 200
 							producer = PBG
 						}
+		add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 200
+							producer = PBG
+						}
 						add_manpower = -500
 	 }
-	 10 = {
+	 15 = {
 	     128 = {
 		 add_resource = {
 									type = oil
@@ -163,7 +168,7 @@ country_event = {
 						add_manpower = -500   
 					  
 	 }
-	 15 = {
+	 10 = {
 	      add_equipment_to_stockpile = {
 							type = transport_plane_equipment_1
 							amount = 10
@@ -172,45 +177,31 @@ country_event = {
 						add_manpower = -500   
 					  
 	 }
-	 25 = {
-	     add_equipment_to_stockpile = {
-							type = support_equipment
-							amount = 500
-							producer = PBG
-						}
+	 10 = {
 						add_manpower = -500    
 					  
 	 }
-	 15 = { 
- add_equipment_to_stockpile = {
-							type =  artillery_equipment_1
-							amount = 12
+	 25 = { 
+						add_equipment = {
+							type =  interwar_antitank
+							amount = 100
 							producer = PBG
 						}
-						add_equipment_to_stockpile = {
-							type =  anti_air_equipment_1
-							amount = 12
-							producer = PBG
-						}
-						add_equipment_to_stockpile = {
-							type =   anti_tank_equipment_1
-							amount = 12
+						add_equipment = {
+							type =   gw_artillery
+							amount = 100
 							producer = PBG
 						}
 						add_manpower = -500  
 	                    
 	 }
-	  10 = {
-	     add_equipment_to_stockpile = {
-							type = amphibious_tank_equipment_1
-							amount = 20
-							producer = PBG
-						}
+	  15 = {
 		add_equipment_to_stockpile = {
-							type = gw_tank_equipment
+							type = medium_tank_chassis_1
 							amount = 20
-							producer = PBG
+							producer = UBR
 						}
+						
 						add_manpower = -500    
 					  
 	 }
