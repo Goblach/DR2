@@ -984,6 +984,14 @@ spriteTypes = {
 		name = "GFX_idea_KLG_Taganay"
 		texturefile = "gfx/interface/ideas/idea_KLG_Taganay.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_UKE_Chris_Nolan"
+		texturefile = "gfx/interface/ideas/idea_UKE_Chris_Nolan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PBG_Solomon_Alfi"
+		texturefile = "gfx/interface/ideas/idea_PBG_Solomon_Alfi.dds"
+	}
 	#ВНИМАНИЕ-ПРИСУТСТВУЕТ-АНИМАЦИЯ
 	#spriteType = {
 	#	name = "GFX_POK_novodvorskaya_ap"

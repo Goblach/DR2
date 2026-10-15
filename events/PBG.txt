@@ -170,7 +170,7 @@ country_event = {
 	 }
 	 10 = {
 	      add_equipment_to_stockpile = {
-							type = transport_plane_equipment_1
+							type = transport_plane_equipment
 							amount = 10
 							producer = PBG
 						}
@@ -182,14 +182,14 @@ country_event = {
 					  
 	 }
 	 25 = { 
-						add_equipment = {
-							type =  interwar_antitank
+						add_equipment_to_stockpile = {
+							type =   artillery_equipment_1
 							amount = 100
 							producer = PBG
 						}
-						add_equipment = {
-							type =   gw_artillery
-							amount = 100
+						add_equipment_to_stockpile = {
+							type =   anti_tank_equipment_1
+							amount = 50
 							producer = PBG
 						}
 						add_manpower = -500  
@@ -243,6 +243,61 @@ add_equipment_to_stockpile = {
 							producer = KOF
 						}
 						add_manpower = -500
+	}
+	
+}
+country_event = { 
+
+	id = PBG.7
+        title = PBG.7.t
+        desc = PBG.7.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.7.a
+		add_power_balance_value = {
+    id = PBG_karma_balance
+    value = -0.05
+}
+UBR = { add_stability = -0.05 }
+	}
+	option = {
+		name = PBG.7.b
+		add_power_balance_value = {
+    id = PBG_karma_balance 
+    value = 0.05
+}
+	}
+	
+}
+country_event = { 
+
+	id = PBG.8
+        title = PBG.8.t
+        desc = PBG.8.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.8.a
+		add_power_balance_value = {
+    id = PBG_karma_balance
+    value = -0.05
+}
+add_ideas = PBG_SVOi
+add_political_power = -100
+	}
+	option = {
+		name = PBG.8.b
+		add_power_balance_value = {
+    id = PBG_karma_balance 
+    value = 0.05
+}
+UKE = { UKE_Chris_Nolan = { set_nationality = PBG }}
+add_political_power = -350
 	}
 	
 }

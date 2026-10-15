@@ -13,4 +13,28 @@ characters={
 		    id=-1
 	    }
     }
+	
+	UKE_Chris_Nolan = {
+		name = "Кристофер Нолан"
+		portraits = {
+			civilian = {
+			    small = "GFX_idea_UKE_Chris_Nolan"
+				large = "gfx/leaders/UKE/Chris_Nolan.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = UKE_Chris_Nolan
+			allowed = {
+				original_tag = UKE
+			}			
+			available = {
+				
+			}
+			traits = { propaganda_expert }
+			ai_will_do = {
+				factor = 2
+			}
+	    }
+    }
 }

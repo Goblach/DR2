@@ -14,9 +14,7 @@ ideas = {
 		PBG_vragi_so_vseh_storon = {
 			picture = generic_purge
 			modifier = {
-                conscription_factor = 0.2
 				war_support_factor = 0.1
-				army_morale_factor = 0.1
 		    }
 			targeted_modifier = {
 			    tag = UKE
@@ -63,6 +61,20 @@ ideas = {
 			}
 			modifier = {
             consumer_goods_factor = -0.1
+		    }
+	    }
+		PBG_obshiy_sbor = {
+			picture = generic_purge
+			modifier = {
+            conscription_factor = 0.2
+			army_morale_factor = 0.1
+		    }
+	    }
+		
+		PBG_SVOi = {
+			picture = generic_purge
+			modifier = {
+			    operative_slot = 1
 		    }
 	    }
 	}
