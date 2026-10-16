@@ -19,6 +19,16 @@ characters={
 	        expire = "1999.1.1"
 		    id=-1
 	    }
+		
+		country_leader = {
+			desc = "POLITICS_SHELBY_DESC"
+		    ideology = anti_politarism
+			traits = {
+				bykvalno_i
+	        }
+	        expire = "1999.1.1"
+		    id=-1
+	    }
 		field_marshal = {
 	    traits = { war_hero organisational_leader cavalry_expert }
 	    skill = 8

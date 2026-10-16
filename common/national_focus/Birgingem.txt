@@ -31,6 +31,10 @@ focus_tree = {
 		cost = 5,00
 		x = 20
 		y = 8
+			available = {
+			has_completed_focus = PBG_shelby_prav
+			has_completed_focus = PBG_stalker_birmingem
+			}
 			completion_reward = {
 
 }
@@ -40,6 +44,12 @@ focus_tree = {
 		id = PBG_social_demokrat
 		icon = GFX_PBG_social_demokrat
 		cost = 5,00
+		prerequisite = {
+		focus = PBG_party_kozirkov 
+		}
+		mutually_exclusive = {
+			focus = PBG_leiborism_po_ponyatiem
+		}
 		x = 11
 		y = 8
 			completion_reward = {
@@ -51,6 +61,12 @@ focus_tree = {
 		id = PBG_leiborism_po_ponyatiem
 		icon = GFX_PBG_leiborism_po_ponyatiem
 		cost = 5,00
+		prerequisite = {
+		focus = PBG_party_kozirkov 
+		}
+		mutually_exclusive = {
+			focus = PBG_social_demokrat
+		}
 		x = 7
 		y = 8
 			completion_reward = {
@@ -67,6 +83,13 @@ add_popularity = {
 		cost = 5,00
 		x = 17
 		y = 8
+		available = {
+		has_war = no
+		NOT = {
+							country_exists = UBR
+							country_exists = UKE
+						}
+					}
 			completion_reward = {
 
 }
@@ -78,6 +101,9 @@ add_popularity = {
 		cost = 10,00
 		x = 22
 		y = 8
+		available = {
+		controls_state = 126
+		}
 
 	}
 	focus = {
@@ -685,7 +711,6 @@ add_equipment_to_stockpile = {
 							has_completed_focus = PBG_leiborism_po_ponyatiem
 							has_completed_focus = PBG_social_demokrat
 							has_completed_focus = PBG_free_britain
-							has_completed_focus = PBG_28_days_after
 						}
 					NOT = {
 							country_exists = BRS
@@ -824,6 +849,9 @@ add_equipment_to_stockpile = {
 						}
 					add_stability = 0.1
 					remove_ideas = PBG_criminal_volnica
+					country_event = {
+							id = PBG.10
+						}
 				}
 
 	}
@@ -833,8 +861,6 @@ add_equipment_to_stockpile = {
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_leiborism_po_ponyatiem
-		}
-		prerequisite = {
 			focus = PBG_social_demokrat
 		}
 		x = 9
@@ -878,12 +904,10 @@ add_equipment_to_stockpile = {
 		cost = 5,00
 		prerequisite = {
 			focus = PBG_direct_rule_from_Birgingem
+			focus = PBG_grecha_babushkam
 		}
 		prerequisite = {
 			focus = PBG_krysha_profsoyuzov
-		}
-		prerequisite = {
-			focus = PBG_grecha_babushkam
 		}
 		mutually_exclusive = {
 			focus = PBG_just_a_two_of_us
@@ -900,13 +924,11 @@ add_equipment_to_stockpile = {
 		icon = GFX_PBG_just_a_two_of_us
 		cost = 5,00
 		prerequisite = {
+			focus = PBG_direct_rule_from_Birgingem
 			focus = PBG_grecha_babushkam
 		}
 		prerequisite = {
 			focus = PBG_krysha_profsoyuzov
-		}
-		prerequisite = {
-			focus = PBG_direct_rule_from_Birgingem
 		}
 		mutually_exclusive = {
 			focus = PBG_sigma

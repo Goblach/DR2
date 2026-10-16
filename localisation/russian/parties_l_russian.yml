@@ -572,6 +572,12 @@
  KOF_memoism_party_long:0 "Партия любителей виски"
  KOF_metacommy_party:0 "Новая Подлинная КРА"
  KOF_metacommy_party_long:0 "Новая Подлинная Кельтская республиканская армия"
+ 
+ PBG_socdem_party:0 "Социал-демократы Британии"
+ PBG_socdem_party_long:0 "Социал-Демократическая Партия Британии"
+ PBG_labor_party:0 "Новые Лейбористы"
+ PBG_labor_party_long:0 "Новая Лейбористская Партия Британии"
+ 
  ############Кавказ###########
  GEO_neutrality_party:0 "Гейсовет РГ"
  GEO_neutrality_party_long:0 "Геймерский совет Республики Грузия"
