@@ -131,3 +131,101 @@ PBG_tsigane = {
 		}
 	}
 	}
+PBG_bebra = {
+PBG_bebra_zombi = {
+
+	allowed = {
+			original_tag = PBG
+		}
+		fire_only_once = yes
+		visible = {
+		has_completed_focus = PBG_kustarniy_zombi_virus
+		}
+		
+		cost = 300
+
+		ai_will_do = {
+			factor = 100
+			}
+		
+		icon = ger_mefo_bills
+
+		available = {
+			has_war = yes
+			surrender_progress > 0.7
+			has_political_power > 300
+		}
+		days_remove = 70
+		remove_effect = {
+add_political_power = -300
+add_popularity = {
+                ideology = memoism
+                popularity = 0.30
+            }
+			add_ideas = PBG_zombi
+			
+			division_template = {
+							name = "Zombi"
+							division_names_group = PBG_ZOMBI_01
+							template_counter = 45
+							regiments = {
+									penal_battalion = {
+											x = 0
+											y = 0
+										}
+									penal_battalion = {
+											x = 0
+											y = 1
+										}
+									penal_battalion = {
+											x = 0
+											y = 2
+										}
+									penal_battalion = {
+											x = 1
+											y = 0
+										}
+									penal_battalion = {
+											x = 1
+											y = 1
+										}
+									penal_battalion = {
+											x = 1
+											y = 2
+										}
+								}
+						}
+					capital_scope = {
+							create_unit = {
+									division = "name = \"Зомбэ\" division_template = \"Zombi\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
+									owner = ROOT
+								}
+							create_unit = {
+									division = "name = \"Зомбэ\" division_template = \"Zombi\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
+									owner = ROOT
+								}
+							create_unit = {
+									division = "name = \"Зомбэ\" division_template = \"Zombi\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
+									owner = ROOT
+								}
+							create_unit = {
+									division = "name = \"Зомбэ\" division_template = \"Zombi\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
+									owner = ROOT
+								}
+							create_unit = {
+									division = "name = \"Зомбэ\" division_template = \"Zombi\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
+									owner = ROOT
+								}
+							create_unit = {
+									division = "name = \"Зомбэ\" division_template = \"Zombi\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
+									owner = ROOT
+								}
+							create_unit = {
+									division = "name = \"Зомбэ\" division_template = \"Zombi\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
+									owner = ROOT
+								}
+						}
+			
+		}
+	}
+ }

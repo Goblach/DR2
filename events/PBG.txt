@@ -301,3 +301,18 @@ add_political_power = -350
 	}
 	
 }
+country_event = { 
+
+	id = PBG.9
+        title = PBG.9.t
+        desc = PBG.9.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.9.a
+add_political_power = -100
+	}
+	
+}

@@ -603,8 +603,15 @@ add_ideas = PBG_obshiy_sbor
 		}
 		x = 12
 		y = 6
+		available = {
+			has_completed_focus = PBG_shelby_prav
+			has_completed_focus = PBG_stalker_birmingem
+			is_power_balance_in_range = { id = PBG_karma_balance range < 50 }
+		}
 			completion_reward = {
-
+country_event = {
+							id = PBG.9
+						}
 }
 	}
 	focus = {
@@ -805,10 +812,9 @@ add_equipment_to_stockpile = {
 		}
 		prerequisite = {
 			focus = PBG_ukrepit_granitsu
-		}
-		prerequisite = {
 			focus = PBG_kustarniy_zombi_virus
 		}
+		
 		x = 9
 		y = 7
 			completion_reward = {

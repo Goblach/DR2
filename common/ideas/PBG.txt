@@ -77,5 +77,15 @@ ideas = {
 			    operative_slot = 1
 		    }
 	    }
+		
+		PBG_zombi = {
+			picture = generic_purge
+			modifier = {
+			    monthly_population = -0.25
+				army_morale_factor = -0.2
+				army_org_factor = -0.2
+				political_power_factor = -0.02 
+		    }
+	    } 
 	}
 }

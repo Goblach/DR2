@@ -10,26 +10,55 @@ PBG_karma_balance = {
 			id = PBG_bebra
 			min = -1
 			max = -0.8
+			modifier = {
+			memoism_drift = 0.05
+			stability_factor = -0.15
+			offensive_war_stability_factor = -0.05
+			defensive_war_stability_factor = -0.05
+			war_support_factor = 0
+			consumer_goods_factor = 0
+			weekly_manpower = -100
+			max_command_power_mult = 0.5
+			army_org_factor = -0.05
+		}
 		}
 		range = {
 			id = PBG_ultranasral
 			min = -0.8
 			max = -0.6
+			modifier = {
+			memoism_drift = 0.02
+			stability_factor = -0.10
+			army_org_factor = -0.05
+			}
 		}
 		range = {
 			id = PBG_nasral
 			min = -0.6
 			max = -0.4
+			modifier = {
+			memoism_drift = 0.01
+			stability_factor = -0.05
+			}
 		}
 		range = {
 			id = PBG_megaploh
 			min = -0.4
 			max = -0.2
+			modifier = {
+			stability_factor = -0.03
+			army_org_factor = 0.05
+			}
 		}
 		range = {
 			id = PBG_ploh
 			min = -0.2
 			max = 0
+			modifier = {
+			stability_factor = -0.01
+			army_org_factor = 0.02
+			party_popularity_stability_factor = 0.01
+			}
 		}
 	}
 	
@@ -40,26 +69,47 @@ PBG_karma_balance = {
 			id = PBG_norm
 			min = 0
 			max = 0.2
+			modifier = {
+			party_popularity_stability_factor = 0.01
+			}
 		}
 		range = {
 			id = PBG_harosh
 			min = 0.2
 			max = 0.4
+			modifier = {
+			war_support_factor = 0.025
+			party_popularity_stability_factor = 0.03
+			}
 		}
 		range = {
 			id = PBG_megaharosh
 			min = 0.4
 			max = 0.6
+			modifier = {
+			war_support_factor = 0.05
+			party_popularity_stability_factor = 0.05
+			}
 		}
 		range = {
 			id = PBG_ultramegaharosh
 			min = 0.6
 			max = 0.8
+			modifier = {
+			war_support_factor = 0.075
+			party_popularity_stability_factor = 0.075
+			}
 		}
 		range = {
 			id = PBG_megabombicheskiharosh
 			min = 0.8
 			max = 1
+			modifier = {
+			stability_factor = 0.1
+			war_support_factor = 0.1
+			army_morale_factor = 0.15
+			party_popularity_stability_factor = 0.1
+			}
 		}
 	}
 }
