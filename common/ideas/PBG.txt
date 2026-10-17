@@ -86,6 +86,104 @@ ideas = {
 				army_org_factor = -0.2
 				political_power_factor = -0.02 
 		    }
-	    } 
+	    }
+
+        PBG_ostrye_kraya_molnii = {
+			picture = generic_purge
+			modifier = {
+				army_org_factor = 0.1
+				conscription = 0.025
+		    }
+	    }
+		
+        PBG_dogovor_burzhui = {
+			picture = generic_purge
+			modifier = {
+			consumer_goods_factor = -0.1
+			production_speed_buildings_factor = 0.1 
+		    }
+	    }
+		
+        PBG_diplomaticheskie_kontacti = {
+			picture = generic_purge
+			modifier = {
+                improve_relations_maintain_cost_factor = -0.15
+                opinion_gain_monthly_factor = 0.15
+                faction_trade_opinion_factor = 0.15 
+				 production_lack_of_resource_penalty_factor = -0.05	
+		    }
+	    }
+		
+        PBG_kembridj_3000 = {
+			picture = generic_purge
+			modifier = {
+            research_speed_factor = 0.05    				
+		    }
+	    }
+		
+		PBG_social_demokrat = {
+			picture = generic_purge
+			modifier = {
+            consumer_goods_factor = 0.1 
+            production_lack_of_resource_penalty_factor = -0.025	
+            line_change_production_efficiency_factor = -0.025			
+		    }
+	    }
+		
+		PBG_direct_rule_from_Birgingem = {
+			picture = generic_purge
+			modifier = {
+		    political_power_gain = 0.01
+			army_core_defence_factor = 0.1
+			party_popularity_stability_factor = 0.2
+			war_stability_factor = 0.1
+		    }
+	    }
+		
+		PBG_kozirki_sans_frontiers = {
+			picture = generic_purge
+			modifier = {
+            request_lease_tension = -0.5
+			send_volunteer_factor = 0.4
+			send_volunteer_size = 5
+			experience_gain_navy_factor = 0.01
+			experience_gain_army_factor = 0.01
+			experience_gain_air_factor = 0.01
+		    }
+	    }
+		
+		PBG_leiborism_po_ponyatiem = {
+			picture = generic_purge
+			modifier = {
+           industry_free_repair_factor = 0.3	
+			production_speed_buildings_factor = 0.1   				
+		    }
+	    }
+        PBG_robin_good = {
+			picture = generic_purge
+			modifier = {
+            local_resources_factor = 0.3 
+			base_fuel_gain_factor = 0.3 
+            consumer_goods_factor = -0.15
+			org_loss_when_moving = -0.05
+		    }
+	    }
+
+        PBG_pensii = {
+			picture = generic_purge
+			modifier = {
+            consumer_goods_factor = 0.1
+			monthly_population = 0.25
+			stability_factor = 0.05
+		    }
+	    }
+		
+        PBG_grecha_babushkam = {
+			picture = generic_purge
+			modifier = {
+			army_morale_factor = 0.25
+			war_support_factor = 0.1
+		    }
+	    }		
 	}
 }

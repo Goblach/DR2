@@ -34,11 +34,48 @@ focus_tree = {
 			available = {
 			has_completed_focus = PBG_shelby_prav
 			has_completed_focus = PBG_stalker_birmingem
+			NOT = {
+							country_exists = UKE
+						}
 			}
 			completion_reward = {
-
+       add_ideas = PBG_kembridj_3000
+	   TUP = {
+	   add_ideas = PBG_kembridj_3000
+	   }
+			add_tech_bonus = {
+				bonus = 1
+				ahead_reduction = 3
+				uses = 1
+				technology = atomic_research
+			}
+			if = {
+				limit = {
+					controls_province = 9297
+					128 = { 
+						is_owned_and_controlled_by = ROOT
+						can_construct_building = nuclear_facility
+					}
+				}
+				128 = { 
+					add_building_construction = {
+						type = nuclear_facility
+						level = 1
+						province = 9297
+						instant_build = yes
+					}
+				}
+			}
+			else = {
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = ROOT
+						can_construct_building = nuclear_facility
+					}
+					construct_building_in_random_province = { nuclear_facility = 1 }
+				}
+			}
 }
-
 	}
 	focus = {
 		id = PBG_social_demokrat
@@ -53,7 +90,11 @@ focus_tree = {
 		x = 11
 		y = 8
 			completion_reward = {
-
+ add_ideas = PBG_social_demokrat
+ add_popularity = {
+                ideology = neutrality
+                popularity = 0.20
+            }
 }
 
 	}
@@ -70,6 +111,7 @@ focus_tree = {
 		x = 7
 		y = 8
 			completion_reward = {
+		add_ideas = PBG_leiborism_po_ponyatiem
 add_popularity = {
                 ideology = anarhostalinism
                 popularity = 0.20
@@ -104,7 +146,9 @@ add_popularity = {
 		available = {
 		controls_state = 126
 		}
-
+			completion_reward = {
+add_research_slot = 1
+}
 	}
 	focus = {
 		id = PBG_robin_good
@@ -121,6 +165,7 @@ add_popularity = {
                 ideology = anarhostalinism
                 popularity = 0.1
             }
+			add_ideas = PBG_robin_good
 				}
 
 	}
@@ -134,6 +179,8 @@ add_popularity = {
 		x = 5
 		y = 10
 			completion_reward = {
+			add_political_power = -150
+			add_war_support = 0.1
 			add_manpower = -20000
 add_popularity = {
                 ideology = anarhostalinism
@@ -601,7 +648,11 @@ add_ideas = PBG_obshiy_sbor
 		x = 12
 		y = 9
 			completion_reward = {
-
+army_experience = 50
+navy_experience = 25
+air_experience = 25
+war_support_factor = 0.1
+add_ideas = PBG_ostrye_kraya_molnii
 }
 
 	}
@@ -615,9 +666,17 @@ add_ideas = PBG_obshiy_sbor
 		x = 11
 		y = 10
 			completion_reward = {
-
+add_political_power = -100
+add_ideas = PBG_dogovor_burzhui
+random_owned_controlled_state = {					
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 }
-
 	}
 	focus = {
 		id = PBG_kustarniy_zombi_virus
@@ -660,8 +719,31 @@ add_equipment_to_stockpile = {
 							amount = 100
 							producer = PBG
 						}
+			random_owned_controlled_state = {					
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {					
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {					
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
 }
-
 	}
 	focus = {
 		id = PBG_direct_rule_from_Birgingem
@@ -677,6 +759,7 @@ add_equipment_to_stockpile = {
 		y = 11
 			completion_reward = {
            add_stability = 0.1
+		   add_ideas = PBG_direct_rule_from_Birgingem
 }
 
 	}
@@ -730,7 +813,9 @@ add_equipment_to_stockpile = {
 		}
 		x = 18
 		y = 9
-
+			completion_reward = {
+add_ideas = PBG_diplomaticheskie_kontacti
+}
 	}
 	focus = {
 		id = PBG_kozirki_sans_frontiers
@@ -745,7 +830,7 @@ add_equipment_to_stockpile = {
 		x = 16
 		y = 10
 			completion_reward = {
-
+add_ideas = PBG_kozirki_sans_frontiers
 }
 
 	}
@@ -804,7 +889,7 @@ add_equipment_to_stockpile = {
 		x = 7
 		y = 10
 			completion_reward = {
-
+         add_ideas = PBG_pensii
 }
 
 	}
@@ -821,9 +906,12 @@ add_equipment_to_stockpile = {
 		x = 6
 		y = 11
 			completion_reward = {
-
+ add_ideas = PBG_grecha_babushkam
+ add_popularity = {
+                ideology = anarhostalinism
+                popularity = 0.20
+            }
 }
-
 	}
 	focus = {
 		id = PBG_party_kozirkov
