@@ -184,6 +184,14 @@ ideas = {
 			army_morale_factor = 0.25
 			war_support_factor = 0.1
 		    }
-	    }		
+	    }
+
+        PBG_krysha_profsoyuzov = {
+			picture = generic_purge
+			modifier = {
+        consumer_goods_factor = -0.05
+		production_factory_efficiency_gain_factor = 0.03
+		    }
+	    }	
 	}
 }

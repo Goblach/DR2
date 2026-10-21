@@ -355,3 +355,39 @@ add_equipment_to_stockpile = {
 		}
 	}
 }
+country_event = {
+	id = KOF.4
+	title = KOF.4.t
+	desc = KOF.4.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = KOF.4.a 
+		KOF = {
+
+		}
+		country_event = {
+							id = PBG.13
+						}
+	}
+}
+country_event = {
+	id = KOF.5
+	title = KOF.5.t
+	desc = KOF.5.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = KOF.5.a 
+		KOF = {
+
+		}
+		country_event = {
+							id = PBG.14
+						}
+	}
+}

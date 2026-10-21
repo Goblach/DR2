@@ -49,32 +49,7 @@ focus_tree = {
 				uses = 1
 				technology = atomic_research
 			}
-			if = {
-				limit = {
-					controls_province = 9297
-					128 = { 
-						is_owned_and_controlled_by = ROOT
-						can_construct_building = nuclear_facility
-					}
-				}
-				128 = { 
-					add_building_construction = {
-						type = nuclear_facility
-						level = 1
-						province = 9297
-						instant_build = yes
-					}
-				}
-			}
-			else = {
-				random_owned_controlled_state = {
-					limit = {
-						is_core_of = ROOT
-						can_construct_building = nuclear_facility
-					}
-					construct_building_in_random_province = { nuclear_facility = 1 }
-				}
-			}
+			
 }
 	}
 	focus = {
@@ -133,14 +108,14 @@ add_popularity = {
 						}
 					}
 			completion_reward = {
-
+add_stability = 0.1
+add_war_support = 0.1
 }
-
 	}
 	focus = {
 		id = PGB_London_arhiv
 		icon = GFX_PGB_London_arhiv
-		cost = 10,00
+		cost = 5,00
 		x = 22
 		y = 8
 		available = {
@@ -148,6 +123,7 @@ add_popularity = {
 		}
 			completion_reward = {
 add_research_slot = 1
+add_political_power = -100
 }
 	}
 	focus = {
@@ -861,9 +837,33 @@ add_ideas = PBG_kozirki_sans_frontiers
 		x = 21
 		y = 9
 			completion_reward = {
-
+if = {
+				limit = {
+					controls_province = 9297
+					128 = { 
+						is_owned_and_controlled_by = ROOT
+						can_construct_building = nuclear_facility
+					}
+				}
+				128 = { 
+					add_building_construction = {
+						type = nuclear_facility
+						level = 1
+						province = 9297
+						instant_build = yes
+					}
+				}
+			}
+			else = {
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = ROOT
+						can_construct_building = nuclear_facility
+					}
+					construct_building_in_random_province = { nuclear_facility = 1 }
+				}
+			}
 }
-
 	}
 	focus = {
 		id = PBG_the_destroyer_of_worlds
@@ -875,9 +875,19 @@ add_ideas = PBG_kozirki_sans_frontiers
 		x = 21
 		y = 10
 			completion_reward = {
-
+add_breakthrough_progress = {
+			specialization = specialization_nuclear
+			value = 1
+		}
+		random_owned_controlled_state = {					
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = nuclear_reactors
+					level = 5
+					instant_build = yes
+				}
+			}
 }
-
 	}
 	focus = {
 		id = PBG_pensii
@@ -982,7 +992,7 @@ add_ideas = PBG_kozirki_sans_frontiers
 		x = 9
 		y = 11
 			completion_reward = {
-
+add_ideas = PBG_krysha_profsoyuzov
 }
 
 	}

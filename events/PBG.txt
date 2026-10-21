@@ -344,3 +344,125 @@ set_politics = {
 	}
 	
 }
+country_event = { 
+
+	id = PBG.11
+        title = PBG.11.t
+        desc = PBG.11.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.11.a
+create_wargoal = {
+        type = annex_everything
+        target = KOF
+        }
+		hidden_effect = {
+		    if = {
+			        limit = {
+				        country_exists = KOF
+			        }
+			       KOF = {
+			            119 = {
+			                limit = {
+				                is_owned_by = KOF
+			                }
+			                    PBG = {
+				                   add_state_claim = PREV
+			                    }
+		                }
+		            }
+		    }
+		}
+	}
+	option = {
+		name = PBG.11.b
+country_event = {
+							id = PBG.12
+						}
+	}
+	
+}
+country_event = { 
+
+	id = PBG.12
+        title = PBG.12.t
+        desc = PBG.12.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.12.a
+create_wargoal = {
+        type = annex_everything
+        target = KOF
+        }
+		hidden_effect = {
+		    if = {
+			        limit = {
+				        country_exists = KOF
+			        }
+			       KOF = {
+			            119 = {
+			                limit = {
+				                is_owned_by = KOF
+			                }
+			                    PBG = {
+				                   add_state_claim = PREV
+			                    }
+		                }
+		            }
+		    }
+		}
+	}
+	option = {
+		name = PBG.4.b
+		KOF = {
+country_event = {
+							id = KOF.4
+						}
+					}
+	}
+	option = {
+		name = PBG.5.b
+		KOF = {
+country_event = {
+							id = KOF.5
+						}
+					}
+	}
+	
+}
+country_event = { 
+
+	id = PBG.13
+        title = PBG.13.t
+        desc = PBG.13.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.13.a
+add_political_power = -100
+	}
+	
+}
+country_event = { 
+
+	id = PBG.14
+        title = PBG.14.t
+        desc = PBG.14.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.14.a
+add_political_power = -100
+	}
+	
+}
