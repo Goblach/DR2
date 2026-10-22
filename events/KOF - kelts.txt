@@ -401,7 +401,32 @@ country_event = {
 	    name = KOF.5.b 
 		PBG = {
 		country_event = {
-							id = PBG.15
+							id = PBG.16
+						}
+		}
+	}
+}
+country_event = {
+	id = KOF.6
+	title = KOF.6.t
+	desc = KOF.6.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	is_triggered_only = yes	
+	
+	option = {
+	    name = KOF.6.a 
+		PBG = {
+		country_event = {
+							id = PBG.14
+						}
+		}
+	}
+	option = {
+	    name = KOF.6.b 
+		PBG = {
+		country_event = {
+							id = PBG.17
 						}
 		}
 	}

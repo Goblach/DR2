@@ -776,7 +776,9 @@ add_equipment_to_stockpile = {
 						}
 				}
 			completion_reward = {
-
+country_event = {
+							id = PBG.11
+						}
 }
 
 	}
