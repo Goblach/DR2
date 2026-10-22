@@ -2519,11 +2519,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
-		name = "GFX_PBG_social_demokrat"
-		texturefile = "gfx/interface/goals/PBG_social_demokrat.dds"
-	}
-	
-	SpriteType = { 
 		name = "GFX_PBG_free_britain"
 		texturefile = "gfx/interface/goals/PBG_free_britain.dds"
 	}
