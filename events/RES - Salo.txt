@@ -1,0 +1,54 @@
+add_namespace = RES
+
+#
+country_event = {
+	id = RES.1
+	title = RES.1.t
+	desc = RES.1.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = RES
+	}
+	
+	option = {
+	        name = RES.1.a
+		}	
+}
+country_event = {
+	id = RES.2
+	title = RES.2.t
+	desc = RES.2.d
+	picture = GFX_report_event_dkr_burunov
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = RES
+	}
+	
+	option = {
+	        name = RES.2.a
+		}	
+}
+country_event = {
+	id = RES.3
+	title = RES.3.t
+	desc = RES.3.d
+	picture = GFX_report_event_japanese_soldiers_02
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = RES
+	}
+	
+	option = {
+	        name = RES.3.a
+		}	
+}
