@@ -365,12 +365,20 @@ country_event = {
 	
 	option = {
 	    name = KOF.4.a 
-		KOF = {
-
-		}
+		PBG = {
 		country_event = {
-							id = PBG.13
+							id = PBG.14
 						}
+		}
+		
+	}
+	option = {
+	    name = KOF.4.b 
+		PBG = {
+		country_event = {
+							id = PBG.15
+						}
+		}
 	}
 }
 country_event = {
@@ -383,11 +391,18 @@ country_event = {
 	
 	option = {
 	    name = KOF.5.a 
-		KOF = {
-
-		}
+		PBG = {
 		country_event = {
 							id = PBG.14
 						}
+		}
+	}
+	option = {
+	    name = KOF.5.b 
+		PBG = {
+		country_event = {
+							id = PBG.15
+						}
+		}
 	}
 }

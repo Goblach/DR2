@@ -206,6 +206,7 @@ country_event = {
 					  
 	 }
 	 }
+	 ai_will_do = { factor = 100 }
 	}
 	
 }
@@ -419,15 +420,23 @@ create_wargoal = {
 		}
 	}
 	option = {
-		name = PBG.4.b
+		name = PBG.12.b
 		KOF = {
 country_event = {
 							id = KOF.4
 						}
+						119 = {
+			                limit = {
+				                is_owned_by = KOF
+			                }
+			                    PBG = {
+				                   add_state_claim = PREV
+			                    }
+		                }
 					}
 	}
 	option = {
-		name = PBG.5.b
+		name = PBG.12.c
 		KOF = {
 country_event = {
 							id = KOF.5
@@ -447,7 +456,51 @@ country_event = {
 	
 	option = {
 		name = PBG.13.a
-add_political_power = -100
+create_wargoal = {
+        type = annex_everything
+        target = KOF
+        }
+		hidden_effect = {
+		    if = {
+			        limit = {
+				        country_exists = KOF
+			        }
+			       KOF = {
+			            119 = {
+			                limit = {
+				                is_owned_by = KOF
+			                }
+			                    PBG = {
+				                   add_state_claim = PREV
+			                    }
+		                }
+		            }
+		    }
+		}
+	}
+	option = {
+		name = PBG.13.b
+		KOF = {
+country_event = {
+							id = KOF.4
+						}
+						119 = {
+			                limit = {
+				                is_owned_by = KOF
+			                }
+			                    PBG = {
+				                   add_state_claim = PREV
+			                    }
+		                }
+					}
+	}
+	option = {
+		name = PBG.13.c
+		KOF = {
+country_event = {
+							id = KOF.6
+						}
+					}
 	}
 	
 }
@@ -463,6 +516,64 @@ country_event = {
 	option = {
 		name = PBG.14.a
 add_political_power = -100
+create_wargoal = {
+        type = annex_everything
+        target = KOF
+        }
+	}
+	
+}
+country_event = { 
+
+	id = PBG.15
+        title = PBG.15.t
+        desc = PBG.15.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.15.a
+  transfer_state = 119 
+  give_guarantee = KOF
+					KOF = {
+							give_guarantee = PBG
+						}
+	}
+	
+}
+
+country_event = { 
+
+	id = PBG.16
+        title = PBG.16.t
+        desc = PBG.16.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.16.a
+set_autonomy = {
+target = KOF
+autonomous_state = autonomy_puppet
+}
+	}
+	
+}
+country_event = { 
+
+	id = PBG.17
+        title = PBG.17.t
+        desc = PBG.17.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.17.a
+create_faction = Kozirki_alliance
+PBG = { add_to_faction = KOF }
 	}
 	
 }
