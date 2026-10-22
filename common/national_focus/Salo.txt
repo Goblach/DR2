@@ -131,7 +131,11 @@ focus_tree = {
 		}
 		x = 13
 		y = 2
-
+		completion_reward = {
+					country_event = {
+							id = RES.2
+						}
+				}
 	}
 	focus = {
 		id = RES_otpravit_migrantov_no_front
