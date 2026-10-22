@@ -9,7 +9,7 @@ state={
 	history={
 		owner = TUP
 		victory_points = {
-			117 5 
+			117 10 
 		}
 		buildings = {
 			infrastructure = 3 #was: 5

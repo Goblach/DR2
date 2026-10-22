@@ -3172,6 +3172,7 @@ DR_core_russian_territories_decisions_category = {
 		available = {
 			controls_state = 722 #Петсамо
 			controls_state = 213 #Мурманск
+			controls_state = 147 #Салла
 		}
 		
 		fire_only_once = yes
@@ -3185,6 +3186,7 @@ DR_core_russian_territories_decisions_category = {
 		remove_effect = {
 			add_state_core = 722 
 			add_state_core = 213
+			add_state_core = 147
 		}
 	}
 	
@@ -3201,6 +3203,7 @@ DR_core_russian_territories_decisions_category = {
 		available = {
 			controls_state = 215 #Онега
 			controls_state = 216 #Петрозаводск
+			controls_state = 146 #Карелия
 		}
 		
 		fire_only_once = yes
@@ -3214,6 +3217,7 @@ DR_core_russian_territories_decisions_category = {
 		remove_effect = {
 			add_state_core = 215
 			add_state_core = 216
+			add_state_core = 146
 		}
 	}
 	
@@ -3288,7 +3292,6 @@ DR_core_russian_territories_decisions_category = {
 			add_state_core = 263
 			add_state_core = 209
 			add_state_core = 210
-			add_state_core = 146
 		}
 	}
 	

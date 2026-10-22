@@ -5,8 +5,7 @@ state={
 	state_category = town
 
 	history={
-		owner = SUO
-		add_core_of = SUO
+		owner = MHL
 		add_core_of = TUP
 		add_core_of = MHL
 		buildings = {
