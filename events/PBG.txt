@@ -380,11 +380,12 @@ create_wargoal = {
 	}
 	option = {
 		name = PBG.11.b
-	 if = {
+	PBG = {
+				 if = {
 				limit = {
 					power_balance_value = { 
 					id = PBG_karma_balance 
-					value < 50 
+					value < 0 
 					}
 				}
 				country_event = {
@@ -395,16 +396,15 @@ create_wargoal = {
 			limit = { 
 			power_balance_value = { 
 			id = PBG_karma_balance 
-			value > 50 
+			value > 0 
 			  } 
 			}
 				country_event = {
 							id = PBG.12
 						}
-			}
-		
 	}
-	
+	}
+}
 }
 country_event = { 
 
@@ -459,7 +459,7 @@ country_event = {
 		name = PBG.12.c
 		KOF = {
 country_event = {
-							id = KOF.5
+							id = KOF.6
 						}
 					}
 	}
@@ -518,7 +518,7 @@ country_event = {
 		name = PBG.13.c
 		KOF = {
 country_event = {
-							id = KOF.6
+							id = KOF.5
 						}
 					}
 	}
