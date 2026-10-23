@@ -101,7 +101,12 @@ add_popularity = {
 		x = 17
 		y = 8
 		available = {
+					OR = {
+							has_completed_focus = PBG_leiborism_po_ponyatiem
+							has_completed_focus = PBG_social_demokrat
+							}
 		has_war = no
+			has_country_flag = reunired_britain
 		NOT = {
 							country_exists = UBR
 							country_exists = UKE
@@ -110,6 +115,15 @@ add_popularity = {
 			completion_reward = {
 add_stability = 0.1
 add_war_support = 0.1
+if = {
+							limit = {
+									has_completed_focus = PBG_social_demokrat
+								}
+							PBG = {
+								set_cosmetic_tag = PBG_socdem
+								}
+						}
+						
 }
 	}
 	focus = {
