@@ -611,3 +611,17 @@ country_event = {
 	}
 	
 }
+country_event = { 
+
+	id = PBG.19
+        title = PBG.19.t
+        desc = PBG.19.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.19.a
+	}
+	
+}
