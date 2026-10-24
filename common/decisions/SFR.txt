@@ -85,7 +85,10 @@ SFR_annex_looser = {
             add_timed_idea = {
             idea = LFR_france_postgv
             days = 450
-            }       			
+            }
+			hidden_effect = {			
+			set_cosmetic_tag = SFR_un	
+			}			
 		}
     }
 }

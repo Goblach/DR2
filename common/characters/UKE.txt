@@ -37,4 +37,28 @@ characters={
 			}
 	    }
     }
+	UKE_Richard_Dawkins = {
+		name = "Ричард Докинз"
+		portraits = {
+			civilian = {
+			    small = "GFX_idea_UKE_Richard_Dawkins"
+				large = "gfx/leaders/UKE/Richard_Dawkins.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = UKE_Richard_Dawkins
+			can_be_fired = no
+			allowed = {
+				original_tag = UKE
+			}			
+			available = {
+				
+			}
+			traits = { royal_scientist_dokenz }
+			ai_will_do = {
+				factor = 2
+			}
+	    }
+    }
 }

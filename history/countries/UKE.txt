@@ -22,10 +22,13 @@ set_technology = {
 
 recruit_character = UKE_Meghan_Markle
 recruit_character = UKE_Chris_Nolan
+recruit_character = UKE_Richard_Dawkins
 
 add_ideas = {
 limited_conscription
 low_economic_mobilisation
+
+UKE_Richard_Dawkins
 }
 
 add_timed_idea = { idea = BRS_posledstvie_brist_rezni days = 360 }

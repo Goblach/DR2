@@ -34,3 +34,7 @@ ZZZ_evangelion = {
 	color = rgb { 255 128 0 }
 	color_ui = rgb { 255 128 0 }
 }
+SFR_un = {	
+		color = rgb { 57  113  228 }
+		color_ui = rgb { 57  113  228 }
+}

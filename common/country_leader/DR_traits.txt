@@ -1674,5 +1674,14 @@ leader_traits = {
 			factor = 2
 		}
 	}
+	royal_scientist_dokenz = {
+		random = no
+		sprite = 13
+		research_speed_factor = 0.15
+		factory_energy_consumption = -0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
 	
 }
