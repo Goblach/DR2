@@ -424,6 +424,12 @@ country_event = {
 	}
 	option = {
 	    name = KOF.6.b 
+		if = {
+		limit = { has_completed_focus = PBG_Ira }
+		ai_will_do = {
+        factor = 100
+		}
+		}
 		PBG = {
 		country_event = {
 							id = PBG.17

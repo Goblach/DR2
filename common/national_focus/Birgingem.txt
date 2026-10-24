@@ -49,7 +49,14 @@ focus_tree = {
 				uses = 1
 				technology = atomic_research
 			}
-			
+		if = {
+							limit = {
+									country_exists = TUP
+								}
+							country_event = {
+							id = PBG.18
+						}
+						}
 }
 	}
 	focus = {
@@ -123,6 +130,14 @@ if = {
 								set_cosmetic_tag = PBG_socdem
 								}
 						}
+else_if = {
+							limit = {
+									has_completed_focus = PBG_leiborism_po_ponyatiem
+								}
+							PBG = {
+								set_cosmetic_tag = PBG_labor
+								}
+						}						
 						
 }
 	}
