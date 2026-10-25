@@ -229,3 +229,130 @@ add_popularity = {
 		}
 	}
  }
+ PBG_love_bebra = {
+  PBG_love_chika = {
+ allowed = {
+			original_tag = PBG
+		}
+		fire_only_once = yes
+		visible = {
+		has_completed_focus = PBG_love
+		}
+		
+		cost = 100
+
+		ai_will_do = {
+			factor = 100
+			}
+		
+		icon = ger_mefo_bills
+
+		available = {
+			is_power_balance_in_range = { id = PBG_karma_balance range > 50 }
+		}
+		days_remove = 70
+		remove_effect = {
+		}
+ }
+  PBG_love_kristina = {
+ allowed = {
+			original_tag = PBG
+		}
+		fire_only_once = yes
+		visible = {
+		has_completed_focus = PBG_love
+		}
+		
+		cost = 100
+
+		ai_will_do = {
+			factor = 100
+			}
+		
+		icon = ger_mefo_bills
+
+		available = {
+			is_power_balance_in_range = { id = PBG_karma_balance range > 50 }
+			has_completed_focus = PGB_London_arhiv
+		}
+		days_remove = 70
+		remove_effect = {
+		}
+ }
+ PBG_love_makima = {
+ allowed = {
+			original_tag = PBG
+		}
+		fire_only_once = yes
+		visible = {
+		has_completed_focus = PBG_love
+		}
+		
+		cost = 100
+
+		ai_will_do = {
+			factor = 100
+			}
+		
+		icon = ger_mefo_bills
+
+		available = {
+			is_power_balance_in_range = { id = PBG_karma_balance range < 50 }
+			has_completed_focus = PBG_i_become_death
+		}
+		days_remove = 70
+		remove_effect = {
+		}
+ }
+ PBG_love_bochi = {
+ allowed = {
+			original_tag = PBG
+		}
+		fire_only_once = yes
+		visible = {
+		has_completed_focus = PBG_love
+		}
+		
+		cost = 100
+
+		ai_will_do = {
+			factor = 100
+			}
+		
+		icon = ger_mefo_bills
+
+		available = {
+			is_power_balance_in_range = { id = PBG_karma_balance range > 50 }
+			has_completed_focus = PBG_VEDRO_project
+		}
+		days_remove = 70
+		remove_effect = {
+		}
+ }
+ PBG_love_redtail = {
+ allowed = {
+			original_tag = PBG
+		}
+		fire_only_once = yes
+		visible = {
+		has_completed_focus = PBG_love
+		
+		}
+		
+		cost = 100
+
+		ai_will_do = {
+			factor = 100
+			}
+		
+		icon = ger_mefo_bills
+
+		available = {
+			has_completed_focus = PBG_Ira
+			is_ally_with = KOF
+		}
+		days_remove = 70
+		remove_effect = {
+		}
+ }
+ }
