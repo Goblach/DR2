@@ -622,6 +622,316 @@ country_event = {
 	
 	option = {
 		name = PBG.19.a
+		trigger = { 
+		country_exists = TUP
+		}
+		TUP = {
+		
+		set_technology = {
+		armored_car1 = 1
+		tech_trucks = 1
+        motorised_infantry = 1
+		}
+		add_equipment_to_stockpile = {
+							type = armored_car_equipment
+							amount = 300
+							producer = PBG
+						}
+		division_template = {
+					name = "Broneviks"
+					division_names_group = PBG_HELP_01
+					template_counter = 118
+
+		regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		armored_car = { x = 0 y = 2 }
+		armored_car = { x = 0 y = 3 }
+		armored_car = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+	
+	}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"From Shelby with love\" division_template = \"Broneviks\" start_experience_factor = 0.8 start_equipment_factor = 1.5" owner = TUP
+					}
+				}
+			
+		}
+	}
+	
+	option = {
+		name = PBG.19.b
+		trigger = { 
+		country_exists = KLG
+		}
+		KLG = {
+		
+		set_technology = {
+		armored_car1 = 1
+		tech_trucks = 1
+        motorised_infantry = 1
+		}
+		add_equipment_to_stockpile = {
+							type = armored_car_equipment
+							amount = 300
+							producer = PBG
+						}
+		division_template = {
+					name = "Broneviks"
+					division_names_group = PBG_HELP_01
+					template_counter = 118
+
+		regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		armored_car = { x = 0 y = 2 }
+		armored_car = { x = 0 y = 3 }
+		armored_car = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+	
+	}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"From Shelby with love\" division_template = \"Broneviks\" start_experience_factor = 0.8 start_equipment_factor = 1.5" owner = KLG
+					}
+				}
+			
+		}
+	}
+	
+	option = {
+		name = PBG.19.c
+		trigger = { 
+		country_exists = GAL
+		}
+		GAL = {
+		
+		set_technology = {
+		armored_car1 = 1
+		tech_trucks = 1
+        motorised_infantry = 1
+		}
+		add_equipment_to_stockpile = {
+							type = armored_car_equipment
+							amount = 300
+							producer = PBG
+						}
+		division_template = {
+					name = "Broneviks"
+					division_names_group = PBG_HELP_01
+					template_counter = 118
+
+		regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		armored_car = { x = 0 y = 2 }
+		armored_car = { x = 0 y = 3 }
+		armored_car = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+	
+	}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"From Shelby with love\" division_template = \"Broneviks\" start_experience_factor = 0.8 start_equipment_factor = 1.5" owner = GAL
+					}
+				}
+			
+		}
+	}
+	
+	option = {
+		name = PBG.19.z
+		trigger = { 
+		country_exists = MHL
+		}
+		MHL = {
+		
+		set_technology = {
+		armored_car1 = 1
+		tech_trucks = 1
+        motorised_infantry = 1
+		}
+		add_equipment_to_stockpile = {
+							type = armored_car_equipment
+							amount = 300
+							producer = PBG
+						}
+		division_template = {
+					name = "Broneviks"
+					division_names_group = PBG_HELP_01
+					template_counter = 118
+
+		regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		armored_car = { x = 0 y = 2 }
+		armored_car = { x = 0 y = 3 }
+		armored_car = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+	
+	}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"From Shelby with love\" division_template = \"Broneviks\" start_experience_factor = 0.8 start_equipment_factor = 1.5" owner = MHL
+					}
+				}
+			
+		}
+	}
+	
+	option = {
+		name = PBG.19.v
+		trigger = { 
+		country_exists = EBN
+		}
+		EBN = {
+		
+		set_technology = {
+		armored_car1 = 1
+		tech_trucks = 1
+        motorised_infantry = 1
+		}
+		add_equipment_to_stockpile = {
+							type = armored_car_equipment
+							amount = 300
+							producer = PBG
+						}
+		division_template = {
+					name = "Broneviks"
+					division_names_group = PBG_HELP_01
+					template_counter = 118
+
+		regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		armored_car = { x = 0 y = 2 }
+		armored_car = { x = 0 y = 3 }
+		armored_car = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+	
+	}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"From Shelby with love\" division_template = \"Broneviks\" start_experience_factor = 0.8 start_equipment_factor = 1.5" owner = EBN
+					}
+				}
+			
+		}
+	}
+	
+	option = {
+		name = PBG.19.o
+		trigger = { 
+		country_exists = YSK
+		}
+		YSK = {
+		
+		set_technology = {
+		armored_car1 = 1
+		tech_trucks = 1
+        motorised_infantry = 1
+		}
+		add_equipment_to_stockpile = {
+							type = armored_car_equipment
+							amount = 300
+							producer = PBG
+						}
+		division_template = {
+					name = "Broneviks"
+					division_names_group = PBG_HELP_01
+					template_counter = 118
+
+		regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		armored_car = { x = 0 y = 2 }
+		armored_car = { x = 0 y = 3 }
+		armored_car = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+	
+	}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"From Shelby with love\" division_template = \"Broneviks\" start_experience_factor = 0.8 start_equipment_factor = 1.5" owner = YSK
+					}
+				}
+			
+		}
+	}
+	option = {
+		name = PBG.19.y
+		trigger = { 
+		country_exists = PBG
+		}
+		PBG = {
+		
+		set_technology = {
+		armored_car1 = 1
+		tech_trucks = 1
+        motorised_infantry = 1
+		}
+		add_equipment_to_stockpile = {
+							type = armored_car_equipment
+							amount = 300
+							producer = PBG
+						}
+		division_template = {
+					name = "Broneviks"
+					division_names_group = PBG_HELP_01
+					template_counter = 118
+
+		regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		armored_car = { x = 0 y = 2 }
+		armored_car = { x = 0 y = 3 }
+		armored_car = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+	
+	}
+				}
+
+				capital_scope = {
+					create_unit = { 
+						division = "name = \"From Shelby with love\" division_template = \"Broneviks\" start_experience_factor = 0.8 start_equipment_factor = 1.5" owner = PBG
+					}
+				}
+			
+		}
 	}
 	
 }

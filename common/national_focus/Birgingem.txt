@@ -853,7 +853,11 @@ add_ideas = PBG_kozirki_sans_frontiers
 		}
 		x = 19
 		y = 10
-
+		completion_reward = {
+country_event = {
+							id = PBG.19
+						}
+					}
 	}
 	focus = {
 		id = PBG_i_become_death
