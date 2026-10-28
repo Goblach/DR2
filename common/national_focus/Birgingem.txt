@@ -112,8 +112,7 @@ add_popularity = {
 							has_completed_focus = PBG_leiborism_po_ponyatiem
 							has_completed_focus = PBG_social_demokrat
 							}
-		has_war = no
-			has_country_flag = reunired_britain
+		has_war = no	
 		NOT = {
 							country_exists = UBR
 							country_exists = UKE
@@ -844,7 +843,7 @@ add_ideas = PBG_kozirki_sans_frontiers
 	focus = {
 		id = PBG_russian_svazy
 		icon = GFX_PBG_russian_svazy
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = PBG_diplomaticheskie_kontacti
 		}
@@ -999,7 +998,9 @@ add_breakthrough_progress = {
 		x = 9
 		y = 9
 			completion_reward = {
-
+country_event = {
+							id = PBG.20
+						}
 }
 
 	}
