@@ -171,15 +171,25 @@ country_event = {
 			character = BRS_Livsi
 			civilian = { large = "gfx/leaders/BRS/Livsi_5.dds" }
 		}
+		swap_ideas = {
+				remove_idea = BRS_zona_otchuzhdeniya
+				add_idea = BRS_zona_otchuzhdeniya_1
+			}
 		add_manpower = 30000
 			add_stability = 0.05
 			add_war_support = 0.05
 		transfer_state = 126
-		declare_war_on = {
+		 declare_war_on = {
 		        target = PBG
 		        type = annex_everything
 		    }
+				
 		}
+		BRS = { 
+	
+					load_oob = BRS_SOS
+					
+					}
 	}
 }
  
