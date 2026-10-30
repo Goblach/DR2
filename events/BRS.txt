@@ -185,10 +185,49 @@ country_event = {
 		    }
 				
 		}
-		BRS = { 
-	
-					load_oob = BRS_SOS
-					
+		 
+		PBG = { 
+	if = {
+		 limit = {
+		 AND = {
+			memoism > 0.1
+			memoism < 0.25
+			}
+		}
+		BRS = {
+		load_oob = BRS_SOS
+		}
+		}
+	else_if = {
+		 limit = {
+			AND = {
+			memoism > 0.25
+			memoism < 0.4
+			}
+		}
+		BRS = {
+		load_oob = BRS_SOS_1
+		}
+		}
+	else_if = {
+		 limit = {
+			AND = {
+			memoism > 0.4
+			memoism < 0.6
+			}
+		}
+		BRS = {
+		load_oob = BRS_SOS_2
+		}
+		}
+	else_if = {
+		 limit = {
+			memoism > 0.6	
+		}
+		BRS = {
+		load_oob = BRS_SOS_3
+		}
+		}
 					}
 	}
 }

@@ -32,42 +32,7 @@ units = {
 		start_experience_factor = 0.1
 	}
 	division= {	
-		location = 3369
-		division_template = "Anomaly unit" 	
-		start_experience_factor = 0.1
-	}
-	division= {	
-		location = 3369
-		division_template = "Anomaly unit" 	
-		start_experience_factor = 0.1
-	}
-	division= {	
-		location = 3369
-		division_template = "Anomaly unit" 	
-		start_experience_factor = 0.1
-	}
-	division= {	
-		location = 3369
-		division_template = "Anomaly unit" 	
-		start_experience_factor = 0.1
-	}
-	division= {	
 		location = 377
-		division_template = "Anomaly unit" 	
-		start_experience_factor = 0.1
-	}
-	division= {	
-		location = 377
-		division_template = "Anomaly unit" 	
-		start_experience_factor = 0.1
-	}
-	division= {	
-		location = 6103
-		division_template = "Anomaly unit" 	
-		start_experience_factor = 0.1
-	}
-	division= {	
-		location = 6103
 		division_template = "Anomaly unit" 	
 		start_experience_factor = 0.1
 	}
@@ -88,11 +53,6 @@ units = {
 	}
 	division= {	
 		location = 9239
-		division_template = "Anomaly unit" 	
-		start_experience_factor = 0.1
-	}
-	division= {	
-		location = 6221
 		division_template = "Anomaly unit" 	
 		start_experience_factor = 0.1
 	}
