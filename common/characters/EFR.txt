@@ -3,7 +3,7 @@ characters={
 		name = "Эдуард Д'Билл"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/EFR/Dbill.jpg"
+				large = "gfx/leaders/EFR/Dbill.dds"
 			}
 		}
 		country_leader = {
@@ -11,24 +11,53 @@ characters={
 	        expire = "1999.1.1"
 		    id=-1
 	    }
+		corps_commander = {
+	    traits = { politically_connected combined_arms_expert }
+	    skill = 1
+	    attack_skill = 2
+	    defense_skill = 1
+	    planning_skill = 2
+	    logistics_skill = 3
+		legacy_id = -1
+        }
     }
 	
 	EFR_LePen = {
 		name = "Марин Ле Пен"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/EFR/LePen.jpg"
+				large = "gfx/leaders/EFR/LePen.dds"
 			}
 		}
-		country_leader = {
-		    ideology = fascism_ideology
-	        expire = "1999.1.1"
-		    id=-1
-	    }
 		country_leader = {
 		    ideology = despotism
 	        expire = "1999.1.1"
 		    id=-1
 	    }
+    }
+	EFR_Mbappe = {
+		name = "Килиан Мбаппе"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EFR/Kylian_Mbappe.dds"
+			}
+		}
+		country_leader = {
+		    ideology = fascism_ideology
+			traits = {
+	         	dictator_real
+	        }
+	        expire = "1999.1.1"
+		    id=-1
+	    }
+		field_marshal = {
+	    traits = { politically_connected media_personality aggressive_assaulter }
+	    skill = 3
+	    attack_skill = 4
+	    defense_skill = 2
+	    planning_skill = 3
+	    logistics_skill = 3
+		legacy_id = -1
+        }
     }
 }

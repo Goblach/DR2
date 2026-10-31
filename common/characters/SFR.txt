@@ -1,9 +1,9 @@
 characters={
-	SFR_Fresko = {
-		name = "Жак Фреско"
+	SFR_Convention_nationale = {
+		name = "Национальный конвент"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SFR/Fresko.jpg"
+				large = "gfx/leaders/SFR/konsulFra.dds"
 			}
 		}
 		country_leader = {
@@ -11,29 +11,11 @@ characters={
 	        expire = "1999.1.1"
 		    id=-1
 	    }
-    }
-	
-	SFR_Fantomas = {
-		name = "Фантомас"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SFR/Fantomas.jpg"
-			}
-		}
 		country_leader = {
 		    ideology = nacbol
 	        expire = "1999.1.1"
 		    id=-1
 	    }
-    }
-	
-	SFR_Kagar = {
-		name = "Борис Кагарлицкий"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SFR/Kagar.jpg"
-			}
-		}
 		country_leader = {
 		    ideology = socialism
 	        expire = "1999.1.1"
@@ -44,6 +26,24 @@ characters={
 	        expire = "1999.1.1"
 		    id=-1
 	    }
+    }
+	
+	SFR_Fantomas = {
+		name = "Фантомас"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SFR/Fantomas.dds"
+			}
+		}
+    }
+	
+	SFR_Kagar = {
+		name = "Борис Кагарлицкий"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SFR/Kagar.dds"
+			}
+		}
     }
 	
 	

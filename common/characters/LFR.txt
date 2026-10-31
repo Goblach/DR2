@@ -1,29 +1,32 @@
 characters={
 	LFR_Makron = {
-		name = "Эмманюэль Макрон"
+		name = "Брижит Макрон"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/LFR/Makron.jpg"
+				large = "gfx/leaders/LFR/MacronPanin.dds"
 			}
 		}
 		country_leader = {
-		    ideology = conservatism
+		    ideology = liberalism
+			traits = {
+	         	old_figurehead
+	        }
 	        expire = "1999.1.1"
 		    id=-1
 	    }
     }
 	
-	LFR_Anri = {
-		name = "Бернар-Анри Леви"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/LFR/Anri.jpg"
-			}
-		}
-		country_leader = {
-		    ideology = liberalism
-	        expire = "1999.1.1"
-		    id=-1
-	    }
-    }
+#	LFR_Anri = {
+#		name = "Бернар-Анри Леви"
+#		portraits = {
+#			civilian = {
+#				large = "gfx/leaders/LFR/Anri.dds"
+#			}
+#		}
+#		country_leader = {
+#		    ideology = 
+#	        expire = "1999.1.1"
+#		    id=-1
+#	    }
+#   }
 }

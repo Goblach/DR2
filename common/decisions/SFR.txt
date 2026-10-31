@@ -87,7 +87,11 @@ SFR_annex_looser = {
             days = 450
             }
 			hidden_effect = {			
-			set_cosmetic_tag = SFR_un	
+			set_cosmetic_tag = SFR_un
+			add_popularity = { ideology = fascism popularity = 0.12 }
+			add_popularity = { ideology = memoism popularity = 0.12 }
+			add_popularity = { ideology = neutrality popularity = 0.12 }
+			add_popularity = { ideology = democratic popularity = 0.06 }
 			}			
 		}
     }

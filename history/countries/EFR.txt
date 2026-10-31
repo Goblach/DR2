@@ -17,6 +17,7 @@ set_technology = {
 
 recruit_character = EFR_Dbill
 recruit_character = EFR_LePen
+recruit_character = EFR_Mbappe
 
 add_ideas = {
 		limited_conscription
@@ -36,12 +37,12 @@ declare_war_on = {
 }
 
 set_popularities = {
-	memoism = 34
-	fascism = 33
-	neutrality = 33
+	memoism = 21
+	fascism = 50
+	neutrality = 29
 }
 set_politics = {
-	ruling_party = memoism
+	ruling_party = fascism
 	elections_allowed = no	
 }
 

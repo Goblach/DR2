@@ -8,7 +8,6 @@ ideas = {
 			    war_support_factor = 0.1
 				max_surrender_limit_offset = 0.1
 				army_org_factor = 0.1
-				democratic_drift = 0.01
 			    }
 		    }
 	        LFR_france_postgv = {

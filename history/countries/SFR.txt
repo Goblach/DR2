@@ -15,7 +15,7 @@ set_technology = {
 	gwtank_chassis = 1
 }
 
-recruit_character = SFR_Fresko
+recruit_character = SFR_Convention_nationale
 recruit_character = SFR_Fantomas
 recruit_character = SFR_Kagar
 
@@ -37,10 +37,11 @@ declare_war_on = {
 }
 
 set_popularities = {
-	anarhostalinism = 25
-	metacommy = 25
-	democratic = 25
-	vmestolev = 25
+	anarhostalinism = 50
+	metacommy = 15
+	democratic = 15
+	vmestolev = 15
+	neutrality = 5
 }
 set_politics = {
 	ruling_party = anarhostalinism

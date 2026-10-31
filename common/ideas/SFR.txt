@@ -22,10 +22,6 @@ ideas = {
 			    war_support_factor = 0.1
 				max_surrender_limit_offset = 0.1
 				army_org_factor = 0.1
-				vmestolev_drift = 0.01
-				metacommy_drift = 0.01
-				anarhostalinism_drift = 0.01
-				democratic_drift = 0.01
 			    }
 		    }
 	   }

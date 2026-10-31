@@ -35,7 +35,12 @@ declare_war_on = {
 
 set_popularities = {
 	democratic = 67
-	neutrality = 33
+	neutrality = 7
+	memoism = 6
+	fascism = 5
+	anarhostalinism = 5
+	metacommy = 5
+	vmestolev = 5
 }
 set_politics = {
 	ruling_party = democratic
