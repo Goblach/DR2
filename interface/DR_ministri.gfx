@@ -993,6 +993,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_UKE_Richard_Dawkins.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_UKE_Jeremy_Clarkson"
+		texturefile = "gfx/interface/ideas/idea_UKE_Jeremy_Clarkson.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_PBG_Solomon_Alfi"
 		texturefile = "gfx/interface/ideas/idea_PBG_Solomon_Alfi.dds"
 	}
