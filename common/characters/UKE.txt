@@ -61,4 +61,37 @@ characters={
 			}
 	    }
     }
+	UKE_Jeremy_Clarkson = {
+		name = "Джереми Кларксон"
+		portraits = {
+			civilian = {
+			    small = "GFX_idea_UKE_Jeremy_Clarkson"
+				large = "gfx/leaders/UKE/Jeremy_Clarkson.dds"
+			}
+		}
+		corps_commander = {
+	    traits = { combined_arms_expert trait_reckless }
+	    skill = 3
+	    attack_skill = 3
+	    defense_skill = 3
+	    planning_skill = 3
+	    logistics_skill = 3
+		legacy_id = -1
+        }
+		advisor={
+			slot = high_command
+			idea_token = UKE_Jeremy_Clarkson
+			allowed = {
+				original_tag = UKE
+			}			
+			available = {
+				
+			}
+			traits = { army_CombinedArms_2 }
+			ai_will_do = {
+				factor = 2
+			}
+	    }
+		
+    }
 }

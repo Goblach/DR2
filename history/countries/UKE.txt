@@ -23,6 +23,7 @@ set_technology = {
 recruit_character = UKE_Meghan_Markle
 recruit_character = UKE_Chris_Nolan
 recruit_character = UKE_Richard_Dawkins
+recruit_character = UKE_Jeremy_Clarkson
 
 add_ideas = {
 limited_conscription
