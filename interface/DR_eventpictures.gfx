@@ -396,6 +396,10 @@ spriteTypes = {
 	###НОВОСТНЫЕ
 	
 	spriteType = {
+		name = "GFX_news_event_nothing_happens"
+		texturefile = "gfx/event_pictures/news_event_nothing_happens.dds"
+	}
+	spriteType = {
 		name = "GFX_news_event_zalupa_ivanicha"
 		texturefile = "gfx/event_pictures/news_event_zalupa_ivanicha.dds"
 	}

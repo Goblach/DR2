@@ -211,7 +211,7 @@ news_event = { #Залупа_Иваныча
 	major = yes
 	
 	trigger = {
-        date > 4.5.5
+        date > 1936.5.5
 		NOT = { has_global_flag = DR_news_event_zalupa_ivanichya_gf }
 	}
 	
@@ -237,6 +237,7 @@ news_event = { #Залупа_Иваныча
 		name = dk_news.8.b
 		add_political_power = 25
 		trigger = {
+			NOT = { tag = ZZZ }
 			OR = {
 				has_government = neutrality	
 				has_government = fascism
@@ -247,7 +248,6 @@ news_event = { #Залупа_Иваныча
 		name = dk_news.8.c
 		add_political_power = 25
 		trigger = {
-			NOT = { tag = ZZZ }
 			OR = {
 				has_government = metacommy
 				has_government = anarhostalinism
@@ -274,7 +274,9 @@ news_event = { #Залупа_Иваныча
 		}
 		trigger = {
 			NOT = { tag = ZZZ }
-			has_government = memoism
+			OR = {
+				has_government = memoism
+			}
 		}
 	}
 	option = { #Для_ГЭГЭЛЯ
@@ -2214,5 +2216,30 @@ news_event = { # Папич разъединяет Италию
 	
 	option = {
 		name = dk_news.105.a
+	}
+}
+news_event = { #Ничего_не_происходит
+    id = dk_news.106
+	title = dk_news.106.t
+	desc = dk_news.106.d
+	picture = GFX_news_event_nothing_happens
+	
+	major = yes
+	
+	trigger = {
+        date > 4.5.4
+		NOT = { has_global_flag = DR_news_event_nothing_gf }
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	immediate = {
+		set_global_flag = DR_news_event_nothing_gf 
+	}
+	
+	option = { 
+		name = dk_news.106.a
 	}
 }
