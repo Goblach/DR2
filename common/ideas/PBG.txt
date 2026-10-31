@@ -195,5 +195,13 @@ ideas = {
 		production_factory_efficiency_gain_factor = 0.03
 		    }
 	    }	
+		
+		PBG_korol_shelby = {
+			picture = generic_purge
+			modifier = {
+            stability_factor = 0.1
+			political_power_factor = 0.025 	
+		    }
+	    }
 	}
 }
