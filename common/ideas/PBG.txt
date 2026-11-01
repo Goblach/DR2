@@ -12,7 +12,7 @@ ideas = {
 	    }
 		
 		PBG_vragi_so_vseh_storon = {
-			picture = generic_purge
+			picture = RAJ_private_military_complex
 			modifier = {
 				war_support_factor = 0.1
 		    }
@@ -47,7 +47,7 @@ ideas = {
 	    }
 		
 		PBG_cigane = {
-			picture = generic_purge
+			picture = saf_ossewabrandwag
 			modifier = {
 			out_of_supply_factor = -0.1
 			equipment_capture_factor = 0.2
@@ -55,7 +55,7 @@ ideas = {
 	    }
 		
 		PBG_kontrobanda = {
-			picture = generic_purge
+			picture = RAJ_circuvment_demobilization_restrictions
 			allowed = {
 				has_war = no
 			}
@@ -64,7 +64,7 @@ ideas = {
 		    }
 	    }
 		PBG_obshiy_sbor = {
-			picture = generic_purge
+			picture = spr_the_popular_front
 			modifier = {
             conscription_factor = 0.2
 			army_morale_factor = 0.1
@@ -72,14 +72,14 @@ ideas = {
 	    }
 		
 		PBG_SVOi = {
-			picture = generic_purge
+			picture = generic_spy_coup
 			modifier = {
 			    operative_slot = 1
 		    }
 	    }
 		
 		PBG_zombi = {
-			picture = generic_purge
+			picture = idea_yug_zmaj
 			modifier = {
 			    monthly_population = -0.25
 				army_morale_factor = -0.2
@@ -105,7 +105,7 @@ ideas = {
 	    }
 		
         PBG_diplomaticheskie_kontacti = {
-			picture = generic_purge
+			picture = idea_send_attache
 			modifier = {
                 improve_relations_maintain_cost_factor = -0.15
                 opinion_gain_monthly_factor = 0.15
@@ -115,7 +115,7 @@ ideas = {
 	    }
 		
         PBG_kembridj_3000 = {
-			picture = generic_purge
+			picture = idea_PRC_china_national_nuclear_corporation
 			modifier = {
             research_speed_factor = 0.05    				
 		    }
@@ -141,7 +141,7 @@ ideas = {
 	    }
 		
 		PBG_kozirki_sans_frontiers = {
-			picture = generic_purge
+			picture = war_declaration_rule_any_country
 			modifier = {
             request_lease_tension = -0.5
 			send_volunteer_factor = 0.4
