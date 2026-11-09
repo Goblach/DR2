@@ -273,7 +273,8 @@ add_popularity = {
 
 		available = {
 			is_power_balance_in_range = { id = PBG_karma_balance range > 50 }
-			has_completed_focus = PGB_London_arhiv
+			has_completed_focus = PBG_russian_svazy
+			NOT = { country_exists = GAL }
 		}
 		days_remove = 70
 		remove_effect = {
