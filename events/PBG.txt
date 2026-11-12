@@ -967,3 +967,81 @@ country_event = {
 	}
 	
 }
+
+country_event = { 
+
+	id = PBG.22
+        title = PBG.22.t
+        desc = PBG.22.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.22.a
+
+	}
+	
+}
+
+country_event = { 
+
+	id = PBG.23
+        title = PBG.23.t
+        desc = PBG.23.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.23.a
+
+	}
+	
+}
+
+country_event = { 
+
+	id = PBG.24
+        title = PBG.24.t
+        desc = PBG.24.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.24.a
+
+	}
+	
+}
+country_event = { 
+
+	id = PBG.25
+        title = PBG.25.t
+        desc = PBG.25.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.25.a
+
+	}
+	
+}
+country_event = { 
+
+	id = PBG.26
+        title = PBG.26.t
+        desc = PBG.26.d
+	picture = GFX_report_event_ast_parliament_house
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PBG.26.a
+
+	}
+	
+}
