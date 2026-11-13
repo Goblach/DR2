@@ -396,6 +396,9 @@ ideologies = {
 			
 			cybernetics = {
 			}
+			
+			soc_dem = {
+			}
 		}
 		
 		dynamic_faction_names = {

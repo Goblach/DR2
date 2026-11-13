@@ -74,7 +74,7 @@ focus_tree = {
 			completion_reward = {
  add_ideas = PBG_social_demokrat
  add_popularity = {
-                ideology = neutrality
+                ideology = fascism
                 popularity = 0.20
             }
 }

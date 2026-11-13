@@ -334,7 +334,11 @@ country_event = {
 	
 	option = {
 		name = PBG.10.a
-set_party_name = { ideology = neutrality long_name = PBG_socdem_party_long name = PBG_socdem_party }
+set_party_name = { ideology = fascism long_name = PBG_socdem_party_long name = PBG_socdem_party }
+set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
 	}
 option = {
 		name = PBG.10.b
