@@ -297,8 +297,14 @@ add_political_power = -100
     id = PBG_karma_balance 
     value = 0.05
 }
-UKE = { UKE_Chris_Nolan = { set_nationality = PBG }}
-add_political_power = -350
+every_possible_country = {
+				limit = { has_character = UKE_Chris_Nolan }
+				random_character = {
+					limit = { is_character = UKE_Chris_Nolan }
+					set_nationality = PBG
+				}
+			}
+add_political_power = -150
 	}
 	
 }
@@ -341,7 +347,13 @@ set_politics = {
                 ideology = anarhostalinism
                 popularity = 0.15
             }
-			UBR = { UBR_Jeremy_Corbyn = { set_nationality = PBG }} 
+			every_possible_country = {
+				limit = { has_character = UBR_Jeremy_Corbyn }
+				random_character = {
+					limit = { is_character = UBR_Jeremy_Corbyn }
+					set_nationality = PBG
+				}
+			} 
 	}
 	
 }

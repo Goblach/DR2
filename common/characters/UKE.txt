@@ -24,10 +24,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = UKE_Chris_Nolan
-			allowed = {
-				original_tag = UKE
-			}			
+			idea_token = UKE_Chris_Nolan			
 			available = {
 				
 			}

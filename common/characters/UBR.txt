@@ -117,10 +117,6 @@ characters={
 				ruling_only = yes
 				character = UBR_Jeremy_Corbyn
 				}
-			allowed = {
-				original_tag = UBR
-				
-			}
 			available = {
 			    OR = { 
 				    has_government = vmestolev
