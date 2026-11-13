@@ -1050,6 +1050,11 @@ add_ideas = PBG_krysha_profsoyuzov
 		}
 		x = 11
 		y = 12
+		available = {
+			NOT = {
+							has_country_flag = PBG_love
+						}
+			}
 			completion_reward = {
 add_country_leader_trait = sigma
 }
@@ -1071,6 +1076,9 @@ add_country_leader_trait = sigma
 		}
 		x = 7
 		y = 12
+		available = {
+							has_country_flag = PBG_love
+			}
 			completion_reward = {
 
 }

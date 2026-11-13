@@ -253,6 +253,7 @@ add_popularity = {
 		
 		remove_effect = {
 		country_event = PBG.22
+		set_country_flag = PBG_love
 		}
  }
   PBG_love_kristina = {
@@ -280,6 +281,7 @@ add_popularity = {
 		
 		remove_effect = {
 		country_event = PBG.23
+		set_country_flag = PBG_love
 		}
  }
  PBG_love_makima = {
@@ -306,6 +308,7 @@ add_popularity = {
 		
 		remove_effect = {
 		country_event = PBG.24
+		set_country_flag = PBG_love
 		}
  }
  PBG_love_bochi = {
@@ -332,6 +335,7 @@ add_popularity = {
 	
 		remove_effect = {
 		country_event = PBG.25
+		set_country_flag = PBG_love
 		}
  }
  PBG_love_redtail = {
@@ -359,6 +363,7 @@ add_popularity = {
 		
 		remove_effect = {
 		country_event = PBG.26
+		set_country_flag = PBG_love
 		}
  }
  }
