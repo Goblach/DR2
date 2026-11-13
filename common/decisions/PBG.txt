@@ -250,7 +250,7 @@ add_popularity = {
 		available = {
 			is_power_balance_in_range = { id = PBG_karma_balance range > 50 }
 		}
-		days_remove = 70
+		
 		remove_effect = {
 		country_event = PBG.22
 		}
@@ -277,7 +277,7 @@ add_popularity = {
 			has_completed_focus = PBG_russian_svazy
 			NOT = { country_exists = GAL }
 		}
-		days_remove = 70
+		
 		remove_effect = {
 		country_event = PBG.23
 		}
@@ -303,7 +303,7 @@ add_popularity = {
 			is_power_balance_in_range = { id = PBG_karma_balance range < 50 }
 			has_completed_focus = PBG_i_become_death
 		}
-		days_remove = 70
+		
 		remove_effect = {
 		country_event = PBG.24
 		}
@@ -329,7 +329,7 @@ add_popularity = {
 			is_power_balance_in_range = { id = PBG_karma_balance range > 50 }
 			has_completed_focus = PBG_VEDRO_project
 		}
-		days_remove = 70
+	
 		remove_effect = {
 		country_event = PBG.25
 		}
@@ -356,7 +356,7 @@ add_popularity = {
 			has_completed_focus = PBG_Ira
 			is_ally_with = KOF
 		}
-		days_remove = 70
+		
 		remove_effect = {
 		country_event = PBG.26
 		}
