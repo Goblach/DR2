@@ -197,11 +197,47 @@ ideas = {
 	    }	
 		
 		PBG_korol_shelby = {
-			picture = generic_purge
+			picture = brittish_stoicism
 			modifier = {
             stability_factor = 0.1
-			political_power_factor = 0.025 	
+			political_power_factor = 0.025 
+            cavalry_attack_factor = 0.05
+		    cavalry_defence_factor = 0.05			
 		    }
 	    }
+		
+		PBG_love_chika = {
+			picture = idea_saf_soviet_advisers
+			modifier = {
+            stability_factor = 0.1
+			political_power_factor = 0.01 	
+		    }
+	    }
+		
+		PBG_love_kristina = {
+			picture = idea_SOV_atomic_bomb_project
+			modifier = {
+            research_speed_factor = 0.03  	
+		    }
+	    }
+		
+		PBG_love_makima = {
+			picture = idea_rom_carol_ii_hedonist
+			modifier = {
+            improve_relations_maintain_cost_factor = -0.05
+			political_power_factor = 0.03 	
+		    }
+	    }
+		
+		PBG_love_bochi = {
+			picture = idea_scraping_the_barrel
+			modifier = {
+            stability_factor = 0.05
+			political_power_factor = -0.001
+			improve_relations_maintain_cost_factor = 0.05
+			war_support_factor = 0.05
+		    }
+	    }
+		
 	}
 }

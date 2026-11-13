@@ -979,7 +979,7 @@ country_event = {
 	
 	option = {
 		name = PBG.22.a
-
+ add_ideas = PBG_love_chika
 	}
 	
 }
@@ -995,7 +995,7 @@ country_event = {
 	
 	option = {
 		name = PBG.23.a
-
+add_ideas = PBG_love_kristina
 	}
 	
 }
@@ -1011,7 +1011,7 @@ country_event = {
 	
 	option = {
 		name = PBG.24.a
-
+add_ideas = PBG_love_makima
 	}
 	
 }
@@ -1026,7 +1026,7 @@ country_event = {
 	
 	option = {
 		name = PBG.25.a
-
+add_ideas = PBG_love_bochi
 	}
 	
 }
@@ -1041,7 +1041,16 @@ country_event = {
 	
 	option = {
 		name = PBG.26.a
-
+add_political_power = -200
+		annex_country = {
+			target = KOF
+			transfer_troops = yes
+		}
+		every_state = {
+			limit = {
+				is_cored_by = KOF
+			}
+				add_state_core = PBG
+		  } 
 	}
-	
 }

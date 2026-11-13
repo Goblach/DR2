@@ -14,4 +14,40 @@ characters={
 		    id=-1
 	    }
     }
+	
+	BRS_BOBIK = {
+		name = "БОБИК"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRS/BOBIK.dds"
+			}
+		}
+		corps_commander = {
+	    traits = { trait_reckless }
+	    skill = 1
+	    attack_skill = 1
+	    defense_skill = 1
+	    planning_skill = 1
+	    logistics_skill = 1
+		legacy_id = -1
+        }
+    }
+	
+	BRS_BOBIK = {
+		name = "ТЁМНЫЙ ПЁС"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRS/DARK_DOG.dds"
+			}
+		}
+		corps_commander = {
+	    traits = { }
+	    skill = 4
+	    attack_skill = 4
+	    defense_skill = 4
+	    planning_skill = 4
+	    logistics_skill = 4
+		legacy_id = -1
+        }
+    }
 }

@@ -23,5 +23,6 @@ PBG_love_bebra = {
 	}
 	visible = {		
 	has_completed_focus = PBG_love
+	NOT = { has_completed_focus = PBG_sigma }
 	}
 }

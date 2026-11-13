@@ -252,6 +252,7 @@ add_popularity = {
 		}
 		days_remove = 70
 		remove_effect = {
+		country_event = PBG.22
 		}
  }
   PBG_love_kristina = {
@@ -278,6 +279,7 @@ add_popularity = {
 		}
 		days_remove = 70
 		remove_effect = {
+		country_event = PBG.23
 		}
  }
  PBG_love_makima = {
@@ -303,6 +305,7 @@ add_popularity = {
 		}
 		days_remove = 70
 		remove_effect = {
+		country_event = PBG.24
 		}
  }
  PBG_love_bochi = {
@@ -328,6 +331,7 @@ add_popularity = {
 		}
 		days_remove = 70
 		remove_effect = {
+		country_event = PBG.25
 		}
  }
  PBG_love_redtail = {
@@ -354,6 +358,7 @@ add_popularity = {
 		}
 		days_remove = 70
 		remove_effect = {
+		country_event = PBG.26
 		}
  }
  }

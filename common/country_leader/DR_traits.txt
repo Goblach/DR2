@@ -1691,4 +1691,16 @@ leader_traits = {
 			factor = 2
 		}
 	}
+	
+	sigma = {
+		random = no
+		sprite = 13
+		political_power_factor = 0.05
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		army_org_factor = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
 }

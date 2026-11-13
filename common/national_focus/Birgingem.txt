@@ -1051,7 +1051,7 @@ add_ideas = PBG_krysha_profsoyuzov
 		x = 11
 		y = 12
 			completion_reward = {
-
+add_country_leader_trait = sigma
 }
 
 	}
