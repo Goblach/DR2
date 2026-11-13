@@ -1,0 +1,13 @@
+PBG_army_dynamic_modifier = {
+	icon = "generic_purge"
+
+	modifier_army_sub_unit_irregular_infantry_attack_factor = PBG_modifier_army_sub_unit_irregular_infantry_attack_factor
+	modifier_army_sub_unit_irregular_infantry_defence_factor = PBG_modifier_army_sub_unit_irregular_infantry_defence_factor
+	equipment_capture_factor = PBG_equipment_capture_factor
+	out_of_supply_factor = PBG_out_of_supply_factor
+	mobilization_speed = PBG_mobilization_speed
+	conscription_factor = PBG_conscription_factor
+	army_morale_factor = PBG_army_morale_factor
+	training_time_army_factor = PBG_training_time_army_factor
+	weekly_manpower = PBG_weekly_manpower
+}
