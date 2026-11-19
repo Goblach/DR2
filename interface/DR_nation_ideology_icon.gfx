@@ -176,4 +176,8 @@ spriteTypes = {
 		name = "GFX_ideology_metacommy_intersec"
 		texturefile = "gfx/interface/ideologies/party/metacommy_intersec.dds"
 	}
+	SpriteType = {
+		name = "GFX_ideology_soc_dem"
+		texturefile = "gfx/interface/ideologies/party/soc_dem.dds"
+	}
 }

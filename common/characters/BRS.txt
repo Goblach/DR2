@@ -33,7 +33,7 @@ characters={
         }
     }
 	
-	BRS_BOBIK = {
+	BRS_DARK_DOG = {
 		name = "ТЁМНЫЙ ПЁС"
 		portraits = {
 			civilian = {

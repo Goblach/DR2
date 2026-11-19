@@ -11,6 +11,8 @@ set_technology = {
 }
 
 recruit_character = BRS_Livsi
+recruit_character = BRS_BOBIK
+recruit_character = BRS_DARK_DOG
 
 add_ideas = {
 	limited_conscription
