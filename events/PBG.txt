@@ -338,7 +338,7 @@ country_event = {
 	id = PBG.8
         title = PBG.8.t
         desc = PBG.8.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_tolkoderzhis
 
 	is_triggered_only = yes
 	
@@ -682,7 +682,7 @@ country_event = {
 	id = PBG.18
         title = PBG.18.t
         desc = PBG.18.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_tolkoderzhis
 
 	is_triggered_only = yes
 	
@@ -1021,7 +1021,7 @@ country_event = {
 	id = PBG.20
         title = PBG.20.t
         desc = PBG.20.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_tolkoderzhis
 
 	is_triggered_only = yes
 	
