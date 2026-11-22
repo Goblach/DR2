@@ -69,10 +69,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = PBG_leiborism_po_ponyatiem
 		}
+		available = {
+							has_country_flag = PBG_socdem
+			}
 		x = 11
 		y = 8
 			completion_reward = {
- add_ideas = PBG_social_demokrat
+ add_ideas = PBG_socdem_1
  add_popularity = {
                 ideology = fascism
                 popularity = 0.20
@@ -90,10 +93,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = PBG_social_demokrat
 		}
+		available = {
+							has_country_flag = PBG_labor
+			}
 		x = 7
 		y = 8
 			completion_reward = {
-		add_ideas = PBG_leiborism_po_ponyatiem
+		add_ideas = PBG_leiborism_1
 add_popularity = {
                 ideology = anarhostalinism
                 popularity = 0.20
@@ -169,7 +175,10 @@ add_political_power = -100
                 ideology = anarhostalinism
                 popularity = 0.1
             }
-			add_ideas = PBG_robin_good
+			swap_ideas = {
+							remove_idea = PBG_leiborism_1
+							add_idea = PBG_leiborism_2
+						}
 				}
 
 	}
@@ -286,11 +295,11 @@ add_popularity = {
 				DYNMOD = PBG_army_dynamic_modifier
 			}
 			add_to_variable = {
-				PBG_modifier_army_sub_unit_irregular_infantry_attack_factor = 0.05
+				PBG_modifier_army_sub_unit_irregular_infantry_attack_factor = 0.1
 				tooltip = PBG_modifier_army_sub_unit_irregular_infantry_attack_factor_tt
 			}
 			add_to_variable = {
-				PBG_modifier_army_sub_unit_irregular_infantry_defence_factor = 0.05
+				PBG_modifier_army_sub_unit_irregular_infantry_defence_factor = 0.1
 				tooltip = PBG_modifier_army_sub_unit_irregular_infantry_defence_factor_tt
 			}
 					add_power_balance_value = {
@@ -347,7 +356,18 @@ add_popularity = {
 		x = 10
 		y = 2
 			completion_reward = {
-					add_ideas = PBG_cigane
+					custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = PBG_army_dynamic_modifier
+			}
+			add_to_variable = {
+				PBG_out_of_supply_factor = -0.1
+				tooltip = PBG_out_of_supply_factor_tt
+			}
+			add_to_variable = {
+				PBG_equipment_capture_factor = 0.2
+				tooltip = PBG_equipment_capture_factor_tt
+			}
 					add_equipment_to_stockpile = {
 							type = infantry_equipment_0
 							amount = 2000
@@ -631,9 +651,20 @@ country_event = {
 		}
 		x = 6
 		y = 6
-completion_reward = {
-add_ideas = PBG_obshiy_sbor
- }
+		completion_reward = {
+					custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = PBG_army_dynamic_modifier
+			}
+			add_to_variable = {
+				PBG_mobilization_speed = 0.5
+				tooltip = PBG_mobilization_speed_tt
+			}
+			add_to_variable = {
+				PBG_conscription_factor = 0.1
+				tooltip = PBG_conscription_factor_tt
+			}
+			}
 	}
 	focus = {
 		id = PBG_stalker_birmingem
@@ -667,7 +698,10 @@ army_experience = 50
 navy_experience = 25
 air_experience = 25
 war_support_factor = 0.1
-add_ideas = PBG_ostrye_kraya_molnii
+swap_ideas = {
+							remove_idea = PBG_socdem_1
+							add_idea = PBG_socdem_2
+						}
 }
 
 	}
@@ -682,7 +716,10 @@ add_ideas = PBG_ostrye_kraya_molnii
 		y = 10
 			completion_reward = {
 add_political_power = -100
-add_ideas = PBG_dogovor_burzhui
+swap_ideas = {
+							remove_idea = PBG_socdem_2
+							add_idea = PBG_socdem_3
+						}
 random_owned_controlled_state = {					
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -774,7 +811,10 @@ add_equipment_to_stockpile = {
 		y = 11
 			completion_reward = {
            add_stability = 0.1
-		   add_ideas = PBG_direct_rule_from_Birgingem
+		   swap_ideas = {
+							remove_idea = PBG_socdem_3
+							add_idea = PBG_socdem_4
+						}
 }
 
 	}
@@ -944,7 +984,10 @@ add_breakthrough_progress = {
 		x = 7
 		y = 10
 			completion_reward = {
-         add_ideas = PBG_pensii
+         swap_ideas = {
+							remove_idea = PBG_leiborism_2
+							add_idea = PBG_leiborism_3
+						}
 }
 
 	}
@@ -961,7 +1004,10 @@ add_breakthrough_progress = {
 		x = 6
 		y = 11
 			completion_reward = {
- add_ideas = PBG_grecha_babushkam
+			swap_ideas = {
+							remove_idea = PBG_leiborism_3
+							add_idea = PBG_leiborism_4
+						}
  add_popularity = {
                 ideology = anarhostalinism
                 popularity = 0.20
@@ -992,6 +1038,7 @@ add_breakthrough_progress = {
 						}
 					add_stability = 0.1
 					remove_ideas = PBG_criminal_volnica
+					remove_ideas = PBG_vragi_so_vseh_storon
 					country_event = {
 							id = PBG.10
 						}

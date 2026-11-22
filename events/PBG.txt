@@ -88,6 +88,13 @@ division_template = {
 					set_variable = {
 							PBG_weekly_manpower = 200
 						}
+				custom_effect_tooltip = {
+						localization_key = tooltip_modify_dynmod
+						DYNMOD = PBG_army_dynamic_modifier
+					}
+					add_to_variable = {
+						tooltip = PBG_weekly_manpower_tt
+					}
 	}
 	option = {
 		name = PBG.2.b
@@ -150,7 +157,14 @@ division_template = {
 						}
 					set_variable = {
 							PBG_weekly_manpower = 0.0
-						}	
+						}
+			custom_effect_tooltip = {
+				localization_key = tooltip_modify_dynmod
+				DYNMOD = PBG_army_dynamic_modifier
+			}
+			add_to_variable = {
+				tooltip = PBG_army_morale_factor_tt
+			}						
 	}
 	
 }
@@ -403,6 +417,7 @@ set_politics = {
                 ideology = fascism
                 popularity = 0.15
             }
+			hidden_effect = { set_country_flag = socdem }
 	}
 option = {
 		name = PBG.10.b
@@ -422,6 +437,7 @@ set_politics = {
 					set_nationality = PBG
 				}
 			} 
+			hidden_effect = { set_country_flag = labor }
 	}
 	
 }

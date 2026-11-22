@@ -10,12 +10,11 @@ state = {
 		victory_points = { #Trento
 			9598 1
 		}
-		owner = AUS
+		owner = VNR
 		buildings = {
 			infrastructure = 2 #was 3 before split
 		}
 		add_core_of = VNR
-		add_core_of = AUS
 	}
 
 	provinces = {

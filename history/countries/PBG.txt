@@ -1,6 +1,6 @@
 ﻿capital = 128
 
-oob = 123_1936
+oob = PBG_1936
 
 set_research_slots = 3
 set_stability = 0.5
@@ -18,7 +18,6 @@ set_technology = {
 	basic_train = 1
 	
 	irregular_infantry_tech = 1
-	ETH_improved_irregular_infantry_tech = 1
 }
 
 recruit_character = PBG_Thomas_Shelby
