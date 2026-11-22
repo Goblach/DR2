@@ -393,6 +393,36 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_dkr_IRQ_kuwait.dds"
 	}
 	
+	spriteType = { 
+		name = "GFX_report_event_dkr_tolkoderzhis"
+		texturefile = "gfx/event_pictures/report_event_dkr_tolkoderzhis.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_report_event_dkr_tolkoderzhis"
+		texturefile = "gfx/event_pictures/report_event_dkr_tolkoderzhis.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_report_event_dkr_shelby_miting"
+		texturefile = "gfx/event_pictures/report_event_dkr_shelby_miting.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_report_event_dkr_shelby_gun"
+		texturefile = "gfx/event_pictures/report_event_dkr_shelby_gun.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_report_event_dkr_shelby_zombi"
+		texturefile = "gfx/event_pictures/report_event_dkr_shelby_zombi.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_report_event_dkr_shelby_oper"
+		texturefile = "gfx/event_pictures/report_event_dkr_shelby_oper.dds"
+	}
+	
 	###НОВОСТНЫЕ
 	
 	spriteType = {

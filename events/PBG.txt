@@ -5,7 +5,7 @@ country_event = {
 	id = PBG.1
         title = PBG.1.t
         desc = PBG.1.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -19,7 +19,7 @@ country_event = {
 	id = PBG.2
         title = PBG.2.t
         desc = PBG.2.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_miting
 
 	is_triggered_only = yes
 	
@@ -159,7 +159,7 @@ country_event = {
 	id = PBG.3
         title = PBG.3.t
         desc = PBG.3.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -173,7 +173,7 @@ country_event = {
 	id = PBG.4
         title = PBG.4.t
         desc = PBG.4.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_gun
 
 	is_triggered_only = yes
 	
@@ -198,7 +198,7 @@ country_event = {
 	id = PBG.5
         title = PBG.5.t
         desc = PBG.5.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_gun
 
 	is_triggered_only = yes
 	
@@ -275,7 +275,7 @@ country_event = {
 	id = PBG.6
         title = PBG.6.t
         desc = PBG.6.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_gun
 
 	is_triggered_only = yes
 	
@@ -312,7 +312,7 @@ country_event = {
 	id = PBG.7
         title = PBG.7.t
         desc = PBG.7.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -373,7 +373,7 @@ country_event = {
 	id = PBG.9
         title = PBG.9.t
         desc = PBG.9.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_zombi
 
 	is_triggered_only = yes
 	
@@ -388,7 +388,7 @@ country_event = {
 	id = PBG.10
         title = PBG.10.t
         desc = PBG.10.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_miting
 
 	is_triggered_only = yes
 	
@@ -430,7 +430,7 @@ country_event = {
 	id = PBG.11
         title = PBG.11.t
         desc = PBG.11.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -491,7 +491,7 @@ country_event = {
 	id = PBG.12
         title = PBG.12.t
         desc = PBG.12.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -550,7 +550,7 @@ country_event = {
 	id = PBG.13
         title = PBG.13.t
         desc = PBG.13.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -609,7 +609,7 @@ country_event = {
 	id = PBG.14
         title = PBG.14.t
         desc = PBG.14.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -628,7 +628,7 @@ country_event = {
 	id = PBG.15
         title = PBG.15.t
         desc = PBG.15.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -648,7 +648,7 @@ country_event = {
 	id = PBG.16
         title = PBG.16.t
         desc = PBG.16.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -666,7 +666,7 @@ country_event = {
 	id = PBG.17
         title = PBG.17.t
         desc = PBG.17.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -696,7 +696,7 @@ country_event = {
 	id = PBG.19
         title = PBG.19.t
         desc = PBG.19.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_tolkoderzhis
 
 	is_triggered_only = yes
 	
@@ -1037,7 +1037,7 @@ country_event = {
 	id = PBG.21
         title = PBG.21.t
         desc = PBG.21.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_miting
 
 	is_triggered_only = yes
 	
@@ -1053,7 +1053,7 @@ country_event = {
 	id = PBG.22
         title = PBG.22.t
         desc = PBG.22.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -1069,7 +1069,7 @@ country_event = {
 	id = PBG.23
         title = PBG.23.t
         desc = PBG.23.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -1085,7 +1085,7 @@ country_event = {
 	id = PBG.24
         title = PBG.24.t
         desc = PBG.24.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -1100,7 +1100,7 @@ country_event = {
 	id = PBG.25
         title = PBG.25.t
         desc = PBG.25.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
@@ -1115,7 +1115,7 @@ country_event = {
 	id = PBG.26
         title = PBG.26.t
         desc = PBG.26.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_dkr_shelby_oper
 
 	is_triggered_only = yes
 	
