@@ -1,0 +1,11 @@
+faction_template_Kozirki_alliance = {
+	name = Kozirki_alliance
+	icon = GFX_faction_logo_generic_15
+	manifest = faction_manifest_strength_in_unity
+
+	default_rules = {
+		manpower_contribution_high
+		change_leader_rule_never
+		joining_rule_neighbors_only
+	}
+}
