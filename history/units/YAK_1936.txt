@@ -1,5 +1,5 @@
 ﻿division_template = {
-name = "Дивизия боевых шаманов"
+name = "Шаманы"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -12,36 +12,82 @@ name = "Дивизия боевых шаманов"
 	priority = 1
 }
 
+division_template = {
+	name = "Ополчение фанатиков"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Батыры на конях"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
 units = {
 	division = {
-		name = "1-я дивизия шаманов"
+		name = "1-я шаманская"
 		location = 10641
-		division_template = "Дивизия боевых шаманов"
-		start_experience_factor = 0.3
+		division_template = "Шаманы"
+		start_experience_factor = 0.5
 	}
 	division = {
-		name = "2-я дивизия шаманов"
+		name = "2-я шаманская"
 		location = 7844
-		division_template = "Дивизия боевых шаманов"
-		start_experience_factor = 0.3
+		division_template = "Шаманы"
+		start_experience_factor = 0.5
 	}
 	division = {
-		name = "3-я дивизия шаманов"
+		name = "1-ое ополчение фанатиков"
 		location = 12634
-		division_template = "Дивизия боевых шаманов"
+		division_template = "Ополчение фанатиков"
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "4-я дивизия шаманов"
+		name = "2-ое ополчение фанатиков"
 		location = 6085
-		division_template = "Дивизия боевых шаманов"
+		division_template = "Ополчение фанатиков"
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "5-я дивизия шаманов"
+		name = "3-е ополчение фанатиков"
 		location = 12549
-		division_template = "Дивизия боевых шаманов"
+		division_template = "Ополчение фанатиков"
 		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4-ое ополчение фанатиков"
+		location = 12549
+		division_template = "Ополчение фанатиков"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "1-ая батырская"
+		location = 12549
+		division_template = "Батыры на конях"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "2-ая батырская"
+		location = 12549
+		division_template = "Батыры на конях"
+		start_experience_factor = 0.5
 	}
 }
 

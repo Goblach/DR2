@@ -1,0 +1,89 @@
+characters={
+	YAK_Gabishev = {
+		name = "Александр Габышев"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/YAK/Shaman.dds"
+			}
+		}
+
+        country_leader = {
+	        expire = "1999.1.1"
+	        ideology = religious_fascism
+	        traits = {
+		        pretindent_na_DV
+	        }
+		}
+
+        field_marshal = {
+        	traits = {  }
+         	skill = 2
+          	attack_skill = 2
+          	defense_skill = 2
+          	planning_skill = 2
+        	logistics_skill = 2
+        }       		
+	}
+
+	YAK_Savey = {
+		name = "Савей"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/YAK/Savey.dds"
+			}
+		}
+		
+		corps_commander = {
+        	traits = {  }
+         	skill = 1
+          	attack_skill = 1
+          	defense_skill = 1
+          	planning_skill = 1
+        	logistics_skill = 1
+        }
+	}
+	
+	YAK_Kulan = {
+		name = "Кулан Хаан"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/YAK/Kulan.dds"
+			}
+		}
+		
+		corps_commander = {
+        	traits = {  }
+         	skill = 1
+          	attack_skill = 1
+          	defense_skill = 1
+          	planning_skill = 1
+        	logistics_skill = 1
+        }
+	}
+	
+	YAK_Nyrgyyna = {
+		name = "Ньургууна"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/YAK/Nyrgyyna.dds"
+			}
+		}
+		
+		corps_commander = {
+        	traits = {  }
+         	skill = 1
+          	attack_skill = 1
+          	defense_skill = 1
+          	planning_skill = 1
+        	logistics_skill = 1
+        }
+	}
+}

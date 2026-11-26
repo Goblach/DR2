@@ -26,6 +26,11 @@ set_technology = {
 	basic_torpedo = 1
 }
 
+recruit_character = YAK_Gabishev
+recruit_character = YAK_Savey
+recruit_character = YAK_Kulan
+recruit_character = YAK_Nyrgyyna
+
 add_ideas = {
 service_by_requirement 
 low_economic_mobilisation
@@ -51,13 +56,4 @@ set_politics = {
 	elections_allowed = no	
 }
 
-set_convoys = 40
-
-create_country_leader = {
-	name = "Александр Габышев"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Shaman.dds"
-	expire = "1999.1.1"
-	ideology = religious_fascism
-	traits = { pretindent_na_DV }
-}
+set_convoys = 200
