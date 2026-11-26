@@ -984,7 +984,7 @@ ideas = {
 			research_bonus = {
 			}
 			modifier = {
-			    consumer_goods_factor = -0.07
+			    consumer_goods_factor = -0.1
 				min_export = 0.15
                 research_speed_factor = 0.075 
 				production_factory_efficiency_gain_factor = 0.05             
@@ -1077,9 +1077,10 @@ ideas = {
 			
 			modifier = {
 				encryption_factor = -0.1
-				monthly_population = -0.02
+				monthly_population = -0.05
 				production_speed_rocket_site_factor = -0.1 
-				production_speed_nuclear_reactor_factor = -0.1 
+				production_speed_nuclear_reactor_factor = -0.1
+				special_project_speed_factor = 0.1				
 			}
 		}
 		POK_platit_nazmenam = {
@@ -1446,8 +1447,8 @@ ideas = {
 			picture = POK_kachat_uglevodorodi_zarubezh
 			
 			modifier = {
-			    min_export = 0.075
-                consumer_goods_factor = -0.015       				
+			    min_export = 0.05
+                local_resources_factor = 0.1       				
 			}
 		}
 		POK_ChP_v_stolitse = {
