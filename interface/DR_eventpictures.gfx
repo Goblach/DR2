@@ -423,6 +423,26 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_dkr_shelby_oper.dds"
 	}
 	
+	spriteType = { 
+		name = "GFX_report_event_dkr_shelby_makima"
+		texturefile = "gfx/event_pictures/report_event_dkr_shelby_makima.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_report_event_dkr_shelby_chika"
+		texturefile = "gfx/event_pictures/report_event_dkr_shelby_chika.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_report_event_dkr_shelby_kurisu"
+		texturefile = "gfx/event_pictures/report_event_dkr_shelby_kurisu.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_report_event_dkr_shelby_bochi"
+		texturefile = "gfx/event_pictures/report_event_dkr_shelby_bochi.dds"
+	}
+	
 	###НОВОСТНЫЕ
 	
 	spriteType = {
