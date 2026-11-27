@@ -25,16 +25,16 @@ characters={
 		}
 
 		corps_commander = {
-			traits = { camouflage_expert ranger }
+			traits = { camouflage_expert }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 3
-			logistics_skill = 3
+			logistics_skill = 2
 			legacy_id = 0
 		}
 		advisor = {
-			cost = 150
+			cost = 100
 			slot = high_command
 			idea_token = ETR_Andrboll
 			allowed = {
@@ -44,7 +44,7 @@ characters={
 				
 			}
 			traits = {
-				army_concealment_3
+				army_concealment_2
 			}
 			ai_will_do = {
 				base = 1
@@ -61,12 +61,12 @@ characters={
 		}
 
 		corps_commander = {
-			traits = { hill_fighter ranger }
+			traits = { hill_fighter career_officer expert_improviser }
 			skill = 1
-			attack_skill = 2
+			attack_skill = 1
 			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
 			legacy_id = 0
 		}
 	}
@@ -140,26 +140,43 @@ characters={
 			traits = { harsh_leader cavalry_officer trait_reckless inspirational_leader }
 			skill = 3
 			attack_skill = 4
-			defense_skill = 1
+			defense_skill = 2
 			planning_skill = 3
-			logistics_skill = 2
+			logistics_skill = 4
 			visible = { has_completed_focus = ETR_monarhoslavanisti  }
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = ETR_roman_ungern_sternberg
+			allowed = {
+				
+			}
+			available = {
+				
+			}
+			traits = {
+				army_cavalry_3
+			}
+			ai_will_do = {
+				base = 1
+			}
 		}
 	}
 	ETR_alexandr_hinevich = {
 		name = "Александр Хиневич"
 		portraits = {
 			army = {
-				large = "gfx/leaders/ASI/Hinevich.dds"
-				small = "GFX_idea_mikhail_tukhachevsky"
+				large = "gfx/leaders/ETR/Hinevich.dds"
+				small = "GFX_idea_ETR_alexandr_hinevich"
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
+			traits = { infantry_officer old_guard ranger }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
 			logistics_skill = 3
 			visible = { has_completed_focus = ETR_hristoyazichniki  }
 		}
@@ -168,18 +185,78 @@ characters={
 		name = "Доброслав"
 		portraits = {
 			army = {
-				large = ""
-				small = "GFX_idea_mikhail_tukhachevsky"
+				large = "gfx/leaders/ETR/dolboslav.dds"
+				small = "GFX_idea_ETR_dolboslav"
 			}
 		}
 		corps_commander = {
-			traits = { old_guard media_personality jaeger inspirational_leader }
+			traits = { infantry_officer old_guard ranger }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 2
+			planning_skill = 3
 			logistics_skill = 4
 			visible = { has_completed_focus = ETR_veduni_sibiri  }
+		}
+	}
+	ETR_Feofan = {
+		name = "Нейромонах Феофан"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ETR/Feofan.dds"
+				small = "GFX_idea_ETR_Feofan"
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			cost = 50
+			slot = high_command
+			idea_token = ETR_Feofan
+			allowed = {
+				
+			}
+			available = {
+				
+			}
+			traits = {
+				army_regrouping_1
+			}
+			ai_will_do = {
+				base = 1
+			}
+		}
+	}
+	ETR_Prof_Bagirov = {
+		name = "Алексей Багиров"
+		portraits = {
+			civilian  = {
+				large = "gfx/leaders/ETR/Prof_Bagirov.dds"
+				small = "GFX_idea_ETR_Prof_Bagirov"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = ETR_Prof_Bagirov
+			allowed = {
+				
+			}
+			available = {
+				
+			}
+			traits = {
+				truth_defender
+			}
+			ai_will_do = {
+				base = 1
+			}
 		}
 	}
 }

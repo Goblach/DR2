@@ -1,0 +1,16 @@
+characters={
+	GOM_Jensen_Huang = {
+		name = "Дженсен Хуанг"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GOM/Jensen_Huang.dds"
+			}
+		}
+		country_leader = {
+			traits = { technocrat hedonist_huang }
+		    ideology = conservatism
+	        expire = "1999.1.1"
+		    id=-1
+	    }
+    }
+}

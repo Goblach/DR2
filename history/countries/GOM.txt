@@ -10,6 +10,8 @@ set_technology = {
 	basic_train = 1
 }
 
+recruit_character = GOM_Jensen_Huang
+
 add_ideas = {
 	ZCH_vroraya_warlord_era
 }
@@ -24,13 +26,13 @@ set_politics = {
 
 set_convoys = 200
 
-create_country_leader = {
-	name = "Лай Пиньюй"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Penyuy.dds"
-	expire = "1999.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
+# create_country_leader = {
+# 	name = "Лай Пиньюй"
+#	desc = "POLITICS_THORVALD_STAUNING_DESC"
+#	picture = "Penyuy.dds"
+#	expire = "1999.1.1"
+#	ideology = liberalism
+#	traits = {
+#		#
+#	}
+# }

@@ -27,6 +27,8 @@ recruit_character = ETR_mikhail_tukhachevsky
 recruit_character = ETR_roman_ungern_sternberg
 recruit_character = ETR_alexandr_hinevich
 recruit_character = ETR_dolboslav
+recruit_character = ETR_Feofan
+recruit_character = ETR_Prof_Bagirov 
 
 add_ideas = {
 limited_conscription
