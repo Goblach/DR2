@@ -37,3 +37,17 @@ set_politics = {
 }
 
 set_convoys = 200
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Андрей Непоздняков"
+		portrait_path = "gfx/leaders/MHL/Nepozdnyakov.dds""
+		traits = { operative_infiltrator operative_demolition_expert operative_double_agent }
+		bypass_recruitment = yes
+		available_to_spy_master = yes
+		nationalities = { MHL UKR ZHE SIN POK }
+	}
+}

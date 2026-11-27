@@ -19,6 +19,16 @@ intelligence_agency = {
 	default = { tag = MRD }
 	available = { original_tag = MRD }
 }
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_sov
+	names = { "КОНТОРА" }
+	
+	default = { tag = MHL }
+	available = { original_tag = MHL }
+}
+
 intelligence_agency = {
 	
 	picture = GFX_intelligence_agency_logo_anonimus
