@@ -1069,7 +1069,7 @@ country_event = {
 	id = PBG.22
         title = PBG.22.t
         desc = PBG.22.d
-	picture = GFX_report_event_dkr_shelby_oper
+	picture = GFX_report_event_dkr_shelby_chika
 
 	is_triggered_only = yes
 	
@@ -1085,7 +1085,7 @@ country_event = {
 	id = PBG.23
         title = PBG.23.t
         desc = PBG.23.d
-	picture = GFX_report_event_dkr_shelby_oper
+	picture = GFX_report_event_dkr_shelby_kurisu
 
 	is_triggered_only = yes
 	
@@ -1101,7 +1101,7 @@ country_event = {
 	id = PBG.24
         title = PBG.24.t
         desc = PBG.24.d
-	picture = GFX_report_event_dkr_shelby_oper
+	picture = GFX_report_event_dkr_shelby_makima
 
 	is_triggered_only = yes
 	
@@ -1116,7 +1116,7 @@ country_event = {
 	id = PBG.25
         title = PBG.25.t
         desc = PBG.25.d
-	picture = GFX_report_event_dkr_shelby_oper
+	picture = GFX_report_event_dkr_shelby_bochi
 
 	is_triggered_only = yes
 	
