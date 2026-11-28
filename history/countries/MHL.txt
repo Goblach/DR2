@@ -44,7 +44,7 @@ if = {
 	}
 	create_operative_leader = {
 		name = "Андрей Nепоздняков"
-		portrait_path = "GFX_portrait_Nepozdnyakov"
+		GFX = "GFX_portrait_Nepozdnyakov"
 		traits = { operative_infiltrator operative_demolition_expert }
 		bypass_recruitment = yes
 		available_to_spy_master = yes
