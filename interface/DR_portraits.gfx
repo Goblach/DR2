@@ -1,0 +1,6 @@
+spriteTypes = {
+SpriteType = {
+		name = "GFX_portrait_Nepozdnyakov"
+		texturefile = "gfx/leaders/MHL/Nepozdnyakov.dds"
+	}
+	}
