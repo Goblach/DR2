@@ -14,7 +14,7 @@ set_technology = {
 recruit_character = MHL_Mihalkov
 recruit_character = MHL_Zhmil
 
-recruit_character = MHL_Nevskiy
+# recruit_character = MHL_Nevskiy
 recruit_character = MHL_Petrov
 recruit_character = MHL_Kozlovskiy
 
